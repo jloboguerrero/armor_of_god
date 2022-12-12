@@ -1,44 +1,69 @@
+import 'package:armor_of_god/app/data/countries.dart';
 import 'package:armor_of_god/models/country.dart';
 import 'package:armor_of_god/models/item.dart';
 import 'package:armor_of_god/app/onboarding/bloc/bloc.dart' as bloc;
 import 'package:armor_of_god/widgets/button.dart';
+import 'package:armor_of_god/widgets/first_modal.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:mobile_client_animations/mobile_client_animations.dart';
 
 class Page extends StatelessWidget {
   const Page({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    const spanish = Country(
-      code: 'sp',
-      name: 'Español',
-      logo: 'assets/flags/co.png',
-    );
+    final countries = Countries().all;
     return BlocProvider(
-      create: (context) => bloc.Bloc(spanish),
-      child: Scaffold(
-        appBar: AppBar(
-          title: const Text(''),
-          backgroundColor: Colors.white,
-          actions: [
-            _Country(),
-            const SizedBox(width: 20.0),
+      create: (context) => bloc.Bloc(
+        country: countries.first,
+        countries: countries,
+      ),
+      child: const _Body(),
+    );
+  }
+}
+
+class _Body extends StatelessWidget {
+  const _Body({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        actions: const [
+          _Country(),
+          SizedBox(width: 20.0),
+        ],
+        backgroundColor: Colors.white,
+        elevation: 0,
+        title: const Text(''),
+      ),
+      backgroundColor: Colors.white,
+      body: SingleChildScrollView(
+        physics: const NeverScrollableScrollPhysics(),
+        child: Column(
+          children: const [
+            _PageView(),
+            _Dots(length: 3),
           ],
         ),
-        backgroundColor: Colors.white,
-        body: SingleChildScrollView(
-          physics: const NeverScrollableScrollPhysics(),
-          child: Column(
-            children: const [
-              _PageView(),
-              _Dots(length: 3),
-            ],
-          ),
-        ),
-        bottomNavigationBar: const _Button(),
       ),
+      floatingActionButton: Container(
+        alignment: Alignment.topCenter,
+        width: double.infinity,
+        height: 130,
+        child: Button(
+          label: 'Start',
+          onTap: () {
+            print('object');
+          },
+        ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
@@ -59,9 +84,9 @@ class _Country extends StatelessWidget {
             width: 20.0,
           ),
           const SizedBox(width: 5.0),
-          const Text(
-            'test', //country.name ?? '',
-            style: TextStyle(
+          Text(
+            context.read<bloc.Bloc>().state.model.country.name ?? '',
+            style: const TextStyle(
               fontFamily: 'Inter',
               color: Colors.black,
               fontSize: 12.0,
@@ -73,19 +98,21 @@ class _Country extends StatelessWidget {
           const SizedBox(width: 7.0),
           const Icon(
             Icons.keyboard_arrow_down,
-            color: Colors.blue,
+            color: Colors.green,
           ),
         ],
       ),
       onTap: () {
         print('hello');
-        // TulModal.show(
-        //   context: context,
-        //   child: BlocProvider.value(
-        //     value: context.read<bloc.Bloc>(),
-        //     child: const _SelectCountry(),
-        //   ),
-        // );
+        FirstModal.show(
+          context: context,
+          // child: BlocProvider.value(
+          //   value: context.read<bloc.Bloc>(),
+          //   child: const _SelectCountry(),
+          // ),
+          child: const _SelectCountry(),
+        );
+        print('hello2');
       },
     );
   }
@@ -240,55 +267,140 @@ class _Dot extends StatelessWidget {
   }
 }
 
-class _Button extends StatelessWidget {
-  const _Button({
+class _SelectCountry extends StatelessWidget {
+  const _SelectCountry({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    // final app = Modular.get<AppConfig>();
+
+    return SizedBox(
+      height: MediaQuery.of(context).size.height * 0.41,
+      child: ListView.builder(
+        physics: const NeverScrollableScrollPhysics(),
+        itemCount: 3,
+        itemBuilder: (context2, index) {
+          // final country = context.read<bloc.Bloc>().state.model.countries[index]; //TODO RESOLVER
+          final country = Countries().all[index];
+          final animationDuration = 800 + int.parse('${index}00');
+
+          if (index == 0) {
+            return Stack(
+              children: [
+                Positioned(
+                  child: Align(
+                    alignment: Alignment.centerRight,
+                    child: IconButton(
+                      iconSize: 20,
+                      color: Colors.grey,
+                      onPressed: () {
+                        Navigator.pop(context);
+                      },
+                      icon: const Icon(
+                        Icons.close,
+                      ),
+                    ),
+                  ),
+                ),
+                Column(
+                  children: [
+                    const SizedBox(height: 10.0),
+                    ZoomIn(
+                      child: Container(
+                        width: 86.0,
+                        height: 5.0,
+                        decoration: const BoxDecoration(
+                          color: Colors.black,
+                          borderRadius: BorderRadius.all(Radius.circular(15.0)),
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 12.0),
+                    ZoomIn(
+                      child: const Text(
+                        'Seleccione su idioma',
+                        style: TextStyle(
+                          fontFamily: 'Inter',
+                          color: Colors.black54,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w700,
+                          fontStyle: FontStyle.normal,
+                          letterSpacing: -0.64,
+                        ),
+                      ),
+                    ),
+                    const SizedBox(height: 15.0),
+                    _CountryItem(
+                      country: country,
+                      animationDuration: animationDuration,
+                    ),
+                  ],
+                ),
+              ],
+            );
+          }
+          return _CountryItem(
+            country: country,
+            animationDuration: animationDuration,
+          );
+        },
+      ),
+    );
+  }
+}
+
+class _CountryItem extends StatelessWidget {
+  final Country country;
+  final int animationDuration;
+
+  const _CountryItem({
     Key? key,
+    required this.country,
+    required this.animationDuration,
   }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    return Stack(
-      alignment: Alignment.bottomCenter,
-      children: [
-        Container(
-          decoration: const BoxDecoration(
-            borderRadius: BorderRadius.only(
-              topRight: Radius.circular(
-                25.0,
+    return FadeInLeft(
+      duration: Duration(milliseconds: animationDuration),
+      child: InkWell(
+        child: Padding(
+          padding: const EdgeInsets.all(6.0).copyWith(left: 20.0),
+          child: Row(
+            children: [
+              Image.asset(
+                country.logo!,
+                height: 60.0,
+                width: 60.0,
               ),
-              topLeft: Radius.circular(
-                25.0,
-              ),
-            ),
-            boxShadow: [
-              BoxShadow(
-                color: Colors.grey,
-                offset: Offset(0.0, 1.0),
-                blurRadius: 6.0,
+              const SizedBox(width: 11.0),
+              Text(
+                country.name!,
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w600,
+                  fontStyle: FontStyle.normal,
+                ),
               ),
             ],
-            color: Colors.white,
-          ),
-          height: 110,
-        ),
-        Positioned(
-          bottom: 30.0,
-          child: Button(
-            label: 'Empezar',
-            onTap: () {
-              print('object');
-              // TulAnalytics.send('login');
-              // Modular.to.pushNamed(
-              //   '/auth/login',
-              //   arguments: {
-              //     'app_type': 'b2b',
-              //     'register': false,
-              //   },
-              // );
-            },
           ),
         ),
-      ],
+        onTap: () async {
+          // await S.load(
+          //   Locale(
+          //     country.locale!.languageCode!,
+          //     country.locale!.countryCode,
+          //   ),
+          // );
+          // context.read<bloc.Bloc>().add( //TODO resolver
+          //       bloc.ChangeCountryEvent(country),
+          //     );
+          // final app = Modular.get<AppConfig>();
+          // app.country = country;
+          Navigator.pop(context);
+        },
+      ),
     );
   }
 }

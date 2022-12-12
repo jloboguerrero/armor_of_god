@@ -2,21 +2,21 @@ import 'package:flutter/material.dart';
 
 class Button extends StatelessWidget {
   final String label;
-  final double alto;
-  final double ancho;
-  final Color colorFondo;
-  final Color colorLetras;
-  final double tamanoLetras;
+  final double height;
+  final double width;
+  final Color colorBackground;
+  final Color colorLetter;
+  final double sizeLetter;
   final void Function() onTap;
 
   const Button({
-    key,
+    Key? key,
     required this.label,
-    this.alto = 50.0,
-    this.ancho = 250.0,
-    this.colorFondo = Colors.white,
-    this.colorLetras = Colors.purple,
-    this.tamanoLetras = 28,
+    this.height = 50.0,
+    this.width = 250.0,
+    this.colorBackground = Colors.white,
+    this.colorLetter = Colors.green,
+    this.sizeLetter = 28,
     required this.onTap,
   });
 
@@ -25,11 +25,11 @@ class Button extends StatelessWidget {
     return GestureDetector(
       child: Container(
         alignment: Alignment.center,
-        width: ancho,
-        height: alto,
+        width: width,
+        height: height,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(10),
-            color: colorFondo,
+            color: colorBackground,
             boxShadow: <BoxShadow>[
               BoxShadow(
                   color: Colors.black.withOpacity(0.6),
@@ -39,8 +39,8 @@ class Button extends StatelessWidget {
         child: Text(
           label,
           style: TextStyle(
-            fontSize: tamanoLetras,
-            color: colorLetras,
+            fontSize: sizeLetter,
+            color: colorLetter,
             fontWeight: FontWeight.w400,
           ),
         ),
