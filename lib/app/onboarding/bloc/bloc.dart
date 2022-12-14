@@ -24,6 +24,7 @@ class Bloc extends base.Bloc<Event, State> {
         ) {
     on<ChangeCountryEvent>(_changeCountryEvent);
     on<ChangeOpenedEvent>(_changeOpenedEvent);
+    on<ChangedIndexEvent>(_changedIndexEvent);
   }
 
   void _changeCountryEvent(ChangeCountryEvent event, Emitter<State> emit) {
@@ -41,6 +42,16 @@ class Bloc extends base.Bloc<Event, State> {
       ChangedCountryState(
         state.model.copyWith(
           opened: !state.model.opened,
+        ),
+      ),
+    );
+  }
+
+  void _changedIndexEvent(ChangedIndexEvent event, Emitter<State> emit) {
+    emit(
+      ChangedIndexState(
+        state.model.copyWith(
+          index: event.index,
         ),
       ),
     );

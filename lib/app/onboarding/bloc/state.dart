@@ -20,6 +20,10 @@ class ChangedOpenedState extends State {
   const ChangedOpenedState(Model model) : super(model);
 }
 
+class ChangedIndexState extends State {
+  const ChangedIndexState(Model model) : super(model);
+}
+
 class Model extends Equatable {
   final Country country;
   final List<Country> countries;

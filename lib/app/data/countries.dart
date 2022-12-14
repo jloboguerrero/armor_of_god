@@ -5,18 +5,24 @@ class Countries {
     return [
       const Country(
         code: 'sp',
-        name: 'Español',
+        countryCode: 'CO',
+        languageCode: 'es',
         logo: 'assets/flags/co.png',
+        name: 'Español',
       ),
       const Country(
         code: 'en',
-        name: 'English',
+        countryCode: 'US',
+        languageCode: 'en',
         logo: 'assets/flags/mx.png',
+        name: 'English',
       ),
       const Country(
         code: 'pr',
-        name: 'Portugués',
+        countryCode: 'BR',
+        languageCode: 'pt',
         logo: 'assets/flags/bz.png',
+        name: 'Portugués',
       ),
     ];
   }

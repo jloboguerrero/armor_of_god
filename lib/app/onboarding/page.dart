@@ -1,4 +1,5 @@
 import 'package:armor_of_god/app/data/countries.dart';
+import 'package:armor_of_god/generated/l10n.dart';
 import 'package:armor_of_god/models/country.dart';
 import 'package:armor_of_god/models/item.dart';
 import 'package:armor_of_god/app/onboarding/bloc/bloc.dart' as bloc;
@@ -56,10 +57,12 @@ class _Body extends StatelessWidget {
         alignment: Alignment.topCenter,
         width: double.infinity,
         height: 130,
-        child: Button(
-          label: 'Start',
-          onTap: () {
-            print('object');
+        child: BlocBuilder<bloc.Bloc, bloc.State>(
+          builder: (context, state) {
+            return Button(
+              label: S.current.enter,
+              onTap: () {},
+            );
           },
         ),
       ),
@@ -73,46 +76,47 @@ class _Country extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
-      borderRadius: BorderRadius.circular(15.0),
-      splashColor: Colors.white,
-      child: Row(
-        children: [
-          Image.asset(
-            'assets/flags/co.png',
-            height: 20.0,
-            width: 20.0,
+    return BlocBuilder<bloc.Bloc, bloc.State>(
+      builder: (context, state) {
+        return InkWell(
+          borderRadius: BorderRadius.circular(15.0),
+          splashColor: Colors.white,
+          child: Row(
+            children: [
+              Image.asset(
+                state.model.country.logo ?? 'assets/flags/co.png',
+                height: 20.0,
+                width: 20.0,
+              ),
+              const SizedBox(width: 5.0),
+              Text(
+                state.model.country.name ?? '',
+                style: const TextStyle(
+                  fontFamily: 'Inter',
+                  color: Colors.black,
+                  fontSize: 12.0,
+                  fontWeight: FontWeight.w600,
+                  fontStyle: FontStyle.normal,
+                  letterSpacing: -0.12,
+                ),
+              ),
+              const SizedBox(width: 7.0),
+              const Icon(
+                Icons.keyboard_arrow_down,
+                color: Colors.green,
+              ),
+            ],
           ),
-          const SizedBox(width: 5.0),
-          Text(
-            context.read<bloc.Bloc>().state.model.country.name ?? '',
-            style: const TextStyle(
-              fontFamily: 'Inter',
-              color: Colors.black,
-              fontSize: 12.0,
-              fontWeight: FontWeight.w600,
-              fontStyle: FontStyle.normal,
-              letterSpacing: -0.12,
-            ),
-          ),
-          const SizedBox(width: 7.0),
-          const Icon(
-            Icons.keyboard_arrow_down,
-            color: Colors.green,
-          ),
-        ],
-      ),
-      onTap: () {
-        print('hello');
-        FirstModal.show(
-          context: context,
-          // child: BlocProvider.value(
-          //   value: context.read<bloc.Bloc>(),
-          //   child: const _SelectCountry(),
-          // ),
-          child: const _SelectCountry(),
+          onTap: () {
+            FirstModal.show(
+              context: context,
+              child: BlocProvider.value(
+                value: context.read<bloc.Bloc>(),
+                child: const _SelectCountry(),
+              ),
+            );
+          },
         );
-        print('hello2');
       },
     );
   }
@@ -136,10 +140,11 @@ class _PageView extends StatelessWidget {
             parent: AlwaysScrollableScrollPhysics(),
           ),
           onPageChanged: (index) {
-            print('hello again');
-            // context.read<dot_bloc.Bloc>().add(
-            //       dot_bloc.ChangedIndexEvent(index),
-            //     );
+            context.read<bloc.Bloc>().add(
+                  bloc.ChangedIndexEvent(
+                    index: index,
+                  ),
+                );
           },
           children: List.generate(
             3,
@@ -258,7 +263,7 @@ class _Dot extends StatelessWidget {
           height: 6.0,
           width: 6.0,
           decoration: BoxDecoration(
-            color: isCurrent ? Colors.red : Colors.pink,
+            color: isCurrent ? Colors.green : Colors.grey,
             borderRadius: BorderRadius.circular(3.0),
           ),
         );
@@ -272,16 +277,14 @@ class _SelectCountry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final app = Modular.get<AppConfig>();
-
     return SizedBox(
       height: MediaQuery.of(context).size.height * 0.41,
       child: ListView.builder(
         physics: const NeverScrollableScrollPhysics(),
         itemCount: 3,
-        itemBuilder: (context2, index) {
-          // final country = context.read<bloc.Bloc>().state.model.countries[index]; //TODO RESOLVER
-          final country = Countries().all[index];
+        itemBuilder: (context, index) {
+          final country =
+              context.read<bloc.Bloc>().state.model.countries[index];
           final animationDuration = 800 + int.parse('${index}00');
 
           if (index == 0) {
@@ -376,7 +379,7 @@ class _CountryItem extends StatelessWidget {
               const SizedBox(width: 11.0),
               Text(
                 country.name!,
-                style: TextStyle(
+                style: const TextStyle(
                   color: Colors.grey,
                   fontSize: 16.0,
                   fontWeight: FontWeight.w600,
@@ -387,17 +390,15 @@ class _CountryItem extends StatelessWidget {
           ),
         ),
         onTap: () async {
-          // await S.load(
-          //   Locale(
-          //     country.locale!.languageCode!,
-          //     country.locale!.countryCode,
-          //   ),
-          // );
-          // context.read<bloc.Bloc>().add( //TODO resolver
-          //       bloc.ChangeCountryEvent(country),
-          //     );
-          // final app = Modular.get<AppConfig>();
-          // app.country = country;
+          await S.load(
+            Locale(
+              country.languageCode!,
+              country.countryCode,
+            ),
+          );
+          context.read<bloc.Bloc>().add(
+                bloc.ChangeCountryEvent(country),
+              );
           Navigator.pop(context);
         },
       ),

@@ -10,3 +10,9 @@ class ChangeCountryEvent extends Event {
 }
 
 class ChangeOpenedEvent extends Event {}
+
+class ChangedIndexEvent extends Event {
+  ChangedIndexEvent({required this.index});
+
+  final int index;
+}
