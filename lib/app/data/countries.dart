@@ -4,18 +4,18 @@ class Countries {
   List<Country> get all {
     return [
       const Country(
-        code: 'sp',
-        countryCode: 'CO',
-        languageCode: 'es',
-        logo: 'assets/flags/co.png',
-        name: 'Español',
-      ),
-      const Country(
         code: 'en',
         countryCode: 'US',
         languageCode: 'en',
         logo: 'assets/flags/mx.png',
         name: 'English',
+      ),
+      const Country(
+        code: 'sp',
+        countryCode: 'CO',
+        languageCode: 'es',
+        logo: 'assets/flags/co.png',
+        name: 'Español',
       ),
       const Country(
         code: 'pr',

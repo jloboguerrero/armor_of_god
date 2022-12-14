@@ -59,6 +59,26 @@ class S {
       args: [],
     );
   }
+
+  /// `¡Hola, bienvenido a The Armor Of God!`
+  String get onBoardingTitle1 {
+    return Intl.message(
+      '¡Hola, bienvenido a The Armor Of God!',
+      name: 'onBoardingTitle1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Encuentra todo lo que necesitas saber de la armadura para tu vida en un solo lugar.`
+  String get onBoardingDescription2 {
+    return Intl.message(
+      'Encuentra todo lo que necesitas saber de la armadura para tu vida en un solo lugar.',
+      name: 'onBoardingDescription2',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

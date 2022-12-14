@@ -22,6 +22,10 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
-        "enter": MessageLookupByLibrary.simpleMessage("Ingresar")
+        "enter": MessageLookupByLibrary.simpleMessage("Ingresar"),
+        "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
+            "Encuentra todo lo que necesitas saber de la armadura para tu vida en un solo lugar."),
+        "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
+            "¡Hola, bienvenido a The Armor Of God!")
       };
 }

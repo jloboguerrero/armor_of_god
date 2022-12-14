@@ -1,7 +1,7 @@
 import 'package:armor_of_god/app/data/countries.dart';
+import 'package:armor_of_god/app/data/onboarding.dart';
 import 'package:armor_of_god/generated/l10n.dart';
 import 'package:armor_of_god/models/country.dart';
-import 'package:armor_of_god/models/item.dart';
 import 'package:armor_of_god/app/onboarding/bloc/bloc.dart' as bloc;
 import 'package:armor_of_god/widgets/button.dart';
 import 'package:armor_of_god/widgets/first_modal.dart';
@@ -170,55 +170,43 @@ class _Item extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<bloc.Bloc, bloc.State>(
       builder: (context, state) {
-        final pages = <Item>[
-          const Item(
-            title: 'S.current.onBoardingTitle1V2',
-            subtitle: 'S.current.onBoardingDescription1V2.br(wCount: -7)',
-            image: 'assets/flags/co.png',
-          ),
-          const Item(
-            title: 'S.current.onBoardingTitle2V2',
-            subtitle: 'S.current.onBoardingDescription2V2.br(wCount: -3)',
-            image: 'assets/flags/co.png',
-          ),
-          const Item(
-            title: 'S.current.onBoardingTitle3V2',
-            subtitle: 'S.current.onBoardingDescription3V2.br(wCount: -2)',
-            image: 'assets/flags/co.png',
-          ),
-        ];
+        final pages = Onboarding().all;
 
         final page = pages[index];
-        return Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset(
-              page.image,
-              height: MediaQuery.of(context).size.height * 0.40,
-            ),
-            Text(
-              page.title,
-              style: const TextStyle(
-                color: Colors.green,
-                fontSize: 18.0,
-                fontWeight: FontWeight.w700,
-              ),
-              textAlign: TextAlign.center,
-            ),
-            Flexible(
-              child: Padding(
-                padding: const EdgeInsets.all(8.0),
-                child: Text(
-                  page.subtitle,
+        return BlocBuilder<bloc.Bloc, bloc.State>(
+          builder: (context, state) {
+            return Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Image.asset(
+                  page.image,
+                  height: MediaQuery.of(context).size.height * 0.40,
+                ),
+                Text(
+                  page.title,
                   style: const TextStyle(
-                    color: Colors.brown,
-                    fontWeight: FontWeight.w400,
+                    color: Colors.green,
+                    fontSize: 18.0,
+                    fontWeight: FontWeight.w700,
                   ),
                   textAlign: TextAlign.center,
                 ),
-              ),
-            ),
-          ],
+                Flexible(
+                  child: Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Text(
+                      page.subtitle,
+                      style: const TextStyle(
+                        color: Colors.brown,
+                        fontWeight: FontWeight.w400,
+                      ),
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
+                ),
+              ],
+            );
+          },
         );
       },
     );
