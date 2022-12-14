@@ -7,7 +7,7 @@ class Countries {
         code: 'en',
         countryCode: 'US',
         languageCode: 'en',
-        logo: 'assets/flags/mx.png',
+        logo: 'assets/flags/us.png',
         name: 'English',
       ),
       const Country(
