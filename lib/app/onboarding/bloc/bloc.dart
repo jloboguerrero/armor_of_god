@@ -1,4 +1,3 @@
-import 'package:armor_of_god/app/data/countries.dart';
 import 'package:armor_of_god/models/country.dart';
 import 'package:bloc/bloc.dart' as base;
 import 'package:equatable/equatable.dart';
@@ -8,17 +7,17 @@ part 'event.dart';
 part 'state.dart';
 
 class Bloc extends base.Bloc<Event, State> {
-  final Country country;
   final List<Country> countries;
+  final Country country;
 
   Bloc({
-    required this.country,
     required this.countries,
+    required this.country,
   }) : super(
           InitialState(
             Model(
-              country: country,
               countries: countries,
+              country: country,
             ),
           ),
         ) {

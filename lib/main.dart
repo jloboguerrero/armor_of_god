@@ -8,27 +8,26 @@ import 'generated/l10n.dart';
 
 void main() {
   BlocOverrides.runZoned(
-    () => runApp(MyApp()),
+    () => runApp(const MyApp()),
     blocObserver: AppBlocObserver(),
   );
-  // runApp(MyApp());
 }
 
 class AppBlocObserver extends BlocObserver {
   @override
   void onChange(BlocBase bloc, Change change) {
     super.onChange(bloc, change);
-    if (bloc is Cubit) print(change);
   }
 
   @override
   void onTransition(Bloc bloc, Transition transition) {
     super.onTransition(bloc, transition);
-    print(transition);
   }
 }
 
 class MyApp extends StatelessWidget {
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

@@ -2,35 +2,35 @@ import 'package:flutter/material.dart';
 
 class FirstModal {
   static Future<T?> show<T>({
-    required BuildContext context,
-    Widget? child,
-    ShapeBorder? shape,
     Color? backgroundColor,
-    RouteSettings? routeSettings,
-    bool useRootNavigator = true,
-    bool isDismissible = true,
+    Widget? child,
+    required BuildContext context,
     bool enableDrag = true,
+    bool isDismissible = true,
+    RouteSettings? routeSettings,
+    ShapeBorder? shape,
+    bool useRootNavigator = true,
   }) async {
     return await showModalBottomSheet<T>(
-      routeSettings: routeSettings,
-      isScrollControlled: true,
-      useRootNavigator: useRootNavigator,
-      isDismissible: isDismissible,
-      context: context,
+      backgroundColor: backgroundColor ?? Colors.white,
       enableDrag: enableDrag,
+      context: context,
+      isDismissible: isDismissible,
+      isScrollControlled: true,
+      routeSettings: routeSettings,
+      useRootNavigator: useRootNavigator,
       shape: shape ??
           const RoundedRectangleBorder(
             borderRadius: BorderRadius.only(
-              topRight: Radius.circular(12.0),
               topLeft: Radius.circular(12.0),
+              topRight: Radius.circular(12.0),
             ),
           ),
-      backgroundColor: backgroundColor ?? Colors.white,
       builder: (context) {
         return AnimatedPadding(
-          padding: MediaQuery.of(context).viewInsets,
-          duration: const Duration(milliseconds: 100),
           curve: Curves.decelerate,
+          duration: const Duration(milliseconds: 100),
+          padding: MediaQuery.of(context).viewInsets,
           child: child,
         );
       },

@@ -25,38 +25,39 @@ class ChangedIndexState extends State {
 }
 
 class Model extends Equatable {
-  final Country country;
-  final List<Country> countries;
-  final bool opened;
-  final int index;
   const Model({
-    required this.country,
     required this.countries,
-    this.opened = false,
+    required this.country,
     this.index = 0,
+    this.opened = false,
   });
 
+  final List<Country> countries;
+  final Country country;
+  final int index;
+  final bool opened;
+
   Model copyWith({
-    Country? country,
     List<Country>? countries,
-    bool? opened,
+    Country? country,
     int? index,
+    bool? opened,
   }) {
     return Model(
-      country: country ?? this.country,
       countries: countries ?? this.countries,
-      opened: opened ?? this.opened,
+      country: country ?? this.country,
       index: index ?? this.index,
+      opened: opened ?? this.opened,
     );
   }
 
   @override
   List<Object?> get props {
     return [
-      country,
       countries,
-      opened,
+      country,
       index,
+      opened,
     ];
   }
 }

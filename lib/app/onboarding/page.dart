@@ -1,25 +1,27 @@
-import 'package:armor_of_god/app/data/countries.dart';
-import 'package:armor_of_god/app/data/onboarding.dart';
-import 'package:armor_of_god/generated/l10n.dart';
-import 'package:armor_of_god/models/country.dart';
-import 'package:armor_of_god/app/onboarding/bloc/bloc.dart' as bloc;
-import 'package:armor_of_god/widgets/button.dart';
-import 'package:armor_of_god/widgets/first_modal.dart';
 import 'package:flutter/material.dart';
-
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:mobile_client_animations/mobile_client_animations.dart';
 
+import 'package:armor_of_god/app/data/countries.dart';
+import 'package:armor_of_god/app/data/onboarding.dart';
+import 'package:armor_of_god/app/onboarding/bloc/bloc.dart' as bloc;
+import 'package:armor_of_god/generated/l10n.dart';
+import 'package:armor_of_god/models/country.dart';
+import 'package:armor_of_god/widgets/button.dart';
+import 'package:armor_of_god/widgets/first_modal.dart';
+
 class Page extends StatelessWidget {
-  const Page({Key? key}) : super(key: key);
+  const Page({
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final countries = Countries().all;
     return BlocProvider(
       create: (context) => bloc.Bloc(
-        country: countries.first,
         countries: countries,
+        country: countries.first,
       ),
       child: const _Body(),
     );
@@ -55,8 +57,8 @@ class _Body extends StatelessWidget {
       ),
       floatingActionButton: Container(
         alignment: Alignment.topCenter,
-        width: double.infinity,
         height: 130,
+        width: double.infinity,
         child: BlocBuilder<bloc.Bloc, bloc.State>(
           builder: (context, state) {
             return Button(
@@ -72,7 +74,9 @@ class _Body extends StatelessWidget {
 }
 
 class _Country extends StatelessWidget {
-  const _Country({Key? key}) : super(key: key);
+  const _Country({
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -92,11 +96,11 @@ class _Country extends StatelessWidget {
               Text(
                 state.model.country.name ?? '',
                 style: const TextStyle(
-                  fontFamily: 'Inter',
                   color: Colors.black,
+                  fontFamily: 'Inter',
                   fontSize: 12.0,
-                  fontWeight: FontWeight.w600,
                   fontStyle: FontStyle.normal,
+                  fontWeight: FontWeight.w600,
                   letterSpacing: -0.12,
                 ),
               ),
@@ -214,8 +218,12 @@ class _Item extends StatelessWidget {
 }
 
 class _Dots extends StatelessWidget {
+  const _Dots({
+    Key? key,
+    required this.length,
+  }) : super(key: key);
+
   final int length;
-  const _Dots({Key? key, required this.length}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -232,11 +240,12 @@ class _Dots extends StatelessWidget {
 }
 
 class _Dot extends StatelessWidget {
-  final int index;
   const _Dot({
     Key? key,
     required this.index,
   }) : super(key: key);
+
+  final int index;
 
   @override
   Widget build(BuildContext context) {
@@ -247,13 +256,13 @@ class _Dot extends StatelessWidget {
           duration: const Duration(
             milliseconds: 300,
           ),
-          margin: const EdgeInsets.only(right: 5),
-          height: 6.0,
-          width: 6.0,
           decoration: BoxDecoration(
             color: isCurrent ? Colors.green : Colors.grey,
             borderRadius: BorderRadius.circular(3.0),
           ),
+          height: 6.0,
+          margin: const EdgeInsets.only(right: 5),
+          width: 6.0,
         );
       },
     );
@@ -261,15 +270,17 @@ class _Dot extends StatelessWidget {
 }
 
 class _SelectCountry extends StatelessWidget {
-  const _SelectCountry({Key? key}) : super(key: key);
+  const _SelectCountry({
+    Key? key,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: MediaQuery.of(context).size.height * 0.41,
       child: ListView.builder(
-        physics: const NeverScrollableScrollPhysics(),
         itemCount: 3,
+        physics: const NeverScrollableScrollPhysics(),
         itemBuilder: (context, index) {
           final country =
               context.read<bloc.Bloc>().state.model.countries[index];
@@ -282,8 +293,8 @@ class _SelectCountry extends StatelessWidget {
                   child: Align(
                     alignment: Alignment.centerRight,
                     child: IconButton(
-                      iconSize: 20,
                       color: Colors.grey,
+                      iconSize: 20,
                       onPressed: () {
                         Navigator.pop(context);
                       },
@@ -298,12 +309,12 @@ class _SelectCountry extends StatelessWidget {
                     const SizedBox(height: 10.0),
                     ZoomIn(
                       child: Container(
-                        width: 86.0,
                         height: 5.0,
                         decoration: const BoxDecoration(
                           color: Colors.black,
                           borderRadius: BorderRadius.all(Radius.circular(15.0)),
                         ),
+                        width: 86.0,
                       ),
                     ),
                     const SizedBox(height: 12.0),
@@ -311,19 +322,19 @@ class _SelectCountry extends StatelessWidget {
                       child: const Text(
                         'Seleccione su idioma',
                         style: TextStyle(
-                          fontFamily: 'Inter',
                           color: Colors.black54,
+                          fontFamily: 'Inter',
                           fontSize: 16,
-                          fontWeight: FontWeight.w700,
                           fontStyle: FontStyle.normal,
+                          fontWeight: FontWeight.w700,
                           letterSpacing: -0.64,
                         ),
                       ),
                     ),
                     const SizedBox(height: 15.0),
                     _CountryItem(
-                      country: country,
                       animationDuration: animationDuration,
+                      country: country,
                     ),
                   ],
                 ),
@@ -331,8 +342,8 @@ class _SelectCountry extends StatelessWidget {
             );
           }
           return _CountryItem(
-            country: country,
             animationDuration: animationDuration,
+            country: country,
           );
         },
       ),
@@ -341,14 +352,14 @@ class _SelectCountry extends StatelessWidget {
 }
 
 class _CountryItem extends StatelessWidget {
-  final Country country;
-  final int animationDuration;
-
   const _CountryItem({
-    Key? key,
-    required this.country,
     required this.animationDuration,
+    required this.country,
+    Key? key,
   }) : super(key: key);
+
+  final int animationDuration;
+  final Country country;
 
   @override
   Widget build(BuildContext context) {

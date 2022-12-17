@@ -1,27 +1,27 @@
 class Item {
-  final String title;
-  final String subtitle;
-  final String image;
-  final void Function()? onTap;
-
   const Item({
-    required this.title,
-    required this.subtitle,
     required this.image,
     this.onTap,
+    required this.subtitle,
+    required this.title,
   });
 
+  final String image;
+  final void Function()? onTap;
+  final String subtitle;
+  final String title;
+
   Item copyWith({
-    String? title,
-    String? subtitle,
     String? image,
     void Function()? onTap,
+    String? subtitle,
+    String? title,
   }) {
     return Item(
-      title: title ?? this.title,
-      subtitle: subtitle ?? this.subtitle,
       image: image ?? this.image,
       onTap: onTap ?? this.onTap,
+      subtitle: subtitle ?? this.subtitle,
+      title: title ?? this.title,
     );
   }
 }
