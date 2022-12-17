@@ -21,8 +21,8 @@ class AppModule extends Module {
         ),
         ChildRoute(
           '/armor',
-          child: (context, args) => armor.Page(),
-          duration: const Duration(milliseconds: 600),
+          child: (context, args) => const armor.Page(),
+          duration: const Duration(milliseconds: 550),
           transition: TransitionType.fadeIn,
         ),
       ];

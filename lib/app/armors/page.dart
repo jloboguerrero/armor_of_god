@@ -1,61 +1,28 @@
-import 'package:armor_of_god/config/app_config.dart';
-import 'package:armor_of_god/config/preferences.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_modular/flutter_modular.dart';
+
+import 'package:armor_of_god/app/armors/armor_one/page.dart' as armor_one;
+import 'package:armor_of_god/app/armors/armor_two/page.dart' as armor_two;
+import 'package:armor_of_god/app/armors/armor_three/page.dart' as armor_three;
 
 class Page extends StatelessWidget {
-  Widget build(BuildContext context) {
-    final prefs = Modular.get<Preferences>();
-    final armorCheck = Modular.get<AppConfig>();
-    return Scaffold(
-      appBar: AppBar(title: Text('Second Page')),
-      body: Center(
-        child: Column(
-          children: [
-            ElevatedButton(
-              onPressed: () {
-                Modular.to.navigate('/');
-              },
-              child: Text('Back to Home'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                print(prefs.armorOne);
-              },
-              child: Text('print prefs'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                prefs.armorOne = true;
-              },
-              child: Text('Change to true'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                prefs.armorOne = false;
-              },
-              child: Text('Change to false'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                final armorCheck = Modular.get<AppConfig>();
-                print(armorCheck);
-                print(armorCheck.armors);
-              },
-              child: Text('See armor'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                final armorCheck = Modular.get<AppConfig>();
+  const Page({Key? key}) : super(key: key);
 
-                armorCheck.armors = armorCheck.armors?.copyWith(
-                  armor_1: prefs.armorOne,
-                );
-              },
-              child: Text('Armor init'),
-            ),
-          ],
-        ),
+  @override
+  Widget build(BuildContext context) {
+    final controller = PageController(
+      initialPage: 0,
+    );
+    return Scaffold(
+      body: PageView(
+        controller: controller,
+        physics: const BouncingScrollPhysics(),
+        children: [
+          armor_one.Page(
+            controller: controller,
+          ),
+          armor_two.Page(),
+          armor_three.Page(),
+        ],
       ),
     );
   }

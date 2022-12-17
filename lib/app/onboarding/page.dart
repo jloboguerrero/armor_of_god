@@ -65,7 +65,7 @@ class _Body extends StatelessWidget {
           builder: (context, state) {
             return Button(
               label: S.current.enter,
-              onTap: () => Modular.to.navigate('/armor'),
+              onTap: () => Modular.to.pushNamed('/armor'),
             );
           },
         ),
