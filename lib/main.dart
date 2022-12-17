@@ -1,28 +1,29 @@
 import 'package:flutter/material.dart';
-
-import 'package:armor_of_god/app/onboarding/page.dart' as onboarding;
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-
+import 'package:flutter_modular/flutter_modular.dart';
 import 'generated/l10n.dart';
 
-void main() {
-  BlocOverrides.runZoned(
-    () => runApp(const MyApp()),
-    blocObserver: AppBlocObserver(),
+import 'package:armor_of_god/config/appconfig.dart';
+import 'package:armor_of_god/models/armors.dart';
+import 'package:armor_of_god/config/module.dart';
+import 'package:armor_of_god/config/preferences.dart';
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final prefs = Preferences();
+  await prefs.init();
+  final appConfig = AppConfig();
+  final armor = Armors(
+    armor_1: prefs.armorOne,
+    armor_2: prefs.armorSecond,
+    armor_3: prefs.armorthird,
   );
-}
+  appConfig.armors = armor;
 
-class AppBlocObserver extends BlocObserver {
-  @override
-  void onChange(BlocBase bloc, Change change) {
-    super.onChange(bloc, change);
-  }
-
-  @override
-  void onTransition(Bloc bloc, Transition transition) {
-    super.onTransition(bloc, transition);
-  }
+  return runApp(ModularApp(
+    module: AppModule(),
+    child: const MyApp(),
+  ));
 }
 
 class MyApp extends StatelessWidget {
@@ -30,11 +31,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       debugShowCheckedModeBanner: false,
-      title: 'Material App',
-      initialRoute: 'home',
-      routes: {'home': (_) => const onboarding.Page()},
+      title: 'Armor of God',
+      routeInformationParser: Modular.routeInformationParser,
+      routerDelegate: Modular.routerDelegate,
       localizationsDelegates: const [
         S.delegate,
         GlobalMaterialLocalizations.delegate,

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_modular/flutter_modular.dart'
+    hide ModularWatchExtension;
 import 'package:mobile_client_animations/mobile_client_animations.dart';
 
 import 'package:armor_of_god/app/data/countries.dart';
@@ -63,7 +65,7 @@ class _Body extends StatelessWidget {
           builder: (context, state) {
             return Button(
               label: S.current.enter,
-              onTap: () {},
+              onTap: () => Modular.to.navigate('/armor'),
             );
           },
         ),
