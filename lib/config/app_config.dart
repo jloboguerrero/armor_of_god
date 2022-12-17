@@ -7,11 +7,5 @@ class AppConfig {
 
   AppConfig._();
 
-  Armors? _armors;
-
-  Armors? get armors => _armors;
-
-  set armors(Armors? armors) {
-    _armors = armors;
-  }
+  Armors? armors;
 }

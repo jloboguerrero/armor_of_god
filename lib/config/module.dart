@@ -1,4 +1,4 @@
-import 'package:armor_of_god/config/appconfig.dart';
+import 'package:armor_of_god/config/app_config.dart';
 import 'package:armor_of_god/config/preferences.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
