@@ -20,8 +20,12 @@ class Page extends StatelessWidget {
           armor_one.Page(
             controller: controller,
           ),
-          armor_two.Page(),
-          armor_three.Page(),
+          armor_two.Page(
+            controller: controller,
+          ),
+          armor_three.Page(
+            controller: controller,
+          ),
         ],
       ),
     );

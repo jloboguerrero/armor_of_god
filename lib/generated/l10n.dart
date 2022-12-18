@@ -79,6 +79,16 @@ class S {
       args: [],
     );
   }
+
+  /// `Armadura Clásica`
+  String get classicArmour {
+    return Intl.message(
+      'Armadura Clásica',
+      name: 'classicArmour',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

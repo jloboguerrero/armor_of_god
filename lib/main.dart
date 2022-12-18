@@ -13,12 +13,7 @@ void main() async {
   final prefs = Preferences();
   await prefs.init();
   final appConfig = AppConfig();
-  final armor = Armors(
-    armor_1: prefs.armorOne,
-    armor_2: prefs.armorSecond,
-    armor_3: prefs.armorthird,
-  );
-  appConfig.armors = armor;
+  appConfig.init(prefs: prefs);
 
   return runApp(ModularApp(
     module: AppModule(),
