@@ -1,3 +1,4 @@
+import 'package:armor_of_god/app/data/questions.dart';
 import 'package:armor_of_god/widgets/dialog_answer.dart';
 import 'package:armor_of_god/widgets/dialog_succesfull.dart';
 import 'package:flutter/material.dart';
@@ -51,16 +52,33 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_8
                       ? () {
+                          final questionsFirst = Questions().first;
                           showDialog(
                             context: context,
-                            builder: (context) => const AnswersSuccesfull(),
+                            builder: (context) => AnswersSuccesfull(
+                              questions: questionsFirst,
+                            ),
                           );
                         }
                       : () {
-                          showDialog(
-                            context: context,
-                            builder: (context) => const NeedAnswers(),
-                          );
+                          final questionsFirst = Questions().first;
+                          (armorCheck.armors!.armor_1 &&
+                                  armorCheck.armors!.armor_2 &&
+                                  armorCheck.armors!.armor_3 &&
+                                  armorCheck.armors!.armor_4 &&
+                                  armorCheck.armors!.armor_5 &&
+                                  armorCheck.armors!.armor_6 &&
+                                  armorCheck.armors!.armor_7)
+                              ? Modular.to.pushNamed(
+                                  '/armors/questions',
+                                  arguments: {
+                                    'questions': questionsFirst,
+                                  },
+                                )
+                              : showDialog(
+                                  context: context,
+                                  builder: (context) => const NeedAnswers(),
+                                );
                         },
                   child: Image.asset(
                     'assets/flags/co.png',
@@ -72,16 +90,33 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_9
                       ? () {
+                          final questionsFirst = Questions().first;
                           showDialog(
                             context: context,
-                            builder: (context) => const AnswersSuccesfull(),
+                            builder: (context) => AnswersSuccesfull(
+                              questions: questionsFirst,
+                            ),
                           );
                         }
                       : () {
-                          showDialog(
-                            context: context,
-                            builder: (context) => const NeedAnswers(),
-                          );
+                          final questionsFirst = Questions().first;
+                          (armorCheck.armors!.armor_1 &&
+                                  armorCheck.armors!.armor_2 &&
+                                  armorCheck.armors!.armor_3 &&
+                                  armorCheck.armors!.armor_4 &&
+                                  armorCheck.armors!.armor_5 &&
+                                  armorCheck.armors!.armor_6 &&
+                                  armorCheck.armors!.armor_7)
+                              ? Modular.to.pushNamed(
+                                  '/armors/questions',
+                                  arguments: {
+                                    'questions': questionsFirst,
+                                  },
+                                )
+                              : showDialog(
+                                  context: context,
+                                  builder: (context) => const NeedAnswers(),
+                                );
                         },
                   child: Image.asset(
                     'assets/flags/co.png',

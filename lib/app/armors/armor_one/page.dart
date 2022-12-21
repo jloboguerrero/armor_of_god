@@ -1,3 +1,4 @@
+import 'package:armor_of_god/app/data/questions.dart';
 import 'package:armor_of_god/widgets/dialog_answer.dart';
 import 'package:armor_of_god/widgets/dialog_succesfull.dart';
 import 'package:flutter/material.dart';
@@ -48,15 +49,21 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_1
                       ? () {
+                          final questionsFirst = Questions().first;
                           showDialog(
                             context: context,
-                            builder: (context) => const AnswersSuccesfull(),
+                            builder: (context) => AnswersSuccesfull(
+                              questions: questionsFirst,
+                            ),
                           );
                         }
                       : () {
-                          showDialog(
-                            context: context,
-                            builder: (context) => const NeedAnswers(),
+                          final questionsFirst = Questions().first;
+                          Modular.to.pushNamed(
+                            '/armors/questions',
+                            arguments: {
+                              'questions': questionsFirst,
+                            },
                           );
                         },
                   child: Image.asset(
@@ -69,18 +76,22 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_2
                       ? () {
+                          final questionsSecond = Questions().second;
                           showDialog(
                             context: context,
-                            builder: (context) => const AnswersSuccesfull(),
+                            builder: (context) => AnswersSuccesfull(
+                              questions: questionsSecond,
+                            ),
                           );
                         }
                       : () {
-                          armorCheck.armors!.armor_1
-                              ? Modular.to.pushNamed('/armors/questions')
-                              : showDialog(
-                                  context: context,
-                                  builder: (context) => const NeedAnswers(),
-                                );
+                          final questionsSecond = Questions().second;
+                          Modular.to.pushNamed(
+                            '/armors/questions',
+                            arguments: {
+                              'questions': questionsSecond,
+                            },
+                          );
                         },
                   child: Image.asset(
                     'assets/flags/co.png',
@@ -92,15 +103,21 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_3
                       ? () {
+                          final questionsThird = Questions().third;
                           showDialog(
                             context: context,
-                            builder: (context) => const AnswersSuccesfull(),
+                            builder: (context) => AnswersSuccesfull(
+                              questions: questionsThird,
+                            ),
                           );
                         }
                       : () {
-                          showDialog(
-                            context: context,
-                            builder: (context) => const NeedAnswers(),
+                          final questionsThird = Questions().third;
+                          Modular.to.pushNamed(
+                            '/armors/questions',
+                            arguments: {
+                              'questions': questionsThird,
+                            },
                           );
                         },
                   child: Image.asset(

@@ -1,10 +1,16 @@
 import 'package:armor_of_god/generated/l10n.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
+import '../models/question.dart';
+
 class AnswersSuccesfull extends StatelessWidget {
+  final List<Question> questions;
+
   const AnswersSuccesfull({
     Key? key,
+    required this.questions,
   }) : super(key: key);
 
   @override
@@ -82,6 +88,12 @@ class AnswersSuccesfull extends StatelessWidget {
                   ),
                   onPressed: () {
                     Navigator.pop(context);
+                    Modular.to.pushNamed(
+                      '/armors/questions',
+                      arguments: {
+                        'questions': questions,
+                      },
+                    );
                   },
                   child: Text(
                     S.current.questions,

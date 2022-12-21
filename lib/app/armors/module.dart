@@ -17,7 +17,9 @@ class ArmorsModule extends Module {
         ),
         ChildRoute(
           '/questions',
-          child: (context, args) => const questions.Page(),
+          child: (context, args) => questions.Page(
+            questions: args.data['questions'],
+          ),
           transition: TransitionType.fadeIn,
         ),
       ];
