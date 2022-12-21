@@ -1,9 +1,9 @@
-import 'package:armor_of_god/config/app_config.dart';
-import 'package:armor_of_god/config/preferences.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
+import 'package:armor_of_god/app/armors/module.dart';
 import 'package:armor_of_god/app/onboarding/page.dart' as onboarding;
-import 'package:armor_of_god/app/armors/page.dart' as armor;
+import 'package:armor_of_god/config/app_config.dart';
+import 'package:armor_of_god/config/preferences.dart';
 
 class AppModule extends Module {
   @override
@@ -19,11 +19,9 @@ class AppModule extends Module {
           child: (context, args) => const onboarding.Page(),
           transition: TransitionType.fadeIn,
         ),
-        ChildRoute(
-          '/armor',
-          child: (context, args) => const armor.Page(),
-          duration: const Duration(milliseconds: 550),
-          transition: TransitionType.fadeIn,
+        ModuleRoute(
+          '/armors',
+          module: ArmorsModule(),
         ),
       ];
 }

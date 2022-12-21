@@ -4,7 +4,6 @@ import 'package:flutter_modular/flutter_modular.dart';
 import 'generated/l10n.dart';
 
 import 'package:armor_of_god/config/app_config.dart';
-import 'package:armor_of_god/models/armors.dart';
 import 'package:armor_of_god/config/module.dart';
 import 'package:armor_of_god/config/preferences.dart';
 

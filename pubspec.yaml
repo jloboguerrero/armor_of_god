@@ -37,6 +37,7 @@ dependencies:
   equatable: ^2.0.3
   flutter_modular: ^5.0.3
   shared_preferences: ^2.0.15
+  flutter_svg: ^0.22.0
   flutter_localizations:
     sdk: flutter
   mobile_client_animations:

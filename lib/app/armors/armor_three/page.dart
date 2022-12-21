@@ -1,3 +1,4 @@
+import 'package:armor_of_god/widgets/show_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -51,7 +52,12 @@ class Page extends StatelessWidget {
                       ? () {
                           print('object');
                         }
-                      : null,
+                      : () {
+                          showDialog(
+                            context: context,
+                            builder: (context) => const NeedAnswers(),
+                          );
+                        },
                   child: Image.asset(
                     'assets/flags/co.png',
                     opacity: armorCheck.armors!.armor_8
@@ -64,7 +70,12 @@ class Page extends StatelessWidget {
                       ? () {
                           print('object');
                         }
-                      : null,
+                      : () {
+                          showDialog(
+                            context: context,
+                            builder: (context) => const NeedAnswers(),
+                          );
+                        },
                   child: Image.asset(
                     'assets/flags/co.png',
                     opacity: armorCheck.armors!.armor_9

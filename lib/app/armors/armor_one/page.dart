@@ -1,3 +1,5 @@
+import 'package:armor_of_god/widgets/dialog_answer.dart';
+import 'package:armor_of_god/widgets/dialog_succesfull.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -46,9 +48,17 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_1
                       ? () {
-                          print('object');
+                          showDialog(
+                            context: context,
+                            builder: (context) => const AnswersSuccesfull(),
+                          );
                         }
-                      : null,
+                      : () {
+                          showDialog(
+                            context: context,
+                            builder: (context) => const NeedAnswers(),
+                          );
+                        },
                   child: Image.asset(
                     'assets/flags/co.png',
                     opacity: armorCheck.armors!.armor_1
@@ -59,9 +69,16 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_2
                       ? () {
-                          print('object');
+                          print('object2');
                         }
-                      : null,
+                      : () {
+                          armorCheck.armors!.armor_1
+                              ? Modular.to.pushNamed('/armors/questions')
+                              : showDialog(
+                                  context: context,
+                                  builder: (context) => const NeedAnswers(),
+                                );
+                        },
                   child: Image.asset(
                     'assets/flags/co.png',
                     opacity: armorCheck.armors!.armor_2
@@ -74,7 +91,12 @@ class Page extends StatelessWidget {
                       ? () {
                           print('object');
                         }
-                      : null,
+                      : () {
+                          showDialog(
+                            context: context,
+                            builder: (context) => const NeedAnswers(),
+                          );
+                        },
                   child: Image.asset(
                     'assets/flags/co.png',
                     opacity: armorCheck.armors!.armor_3
