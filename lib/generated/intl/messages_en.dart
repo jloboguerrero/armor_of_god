@@ -22,11 +22,20 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "classicArmour": MessageLookupByLibrary.simpleMessage("Classic Armour"),
+        "clothItems": MessageLookupByLibrary.simpleMessage("Cloth Items"),
+        "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
+            "You must complete the previous level"),
         "enter": MessageLookupByLibrary.simpleMessage("Enter"),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "Find everything you need to know of the Armor for your life in just one place."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
-            "Hello, welcome to The Armor Of God!")
+            "Hello, welcome to The Armor Of God!"),
+        "questions": MessageLookupByLibrary.simpleMessage("Questions"),
+        "seeArmorOrQuestions": MessageLookupByLibrary.simpleMessage(
+            "You can either watch the piece or answer the questions again"),
+        "seePiece": MessageLookupByLibrary.simpleMessage("Read Piece"),
+        "survivalItems": MessageLookupByLibrary.simpleMessage("Survival Items")
       };
 }

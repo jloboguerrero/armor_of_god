@@ -1,3 +1,4 @@
+import 'package:armor_of_god/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -45,7 +46,7 @@ class NeedAnswers extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.fromLTRB(0, 0, 0, 15),
             child: Text(
-              'Debes responder el resto de las preguntas anteriores',
+              S.current.completePreviousLevel,
               style: const TextStyle(
                 color: Color(0xff272727),
                 fontWeight: FontWeight.w700,
@@ -83,7 +84,7 @@ class NeedAnswers extends StatelessWidget {
                     Navigator.pop(context);
                   },
                   child: Text(
-                    'Accept',
+                    S.current.accept,
                     style: const TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w700,

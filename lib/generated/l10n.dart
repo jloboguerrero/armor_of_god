@@ -89,6 +89,76 @@ class S {
       args: [],
     );
   }
+
+  /// `Piezas de Ropa`
+  String get clothItems {
+    return Intl.message(
+      'Piezas de Ropa',
+      name: 'clothItems',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Items de Supervivencia`
+  String get survivalItems {
+    return Intl.message(
+      'Items de Supervivencia',
+      name: 'survivalItems',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Debes completar el nivel anterior`
+  String get completePreviousLevel {
+    return Intl.message(
+      'Debes completar el nivel anterior',
+      name: 'completePreviousLevel',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Aceptar`
+  String get accept {
+    return Intl.message(
+      'Aceptar',
+      name: 'accept',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Puedes ver la pieza o responder de nuevo las preguntas`
+  String get seeArmorOrQuestions {
+    return Intl.message(
+      'Puedes ver la pieza o responder de nuevo las preguntas',
+      name: 'seeArmorOrQuestions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Preguntas`
+  String get questions {
+    return Intl.message(
+      'Preguntas',
+      name: 'questions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Leer Pieza`
+  String get seePiece {
+    return Intl.message(
+      'Leer Pieza',
+      name: 'seePiece',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

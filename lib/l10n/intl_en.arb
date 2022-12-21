@@ -2,5 +2,12 @@
     "enter": "Enter",
     "onBoardingTitle1": "Hello, welcome to The Armor Of God!",
     "onBoardingDescription2": "Find everything you need to know of the Armor for your life in just one place.",
-    "classicArmour": "Classic Armour"
+    "classicArmour": "Classic Armour",
+    "clothItems": "Cloth Items",
+    "survivalItems": "Survival Items",
+    "completePreviousLevel": "You must complete the previous level",
+    "accept": "Accept",
+    "seeArmorOrQuestions": "You can either watch the piece or answer the questions again",
+    "questions": "Questions",
+    "seePiece": "Read Piece"
 }

@@ -1,3 +1,4 @@
+import 'package:armor_of_god/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
@@ -45,7 +46,7 @@ class AnswersSuccesfull extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.fromLTRB(0, 0, 0, 15),
             child: Text(
-              'Puedes ver la pieza o responder de nuevo las preguntas',
+              S.current.seeArmorOrQuestions,
               style: const TextStyle(
                 color: Color(0xff272727),
                 fontWeight: FontWeight.w700,
@@ -83,7 +84,7 @@ class AnswersSuccesfull extends StatelessWidget {
                     Navigator.pop(context);
                   },
                   child: Text(
-                    'Preguntas',
+                    S.current.questions,
                     style: const TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w700,
@@ -116,7 +117,7 @@ class AnswersSuccesfull extends StatelessWidget {
                     Navigator.pop(context);
                   },
                   child: Text(
-                    'Ver Pieza',
+                    S.current.seePiece,
                     style: const TextStyle(
                       color: Colors.white,
                       fontWeight: FontWeight.w700,

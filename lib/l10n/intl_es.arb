@@ -2,5 +2,12 @@
     "enter": "Ingresar",
     "onBoardingTitle1": "¡Hola, bienvenido a The Armor Of God!",
     "onBoardingDescription2": "Encuentra todo lo que necesitas saber de la armadura para tu vida en un solo lugar.",
-    "classicArmour": "Armadura Clásica"
+    "classicArmour": "Armadura Clásica",
+    "clothItems": "Piezas de Ropa",
+    "survivalItems": "Items de Supervivencia",
+    "completePreviousLevel": "Debes completar el nivel anterior",
+    "accept": "Aceptar",
+    "seeArmorOrQuestions": "Puedes ver la pieza o responder de nuevo las preguntas",
+    "questions": "Preguntas",
+    "seePiece": "Leer Pieza"
 }
