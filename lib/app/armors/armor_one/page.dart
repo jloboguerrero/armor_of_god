@@ -1,5 +1,4 @@
 import 'package:armor_of_god/app/data/questions.dart';
-import 'package:armor_of_god/widgets/dialog_answer.dart';
 import 'package:armor_of_god/widgets/dialog_succesfull.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -19,7 +18,6 @@ class Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final prefs = Modular.get<Preferences>();
     final armorCheck = Modular.get<AppConfig>();
     return Scaffold(
       appBar: AppBar(

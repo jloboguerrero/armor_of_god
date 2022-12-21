@@ -16,3 +16,15 @@ class ChangedIndexEvent extends Event {
 
   final int index;
 }
+
+class CreateListEvent extends Event {
+  CreateListEvent({required this.length});
+
+  final int length;
+}
+
+class ChangedOptionEvent extends Event {
+  ChangedOptionEvent({required this.index});
+
+  final int index;
+}

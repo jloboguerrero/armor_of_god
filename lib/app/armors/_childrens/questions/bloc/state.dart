@@ -16,22 +16,38 @@ class ChangedIndexState extends State {
   const ChangedIndexState(Model model) : super(model);
 }
 
+class CreateListState extends State {
+  const CreateListState(Model model) : super(model);
+}
+
+class ChangingOptionState extends State {
+  const ChangingOptionState(Model model) : super(model);
+}
+
+class ChangedOptionState extends State {
+  const ChangedOptionState(Model model) : super(model);
+}
+
 class Model extends Equatable {
   const Model({
-    required this.questions,
     this.index = 0,
+    this.list,
+    required this.questions,
   });
 
-  final List<Question> questions;
   final int index;
+  final List<bool>? list;
+  final List<Question> questions;
 
   Model copyWith({
-    List<Question>? questions,
     int? index,
+    List<bool>? list,
+    List<Question>? questions,
   }) {
     return Model(
-      questions: questions ?? this.questions,
       index: index ?? this.index,
+      list: list ?? this.list,
+      questions: questions ?? this.questions,
     );
   }
 

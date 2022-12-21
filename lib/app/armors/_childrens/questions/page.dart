@@ -1,7 +1,6 @@
 import 'package:armor_of_god/models/question.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:armor_of_god/app/data/onboarding.dart';
 import 'package:armor_of_god/app/armors/_childrens/questions/bloc/bloc.dart'
     as bloc;
 // import 'package:armor_of_god/generated/l10n.dart';
@@ -20,7 +19,11 @@ class Page extends StatelessWidget {
     return BlocProvider(
       create: (context) => bloc.Bloc(
         questions: questions,
-      ),
+      )..add(
+          bloc.CreateListEvent(
+            length: questions.length,
+          ),
+        ),
       child: _Body(
         questions: questions,
       ),
@@ -40,9 +43,6 @@ class _Body extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        // actions: const [
-        //   SizedBox(width: 20.0),
-        // ],
         backgroundColor: const Color.fromARGB(255, 70, 56, 56),
         elevation: 0,
         title: const Text(''),
@@ -66,6 +66,8 @@ class _Body extends StatelessWidget {
         child: BlocBuilder<bloc.Bloc, bloc.State>(
           builder: (context, state) {
             return Button(
+              colorBackground: Colors.grey,
+              colorLetter: Colors.black45,
               label: 'Submit',
               onTap: () {},
             );
@@ -165,15 +167,17 @@ class _Item extends StatelessWidget {
                         height: MediaQuery.of(context).size.height * 0.17,
                         padding: const EdgeInsets.all(12.0),
                         width: double.infinity,
-                        child: SingleChildScrollView(
-                          child: Text(
-                            question.mainQuestion ?? '',
-                            style: const TextStyle(
-                              color: Colors.green,
-                              fontSize: 18.0,
-                              fontWeight: FontWeight.w700,
+                        child: Center(
+                          child: SingleChildScrollView(
+                            child: Text(
+                              question.mainQuestion ?? '',
+                              style: const TextStyle(
+                                color: Colors.green,
+                                fontSize: 18.0,
+                                fontWeight: FontWeight.w700,
+                              ),
+                              textAlign: TextAlign.center,
                             ),
-                            textAlign: TextAlign.center,
                           ),
                         ),
                       ),
@@ -187,50 +191,76 @@ class _Item extends StatelessWidget {
                             children: [
                               ListTile(
                                 title: Text(question.optionOne ?? ''),
-                                leading: const Icon(
-                                  Icons.check_circle,
+                                leading: Icon(
+                                  (state.model.list?[(index * 5) + 0] ?? false)
+                                      ? Icons.check_circle
+                                      : Icons.radio_button_unchecked,
                                   color: Colors.green,
                                 ),
-                                onTap: () {},
+                                onTap: () {
+                                  context
+                                      .read<bloc.Bloc>()
+                                      .add(bloc.ChangedOptionEvent(index: 0));
+                                },
                               ),
                               ListTile(
                                 title: Text(question.optionTwo ?? ''),
-                                leading: const Icon(
-                                  Icons.radio_button_unchecked,
+                                leading: Icon(
+                                  (state.model.list?[(index * 5) + 1] ?? false)
+                                      ? Icons.check_circle
+                                      : Icons.radio_button_unchecked,
                                   color: Colors.green,
                                 ),
+                                onTap: () {
+                                  context.read<bloc.Bloc>().add(
+                                      bloc.ChangedOptionEvent(
+                                          index: (index * 5) + 1));
+                                },
                               ),
                               ListTile(
                                 title: Text(question.optionThree ?? ''),
-                                leading: const Icon(
-                                  Icons.radio_button_unchecked,
+                                leading: Icon(
+                                  (state.model.list?[(index * 5) + 2] ?? false)
+                                      ? Icons.check_circle
+                                      : Icons.radio_button_unchecked,
                                   color: Colors.green,
                                 ),
+                                onTap: () {
+                                  context.read<bloc.Bloc>().add(
+                                      bloc.ChangedOptionEvent(
+                                          index: (index * 5) + 2));
+                                },
                               ),
                               ListTile(
                                 title: Text(question.optionFour ?? ''),
-                                leading: const Icon(
-                                  Icons.radio_button_unchecked,
+                                leading: Icon(
+                                  (state.model.list?[(index * 5) + 3] ?? false)
+                                      ? Icons.check_circle
+                                      : Icons.radio_button_unchecked,
                                   color: Colors.green,
                                 ),
+                                onTap: () {
+                                  context.read<bloc.Bloc>().add(
+                                      bloc.ChangedOptionEvent(
+                                          index: (index * 5) + 3));
+                                },
                               ),
                               ListTile(
                                 title: Text(question.optionFive ?? ''),
-                                leading: const Icon(
-                                  Icons.radio_button_unchecked,
+                                leading: Icon(
+                                  (state.model.list?[(index * 5) + 4] ?? false)
+                                      ? Icons.check_circle
+                                      : Icons.radio_button_unchecked,
                                   color: Colors.green,
                                 ),
+                                onTap: () {
+                                  context.read<bloc.Bloc>().add(
+                                      bloc.ChangedOptionEvent(
+                                          index: (index * 5) + 4));
+                                },
                               ),
                             ],
                           ),
-                          // Text(
-                          //   question.optionOne ?? '',
-                          //   style: const TextStyle(
-                          //     color: Colors.brown,
-                          //     fontWeight: FontWeight.w400,
-                          //   ),
-                          //   textAlign: TextAlign.center,
-                          // ),
                         ),
                       ),
                     ],

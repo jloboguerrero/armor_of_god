@@ -5,7 +5,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 import 'package:armor_of_god/config/app_config.dart';
-// import 'package:armor_of_god/config/preferences.dart';
 import 'package:armor_of_god/generated/l10n.dart';
 import 'package:armor_of_god/widgets/button.dart';
 
@@ -19,7 +18,6 @@ class Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // final prefs = Modular.get<Preferences>();
     final armorCheck = Modular.get<AppConfig>();
     return Scaffold(
       appBar: AppBar(
