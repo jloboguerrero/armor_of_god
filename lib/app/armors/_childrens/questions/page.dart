@@ -66,10 +66,16 @@ class _Body extends StatelessWidget {
         child: BlocBuilder<bloc.Bloc, bloc.State>(
           builder: (context, state) {
             return Button(
-              colorBackground: Colors.grey,
-              colorLetter: Colors.black45,
+              colorBackground:
+                  state.model.isValidForm ? Colors.white : Colors.grey,
+              colorLetter:
+                  state.model.isValidForm ? Colors.greenAccent : Colors.black45,
               label: 'Submit',
-              onTap: () {},
+              onTap: state.model.isValidForm
+                  ? () {
+                      print('Submit!!');
+                    }
+                  : () {},
             );
           },
         ),
@@ -198,9 +204,9 @@ class _Item extends StatelessWidget {
                                   color: Colors.green,
                                 ),
                                 onTap: () {
-                                  context
-                                      .read<bloc.Bloc>()
-                                      .add(bloc.ChangedOptionEvent(index: 0));
+                                  context.read<bloc.Bloc>().add(
+                                      bloc.ChangedOptionEvent(
+                                          index: (index * 5)));
                                 },
                               ),
                               ListTile(

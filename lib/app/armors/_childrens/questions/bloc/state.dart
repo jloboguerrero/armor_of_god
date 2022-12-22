@@ -39,6 +39,16 @@ class Model extends Equatable {
   final List<bool>? list;
   final List<Question> questions;
 
+  bool get isValidForm {
+    var sum = 0;
+    list?.forEach((element) {
+      if (element) {
+        sum++;
+      }
+    });
+    return sum == questions.length;
+  }
+
   Model copyWith({
     int? index,
     List<bool>? list,
