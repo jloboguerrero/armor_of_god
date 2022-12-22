@@ -176,7 +176,7 @@ class _Item extends StatelessWidget {
                         child: Center(
                           child: SingleChildScrollView(
                             child: Text(
-                              question.mainQuestion ?? '',
+                              question.mainQuestion,
                               style: const TextStyle(
                                 color: Colors.green,
                                 fontSize: 18.0,
@@ -196,7 +196,7 @@ class _Item extends StatelessWidget {
                           child: Column(
                             children: [
                               ListTile(
-                                title: Text(question.optionOne ?? ''),
+                                title: Text(question.optionOne),
                                 leading: Icon(
                                   (state.model.list?[(index * 5) + 0] ?? false)
                                       ? Icons.check_circle
@@ -210,7 +210,7 @@ class _Item extends StatelessWidget {
                                 },
                               ),
                               ListTile(
-                                title: Text(question.optionTwo ?? ''),
+                                title: Text(question.optionTwo),
                                 leading: Icon(
                                   (state.model.list?[(index * 5) + 1] ?? false)
                                       ? Icons.check_circle
@@ -224,7 +224,7 @@ class _Item extends StatelessWidget {
                                 },
                               ),
                               ListTile(
-                                title: Text(question.optionThree ?? ''),
+                                title: Text(question.optionThree),
                                 leading: Icon(
                                   (state.model.list?[(index * 5) + 2] ?? false)
                                       ? Icons.check_circle
@@ -238,7 +238,7 @@ class _Item extends StatelessWidget {
                                 },
                               ),
                               ListTile(
-                                title: Text(question.optionFour ?? ''),
+                                title: Text(question.optionFour),
                                 leading: Icon(
                                   (state.model.list?[(index * 5) + 3] ?? false)
                                       ? Icons.check_circle
@@ -252,7 +252,7 @@ class _Item extends StatelessWidget {
                                 },
                               ),
                               ListTile(
-                                title: Text(question.optionFive ?? ''),
+                                title: Text(question.optionFive),
                                 leading: Icon(
                                   (state.model.list?[(index * 5) + 4] ?? false)
                                       ? Icons.check_circle

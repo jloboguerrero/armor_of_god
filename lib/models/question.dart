@@ -2,22 +2,25 @@ import 'package:equatable/equatable.dart';
 
 class Question extends Equatable {
   const Question({
-    this.mainQuestion,
-    this.optionOne,
-    this.optionTwo,
-    this.optionThree,
-    this.optionFour,
-    this.optionFive,
+    required this.answer,
+    required this.mainQuestion,
+    required this.optionOne,
+    required this.optionTwo,
+    required this.optionThree,
+    required this.optionFour,
+    required this.optionFive,
   });
 
-  final String? mainQuestion;
-  final String? optionOne;
-  final String? optionTwo;
-  final String? optionThree;
-  final String? optionFour;
-  final String? optionFive;
+  final int answer;
+  final String mainQuestion;
+  final String optionOne;
+  final String optionTwo;
+  final String optionThree;
+  final String optionFour;
+  final String optionFive;
 
   Question copyWith({
+    int? answer,
     String? mainQuestion,
     String? optionOne,
     String? optionTwo,
@@ -26,6 +29,7 @@ class Question extends Equatable {
     String? optionFive,
   }) =>
       Question(
+        answer: answer ?? this.answer,
         mainQuestion: mainQuestion ?? this.mainQuestion,
         optionOne: optionOne ?? this.optionOne,
         optionTwo: optionTwo ?? this.optionTwo,
@@ -35,15 +39,17 @@ class Question extends Equatable {
       );
 
   factory Question.fromJson(Map<String, dynamic> json) => Question(
-        mainQuestion: json['main_question'] as String?,
-        optionOne: json['option_one'] as String?,
-        optionTwo: json['option_two'] as String?,
-        optionThree: json['option_three'] as String?,
-        optionFour: json['option_four'] as String?,
-        optionFive: json['option_five'] as String?,
+        answer: json['answer'],
+        mainQuestion: json['main_question'] as String,
+        optionOne: json['option_one'] as String,
+        optionTwo: json['option_two'] as String,
+        optionThree: json['option_three'] as String,
+        optionFour: json['option_four'] as String,
+        optionFive: json['option_five'] as String,
       );
 
   Map<String, dynamic> toJson() => {
+        'answer': answer,
         'main_question': mainQuestion,
         'option_one': optionOne,
         'option_two': optionTwo,
@@ -54,6 +60,7 @@ class Question extends Equatable {
 
   @override
   List<Object?> get props => [
+        answer,
         mainQuestion,
         optionOne,
         optionTwo,
