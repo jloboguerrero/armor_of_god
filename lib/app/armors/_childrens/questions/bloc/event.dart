@@ -24,7 +24,13 @@ class CreateListEvent extends Event {
 }
 
 class ChangedOptionEvent extends Event {
-  ChangedOptionEvent({required this.index});
+  ChangedOptionEvent({
+    required this.index,
+    required this.indexQuestion,
+  });
 
   final int index;
+  final int indexQuestion;
 }
+
+class SubmitEvent extends Event {}

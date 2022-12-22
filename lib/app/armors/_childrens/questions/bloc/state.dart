@@ -28,13 +28,29 @@ class ChangedOptionState extends State {
   const ChangedOptionState(Model model) : super(model);
 }
 
+class SubmitingState extends State {
+  const SubmitingState(Model model) : super(model);
+}
+
+class SubmitedApproveState extends State {
+  const SubmitedApproveState(Model model) : super(model);
+}
+
+class SubmitedFailState extends State {
+  const SubmitedFailState(Model model) : super(model);
+}
+
 class Model extends Equatable {
   const Model({
+    this.answers,
+    this.answersPreview,
     this.index = 0,
     this.list,
     required this.questions,
   });
 
+  final List<int>? answers;
+  final List<int>? answersPreview;
   final int index;
   final List<bool>? list;
   final List<Question> questions;
@@ -50,11 +66,15 @@ class Model extends Equatable {
   }
 
   Model copyWith({
+    List<int>? answers,
+    List<int>? answersPreview,
     int? index,
     List<bool>? list,
     List<Question>? questions,
   }) {
     return Model(
+      answers: answers ?? this.answers,
+      answersPreview: answersPreview ?? this.answersPreview,
       index: index ?? this.index,
       list: list ?? this.list,
       questions: questions ?? this.questions,
@@ -64,8 +84,11 @@ class Model extends Equatable {
   @override
   List<Object?> get props {
     return [
-      questions,
+      answers,
+      answersPreview,
       index,
+      list,
+      questions,
     ];
   }
 }

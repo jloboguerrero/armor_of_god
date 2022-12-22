@@ -16,7 +16,7 @@ class Questions {
         optionFive: 'Números',
       ),
       const Question(
-        answer: 0,
+        answer: 1,
         mainQuestion: 'cual es el segundo libro de la biblia?',
         optionOne: 'Mateo',
         optionTwo: 'Apocalipsis',
@@ -25,7 +25,7 @@ class Questions {
         optionFive: 'Números',
       ),
       const Question(
-        answer: 0,
+        answer: 2,
         mainQuestion: 'cual es el tercer libro de la biblia?',
         optionOne: 'Mateo',
         optionTwo: 'Apocalipsis',
@@ -34,7 +34,7 @@ class Questions {
         optionFive: 'Números',
       ),
       const Question(
-        answer: 0,
+        answer: 3,
         mainQuestion: 'cual es el cuarto libro de la biblia?',
         optionOne: 'Mateo',
         optionTwo: 'Apocalipsis',
@@ -43,7 +43,7 @@ class Questions {
         optionFive: 'Números',
       ),
       const Question(
-        answer: 0,
+        answer: 4,
         mainQuestion: 'cual es el quinto libro de la biblia?',
         optionOne: 'Mateo',
         optionTwo: 'Apocalipsis',

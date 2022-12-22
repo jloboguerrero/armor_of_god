@@ -1,10 +1,14 @@
-import 'package:armor_of_god/models/question.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_modular/flutter_modular.dart'
+    hide ModularWatchExtension;
+
 import 'package:armor_of_god/app/armors/_childrens/questions/bloc/bloc.dart'
     as bloc;
 // import 'package:armor_of_god/generated/l10n.dart';
+import 'package:armor_of_god/models/question.dart';
 import 'package:armor_of_god/widgets/button.dart';
+import 'package:armor_of_god/widgets/loading.dart';
 
 class Page extends StatelessWidget {
   final List<Question> questions;
@@ -41,46 +45,64 @@ class _Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
+    return BlocListener<bloc.Bloc, bloc.State>(
+      listener: (context, state) {
+        if (state is bloc.SubmitingState) {
+          Loading.show(context);
+        }
+        if (state is bloc.SubmitedApproveState) {
+          Navigator.pop(context);
+          print('Felicitations');
+          Modular.to.pushReplacementNamed('/armors/results');
+        }
+        if (state is bloc.SubmitedFailState) {
+          Navigator.pop(context);
+          print('Failed');
+        }
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          backgroundColor: const Color.fromARGB(255, 70, 56, 56),
+          elevation: 0,
+          title: const Text(''),
+        ),
         backgroundColor: const Color.fromARGB(255, 70, 56, 56),
-        elevation: 0,
-        title: const Text(''),
-      ),
-      backgroundColor: const Color.fromARGB(255, 70, 56, 56),
-      body: SingleChildScrollView(
-        physics: const NeverScrollableScrollPhysics(),
-        child: Column(
-          children: [
-            _NumberUp(length: questions.length),
-            _PageView(
-              questions: questions,
-            ),
-          ],
+        body: SingleChildScrollView(
+          physics: const NeverScrollableScrollPhysics(),
+          child: Column(
+            children: [
+              _NumberUp(length: questions.length),
+              _PageView(
+                questions: questions,
+              ),
+            ],
+          ),
         ),
-      ),
-      floatingActionButton: Container(
-        alignment: Alignment.bottomCenter,
-        height: 130,
-        width: 150,
-        child: BlocBuilder<bloc.Bloc, bloc.State>(
-          builder: (context, state) {
-            return Button(
-              colorBackground:
-                  state.model.isValidForm ? Colors.white : Colors.grey,
-              colorLetter:
-                  state.model.isValidForm ? Colors.greenAccent : Colors.black45,
-              label: 'Submit',
-              onTap: state.model.isValidForm
-                  ? () {
-                      print('Submit!!');
-                    }
-                  : () {},
-            );
-          },
+        floatingActionButton: Container(
+          alignment: Alignment.bottomCenter,
+          height: 130,
+          width: 150,
+          child: BlocBuilder<bloc.Bloc, bloc.State>(
+            builder: (context, state) {
+              return Button(
+                colorBackground:
+                    state.model.isValidForm ? Colors.white : Colors.grey,
+                colorLetter: state.model.isValidForm
+                    ? Colors.greenAccent
+                    : Colors.black45,
+                label: 'Submit',
+                onTap: state.model.isValidForm
+                    ? () {
+                        print('Submit!!');
+                        context.read<bloc.Bloc>().add(bloc.SubmitEvent());
+                      }
+                    : () {},
+              );
+            },
+          ),
         ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
     );
   }
 }
@@ -204,9 +226,12 @@ class _Item extends StatelessWidget {
                                   color: Colors.green,
                                 ),
                                 onTap: () {
-                                  context.read<bloc.Bloc>().add(
-                                      bloc.ChangedOptionEvent(
-                                          index: (index * 5)));
+                                  context
+                                      .read<bloc.Bloc>()
+                                      .add(bloc.ChangedOptionEvent(
+                                        index: (index * 5),
+                                        indexQuestion: index,
+                                      ));
                                 },
                               ),
                               ListTile(
@@ -218,9 +243,12 @@ class _Item extends StatelessWidget {
                                   color: Colors.green,
                                 ),
                                 onTap: () {
-                                  context.read<bloc.Bloc>().add(
-                                      bloc.ChangedOptionEvent(
-                                          index: (index * 5) + 1));
+                                  context
+                                      .read<bloc.Bloc>()
+                                      .add(bloc.ChangedOptionEvent(
+                                        index: (index * 5) + 1,
+                                        indexQuestion: index,
+                                      ));
                                 },
                               ),
                               ListTile(
@@ -232,9 +260,12 @@ class _Item extends StatelessWidget {
                                   color: Colors.green,
                                 ),
                                 onTap: () {
-                                  context.read<bloc.Bloc>().add(
-                                      bloc.ChangedOptionEvent(
-                                          index: (index * 5) + 2));
+                                  context
+                                      .read<bloc.Bloc>()
+                                      .add(bloc.ChangedOptionEvent(
+                                        index: (index * 5) + 2,
+                                        indexQuestion: index,
+                                      ));
                                 },
                               ),
                               ListTile(
@@ -246,9 +277,12 @@ class _Item extends StatelessWidget {
                                   color: Colors.green,
                                 ),
                                 onTap: () {
-                                  context.read<bloc.Bloc>().add(
-                                      bloc.ChangedOptionEvent(
-                                          index: (index * 5) + 3));
+                                  context
+                                      .read<bloc.Bloc>()
+                                      .add(bloc.ChangedOptionEvent(
+                                        index: (index * 5) + 3,
+                                        indexQuestion: index,
+                                      ));
                                 },
                               ),
                               ListTile(
@@ -260,9 +294,12 @@ class _Item extends StatelessWidget {
                                   color: Colors.green,
                                 ),
                                 onTap: () {
-                                  context.read<bloc.Bloc>().add(
-                                      bloc.ChangedOptionEvent(
-                                          index: (index * 5) + 4));
+                                  context
+                                      .read<bloc.Bloc>()
+                                      .add(bloc.ChangedOptionEvent(
+                                        index: (index * 5) + 4,
+                                        indexQuestion: index,
+                                      ));
                                 },
                               ),
                             ],
