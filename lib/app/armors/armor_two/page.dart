@@ -67,6 +67,7 @@ class Page extends StatelessWidget {
                                   '/armors/questions',
                                   arguments: {
                                     'questions': questionsFirst,
+                                    'piece': 'four',
                                   },
                                 )
                               : showDialog(
@@ -101,6 +102,7 @@ class Page extends StatelessWidget {
                                   '/armors/questions',
                                   arguments: {
                                     'questions': questionsFirst,
+                                    'piece': 'five',
                                   },
                                 )
                               : showDialog(
@@ -135,6 +137,7 @@ class Page extends StatelessWidget {
                                   '/armors/questions',
                                   arguments: {
                                     'questions': questionsFirst,
+                                    'piece': 'six',
                                   },
                                 )
                               : showDialog(
@@ -169,6 +172,7 @@ class Page extends StatelessWidget {
                                   '/armors/questions',
                                   arguments: {
                                     'questions': questionsFirst,
+                                    'piece': 'seven',
                                   },
                                 )
                               : showDialog(

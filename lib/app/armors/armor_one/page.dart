@@ -1,4 +1,5 @@
 import 'package:armor_of_god/app/data/questions.dart';
+import 'package:armor_of_god/config/preferences.dart';
 import 'package:armor_of_god/widgets/dialog_succesfull.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -61,6 +62,7 @@ class Page extends StatelessWidget {
                             '/armors/questions',
                             arguments: {
                               'questions': questionsFirst,
+                              'piece': 'one',
                             },
                           );
                         },
@@ -88,6 +90,7 @@ class Page extends StatelessWidget {
                             '/armors/questions',
                             arguments: {
                               'questions': questionsSecond,
+                              'piece': 'two',
                             },
                           );
                         },
@@ -115,6 +118,7 @@ class Page extends StatelessWidget {
                             '/armors/questions',
                             arguments: {
                               'questions': questionsThird,
+                              'piece': 'three',
                             },
                           );
                         },
@@ -163,7 +167,10 @@ class Page extends StatelessWidget {
               colorLetter: Colors.black45,
               colorBackground: Colors.blueGrey,
               label: 'Angel',
-              onTap: () {},
+              onTap: () {
+                final prefs = Modular.get<Preferences>();
+                prefs.armorSecond = false;
+              },
             ),
           ),
         ],

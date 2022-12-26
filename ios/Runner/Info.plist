@@ -49,5 +49,7 @@
 		<string>es_CO</string>
 		<string>pt_BR</string>
 	</array>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
 </dict>
 </plist>

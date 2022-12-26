@@ -11,12 +11,14 @@ import 'package:armor_of_god/widgets/button.dart';
 import 'package:armor_of_god/widgets/loading.dart';
 
 class Page extends StatelessWidget {
-  final List<Question> questions;
-
   const Page({
     Key? key,
     required this.questions,
+    required this.piece,
   }) : super(key: key);
+
+  final List<Question> questions;
+  final String piece;
 
   @override
   Widget build(BuildContext context) {
@@ -30,18 +32,21 @@ class Page extends StatelessWidget {
         ),
       child: _Body(
         questions: questions,
+        piece: piece,
       ),
     );
   }
 }
 
 class _Body extends StatelessWidget {
-  final List<Question> questions;
-
   const _Body({
     Key? key,
     required this.questions,
+    required this.piece,
   }) : super(key: key);
+
+  final List<Question> questions;
+  final String piece;
 
   @override
   Widget build(BuildContext context) {
@@ -52,12 +57,29 @@ class _Body extends StatelessWidget {
         }
         if (state is bloc.SubmitedApproveState) {
           Navigator.pop(context);
-          print('Felicitations');
-          Modular.to.pushReplacementNamed('/armors/results');
+          Modular.to.pushReplacementNamed(
+            '/armors/results',
+            arguments: {
+              'answers': state.model.answers,
+              'answers_preview': state.model.answersPreview,
+              'approve': true,
+              'questions': state.model.questions,
+              'piece': piece,
+            },
+          );
         }
         if (state is bloc.SubmitedFailState) {
           Navigator.pop(context);
-          print('Failed');
+          Modular.to.pushReplacementNamed(
+            '/armors/results',
+            arguments: {
+              'answers': state.model.answers,
+              'answers_preview': state.model.answersPreview,
+              'approve': false,
+              'questions': state.model.questions,
+              'piece': piece,
+            },
+          );
         }
       },
       child: Scaffold(
@@ -93,7 +115,6 @@ class _Body extends StatelessWidget {
                 label: 'Submit',
                 onTap: state.model.isValidForm
                     ? () {
-                        print('Submit!!');
                         context.read<bloc.Bloc>().add(bloc.SubmitEvent());
                       }
                     : () {},
