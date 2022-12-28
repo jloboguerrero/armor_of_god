@@ -1,4 +1,4 @@
-import 'package:armor_of_god/app/data/questions.dart';
+import 'package:armor_of_god/data/questions.dart';
 import 'package:armor_of_god/config/preferences.dart';
 import 'package:armor_of_god/widgets/dialog_succesfull.dart';
 import 'package:flutter/material.dart';
@@ -53,6 +53,7 @@ class Page extends StatelessWidget {
                             context: context,
                             builder: (context) => AnswersSuccesfull(
                               questions: questionsFirst,
+                              piece: 'one',
                             ),
                           );
                         }
@@ -81,6 +82,7 @@ class Page extends StatelessWidget {
                             context: context,
                             builder: (context) => AnswersSuccesfull(
                               questions: questionsSecond,
+                              piece: 'two',
                             ),
                           );
                         }
@@ -109,6 +111,7 @@ class Page extends StatelessWidget {
                             context: context,
                             builder: (context) => AnswersSuccesfull(
                               questions: questionsThird,
+                              piece: 'three',
                             ),
                           );
                         }

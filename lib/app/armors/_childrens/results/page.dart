@@ -36,8 +36,6 @@ class Page extends StatelessWidget {
 
     if (approve) {
       final prefs = Modular.get<Preferences>();
-      print(prefs.armorOne);
-      print(prefs);
       switch (piece) {
         case 'one':
           prefs.armorOne = true;
@@ -54,6 +52,7 @@ class Page extends StatelessWidget {
       final armorCheck = Modular.get<AppConfig>();
       armorCheck.init(prefs: prefs);
 
+      // TODO: Think if apply later
       // Future.delayed(const Duration(seconds: 5), () {
       //   Modular.to.pushReplacementNamed(
       //     '/armors/price',
@@ -64,113 +63,120 @@ class Page extends StatelessWidget {
       // });
     }
 
-    return Scaffold(
-      appBar: AppBar(
-        automaticallyImplyLeading: approve ? false : true,
-        backgroundColor: const Color.fromARGB(255, 70, 56, 56),
-        centerTitle: true,
-        elevation: 0,
-        title: const Text(
-          'Results',
-          style: TextStyle(
-            fontSize: 36.0,
+    return WillPopScope(
+      onWillPop: () async {
+        return false;
+      },
+      child: Scaffold(
+        appBar: AppBar(
+          automaticallyImplyLeading: approve ? false : true,
+          backgroundColor: const Color.fromARGB(255, 70, 56, 56),
+          centerTitle: true,
+          elevation: 0,
+          title: const Text(
+            'Results',
+            style: TextStyle(
+              fontSize: 36.0,
+            ),
           ),
         ),
-      ),
-      backgroundColor: const Color.fromARGB(255, 70, 56, 56),
-      body: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          if (approve) ...[
-            const Text(
-              'Congratulations!!!',
-              style: TextStyle(
-                color: Colors.white,
-                fontSize: 28.0,
-                fontWeight: FontWeight.w600,
+        backgroundColor: const Color.fromARGB(255, 70, 56, 56),
+        body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            if (approve) ...[
+              const Text(
+                'Congratulations!!!',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 28.0,
+                  fontWeight: FontWeight.w600,
+                ),
               ),
-            ),
-            const SizedBox(height: 16.0),
-          ],
-          Center(
-            child: Container(
-              height: MediaQuery.of(context).size.height * 0.56,
-              color: Colors.white,
-              padding: const EdgeInsets.all(16.0),
-              width: MediaQuery.of(context).size.width * 0.80,
-              child: SingleChildScrollView(
-                physics: const BouncingScrollPhysics(),
-                child: Column(
-                  children: [
-                    _NumberUp(
-                      correctAnswers: correctAnswers,
-                      length: questions.length,
-                    ),
-                    const SizedBox(height: 18.0),
-                    ListView.separated(
-                      shrinkWrap: true,
-                      itemCount: questions.length,
-                      physics: const NeverScrollableScrollPhysics(),
-                      separatorBuilder: (context, index) => const Divider(),
-                      itemBuilder: (context, index) {
-                        return QuestionsCorrect(
-                          correct: positionAnswers[index],
-                          question: questions[index].mainQuestion,
-                        );
-                      },
-                    ),
-                    if (approve) ...[
-                      const SizedBox(height: 16.0),
-                      Button(
-                        colorLetter: Colors.black45,
-                        colorBackground: const Color.fromARGB(255, 29, 130, 81),
-                        label: 'Price',
-                        onTap: () {
-                          Modular.to.pushReplacementNamed(
-                            '/armors/price',
-                            arguments: {
-                              'piece': piece,
-                            },
+              const SizedBox(height: 16.0),
+            ],
+            Center(
+              child: Container(
+                height: MediaQuery.of(context).size.height * 0.56,
+                color: Colors.white,
+                padding: const EdgeInsets.all(16.0),
+                width: MediaQuery.of(context).size.width * 0.80,
+                child: SingleChildScrollView(
+                  physics: const BouncingScrollPhysics(),
+                  child: Column(
+                    children: [
+                      _NumberUp(
+                        correctAnswers: correctAnswers,
+                        length: questions.length,
+                      ),
+                      const SizedBox(height: 18.0),
+                      ListView.separated(
+                        shrinkWrap: true,
+                        itemCount: questions.length,
+                        physics: const NeverScrollableScrollPhysics(),
+                        separatorBuilder: (context, index) => const Divider(),
+                        itemBuilder: (context, index) {
+                          return QuestionsCorrect(
+                            correct: positionAnswers[index],
+                            question: questions[index].mainQuestion,
                           );
                         },
-                        width: 100.0,
                       ),
+                      if (approve) ...[
+                        const SizedBox(height: 16.0),
+                        Button(
+                          colorLetter: Colors.black45,
+                          colorBackground: const Color.fromARGB(255, 29, 130, 81),
+                          label: 'Price',
+                          onTap: () {
+                            Modular.to.pushReplacementNamed(
+                              '/armors/price',
+                              arguments: {
+                                'piece': piece,
+                              },
+                            );
+                          },
+                          width: 100.0,
+                        ),
+                      ],
                     ],
-                  ],
+                  ),
                 ),
               ),
             ),
-          ),
-        ],
+          ],
+        ),
+        floatingActionButton: (!approve)
+            ? Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Container(
+                    alignment: Alignment.bottomLeft,
+                    height: 130,
+                    width: 100,
+                    padding: const EdgeInsets.only(bottom: 16.0),
+                    child: Button(
+                      colorLetter: Colors.black45,
+                      colorBackground: Colors.blueGrey,
+                      label: 'Menu',
+                      onTap: Modular.to.pop,
+                    ),
+                  ),
+                  SizedBox(
+                    height: 120,
+                    width: 140,
+                    child: Button(
+                      colorLetter: Colors.black45,
+                      colorBackground: Colors.blueGrey,
+                      label: 'Angel',
+                      onTap: () {},
+                    ),
+                  ),
+                ],
+              )
+            : const SizedBox.shrink(),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       ),
-      floatingActionButton: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          Container(
-            alignment: Alignment.bottomLeft,
-            height: 130,
-            width: 100,
-            padding: const EdgeInsets.only(bottom: 16.0),
-            child: Button(
-              colorLetter: Colors.black45,
-              colorBackground: Colors.blueGrey,
-              label: 'Menu',
-              onTap: Modular.to.pop,
-            ),
-          ),
-          SizedBox(
-            height: 120,
-            width: 140,
-            child: Button(
-              colorLetter: Colors.black45,
-              colorBackground: Colors.blueGrey,
-              label: 'Angel',
-              onTap: () {},
-            ),
-          ),
-        ],
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }

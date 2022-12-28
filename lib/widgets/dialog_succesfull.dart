@@ -7,10 +7,12 @@ import '../models/question.dart';
 
 class AnswersSuccesfull extends StatelessWidget {
   final List<Question> questions;
+  final String piece;
 
   const AnswersSuccesfull({
     Key? key,
     required this.questions,
+    required this.piece,
   }) : super(key: key);
 
   @override
@@ -92,6 +94,7 @@ class AnswersSuccesfull extends StatelessWidget {
                       '/armors/questions',
                       arguments: {
                         'questions': questions,
+                        'piece': piece,
                       },
                     );
                   },
@@ -126,7 +129,12 @@ class AnswersSuccesfull extends StatelessWidget {
                     ),
                   ),
                   onPressed: () {
-                    Navigator.pop(context);
+                    Modular.to.pushReplacementNamed(
+                      '/armors/price',
+                      arguments: {
+                        'piece': piece,
+                      },
+                    );
                   },
                   child: Text(
                     S.current.seePiece,

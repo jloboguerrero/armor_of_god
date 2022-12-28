@@ -367,14 +367,55 @@ class _NumberUp extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<bloc.Bloc, bloc.State>(
       builder: (context, state) {
-        return Container(
-          color: const Color.fromARGB(255, 182, 117, 93),
-          padding: const EdgeInsets.all(8.0),
-          child: Text(
-            '${state.model.index + 1} /$length',
+        return CustomPaint(
+          painter: DiamondPainter(color: Colors.red),
+          child: Container(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              children: [
+                Text(
+                  '${state.model.index + 1}',
+                ),
+                const SizedBox(height: 2.0),
+                Container(
+                  color: Colors.black,
+                  height: 1,
+                  width: 12,
+                ),
+                const SizedBox(height: 2.0),
+                Text(
+                  '$length',
+                ),
+              ],
+            ),
           ),
         );
       },
     );
+  }
+}
+
+class DiamondPainter extends CustomPainter {
+  DiamondPainter({required this.color});
+
+  final Color color;
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    var paint = Paint();
+    paint.color = color;
+
+    var path = Path();
+    path.moveTo(size.width / 2, 0);
+    path.lineTo(size.width, size.height / 2);
+    path.lineTo(size.width / 2, size.height);
+    path.lineTo(0, size.height / 2);
+    path.close();
+    canvas.drawPath(path, paint);
+  }
+
+  @override
+  bool shouldRepaint(CustomPainter oldDelegate) {
+    return false;
   }
 }
