@@ -5,12 +5,17 @@ import 'package:armor_of_god/app/armors/armor_two/page.dart' as armor_two;
 import 'package:armor_of_god/app/armors/armor_three/page.dart' as armor_three;
 
 class Page extends StatelessWidget {
-  const Page({Key? key}) : super(key: key);
+  final int initialPage;
+
+  const Page({
+    Key? key,
+    required this.initialPage,
+  }) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     final controller = PageController(
-      initialPage: 0,
+      initialPage: initialPage,
     );
     return Scaffold(
       body: PageView(

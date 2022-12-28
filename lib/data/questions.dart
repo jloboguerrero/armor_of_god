@@ -117,4 +117,36 @@ class Questions {
       ),
     ];
   }
+
+  List<Question> get four {
+    return [
+      const Question(
+        answer: 0,
+        mainQuestion: 'cual es el primer personaje de la biblia?',
+        optionOne: 'Mateo',
+        optionTwo: 'Apocalipsis',
+        optionThree: 'Génesis',
+        optionFour: 'Salmos',
+        optionFive: 'Números',
+      ),
+      const Question(
+        answer: 0,
+        mainQuestion: 'cual es el segundo arbol de la biblia?',
+        optionOne: 'Mateo',
+        optionTwo: 'Apocalipsis',
+        optionThree: 'Génesis',
+        optionFour: 'Salmos',
+        optionFive: 'Números',
+      ),
+      const Question(
+        answer: 0,
+        mainQuestion: 'cual es el tercer ave de la biblia?',
+        optionOne: 'Mateo',
+        optionTwo: 'Apocalipsis',
+        optionThree: 'Génesis',
+        optionFour: 'Salmos',
+        optionFive: 'Números',
+      ),
+    ];
+  }
 }

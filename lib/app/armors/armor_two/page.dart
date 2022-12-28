@@ -50,7 +50,7 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_4
                       ? () {
-                          final questionsFirst = Questions().first;
+                          final questionsFirst = Questions().four;
                           showDialog(
                             context: context,
                             builder: (context) => AnswersSuccesfull(
@@ -60,7 +60,7 @@ class Page extends StatelessWidget {
                           );
                         }
                       : () {
-                          final questionsFirst = Questions().first; // );
+                          final questionsFirst = Questions().four;
                           (armorCheck.armors!.armor_1 &&
                                   armorCheck.armors!.armor_2 &&
                                   armorCheck.armors!.armor_3)

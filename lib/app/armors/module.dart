@@ -15,7 +15,9 @@ class ArmorsModule extends Module {
   List<ModularRoute> get routes => [
         ChildRoute(
           Modular.initialRoute,
-          child: (_, args) => const armor.Page(),
+          child: (_, args) => armor.Page(
+            initialPage: args.data['initial_page'],
+          ),
           transition: TransitionType.fadeIn,
         ),
         ChildRoute(

@@ -46,6 +46,9 @@ class Page extends StatelessWidget {
         case 'three':
           prefs.armorThird = true;
           break;
+        case 'four':
+          prefs.armorFour = true;
+          break;
         default:
           break;
       }
@@ -73,6 +76,14 @@ class Page extends StatelessWidget {
           backgroundColor: const Color.fromARGB(255, 70, 56, 56),
           centerTitle: true,
           elevation: 0,
+          leading: IconButton(
+            icon: const Icon(
+              Icons.arrow_back,
+            ),
+            onPressed: () {
+              Modular.to.pop();
+            },
+          ),
           title: const Text(
             'Results',
             style: TextStyle(
@@ -126,7 +137,8 @@ class Page extends StatelessWidget {
                         const SizedBox(height: 16.0),
                         Button(
                           colorLetter: Colors.black45,
-                          colorBackground: const Color.fromARGB(255, 29, 130, 81),
+                          colorBackground:
+                              const Color.fromARGB(255, 29, 130, 81),
                           label: 'Price',
                           onTap: () {
                             Modular.to.pushReplacementNamed(

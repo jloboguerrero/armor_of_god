@@ -14,18 +14,27 @@ class Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     Item pieces;
+    int initialPage;
     switch (piece) {
       case 'one':
         pieces = Pieces().one;
+        initialPage = 0;
         break;
       case 'two':
         pieces = Pieces().two;
+        initialPage = 0;
         break;
       case 'three':
         pieces = Pieces().three;
+        initialPage = 0;
+        break;
+      case 'four':
+        pieces = Pieces().four;
+        initialPage = 1;
         break;
       default:
         pieces = Pieces().one;
+        initialPage = 0;
         break;
     }
     return WillPopScope(
@@ -44,7 +53,12 @@ class Page extends StatelessWidget {
             ),
             onPressed: () {
               Modular.to.popUntil(ModalRoute.withName('/'));
-              Modular.to.pushNamed('/armors/');
+              Modular.to.pushNamed(
+                '/armors/',
+                arguments: {
+                  'initial_page': initialPage,
+                },
+              );
             },
           ),
           title: const Text(''),
