@@ -1,3 +1,5 @@
+import 'package:armor_of_god/widgets/angel.dart';
+import 'package:armor_of_god/widgets/first_modal.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart'
@@ -100,29 +102,56 @@ class _Body extends StatelessWidget {
             ],
           ),
         ),
-        floatingActionButton: Container(
-          alignment: Alignment.bottomCenter,
-          height: 130,
-          width: 150,
-          child: BlocBuilder<bloc.Bloc, bloc.State>(
-            builder: (context, state) {
-              return Button(
-                colorBackground:
-                    state.model.isValidForm ? Colors.white : Colors.grey,
-                colorLetter: state.model.isValidForm
-                    ? Colors.greenAccent
-                    : Colors.black45,
-                label: 'Submit',
-                onTap: state.model.isValidForm
-                    ? () {
-                        context.read<bloc.Bloc>().add(bloc.SubmitEvent());
-                      }
-                    : () {},
-              );
-            },
-          ),
+        floatingActionButton: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Container(
+              alignment: Alignment.bottomLeft,
+              height: 130,
+              width: 100,
+              padding: const EdgeInsets.only(bottom: 16.0),
+              child: BlocBuilder<bloc.Bloc, bloc.State>(
+                builder: (context, state) {
+                  return Button(
+                    colorBackground:
+                        state.model.isValidForm ? Colors.white : Colors.grey,
+                    colorLetter: state.model.isValidForm
+                        ? Colors.greenAccent
+                        : Colors.black45,
+                    label: 'Submit',
+                    onTap: state.model.isValidForm
+                        ? () {
+                            context.read<bloc.Bloc>().add(bloc.SubmitEvent());
+                          }
+                        : () {},
+                  );
+                },
+              ),
+            ),
+            SizedBox(
+              height: 100,
+              width: 120,
+              child: Button(
+                colorLetter: Colors.black45,
+                colorBackground: Colors.blueGrey,
+                label: 'Angel',
+                onTap: () {
+                  FirstModal.show(
+                    context: context,
+                    child: const Angel(
+                      color: Colors.red,
+                      image: '',
+                      subTitle:
+                          'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+                      title: 'The faith is absolute',
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
         ),
-        floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       ),
     );
   }

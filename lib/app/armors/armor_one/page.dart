@@ -1,6 +1,8 @@
 import 'package:armor_of_god/data/questions.dart';
-import 'package:armor_of_god/config/preferences.dart';
+// import 'package:armor_of_god/config/preferences.dart';
+import 'package:armor_of_god/widgets/angel.dart';
 import 'package:armor_of_god/widgets/dialog_succesfull.dart';
+import 'package:armor_of_god/widgets/first_modal.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -171,8 +173,18 @@ class Page extends StatelessWidget {
               colorBackground: Colors.blueGrey,
               label: 'Angel',
               onTap: () {
-                final prefs = Modular.get<Preferences>();
-                prefs.armorSecond = false;
+                // final prefs = Modular.get<Preferences>();
+                // prefs.armorSecond = false;
+                FirstModal.show(
+                  context: context,
+                  child: const Angel(
+                    color: Colors.red,
+                    image: '',
+                    subTitle:
+                        'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+                    title: 'The faith is absolute',
+                  ),
+                );
               },
             ),
           ),
