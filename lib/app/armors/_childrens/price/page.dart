@@ -77,8 +77,9 @@ class Page extends StatelessWidget {
                 children: [
                   const SizedBox(height: 18.0),
                   Row(
-                    mainAxisAlignment: MainAxisAlignment.end,
+                    mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
+                      const SizedBox.shrink(),
                       Flexible(
                         child: Text(
                           pieces.title + pieces.title,
