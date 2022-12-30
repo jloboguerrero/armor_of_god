@@ -52,24 +52,24 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_4
                       ? () {
-                          final questionsFirst = Questions().four;
+                          final questionsFour = Questions().four;
                           showDialog(
                             context: context,
                             builder: (context) => AnswersSuccesfull(
-                              questions: questionsFirst,
+                              questions: questionsFour,
                               piece: 'four',
                             ),
                           );
                         }
                       : () {
-                          final questionsFirst = Questions().four;
+                          final questionsFour = Questions().four;
                           (armorCheck.armors!.armor_1 &&
                                   armorCheck.armors!.armor_2 &&
                                   armorCheck.armors!.armor_3)
                               ? Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
-                                    'questions': questionsFirst,
+                                    'questions': questionsFour,
                                     'piece': 'four',
                                   },
                                 )
@@ -88,24 +88,24 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_5
                       ? () {
-                          final questionsFirst = Questions().first;
+                          final questionsFive = Questions().five;
                           showDialog(
                             context: context,
                             builder: (context) => AnswersSuccesfull(
-                              questions: questionsFirst,
+                              questions: questionsFive,
                               piece: 'five',
                             ),
                           );
                         }
                       : () {
-                          final questionsFirst = Questions().first;
+                          final questionsFive = Questions().five;
                           (armorCheck.armors!.armor_1 &&
                                   armorCheck.armors!.armor_2 &&
                                   armorCheck.armors!.armor_3)
                               ? Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
-                                    'questions': questionsFirst,
+                                    'questions': questionsFive,
                                     'piece': 'five',
                                   },
                                 )
@@ -124,24 +124,24 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_6
                       ? () {
-                          final questionsFirst = Questions().first;
+                          final questionsSix = Questions().six;
                           showDialog(
                             context: context,
                             builder: (context) => AnswersSuccesfull(
-                              questions: questionsFirst,
+                              questions: questionsSix,
                               piece: 'six',
                             ),
                           );
                         }
                       : () {
-                          final questionsFirst = Questions().first;
+                          final questionsSix = Questions().six;
                           (armorCheck.armors!.armor_1 &&
                                   armorCheck.armors!.armor_2 &&
                                   armorCheck.armors!.armor_3)
                               ? Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
-                                    'questions': questionsFirst,
+                                    'questions': questionsSix,
                                     'piece': 'six',
                                   },
                                 )
@@ -160,24 +160,24 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_7
                       ? () {
-                          final questionsFirst = Questions().first;
+                          final questionsSeven = Questions().seven;
                           showDialog(
                             context: context,
                             builder: (context) => AnswersSuccesfull(
-                              questions: questionsFirst,
+                              questions: questionsSeven,
                               piece: 'seven',
                             ),
                           );
                         }
                       : () {
-                          final questionsFirst = Questions().first;
+                          final questionsSeven = Questions().seven;
                           (armorCheck.armors!.armor_1 &&
                                   armorCheck.armors!.armor_2 &&
                                   armorCheck.armors!.armor_3)
                               ? Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
-                                    'questions': questionsFirst,
+                                    'questions': questionsSeven,
                                     'piece': 'seven',
                                   },
                                 )

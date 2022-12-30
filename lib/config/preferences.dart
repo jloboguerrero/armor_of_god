@@ -16,17 +16,17 @@ class Preferences {
   bool get armorOne => _prefs?.getBool('armor_one') ?? false;
   set armorOne(bool value) => _prefs?.setBool('armor_one', value);
 
-  bool get armorSecond => _prefs?.getBool('armor_second') ?? false;
-  set armorSecond(bool value) => _prefs?.setBool('armor_second', value);
+  bool get armorTwo => _prefs?.getBool('armor_two') ?? false;
+  set armorTwo(bool value) => _prefs?.setBool('armor_two', value);
 
-  bool get armorThird => _prefs?.getBool('armor_third') ?? false;
-  set armorThird(bool value) => _prefs?.setBool('armor_third', value);
+  bool get armorThree => _prefs?.getBool('armor_three') ?? false;
+  set armorThree(bool value) => _prefs?.setBool('armor_three', value);
 
   bool get armorFour => _prefs?.getBool('armor_four') ?? false;
   set armorFour(bool value) => _prefs?.setBool('armor_four', value);
 
-  bool get armorfive => _prefs?.getBool('armor_five') ?? false;
-  set armorfive(bool value) => _prefs?.setBool('armor_five', value);
+  bool get armorFive => _prefs?.getBool('armor_five') ?? false;
+  set armorFive(bool value) => _prefs?.setBool('armor_five', value);
 
   bool get armorSix => _prefs?.getBool('armor_six') ?? false;
   set armorSix(bool value) => _prefs?.setBool('armor_six', value);
@@ -39,6 +39,39 @@ class Preferences {
 
   bool get armorNine => _prefs?.getBool('armor_nine') ?? false;
   set armorNine(bool value) => _prefs?.setBool('armor_nine', value);
+
+  bool get armorTen => _prefs?.getBool('armor_ten') ?? false;
+  set armorTen(bool value) => _prefs?.setBool('armor_ten', value);
+
+  bool get armorEleven => _prefs?.getBool('armor_eleven') ?? false;
+  set armorEleven(bool value) => _prefs?.setBool('armor_eleven', value);
+
+  bool get armorTwelve => _prefs?.getBool('armor_twelve') ?? false;
+  set armorTwelve(bool value) => _prefs?.setBool('armor_twelve', value);
+
+  bool get armorThirteen => _prefs?.getBool('armor_thirteen') ?? false;
+  set armorThirteen(bool value) => _prefs?.setBool('armor_thirteen', value);
+
+  bool get armorFourteen => _prefs?.getBool('armor_fourteen') ?? false;
+  set armorFourteen(bool value) => _prefs?.setBool('armor_fourteen', value);
+
+  bool get armorFiveteen => _prefs?.getBool('armor_fiveteen') ?? false;
+  set armorFiveteen(bool value) => _prefs?.setBool('armor_fiveteen', value);
+
+  bool get armorSixteen => _prefs?.getBool('armor_sixteen') ?? false;
+  set armorSixteen(bool value) => _prefs?.setBool('armor_sixteen', value);
+
+  bool get armorSeventeen => _prefs?.getBool('armor_seventeen') ?? false;
+  set armorSeventeen(bool value) => _prefs?.setBool('armor_seventeen', value);
+
+  bool get armorEighteen => _prefs?.getBool('armor_eighteen') ?? false;
+  set armorEighteen(bool value) => _prefs?.setBool('armor_eighteen', value);
+
+  bool get armorNineteen => _prefs?.getBool('armor_nineteen') ?? false;
+  set armorNineteen(bool value) => _prefs?.setBool('armor_nineteen', value);
+
+  bool get armorTwenty => _prefs?.getBool('armor_twenty') ?? false;
+  set armorTwenty(bool value) => _prefs?.setBool('armor_twenty', value);
 
   Future<void> clear() async {
     await _prefs?.clear();

@@ -44,13 +44,61 @@ class Page extends StatelessWidget {
           prefs.armorOne = true;
           break;
         case 'two':
-          prefs.armorSecond = true;
+          prefs.armorTwo = true;
           break;
         case 'three':
-          prefs.armorThird = true;
+          prefs.armorThree = true;
           break;
         case 'four':
           prefs.armorFour = true;
+          break;
+        case 'five':
+          prefs.armorFive = true;
+          break;
+        case 'six':
+          prefs.armorSix = true;
+          break;
+        case 'seven':
+          prefs.armorSeven = true;
+          break;
+        case 'eight':
+          prefs.armorEight = true;
+          break;
+        case 'nine':
+          prefs.armorNine = true;
+          break;
+        case 'ten':
+          prefs.armorTen = true;
+          break;
+        case 'eleven':
+          prefs.armorEleven = true;
+          break;
+        case 'twelve':
+          prefs.armorTwelve = true;
+          break;
+        case 'thirteen':
+          prefs.armorThirteen = true;
+          break;
+        case 'fourteen':
+          prefs.armorFourteen = true;
+          break;
+        case 'fiveteen':
+          prefs.armorFiveteen = true;
+          break;
+        case 'sixteen':
+          prefs.armorSixteen = true;
+          break;
+        case 'seventeen':
+          prefs.armorSeventeen = true;
+          break;
+        case 'eighteen':
+          prefs.armorEighteen = true;
+          break;
+        case 'nineteen':
+          prefs.armorNineteen = true;
+          break;
+        case 'twenty':
+          prefs.armorTwenty = true;
           break;
         default:
           break;

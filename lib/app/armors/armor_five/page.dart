@@ -6,6 +6,7 @@ import 'package:armor_of_god/data/questions.dart';
 import 'package:armor_of_god/generated/l10n.dart';
 import 'package:armor_of_god/widgets/angel.dart';
 import 'package:armor_of_god/widgets/button.dart';
+import 'package:armor_of_god/widgets/dialog_answer.dart';
 import 'package:armor_of_god/widgets/dialog_succesfull.dart';
 import 'package:armor_of_god/widgets/first_modal.dart';
 
@@ -23,19 +24,22 @@ class Page extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         automaticallyImplyLeading: false,
-        backgroundColor: const Color.fromARGB(255, 119, 75, 59),
+        backgroundColor: Colors.brown,
         centerTitle: true,
         elevation: 0,
         title: Text(
-          S.current.classicArmour,
+          S.current.clothItems,
         ),
       ),
-      backgroundColor: const Color.fromARGB(255, 119, 75, 59),
+      backgroundColor: Colors.brown,
       body: Row(
         children: [
-          const Opacity(
-            opacity: 0.0,
-            child: Icon(
+          GestureDetector(
+            onTap: () => controller.previousPage(
+              duration: const Duration(milliseconds: 700),
+              curve: Curves.easeInOut,
+            ),
+            child: const Icon(
               Icons.arrow_left,
               color: Colors.white,
               size: 50,
@@ -46,88 +50,89 @@ class Page extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 GestureDetector(
-                  onTap: armorCheck.armors!.armor_1
+                  onTap: armorCheck.armors!.armor_12
                       ? () {
-                          final questionsOne = Questions().one;
+                          final questionsTwelve = Questions().twelve;
                           showDialog(
                             context: context,
                             builder: (context) => AnswersSuccesfull(
-                              questions: questionsOne,
-                              piece: 'one',
+                              questions: questionsTwelve,
+                              piece: 'twelve',
                             ),
                           );
                         }
                       : () {
-                          final questionsOne = Questions().one;
-                          Modular.to.pushNamed(
-                            '/armors/questions',
-                            arguments: {
-                              'questions': questionsOne,
-                              'piece': 'one',
-                            },
-                          );
+                          final questionsTwelve = Questions().twelve;
+                          (armorCheck.armors!.armor_1 &&
+                                  armorCheck.armors!.armor_2 &&
+                                  armorCheck.armors!.armor_3 &&
+                                  armorCheck.armors!.armor_4 &&
+                                  armorCheck.armors!.armor_5 &&
+                                  armorCheck.armors!.armor_6 &&
+                                  armorCheck.armors!.armor_7 &&
+                                  armorCheck.armors!.armor_8 &&
+                                  armorCheck.armors!.armor_9 &&
+                                  armorCheck.armors!.armor_10 &&
+                                  armorCheck.armors!.armor_11)
+                              ? Modular.to.pushNamed(
+                                  '/armors/questions',
+                                  arguments: {
+                                    'questions': questionsTwelve,
+                                    'piece': 'twelve',
+                                  },
+                                )
+                              : showDialog(
+                                  context: context,
+                                  builder: (context) => const NeedAnswers(),
+                                );
                         },
                   child: Image.asset(
                     'assets/flags/co.png',
-                    opacity: armorCheck.armors!.armor_1
+                    opacity: armorCheck.armors!.armor_12
                         ? null
                         : const AlwaysStoppedAnimation(.2),
                   ),
                 ),
                 GestureDetector(
-                  onTap: armorCheck.armors!.armor_2
+                  onTap: armorCheck.armors!.armor_13
                       ? () {
-                          final questionsTwo = Questions().two;
+                          final questionsThirteen = Questions().thirteen;
                           showDialog(
                             context: context,
                             builder: (context) => AnswersSuccesfull(
-                              questions: questionsTwo,
-                              piece: 'two',
+                              questions: questionsThirteen,
+                              piece: 'thirteen',
                             ),
                           );
                         }
                       : () {
-                          final questionsTwo = Questions().two;
-                          Modular.to.pushNamed(
-                            '/armors/questions',
-                            arguments: {
-                              'questions': questionsTwo,
-                              'piece': 'two',
-                            },
-                          );
+                          final questionsThirteen = Questions().thirteen;
+                          (armorCheck.armors!.armor_1 &&
+                                  armorCheck.armors!.armor_2 &&
+                                  armorCheck.armors!.armor_3 &&
+                                  armorCheck.armors!.armor_4 &&
+                                  armorCheck.armors!.armor_5 &&
+                                  armorCheck.armors!.armor_6 &&
+                                  armorCheck.armors!.armor_7 &&
+                                  armorCheck.armors!.armor_8 &&
+                                  armorCheck.armors!.armor_9 &&
+                                  armorCheck.armors!.armor_10 &&
+                                  armorCheck.armors!.armor_11)
+                              ? Modular.to.pushNamed(
+                                  '/armors/questions',
+                                  arguments: {
+                                    'questions': questionsThirteen,
+                                    'piece': 'thirteen',
+                                  },
+                                )
+                              : showDialog(
+                                  context: context,
+                                  builder: (context) => const NeedAnswers(),
+                                );
                         },
                   child: Image.asset(
                     'assets/flags/co.png',
-                    opacity: armorCheck.armors!.armor_2
-                        ? null
-                        : const AlwaysStoppedAnimation(.2),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: armorCheck.armors!.armor_3
-                      ? () {
-                          final questionsThree = Questions().three;
-                          showDialog(
-                            context: context,
-                            builder: (context) => AnswersSuccesfull(
-                              questions: questionsThree,
-                              piece: 'three',
-                            ),
-                          );
-                        }
-                      : () {
-                          final questionsThree = Questions().three;
-                          Modular.to.pushNamed(
-                            '/armors/questions',
-                            arguments: {
-                              'questions': questionsThree,
-                              'piece': 'three',
-                            },
-                          );
-                        },
-                  child: Image.asset(
-                    'assets/flags/co.png',
-                    opacity: armorCheck.armors!.armor_3
+                    opacity: armorCheck.armors!.armor_13
                         ? null
                         : const AlwaysStoppedAnimation(.2),
                   ),
@@ -180,7 +185,7 @@ class Page extends StatelessWidget {
                     image: '',
                     subTitle:
                         'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
-                    title: 'The faith is absolute',
+                    title: 'Crist is My Lord',
                   ),
                 );
               },

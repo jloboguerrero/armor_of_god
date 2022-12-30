@@ -52,17 +52,17 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_8
                       ? () {
-                          final questionsFirst = Questions().first;
+                          final questionsEight = Questions().eight;
                           showDialog(
                             context: context,
                             builder: (context) => AnswersSuccesfull(
-                              questions: questionsFirst,
+                              questions: questionsEight,
                               piece: 'eight',
                             ),
                           );
                         }
                       : () {
-                          final questionsFirst = Questions().first;
+                          final questionsEight = Questions().eight;
                           (armorCheck.armors!.armor_1 &&
                                   armorCheck.armors!.armor_2 &&
                                   armorCheck.armors!.armor_3 &&
@@ -73,7 +73,7 @@ class Page extends StatelessWidget {
                               ? Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
-                                    'questions': questionsFirst,
+                                    'questions': questionsEight,
                                     'piece': 'eight',
                                   },
                                 )
@@ -92,17 +92,17 @@ class Page extends StatelessWidget {
                 GestureDetector(
                   onTap: armorCheck.armors!.armor_9
                       ? () {
-                          final questionsFirst = Questions().first;
+                          final questionsNine = Questions().nine;
                           showDialog(
                             context: context,
                             builder: (context) => AnswersSuccesfull(
-                              questions: questionsFirst,
+                              questions: questionsNine,
                               piece: 'nine',
                             ),
                           );
                         }
                       : () {
-                          final questionsFirst = Questions().first;
+                          final questionsNine = Questions().nine;
                           (armorCheck.armors!.armor_1 &&
                                   armorCheck.armors!.armor_2 &&
                                   armorCheck.armors!.armor_3 &&
@@ -113,7 +113,7 @@ class Page extends StatelessWidget {
                               ? Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
-                                    'questions': questionsFirst,
+                                    'questions': questionsNine,
                                     'piece': 'nine',
                                   },
                                 )
@@ -132,9 +132,12 @@ class Page extends StatelessWidget {
               ],
             ),
           ),
-          const Opacity(
-            opacity: 0.0,
-            child: Icon(
+          GestureDetector(
+            onTap: () => controller.nextPage(
+              duration: const Duration(milliseconds: 700),
+              curve: Curves.easeInOut,
+            ),
+            child: const Icon(
               Icons.arrow_right,
               color: Colors.white,
               size: 50,
