@@ -1,7 +1,5 @@
-import 'package:armor_of_god/widgets/angel.dart';
-import 'package:armor_of_god/widgets/first_modal.dart';
-import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_modular/flutter_modular.dart'
     hide ModularWatchExtension;
 
@@ -9,7 +7,9 @@ import 'package:armor_of_god/app/armors/_childrens/questions/bloc/bloc.dart'
     as bloc;
 // import 'package:armor_of_god/generated/l10n.dart';
 import 'package:armor_of_god/models/question.dart';
+import 'package:armor_of_god/widgets/angel.dart';
 import 'package:armor_of_god/widgets/button.dart';
+import 'package:armor_of_god/widgets/first_modal.dart';
 import 'package:armor_of_god/widgets/loading.dart';
 
 class Page extends StatelessWidget {
@@ -116,14 +116,22 @@ class _Body extends StatelessWidget {
                     colorBackground:
                         state.model.isValidForm ? Colors.white : Colors.grey,
                     colorLetter: state.model.isValidForm
-                        ? Colors.greenAccent
+                        ? const Color.fromARGB(255, 14, 96, 56)
                         : Colors.black45,
                     label: 'Submit',
                     onTap: state.model.isValidForm
                         ? () {
                             context.read<bloc.Bloc>().add(bloc.SubmitEvent());
                           }
-                        : () {},
+                        : () {
+                            ScaffoldMessenger.of(context).showSnackBar(
+                              const SnackBar(
+                                backgroundColor: Colors.red,
+                                content: Text('Responde todas las preguntas'),
+                                duration: Duration(milliseconds: 900),
+                              ),
+                            );
+                          },
                   );
                 },
               ),
@@ -131,20 +139,23 @@ class _Body extends StatelessWidget {
             SizedBox(
               height: 100,
               width: 120,
-              child: Button(
-                colorLetter: Colors.black45,
-                colorBackground: Colors.blueGrey,
-                label: 'Angel',
-                onTap: () {
-                  FirstModal.show(
-                    context: context,
-                    child: const Angel(
-                      color: Colors.red,
-                      image: '',
-                      subTitle:
-                          'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
-                      title: 'The faith is absolute',
-                    ),
+              child: BlocBuilder<bloc.Bloc, bloc.State>(
+                builder: (context, state) {
+                  return Button(
+                    colorLetter: Colors.black45,
+                    colorBackground: Colors.blueGrey,
+                    label: 'Angel',
+                    onTap: () {
+                      FirstModal.show(
+                        context: context,
+                        child: Angel(
+                          color: Colors.red,
+                          image: '',
+                          subTitle: questions[state.model.index].theClue,
+                          title: '',
+                        ),
+                      );
+                    },
                   );
                 },
               ),
@@ -247,6 +258,7 @@ class _Item extends StatelessWidget {
                         width: double.infinity,
                         child: Center(
                           child: SingleChildScrollView(
+                            physics: const BouncingScrollPhysics(),
                             child: Text(
                               question.mainQuestion,
                               style: const TextStyle(
@@ -265,6 +277,7 @@ class _Item extends StatelessWidget {
                         padding: const EdgeInsets.all(12.0),
                         width: double.infinity,
                         child: SingleChildScrollView(
+                          physics: const BouncingScrollPhysics(),
                           child: Column(
                             children: [
                               ListTile(

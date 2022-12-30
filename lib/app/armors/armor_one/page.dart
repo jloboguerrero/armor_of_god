@@ -1,15 +1,13 @@
-import 'package:armor_of_god/data/questions.dart';
-// import 'package:armor_of_god/config/preferences.dart';
-import 'package:armor_of_god/widgets/angel.dart';
-import 'package:armor_of_god/widgets/dialog_succesfull.dart';
-import 'package:armor_of_god/widgets/first_modal.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 import 'package:armor_of_god/config/app_config.dart';
-// import 'package:armor_of_god/config/preferences.dart';
+import 'package:armor_of_god/data/questions.dart';
 import 'package:armor_of_god/generated/l10n.dart';
+import 'package:armor_of_god/widgets/angel.dart';
 import 'package:armor_of_god/widgets/button.dart';
+import 'package:armor_of_god/widgets/dialog_succesfull.dart';
+import 'package:armor_of_god/widgets/first_modal.dart';
 
 class Page extends StatelessWidget {
   final PageController controller;
@@ -162,7 +160,9 @@ class Page extends StatelessWidget {
               colorLetter: Colors.black45,
               colorBackground: Colors.blueGrey,
               label: 'Menu',
-              onTap: Modular.to.pop,
+              onTap: () {
+                Scaffold.of(context).openDrawer();
+              },
             ),
           ),
           SizedBox(
@@ -173,8 +173,6 @@ class Page extends StatelessWidget {
               colorBackground: Colors.blueGrey,
               label: 'Angel',
               onTap: () {
-                // final prefs = Modular.get<Preferences>();
-                // prefs.armorSecond = false;
                 FirstModal.show(
                   context: context,
                   child: const Angel(

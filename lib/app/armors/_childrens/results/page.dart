@@ -1,9 +1,12 @@
-import 'package:armor_of_god/config/app_config.dart';
-import 'package:armor_of_god/models/question.dart';
-import 'package:armor_of_god/widgets/button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+
+import 'package:armor_of_god/config/app_config.dart';
 import 'package:armor_of_god/config/preferences.dart';
+import 'package:armor_of_god/models/question.dart';
+import 'package:armor_of_god/widgets/angel.dart';
+import 'package:armor_of_god/widgets/button.dart';
+import 'package:armor_of_god/widgets/first_modal.dart';
 
 class Page extends StatelessWidget {
   const Page({
@@ -159,35 +162,29 @@ class Page extends StatelessWidget {
           ],
         ),
         floatingActionButton: (!approve)
-            ? Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Container(
-                    alignment: Alignment.bottomLeft,
-                    height: 130,
-                    width: 100,
-                    padding: const EdgeInsets.only(bottom: 16.0),
-                    child: Button(
-                      colorLetter: Colors.black45,
-                      colorBackground: Colors.blueGrey,
-                      label: 'Menu',
-                      onTap: Modular.to.pop,
-                    ),
-                  ),
-                  SizedBox(
-                    height: 120,
-                    width: 140,
-                    child: Button(
-                      colorLetter: Colors.black45,
-                      colorBackground: Colors.blueGrey,
-                      label: 'Angel',
-                      onTap: () {},
-                    ),
-                  ),
-                ],
+            ? SizedBox(
+                height: 120,
+                width: 140,
+                child: Button(
+                  colorBackground: Colors.blueGrey,
+                  colorLetter: Colors.black45,
+                  label: 'Angel',
+                  onTap: () {
+                    FirstModal.show(
+                      context: context,
+                      child: const Angel(
+                        color: Colors.red,
+                        image: '',
+                        subTitle:
+                            'Volverlo a intentar hasta responder todas correctamentes!',
+                        title: '',
+                      ),
+                    );
+                  },
+                ),
               )
             : const SizedBox.shrink(),
-        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+        floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
       ),
     );
   }

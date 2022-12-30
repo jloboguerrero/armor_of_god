@@ -9,6 +9,7 @@ class Question extends Equatable {
     required this.optionThree,
     required this.optionFour,
     required this.optionFive,
+    required this.theClue,
   });
 
   final int answer;
@@ -18,6 +19,7 @@ class Question extends Equatable {
   final String optionThree;
   final String optionFour;
   final String optionFive;
+  final String theClue;
 
   Question copyWith({
     int? answer,
@@ -27,6 +29,7 @@ class Question extends Equatable {
     String? optionThree,
     String? optionFour,
     String? optionFive,
+    String? theClue,
   }) =>
       Question(
         answer: answer ?? this.answer,
@@ -36,6 +39,7 @@ class Question extends Equatable {
         optionThree: optionThree ?? this.optionThree,
         optionFour: optionFour ?? this.optionFour,
         optionFive: optionFive ?? this.optionFive,
+        theClue: theClue ?? this.theClue,
       );
 
   factory Question.fromJson(Map<String, dynamic> json) => Question(
@@ -46,6 +50,7 @@ class Question extends Equatable {
         optionThree: json['option_three'] as String,
         optionFour: json['option_four'] as String,
         optionFive: json['option_five'] as String,
+        theClue: json['the_clue'] as String,
       );
 
   Map<String, dynamic> toJson() => {
@@ -56,6 +61,7 @@ class Question extends Equatable {
         'option_three': optionThree,
         'option_four': optionFour,
         'option_five': optionFive,
+        'the_clue': theClue,
       };
 
   @override
@@ -67,5 +73,6 @@ class Question extends Equatable {
         optionThree,
         optionFour,
         optionFive,
+        theClue,
       ];
 }

@@ -1,7 +1,8 @@
-import 'package:armor_of_god/data/pieces.dart';
-import 'package:armor_of_god/models/item.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
+
+import 'package:armor_of_god/data/pieces.dart';
+import 'package:armor_of_god/models/item.dart';
 
 class Page extends StatelessWidget {
   final String piece;
@@ -66,9 +67,9 @@ class Page extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 70, 56, 56),
         body: Center(
           child: Container(
-            height: MediaQuery.of(context).size.height * 0.65,
             color: Colors.white,
-            // padding: const EdgeInsets.all(16.0),
+            height: MediaQuery.of(context).size.height * 0.65,
+            padding: const EdgeInsets.symmetric(horizontal: 16.0),
             width: MediaQuery.of(context).size.width * 0.80,
             child: SingleChildScrollView(
               physics: const BouncingScrollPhysics(),
