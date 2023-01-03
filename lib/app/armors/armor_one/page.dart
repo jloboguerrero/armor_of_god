@@ -57,8 +57,9 @@ class Page extends StatelessWidget {
                             ),
                           );
                         }
-                      : () {
+                      : () async {
                           final questionsOne = Questions().one;
+                          await Modular.to.pushNamed('/armors/countdown');
                           Modular.to.pushNamed(
                             '/armors/questions',
                             arguments: {
@@ -86,8 +87,9 @@ class Page extends StatelessWidget {
                             ),
                           );
                         }
-                      : () {
+                      : () async {
                           final questionsTwo = Questions().two;
+                          await Modular.to.pushNamed('/armors/countdown');
                           Modular.to.pushNamed(
                             '/armors/questions',
                             arguments: {
@@ -115,8 +117,9 @@ class Page extends StatelessWidget {
                             ),
                           );
                         }
-                      : () {
+                      : () async {
                           final questionsThree = Questions().three;
+                          await Modular.to.pushNamed('/armors/countdown');
                           Modular.to.pushNamed(
                             '/armors/questions',
                             arguments: {

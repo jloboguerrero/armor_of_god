@@ -68,6 +68,7 @@ class Page extends StatelessWidget {
               ),
               onTap: () {
                 Navigator.of(context).pop();
+                Modular.to.pushNamed('/option_two');
               },
             ),
             const Divider(

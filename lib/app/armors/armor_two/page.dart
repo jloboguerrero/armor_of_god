@@ -61,22 +61,25 @@ class Page extends StatelessWidget {
                             ),
                           );
                         }
-                      : () {
+                      : () async {
                           final questionsFour = Questions().four;
-                          (armorCheck.armors!.armor_1 &&
-                                  armorCheck.armors!.armor_2 &&
-                                  armorCheck.armors!.armor_3)
-                              ? Modular.to.pushNamed(
-                                  '/armors/questions',
-                                  arguments: {
-                                    'questions': questionsFour,
-                                    'piece': 'four',
-                                  },
-                                )
-                              : showDialog(
-                                  context: context,
-                                  builder: (context) => const NeedAnswers(),
-                                );
+                          if (armorCheck.armors!.armor_1 &&
+                              armorCheck.armors!.armor_2 &&
+                              armorCheck.armors!.armor_3) {
+                            await Modular.to.pushNamed('/armors/countdown');
+                            Modular.to.pushNamed(
+                              '/armors/questions',
+                              arguments: {
+                                'questions': questionsFour,
+                                'piece': 'four',
+                              },
+                            );
+                          } else {
+                            showDialog(
+                              context: context,
+                              builder: (context) => const NeedAnswers(),
+                            );
+                          }
                         },
                   child: Image.asset(
                     'assets/flags/co.png',
@@ -97,22 +100,25 @@ class Page extends StatelessWidget {
                             ),
                           );
                         }
-                      : () {
+                      : () async {
                           final questionsFive = Questions().five;
-                          (armorCheck.armors!.armor_1 &&
-                                  armorCheck.armors!.armor_2 &&
-                                  armorCheck.armors!.armor_3)
-                              ? Modular.to.pushNamed(
-                                  '/armors/questions',
-                                  arguments: {
-                                    'questions': questionsFive,
-                                    'piece': 'five',
-                                  },
-                                )
-                              : showDialog(
-                                  context: context,
-                                  builder: (context) => const NeedAnswers(),
-                                );
+                          if (armorCheck.armors!.armor_1 &&
+                              armorCheck.armors!.armor_2 &&
+                              armorCheck.armors!.armor_3) {
+                            await Modular.to.pushNamed('/armors/countdown');
+                            Modular.to.pushNamed(
+                              '/armors/questions',
+                              arguments: {
+                                'questions': questionsFive,
+                                'piece': 'five',
+                              },
+                            );
+                          } else {
+                            showDialog(
+                              context: context,
+                              builder: (context) => const NeedAnswers(),
+                            );
+                          }
                         },
                   child: Image.asset(
                     'assets/flags/co.png',
@@ -133,22 +139,25 @@ class Page extends StatelessWidget {
                             ),
                           );
                         }
-                      : () {
+                      : () async {
                           final questionsSix = Questions().six;
-                          (armorCheck.armors!.armor_1 &&
-                                  armorCheck.armors!.armor_2 &&
-                                  armorCheck.armors!.armor_3)
-                              ? Modular.to.pushNamed(
-                                  '/armors/questions',
-                                  arguments: {
-                                    'questions': questionsSix,
-                                    'piece': 'six',
-                                  },
-                                )
-                              : showDialog(
-                                  context: context,
-                                  builder: (context) => const NeedAnswers(),
-                                );
+                          if (armorCheck.armors!.armor_1 &&
+                              armorCheck.armors!.armor_2 &&
+                              armorCheck.armors!.armor_3) {
+                            await Modular.to.pushNamed('/armors/countdown');
+                            Modular.to.pushNamed(
+                              '/armors/questions',
+                              arguments: {
+                                'questions': questionsSix,
+                                'piece': 'six',
+                              },
+                            );
+                          } else {
+                            showDialog(
+                              context: context,
+                              builder: (context) => const NeedAnswers(),
+                            );
+                          }
                         },
                   child: Image.asset(
                     'assets/flags/co.png',
@@ -169,22 +178,25 @@ class Page extends StatelessWidget {
                             ),
                           );
                         }
-                      : () {
+                      : () async {
                           final questionsSeven = Questions().seven;
-                          (armorCheck.armors!.armor_1 &&
-                                  armorCheck.armors!.armor_2 &&
-                                  armorCheck.armors!.armor_3)
-                              ? Modular.to.pushNamed(
-                                  '/armors/questions',
-                                  arguments: {
-                                    'questions': questionsSeven,
-                                    'piece': 'seven',
-                                  },
-                                )
-                              : showDialog(
-                                  context: context,
-                                  builder: (context) => const NeedAnswers(),
-                                );
+                          if (armorCheck.armors!.armor_1 &&
+                              armorCheck.armors!.armor_2 &&
+                              armorCheck.armors!.armor_3) {
+                            await Modular.to.pushNamed('/armors/countdown');
+                            Modular.to.pushNamed(
+                              '/armors/questions',
+                              arguments: {
+                                'questions': questionsSeven,
+                                'piece': 'seven',
+                              },
+                            );
+                          } else {
+                            showDialog(
+                              context: context,
+                              builder: (context) => const NeedAnswers(),
+                            );
+                          }
                         },
                   child: Image.asset(
                     'assets/flags/co.png',

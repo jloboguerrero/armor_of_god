@@ -4,6 +4,8 @@ import 'package:armor_of_god/app/armors/page.dart' as armor;
 import 'package:armor_of_god/app/armors/_childrens/price/page.dart' as price;
 import 'package:armor_of_god/app/armors/_childrens/questions/page.dart'
     as questions;
+import 'package:armor_of_god/app/armors/_childrens/questions/countdown.dart'
+    as countdown;
 import 'package:armor_of_god/app/armors/_childrens/results/page.dart'
     as results;
 
@@ -27,6 +29,11 @@ class ArmorsModule extends Module {
             piece: args.data['piece'],
           ),
           transition: TransitionType.fadeIn,
+        ),
+        ChildRoute(
+          '/countdown',
+          child: (context, args) => const countdown.Page(),
+          transition: TransitionType.scale,
         ),
         ChildRoute(
           '/results',

@@ -88,8 +88,9 @@ class AnswersSuccesfull extends StatelessWidget {
                       ),
                     ),
                   ),
-                  onPressed: () {
+                  onPressed: () async {
                     Navigator.pop(context);
+                    await Modular.to.pushNamed('/armors/countdown');
                     Modular.to.pushNamed(
                       '/armors/questions',
                       arguments: {

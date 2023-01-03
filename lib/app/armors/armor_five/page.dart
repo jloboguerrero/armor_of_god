@@ -61,30 +61,33 @@ class Page extends StatelessWidget {
                             ),
                           );
                         }
-                      : () {
+                      : () async {
                           final questionsTwelve = Questions().twelve;
-                          (armorCheck.armors!.armor_1 &&
-                                  armorCheck.armors!.armor_2 &&
-                                  armorCheck.armors!.armor_3 &&
-                                  armorCheck.armors!.armor_4 &&
-                                  armorCheck.armors!.armor_5 &&
-                                  armorCheck.armors!.armor_6 &&
-                                  armorCheck.armors!.armor_7 &&
-                                  armorCheck.armors!.armor_8 &&
-                                  armorCheck.armors!.armor_9 &&
-                                  armorCheck.armors!.armor_10 &&
-                                  armorCheck.armors!.armor_11)
-                              ? Modular.to.pushNamed(
-                                  '/armors/questions',
-                                  arguments: {
-                                    'questions': questionsTwelve,
-                                    'piece': 'twelve',
-                                  },
-                                )
-                              : showDialog(
-                                  context: context,
-                                  builder: (context) => const NeedAnswers(),
-                                );
+                          if (armorCheck.armors!.armor_1 &&
+                              armorCheck.armors!.armor_2 &&
+                              armorCheck.armors!.armor_3 &&
+                              armorCheck.armors!.armor_4 &&
+                              armorCheck.armors!.armor_5 &&
+                              armorCheck.armors!.armor_6 &&
+                              armorCheck.armors!.armor_7 &&
+                              armorCheck.armors!.armor_8 &&
+                              armorCheck.armors!.armor_9 &&
+                              armorCheck.armors!.armor_10 &&
+                              armorCheck.armors!.armor_11) {
+                            await Modular.to.pushNamed('/armors/countdown');
+                            Modular.to.pushNamed(
+                              '/armors/questions',
+                              arguments: {
+                                'questions': questionsTwelve,
+                                'piece': 'twelve',
+                              },
+                            );
+                          } else {
+                            showDialog(
+                              context: context,
+                              builder: (context) => const NeedAnswers(),
+                            );
+                          }
                         },
                   child: Image.asset(
                     'assets/flags/co.png',
@@ -105,30 +108,33 @@ class Page extends StatelessWidget {
                             ),
                           );
                         }
-                      : () {
+                      : () async {
                           final questionsThirteen = Questions().thirteen;
-                          (armorCheck.armors!.armor_1 &&
-                                  armorCheck.armors!.armor_2 &&
-                                  armorCheck.armors!.armor_3 &&
-                                  armorCheck.armors!.armor_4 &&
-                                  armorCheck.armors!.armor_5 &&
-                                  armorCheck.armors!.armor_6 &&
-                                  armorCheck.armors!.armor_7 &&
-                                  armorCheck.armors!.armor_8 &&
-                                  armorCheck.armors!.armor_9 &&
-                                  armorCheck.armors!.armor_10 &&
-                                  armorCheck.armors!.armor_11)
-                              ? Modular.to.pushNamed(
-                                  '/armors/questions',
-                                  arguments: {
-                                    'questions': questionsThirteen,
-                                    'piece': 'thirteen',
-                                  },
-                                )
-                              : showDialog(
-                                  context: context,
-                                  builder: (context) => const NeedAnswers(),
-                                );
+                          if (armorCheck.armors!.armor_1 &&
+                              armorCheck.armors!.armor_2 &&
+                              armorCheck.armors!.armor_3 &&
+                              armorCheck.armors!.armor_4 &&
+                              armorCheck.armors!.armor_5 &&
+                              armorCheck.armors!.armor_6 &&
+                              armorCheck.armors!.armor_7 &&
+                              armorCheck.armors!.armor_8 &&
+                              armorCheck.armors!.armor_9 &&
+                              armorCheck.armors!.armor_10 &&
+                              armorCheck.armors!.armor_11) {
+                            await Modular.to.pushNamed('/armors/countdown');
+                            Modular.to.pushNamed(
+                              '/armors/questions',
+                              arguments: {
+                                'questions': questionsThirteen,
+                                'piece': 'thirteen',
+                              },
+                            );
+                          } else {
+                            showDialog(
+                              context: context,
+                              builder: (context) => const NeedAnswers(),
+                            );
+                          }
                         },
                   child: Image.asset(
                     'assets/flags/co.png',
