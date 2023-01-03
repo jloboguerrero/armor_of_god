@@ -128,7 +128,7 @@ class _Body extends StatelessWidget {
                               const SnackBar(
                                 backgroundColor: Colors.red,
                                 content: Text('Responde todas las preguntas'),
-                                duration: Duration(milliseconds: 900),
+                                duration: Duration(milliseconds: 3700),
                               ),
                             );
                           },
