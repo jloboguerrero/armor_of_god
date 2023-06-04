@@ -1,10 +1,16 @@
 import 'dart:async';
 
+import 'package:armor_of_god/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
 class Page extends StatefulWidget {
-  const Page({Key? key}) : super(key: key);
+  const Page({
+    Key? key,
+    this.color,
+  }) : super(key: key);
+
+  final Color? color;
 
   @override
   _PageState createState() => _PageState();
@@ -43,10 +49,10 @@ class _PageState extends State<Page> {
         body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            const Center(
+            Center(
               child: Text(
-                'Las preguntas comenzaran en:',
-                style: TextStyle(
+                '${S.current.questionsWillStart}:',
+                style: const TextStyle(
                   fontSize: 24,
                   color: Colors.black38,
                   fontWeight: FontWeight.w600,
@@ -56,9 +62,9 @@ class _PageState extends State<Page> {
             const SizedBox(height: 24),
             Text(
               '$_countdownSeconds',
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 42,
-                color: Colors.greenAccent,
+                color: widget.color ?? Colors.greenAccent,
                 fontWeight: FontWeight.w700,
               ),
             ),

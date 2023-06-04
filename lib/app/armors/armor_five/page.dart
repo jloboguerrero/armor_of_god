@@ -188,7 +188,7 @@ class Page extends StatelessWidget {
                   context: context,
                   child: const Angel(
                     color: Colors.red,
-                    image: '',
+                    image: 'assets/images/angel2.png',
                     subTitle:
                         'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
                     title: 'Crist is My Lord',

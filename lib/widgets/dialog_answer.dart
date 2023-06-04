@@ -5,7 +5,10 @@ import 'package:flutter_svg/flutter_svg.dart';
 class NeedAnswers extends StatelessWidget {
   const NeedAnswers({
     Key? key,
+    this.color,
   }) : super(key: key);
+
+  final Color? color;
 
   @override
   Widget build(BuildContext context) {
@@ -65,7 +68,7 @@ class NeedAnswers extends StatelessWidget {
                 ElevatedButton(
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(
-                      const Color.fromARGB(255, 85, 53, 35),
+                      color ?? const Color.fromARGB(255, 85, 53, 35),
                     ),
                     elevation: MaterialStateProperty.all(0.0),
                     shape: MaterialStateProperty.all(

@@ -21,247 +21,327 @@ class Page extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final armorCheck = Modular.get<AppConfig>();
-    return Scaffold(
-      appBar: AppBar(
-        automaticallyImplyLeading: false,
-        backgroundColor: Colors.brown,
-        centerTitle: true,
-        elevation: 0,
-        title: Text(
-          S.current.clothItems,
+    return Container(
+      decoration: const BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage('assets/images/cueva2.png'),
+          fit: BoxFit.cover,
         ),
       ),
-      backgroundColor: Colors.brown,
-      body: Row(
-        children: [
-          GestureDetector(
-            onTap: () => controller.previousPage(
-              duration: const Duration(milliseconds: 700),
-              curve: Curves.easeInOut,
-            ),
-            child: const Icon(
-              Icons.arrow_left,
-              color: Colors.white,
-              size: 50,
-            ),
+      child: Scaffold(
+        appBar: AppBar(
+          automaticallyImplyLeading: false,
+          backgroundColor: const Color.fromARGB(255, 33, 131, 173),
+          centerTitle: true,
+          elevation: 0,
+          title: Text(
+            S.current.clothItems,
           ),
-          Expanded(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                GestureDetector(
-                  onTap: armorCheck.armors!.armor_4
-                      ? () {
-                          final questionsFour = Questions().four;
-                          showDialog(
-                            context: context,
-                            builder: (context) => AnswersSuccesfull(
-                              questions: questionsFour,
-                              piece: 'four',
-                            ),
-                          );
-                        }
-                      : () async {
-                          final questionsFour = Questions().four;
-                          if (armorCheck.armors!.armor_1 &&
-                              armorCheck.armors!.armor_2 &&
-                              armorCheck.armors!.armor_3) {
-                            await Modular.to.pushNamed('/armors/countdown');
-                            Modular.to.pushNamed(
-                              '/armors/questions',
-                              arguments: {
-                                'questions': questionsFour,
-                                'piece': 'four',
-                              },
-                            );
-                          } else {
-                            showDialog(
-                              context: context,
-                              builder: (context) => const NeedAnswers(),
-                            );
-                          }
-                        },
-                  child: Image.asset(
-                    'assets/flags/co.png',
-                    opacity: armorCheck.armors!.armor_4
-                        ? null
-                        : const AlwaysStoppedAnimation(.2),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: armorCheck.armors!.armor_5
-                      ? () {
-                          final questionsFive = Questions().five;
-                          showDialog(
-                            context: context,
-                            builder: (context) => AnswersSuccesfull(
-                              questions: questionsFive,
-                              piece: 'five',
-                            ),
-                          );
-                        }
-                      : () async {
-                          final questionsFive = Questions().five;
-                          if (armorCheck.armors!.armor_1 &&
-                              armorCheck.armors!.armor_2 &&
-                              armorCheck.armors!.armor_3) {
-                            await Modular.to.pushNamed('/armors/countdown');
-                            Modular.to.pushNamed(
-                              '/armors/questions',
-                              arguments: {
-                                'questions': questionsFive,
-                                'piece': 'five',
-                              },
-                            );
-                          } else {
-                            showDialog(
-                              context: context,
-                              builder: (context) => const NeedAnswers(),
-                            );
-                          }
-                        },
-                  child: Image.asset(
-                    'assets/flags/co.png',
-                    opacity: armorCheck.armors!.armor_5
-                        ? null
-                        : const AlwaysStoppedAnimation(.3),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: armorCheck.armors!.armor_6
-                      ? () {
-                          final questionsSix = Questions().six;
-                          showDialog(
-                            context: context,
-                            builder: (context) => AnswersSuccesfull(
-                              questions: questionsSix,
-                              piece: 'six',
-                            ),
-                          );
-                        }
-                      : () async {
-                          final questionsSix = Questions().six;
-                          if (armorCheck.armors!.armor_1 &&
-                              armorCheck.armors!.armor_2 &&
-                              armorCheck.armors!.armor_3) {
-                            await Modular.to.pushNamed('/armors/countdown');
-                            Modular.to.pushNamed(
-                              '/armors/questions',
-                              arguments: {
-                                'questions': questionsSix,
-                                'piece': 'six',
-                              },
-                            );
-                          } else {
-                            showDialog(
-                              context: context,
-                              builder: (context) => const NeedAnswers(),
-                            );
-                          }
-                        },
-                  child: Image.asset(
-                    'assets/flags/co.png',
-                    opacity: armorCheck.armors!.armor_6
-                        ? null
-                        : const AlwaysStoppedAnimation(.2),
-                  ),
-                ),
-                GestureDetector(
-                  onTap: armorCheck.armors!.armor_7
-                      ? () {
-                          final questionsSeven = Questions().seven;
-                          showDialog(
-                            context: context,
-                            builder: (context) => AnswersSuccesfull(
-                              questions: questionsSeven,
-                              piece: 'seven',
-                            ),
-                          );
-                        }
-                      : () async {
-                          final questionsSeven = Questions().seven;
-                          if (armorCheck.armors!.armor_1 &&
-                              armorCheck.armors!.armor_2 &&
-                              armorCheck.armors!.armor_3) {
-                            await Modular.to.pushNamed('/armors/countdown');
-                            Modular.to.pushNamed(
-                              '/armors/questions',
-                              arguments: {
-                                'questions': questionsSeven,
-                                'piece': 'seven',
-                              },
-                            );
-                          } else {
-                            showDialog(
-                              context: context,
-                              builder: (context) => const NeedAnswers(),
-                            );
-                          }
-                        },
-                  child: Image.asset(
-                    'assets/flags/co.png',
-                    opacity: armorCheck.armors!.armor_7
-                        ? null
-                        : const AlwaysStoppedAnimation(.2),
-                  ),
-                ),
-              ],
+        ),
+        backgroundColor: Colors.transparent,
+        body: Row(
+          children: [
+            GestureDetector(
+              onTap: () => controller.previousPage(
+                duration: const Duration(milliseconds: 700),
+                curve: Curves.easeInOut,
+              ),
+              child: const Icon(
+                Icons.arrow_left,
+                color: Colors.white,
+                size: 50,
+              ),
             ),
-          ),
-          GestureDetector(
-            onTap: () => controller.nextPage(
-              duration: const Duration(milliseconds: 700),
-              curve: Curves.easeInOut,
+            Expanded(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      GestureDetector(
+                        onTap: armorCheck.armors!.armor_7
+                            ? () {
+                                final questionsSeven = Questions().seven;
+                                showDialog(
+                                  context: context,
+                                  builder: (context) => AnswersSuccesfull(
+                                    questions: questionsSeven,
+                                    piece: 'seven',
+                                  ),
+                                );
+                              }
+                            : () async {
+                                final questionsSeven = Questions().seven;
+                                if (armorCheck.armors!.armor_1 &&
+                                    armorCheck.armors!.armor_2 &&
+                                    armorCheck.armors!.armor_3 &&
+                                    armorCheck.armors!.armor_4 &&
+                                    armorCheck.armors!.armor_5 &&
+                                    armorCheck.armors!.armor_6) {
+                                  await Modular.to
+                                      .pushNamed('/armors/countdown');
+                                  Modular.to.pushNamed(
+                                    '/armors/questions',
+                                    arguments: {
+                                      'questions': questionsSeven,
+                                      'piece': 'seven',
+                                    },
+                                  );
+                                } else {
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => const NeedAnswers(
+                                      color: Color.fromARGB(255, 33, 131, 173),
+                                    ),
+                                  );
+                                }
+                              },
+                        child: Image.asset(
+                          'assets/flags/co.png',
+                          opacity: armorCheck.armors!.armor_7
+                              ? null
+                              : const AlwaysStoppedAnimation(.2),
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: armorCheck.armors!.armor_8
+                            ? () {
+                                final questionsEight = Questions().eight;
+                                showDialog(
+                                  context: context,
+                                  builder: (context) => AnswersSuccesfull(
+                                    questions: questionsEight,
+                                    piece: 'eight',
+                                  ),
+                                );
+                              }
+                            : () async {
+                                final questionsEight = Questions().eight;
+                                if (armorCheck.armors!.armor_1 &&
+                                    armorCheck.armors!.armor_2 &&
+                                    armorCheck.armors!.armor_3 &&
+                                    armorCheck.armors!.armor_4 &&
+                                    armorCheck.armors!.armor_5 &&
+                                    armorCheck.armors!.armor_6) {
+                                  await Modular.to
+                                      .pushNamed('/armors/countdown');
+                                  Modular.to.pushNamed(
+                                    '/armors/questions',
+                                    arguments: {
+                                      'questions': questionsEight,
+                                      'piece': 'eight',
+                                    },
+                                  );
+                                } else {
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => const NeedAnswers(),
+                                  );
+                                }
+                              },
+                        child: Image.asset(
+                          'assets/flags/co.png',
+                          opacity: armorCheck.armors!.armor_8
+                              ? null
+                              : const AlwaysStoppedAnimation(.3),
+                        ),
+                      ),
+                    ],
+                  ),
+                  GestureDetector(
+                    onTap: armorCheck.armors!.armor_9
+                        ? () {
+                            final questionsNine = Questions().nine;
+                            showDialog(
+                              context: context,
+                              builder: (context) => AnswersSuccesfull(
+                                questions: questionsNine,
+                                piece: 'nine',
+                              ),
+                            );
+                          }
+                        : () async {
+                            final questionsNine = Questions().nine;
+                            if (armorCheck.armors!.armor_1 &&
+                                armorCheck.armors!.armor_2 &&
+                                armorCheck.armors!.armor_3 &&
+                                armorCheck.armors!.armor_4 &&
+                                armorCheck.armors!.armor_5 &&
+                                armorCheck.armors!.armor_6) {
+                              await Modular.to.pushNamed('/armors/countdown');
+                              Modular.to.pushNamed(
+                                '/armors/questions',
+                                arguments: {
+                                  'questions': questionsNine,
+                                  'piece': 'nine',
+                                },
+                              );
+                            } else {
+                              showDialog(
+                                context: context,
+                                builder: (context) => const NeedAnswers(),
+                              );
+                            }
+                          },
+                    child: Image.asset(
+                      'assets/flags/co.png',
+                      opacity: armorCheck.armors!.armor_9
+                          ? null
+                          : const AlwaysStoppedAnimation(.2),
+                    ),
+                  ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      GestureDetector(
+                        onTap: armorCheck.armors!.armor_10
+                            ? () {
+                                final questionsTen = Questions().ten;
+                                showDialog(
+                                  context: context,
+                                  builder: (context) => AnswersSuccesfull(
+                                    questions: questionsTen,
+                                    piece: 'ten',
+                                  ),
+                                );
+                              }
+                            : () async {
+                                final questionsTen = Questions().ten;
+                                if (armorCheck.armors!.armor_1 &&
+                                    armorCheck.armors!.armor_2 &&
+                                    armorCheck.armors!.armor_3 &&
+                                    armorCheck.armors!.armor_4 &&
+                                    armorCheck.armors!.armor_5 &&
+                                    armorCheck.armors!.armor_6) {
+                                  await Modular.to
+                                      .pushNamed('/armors/countdown');
+                                  Modular.to.pushNamed(
+                                    '/armors/questions',
+                                    arguments: {
+                                      'questions': questionsTen,
+                                      'piece': 'ten',
+                                    },
+                                  );
+                                } else {
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => const NeedAnswers(),
+                                  );
+                                }
+                              },
+                        child: Image.asset(
+                          'assets/flags/co.png',
+                          opacity: armorCheck.armors!.armor_10
+                              ? null
+                              : const AlwaysStoppedAnimation(.2),
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: armorCheck.armors!.armor_11
+                            ? () {
+                                final questionsEleven = Questions().eleven;
+                                showDialog(
+                                  context: context,
+                                  builder: (context) => AnswersSuccesfull(
+                                    questions: questionsEleven,
+                                    piece: 'eleven',
+                                  ),
+                                );
+                              }
+                            : () async {
+                                final questionsEleven = Questions().eleven;
+                                if (armorCheck.armors!.armor_1 &&
+                                    armorCheck.armors!.armor_2 &&
+                                    armorCheck.armors!.armor_3 &&
+                                    armorCheck.armors!.armor_4 &&
+                                    armorCheck.armors!.armor_5 &&
+                                    armorCheck.armors!.armor_6) {
+                                  await Modular.to
+                                      .pushNamed('/armors/countdown');
+                                  Modular.to.pushNamed(
+                                    '/armors/questions',
+                                    arguments: {
+                                      'questions': questionsEleven,
+                                      'piece': 'eleven',
+                                    },
+                                  );
+                                } else {
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => const NeedAnswers(),
+                                  );
+                                }
+                              },
+                        child: Image.asset(
+                          'assets/flags/co.png',
+                          opacity: armorCheck.armors!.armor_11
+                              ? null
+                              : const AlwaysStoppedAnimation(.2),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
+              ),
             ),
-            child: const Icon(
-              Icons.arrow_right,
-              color: Colors.white,
-              size: 50,
+            GestureDetector(
+              onTap: () => controller.nextPage(
+                duration: const Duration(milliseconds: 700),
+                curve: Curves.easeInOut,
+              ),
+              child: const Icon(
+                Icons.arrow_right,
+                color: Colors.white,
+                size: 50,
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
+        floatingActionButton: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Container(
+              alignment: Alignment.bottomLeft,
+              height: 130,
+              width: 100,
+              padding: const EdgeInsets.only(bottom: 16.0),
+              child: Button(
+                colorLetter: Colors.black45,
+                colorBackground: Colors.blueGrey,
+                label: 'Menu',
+                onTap: () {
+                  Scaffold.of(context).openDrawer();
+                },
+              ),
+            ),
+            SizedBox(
+              height: 140,
+              width: 180,
+              child: GestureDetector(
+                onTap: () {
+                  FirstModal.show(
+                    context: context,
+                    child: const Angel(
+                      color: Color.fromARGB(255, 33, 131, 173),
+                      image: 'assets/images/angel2.png',
+                      subTitle:
+                          'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+                      title: 'God is Inmutable',
+                    ),
+                  );
+                },
+                child: Image.asset(
+                  'assets/images/angel1.png',
+                  color: const Color.fromARGB(255, 33, 131, 173),
+                  colorBlendMode: BlendMode.hue,
+                ),
+              ),
+            ),
+          ],
+        ),
+        floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       ),
-      floatingActionButton: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          Container(
-            alignment: Alignment.bottomLeft,
-            height: 130,
-            width: 100,
-            padding: const EdgeInsets.only(bottom: 16.0),
-            child: Button(
-              colorLetter: Colors.black45,
-              colorBackground: Colors.blueGrey,
-              label: 'Menu',
-              onTap: () {
-                Scaffold.of(context).openDrawer();
-              },
-            ),
-          ),
-          SizedBox(
-            height: 120,
-            width: 140,
-            child: Button(
-              colorLetter: Colors.black45,
-              colorBackground: Colors.blueGrey,
-              label: 'Angel',
-              onTap: () {
-                FirstModal.show(
-                  context: context,
-                  child: const Angel(
-                    color: Colors.red,
-                    image: '',
-                    subTitle:
-                        'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
-                    title: 'God is Inmutable',
-                  ),
-                );
-              },
-            ),
-          ),
-        ],
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }

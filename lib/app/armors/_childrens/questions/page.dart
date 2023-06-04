@@ -14,11 +14,13 @@ import 'package:armor_of_god/widgets/loading.dart';
 
 class Page extends StatelessWidget {
   const Page({
+    this.color,
     Key? key,
     required this.questions,
     required this.piece,
   }) : super(key: key);
 
+  final Color? color;
   final List<Question> questions;
   final String piece;
 
@@ -33,6 +35,7 @@ class Page extends StatelessWidget {
           ),
         ),
       child: _Body(
+        color: color,
         questions: questions,
         piece: piece,
       ),
@@ -42,11 +45,13 @@ class Page extends StatelessWidget {
 
 class _Body extends StatelessWidget {
   const _Body({
+    this.color,
     Key? key,
     required this.questions,
     required this.piece,
   }) : super(key: key);
 
+  final Color? color;
   final List<Question> questions;
   final String piece;
 
@@ -95,7 +100,10 @@ class _Body extends StatelessWidget {
           physics: const NeverScrollableScrollPhysics(),
           child: Column(
             children: [
-              _NumberUp(length: questions.length),
+              _NumberUp(
+                color: color,
+                length: questions.length,
+              ),
               _PageView(
                 questions: questions,
               ),
@@ -137,25 +145,26 @@ class _Body extends StatelessWidget {
               ),
             ),
             SizedBox(
-              height: 100,
-              width: 120,
+              height: 140,
+              width: 180,
               child: BlocBuilder<bloc.Bloc, bloc.State>(
                 builder: (context, state) {
-                  return Button(
-                    colorLetter: Colors.black45,
-                    colorBackground: Colors.blueGrey,
-                    label: 'Angel',
+                  return GestureDetector(
                     onTap: () {
                       FirstModal.show(
                         context: context,
                         child: Angel(
-                          color: Colors.red,
-                          image: '',
-                          subTitle: questions[state.model.index].theClue,
-                          title: '',
+                          color: const Color.fromARGB(255, 119, 75, 59),
+                          image: 'assets/images/angel2.png',
+                          subTitle:
+                              state.model.questions[state.model.index].theClue,
+                          title: 'The faith is absolute',
                         ),
                       );
                     },
+                    child: Image.asset(
+                      'assets/images/angel1.png',
+                    ),
                   );
                 },
               ),
@@ -399,10 +408,12 @@ class _Item extends StatelessWidget {
 
 class _NumberUp extends StatelessWidget {
   const _NumberUp({
+    this.color,
     Key? key,
     required this.length,
   }) : super(key: key);
 
+  final Color? color;
   final int length;
 
   @override
@@ -410,7 +421,7 @@ class _NumberUp extends StatelessWidget {
     return BlocBuilder<bloc.Bloc, bloc.State>(
       builder: (context, state) {
         return CustomPaint(
-          painter: DiamondPainter(color: Colors.red),
+          painter: DiamondPainter(color: color ?? Colors.red),
           child: Container(
             padding: const EdgeInsets.all(16.0),
             child: Column(

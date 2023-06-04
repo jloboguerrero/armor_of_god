@@ -96,8 +96,8 @@ class _Country extends StatelessWidget {
             children: [
               Image.asset(
                 state.model.country.logo ?? 'assets/flags/co.png',
-                height: 20.0,
-                width: 20.0,
+                height: state.model.country.countryCode == 'US' ? 15.0 : 20.0,
+                width: state.model.country.countryCode == 'US' ? 15.0 : 20.0,
               ),
               const SizedBox(width: 5.0),
               Text(

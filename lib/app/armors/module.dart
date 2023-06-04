@@ -25,6 +25,7 @@ class ArmorsModule extends Module {
         ChildRoute(
           '/questions',
           child: (context, args) => questions.Page(
+            color: args.data?['color'],
             questions: args.data['questions'],
             piece: args.data['piece'],
           ),
@@ -32,7 +33,9 @@ class ArmorsModule extends Module {
         ),
         ChildRoute(
           '/countdown',
-          child: (context, args) => const countdown.Page(),
+          child: (context, args) => countdown.Page(
+            color: args.data?['color'],
+          ),
           transition: TransitionType.scale,
         ),
         ChildRoute(

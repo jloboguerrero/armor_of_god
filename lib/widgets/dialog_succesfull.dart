@@ -6,14 +6,16 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../models/question.dart';
 
 class AnswersSuccesfull extends StatelessWidget {
-  final List<Question> questions;
-  final String piece;
-
   const AnswersSuccesfull({
+    this.color,
     Key? key,
     required this.questions,
     required this.piece,
   }) : super(key: key);
+
+  final Color? color;
+  final List<Question> questions;
+  final String piece;
 
   @override
   Widget build(BuildContext context) {
@@ -44,11 +46,9 @@ class AnswersSuccesfull extends StatelessWidget {
           ],
         ),
         children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-            child: SvgPicture.asset(
-              'assets/icons/check_circle.svg',
-            ),
+          SvgPicture.asset(
+            'assets/icons/check_circle.svg',
+            color: color ?? Colors.green,
           ),
           const SizedBox(height: 18.0),
           Padding(
@@ -73,7 +73,7 @@ class AnswersSuccesfull extends StatelessWidget {
                 ElevatedButton(
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(
-                      const Color.fromARGB(255, 85, 53, 35),
+                      color ?? const Color.fromARGB(255, 85, 53, 35),
                     ),
                     elevation: MaterialStateProperty.all(0.0),
                     shape: MaterialStateProperty.all(
@@ -90,10 +90,16 @@ class AnswersSuccesfull extends StatelessWidget {
                   ),
                   onPressed: () async {
                     Navigator.pop(context);
-                    await Modular.to.pushNamed('/armors/countdown');
+                    await Modular.to.pushNamed(
+                      '/armors/countdown',
+                      arguments: {
+                        'color': color,
+                      },
+                    );
                     Modular.to.pushNamed(
                       '/armors/questions',
                       arguments: {
+                        'color': color,
                         'questions': questions,
                         'piece': piece,
                       },
@@ -114,7 +120,7 @@ class AnswersSuccesfull extends StatelessWidget {
                 ElevatedButton(
                   style: ButtonStyle(
                     backgroundColor: MaterialStateProperty.all(
-                      const Color.fromARGB(255, 85, 53, 35),
+                      color ?? const Color.fromARGB(255, 85, 53, 35),
                     ),
                     elevation: MaterialStateProperty.all(0.0),
                     shape: MaterialStateProperty.all(

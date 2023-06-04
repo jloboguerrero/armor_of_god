@@ -88,10 +88,11 @@ class Angel extends StatelessWidget {
                 ),
               ),
               FadeInRight(
-                child: Container(
-                  height: 140.0,
+                child: Image.asset(
+                  image,
                   width: 120.0,
-                  color: Colors.blue,
+                  color: color,
+                  colorBlendMode: BlendMode.hue,
                 ),
               ),
             ],
