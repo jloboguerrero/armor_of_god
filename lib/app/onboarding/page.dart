@@ -57,25 +57,7 @@ class _Body extends StatelessWidget {
           ],
         ),
       ),
-      floatingActionButton: Container(
-        alignment: Alignment.topCenter,
-        height: 130,
-        width: double.infinity,
-        child: BlocBuilder<bloc.Bloc, bloc.State>(
-          builder: (context, state) {
-            return Button(
-              label: S.current.enter,
-              onTap: () => Modular.to.pushNamed(
-                '/armors/',
-                arguments: {
-                  'initial_page': 0,
-                },
-              ),
-            );
-          },
-        ),
-      ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      bottomNavigationBar: const _Button(),
     );
   }
 }
@@ -408,6 +390,58 @@ class _CountryItem extends StatelessWidget {
           Navigator.pop(context);
         },
       ),
+    );
+  }
+}
+
+class _Button extends StatelessWidget {
+  const _Button({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Stack(
+      alignment: Alignment.bottomCenter,
+      children: [
+        Container(
+          decoration: const BoxDecoration(
+            borderRadius: BorderRadius.only(
+              topRight: Radius.circular(
+                25.0,
+              ),
+              topLeft: Radius.circular(
+                25.0,
+              ),
+            ),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.grey,
+                offset: Offset(0.0, 1.0),
+                blurRadius: 6.0,
+              ),
+            ],
+            color: Colors.white,
+          ),
+          height: 110,
+        ),
+        Positioned(
+          bottom: 30.0,
+          child: BlocBuilder<bloc.Bloc, bloc.State>(
+            builder: (context, state) {
+              return Button(
+                label: S.current.enter,
+                onTap: () => Modular.to.pushNamed(
+                  '/armors/',
+                  arguments: {
+                    'initial_page': 0,
+                  },
+                ),
+              );
+            },
+          ),
+        ),
+      ],
     );
   }
 }

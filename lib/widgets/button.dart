@@ -27,15 +27,16 @@ class Button extends StatelessWidget {
         alignment: Alignment.center,
         height: height,
         decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10),
-            color: colorBackground,
-            boxShadow: <BoxShadow>[
-              BoxShadow(
-                blurRadius: 10,
-                color: Colors.black.withOpacity(0.3),
-                offset: const Offset(4, 6),
-              )
-            ]),
+          borderRadius: BorderRadius.circular(10),
+          color: colorBackground,
+          boxShadow: <BoxShadow>[
+            BoxShadow(
+              blurRadius: 10,
+              color: Colors.black.withOpacity(0.2),
+              offset: const Offset(4, 6),
+            )
+          ],
+        ),
         width: width,
         child: Text(
           label,

@@ -429,8 +429,8 @@ class Page extends StatelessWidget {
             width: 100,
             padding: const EdgeInsets.only(bottom: 16.0),
             child: Button(
-              colorLetter: Colors.black45,
-              colorBackground: Colors.blueGrey,
+              colorLetter: const Color.fromARGB(255, 211, 209, 209),
+              colorBackground: const Color.fromARGB(206, 16, 12, 12),
               label: 'Menu',
               onTap: () {
                 Scaffold.of(context).openDrawer();
