@@ -110,6 +110,66 @@ class S {
     );
   }
 
+  /// `Cinturón de la Verdad`
+  String get armor1 {
+    return Intl.message(
+      'Cinturón de la Verdad',
+      name: 'armor1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Coraza de la Justicia`
+  String get armor2 {
+    return Intl.message(
+      'Coraza de la Justicia',
+      name: 'armor2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Calzados con la Disposición de Proclamar el Evangelio de la Paz`
+  String get armor3 {
+    return Intl.message(
+      'Calzados con la Disposición de Proclamar el Evangelio de la Paz',
+      name: 'armor3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Escudo de la Fe`
+  String get armor4 {
+    return Intl.message(
+      'Escudo de la Fe',
+      name: 'armor4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Yelmo de la Salvación`
+  String get armor5 {
+    return Intl.message(
+      'Yelmo de la Salvación',
+      name: 'armor5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La Espada del Espíritu`
+  String get armor6 {
+    return Intl.message(
+      'La Espada del Espíritu',
+      name: 'armor6',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Responde todas las preguntas`
   String get answerAllQuestions {
     return Intl.message(
@@ -170,6 +230,16 @@ class S {
     );
   }
 
+  /// `Armadura de Dios`
+  String get armourOfGod {
+    return Intl.message(
+      'Armadura de Dios',
+      name: 'armourOfGod',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Piezas de Ropa`
   String get clothItems {
     return Intl.message(
@@ -185,6 +255,26 @@ class S {
     return Intl.message(
       'Items de Supervivencia',
       name: 'survivalItems',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Armas Especiales`
+  String get specialWeapons {
+    return Intl.message(
+      'Armas Especiales',
+      name: 'specialWeapons',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Coronas`
+  String get crowns {
+    return Intl.message(
+      'Coronas',
+      name: 'crowns',
       desc: '',
       args: [],
     );

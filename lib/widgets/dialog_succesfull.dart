@@ -7,12 +7,16 @@ import '../models/question.dart';
 
 class AnswersSuccesfull extends StatelessWidget {
   const AnswersSuccesfull({
+    required this.armorName,
+    required this.background,
     this.color,
     Key? key,
     required this.questions,
     required this.piece,
   }) : super(key: key);
 
+  final String armorName;
+  final String background;
   final Color? color;
   final List<Question> questions;
   final String piece;
@@ -93,12 +97,14 @@ class AnswersSuccesfull extends StatelessWidget {
                     await Modular.to.pushNamed(
                       '/armors/countdown',
                       arguments: {
+                        'armor_name': armorName,
                         'color': color,
                       },
                     );
                     Modular.to.pushNamed(
                       '/armors/questions',
                       arguments: {
+                        'background': background,
                         'color': color,
                         'questions': questions,
                         'piece': piece,
@@ -139,6 +145,7 @@ class AnswersSuccesfull extends StatelessWidget {
                     Modular.to.pushReplacementNamed(
                       '/armors/price',
                       arguments: {
+                        'background': background,
                         'piece': piece,
                       },
                     );

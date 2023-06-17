@@ -24,12 +24,21 @@ class MessageLookup extends MessageLookupByLibrary {
         "about": MessageLookupByLibrary.simpleMessage("Informação"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceitar"),
         "answerAllQuestions":
-            MessageLookupByLibrary.simpleMessage("responda todas as perguntas"),
+            MessageLookupByLibrary.simpleMessage("Responda todas as perguntas"),
+        "armor1": MessageLookupByLibrary.simpleMessage("Cinturão da Verdade"),
+        "armor2": MessageLookupByLibrary.simpleMessage("Peitoral da Justiça"),
+        "armor3": MessageLookupByLibrary.simpleMessage(
+            "Sapatos com a Vontade de Anunciar o Evangelho da Paz"),
+        "armor4": MessageLookupByLibrary.simpleMessage("Escudo da Fé"),
+        "armor5": MessageLookupByLibrary.simpleMessage("Elmo da Salvação"),
+        "armor6": MessageLookupByLibrary.simpleMessage("A Espada do Espírito"),
+        "armourOfGod": MessageLookupByLibrary.simpleMessage("Armadura de Deus"),
         "classicArmour":
-            MessageLookupByLibrary.simpleMessage("armadura clássica"),
+            MessageLookupByLibrary.simpleMessage("Armadura clássica"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Artigos de Pano"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
             "Você deve completar o nível anterior"),
+        "crowns": MessageLookupByLibrary.simpleMessage("Coroas"),
         "enter": MessageLookupByLibrary.simpleMessage("Entrar"),
         "menu": MessageLookupByLibrary.simpleMessage("Cardápio"),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
@@ -42,10 +51,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "seePiece": MessageLookupByLibrary.simpleMessage("Ler Peça"),
         "selectLanguage":
             MessageLookupByLibrary.simpleMessage("Selecione o idioma"),
-        "suggestion": MessageLookupByLibrary.simpleMessage("sugestão"),
+        "specialWeapons":
+            MessageLookupByLibrary.simpleMessage("Armas Especiais"),
+        "suggestion": MessageLookupByLibrary.simpleMessage("Sugestão"),
         "survivalItems":
             MessageLookupByLibrary.simpleMessage("Itens de Sobrevivência"),
         "termsAndConditions":
-            MessageLookupByLibrary.simpleMessage("termos e Condições")
+            MessageLookupByLibrary.simpleMessage("Termos e Condições")
       };
 }

@@ -108,16 +108,6 @@ class Page extends StatelessWidget {
       }
       final armorCheck = Modular.get<AppConfig>();
       armorCheck.init(prefs: prefs);
-
-      // TODO: Think if apply later
-      // Future.delayed(const Duration(seconds: 5), () {
-      //   Modular.to.pushReplacementNamed(
-      //     '/armors/price',
-      //     arguments: {
-      //       'piece': piece,
-      //     },
-      //   );
-      // });
     }
 
     return WillPopScope(
@@ -141,9 +131,11 @@ class Page extends StatelessWidget {
               icon: const Icon(
                 Icons.arrow_back,
               ),
-              onPressed: () {
-                Modular.to.pop();
-              },
+              onPressed: approve
+                  ? null
+                  : () {
+                      Modular.to.pop();
+                    },
             ),
             title: Text(
               S.current.results,
@@ -171,7 +163,7 @@ class Page extends StatelessWidget {
               Center(
                 child: Container(
                   decoration: BoxDecoration(
-                    color: Colors.white,
+                    color: const Color.fromARGB(255, 244, 240, 229),
                     borderRadius: BorderRadius.circular(16.0),
                   ),
                   height: MediaQuery.of(context).size.height * 0.61,
@@ -209,6 +201,7 @@ class Page extends StatelessWidget {
                               Modular.to.pushReplacementNamed(
                                 '/armors/price',
                                 arguments: {
+                                  'background': background,
                                   'piece': piece,
                                 },
                               );

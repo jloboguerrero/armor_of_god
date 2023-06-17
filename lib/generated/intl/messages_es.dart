@@ -25,11 +25,21 @@ class MessageLookup extends MessageLookupByLibrary {
         "accept": MessageLookupByLibrary.simpleMessage("Aceptar"),
         "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
             "Responde todas las preguntas"),
+        "armor1": MessageLookupByLibrary.simpleMessage("Cinturón de la Verdad"),
+        "armor2": MessageLookupByLibrary.simpleMessage("Coraza de la Justicia"),
+        "armor3": MessageLookupByLibrary.simpleMessage(
+            "Calzados con la Disposición de Proclamar el Evangelio de la Paz"),
+        "armor4": MessageLookupByLibrary.simpleMessage("Escudo de la Fe"),
+        "armor5": MessageLookupByLibrary.simpleMessage("Yelmo de la Salvación"),
+        "armor6":
+            MessageLookupByLibrary.simpleMessage("La Espada del Espíritu"),
+        "armourOfGod": MessageLookupByLibrary.simpleMessage("Armadura de Dios"),
         "classicArmour":
             MessageLookupByLibrary.simpleMessage("Armadura Clásica"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Piezas de Ropa"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
             "Debes completar el nivel anterior"),
+        "crowns": MessageLookupByLibrary.simpleMessage("Coronas"),
         "enter": MessageLookupByLibrary.simpleMessage("Ingresar"),
         "mainQuestionFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "¿Qué o quién representa la roca descrita en Éxodo 17:1-16?"),
@@ -102,6 +112,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "seePiece": MessageLookupByLibrary.simpleMessage("Leer Pieza"),
         "selectLanguage":
             MessageLookupByLibrary.simpleMessage("Seleccionar idioma"),
+        "specialWeapons":
+            MessageLookupByLibrary.simpleMessage("Armas Especiales"),
         "submit": MessageLookupByLibrary.simpleMessage("Enviar"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Sugerencia"),
         "survivalItems":

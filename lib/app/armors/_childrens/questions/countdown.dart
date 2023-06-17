@@ -6,10 +6,12 @@ import 'package:flutter_modular/flutter_modular.dart';
 
 class Page extends StatefulWidget {
   const Page({
-    Key? key,
+    required this.armorName,
     this.color,
+    Key? key,
   }) : super(key: key);
 
+  final String armorName;
   final Color? color;
 
   @override
@@ -46,29 +48,44 @@ class _PageState extends State<Page> {
         return false;
       },
       child: Scaffold(
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Center(
-              child: Text(
-                '${S.current.questionsWillStart}:',
-                style: const TextStyle(
-                  fontSize: 24,
-                  color: Colors.black38,
-                  fontWeight: FontWeight.w600,
+        body: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Center(
+                child: Text(
+                  widget.armorName,
+                  textAlign: TextAlign.center,
+                  style: const TextStyle(
+                    fontSize: 34,
+                    color: Colors.black54,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ),
-            ),
-            const SizedBox(height: 24),
-            Text(
-              '$_countdownSeconds',
-              style: TextStyle(
-                fontSize: 42,
-                color: widget.color ?? Colors.greenAccent,
-                fontWeight: FontWeight.w700,
+              const SizedBox(height: 36),
+              Center(
+                child: Text(
+                  '${S.current.questionsWillStart}:',
+                  style: const TextStyle(
+                    fontSize: 24,
+                    color: Colors.black38,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
               ),
-            ),
-          ],
+              const SizedBox(height: 24),
+              Text(
+                '$_countdownSeconds',
+                style: TextStyle(
+                  fontSize: 42,
+                  color: widget.color ?? Colors.greenAccent,
+                  fontWeight: FontWeight.w700,
+                ),
+              ),
+            ],
+          ),
         ),
       ),
     );

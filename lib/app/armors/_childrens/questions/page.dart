@@ -89,6 +89,7 @@ class _Body extends StatelessWidget {
               'answers': state.model.answers,
               'answers_preview': state.model.answersPreview,
               'approve': false,
+              'background': background,
               'questions': state.model.questions,
               'piece': piece,
             },
@@ -284,7 +285,7 @@ class _Item extends StatelessWidget {
                       const SizedBox(height: 12.0),
                       Container(
                         decoration: BoxDecoration(
-                          color: Colors.white,
+                          color: const Color.fromARGB(255, 244, 240, 229),
                           borderRadius: BorderRadius.circular(16.0),
                         ),
                         height: MediaQuery.of(context).size.height * 0.19,
@@ -307,7 +308,7 @@ class _Item extends StatelessWidget {
                       const SizedBox(height: 24.0),
                       Container(
                         decoration: BoxDecoration(
-                          color: Colors.white,
+                          color: const Color.fromARGB(255, 244, 240, 229),
                           borderRadius: BorderRadius.circular(16.0),
                         ),
                         height: MediaQuery.of(context).size.height * 0.44,

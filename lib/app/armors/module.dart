@@ -35,6 +35,7 @@ class ArmorsModule extends Module {
         ChildRoute(
           '/countdown',
           child: (context, args) => countdown.Page(
+            armorName: args.data?['armor_name'],
             color: args.data?['color'],
           ),
           transition: TransitionType.scale,
@@ -54,6 +55,7 @@ class ArmorsModule extends Module {
         ChildRoute(
           '/price',
           child: (context, args) => price.Page(
+            background: args.data['background'],
             piece: args.data['piece'],
           ),
           transition: TransitionType.fadeIn,

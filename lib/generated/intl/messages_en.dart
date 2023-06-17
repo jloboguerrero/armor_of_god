@@ -25,10 +25,21 @@ class MessageLookup extends MessageLookupByLibrary {
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "answerAllQuestions":
             MessageLookupByLibrary.simpleMessage("Answer all questions"),
+        "armor1": MessageLookupByLibrary.simpleMessage("Belt of Truth"),
+        "armor2": MessageLookupByLibrary.simpleMessage(
+            "The Breastplate of Righteousness"),
+        "armor3": MessageLookupByLibrary.simpleMessage(
+            "Feet Fitted with the Readiness that comes from the Gospel of Peace"),
+        "armor4": MessageLookupByLibrary.simpleMessage("The Shield of Faith"),
+        "armor5": MessageLookupByLibrary.simpleMessage("Helmet of Salvation"),
+        "armor6":
+            MessageLookupByLibrary.simpleMessage("The Sword of the Spirit"),
+        "armourOfGod": MessageLookupByLibrary.simpleMessage("Armour of God"),
         "classicArmour": MessageLookupByLibrary.simpleMessage("Classic Armour"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Cloth Items"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
             "You must complete the previous level"),
+        "crowns": MessageLookupByLibrary.simpleMessage("Crowns"),
         "enter": MessageLookupByLibrary.simpleMessage("Enter"),
         "mainQuestionFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "What or who represents the rock described in Exodus 17:1-16?"),
@@ -100,7 +111,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "seePiece": MessageLookupByLibrary.simpleMessage("Read Piece"),
         "selectLanguage":
             MessageLookupByLibrary.simpleMessage("Select language"),
-        "submit": MessageLookupByLibrary.simpleMessage("submit"),
+        "specialWeapons":
+            MessageLookupByLibrary.simpleMessage("Special Weapons"),
+        "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Suggestion"),
         "survivalItems": MessageLookupByLibrary.simpleMessage("Survival Items"),
         "termsAndConditions":

@@ -34,7 +34,7 @@ class Page extends StatelessWidget {
           centerTitle: true,
           elevation: 0,
           title: Text(
-            S.current.classicArmour,
+            S.current.armourOfGod,
             style: const TextStyle(
               color: Colors.white,
               fontSize: 26.0,
@@ -64,6 +64,8 @@ class Page extends StatelessWidget {
                             showDialog(
                               context: context,
                               builder: (context) => AnswersSuccesfull(
+                                armorName: S.current.armor6,
+                                background: 'assets/images/cueva1.png',
                                 questions: questionsSix,
                                 piece: 'six',
                               ),
@@ -71,7 +73,13 @@ class Page extends StatelessWidget {
                           }
                         : () async {
                             final questionsSix = Questions().six;
-                            await Modular.to.pushNamed('/armors/countdown');
+                            await Modular.to.pushNamed(
+                              '/armors/countdown',
+                              arguments: {
+                                'armor_name': S.current.armor6,
+                                'color': const Color.fromARGB(255, 165, 80, 48),
+                              },
+                            );
                             Modular.to.pushNamed(
                               '/armors/questions',
                               arguments: {
@@ -99,6 +107,8 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor1,
+                                    background: 'assets/images/cueva1.png',
                                     color:
                                         const Color.fromARGB(255, 165, 80, 48),
                                     questions: questionsOne,
@@ -111,6 +121,7 @@ class Page extends StatelessWidget {
                                 await Modular.to.pushNamed(
                                   '/armors/countdown',
                                   arguments: {
+                                    'armor_name': S.current.armor1,
                                     'color':
                                         const Color.fromARGB(255, 165, 80, 48),
                                   },
@@ -141,6 +152,8 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor5,
+                                    background: 'assets/images/cueva1.png',
                                     questions: questionsFive,
                                     piece: 'five',
                                   ),
@@ -148,7 +161,14 @@ class Page extends StatelessWidget {
                               }
                             : () async {
                                 final questionsFive = Questions().five;
-                                await Modular.to.pushNamed('/armors/countdown');
+                                await Modular.to.pushNamed(
+                                  '/armors/countdown',
+                                  arguments: {
+                                    'armor_name': S.current.armor5,
+                                    'color':
+                                        const Color.fromARGB(255, 165, 80, 48),
+                                  },
+                                );
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
@@ -178,6 +198,8 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor2,
+                                    background: 'assets/images/cueva1.png',
                                     questions: questionsTwo,
                                     piece: 'two',
                                   ),
@@ -185,7 +207,14 @@ class Page extends StatelessWidget {
                               }
                             : () async {
                                 final questionsTwo = Questions().two;
-                                await Modular.to.pushNamed('/armors/countdown');
+                                await Modular.to.pushNamed(
+                                  '/armors/countdown',
+                                  arguments: {
+                                    'armor_name': S.current.armor2,
+                                    'color':
+                                        const Color.fromARGB(255, 165, 80, 48),
+                                  },
+                                );
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
@@ -210,6 +239,8 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor4,
+                                    background: 'assets/images/cueva1.png',
                                     questions: questionsFour,
                                     piece: 'four',
                                   ),
@@ -217,7 +248,14 @@ class Page extends StatelessWidget {
                               }
                             : () async {
                                 final questionsFour = Questions().four;
-                                await Modular.to.pushNamed('/armors/countdown');
+                                await Modular.to.pushNamed(
+                                  '/armors/countdown',
+                                  arguments: {
+                                    'armor_name': S.current.armor4,
+                                    'color':
+                                        const Color.fromARGB(255, 165, 80, 48),
+                                  },
+                                );
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
@@ -245,6 +283,8 @@ class Page extends StatelessWidget {
                             showDialog(
                               context: context,
                               builder: (context) => AnswersSuccesfull(
+                                armorName: S.current.armor3,
+                                background: 'assets/images/cueva1.png',
                                 questions: questionsThree,
                                 piece: 'three',
                               ),
@@ -252,7 +292,13 @@ class Page extends StatelessWidget {
                           }
                         : () async {
                             final questionsThree = Questions().three;
-                            await Modular.to.pushNamed('/armors/countdown');
+                            await Modular.to.pushNamed(
+                              '/armors/countdown',
+                              arguments: {
+                                'armor_name': S.current.armor3,
+                                'color': const Color.fromARGB(255, 165, 80, 48),
+                              },
+                            );
                             Modular.to.pushNamed(
                               '/armors/questions',
                               arguments: {

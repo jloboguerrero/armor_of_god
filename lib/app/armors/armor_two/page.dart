@@ -35,9 +35,9 @@ class Page extends StatelessWidget {
           centerTitle: true,
           elevation: 0,
           title: Text(
-            S.current.clothItems,
+            S.current.specialWeapons,
             style: const TextStyle(
-              color: Colors.black,
+              color: Colors.white,
               fontSize: 26.0,
               fontWeight: FontWeight.bold,
             ),
@@ -71,6 +71,8 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor1,
+                                    background: 'assets/images/cueva2.png',
                                     questions: questionsSeven,
                                     piece: 'seven',
                                   ),
@@ -103,10 +105,11 @@ class Page extends StatelessWidget {
                                 }
                               },
                         child: Image.asset(
-                          'assets/flags/co.png',
+                          'assets/images/box.png',
+                          height: 80.0,
                           opacity: armorCheck.armors!.armor_7
                               ? null
-                              : const AlwaysStoppedAnimation(.2),
+                              : const AlwaysStoppedAnimation(.6),
                         ),
                       ),
                       GestureDetector(
@@ -116,6 +119,8 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor1,
+                                    background: 'assets/images/cueva2.png',
                                     questions: questionsEight,
                                     piece: 'eight',
                                   ),
@@ -146,10 +151,11 @@ class Page extends StatelessWidget {
                                 }
                               },
                         child: Image.asset(
-                          'assets/flags/co.png',
+                          'assets/images/box.png',
+                          height: 80.0,
                           opacity: armorCheck.armors!.armor_8
                               ? null
-                              : const AlwaysStoppedAnimation(.3),
+                              : const AlwaysStoppedAnimation(.6),
                         ),
                       ),
                     ],
@@ -161,6 +167,8 @@ class Page extends StatelessWidget {
                             showDialog(
                               context: context,
                               builder: (context) => AnswersSuccesfull(
+                                armorName: S.current.armor1,
+                                background: 'assets/images/cueva2.png',
                                 questions: questionsNine,
                                 piece: 'nine',
                               ),
@@ -190,10 +198,11 @@ class Page extends StatelessWidget {
                             }
                           },
                     child: Image.asset(
-                      'assets/flags/co.png',
+                      'assets/images/box.png',
+                      height: 80.0,
                       opacity: armorCheck.armors!.armor_9
                           ? null
-                          : const AlwaysStoppedAnimation(.2),
+                          : const AlwaysStoppedAnimation(.6),
                     ),
                   ),
                   Row(
@@ -206,6 +215,8 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor1,
+                                    background: 'assets/images/cueva2.png',
                                     questions: questionsTen,
                                     piece: 'ten',
                                   ),
@@ -236,10 +247,11 @@ class Page extends StatelessWidget {
                                 }
                               },
                         child: Image.asset(
-                          'assets/flags/co.png',
+                          'assets/images/box.png',
+                          height: 80.0,
                           opacity: armorCheck.armors!.armor_10
                               ? null
-                              : const AlwaysStoppedAnimation(.2),
+                              : const AlwaysStoppedAnimation(.6),
                         ),
                       ),
                       GestureDetector(
@@ -249,6 +261,8 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor1,
+                                    background: 'assets/images/cueva2.png',
                                     questions: questionsEleven,
                                     piece: 'eleven',
                                   ),
@@ -279,10 +293,11 @@ class Page extends StatelessWidget {
                                 }
                               },
                         child: Image.asset(
-                          'assets/flags/co.png',
+                          'assets/images/box.png',
+                          height: 80.0,
                           opacity: armorCheck.armors!.armor_11
                               ? null
-                              : const AlwaysStoppedAnimation(.2),
+                              : const AlwaysStoppedAnimation(.6),
                         ),
                       ),
                     ],
@@ -328,7 +343,7 @@ class Page extends StatelessWidget {
                   FirstModal.show(
                     context: context,
                     child: const Angel(
-                      color: Color.fromARGB(255, 33, 131, 173),
+                      color: Color.fromARGB(255, 205, 172, 44),
                       image: 'assets/images/angel2.png',
                       subTitle:
                           'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
@@ -338,7 +353,7 @@ class Page extends StatelessWidget {
                 },
                 child: Image.asset(
                   'assets/images/angel1.png',
-                  color: const Color.fromARGB(255, 33, 131, 173),
+                  color: const Color.fromARGB(255, 205, 172, 44),
                   colorBlendMode: BlendMode.hue,
                 ),
               ),
