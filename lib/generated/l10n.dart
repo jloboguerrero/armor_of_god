@@ -60,6 +60,86 @@ class S {
     );
   }
 
+  /// `Menú`
+  String get menu {
+    return Intl.message(
+      'Menú',
+      name: 'menu',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enviar`
+  String get submit {
+    return Intl.message(
+      'Enviar',
+      name: 'submit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Información`
+  String get about {
+    return Intl.message(
+      'Información',
+      name: 'about',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sugerencia`
+  String get suggestion {
+    return Intl.message(
+      'Sugerencia',
+      name: 'suggestion',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resultados`
+  String get results {
+    return Intl.message(
+      'Resultados',
+      name: 'results',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Responde todas las preguntas`
+  String get answerAllQuestions {
+    return Intl.message(
+      'Responde todas las preguntas',
+      name: 'answerAllQuestions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Seleccionar idioma`
+  String get selectLanguage {
+    return Intl.message(
+      'Seleccionar idioma',
+      name: 'selectLanguage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Términos y condiciones`
+  String get termsAndConditions {
+    return Intl.message(
+      'Términos y condiciones',
+      name: 'termsAndConditions',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `¡Hola, bienvenido a The Armor Of God!`
   String get onBoardingTitle1 {
     return Intl.message(

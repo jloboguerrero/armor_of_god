@@ -30,11 +30,16 @@ class Page extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           automaticallyImplyLeading: false,
-          backgroundColor: const Color.fromARGB(255, 165, 80, 48),
+          backgroundColor: Colors.transparent,
           centerTitle: true,
           elevation: 0,
           title: Text(
             S.current.classicArmour,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 26.0,
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ),
         backgroundColor: Colors.transparent,
@@ -70,6 +75,7 @@ class Page extends StatelessWidget {
                             Modular.to.pushNamed(
                               '/armors/questions',
                               arguments: {
+                                'background': 'assets/images/cueva1.png',
                                 'questions': questionsSix,
                                 'piece': 'six',
                               },
@@ -112,6 +118,7 @@ class Page extends StatelessWidget {
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
+                                    'background': 'assets/images/cueva1.png',
                                     'color':
                                         const Color.fromARGB(255, 165, 80, 48),
                                     'questions': questionsOne,
@@ -145,6 +152,7 @@ class Page extends StatelessWidget {
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
+                                    'background': 'assets/images/cueva1.png',
                                     'questions': questionsFive,
                                     'piece': 'five',
                                   },
@@ -181,6 +189,7 @@ class Page extends StatelessWidget {
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
+                                    'background': 'assets/images/cueva1.png',
                                     'questions': questionsTwo,
                                     'piece': 'two',
                                   },
@@ -212,6 +221,7 @@ class Page extends StatelessWidget {
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
+                                    'background': 'assets/images/cueva1.png',
                                     'questions': questionsFour,
                                     'piece': 'four',
                                   },
@@ -246,6 +256,7 @@ class Page extends StatelessWidget {
                             Modular.to.pushNamed(
                               '/armors/questions',
                               arguments: {
+                                'background': 'assets/images/cueva1.png',
                                 'questions': questionsThree,
                                 'piece': 'three',
                               },
@@ -286,7 +297,7 @@ class Page extends StatelessWidget {
               child: Button(
                 colorLetter: const Color.fromARGB(255, 211, 209, 209),
                 colorBackground: const Color.fromARGB(206, 16, 12, 12),
-                label: 'Menu',
+                label: S.current.menu,
                 onTap: () {
                   Scaffold.of(context).openDrawer();
                 },
@@ -312,6 +323,7 @@ class Page extends StatelessWidget {
                   'assets/images/angel1.png',
                   color: const Color.fromARGB(255, 165, 80, 48),
                   colorBlendMode: BlendMode.hue,
+                  fit: BoxFit.contain,
                 ),
               ),
             ),

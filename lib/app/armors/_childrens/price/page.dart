@@ -67,8 +67,11 @@ class Page extends StatelessWidget {
         backgroundColor: const Color.fromARGB(255, 70, 56, 56),
         body: Center(
           child: Container(
-            color: Colors.white,
-            height: MediaQuery.of(context).size.height * 0.65,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(16.0),
+            ),
+            height: MediaQuery.of(context).size.height * 0.80,
             padding: const EdgeInsets.symmetric(horizontal: 16.0),
             width: MediaQuery.of(context).size.width * 0.80,
             child: SingleChildScrollView(

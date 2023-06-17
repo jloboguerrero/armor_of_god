@@ -1,5 +1,13 @@
 {
     "enter": "Ingresar",
+    "menu": "Menú",
+    "submit": "Enviar",
+    "about": "Información",
+    "suggestion": "Sugerencia",
+    "results": "Resultados",
+    "answerAllQuestions": "Responde todas las preguntas",
+    "selectLanguage": "Seleccionar idioma",
+    "termsAndConditions": "Términos y condiciones",
     "onBoardingTitle1": "¡Hola, bienvenido a The Armor Of God!",
     "onBoardingDescription2": "Encuentra todo lo que necesitas saber de la armadura para tu vida en un solo lugar.",
     "classicArmour": "Armadura Clásica",

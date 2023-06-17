@@ -1,5 +1,13 @@
 {
     "enter": "Enter",
+    "menu": "Menu",
+    "submit": "submit",
+    "about": "About",
+    "suggestion": "Suggestion",
+    "results": "Results",
+    "answerAllQuestions": "Answer all questions",
+    "selectLanguage": "Select language",
+    "termsAndConditions": "Terms and conditions",
     "onBoardingTitle1": "Hello, welcome to The Armor Of God!",
     "onBoardingDescription2": "Find everything you need to know of the Armor for your life in just one place.",
     "classicArmour": "Classic Armour",

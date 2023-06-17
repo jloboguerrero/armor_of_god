@@ -21,13 +21,17 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "about": MessageLookupByLibrary.simpleMessage("Informação"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceitar"),
+        "answerAllQuestions":
+            MessageLookupByLibrary.simpleMessage("responda todas as perguntas"),
         "classicArmour":
             MessageLookupByLibrary.simpleMessage("armadura clássica"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Artigos de Pano"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
             "Você deve completar o nível anterior"),
         "enter": MessageLookupByLibrary.simpleMessage("Entrar"),
+        "menu": MessageLookupByLibrary.simpleMessage("Cardápio"),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "Encontre tudo o que você precisa saber sobre a Blindagem para sua vida em um só lugar."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
@@ -36,7 +40,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "seeArmorOrQuestions": MessageLookupByLibrary.simpleMessage(
             "Você pode assistir à peça ou responder às perguntas novamente"),
         "seePiece": MessageLookupByLibrary.simpleMessage("Ler Peça"),
+        "selectLanguage":
+            MessageLookupByLibrary.simpleMessage("Selecione o idioma"),
+        "suggestion": MessageLookupByLibrary.simpleMessage("sugestão"),
         "survivalItems":
-            MessageLookupByLibrary.simpleMessage("Itens de Sobrevivência")
+            MessageLookupByLibrary.simpleMessage("Itens de Sobrevivência"),
+        "termsAndConditions":
+            MessageLookupByLibrary.simpleMessage("termos e Condições")
       };
 }

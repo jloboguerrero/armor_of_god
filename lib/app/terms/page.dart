@@ -1,3 +1,4 @@
+import 'package:armor_of_god/generated/l10n.dart';
 import 'package:flutter/material.dart';
 
 class Page extends StatelessWidget {
@@ -7,9 +8,9 @@ class Page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text(
-          'Términos legales',
-          style: TextStyle(
+        title: Text(
+          S.current.termsAndConditions,
+          style: const TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.w400,
           ),

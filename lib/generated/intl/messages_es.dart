@@ -21,7 +21,10 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "about": MessageLookupByLibrary.simpleMessage("Información"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceptar"),
+        "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
+            "Responde todas las preguntas"),
         "classicArmour":
             MessageLookupByLibrary.simpleMessage("Armadura Clásica"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Piezas de Ropa"),
@@ -38,6 +41,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Puede una mentira tener algún poder sobre la realidad?"),
         "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "¿Cuáles son las palabras claves que te harán ser la semilla que producirá una cosecha de treinta, sesenta y hasta cien veces lo que se sembró, Mateo 13:1-23, Marcos 4:1-20, Lucas 8:1-15?"),
+        "menu": MessageLookupByLibrary.simpleMessage("Menú"),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "Encuentra todo lo que necesitas saber de la armadura para tu vida en un solo lugar."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
@@ -92,11 +96,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "questions": MessageLookupByLibrary.simpleMessage("Preguntas"),
         "questionsWillStart":
             MessageLookupByLibrary.simpleMessage("Las preguntas comenzaran en"),
+        "results": MessageLookupByLibrary.simpleMessage("Resultados"),
         "seeArmorOrQuestions": MessageLookupByLibrary.simpleMessage(
             "Puedes ver la pieza o responder de nuevo las preguntas"),
         "seePiece": MessageLookupByLibrary.simpleMessage("Leer Pieza"),
+        "selectLanguage":
+            MessageLookupByLibrary.simpleMessage("Seleccionar idioma"),
+        "submit": MessageLookupByLibrary.simpleMessage("Enviar"),
+        "suggestion": MessageLookupByLibrary.simpleMessage("Sugerencia"),
         "survivalItems":
             MessageLookupByLibrary.simpleMessage("Items de Supervivencia"),
+        "termsAndConditions":
+            MessageLookupByLibrary.simpleMessage("Términos y condiciones"),
         "theClueFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "Lea 1 Corintios 10:1-11:1 y maravíllese ante la preciosa piedra angular para un fundamento seguro, Isaías 28:16"),
         "theClueFirstPageFour": MessageLookupByLibrary.simpleMessage(

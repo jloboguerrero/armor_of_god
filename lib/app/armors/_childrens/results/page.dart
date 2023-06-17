@@ -1,3 +1,4 @@
+import 'package:armor_of_god/generated/l10n.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -14,6 +15,7 @@ class Page extends StatelessWidget {
     required this.answers,
     required this.answersPreview,
     required this.approve,
+    required this.background,
     required this.questions,
     required this.piece,
   }) : super(key: key);
@@ -21,6 +23,7 @@ class Page extends StatelessWidget {
   final List<int> answers;
   final List<int> answersPreview;
   final bool approve;
+  final String background;
   final List<Question> questions;
   final String piece;
 
@@ -121,118 +124,133 @@ class Page extends StatelessWidget {
       onWillPop: () async {
         return false;
       },
-      child: Scaffold(
-        appBar: AppBar(
-          automaticallyImplyLeading: approve ? false : true,
-          backgroundColor: const Color.fromARGB(255, 70, 56, 56),
-          centerTitle: true,
-          elevation: 0,
-          leading: IconButton(
-            icon: const Icon(
-              Icons.arrow_back,
-            ),
-            onPressed: () {
-              Modular.to.pop();
-            },
-          ),
-          title: const Text(
-            'Results',
-            style: TextStyle(
-              fontSize: 36.0,
-            ),
+      child: Container(
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage(background),
+            fit: BoxFit.cover,
           ),
         ),
-        backgroundColor: const Color.fromARGB(255, 70, 56, 56),
-        body: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            if (approve) ...[
-              const Text(
-                'Congratulations!!!',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 28.0,
-                  fontWeight: FontWeight.w600,
-                ),
+        child: Scaffold(
+          appBar: AppBar(
+            automaticallyImplyLeading: approve ? false : true,
+            backgroundColor: Colors.transparent,
+            centerTitle: true,
+            elevation: 0,
+            leading: IconButton(
+              icon: const Icon(
+                Icons.arrow_back,
               ),
-              const SizedBox(height: 16.0),
-            ],
-            Center(
-              child: Container(
-                height: MediaQuery.of(context).size.height * 0.56,
-                color: Colors.white,
-                padding: const EdgeInsets.all(16.0),
-                width: MediaQuery.of(context).size.width * 0.80,
-                child: SingleChildScrollView(
-                  physics: const BouncingScrollPhysics(),
-                  child: Column(
-                    children: [
-                      _NumberUp(
-                        correctAnswers: correctAnswers,
-                        length: questions.length,
-                      ),
-                      const SizedBox(height: 18.0),
-                      ListView.separated(
-                        shrinkWrap: true,
-                        itemCount: questions.length,
-                        physics: const NeverScrollableScrollPhysics(),
-                        separatorBuilder: (context, index) => const Divider(),
-                        itemBuilder: (context, index) {
-                          return QuestionsCorrect(
-                            correct: positionAnswers[index],
-                            question: questions[index].mainQuestion,
-                          );
-                        },
-                      ),
-                      if (approve) ...[
-                        const SizedBox(height: 16.0),
-                        Button(
-                          colorLetter: Colors.black45,
-                          colorBackground:
-                              const Color.fromARGB(255, 29, 130, 81),
-                          label: 'Price',
-                          onTap: () {
-                            Modular.to.pushReplacementNamed(
-                              '/armors/price',
-                              arguments: {
-                                'piece': piece,
-                              },
+              onPressed: () {
+                Modular.to.pop();
+              },
+            ),
+            title: Text(
+              S.current.results,
+              style: const TextStyle(
+                fontSize: 28.0,
+              ),
+            ),
+          ),
+          backgroundColor: Colors.transparent,
+          body: Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            children: [
+              const SizedBox(height: 36.0),
+              if (approve) ...[
+                const Text(
+                  'Congratulations!!!',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 28.0,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                const SizedBox(height: 20.0),
+              ],
+              Center(
+                child: Container(
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(16.0),
+                  ),
+                  height: MediaQuery.of(context).size.height * 0.61,
+                  padding: const EdgeInsets.all(16.0),
+                  width: MediaQuery.of(context).size.width * 0.80,
+                  child: SingleChildScrollView(
+                    physics: const BouncingScrollPhysics(),
+                    child: Column(
+                      children: [
+                        _NumberUp(
+                          correctAnswers: correctAnswers,
+                          length: questions.length,
+                        ),
+                        const SizedBox(height: 18.0),
+                        ListView.separated(
+                          shrinkWrap: true,
+                          itemCount: questions.length,
+                          physics: const NeverScrollableScrollPhysics(),
+                          separatorBuilder: (context, index) => const Divider(),
+                          itemBuilder: (context, index) {
+                            return QuestionsCorrect(
+                              correct: positionAnswers[index],
+                              question: questions[index].mainQuestion,
                             );
                           },
-                          width: 100.0,
                         ),
+                        if (approve) ...[
+                          const SizedBox(height: 16.0),
+                          Button(
+                            colorLetter: Colors.black54,
+                            colorBackground:
+                                const Color.fromARGB(255, 237, 186, 57),
+                            label: 'Price',
+                            onTap: () {
+                              Modular.to.pushReplacementNamed(
+                                '/armors/price',
+                                arguments: {
+                                  'piece': piece,
+                                },
+                              );
+                            },
+                            width: 100.0,
+                          ),
+                        ],
                       ],
-                    ],
+                    ),
                   ),
                 ),
               ),
-            ),
-          ],
+            ],
+          ),
+          floatingActionButton: (!approve)
+              ? SizedBox(
+                  height: 140,
+                  width: 180,
+                  child: GestureDetector(
+                    onTap: () {
+                      FirstModal.show(
+                        context: context,
+                        child: const Angel(
+                          color: Color.fromARGB(255, 165, 80, 48),
+                          image: 'assets/images/angel2.png',
+                          subTitle:
+                              'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+                          title: 'The faith is absolute',
+                        ),
+                      );
+                    },
+                    child: Image.asset(
+                      'assets/images/angel1.png',
+                      color: const Color.fromARGB(255, 165, 80, 48),
+                      colorBlendMode: BlendMode.hue,
+                      fit: BoxFit.contain,
+                    ),
+                  ),
+                )
+              : const SizedBox.shrink(),
+          floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
         ),
-        floatingActionButton: (!approve)
-            ? SizedBox(
-                height: 120,
-                width: 140,
-                child: Button(
-                  colorBackground: Colors.blueGrey,
-                  colorLetter: Colors.black45,
-                  label: 'Angel',
-                  onTap: () {
-                    FirstModal.show(
-                      context: context,
-                      child: const Angel(
-                        color: Colors.red,
-                        image: '',
-                        subTitle:
-                            'Volverlo a intentar hasta responder todas correctamentes!',
-                        title: '',
-                      ),
-                    );
-                  },
-                ),
-              )
-            : const SizedBox.shrink(),
-        floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,
       ),
     );
   }
@@ -254,7 +272,7 @@ class QuestionsCorrect extends StatelessWidget {
       dense: true,
       title: Text(
         question,
-        maxLines: 1,
+        maxLines: 2,
         overflow: TextOverflow.ellipsis,
       ),
       leading: Icon(
@@ -278,7 +296,10 @@ class _NumberUp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: const Color.fromARGB(255, 182, 117, 93),
+      decoration: BoxDecoration(
+        color: const Color.fromARGB(255, 182, 117, 93),
+        borderRadius: BorderRadius.circular(6.0),
+      ),
       padding: const EdgeInsets.all(8.0),
       child: Text(
         '$correctAnswers /$length',

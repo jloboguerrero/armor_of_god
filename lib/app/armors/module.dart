@@ -25,6 +25,7 @@ class ArmorsModule extends Module {
         ChildRoute(
           '/questions',
           child: (context, args) => questions.Page(
+            background: args.data?['background'],
             color: args.data?['color'],
             questions: args.data['questions'],
             piece: args.data['piece'],
@@ -44,6 +45,7 @@ class ArmorsModule extends Module {
             answers: args.data['answers'],
             answersPreview: args.data['answers_preview'],
             approve: args.data['approve'],
+            background: args.data?['background'],
             questions: args.data['questions'],
             piece: args.data['piece'],
           ),

@@ -31,11 +31,16 @@ class Page extends StatelessWidget {
       child: Scaffold(
         appBar: AppBar(
           automaticallyImplyLeading: false,
-          backgroundColor: const Color.fromARGB(255, 33, 131, 173),
+          backgroundColor: Colors.transparent,
           centerTitle: true,
           elevation: 0,
           title: Text(
             S.current.clothItems,
+            style: const TextStyle(
+              color: Colors.black,
+              fontSize: 26.0,
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ),
         backgroundColor: Colors.transparent,

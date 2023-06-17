@@ -21,7 +21,10 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "about": MessageLookupByLibrary.simpleMessage("About"),
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
+        "answerAllQuestions":
+            MessageLookupByLibrary.simpleMessage("Answer all questions"),
         "classicArmour": MessageLookupByLibrary.simpleMessage("Classic Armour"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Cloth Items"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
@@ -37,6 +40,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Can a lie have some power over reality?"),
         "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "What are the keywords that will make you be the seed that will produce a crop thirty, sixty, and even a hundred times what was sown, Matthew 13:1-23, Mark 4:1-20, Luke 8:1-15?"),
+        "menu": MessageLookupByLibrary.simpleMessage("Menu"),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "Find everything you need to know of the Armor for your life in just one place."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
@@ -90,10 +94,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "questions": MessageLookupByLibrary.simpleMessage("Questions"),
         "questionsWillStart":
             MessageLookupByLibrary.simpleMessage("The questions will start at"),
+        "results": MessageLookupByLibrary.simpleMessage("Results"),
         "seeArmorOrQuestions": MessageLookupByLibrary.simpleMessage(
             "You can either watch the piece or answer the questions again"),
         "seePiece": MessageLookupByLibrary.simpleMessage("Read Piece"),
+        "selectLanguage":
+            MessageLookupByLibrary.simpleMessage("Select language"),
+        "submit": MessageLookupByLibrary.simpleMessage("submit"),
+        "suggestion": MessageLookupByLibrary.simpleMessage("Suggestion"),
         "survivalItems": MessageLookupByLibrary.simpleMessage("Survival Items"),
+        "termsAndConditions":
+            MessageLookupByLibrary.simpleMessage("Terms and conditions"),
         "theClueFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "Read 1 Corinthians 10:1-11:1 and marvel, at the precious cornerstone for a sure foundation, Isaiah 28:16"),
         "theClueFirstPageFour": MessageLookupByLibrary.simpleMessage(
