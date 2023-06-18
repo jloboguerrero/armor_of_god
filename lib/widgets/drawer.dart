@@ -8,12 +8,12 @@ class DrawerMenu extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Drawer(
-      backgroundColor: const Color.fromARGB(255, 108, 81, 14),
+      backgroundColor: const Color(0xff80531C),
       child: ListView(
         children: [
           DrawerHeader(
             decoration: const BoxDecoration(
-              color: Color.fromARGB(255, 85, 63, 5),
+              color: Color.fromARGB(255, 88, 57, 18),
             ),
             child: Center(
               child: Text(

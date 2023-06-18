@@ -5,19 +5,19 @@ class Onboarding {
   List<Item> get all {
     return [
       Item(
-        image: 'assets/images/onboarding_1.png',
-        subtitle: S.current.onBoardingDescription2,
+        image: 'assets/images/logo.png',
+        subtitle: S.current.onBoardingDescription1,
         title: S.current.onBoardingTitle1,
       ),
-      const Item(
-        image: 'assets/flags/co.png',
-        subtitle: 'S.current.onBoardingDescription2V2.br(wCount: -3)',
-        title: 'S.current.onBoardingTitle2',
+      Item(
+        image: 'assets/images/onboarding_1.png',
+        subtitle: S.current.onBoardingDescription2,
+        title: S.current.onBoardingTitle2,
       ),
-      const Item(
+      Item(
         image: 'assets/flags/co.png',
-        subtitle: 'S.current.onBoardingDescription3V2.br(wCount: -2)',
-        title: 'S.current.onBoardingTitle3',
+        subtitle: S.current.onBoardingDescription3,
+        title: S.current.onBoardingTitle3,
       ),
     ];
   }

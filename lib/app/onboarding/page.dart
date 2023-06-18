@@ -53,6 +53,7 @@ class _Body extends StatelessWidget {
         child: Column(
           children: const [
             _PageView(),
+            SizedBox(height: 36.0),
             _Dots(length: 3),
           ],
         ),
@@ -96,7 +97,7 @@ class _Country extends StatelessWidget {
               const SizedBox(width: 7.0),
               const Icon(
                 Icons.keyboard_arrow_down,
-                color: Colors.green,
+                color: Color(0xff80531C),
               ),
             ],
           ),
@@ -173,12 +174,12 @@ class _Item extends StatelessWidget {
               children: [
                 Image.asset(
                   page.image,
-                  height: MediaQuery.of(context).size.height * 0.40,
+                  height: MediaQuery.of(context).size.height * 0.35,
                 ),
                 Text(
                   page.title,
                   style: const TextStyle(
-                    color: Colors.green,
+                    color: Color(0xff80531C),
                     fontSize: 18.0,
                     fontWeight: FontWeight.w700,
                   ),
@@ -246,7 +247,7 @@ class _Dot extends StatelessWidget {
             milliseconds: 300,
           ),
           decoration: BoxDecoration(
-            color: isCurrent ? Colors.green : Colors.grey,
+            color: isCurrent ? const Color(0xff80531C) : Colors.grey,
             borderRadius: BorderRadius.circular(3.0),
           ),
           height: 6.0,
@@ -300,7 +301,7 @@ class _SelectCountry extends StatelessWidget {
                       child: Container(
                         height: 5.0,
                         decoration: const BoxDecoration(
-                          color: Colors.black,
+                          color: Color(0xff80531C),
                           borderRadius: BorderRadius.all(Radius.circular(15.0)),
                         ),
                         width: 86.0,
@@ -308,9 +309,9 @@ class _SelectCountry extends StatelessWidget {
                     ),
                     const SizedBox(height: 12.0),
                     ZoomIn(
-                      child: const Text(
-                        'Seleccione su idioma',
-                        style: TextStyle(
+                      child: Text(
+                        S.current.selectLanguage,
+                        style: const TextStyle(
                           color: Colors.black54,
                           fontFamily: 'Inter',
                           fontSize: 16,
@@ -430,6 +431,7 @@ class _Button extends StatelessWidget {
           child: BlocBuilder<bloc.Bloc, bloc.State>(
             builder: (context, state) {
               return Button(
+                colorLetter: const Color(0xff80531C),
                 label: S.current.enter,
                 onTap: () => Modular.to.pushNamed(
                   '/armors/',

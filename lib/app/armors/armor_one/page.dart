@@ -25,6 +25,7 @@ class Page extends StatelessWidget {
         image: DecorationImage(
           image: AssetImage('assets/images/cueva1.png'),
           fit: BoxFit.cover,
+          opacity: 0.72,
         ),
       ),
       child: Scaffold(
@@ -66,6 +67,7 @@ class Page extends StatelessWidget {
                               builder: (context) => AnswersSuccesfull(
                                 armorName: S.current.armor6,
                                 background: 'assets/images/cueva1.png',
+                                color: const Color.fromARGB(255, 165, 80, 48),
                                 questions: questionsSix,
                                 piece: 'six',
                               ),
@@ -94,7 +96,7 @@ class Page extends StatelessWidget {
                       height: 65.0,
                       opacity: armorCheck.armors!.armor_6
                           ? null
-                          : const AlwaysStoppedAnimation(.4),
+                          : const AlwaysStoppedAnimation(.44),
                     ),
                   ),
                   Row(
@@ -142,7 +144,7 @@ class Page extends StatelessWidget {
                           width: 70.0,
                           opacity: armorCheck.armors!.armor_1
                               ? null
-                              : const AlwaysStoppedAnimation(.4),
+                              : const AlwaysStoppedAnimation(.44),
                         ),
                       ),
                       GestureDetector(
@@ -154,6 +156,8 @@ class Page extends StatelessWidget {
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor5,
                                     background: 'assets/images/cueva1.png',
+                                    color:
+                                        const Color.fromARGB(255, 165, 80, 48),
                                     questions: questionsFive,
                                     piece: 'five',
                                   ),
@@ -183,7 +187,7 @@ class Page extends StatelessWidget {
                           width: 70.0,
                           opacity: armorCheck.armors!.armor_5
                               ? null
-                              : const AlwaysStoppedAnimation(.4),
+                              : const AlwaysStoppedAnimation(.44),
                         ),
                       ),
                     ],
@@ -200,6 +204,8 @@ class Page extends StatelessWidget {
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor2,
                                     background: 'assets/images/cueva1.png',
+                                    color:
+                                        const Color.fromARGB(255, 165, 80, 48),
                                     questions: questionsTwo,
                                     piece: 'two',
                                   ),
@@ -229,7 +235,7 @@ class Page extends StatelessWidget {
                           width: 70.0,
                           opacity: armorCheck.armors!.armor_2
                               ? null
-                              : const AlwaysStoppedAnimation(.4),
+                              : const AlwaysStoppedAnimation(.44),
                         ),
                       ),
                       GestureDetector(
@@ -241,6 +247,8 @@ class Page extends StatelessWidget {
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor4,
                                     background: 'assets/images/cueva1.png',
+                                    color:
+                                        const Color.fromARGB(255, 165, 80, 48),
                                     questions: questionsFour,
                                     piece: 'four',
                                   ),
@@ -270,7 +278,7 @@ class Page extends StatelessWidget {
                           width: 70.0,
                           opacity: armorCheck.armors!.armor_4
                               ? null
-                              : const AlwaysStoppedAnimation(.4),
+                              : const AlwaysStoppedAnimation(.44),
                         ),
                       ),
                     ],
@@ -285,6 +293,7 @@ class Page extends StatelessWidget {
                               builder: (context) => AnswersSuccesfull(
                                 armorName: S.current.armor3,
                                 background: 'assets/images/cueva1.png',
+                                color: const Color.fromARGB(255, 165, 80, 48),
                                 questions: questionsThree,
                                 piece: 'three',
                               ),
@@ -313,7 +322,7 @@ class Page extends StatelessWidget {
                       width: 70.0,
                       opacity: armorCheck.armors!.armor_3
                           ? null
-                          : const AlwaysStoppedAnimation(.4),
+                          : const AlwaysStoppedAnimation(.44),
                     ),
                   ),
                 ],
@@ -338,7 +347,7 @@ class Page extends StatelessWidget {
             Container(
               alignment: Alignment.bottomLeft,
               height: 130,
-              width: 100,
+              width: 130,
               padding: const EdgeInsets.only(bottom: 16.0),
               child: Button(
                 colorLetter: const Color.fromARGB(255, 211, 209, 209),
@@ -351,7 +360,7 @@ class Page extends StatelessWidget {
             ),
             SizedBox(
               height: 140,
-              width: 180,
+              width: 220,
               child: GestureDetector(
                 onTap: () {
                   FirstModal.show(
@@ -367,9 +376,6 @@ class Page extends StatelessWidget {
                 },
                 child: Image.asset(
                   'assets/images/angel1.png',
-                  color: const Color.fromARGB(255, 165, 80, 48),
-                  colorBlendMode: BlendMode.hue,
-                  fit: BoxFit.contain,
                 ),
               ),
             ),

@@ -91,7 +91,6 @@ class Angel extends StatelessWidget {
                 child: Image.asset(
                   image,
                   width: 120.0,
-                  color: color,
                   colorBlendMode: BlendMode.hue,
                 ),
               ),

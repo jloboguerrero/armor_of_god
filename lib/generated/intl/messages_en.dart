@@ -39,6 +39,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "clothItems": MessageLookupByLibrary.simpleMessage("Cloth Items"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
             "You must complete the previous level"),
+        "congratulations":
+            MessageLookupByLibrary.simpleMessage("Congratulations"),
         "crowns": MessageLookupByLibrary.simpleMessage("Crowns"),
         "enter": MessageLookupByLibrary.simpleMessage("Enter"),
         "mainQuestionFirstPageFive": MessageLookupByLibrary.simpleMessage(
@@ -52,10 +54,18 @@ class MessageLookup extends MessageLookupByLibrary {
         "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "What are the keywords that will make you be the seed that will produce a crop thirty, sixty, and even a hundred times what was sown, Matthew 13:1-23, Mark 4:1-20, Luke 8:1-15?"),
         "menu": MessageLookupByLibrary.simpleMessage("Menu"),
+        "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
+            "Welcome to the Armor of God, an interactive application in which with the help of the one who fights our battles, The Almighty Lord, we will start a journey in which we will discover what the Armor of God is and how to use it."),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
-            "Find everything you need to know of the Armor for your life in just one place."),
+            "This application is divided into sections in which you will find pieces, these pieces must be unlocked by answering multiple-choice Biblical questions with no time limit! Once you hit them all you can enjoy the description of each piece in the Armor of God and move on. Remember you cannot go to a section if you have not unlocked all the pieces of the previous section."),
+        "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
+            "When you are in the discovery of each piece you will find jewels that you can obtain by answering only one question! They are precious jewels that will help you in the responsibility of acquiring the Armor of God."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
-            "Hello, welcome to The Armor Of God!"),
+            "Hello, welcome to Armor Of God!"),
+        "onBoardingTitle2":
+            MessageLookupByLibrary.simpleMessage("Functioning:"),
+        "onBoardingTitle3":
+            MessageLookupByLibrary.simpleMessage("There is more!!"),
         "optionFiveFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Our Lord Jesus Christ"),
         "optionFiveFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -102,6 +112,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "Yes, but only if humans decide to believe that lie"),
         "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Seeding; Mark: Sowing; Luke: Reaping"),
+        "price": MessageLookupByLibrary.simpleMessage("Price"),
         "questions": MessageLookupByLibrary.simpleMessage("Questions"),
         "questionsWillStart":
             MessageLookupByLibrary.simpleMessage("The questions will start at"),

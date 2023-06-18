@@ -445,7 +445,7 @@
 //             child: Button(
 //               colorLetter: const Color.fromARGB(255, 211, 209, 209),
 //               colorBackground: const Color.fromARGB(206, 16, 12, 12),
-//               label: 'Menu',
+//               label: S.current.menu,
 //               onTap: () {
 //                 Scaffold.of(context).openDrawer();
 //               },

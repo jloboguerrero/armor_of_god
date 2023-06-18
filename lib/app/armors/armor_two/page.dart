@@ -26,6 +26,7 @@ class Page extends StatelessWidget {
         image: DecorationImage(
           image: AssetImage('assets/images/cueva2.png'),
           fit: BoxFit.cover,
+          opacity: 0.72,
         ),
       ),
       child: Scaffold(
@@ -324,12 +325,12 @@ class Page extends StatelessWidget {
             Container(
               alignment: Alignment.bottomLeft,
               height: 130,
-              width: 100,
+              width: 130,
               padding: const EdgeInsets.only(bottom: 16.0),
               child: Button(
                 colorLetter: const Color.fromARGB(255, 211, 209, 209),
                 colorBackground: const Color.fromARGB(206, 16, 12, 12),
-                label: 'Menu',
+                label: S.current.menu,
                 onTap: () {
                   Scaffold.of(context).openDrawer();
                 },
@@ -337,7 +338,7 @@ class Page extends StatelessWidget {
             ),
             SizedBox(
               height: 140,
-              width: 180,
+              width: 220,
               child: GestureDetector(
                 onTap: () {
                   FirstModal.show(
@@ -353,8 +354,6 @@ class Page extends StatelessWidget {
                 },
                 child: Image.asset(
                   'assets/images/angel1.png',
-                  color: const Color.fromARGB(255, 205, 172, 44),
-                  colorBlendMode: BlendMode.hue,
                 ),
               ),
             ),

@@ -150,9 +150,9 @@ class Page extends StatelessWidget {
             children: [
               const SizedBox(height: 36.0),
               if (approve) ...[
-                const Text(
-                  'Congratulations!!!',
-                  style: TextStyle(
+                Text(
+                  '${S.current.congratulations}!!!',
+                  style: const TextStyle(
                     color: Colors.white,
                     fontSize: 28.0,
                     fontWeight: FontWeight.w600,
@@ -196,7 +196,7 @@ class Page extends StatelessWidget {
                             colorLetter: Colors.black54,
                             colorBackground:
                                 const Color.fromARGB(255, 237, 186, 57),
-                            label: 'Price',
+                            label: S.current.price,
                             onTap: () {
                               Modular.to.pushReplacementNamed(
                                 '/armors/price',
