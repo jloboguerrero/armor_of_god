@@ -7,11 +7,13 @@ import 'package:flutter_modular/flutter_modular.dart';
 class Page extends StatefulWidget {
   const Page({
     required this.armorName,
+    required this.armorPicture,
     this.color,
     Key? key,
   }) : super(key: key);
 
   final String armorName;
+  final String armorPicture;
   final Color? color;
 
   @override
@@ -48,11 +50,17 @@ class _PageState extends State<Page> {
         return false;
       },
       child: Scaffold(
+        backgroundColor: const Color.fromARGB(255, 244, 240, 229),
         body: Padding(
           padding: const EdgeInsets.symmetric(horizontal: 16.0),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              Image.asset(
+                widget.armorPicture,
+                width: 120.0,
+              ),
+              const SizedBox(height: 24.0),
               Center(
                 child: Text(
                   widget.armorName,

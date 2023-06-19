@@ -6,11 +6,15 @@ import 'package:armor_of_god/models/item.dart';
 
 class Page extends StatelessWidget {
   const Page({
+    required this.armorName,
+    required this.armorPicture,
     required this.background,
     Key? key,
     required this.piece,
   }) : super(key: key);
 
+  final String armorName;
+  final String armorPicture;
   final String background;
   final String piece;
 
@@ -94,14 +98,16 @@ class Page extends StatelessWidget {
                         const SizedBox.shrink(),
                         Flexible(
                           child: Text(
-                            pieces.title + pieces.title,
+                            armorName,
+                            style: const TextStyle(
+                              fontSize: 24.0,
+                              fontWeight: FontWeight.w700,
+                            ),
                           ),
                         ),
-                        Flexible(
-                          child: Image.asset(
-                            pieces.image,
-                            height: MediaQuery.of(context).size.height * 0.12,
-                          ),
+                        Image.asset(
+                          armorPicture,
+                          height: MediaQuery.of(context).size.height * 0.2,
                         ),
                       ],
                     ),

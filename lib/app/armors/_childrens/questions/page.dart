@@ -14,6 +14,8 @@ import 'package:armor_of_god/widgets/loading.dart';
 
 class Page extends StatelessWidget {
   const Page({
+    required this.armorName,
+    required this.armorPicture,
     required this.background,
     this.color,
     Key? key,
@@ -21,6 +23,8 @@ class Page extends StatelessWidget {
     required this.piece,
   }) : super(key: key);
 
+  final String armorName;
+  final String armorPicture;
   final String background;
   final Color? color;
   final List<Question> questions;
@@ -37,6 +41,8 @@ class Page extends StatelessWidget {
           ),
         ),
       child: _Body(
+        armorName: armorName,
+        armorPicture: armorPicture,
         background: background,
         color: color,
         questions: questions,
@@ -48,6 +54,8 @@ class Page extends StatelessWidget {
 
 class _Body extends StatelessWidget {
   const _Body({
+    required this.armorName,
+    required this.armorPicture,
     required this.background,
     this.color,
     Key? key,
@@ -55,6 +63,8 @@ class _Body extends StatelessWidget {
     required this.piece,
   }) : super(key: key);
 
+  final String armorName;
+  final String armorPicture;
   final String background;
   final Color? color;
   final List<Question> questions;
@@ -75,6 +85,8 @@ class _Body extends StatelessWidget {
               'answers': state.model.answers,
               'answers_preview': state.model.answersPreview,
               'approve': true,
+              'armor_name': armorName,
+              'armor_picture': armorPicture,
               'background': background,
               'questions': state.model.questions,
               'piece': piece,
@@ -89,6 +101,8 @@ class _Body extends StatelessWidget {
               'answers': state.model.answers,
               'answers_preview': state.model.answersPreview,
               'approve': false,
+              'armor_name': armorName,
+              'armor_picture': armorPicture,
               'background': background,
               'questions': state.model.questions,
               'piece': piece,
@@ -105,6 +119,7 @@ class _Body extends StatelessWidget {
         ),
         child: Scaffold(
           appBar: AppBar(
+            toolbarHeight: 46.0,
             backgroundColor: Colors.transparent,
             elevation: 0,
             title: const Text(''),
@@ -452,21 +467,29 @@ class _NumberUp extends StatelessWidget {
         return CustomPaint(
           painter: DiamondPainter(color: color ?? Colors.red),
           child: Container(
-            padding: const EdgeInsets.all(16.0),
+            padding: const EdgeInsets.all(18.0),
             child: Column(
               children: [
                 Text(
                   '${state.model.index + 1}',
+                  style: const TextStyle(
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
                 const SizedBox(height: 2.0),
                 Container(
                   color: Colors.black,
-                  height: 1,
+                  height: 2,
                   width: 12,
                 ),
                 const SizedBox(height: 2.0),
                 Text(
                   '$length',
+                  style: const TextStyle(
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.w600,
+                  ),
                 ),
               ],
             ),

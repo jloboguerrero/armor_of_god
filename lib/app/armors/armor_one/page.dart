@@ -66,6 +66,7 @@ class Page extends StatelessWidget {
                               context: context,
                               builder: (context) => AnswersSuccesfull(
                                 armorName: S.current.armor6,
+                                armorPicture: 'assets/armors/sword.png',
                                 background: 'assets/images/cueva1.png',
                                 color: const Color.fromARGB(255, 165, 80, 48),
                                 questions: questionsSix,
@@ -79,12 +80,15 @@ class Page extends StatelessWidget {
                               '/armors/countdown',
                               arguments: {
                                 'armor_name': S.current.armor6,
+                                'armor_picture': 'assets/armors/sword.png',
                                 'color': const Color.fromARGB(255, 165, 80, 48),
                               },
                             );
                             Modular.to.pushNamed(
                               '/armors/questions',
                               arguments: {
+                                'armor_name': S.current.armor6,
+                                'armor_picture': 'assets/armors/sword.png',
                                 'background': 'assets/images/cueva1.png',
                                 'questions': questionsSix,
                                 'piece': 'six',
@@ -92,7 +96,7 @@ class Page extends StatelessWidget {
                             );
                           },
                     child: Image.asset(
-                      'assets/images/sword.png',
+                      'assets/armors/sword.png',
                       height: 65.0,
                       opacity: armorCheck.armors!.armor_6
                           ? null
@@ -110,6 +114,7 @@ class Page extends StatelessWidget {
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor1,
+                                    armorPicture: 'assets/armors/belt.png',
                                     background: 'assets/images/cueva1.png',
                                     color:
                                         const Color.fromARGB(255, 165, 80, 48),
@@ -124,6 +129,7 @@ class Page extends StatelessWidget {
                                   '/armors/countdown',
                                   arguments: {
                                     'armor_name': S.current.armor1,
+                                    'armor_picture': 'assets/armors/belt.png',
                                     'color':
                                         const Color.fromARGB(255, 165, 80, 48),
                                   },
@@ -131,6 +137,8 @@ class Page extends StatelessWidget {
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
+                                    'armor_name': S.current.armor1,
+                                    'armor_picture': 'assets/armors/belt.png',
                                     'background': 'assets/images/cueva1.png',
                                     'color':
                                         const Color.fromARGB(255, 165, 80, 48),
@@ -140,7 +148,7 @@ class Page extends StatelessWidget {
                                 );
                               },
                         child: Image.asset(
-                          'assets/images/belt.png',
+                          'assets/armors/belt.png',
                           width: 70.0,
                           opacity: armorCheck.armors!.armor_1
                               ? null
@@ -155,6 +163,7 @@ class Page extends StatelessWidget {
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor5,
+                                    armorPicture: 'assets/armors/helmt.png',
                                     background: 'assets/images/cueva1.png',
                                     color:
                                         const Color.fromARGB(255, 165, 80, 48),
@@ -169,6 +178,7 @@ class Page extends StatelessWidget {
                                   '/armors/countdown',
                                   arguments: {
                                     'armor_name': S.current.armor5,
+                                    'armor_picture': 'assets/armors/helmt.png',
                                     'color':
                                         const Color.fromARGB(255, 165, 80, 48),
                                   },
@@ -176,6 +186,8 @@ class Page extends StatelessWidget {
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
+                                    'armor_name': S.current.armor5,
+                                    'armor_picture': 'assets/armors/helmt.png',
                                     'background': 'assets/images/cueva1.png',
                                     'questions': questionsFive,
                                     'piece': 'five',
@@ -183,7 +195,7 @@ class Page extends StatelessWidget {
                                 );
                               },
                         child: Image.asset(
-                          'assets/images/helmt.png',
+                          'assets/armors/helmt.png',
                           width: 70.0,
                           opacity: armorCheck.armors!.armor_5
                               ? null
@@ -203,6 +215,8 @@ class Page extends StatelessWidget {
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor2,
+                                    armorPicture:
+                                        'assets/armors/breastplate.png',
                                     background: 'assets/images/cueva1.png',
                                     color:
                                         const Color.fromARGB(255, 165, 80, 48),
@@ -217,6 +231,8 @@ class Page extends StatelessWidget {
                                   '/armors/countdown',
                                   arguments: {
                                     'armor_name': S.current.armor2,
+                                    'armor_picture':
+                                        'assets/armors/breastplate.png',
                                     'color':
                                         const Color.fromARGB(255, 165, 80, 48),
                                   },
@@ -224,6 +240,9 @@ class Page extends StatelessWidget {
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
+                                    'armor_name': S.current.armor2,
+                                    'armor_picture':
+                                        'assets/armors/breastplate.png',
                                     'background': 'assets/images/cueva1.png',
                                     'questions': questionsTwo,
                                     'piece': 'two',
@@ -231,7 +250,7 @@ class Page extends StatelessWidget {
                                 );
                               },
                         child: Image.asset(
-                          'assets/images/breastplate.png',
+                          'assets/armors/breastplate.png',
                           width: 70.0,
                           opacity: armorCheck.armors!.armor_2
                               ? null
@@ -246,6 +265,7 @@ class Page extends StatelessWidget {
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor4,
+                                    armorPicture: 'assets/armors/shield.png',
                                     background: 'assets/images/cueva1.png',
                                     color:
                                         const Color.fromARGB(255, 165, 80, 48),
@@ -260,6 +280,7 @@ class Page extends StatelessWidget {
                                   '/armors/countdown',
                                   arguments: {
                                     'armor_name': S.current.armor4,
+                                    'armor_picture': 'assets/armors/shield.png',
                                     'color':
                                         const Color.fromARGB(255, 165, 80, 48),
                                   },
@@ -267,6 +288,8 @@ class Page extends StatelessWidget {
                                 Modular.to.pushNamed(
                                   '/armors/questions',
                                   arguments: {
+                                    'armor_name': S.current.armor4,
+                                    'armor_picture': 'assets/armors/shield.png',
                                     'background': 'assets/images/cueva1.png',
                                     'questions': questionsFour,
                                     'piece': 'four',
@@ -274,7 +297,7 @@ class Page extends StatelessWidget {
                                 );
                               },
                         child: Image.asset(
-                          'assets/images/shield.png',
+                          'assets/armors/shield.png',
                           width: 70.0,
                           opacity: armorCheck.armors!.armor_4
                               ? null
@@ -292,6 +315,7 @@ class Page extends StatelessWidget {
                               context: context,
                               builder: (context) => AnswersSuccesfull(
                                 armorName: S.current.armor3,
+                                armorPicture: 'assets/armors/feet.png',
                                 background: 'assets/images/cueva1.png',
                                 color: const Color.fromARGB(255, 165, 80, 48),
                                 questions: questionsThree,
@@ -305,12 +329,15 @@ class Page extends StatelessWidget {
                               '/armors/countdown',
                               arguments: {
                                 'armor_name': S.current.armor3,
+                                'armor_picture': 'assets/armors/feet.png',
                                 'color': const Color.fromARGB(255, 165, 80, 48),
                               },
                             );
                             Modular.to.pushNamed(
                               '/armors/questions',
                               arguments: {
+                                'armor_name': S.current.armor3,
+                                'armor_picture': 'assets/armors/feet.png',
                                 'background': 'assets/images/cueva1.png',
                                 'questions': questionsThree,
                                 'piece': 'three',
@@ -318,7 +345,7 @@ class Page extends StatelessWidget {
                             );
                           },
                     child: Image.asset(
-                      'assets/images/feet.png',
+                      'assets/armors/feet.png',
                       width: 70.0,
                       opacity: armorCheck.armors!.armor_3
                           ? null

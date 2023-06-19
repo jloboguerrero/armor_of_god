@@ -73,6 +73,7 @@ class Page extends StatelessWidget {
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor1,
+                                    armorPicture: 'assets/armors/sword.png',
                                     background: 'assets/images/cueva2.png',
                                     questions: questionsSeven,
                                     piece: 'seven',
@@ -121,6 +122,7 @@ class Page extends StatelessWidget {
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor1,
+                                    armorPicture: 'assets/armors/sword.png',
                                     background: 'assets/images/cueva2.png',
                                     questions: questionsEight,
                                     piece: 'eight',
@@ -169,6 +171,7 @@ class Page extends StatelessWidget {
                               context: context,
                               builder: (context) => AnswersSuccesfull(
                                 armorName: S.current.armor1,
+                                armorPicture: 'assets/armors/sword.png',
                                 background: 'assets/images/cueva2.png',
                                 questions: questionsNine,
                                 piece: 'nine',
@@ -217,6 +220,7 @@ class Page extends StatelessWidget {
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor1,
+                                    armorPicture: 'assets/armors/sword.png',
                                     background: 'assets/images/cueva2.png',
                                     questions: questionsTen,
                                     piece: 'ten',
@@ -263,6 +267,7 @@ class Page extends StatelessWidget {
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
                                     armorName: S.current.armor1,
+                                    armorPicture: 'assets/armors/sword.png',
                                     background: 'assets/images/cueva2.png',
                                     questions: questionsEleven,
                                     piece: 'eleven',

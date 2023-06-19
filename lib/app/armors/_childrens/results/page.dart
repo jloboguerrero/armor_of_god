@@ -15,6 +15,8 @@ class Page extends StatelessWidget {
     required this.answers,
     required this.answersPreview,
     required this.approve,
+    required this.armorName,
+    required this.armorPicture,
     required this.background,
     required this.questions,
     required this.piece,
@@ -23,6 +25,8 @@ class Page extends StatelessWidget {
   final List<int> answers;
   final List<int> answersPreview;
   final bool approve;
+  final String armorName;
+  final String armorPicture;
   final String background;
   final List<Question> questions;
   final String piece;
@@ -201,6 +205,8 @@ class Page extends StatelessWidget {
                               Modular.to.pushReplacementNamed(
                                 '/armors/price',
                                 arguments: {
+                                  'armor_name': armorName,
+                                  'armor_picture': armorPicture,
                                   'background': background,
                                   'piece': piece,
                                 },
