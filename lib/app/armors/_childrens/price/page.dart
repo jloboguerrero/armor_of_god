@@ -97,11 +97,14 @@ class Page extends StatelessWidget {
                       children: [
                         const SizedBox.shrink(),
                         Flexible(
-                          child: Text(
-                            armorName,
-                            style: const TextStyle(
-                              fontSize: 24.0,
-                              fontWeight: FontWeight.w700,
+                          child: Padding(
+                            padding: const EdgeInsets.only(right: 18.0),
+                            child: Text(
+                              armorName,
+                              style: const TextStyle(
+                                fontSize: 22.0,
+                                fontWeight: FontWeight.w700,
+                              ),
                             ),
                           ),
                         ),

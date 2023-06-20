@@ -1,4 +1,6 @@
 import 'package:armor_of_god/generated/l10n.dart';
+import 'package:armor_of_god/widgets/celebration/celebration_animation.dart';
+import 'package:armor_of_god/widgets/celebration/celebration_dependencies.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -118,137 +120,143 @@ class Page extends StatelessWidget {
       onWillPop: () async {
         return false;
       },
-      child: Container(
-        decoration: BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage(background),
-            fit: BoxFit.cover,
+      child: CelebrationDependencies(
+        enabled: approve,
+        child: Container(
+          decoration: BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage(background),
+              fit: BoxFit.cover,
+            ),
           ),
-        ),
-        child: Scaffold(
-          appBar: AppBar(
-            automaticallyImplyLeading: approve ? false : true,
+          child: Scaffold(
+            appBar: AppBar(
+              automaticallyImplyLeading: approve ? false : true,
+              backgroundColor: Colors.transparent,
+              centerTitle: true,
+              elevation: 0,
+              leading: IconButton(
+                icon: const Icon(
+                  Icons.arrow_back,
+                ),
+                onPressed: approve
+                    ? null
+                    : () {
+                        Modular.to.pop();
+                      },
+              ),
+              title: Text(
+                S.current.results,
+                style: const TextStyle(
+                  fontSize: 28.0,
+                ),
+              ),
+            ),
             backgroundColor: Colors.transparent,
-            centerTitle: true,
-            elevation: 0,
-            leading: IconButton(
-              icon: const Icon(
-                Icons.arrow_back,
-              ),
-              onPressed: approve
-                  ? null
-                  : () {
-                      Modular.to.pop();
-                    },
-            ),
-            title: Text(
-              S.current.results,
-              style: const TextStyle(
-                fontSize: 28.0,
-              ),
-            ),
-          ),
-          backgroundColor: Colors.transparent,
-          body: Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            children: [
-              const SizedBox(height: 36.0),
-              if (approve) ...[
-                Text(
-                  '${S.current.congratulations}!!!',
-                  style: const TextStyle(
-                    color: Colors.white,
-                    fontSize: 28.0,
-                    fontWeight: FontWeight.w600,
+            body: Column(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                const SizedBox(height: 36.0),
+                if (approve) ...[
+                  Center(
+                    child: Text(
+                      '${S.current.congratulations}!!!',
+                      style: const TextStyle(
+                        color: Colors.white,
+                        fontSize: 28.0,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                   ),
-                ),
-                const SizedBox(height: 20.0),
-              ],
-              Center(
-                child: Container(
-                  decoration: BoxDecoration(
-                    color: const Color.fromARGB(255, 244, 240, 229),
-                    borderRadius: BorderRadius.circular(16.0),
-                  ),
-                  height: MediaQuery.of(context).size.height * 0.61,
-                  padding: const EdgeInsets.all(16.0),
-                  width: MediaQuery.of(context).size.width * 0.80,
-                  child: SingleChildScrollView(
-                    physics: const BouncingScrollPhysics(),
-                    child: Column(
-                      children: [
-                        _NumberUp(
-                          correctAnswers: correctAnswers,
-                          length: questions.length,
-                        ),
-                        const SizedBox(height: 18.0),
-                        ListView.separated(
-                          shrinkWrap: true,
-                          itemCount: questions.length,
-                          physics: const NeverScrollableScrollPhysics(),
-                          separatorBuilder: (context, index) => const Divider(),
-                          itemBuilder: (context, index) {
-                            return QuestionsCorrect(
-                              correct: positionAnswers[index],
-                              question: questions[index].mainQuestion,
-                            );
-                          },
-                        ),
-                        if (approve) ...[
-                          const SizedBox(height: 16.0),
-                          Button(
-                            colorLetter: Colors.black54,
-                            colorBackground:
-                                const Color.fromARGB(255, 237, 186, 57),
-                            label: S.current.price,
-                            onTap: () {
-                              Modular.to.pushReplacementNamed(
-                                '/armors/price',
-                                arguments: {
-                                  'armor_name': armorName,
-                                  'armor_picture': armorPicture,
-                                  'background': background,
-                                  'piece': piece,
+                  const SizedBox(height: 20.0),
+                ],
+                CelebrationAnimation(
+                  child: Center(
+                    child: Container(
+                      decoration: BoxDecoration(
+                        color: const Color.fromARGB(255, 244, 240, 229),
+                        borderRadius: BorderRadius.circular(16.0),
+                      ),
+                      height: MediaQuery.of(context).size.height * 0.61,
+                      padding: const EdgeInsets.all(16.0),
+                      width: MediaQuery.of(context).size.width * 0.80,
+                      child: SingleChildScrollView(
+                        physics: const BouncingScrollPhysics(),
+                        child: Column(
+                          children: [
+                            _NumberUp(
+                              correctAnswers: correctAnswers,
+                              length: questions.length,
+                            ),
+                            const SizedBox(height: 18.0),
+                            ListView.separated(
+                              shrinkWrap: true,
+                              itemCount: questions.length,
+                              physics: const NeverScrollableScrollPhysics(),
+                              separatorBuilder: (context, index) =>
+                                  const Divider(),
+                              itemBuilder: (context, index) {
+                                return QuestionsCorrect(
+                                  correct: positionAnswers[index],
+                                  question: questions[index].mainQuestion,
+                                );
+                              },
+                            ),
+                            if (approve) ...[
+                              const SizedBox(height: 16.0),
+                              Button(
+                                colorLetter: Colors.black54,
+                                colorBackground:
+                                    const Color.fromARGB(255, 237, 186, 57),
+                                label: S.current.price,
+                                onTap: () {
+                                  Modular.to.pushReplacementNamed(
+                                    '/armors/price',
+                                    arguments: {
+                                      'armor_name': armorName,
+                                      'armor_picture': armorPicture,
+                                      'background': background,
+                                      'piece': piece,
+                                    },
+                                  );
                                 },
-                              );
-                            },
-                            width: 100.0,
-                          ),
-                        ],
-                      ],
+                                width: 100.0,
+                              ),
+                            ],
+                          ],
+                        ),
+                      ),
                     ),
                   ),
                 ),
-              ),
-            ],
-          ),
-          floatingActionButton: (!approve)
-              ? SizedBox(
-                  height: 140,
-                  width: 180,
-                  child: GestureDetector(
-                    onTap: () {
-                      FirstModal.show(
-                        context: context,
-                        child: const Angel(
-                          color: Color.fromARGB(255, 165, 80, 48),
-                          image: 'assets/images/angel2.png',
-                          subTitle:
-                              'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
-                          title: 'The faith is absolute',
-                        ),
-                      );
-                    },
-                    child: Image.asset(
-                      'assets/images/angel1.png',
-                      color: const Color.fromARGB(255, 165, 80, 48),
-                      colorBlendMode: BlendMode.hue,
-                      fit: BoxFit.contain,
+              ],
+            ),
+            floatingActionButton: (!approve)
+                ? SizedBox(
+                    height: 140,
+                    width: 180,
+                    child: GestureDetector(
+                      onTap: () {
+                        FirstModal.show(
+                          context: context,
+                          child: const Angel(
+                            color: Color.fromARGB(255, 165, 80, 48),
+                            image: 'assets/images/angel2.png',
+                            subTitle:
+                                'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+                            title: 'The faith is absolute',
+                          ),
+                        );
+                      },
+                      child: Image.asset(
+                        'assets/images/angel1.png',
+                      ),
                     ),
-                  ),
-                )
-              : const SizedBox.shrink(),
-          floatingActionButtonLocation: FloatingActionButtonLocation.endDocked,
+                  )
+                : const SizedBox.shrink(),
+            floatingActionButtonLocation:
+                FloatingActionButtonLocation.endDocked,
+          ),
         ),
       ),
     );
