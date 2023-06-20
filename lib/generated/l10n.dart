@@ -220,6 +220,116 @@ class S {
     );
   }
 
+  /// `Estos Términos y Condiciones ('T&C') establecen los términos legales y las condiciones para el uso de la aplicación móvil 'Armor of God' (en adelante, la 'Aplicación'), que está actualmente en desarrollo. Al acceder y utilizar la Aplicación, usted acepta estar sujeto a estos T&C. Si no está de acuerdo con alguno de los términos establecidos a continuación, le recomendamos que no utilice la Aplicación.`
+  String get termsStart {
+    return Intl.message(
+      'Estos Términos y Condiciones (\'T&C\') establecen los términos legales y las condiciones para el uso de la aplicación móvil \'Armor of God\' (en adelante, la \'Aplicación\'), que está actualmente en desarrollo. Al acceder y utilizar la Aplicación, usted acepta estar sujeto a estos T&C. Si no está de acuerdo con alguno de los términos establecidos a continuación, le recomendamos que no utilice la Aplicación.',
+      name: 'termsStart',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Uso de la Aplicación`
+  String get termsTitle1 {
+    return Intl.message(
+      'Uso de la Aplicación',
+      name: 'termsTitle1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado para entretenimiento y diversión.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación.`
+  String get termsSubtitle1 {
+    return Intl.message(
+      '1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado para entretenimiento y diversión.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación.',
+      name: 'termsSubtitle1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Propiedad Intelectual`
+  String get termsTitle2 {
+    return Intl.message(
+      'Propiedad Intelectual',
+      name: 'termsTitle2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2.1. La Aplicación y todo su contenido, incluidos, entre otros, los textos, gráficos, logotipos, íconos, imágenes, clips de audio, descargas digitales y software, son propiedad de los titulares legales de la Aplicación y están protegidos por las leyes de propiedad intelectual aplicables.\n2.2. Se le otorga un derecho limitado, no exclusivo y no transferible para utilizar la Aplicación y su contenido únicamente para su propio uso personal y no comercial.`
+  String get termsSubtitle2 {
+    return Intl.message(
+      '2.1. La Aplicación y todo su contenido, incluidos, entre otros, los textos, gráficos, logotipos, íconos, imágenes, clips de audio, descargas digitales y software, son propiedad de los titulares legales de la Aplicación y están protegidos por las leyes de propiedad intelectual aplicables.\n2.2. Se le otorga un derecho limitado, no exclusivo y no transferible para utilizar la Aplicación y su contenido únicamente para su propio uso personal y no comercial.',
+      name: 'termsSubtitle2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Comentarios y Sugerencias`
+  String get termsTitle3 {
+    return Intl.message(
+      'Comentarios y Sugerencias',
+      name: 'termsTitle3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `3.1. Se aceptan comentarios y sugerencias para mejorar la Aplicación. Al proporcionar cualquier comentario, sugerencia u otra información relacionada con la Aplicación ('Comentarios'), usted otorga a los titulares legales de la Aplicación el derecho no exclusivo, irrevocable y libre de regalías para utilizar, modificar, reproducir, publicar, distribuir y mostrar dichos Comentarios sin restricciones.\n3.2. Usted reconoce que los Comentarios que proporcione no serán confidenciales y que los titulares legales de la Aplicación pueden utilizar libremente dichos Comentarios sin incurrir en ninguna obligación o responsabilidad hacia usted.`
+  String get termsSubtitle3 {
+    return Intl.message(
+      '3.1. Se aceptan comentarios y sugerencias para mejorar la Aplicación. Al proporcionar cualquier comentario, sugerencia u otra información relacionada con la Aplicación (\'Comentarios\'), usted otorga a los titulares legales de la Aplicación el derecho no exclusivo, irrevocable y libre de regalías para utilizar, modificar, reproducir, publicar, distribuir y mostrar dichos Comentarios sin restricciones.\n3.2. Usted reconoce que los Comentarios que proporcione no serán confidenciales y que los titulares legales de la Aplicación pueden utilizar libremente dichos Comentarios sin incurrir en ninguna obligación o responsabilidad hacia usted.',
+      name: 'termsSubtitle3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Limitación de responsabilidad`
+  String get termsTitle4 {
+    return Intl.message(
+      'Limitación de responsabilidad',
+      name: 'termsTitle4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `4.1. La Aplicación se proporciona 'tal cual' y 'según disponibilidad'. Los titulares legales de la Aplicación no garantizan que la Aplicación sea ininterrumpida, libre de errores o esté libre de virus u otros componentes dañinos.\n4.2. En la máxima medida permitida por la ley aplicable, los titulares legales de la Aplicación no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente que pueda surgir del uso o la imposibilidad de uso de la Aplicación, incluyendo, entre otros, la pérdida de datos o la interrupción del negocio.`
+  String get termsSubtitle4 {
+    return Intl.message(
+      '4.1. La Aplicación se proporciona \'tal cual\' y \'según disponibilidad\'. Los titulares legales de la Aplicación no garantizan que la Aplicación sea ininterrumpida, libre de errores o esté libre de virus u otros componentes dañinos.\n4.2. En la máxima medida permitida por la ley aplicable, los titulares legales de la Aplicación no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente que pueda surgir del uso o la imposibilidad de uso de la Aplicación, incluyendo, entre otros, la pérdida de datos o la interrupción del negocio.',
+      name: 'termsSubtitle4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Modificaciones`
+  String get termsTitle5 {
+    return Intl.message(
+      'Modificaciones',
+      name: 'termsTitle5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Los titulares legales de la Aplicación se reservan el derecho de modificar o actualizar estos T&C en cualquier momento y a su sola discreción. Cualquier modificación de estos T&C`
+  String get termsSubtitle5 {
+    return Intl.message(
+      'Los titulares legales de la Aplicación se reservan el derecho de modificar o actualizar estos T&C en cualquier momento y a su sola discreción. Cualquier modificación de estos T&C',
+      name: 'termsSubtitle5',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `¡Hola, bienvenido a Armor Of God!`
   String get onBoardingTitle1 {
     return Intl.message(

@@ -66,6 +66,27 @@ class MessageLookup extends MessageLookupByLibrary {
         "survivalItems":
             MessageLookupByLibrary.simpleMessage("Itens de Sobrevivência"),
         "termsAndConditions":
-            MessageLookupByLibrary.simpleMessage("Termos e Condições")
+            MessageLookupByLibrary.simpleMessage("Termos e Condições"),
+        "termsStart": MessageLookupByLibrary.simpleMessage(
+            "Estes Termos e Condições (\'T&C\') estabelecem os termos e condições legais para o uso do aplicativo móvel \'Armadura de Deus\' (doravante o \'Aplicativo\'), que está atualmente em desenvolvimento. Ao acessar e usar o Aplicativo, você concorda em ficar vinculado a estes T&Cs. Caso você não concorde com algum dos termos estabelecidos abaixo, recomendamos que não utilize o Aplicativo."),
+        "termsSubtitle1": MessageLookupByLibrary.simpleMessage(
+            "1.1. O Aplicativo tem como objetivo disponibilizar um jogo de perguntas e desbloqueio de peças com seu significado associado para entretenimento e diversão.\n1.2. Ao usar o Aplicativo, você reconhece que é responsável por quaisquer custos associados à conexão com a Internet e cobranças de dados móveis que possam incorrer ao acessar e usar o Aplicativo."),
+        "termsSubtitle2": MessageLookupByLibrary.simpleMessage(
+            "2.1. O Aplicativo e todo o seu conteúdo, incluindo, entre outros, texto, gráficos, logotipos, ícones, imagens, clipes de áudio, downloads digitais e software, são de propriedade dos proprietários legais do Aplicativo e são protegidos pelas leis de propriedade intelectual aplicáveis.\n2.2. Você recebe um direito limitado, não exclusivo e intransferível de usar o Aplicativo e seu conteúdo exclusivamente para seu uso pessoal e não comercial."),
+        "termsSubtitle3": MessageLookupByLibrary.simpleMessage(
+            "3.1. Comentários e sugestões para melhorar o Aplicativo são aceitos. Ao fornecer comentários, sugestões ou outras informações relacionadas ao Aplicativo (\'Feedback\'), você concede aos detentores legais do Aplicativo o direito não exclusivo, irrevogável e isento de royalties de usar, modificar, reproduzir, publicar, distribuir e exibir tais Comentários sem restrições.\n3.2. Você reconhece que o Feedback que você fornecer não será confidencial e que os detentores legais do Aplicativo são livres para usar tal Feedback sem incorrer em qualquer obrigação ou responsabilidade para com você."),
+        "termsSubtitle4": MessageLookupByLibrary.simpleMessage(
+            "4.1. O Aplicativo é fornecido \'como está\' e \'conforme disponível\'. Os detentores legais do Aplicativo não garantem que o Aplicativo seja ininterrupto, livre de erros ou livre de vírus ou outros componentes nocivos.\n4.2. Na extensão máxima permitida pela lei aplicável, os detentores legais do Aplicativo não serão responsáveis ​​por quaisquer danos diretos, indiretos, incidentais, especiais ou consequentes que possam surgir do uso ou incapacidade de usar o Aplicativo, incluindo, sem limitação, perda de dados ou interrupção de negócios."),
+        "termsSubtitle5": MessageLookupByLibrary.simpleMessage(
+            "Os proprietários legais do Aplicativo reservam-se o direito de modificar ou atualizar estes T&C a qualquer momento e a seu exclusivo critério. Qualquer modificação destes T&C"),
+        "termsTitle1":
+            MessageLookupByLibrary.simpleMessage("Uso do Aplicativo"),
+        "termsTitle2":
+            MessageLookupByLibrary.simpleMessage("Propriedade Intelectual"),
+        "termsTitle3":
+            MessageLookupByLibrary.simpleMessage("Comentários e Sugestões"),
+        "termsTitle4": MessageLookupByLibrary.simpleMessage(
+            "Limitação de responsabilidade"),
+        "termsTitle5": MessageLookupByLibrary.simpleMessage("Modificações")
       };
 }

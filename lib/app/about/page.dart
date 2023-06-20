@@ -24,7 +24,7 @@ class Page extends StatelessWidget {
           ),
         ),
         title: Text(
-          S.current.termsAndConditions,
+          S.current.about,
           style: const TextStyle(
             fontSize: 24,
             fontWeight: FontWeight.w400,

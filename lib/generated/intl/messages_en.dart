@@ -129,6 +129,27 @@ class MessageLookup extends MessageLookupByLibrary {
         "survivalItems": MessageLookupByLibrary.simpleMessage("Survival Items"),
         "termsAndConditions":
             MessageLookupByLibrary.simpleMessage("Terms and conditions"),
+        "termsStart": MessageLookupByLibrary.simpleMessage(
+            "These Terms and Conditions (\'T&C\') establish the legal terms and conditions for the use of the mobile application \'Armor of God\' (hereinafter, the \'Application\'), which is currently under development. By accessing and using the Application, you agree to be bound by these T&Cs. If you do not agree to any of the terms set forth below, we recommend that you do not use the Application."),
+        "termsSubtitle1": MessageLookupByLibrary.simpleMessage(
+            "1.1. The Application aims to provide a game of questions and unlocking of pieces with their associated meaning for entertainment and fun.\n1.2. By using the Application, you acknowledge that you are responsible for any costs associated with Internet connection and mobile data charges that you may incur when accessing and using the Application."),
+        "termsSubtitle2": MessageLookupByLibrary.simpleMessage(
+            "2.1. The Application and all its content, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads and software, are the property of the legal owners of the Application and are protected by intellectual property laws. applicable.\n2.2. You are granted a limited, non-exclusive, and non-transferable right to use the Application and its content solely for your own personal, non-commercial use."),
+        "termsSubtitle3": MessageLookupByLibrary.simpleMessage(
+            "3.1. Comments and suggestions to improve the Application are accepted. By providing any comments, suggestions or other information relating to the Application (\'Feedback\'), you grant the legal holders of the Application the non-exclusive, irrevocable, royalty-free right to use, modify, reproduce, publish, distribute and display such Comments without restriction.\n3.2. You acknowledge that the Feedback you provide will not be confidential and that the legal holders of the Application are free to use such Feedback without incurring any obligation or liability to you."),
+        "termsSubtitle4": MessageLookupByLibrary.simpleMessage(
+            "4.1. The Application is provided \'as is\' and \'as available\'. The legal holders of the Application do not guarantee that the Application is uninterrupted, error-free or free of viruses or other harmful components.\n4.2. To the fullest extent permitted by applicable law, the legal holders of the Application shall not be liable for any direct, indirect, incidental, special, or consequential damages that may arise from the use of, or inability to use, the Application, including, without limitation, data loss or business interruption."),
+        "termsSubtitle5": MessageLookupByLibrary.simpleMessage(
+            "The legal owners of the Application reserve the right to modify or update these T&C at any time and at their sole discretion. Any modification of these T&C"),
+        "termsTitle1":
+            MessageLookupByLibrary.simpleMessage("Use of the Application"),
+        "termsTitle2":
+            MessageLookupByLibrary.simpleMessage("Intellectual Property"),
+        "termsTitle3":
+            MessageLookupByLibrary.simpleMessage("Comments and Suggestions"),
+        "termsTitle4":
+            MessageLookupByLibrary.simpleMessage("Limitation of Liability"),
+        "termsTitle5": MessageLookupByLibrary.simpleMessage("Modifications"),
         "theClueFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "Read 1 Corinthians 10:1-11:1 and marvel, at the precious cornerstone for a sure foundation, Isaiah 28:16"),
         "theClueFirstPageFour": MessageLookupByLibrary.simpleMessage(

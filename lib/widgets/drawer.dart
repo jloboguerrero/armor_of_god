@@ -37,6 +37,7 @@ class DrawerMenu extends StatelessWidget {
             ),
             onTap: () {
               Navigator.of(context).pop();
+              Modular.to.pushNamed('/about');
             },
           ),
           const Divider(
