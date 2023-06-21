@@ -42,75 +42,16 @@ class Page extends StatelessWidget {
           children: <Widget>[
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
+              children: const [
                 Text(
-                  S.current.termsStart,
-                  style: const TextStyle(fontSize: 16.0),
-                  textAlign: TextAlign.justify,
-                ),
-                const SizedBox(height: 25),
-                Text(
-                  '1. ${S.current.termsTitle1}',
-                  style: const TextStyle(
-                      fontSize: 16.0, fontWeight: FontWeight.w700),
+                  '¡Conoce a nuestro equipo!',
+                  style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w700),
                   textAlign: TextAlign.start,
                 ),
-                const SizedBox(height: 10.0),
+                SizedBox(height: 20.0),
                 Text(
-                  S.current.termsSubtitle1,
-                  style: const TextStyle(fontSize: 16.0),
-                  textAlign: TextAlign.justify,
-                ),
-                const SizedBox(height: 20),
-                Text(
-                  '2. ${S.current.termsTitle2}',
-                  style: const TextStyle(
-                      fontSize: 16.0, fontWeight: FontWeight.w700),
-                  textAlign: TextAlign.start,
-                ),
-                const SizedBox(height: 10.0),
-                Text(
-                  S.current.termsSubtitle2,
-                  style: const TextStyle(fontSize: 16.0),
-                  textAlign: TextAlign.justify,
-                ),
-                const SizedBox(height: 20),
-                Text(
-                  '3. ${S.current.termsTitle3}',
-                  style: const TextStyle(
-                      fontSize: 16.0, fontWeight: FontWeight.w700),
-                  textAlign: TextAlign.start,
-                ),
-                const SizedBox(height: 10.0),
-                Text(
-                  S.current.termsSubtitle3,
-                  style: const TextStyle(fontSize: 16.0),
-                  textAlign: TextAlign.justify,
-                ),
-                const SizedBox(height: 20),
-                Text(
-                  '4. ${S.current.termsTitle4}',
-                  style: const TextStyle(
-                      fontSize: 16.0, fontWeight: FontWeight.w700),
-                  textAlign: TextAlign.start,
-                ),
-                const SizedBox(height: 10.0),
-                Text(
-                  S.current.termsSubtitle4,
-                  style: const TextStyle(fontSize: 16.0),
-                  textAlign: TextAlign.justify,
-                ),
-                const SizedBox(height: 20),
-                Text(
-                  '5. ${S.current.termsTitle5}',
-                  style: const TextStyle(
-                      fontSize: 16.0, fontWeight: FontWeight.w700),
-                  textAlign: TextAlign.start,
-                ),
-                const SizedBox(height: 10.0),
-                Text(
-                  S.current.termsSubtitle5,
-                  style: const TextStyle(fontSize: 16.0),
+                  'En el equipo de desarrollo del "Armor of God", nos apasiona crear experiencias de juego únicas y emocionantes para nuestros usuarios. Permítenos presentarte al talentoso grupo de personas que trabaja arduamente para llevar esta aplicación a la vida:\n\n\n[Nombre del miembro del equipo] - Director de Proyecto: Con una visión clara y una pasión por la innovación, nuestro Director de Proyecto lidera el equipo hacia el éxito. Su experiencia en el desarrollo de aplicaciones y su enfoque centrado en el usuario son fundamentales para garantizar una experiencia de juego excepcional.\n\n[Nombre del miembro del equipo] - Diseñador de Interfaz de Usuario (UI): Nuestro diseñador de UI es un artista talentoso que da vida a la aplicación con su creatividad y habilidades de diseño. Se esfuerza por crear una interfaz intuitiva y atractiva que brinde una experiencia visualmente impactante.\n\n[Nombre del miembro del equipo] - Desarrollador de Backend: Nuestro desarrollador de backend es el responsable de la infraestructura tecnológica que sustenta la aplicación. Con su conocimiento en desarrollo de servidores y bases de datos, trabaja para garantizar un rendimiento óptimo y una experiencia fluida.\n\n[Nombre del miembro del equipo] - Desarrollador de Frontend: Nuestro desarrollador de frontend se encarga de llevar el diseño y la funcionalidad a la realidad. Su experiencia en lenguajes de programación web y en desarrollo de aplicaciones móviles garantiza una experiencia de usuario fluida y receptiva.\n\n[Nombre del miembro del equipo] - Experto en Contenido: Nuestro experto en contenido se dedica a crear una colección diversa y desafiante de preguntas para el juego. Investiga y selecciona cuidadosamente temas interesantes y relevantes para mantener a los jugadores comprometidos y aprendiendo mientras se divierten.\n\n\nCada miembro de nuestro equipo aporta habilidades únicas y experiencia en sus respectivas áreas. Trabajamos en estrecha colaboración para asegurarnos de que cada detalle de la aplicación esté cuidadosamente diseñado y optimizado para brindar la mejor experiencia de juego posible.\n\nNos enorgullece crear un entorno en el que la diversión, el aprendizaje y la participación de la comunidad sean fundamentales. Estamos comprometidos a seguir mejorando y creando contenido nuevo y emocionante para mantener a nuestros usuarios comprometidos y entretenidos.\n\nAgradecemos sinceramente tu apoyo y confianza en nuestro equipo y en el "Armor of God". ¡Esperamos que disfrutes de la aplicación y que encuentres una experiencia de juego enriquecedora y gratificante!\n\n¡Diviértete y sigue desbloqueando conocimientos con nosotros!\n\nAtentamente,\n\nEl equipo de desarrollo del Armor of God',
+                  style: TextStyle(fontSize: 16.0),
                   textAlign: TextAlign.justify,
                 ),
               ],

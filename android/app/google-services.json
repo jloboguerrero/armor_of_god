@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "392019569811",
+    "project_id": "the-armor-of-god",
+    "storage_bucket": "the-armor-of-god.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:392019569811:android:fcabeb989ab03180d93166",
+        "android_client_info": {
+          "package_name": "com.example.armor_of_god"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "392019569811-k4ek4ml18vla3g0c760mr217auou4dvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLKV07sc6OVN6QBhSyiHbS3jJXUYpP1bs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "392019569811-k4ek4ml18vla3g0c760mr217auou4dvh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "392019569811-0hcpe2onvjb5kh82iaf51g58d2j0f1ns.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.armorOfGod"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
