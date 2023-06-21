@@ -90,6 +90,7 @@ class Page extends StatelessWidget {
                                 'armor_name': S.current.armor6,
                                 'armor_picture': 'assets/armors/sword.png',
                                 'background': 'assets/images/cueva1.png',
+                                'color': const Color.fromARGB(255, 165, 80, 48),
                                 'questions': questionsSix,
                                 'piece': 'six',
                               },
@@ -189,6 +190,8 @@ class Page extends StatelessWidget {
                                     'armor_name': S.current.armor5,
                                     'armor_picture': 'assets/armors/helmt.png',
                                     'background': 'assets/images/cueva1.png',
+                                    'color':
+                                        const Color.fromARGB(255, 165, 80, 48),
                                     'questions': questionsFive,
                                     'piece': 'five',
                                   },
@@ -244,6 +247,8 @@ class Page extends StatelessWidget {
                                     'armor_picture':
                                         'assets/armors/breastplate.png',
                                     'background': 'assets/images/cueva1.png',
+                                    'color':
+                                        const Color.fromARGB(255, 165, 80, 48),
                                     'questions': questionsTwo,
                                     'piece': 'two',
                                   },
@@ -291,6 +296,8 @@ class Page extends StatelessWidget {
                                     'armor_name': S.current.armor4,
                                     'armor_picture': 'assets/armors/shield.png',
                                     'background': 'assets/images/cueva1.png',
+                                    'color':
+                                        const Color.fromARGB(255, 165, 80, 48),
                                     'questions': questionsFour,
                                     'piece': 'four',
                                   },
@@ -339,6 +346,7 @@ class Page extends StatelessWidget {
                                 'armor_name': S.current.armor3,
                                 'armor_picture': 'assets/armors/feet.png',
                                 'background': 'assets/images/cueva1.png',
+                                'color': const Color.fromARGB(255, 165, 80, 48),
                                 'questions': questionsThree,
                                 'piece': 'three',
                               },

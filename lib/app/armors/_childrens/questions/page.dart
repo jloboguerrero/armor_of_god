@@ -464,63 +464,43 @@ class _NumberUp extends StatelessWidget {
   Widget build(BuildContext context) {
     return BlocBuilder<bloc.Bloc, bloc.State>(
       builder: (context, state) {
-        return CustomPaint(
-          painter: DiamondPainter(color: color ?? Colors.red),
-          child: Container(
-            padding: const EdgeInsets.all(18.0),
-            child: Column(
-              children: [
-                Text(
-                  '${state.model.index + 1}',
-                  style: const TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-                const SizedBox(height: 2.0),
-                Container(
-                  color: Colors.black,
-                  height: 2,
-                  width: 12,
-                ),
-                const SizedBox(height: 2.0),
-                Text(
-                  '$length',
-                  style: const TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-              ],
+        return Container(
+          decoration: const BoxDecoration(
+            image: DecorationImage(
+              image: AssetImage('assets/images/numbers-back.png'),
+              fit: BoxFit.cover,
             ),
+          ),
+          padding: const EdgeInsets.all(14.0).copyWith(bottom: 20.0),
+          child: Column(
+            children: [
+              Text(
+                '${state.model.index + 1}',
+                style: TextStyle(
+                  color: color,
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+              const SizedBox(height: 2.0),
+              Container(
+                color: color,
+                height: 1,
+                width: 12,
+              ),
+              const SizedBox(height: 2.0),
+              Text(
+                '$length',
+                style: TextStyle(
+                  color: color,
+                  fontSize: 16.0,
+                  fontWeight: FontWeight.w600,
+                ),
+              ),
+            ],
           ),
         );
       },
     );
-  }
-}
-
-class DiamondPainter extends CustomPainter {
-  DiamondPainter({required this.color});
-
-  final Color color;
-
-  @override
-  void paint(Canvas canvas, Size size) {
-    var paint = Paint();
-    paint.color = color;
-
-    var path = Path();
-    path.moveTo(size.width / 2, 0);
-    path.lineTo(size.width, size.height / 2);
-    path.lineTo(size.width / 2, size.height);
-    path.lineTo(0, size.height / 2);
-    path.close();
-    canvas.drawPath(path, paint);
-  }
-
-  @override
-  bool shouldRepaint(CustomPainter oldDelegate) {
-    return false;
   }
 }
