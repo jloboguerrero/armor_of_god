@@ -26,16 +26,22 @@ class Page extends StatelessWidget {
         image: DecorationImage(
           image: AssetImage('assets/images/cueva3.png'),
           fit: BoxFit.cover,
+          opacity: 0.72,
         ),
       ),
       child: Scaffold(
         appBar: AppBar(
           automaticallyImplyLeading: false,
-          backgroundColor: const Color.fromARGB(255, 102, 191, 94),
+          backgroundColor: Colors.transparent,
           centerTitle: true,
           elevation: 0,
           title: Text(
-            S.current.survivalItems,
+            S.current.crowns,
+            style: const TextStyle(
+              color: Colors.white,
+              fontSize: 26.0,
+              fontWeight: FontWeight.bold,
+            ),
           ),
         ),
         backgroundColor: Colors.transparent,
@@ -63,6 +69,9 @@ class Page extends StatelessWidget {
                             showDialog(
                               context: context,
                               builder: (context) => AnswersSuccesfull(
+                                armorName: S.current.armor1,
+                                armorPicture: 'assets/armors/sword.png',
+                                background: 'assets/images/cueva3.png',
                                 questions: questionsTwelve,
                                 piece: 'twelve',
                               ),
@@ -97,10 +106,11 @@ class Page extends StatelessWidget {
                             }
                           },
                     child: Image.asset(
-                      'assets/flags/co.png',
+                      'assets/images/box.png',
+                      height: 80.0,
                       opacity: armorCheck.armors!.armor_12
                           ? null
-                          : const AlwaysStoppedAnimation(.2),
+                          : const AlwaysStoppedAnimation(.6),
                     ),
                   ),
                   Row(
@@ -113,6 +123,9 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor1,
+                                    armorPicture: 'assets/armors/sword.png',
+                                    background: 'assets/images/cueva3.png',
                                     questions: questionsThirteen,
                                     piece: 'thirteen',
                                   ),
@@ -148,11 +161,12 @@ class Page extends StatelessWidget {
                                 }
                               },
                         child: Image.asset(
-                          'assets/flags/co.png',
+                          'assets/images/box.png',
+                          height: 80.0,
                           width: 90.0,
                           opacity: armorCheck.armors!.armor_13
                               ? null
-                              : const AlwaysStoppedAnimation(.2),
+                              : const AlwaysStoppedAnimation(.6),
                         ),
                       ),
                       GestureDetector(
@@ -162,6 +176,9 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor1,
+                                    armorPicture: 'assets/armors/sword.png',
+                                    background: 'assets/images/cueva3.png',
                                     questions: questionsFourteen,
                                     piece: 'fourteen',
                                   ),
@@ -197,11 +214,12 @@ class Page extends StatelessWidget {
                                 }
                               },
                         child: Image.asset(
-                          'assets/flags/co.png',
+                          'assets/images/box.png',
+                          height: 80.0,
                           width: 90.0,
                           opacity: armorCheck.armors!.armor_14
                               ? null
-                              : const AlwaysStoppedAnimation(.2),
+                              : const AlwaysStoppedAnimation(.6),
                         ),
                       ),
                       GestureDetector(
@@ -211,6 +229,9 @@ class Page extends StatelessWidget {
                                 showDialog(
                                   context: context,
                                   builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor1,
+                                    armorPicture: 'assets/armors/sword.png',
+                                    background: 'assets/images/cueva3.png',
                                     questions: questionsFiveteen,
                                     piece: 'fiveteen',
                                   ),
@@ -246,11 +267,12 @@ class Page extends StatelessWidget {
                                 }
                               },
                         child: Image.asset(
-                          'assets/flags/co.png',
+                          'assets/images/box.png',
+                          height: 80.0,
                           width: 90.0,
                           opacity: armorCheck.armors!.armor_15
                               ? null
-                              : const AlwaysStoppedAnimation(.2),
+                              : const AlwaysStoppedAnimation(.6),
                         ),
                       ),
                     ],
@@ -262,6 +284,9 @@ class Page extends StatelessWidget {
                             showDialog(
                               context: context,
                               builder: (context) => AnswersSuccesfull(
+                                armorName: S.current.armor1,
+                                armorPicture: 'assets/armors/sword.png',
+                                background: 'assets/images/cueva3.png',
                                 questions: questionsSixteen,
                                 piece: 'sixteen',
                               ),
@@ -296,10 +321,11 @@ class Page extends StatelessWidget {
                             }
                           },
                     child: Image.asset(
-                      'assets/flags/co.png',
+                      'assets/images/box.png',
+                      height: 80.0,
                       opacity: armorCheck.armors!.armor_16
                           ? null
-                          : const AlwaysStoppedAnimation(.2),
+                          : const AlwaysStoppedAnimation(.6),
                     ),
                   ),
                   GestureDetector(
@@ -309,6 +335,9 @@ class Page extends StatelessWidget {
                             showDialog(
                               context: context,
                               builder: (context) => AnswersSuccesfull(
+                                armorName: S.current.armor1,
+                                armorPicture: 'assets/armors/sword.png',
+                                background: 'assets/images/cueva3.png',
                                 questions: questionsSeventeen,
                                 piece: 'seventeen',
                               ),
@@ -343,21 +372,30 @@ class Page extends StatelessWidget {
                             }
                           },
                     child: Image.asset(
-                      'assets/flags/co.png',
+                      'assets/images/box.png',
+                      height: 80.0,
                       opacity: armorCheck.armors!.armor_17
                           ? null
-                          : const AlwaysStoppedAnimation(.2),
+                          : const AlwaysStoppedAnimation(.6),
                     ),
                   ),
                 ],
               ),
             ),
-            GestureDetector(
-              onTap: () => controller.nextPage(
-                duration: const Duration(milliseconds: 700),
-                curve: Curves.easeInOut,
-              ),
-              child: const Icon(
+            // GestureDetector(
+            //   onTap: () => controller.nextPage(
+            //     duration: const Duration(milliseconds: 700),
+            //     curve: Curves.easeInOut,
+            //   ),
+            //   child: const Icon(
+            //     Icons.arrow_right,
+            //     color: Colors.white,
+            //     size: 50,
+            //   ),
+            // ),
+            const Opacity(
+              opacity: 0.0,
+              child: Icon(
                 Icons.arrow_right,
                 color: Colors.white,
                 size: 50,
@@ -371,12 +409,12 @@ class Page extends StatelessWidget {
             Container(
               alignment: Alignment.bottomLeft,
               height: 130,
-              width: 100,
+              width: 130,
               padding: const EdgeInsets.only(bottom: 16.0),
               child: Button(
-                colorLetter: Colors.black45,
-                colorBackground: Colors.blueGrey,
-                label: 'Menu',
+                colorLetter: const Color.fromARGB(255, 211, 209, 209),
+                colorBackground: const Color.fromARGB(206, 16, 12, 12),
+                label: S.current.menu,
                 onTap: () {
                   Scaffold.of(context).openDrawer();
                 },
@@ -384,13 +422,13 @@ class Page extends StatelessWidget {
             ),
             SizedBox(
               height: 140,
-              width: 180,
+              width: 220,
               child: GestureDetector(
                 onTap: () {
                   FirstModal.show(
                     context: context,
                     child: const Angel(
-                      color: Color.fromARGB(255, 102, 191, 94),
+                      color: Color.fromARGB(255, 54, 77, 54),
                       image: 'assets/images/angel2.png',
                       subTitle:
                           'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
@@ -400,8 +438,6 @@ class Page extends StatelessWidget {
                 },
                 child: Image.asset(
                   'assets/images/angel1.png',
-                  color: const Color.fromARGB(255, 102, 191, 94),
-                  colorBlendMode: BlendMode.hue,
                 ),
               ),
             ),

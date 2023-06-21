@@ -17,7 +17,8 @@ class Angel extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
+      color: const Color.fromARGB(255, 244, 240, 229),
       height: MediaQuery.of(context).size.height * 0.71,
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.center,
@@ -30,7 +31,7 @@ class Angel extends StatelessWidget {
             ),
             height: 6.0,
             decoration: BoxDecoration(
-              color: Colors.grey,
+              color: color,
               borderRadius: BorderRadius.circular(20.0),
             ),
           ),
@@ -91,7 +92,6 @@ class Angel extends StatelessWidget {
                 child: Image.asset(
                   image,
                   width: 120.0,
-                  color: color,
                   colorBlendMode: BlendMode.hue,
                 ),
               ),

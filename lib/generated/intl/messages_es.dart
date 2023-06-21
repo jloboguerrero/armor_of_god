@@ -21,12 +21,27 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "about": MessageLookupByLibrary.simpleMessage("Información"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceptar"),
+        "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
+            "Responde todas las preguntas"),
+        "armor1": MessageLookupByLibrary.simpleMessage("Cinturón de la Verdad"),
+        "armor2": MessageLookupByLibrary.simpleMessage("Coraza de la Justicia"),
+        "armor3": MessageLookupByLibrary.simpleMessage(
+            "Calzados con la Disposición de Proclamar el Evangelio de la Paz"),
+        "armor4": MessageLookupByLibrary.simpleMessage("Escudo de la Fe"),
+        "armor5": MessageLookupByLibrary.simpleMessage("Yelmo de la Salvación"),
+        "armor6":
+            MessageLookupByLibrary.simpleMessage("La Espada del Espíritu"),
+        "armourOfGod": MessageLookupByLibrary.simpleMessage("Armadura de Dios"),
         "classicArmour":
             MessageLookupByLibrary.simpleMessage("Armadura Clásica"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Piezas de Ropa"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
             "Debes completar el nivel anterior"),
+        "congratulations":
+            MessageLookupByLibrary.simpleMessage("Felicitaciones"),
+        "crowns": MessageLookupByLibrary.simpleMessage("Coronas"),
         "enter": MessageLookupByLibrary.simpleMessage("Ingresar"),
         "mainQuestionFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "¿Qué o quién representa la roca descrita en Éxodo 17:1-16?"),
@@ -38,10 +53,18 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Puede una mentira tener algún poder sobre la realidad?"),
         "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "¿Cuáles son las palabras claves que te harán ser la semilla que producirá una cosecha de treinta, sesenta y hasta cien veces lo que se sembró, Mateo 13:1-23, Marcos 4:1-20, Lucas 8:1-15?"),
+        "menu": MessageLookupByLibrary.simpleMessage("Menú"),
+        "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
+            "Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos que es la Armadura De Dios y cómo usarla."),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
-            "Encuentra todo lo que necesitas saber de la armadura para tu vida en un solo lugar."),
+            "Esta aplicación está divida por secciones en las que encontraras piezas, estas piezas deberás desbloquear contestando preguntas Bíblicas de selección múltiple sin límite de tiempo! Una vez las aciertes todas podrás disfrutar de la descripción de cada pieza en la Armadura De Dios y avanzar. Recuerda no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección."),
+        "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
+            "Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de adquirir la Armadura De Dios."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
-            "¡Hola, bienvenido a The Armor Of God!"),
+            "¡Hola, bienvenido a Armor Of God!"),
+        "onBoardingTitle2":
+            MessageLookupByLibrary.simpleMessage("Funcionamiento:"),
+        "onBoardingTitle3": MessageLookupByLibrary.simpleMessage("Hay más!!"),
         "optionFiveFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Nuestro Señor Jesucristo"),
         "optionFiveFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -89,14 +112,45 @@ class MessageLookup extends MessageLookupByLibrary {
             "Sí, pero solo si los humanos deciden creer esa mentira"),
         "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Mateo: Plantar; Marcos: Siembra; Lucas: Cosechar."),
+        "price": MessageLookupByLibrary.simpleMessage("Premio"),
         "questions": MessageLookupByLibrary.simpleMessage("Preguntas"),
         "questionsWillStart":
             MessageLookupByLibrary.simpleMessage("Las preguntas comenzaran en"),
+        "results": MessageLookupByLibrary.simpleMessage("Resultados"),
         "seeArmorOrQuestions": MessageLookupByLibrary.simpleMessage(
             "Puedes ver la pieza o responder de nuevo las preguntas"),
         "seePiece": MessageLookupByLibrary.simpleMessage("Leer Pieza"),
+        "selectLanguage":
+            MessageLookupByLibrary.simpleMessage("Seleccionar idioma"),
+        "specialWeapons":
+            MessageLookupByLibrary.simpleMessage("Armas Especiales"),
+        "submit": MessageLookupByLibrary.simpleMessage("Enviar"),
+        "suggestion": MessageLookupByLibrary.simpleMessage("Sugerencia"),
         "survivalItems":
             MessageLookupByLibrary.simpleMessage("Items de Supervivencia"),
+        "termsAndConditions":
+            MessageLookupByLibrary.simpleMessage("Términos y condiciones"),
+        "termsStart": MessageLookupByLibrary.simpleMessage(
+            "Estos Términos y Condiciones (\'T&C\') establecen los términos legales y las condiciones para el uso de la aplicación móvil \'Armor of God\' (en adelante, la \'Aplicación\'), que está actualmente en desarrollo. Al acceder y utilizar la Aplicación, usted acepta estar sujeto a estos T&C. Si no está de acuerdo con alguno de los términos establecidos a continuación, le recomendamos que no utilice la Aplicación."),
+        "termsSubtitle1": MessageLookupByLibrary.simpleMessage(
+            "1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado para entretenimiento y diversión.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación."),
+        "termsSubtitle2": MessageLookupByLibrary.simpleMessage(
+            "2.1. La Aplicación y todo su contenido, incluidos, entre otros, los textos, gráficos, logotipos, íconos, imágenes, clips de audio, descargas digitales y software, son propiedad de los titulares legales de la Aplicación y están protegidos por las leyes de propiedad intelectual aplicables.\n2.2. Se le otorga un derecho limitado, no exclusivo y no transferible para utilizar la Aplicación y su contenido únicamente para su propio uso personal y no comercial."),
+        "termsSubtitle3": MessageLookupByLibrary.simpleMessage(
+            "3.1. Se aceptan comentarios y sugerencias para mejorar la Aplicación. Al proporcionar cualquier comentario, sugerencia u otra información relacionada con la Aplicación (\'Comentarios\'), usted otorga a los titulares legales de la Aplicación el derecho no exclusivo, irrevocable y libre de regalías para utilizar, modificar, reproducir, publicar, distribuir y mostrar dichos Comentarios sin restricciones.\n3.2. Usted reconoce que los Comentarios que proporcione no serán confidenciales y que los titulares legales de la Aplicación pueden utilizar libremente dichos Comentarios sin incurrir en ninguna obligación o responsabilidad hacia usted."),
+        "termsSubtitle4": MessageLookupByLibrary.simpleMessage(
+            "4.1. La Aplicación se proporciona \'tal cual\' y \'según disponibilidad\'. Los titulares legales de la Aplicación no garantizan que la Aplicación sea ininterrumpida, libre de errores o esté libre de virus u otros componentes dañinos.\n4.2. En la máxima medida permitida por la ley aplicable, los titulares legales de la Aplicación no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente que pueda surgir del uso o la imposibilidad de uso de la Aplicación, incluyendo, entre otros, la pérdida de datos o la interrupción del negocio."),
+        "termsSubtitle5": MessageLookupByLibrary.simpleMessage(
+            "Los titulares legales de la Aplicación se reservan el derecho de modificar o actualizar estos T&C en cualquier momento y a su sola discreción. Cualquier modificación de estos T&C"),
+        "termsTitle1":
+            MessageLookupByLibrary.simpleMessage("Uso de la Aplicación"),
+        "termsTitle2":
+            MessageLookupByLibrary.simpleMessage("Propiedad Intelectual"),
+        "termsTitle3":
+            MessageLookupByLibrary.simpleMessage("Comentarios y Sugerencias"),
+        "termsTitle4": MessageLookupByLibrary.simpleMessage(
+            "Limitación de responsabilidad"),
+        "termsTitle5": MessageLookupByLibrary.simpleMessage("Modificaciones"),
         "theClueFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "Lea 1 Corintios 10:1-11:1 y maravíllese ante la preciosa piedra angular para un fundamento seguro, Isaías 28:16"),
         "theClueFirstPageFour": MessageLookupByLibrary.simpleMessage(

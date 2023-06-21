@@ -60,21 +60,331 @@ class S {
     );
   }
 
-  /// `¡Hola, bienvenido a The Armor Of God!`
+  /// `Menú`
+  String get menu {
+    return Intl.message(
+      'Menú',
+      name: 'menu',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enviar`
+  String get submit {
+    return Intl.message(
+      'Enviar',
+      name: 'submit',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Información`
+  String get about {
+    return Intl.message(
+      'Información',
+      name: 'about',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sugerencia`
+  String get suggestion {
+    return Intl.message(
+      'Sugerencia',
+      name: 'suggestion',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Resultados`
+  String get results {
+    return Intl.message(
+      'Resultados',
+      name: 'results',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Premio`
+  String get price {
+    return Intl.message(
+      'Premio',
+      name: 'price',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Felicitaciones`
+  String get congratulations {
+    return Intl.message(
+      'Felicitaciones',
+      name: 'congratulations',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cinturón de la Verdad`
+  String get armor1 {
+    return Intl.message(
+      'Cinturón de la Verdad',
+      name: 'armor1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Coraza de la Justicia`
+  String get armor2 {
+    return Intl.message(
+      'Coraza de la Justicia',
+      name: 'armor2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Calzados con la Disposición de Proclamar el Evangelio de la Paz`
+  String get armor3 {
+    return Intl.message(
+      'Calzados con la Disposición de Proclamar el Evangelio de la Paz',
+      name: 'armor3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Escudo de la Fe`
+  String get armor4 {
+    return Intl.message(
+      'Escudo de la Fe',
+      name: 'armor4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Yelmo de la Salvación`
+  String get armor5 {
+    return Intl.message(
+      'Yelmo de la Salvación',
+      name: 'armor5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La Espada del Espíritu`
+  String get armor6 {
+    return Intl.message(
+      'La Espada del Espíritu',
+      name: 'armor6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Responde todas las preguntas`
+  String get answerAllQuestions {
+    return Intl.message(
+      'Responde todas las preguntas',
+      name: 'answerAllQuestions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Seleccionar idioma`
+  String get selectLanguage {
+    return Intl.message(
+      'Seleccionar idioma',
+      name: 'selectLanguage',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Términos y condiciones`
+  String get termsAndConditions {
+    return Intl.message(
+      'Términos y condiciones',
+      name: 'termsAndConditions',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Estos Términos y Condiciones ('T&C') establecen los términos legales y las condiciones para el uso de la aplicación móvil 'Armor of God' (en adelante, la 'Aplicación'), que está actualmente en desarrollo. Al acceder y utilizar la Aplicación, usted acepta estar sujeto a estos T&C. Si no está de acuerdo con alguno de los términos establecidos a continuación, le recomendamos que no utilice la Aplicación.`
+  String get termsStart {
+    return Intl.message(
+      'Estos Términos y Condiciones (\'T&C\') establecen los términos legales y las condiciones para el uso de la aplicación móvil \'Armor of God\' (en adelante, la \'Aplicación\'), que está actualmente en desarrollo. Al acceder y utilizar la Aplicación, usted acepta estar sujeto a estos T&C. Si no está de acuerdo con alguno de los términos establecidos a continuación, le recomendamos que no utilice la Aplicación.',
+      name: 'termsStart',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Uso de la Aplicación`
+  String get termsTitle1 {
+    return Intl.message(
+      'Uso de la Aplicación',
+      name: 'termsTitle1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado para entretenimiento y diversión.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación.`
+  String get termsSubtitle1 {
+    return Intl.message(
+      '1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado para entretenimiento y diversión.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación.',
+      name: 'termsSubtitle1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Propiedad Intelectual`
+  String get termsTitle2 {
+    return Intl.message(
+      'Propiedad Intelectual',
+      name: 'termsTitle2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2.1. La Aplicación y todo su contenido, incluidos, entre otros, los textos, gráficos, logotipos, íconos, imágenes, clips de audio, descargas digitales y software, son propiedad de los titulares legales de la Aplicación y están protegidos por las leyes de propiedad intelectual aplicables.\n2.2. Se le otorga un derecho limitado, no exclusivo y no transferible para utilizar la Aplicación y su contenido únicamente para su propio uso personal y no comercial.`
+  String get termsSubtitle2 {
+    return Intl.message(
+      '2.1. La Aplicación y todo su contenido, incluidos, entre otros, los textos, gráficos, logotipos, íconos, imágenes, clips de audio, descargas digitales y software, son propiedad de los titulares legales de la Aplicación y están protegidos por las leyes de propiedad intelectual aplicables.\n2.2. Se le otorga un derecho limitado, no exclusivo y no transferible para utilizar la Aplicación y su contenido únicamente para su propio uso personal y no comercial.',
+      name: 'termsSubtitle2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Comentarios y Sugerencias`
+  String get termsTitle3 {
+    return Intl.message(
+      'Comentarios y Sugerencias',
+      name: 'termsTitle3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `3.1. Se aceptan comentarios y sugerencias para mejorar la Aplicación. Al proporcionar cualquier comentario, sugerencia u otra información relacionada con la Aplicación ('Comentarios'), usted otorga a los titulares legales de la Aplicación el derecho no exclusivo, irrevocable y libre de regalías para utilizar, modificar, reproducir, publicar, distribuir y mostrar dichos Comentarios sin restricciones.\n3.2. Usted reconoce que los Comentarios que proporcione no serán confidenciales y que los titulares legales de la Aplicación pueden utilizar libremente dichos Comentarios sin incurrir en ninguna obligación o responsabilidad hacia usted.`
+  String get termsSubtitle3 {
+    return Intl.message(
+      '3.1. Se aceptan comentarios y sugerencias para mejorar la Aplicación. Al proporcionar cualquier comentario, sugerencia u otra información relacionada con la Aplicación (\'Comentarios\'), usted otorga a los titulares legales de la Aplicación el derecho no exclusivo, irrevocable y libre de regalías para utilizar, modificar, reproducir, publicar, distribuir y mostrar dichos Comentarios sin restricciones.\n3.2. Usted reconoce que los Comentarios que proporcione no serán confidenciales y que los titulares legales de la Aplicación pueden utilizar libremente dichos Comentarios sin incurrir en ninguna obligación o responsabilidad hacia usted.',
+      name: 'termsSubtitle3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Limitación de responsabilidad`
+  String get termsTitle4 {
+    return Intl.message(
+      'Limitación de responsabilidad',
+      name: 'termsTitle4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `4.1. La Aplicación se proporciona 'tal cual' y 'según disponibilidad'. Los titulares legales de la Aplicación no garantizan que la Aplicación sea ininterrumpida, libre de errores o esté libre de virus u otros componentes dañinos.\n4.2. En la máxima medida permitida por la ley aplicable, los titulares legales de la Aplicación no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente que pueda surgir del uso o la imposibilidad de uso de la Aplicación, incluyendo, entre otros, la pérdida de datos o la interrupción del negocio.`
+  String get termsSubtitle4 {
+    return Intl.message(
+      '4.1. La Aplicación se proporciona \'tal cual\' y \'según disponibilidad\'. Los titulares legales de la Aplicación no garantizan que la Aplicación sea ininterrumpida, libre de errores o esté libre de virus u otros componentes dañinos.\n4.2. En la máxima medida permitida por la ley aplicable, los titulares legales de la Aplicación no serán responsables de ningún daño directo, indirecto, incidental, especial o consecuente que pueda surgir del uso o la imposibilidad de uso de la Aplicación, incluyendo, entre otros, la pérdida de datos o la interrupción del negocio.',
+      name: 'termsSubtitle4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Modificaciones`
+  String get termsTitle5 {
+    return Intl.message(
+      'Modificaciones',
+      name: 'termsTitle5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Los titulares legales de la Aplicación se reservan el derecho de modificar o actualizar estos T&C en cualquier momento y a su sola discreción. Cualquier modificación de estos T&C`
+  String get termsSubtitle5 {
+    return Intl.message(
+      'Los titulares legales de la Aplicación se reservan el derecho de modificar o actualizar estos T&C en cualquier momento y a su sola discreción. Cualquier modificación de estos T&C',
+      name: 'termsSubtitle5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¡Hola, bienvenido a Armor Of God!`
   String get onBoardingTitle1 {
     return Intl.message(
-      '¡Hola, bienvenido a The Armor Of God!',
+      '¡Hola, bienvenido a Armor Of God!',
       name: 'onBoardingTitle1',
       desc: '',
       args: [],
     );
   }
 
-  /// `Encuentra todo lo que necesitas saber de la armadura para tu vida en un solo lugar.`
+  /// `Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos que es la Armadura De Dios y cómo usarla.`
+  String get onBoardingDescription1 {
+    return Intl.message(
+      'Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos que es la Armadura De Dios y cómo usarla.',
+      name: 'onBoardingDescription1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Funcionamiento:`
+  String get onBoardingTitle2 {
+    return Intl.message(
+      'Funcionamiento:',
+      name: 'onBoardingTitle2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Esta aplicación está divida por secciones en las que encontraras piezas, estas piezas deberás desbloquear contestando preguntas Bíblicas de selección múltiple sin límite de tiempo! Una vez las aciertes todas podrás disfrutar de la descripción de cada pieza en la Armadura De Dios y avanzar. Recuerda no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.`
   String get onBoardingDescription2 {
     return Intl.message(
-      'Encuentra todo lo que necesitas saber de la armadura para tu vida en un solo lugar.',
+      'Esta aplicación está divida por secciones en las que encontraras piezas, estas piezas deberás desbloquear contestando preguntas Bíblicas de selección múltiple sin límite de tiempo! Una vez las aciertes todas podrás disfrutar de la descripción de cada pieza en la Armadura De Dios y avanzar. Recuerda no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.',
       name: 'onBoardingDescription2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hay más!!`
+  String get onBoardingTitle3 {
+    return Intl.message(
+      'Hay más!!',
+      name: 'onBoardingTitle3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de adquirir la Armadura De Dios.`
+  String get onBoardingDescription3 {
+    return Intl.message(
+      'Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de adquirir la Armadura De Dios.',
+      name: 'onBoardingDescription3',
       desc: '',
       args: [],
     );
@@ -85,6 +395,16 @@ class S {
     return Intl.message(
       'Armadura Clásica',
       name: 'classicArmour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Armadura de Dios`
+  String get armourOfGod {
+    return Intl.message(
+      'Armadura de Dios',
+      name: 'armourOfGod',
       desc: '',
       args: [],
     );
@@ -105,6 +425,26 @@ class S {
     return Intl.message(
       'Items de Supervivencia',
       name: 'survivalItems',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Armas Especiales`
+  String get specialWeapons {
+    return Intl.message(
+      'Armas Especiales',
+      name: 'specialWeapons',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Coronas`
+  String get crowns {
+    return Intl.message(
+      'Coronas',
+      name: 'crowns',
       desc: '',
       args: [],
     );
