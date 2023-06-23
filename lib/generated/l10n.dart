@@ -100,6 +100,26 @@ class S {
     );
   }
 
+  /// `Ocurrió un error. Por favor, intenta de nuevo`
+  String get suggestionError {
+    return Intl.message(
+      'Ocurrió un error. Por favor, intenta de nuevo',
+      name: 'suggestionError',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enviado exitosamente, gracias por su sugerencia!`
+  String get suggestionSend {
+    return Intl.message(
+      'Enviado exitosamente, gracias por su sugerencia!',
+      name: 'suggestionSend',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Resultados`
   String get results {
     return Intl.message(
@@ -330,30 +350,30 @@ class S {
     );
   }
 
-  /// `¡Hola, bienvenido a Armor Of God!`
+  /// `¡Hola, Bienvenido a Armor Of God!`
   String get onBoardingTitle1 {
     return Intl.message(
-      '¡Hola, bienvenido a Armor Of God!',
+      '¡Hola, Bienvenido a Armor Of God!',
       name: 'onBoardingTitle1',
       desc: '',
       args: [],
     );
   }
 
-  /// `Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos que es la Armadura De Dios y cómo usarla.`
+  /// `Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla.`
   String get onBoardingDescription1 {
     return Intl.message(
-      'Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos que es la Armadura De Dios y cómo usarla.',
+      'Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla.',
       name: 'onBoardingDescription1',
       desc: '',
       args: [],
     );
   }
 
-  /// `Funcionamiento:`
+  /// `Funcionamiento`
   String get onBoardingTitle2 {
     return Intl.message(
-      'Funcionamiento:',
+      'Funcionamiento',
       name: 'onBoardingTitle2',
       desc: '',
       args: [],

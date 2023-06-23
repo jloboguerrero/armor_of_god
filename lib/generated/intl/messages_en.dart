@@ -61,9 +61,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
             "When you are in the discovery of each piece you will find jewels that you can obtain by answering only one question! They are precious jewels that will help you in the responsibility of acquiring the Armor of God."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
-            "Hello, welcome to Armor Of God!"),
-        "onBoardingTitle2":
-            MessageLookupByLibrary.simpleMessage("Functioning:"),
+            "Hello, Welcome to Armor Of God!"),
+        "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Functioning"),
         "onBoardingTitle3":
             MessageLookupByLibrary.simpleMessage("There is more!!"),
         "optionFiveFirstPageFive":
@@ -126,6 +125,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Special Weapons"),
         "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Suggestion"),
+        "suggestionError": MessageLookupByLibrary.simpleMessage(
+            "An error occurred. please try again"),
+        "suggestionSend": MessageLookupByLibrary.simpleMessage(
+            "Sent successfully, thanks for your suggestion!"),
         "survivalItems": MessageLookupByLibrary.simpleMessage("Survival Items"),
         "termsAndConditions":
             MessageLookupByLibrary.simpleMessage("Terms and conditions"),

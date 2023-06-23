@@ -10,12 +10,12 @@ class Onboarding {
         title: S.current.onBoardingTitle1,
       ),
       Item(
-        image: 'assets/images/onboarding_1.png',
+        image: 'assets/images/onboarding_2.png',
         subtitle: S.current.onBoardingDescription2,
         title: S.current.onBoardingTitle2,
       ),
       Item(
-        image: 'assets/flags/co.png',
+        image: 'assets/stones/diamond_gold.png',
         subtitle: S.current.onBoardingDescription3,
         title: S.current.onBoardingTitle3,
       ),

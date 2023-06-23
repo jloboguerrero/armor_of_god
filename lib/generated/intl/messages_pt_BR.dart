@@ -49,9 +49,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
             "Quando estiver na descoberta de cada peça encontrará joias que poderá obter respondendo a apenas uma pergunta! São joias preciosas que o ajudarão na responsabilidade de adquirir a Armadura de Deus."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
-            "¡Olá, seja bem vindo a Armadura de Deus!"),
-        "onBoardingTitle2":
-            MessageLookupByLibrary.simpleMessage("Funcionando:"),
+            "¡Olá, Seja Bem Vindo a Armadura de Deus!"),
+        "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Funcionando"),
         "onBoardingTitle3": MessageLookupByLibrary.simpleMessage("Tem mais!!"),
         "price": MessageLookupByLibrary.simpleMessage("Prêmio"),
         "questions": MessageLookupByLibrary.simpleMessage("Questões"),
@@ -63,6 +62,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "specialWeapons":
             MessageLookupByLibrary.simpleMessage("Armas Especiais"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Sugestão"),
+        "suggestionError": MessageLookupByLibrary.simpleMessage(
+            "Um erro ocorreu. Por favor, tente novamente"),
+        "suggestionSend": MessageLookupByLibrary.simpleMessage(
+            "Enviado com sucesso, obrigado pela sua sugestão!"),
         "survivalItems":
             MessageLookupByLibrary.simpleMessage("Itens de Sobrevivência"),
         "termsAndConditions":

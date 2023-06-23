@@ -55,15 +55,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Cuáles son las palabras claves que te harán ser la semilla que producirá una cosecha de treinta, sesenta y hasta cien veces lo que se sembró, Mateo 13:1-23, Marcos 4:1-20, Lucas 8:1-15?"),
         "menu": MessageLookupByLibrary.simpleMessage("Menú"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
-            "Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos que es la Armadura De Dios y cómo usarla."),
+            "Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla."),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "Esta aplicación está divida por secciones en las que encontraras piezas, estas piezas deberás desbloquear contestando preguntas Bíblicas de selección múltiple sin límite de tiempo! Una vez las aciertes todas podrás disfrutar de la descripción de cada pieza en la Armadura De Dios y avanzar. Recuerda no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
             "Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de adquirir la Armadura De Dios."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
-            "¡Hola, bienvenido a Armor Of God!"),
+            "¡Hola, Bienvenido a Armor Of God!"),
         "onBoardingTitle2":
-            MessageLookupByLibrary.simpleMessage("Funcionamiento:"),
+            MessageLookupByLibrary.simpleMessage("Funcionamiento"),
         "onBoardingTitle3": MessageLookupByLibrary.simpleMessage("Hay más!!"),
         "optionFiveFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Nuestro Señor Jesucristo"),
@@ -126,6 +126,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Armas Especiales"),
         "submit": MessageLookupByLibrary.simpleMessage("Enviar"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Sugerencia"),
+        "suggestionError": MessageLookupByLibrary.simpleMessage(
+            "Ocurrió un error. Por favor, intenta de nuevo"),
+        "suggestionSend": MessageLookupByLibrary.simpleMessage(
+            "Enviado exitosamente, gracias por su sugerencia!"),
         "survivalItems":
             MessageLookupByLibrary.simpleMessage("Items de Supervivencia"),
         "termsAndConditions":

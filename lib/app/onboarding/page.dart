@@ -43,11 +43,11 @@ class _Body extends StatelessWidget {
           _Country(),
           SizedBox(width: 20.0),
         ],
-        backgroundColor: Colors.white,
+        backgroundColor: const Color.fromARGB(255, 244, 240, 229),
         elevation: 0,
         title: const Text(''),
       ),
-      backgroundColor: Colors.white,
+      backgroundColor: const Color.fromARGB(255, 244, 240, 229),
       body: SingleChildScrollView(
         physics: const NeverScrollableScrollPhysics(),
         child: Column(
@@ -86,7 +86,7 @@ class _Country extends StatelessWidget {
               Text(
                 state.model.country.name ?? '',
                 style: const TextStyle(
-                  color: Colors.black,
+                  color: Color(0xff80531C),
                   fontFamily: 'Inter',
                   fontSize: 12.0,
                   fontStyle: FontStyle.normal,
@@ -174,8 +174,11 @@ class _Item extends StatelessWidget {
               children: [
                 Image.asset(
                   page.image,
-                  height: MediaQuery.of(context).size.height * 0.35,
+                  height: (index == 2)
+                      ? MediaQuery.of(context).size.height * 0.23
+                      : MediaQuery.of(context).size.height * 0.33,
                 ),
+                const SizedBox(height: 16.0),
                 Text(
                   page.title,
                   style: const TextStyle(
@@ -192,9 +195,10 @@ class _Item extends StatelessWidget {
                       page.subtitle,
                       style: const TextStyle(
                         color: Colors.brown,
+                        fontSize: 15.0,
                         fontWeight: FontWeight.w400,
                       ),
-                      textAlign: TextAlign.center,
+                      textAlign: TextAlign.justify,
                     ),
                   ),
                 ),
@@ -422,7 +426,7 @@ class _Button extends StatelessWidget {
                 blurRadius: 6.0,
               ),
             ],
-            color: Colors.white,
+            color: Color(0xff80531C),
           ),
           height: 110,
         ),
@@ -431,6 +435,7 @@ class _Button extends StatelessWidget {
           child: BlocBuilder<bloc.Bloc, bloc.State>(
             builder: (context, state) {
               return Button(
+                colorBackground: const Color.fromARGB(255, 244, 240, 229),
                 colorLetter: const Color(0xff80531C),
                 label: S.current.enter,
                 onTap: () => Modular.to.pushNamed(

@@ -1,10 +1,75 @@
 import 'package:armor_of_god/generated/l10n.dart';
 import 'package:armor_of_god/widgets/button.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:armor_of_god/widgets/loading.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:armor_of_god/app/suggestions/bloc/bloc.dart' as bloc;
 
 class Page extends StatelessWidget {
   const Page({Key? key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    TextEditingController textEditingController = TextEditingController();
+    return BlocProvider(
+      create: (context) => bloc.Bloc(),
+      child: BlocListener<bloc.Bloc, bloc.State>(
+        listener: (context, state) {
+          if (state is bloc.SendingDataState) {
+            Loading.show(context);
+          }
+
+          if (state is bloc.SendedDataState) {
+            Navigator.pop(context);
+            textEditingController.clear();
+            context.read<bloc.Bloc>().add(const bloc.SuggestionChangeEvent(''));
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                backgroundColor: const Color.fromARGB(255, 21, 85, 23),
+                content: Text(
+                  S.current.suggestionSend,
+                  style: const TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+                duration: const Duration(milliseconds: 3700),
+              ),
+            );
+          }
+
+          if (state is bloc.SendedFailedDataState) {
+            Navigator.pop(context);
+            textEditingController.clear();
+            context.read<bloc.Bloc>().add(const bloc.SuggestionChangeEvent(''));
+            ScaffoldMessenger.of(context).showSnackBar(
+              SnackBar(
+                backgroundColor: const Color.fromARGB(255, 151, 32, 23),
+                content: Text(
+                  S.current.suggestionError,
+                  style: const TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+                duration: const Duration(milliseconds: 3700),
+              ),
+            );
+          }
+        },
+        child: _Content(
+          textEditingController: textEditingController,
+        ),
+      ),
+    );
+  }
+}
+
+class _Content extends StatelessWidget {
+  const _Content({
+    Key? key,
+    required this.textEditingController,
+  }) : super(key: key);
+
+  final TextEditingController textEditingController;
 
   @override
   Widget build(BuildContext context) {
@@ -57,23 +122,45 @@ class Page extends StatelessWidget {
                   textAlign: TextAlign.justify,
                 ),
                 const SizedBox(height: 20.0),
-                const TextField(),
+                TextField(
+                  controller: textEditingController,
+                  cursorColor: const Color.fromARGB(255, 88, 57, 18),
+                  decoration: const InputDecoration(
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        width: 2,
+                        color: Color.fromARGB(255, 88, 57, 18),
+                      ),
+                    ),
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                          width: 2, color: Color.fromARGB(255, 88, 57, 18)),
+                    ),
+                  ),
+                  maxLines: 5,
+                  onChanged: (val) {
+                    context
+                        .read<bloc.Bloc>()
+                        .add(bloc.SuggestionChangeEvent(val));
+                  },
+                ),
                 const SizedBox(height: 30.0),
                 Center(
-                  child: Button(
-                    label: S.current.submit,
-                    onTap: () {
-                      // CREATE COLLECTION
-                      CollectionReference suggestion =
-                          FirebaseFirestore.instance.collection('suggestion');
-                      final creation = suggestion.add({
-                        'info': 'mucho teeeeeeeexto',
-                      }).then((value) {
-                        print("User Added");
-                        print('here is value $value');
-                      }).catchError(
-                          (error) => print("Failed to add user: $error"));
-                      print('here is creacion $creation');
+                  child: BlocBuilder<bloc.Bloc, bloc.State>(
+                    builder: (context, state) {
+                      return Button(
+                        colorLetter: (state.model.suggestion.isEmpty)
+                            ? Colors.grey
+                            : const Color.fromARGB(255, 237, 186, 57),
+                        label: S.current.submit,
+                        onTap: (state.model.suggestion.isEmpty)
+                            ? () {}
+                            : () {
+                                context
+                                    .read<bloc.Bloc>()
+                                    .add(bloc.SuggestionSendEvent());
+                              },
+                      );
                     },
                   ),
                 ),

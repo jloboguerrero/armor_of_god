@@ -35,6 +35,7 @@ class MyApp extends StatelessWidget {
       title: 'Armor of God',
       routeInformationParser: Modular.routeInformationParser,
       routerDelegate: Modular.routerDelegate,
+      locale: const Locale('es', 'CO'),
       localizationsDelegates: const [
         S.delegate,
         GlobalMaterialLocalizations.delegate,
