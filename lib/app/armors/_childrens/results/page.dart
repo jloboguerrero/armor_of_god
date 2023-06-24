@@ -170,18 +170,18 @@ class Page extends StatelessWidget {
                   ),
                   const SizedBox(height: 20.0),
                 ],
-                CelebrationAnimation(
-                  child: Center(
-                    child: Container(
-                      decoration: BoxDecoration(
-                        color: const Color.fromARGB(255, 244, 240, 229),
-                        borderRadius: BorderRadius.circular(16.0),
-                      ),
-                      height: MediaQuery.of(context).size.height * 0.61,
-                      padding: const EdgeInsets.all(16.0),
-                      width: MediaQuery.of(context).size.width * 0.80,
-                      child: SingleChildScrollView(
-                        physics: const BouncingScrollPhysics(),
+                Center(
+                  child: Container(
+                    decoration: BoxDecoration(
+                      color: const Color.fromARGB(255, 244, 240, 229),
+                      borderRadius: BorderRadius.circular(16.0),
+                    ),
+                    height: MediaQuery.of(context).size.height * 0.61,
+                    padding: const EdgeInsets.all(16.0),
+                    width: MediaQuery.of(context).size.width * 0.80,
+                    child: SingleChildScrollView(
+                      physics: const BouncingScrollPhysics(),
+                      child: CelebrationAnimation(
                         child: Column(
                           children: [
                             _NumberUp(
