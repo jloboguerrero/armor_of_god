@@ -128,7 +128,7 @@ class _PageView extends StatelessWidget {
         horizontal: 20.0,
       ),
       child: SizedBox(
-        height: MediaQuery.of(context).size.height * 0.60,
+        height: MediaQuery.of(context).size.height * 0.64,
         child: PageView(
           physics: const BouncingScrollPhysics(
             parent: AlwaysScrollableScrollPhysics(),
@@ -270,7 +270,8 @@ class _SelectCountry extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
+      color: const Color.fromARGB(255, 244, 240, 229),
       height: MediaQuery.of(context).size.height * 0.41,
       child: ListView.builder(
         itemCount: 3,

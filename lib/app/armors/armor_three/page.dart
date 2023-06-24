@@ -101,7 +101,9 @@ class Page extends StatelessWidget {
                             } else {
                               showDialog(
                                 context: context,
-                                builder: (context) => const NeedAnswers(),
+                                builder: (context) => const NeedAnswers(
+                                  color: Color.fromARGB(255, 54, 77, 54),
+                                ),
                               );
                             }
                           },
@@ -156,7 +158,9 @@ class Page extends StatelessWidget {
                                 } else {
                                   showDialog(
                                     context: context,
-                                    builder: (context) => const NeedAnswers(),
+                                    builder: (context) => const NeedAnswers(
+                                      color: Color.fromARGB(255, 54, 77, 54),
+                                    ),
                                   );
                                 }
                               },
@@ -209,7 +213,9 @@ class Page extends StatelessWidget {
                                 } else {
                                   showDialog(
                                     context: context,
-                                    builder: (context) => const NeedAnswers(),
+                                    builder: (context) => const NeedAnswers(
+                                      color: Color.fromARGB(255, 54, 77, 54),
+                                    ),
                                   );
                                 }
                               },
@@ -262,7 +268,9 @@ class Page extends StatelessWidget {
                                 } else {
                                   showDialog(
                                     context: context,
-                                    builder: (context) => const NeedAnswers(),
+                                    builder: (context) => const NeedAnswers(
+                                      color: Color.fromARGB(255, 54, 77, 54),
+                                    ),
                                   );
                                 }
                               },
@@ -316,7 +324,9 @@ class Page extends StatelessWidget {
                             } else {
                               showDialog(
                                 context: context,
-                                builder: (context) => const NeedAnswers(),
+                                builder: (context) => const NeedAnswers(
+                                  color: Color.fromARGB(255, 54, 77, 54),
+                                ),
                               );
                             }
                           },
@@ -367,7 +377,9 @@ class Page extends StatelessWidget {
                             } else {
                               showDialog(
                                 context: context,
-                                builder: (context) => const NeedAnswers(),
+                                builder: (context) => const NeedAnswers(
+                                  color: Color.fromARGB(255, 54, 77, 54),
+                                ),
                               );
                             }
                           },

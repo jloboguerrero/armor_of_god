@@ -1,3 +1,4 @@
+import 'package:armor_of_god/widgets/dialog_answer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -76,25 +77,42 @@ class Page extends StatelessWidget {
                           }
                         : () async {
                             final questionsSix = Questions().six;
-                            await Modular.to.pushNamed(
-                              '/armors/countdown',
-                              arguments: {
-                                'armor_name': S.current.armor6,
-                                'armor_picture': 'assets/armors/sword.png',
-                                'color': const Color.fromARGB(255, 165, 80, 48),
-                              },
-                            );
-                            Modular.to.pushNamed(
-                              '/armors/questions',
-                              arguments: {
-                                'armor_name': S.current.armor6,
-                                'armor_picture': 'assets/armors/sword.png',
-                                'background': 'assets/images/cueva1.png',
-                                'color': const Color.fromARGB(255, 165, 80, 48),
-                                'questions': questionsSix,
-                                'piece': 'six',
-                              },
-                            );
+                            if (armorCheck.armors!.armor_1 &&
+                                armorCheck.armors!.armor_2 &&
+                                armorCheck.armors!.armor_3 &&
+                                armorCheck.armors!.armor_4 &&
+                                armorCheck.armors!.armor_5) {
+                              await Modular.to.pushNamed(
+                                '/armors/countdown',
+                                arguments: {
+                                  'armor_name': S.current.armor6,
+                                  'armor_picture': 'assets/armors/sword.png',
+                                  'color':
+                                      const Color.fromARGB(255, 165, 80, 48),
+                                },
+                              );
+                              Modular.to.pushNamed(
+                                '/armors/questions',
+                                arguments: {
+                                  'armor_name': S.current.armor6,
+                                  'armor_picture': 'assets/armors/sword.png',
+                                  'background': 'assets/images/cueva1.png',
+                                  'color':
+                                      const Color.fromARGB(255, 165, 80, 48),
+                                  'questions': questionsSix,
+                                  'piece': 'six',
+                                },
+                              );
+                            } else {
+                              showDialog(
+                                context: context,
+                                builder: (context) => NeedAnswers(
+                                  color: const Color.fromARGB(255, 165, 80, 48),
+                                  image: 'assets/armors/helmt.png',
+                                  piece: S.current.armor5,
+                                ),
+                              );
+                            }
                           },
                     child: Image.asset(
                       'assets/armors/sword.png',
@@ -175,27 +193,44 @@ class Page extends StatelessWidget {
                               }
                             : () async {
                                 final questionsFive = Questions().five;
-                                await Modular.to.pushNamed(
-                                  '/armors/countdown',
-                                  arguments: {
-                                    'armor_name': S.current.armor5,
-                                    'armor_picture': 'assets/armors/helmt.png',
-                                    'color':
-                                        const Color.fromARGB(255, 165, 80, 48),
-                                  },
-                                );
-                                Modular.to.pushNamed(
-                                  '/armors/questions',
-                                  arguments: {
-                                    'armor_name': S.current.armor5,
-                                    'armor_picture': 'assets/armors/helmt.png',
-                                    'background': 'assets/images/cueva1.png',
-                                    'color':
-                                        const Color.fromARGB(255, 165, 80, 48),
-                                    'questions': questionsFive,
-                                    'piece': 'five',
-                                  },
-                                );
+                                if (armorCheck.armors!.armor_1 &&
+                                    armorCheck.armors!.armor_2 &&
+                                    armorCheck.armors!.armor_3 &&
+                                    armorCheck.armors!.armor_4) {
+                                  await Modular.to.pushNamed(
+                                    '/armors/countdown',
+                                    arguments: {
+                                      'armor_name': S.current.armor5,
+                                      'armor_picture':
+                                          'assets/armors/helmt.png',
+                                      'color': const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                    },
+                                  );
+                                  Modular.to.pushNamed(
+                                    '/armors/questions',
+                                    arguments: {
+                                      'armor_name': S.current.armor5,
+                                      'armor_picture':
+                                          'assets/armors/helmt.png',
+                                      'background': 'assets/images/cueva1.png',
+                                      'color': const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      'questions': questionsFive,
+                                      'piece': 'five',
+                                    },
+                                  );
+                                } else {
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => NeedAnswers(
+                                      color: const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      image: 'assets/armors/shield.png',
+                                      piece: S.current.armor4,
+                                    ),
+                                  );
+                                }
                               },
                         child: Image.asset(
                           'assets/armors/helmt.png',
@@ -230,29 +265,41 @@ class Page extends StatelessWidget {
                               }
                             : () async {
                                 final questionsTwo = Questions().two;
-                                await Modular.to.pushNamed(
-                                  '/armors/countdown',
-                                  arguments: {
-                                    'armor_name': S.current.armor2,
-                                    'armor_picture':
-                                        'assets/armors/breastplate.png',
-                                    'color':
-                                        const Color.fromARGB(255, 165, 80, 48),
-                                  },
-                                );
-                                Modular.to.pushNamed(
-                                  '/armors/questions',
-                                  arguments: {
-                                    'armor_name': S.current.armor2,
-                                    'armor_picture':
-                                        'assets/armors/breastplate.png',
-                                    'background': 'assets/images/cueva1.png',
-                                    'color':
-                                        const Color.fromARGB(255, 165, 80, 48),
-                                    'questions': questionsTwo,
-                                    'piece': 'two',
-                                  },
-                                );
+                                if (armorCheck.armors!.armor_1) {
+                                  await Modular.to.pushNamed(
+                                    '/armors/countdown',
+                                    arguments: {
+                                      'armor_name': S.current.armor2,
+                                      'armor_picture':
+                                          'assets/armors/breastplate.png',
+                                      'color': const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                    },
+                                  );
+                                  Modular.to.pushNamed(
+                                    '/armors/questions',
+                                    arguments: {
+                                      'armor_name': S.current.armor2,
+                                      'armor_picture':
+                                          'assets/armors/breastplate.png',
+                                      'background': 'assets/images/cueva1.png',
+                                      'color': const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      'questions': questionsTwo,
+                                      'piece': 'two',
+                                    },
+                                  );
+                                } else {
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => NeedAnswers(
+                                      color: const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      image: 'assets/armors/belt.png',
+                                      piece: S.current.armor1,
+                                    ),
+                                  );
+                                }
                               },
                         child: Image.asset(
                           'assets/armors/breastplate.png',
@@ -281,27 +328,43 @@ class Page extends StatelessWidget {
                               }
                             : () async {
                                 final questionsFour = Questions().four;
-                                await Modular.to.pushNamed(
-                                  '/armors/countdown',
-                                  arguments: {
-                                    'armor_name': S.current.armor4,
-                                    'armor_picture': 'assets/armors/shield.png',
-                                    'color':
-                                        const Color.fromARGB(255, 165, 80, 48),
-                                  },
-                                );
-                                Modular.to.pushNamed(
-                                  '/armors/questions',
-                                  arguments: {
-                                    'armor_name': S.current.armor4,
-                                    'armor_picture': 'assets/armors/shield.png',
-                                    'background': 'assets/images/cueva1.png',
-                                    'color':
-                                        const Color.fromARGB(255, 165, 80, 48),
-                                    'questions': questionsFour,
-                                    'piece': 'four',
-                                  },
-                                );
+                                if (armorCheck.armors!.armor_1 &&
+                                    armorCheck.armors!.armor_2 &&
+                                    armorCheck.armors!.armor_3) {
+                                  await Modular.to.pushNamed(
+                                    '/armors/countdown',
+                                    arguments: {
+                                      'armor_name': S.current.armor4,
+                                      'armor_picture':
+                                          'assets/armors/shield.png',
+                                      'color': const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                    },
+                                  );
+                                  Modular.to.pushNamed(
+                                    '/armors/questions',
+                                    arguments: {
+                                      'armor_name': S.current.armor4,
+                                      'armor_picture':
+                                          'assets/armors/shield.png',
+                                      'background': 'assets/images/cueva1.png',
+                                      'color': const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      'questions': questionsFour,
+                                      'piece': 'four',
+                                    },
+                                  );
+                                } else {
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => NeedAnswers(
+                                      color: const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      image: 'assets/armors/feet.png',
+                                      piece: S.current.armor3,
+                                    ),
+                                  );
+                                }
                               },
                         child: Image.asset(
                           'assets/armors/shield.png',
@@ -332,25 +395,39 @@ class Page extends StatelessWidget {
                           }
                         : () async {
                             final questionsThree = Questions().three;
-                            await Modular.to.pushNamed(
-                              '/armors/countdown',
-                              arguments: {
-                                'armor_name': S.current.armor3,
-                                'armor_picture': 'assets/armors/feet.png',
-                                'color': const Color.fromARGB(255, 165, 80, 48),
-                              },
-                            );
-                            Modular.to.pushNamed(
-                              '/armors/questions',
-                              arguments: {
-                                'armor_name': S.current.armor3,
-                                'armor_picture': 'assets/armors/feet.png',
-                                'background': 'assets/images/cueva1.png',
-                                'color': const Color.fromARGB(255, 165, 80, 48),
-                                'questions': questionsThree,
-                                'piece': 'three',
-                              },
-                            );
+                            if (armorCheck.armors!.armor_1 &&
+                                armorCheck.armors!.armor_2) {
+                              await Modular.to.pushNamed(
+                                '/armors/countdown',
+                                arguments: {
+                                  'armor_name': S.current.armor3,
+                                  'armor_picture': 'assets/armors/feet.png',
+                                  'color':
+                                      const Color.fromARGB(255, 165, 80, 48),
+                                },
+                              );
+                              Modular.to.pushNamed(
+                                '/armors/questions',
+                                arguments: {
+                                  'armor_name': S.current.armor3,
+                                  'armor_picture': 'assets/armors/feet.png',
+                                  'background': 'assets/images/cueva1.png',
+                                  'color':
+                                      const Color.fromARGB(255, 165, 80, 48),
+                                  'questions': questionsThree,
+                                  'piece': 'three',
+                                },
+                              );
+                            } else {
+                              showDialog(
+                                context: context,
+                                builder: (context) => NeedAnswers(
+                                  color: const Color.fromARGB(255, 165, 80, 48),
+                                  image: 'assets/armors/breastplate.png',
+                                  piece: S.current.armor2,
+                                ),
+                              );
+                            }
                           },
                     child: Image.asset(
                       'assets/armors/feet.png',

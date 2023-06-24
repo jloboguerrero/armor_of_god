@@ -43,11 +43,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "enter": MessageLookupByLibrary.simpleMessage("Entrar"),
         "menu": MessageLookupByLibrary.simpleMessage("Cardápio"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
-            "Bem-vindo à Armadura de Deus, um aplicativo interativo no qual com a ajuda daquele que trava nossas batalhas, o Senhor Todo-Poderoso, iniciaremos uma jornada na qual descobriremos o que é a Armadura de Deus e como usá-la."),
+            "Um aplicativo interativo no qual com a ajuda daquele que trava nossas batalhas, o Senhor Todo-Poderoso, iniciaremos uma jornada na qual descobriremos o que é a Armadura de Deus e como usá-la."),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
-            "Este aplicativo é dividido em seções nas quais você encontrará peças, essas peças devem ser desbloqueadas respondendo a perguntas bíblicas de múltipla escolha sem limite de tempo! Depois de acertar todos, você pode apreciar a descrição de cada peça da Armadura de Deus e seguir em frente. Lembre-se de que você não pode ir para uma seção se não tiver desbloqueado todas as peças da seção anterior."),
+            "Este aplicativo é dividido em seções nas quais você encontrará peças que você deve desbloquear respondendo a perguntas bíblicas de seleção simples sem limite de tempo. Depois de acertar todas as questões, você pode aproveitar o conteúdo de cada peça da Armadura de Deus em sua respectiva ordem e seguir em frente. Lembre-se, você não pode ir para uma seção se não tiver desbloqueado todas as peças da seção anterior."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
-            "Quando estiver na descoberta de cada peça encontrará joias que poderá obter respondendo a apenas uma pergunta! São joias preciosas que o ajudarão na responsabilidade de adquirir a Armadura de Deus."),
+            "Quando estiver na descoberta de cada peça encontrará joias que poderá obter respondendo a apenas uma pergunta! São joias preciosas que o ajudarão na responsabilidade de assumir a Armadura de Deus."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
             "¡Olá, Seja Bem Vindo a Armadura de Deus!"),
         "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Funcionando"),

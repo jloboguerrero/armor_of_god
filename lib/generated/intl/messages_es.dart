@@ -19,6 +19,8 @@ typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
 class MessageLookup extends MessageLookupByLibrary {
   String get localeName => 'es';
 
+  static String m0(value) => "Antes de continuar debes desbloquear el ${value}";
+
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "about": MessageLookupByLibrary.simpleMessage("Información"),
@@ -34,6 +36,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor6":
             MessageLookupByLibrary.simpleMessage("La Espada del Espíritu"),
         "armourOfGod": MessageLookupByLibrary.simpleMessage("Armadura de Dios"),
+        "beforeContinueUnlock": m0,
         "classicArmour":
             MessageLookupByLibrary.simpleMessage("Armadura Clásica"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Piezas de Ropa"),
@@ -55,11 +58,11 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Cuáles son las palabras claves que te harán ser la semilla que producirá una cosecha de treinta, sesenta y hasta cien veces lo que se sembró, Mateo 13:1-23, Marcos 4:1-20, Lucas 8:1-15?"),
         "menu": MessageLookupByLibrary.simpleMessage("Menú"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
-            "Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla."),
+            "Una aplicación interactiva en la cual con la ayuda de quien pelea nuestras batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla."),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
-            "Esta aplicación está divida por secciones en las que encontraras piezas, estas piezas deberás desbloquear contestando preguntas Bíblicas de selección múltiple sin límite de tiempo! Una vez las aciertes todas podrás disfrutar de la descripción de cada pieza en la Armadura De Dios y avanzar. Recuerda no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección."),
+            "Esta aplicación está divida por secciones en las que encontraras piezas que deberás desbloquear contestando preguntas Bíblicas de selección simple sin límite de tiempo. Una vez aciertes todas las preguntas, podrás disfrutar del contenido de cada pieza de la Armadura De Dios  en su respectivo orden y avanzar. Recuerda, no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
-            "Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de adquirir la Armadura De Dios."),
+            "Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de tomar la Armadura De Dios."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
             "¡Hola, Bienvenido a Armor Of God!"),
         "onBoardingTitle2":

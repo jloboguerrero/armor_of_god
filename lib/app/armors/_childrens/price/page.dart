@@ -75,7 +75,6 @@ class Page extends StatelessWidget {
                 );
               },
             ),
-            title: const Text(''),
           ),
           backgroundColor: Colors.transparent,
           body: Center(
@@ -95,32 +94,58 @@ class Page extends StatelessWidget {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
                       children: [
-                        const SizedBox.shrink(),
                         Flexible(
+                          flex: 6,
                           child: Padding(
-                            padding: const EdgeInsets.only(right: 18.0),
-                            child: Text(
-                              armorName,
-                              style: const TextStyle(
-                                fontSize: 22.0,
-                                fontWeight: FontWeight.w700,
-                              ),
+                            padding:
+                                const EdgeInsets.symmetric(horizontal: 12.0),
+                            child: Column(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
+                                Text(
+                                  armorName,
+                                  style: const TextStyle(
+                                    color: Color.fromARGB(255, 88, 57, 18),
+                                    fontSize: 20.0,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                                const SizedBox(height: 12.0),
+                                Text(
+                                  pieces.title,
+                                  style: const TextStyle(
+                                    color: Color.fromARGB(255, 88, 57, 18),
+                                    fontSize: 16.0,
+                                    fontWeight: FontWeight.w500,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                                const SizedBox(height: 4.0),
+                                Text(
+                                  pieces.subtitle,
+                                  style: const TextStyle(
+                                    color: Color.fromARGB(255, 85, 84, 84),
+                                    fontSize: 16.0,
+                                    fontStyle: FontStyle.italic,
+                                    fontWeight: FontWeight.w400,
+                                  ),
+                                  textAlign: TextAlign.center,
+                                ),
+                              ],
                             ),
                           ),
                         ),
-                        Image.asset(
-                          armorPicture,
-                          height: MediaQuery.of(context).size.height * 0.2,
+                        Flexible(
+                          flex: 4,
+                          child: Image.asset(
+                            armorPicture,
+                          ),
                         ),
                       ],
                     ),
                     const SizedBox(height: 18.0),
-                    Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Text(
-                        pieces.subtitle,
-                      ),
-                    ),
+                    if (pieces.contentWidget != null) pieces.contentWidget!,
                   ],
                 ),
               ),

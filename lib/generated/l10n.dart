@@ -120,6 +120,16 @@ class S {
     );
   }
 
+  /// `Antes de continuar debes desbloquear el {value}`
+  String beforeContinueUnlock(Object value) {
+    return Intl.message(
+      'Antes de continuar debes desbloquear el $value',
+      name: 'beforeContinueUnlock',
+      desc: '',
+      args: [value],
+    );
+  }
+
   /// `Resultados`
   String get results {
     return Intl.message(
@@ -360,10 +370,10 @@ class S {
     );
   }
 
-  /// `Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla.`
+  /// `Una aplicación interactiva en la cual con la ayuda de quien pelea nuestras batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla.`
   String get onBoardingDescription1 {
     return Intl.message(
-      'Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla.',
+      'Una aplicación interactiva en la cual con la ayuda de quien pelea nuestras batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla.',
       name: 'onBoardingDescription1',
       desc: '',
       args: [],
@@ -380,10 +390,10 @@ class S {
     );
   }
 
-  /// `Esta aplicación está divida por secciones en las que encontraras piezas, estas piezas deberás desbloquear contestando preguntas Bíblicas de selección múltiple sin límite de tiempo! Una vez las aciertes todas podrás disfrutar de la descripción de cada pieza en la Armadura De Dios y avanzar. Recuerda no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.`
+  /// `Esta aplicación está divida por secciones en las que encontraras piezas que deberás desbloquear contestando preguntas Bíblicas de selección simple sin límite de tiempo. Una vez aciertes todas las preguntas, podrás disfrutar del contenido de cada pieza de la Armadura De Dios  en su respectivo orden y avanzar. Recuerda, no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.`
   String get onBoardingDescription2 {
     return Intl.message(
-      'Esta aplicación está divida por secciones en las que encontraras piezas, estas piezas deberás desbloquear contestando preguntas Bíblicas de selección múltiple sin límite de tiempo! Una vez las aciertes todas podrás disfrutar de la descripción de cada pieza en la Armadura De Dios y avanzar. Recuerda no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.',
+      'Esta aplicación está divida por secciones en las que encontraras piezas que deberás desbloquear contestando preguntas Bíblicas de selección simple sin límite de tiempo. Una vez aciertes todas las preguntas, podrás disfrutar del contenido de cada pieza de la Armadura De Dios  en su respectivo orden y avanzar. Recuerda, no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.',
       name: 'onBoardingDescription2',
       desc: '',
       args: [],
@@ -400,10 +410,10 @@ class S {
     );
   }
 
-  /// `Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de adquirir la Armadura De Dios.`
+  /// `Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de tomar la Armadura De Dios.`
   String get onBoardingDescription3 {
     return Intl.message(
-      'Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de adquirir la Armadura De Dios.',
+      'Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de tomar la Armadura De Dios.',
       name: 'onBoardingDescription3',
       desc: '',
       args: [],
