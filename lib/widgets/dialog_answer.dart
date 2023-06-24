@@ -44,11 +44,9 @@ class NeedAnswers extends StatelessWidget {
         ),
         children: [
           image != null
-              ? Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 50),
-                  child: Image.asset(
-                    image!,
-                  ),
+              ? Image.asset(
+                  image!,
+                  height: MediaQuery.of(context).size.height * 0.15,
                 )
               : SvgPicture.asset(
                   'assets/icons/alert_triangle.svg',

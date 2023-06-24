@@ -11,12 +11,11 @@ import 'package:armor_of_god/widgets/dialog_succesfull.dart';
 import 'package:armor_of_god/widgets/first_modal.dart';
 
 class Page extends StatelessWidget {
-  final PageController controller;
-
   const Page({
     Key? key,
     required this.controller,
   }) : super(key: key);
+  final PageController controller;
 
   @override
   Widget build(BuildContext context) {

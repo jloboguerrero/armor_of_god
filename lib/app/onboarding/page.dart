@@ -37,6 +37,7 @@ class _Body extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final controller = PageController();
     return Scaffold(
       appBar: AppBar(
         actions: const [
@@ -51,10 +52,12 @@ class _Body extends StatelessWidget {
       body: SingleChildScrollView(
         physics: const NeverScrollableScrollPhysics(),
         child: Column(
-          children: const [
-            _PageView(),
-            SizedBox(height: 36.0),
-            _Dots(length: 3),
+          children: [
+            _PageView(
+              controller: controller,
+            ),
+            const SizedBox(height: 36.0),
+            const _Dots(length: 3),
           ],
         ),
       ),
@@ -118,18 +121,22 @@ class _Country extends StatelessWidget {
 
 class _PageView extends StatelessWidget {
   const _PageView({
+    required this.controller,
     Key? key,
   }) : super(key: key);
+
+  final PageController controller;
 
   @override
   Widget build(BuildContext context) {
     return Container(
       margin: const EdgeInsets.symmetric(
-        horizontal: 20.0,
+        horizontal: 0.0,
       ),
       child: SizedBox(
         height: MediaQuery.of(context).size.height * 0.64,
         child: PageView(
+          controller: controller,
           physics: const BouncingScrollPhysics(
             parent: AlwaysScrollableScrollPhysics(),
           ),
@@ -143,7 +150,10 @@ class _PageView extends StatelessWidget {
           children: List.generate(
             3,
             (index) {
-              return _Item(index: index);
+              return _Item(
+                controller: controller,
+                index: index,
+              );
             },
           ),
         ),
@@ -153,12 +163,14 @@ class _PageView extends StatelessWidget {
 }
 
 class _Item extends StatelessWidget {
-  final int index;
-
   const _Item({
+    required this.controller,
     Key? key,
     required this.index,
   }) : super(key: key);
+
+  final PageController controller;
+  final int index;
 
   @override
   Widget build(BuildContext context) {
@@ -169,36 +181,80 @@ class _Item extends StatelessWidget {
         final page = pages[index];
         return BlocBuilder<bloc.Bloc, bloc.State>(
           builder: (context, state) {
-            return Column(
-              mainAxisAlignment: MainAxisAlignment.center,
+            return Row(
               children: [
-                Image.asset(
-                  page.image,
-                  height: (index == 2)
-                      ? MediaQuery.of(context).size.height * 0.23
-                      : MediaQuery.of(context).size.height * 0.33,
-                ),
-                const SizedBox(height: 16.0),
-                Text(
-                  page.title,
-                  style: const TextStyle(
-                    color: Color(0xff80531C),
-                    fontSize: 18.0,
-                    fontWeight: FontWeight.w700,
+                Opacity(
+                  opacity: (index == 0) ? 0.0 : 1.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      if (index != 0) {
+                        controller.previousPage(
+                          duration: const Duration(milliseconds: 700),
+                          curve: Curves.easeInOut,
+                        );
+                      }
+                    },
+                    child: const Icon(
+                      Icons.arrow_left,
+                      color: Color(0xff80531C),
+                      size: 40,
+                    ),
                   ),
-                  textAlign: TextAlign.center,
                 ),
-                Flexible(
-                  child: Padding(
-                    padding: const EdgeInsets.all(8.0),
-                    child: Text(
-                      page.subtitle,
-                      style: const TextStyle(
-                        color: Colors.brown,
-                        fontSize: 15.0,
-                        fontWeight: FontWeight.w400,
+                Expanded(
+                  child: Column(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Image.asset(
+                        page.image,
+                        height: (index == 2)
+                            ? MediaQuery.of(context).size.height * 0.23
+                            : (index == 1)
+                                ? MediaQuery.of(context).size.height * 0.29
+                                : MediaQuery.of(context).size.height * 0.33,
                       ),
-                      textAlign: TextAlign.justify,
+                      const SizedBox(height: 16.0),
+                      Text(
+                        page.title,
+                        style: const TextStyle(
+                          color: Color(0xff80531C),
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.w700,
+                        ),
+                        textAlign: TextAlign.center,
+                      ),
+                      Flexible(
+                        child: Padding(
+                          padding: const EdgeInsets.all(8.0),
+                          child: Text(
+                            page.subtitle,
+                            style: const TextStyle(
+                              color: Colors.brown,
+                              fontSize: 15.0,
+                              fontWeight: FontWeight.w400,
+                            ),
+                            textAlign: TextAlign.justify,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+                Opacity(
+                  opacity: (index == 2) ? 0.0 : 1.0,
+                  child: GestureDetector(
+                    onTap: () {
+                      if (index != 2) {
+                        controller.nextPage(
+                          duration: const Duration(milliseconds: 700),
+                          curve: Curves.easeInOut,
+                        );
+                      }
+                    },
+                    child: const Icon(
+                      Icons.arrow_right,
+                      color: Color(0xff80531C),
+                      size: 40,
                     ),
                   ),
                 ),
