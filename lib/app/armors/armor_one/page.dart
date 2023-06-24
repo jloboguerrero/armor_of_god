@@ -57,8 +57,56 @@ class Page extends StatelessWidget {
             ),
             Expanded(
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
+                  const SizedBox(height: 20.0),
+                  GestureDetector(
+                    onTap: armorCheck.armors!.armor_7
+                        ? () {
+                            final questionsOne = Questions().one;
+                            showDialog(
+                              context: context,
+                              builder: (context) => AnswersSuccesfull(
+                                armorName: S.current.armor1,
+                                armorPicture: 'assets/armors/belt.png',
+                                background: 'assets/images/cueva1.png',
+                                color: const Color.fromARGB(255, 165, 80, 48),
+                                questions: questionsOne,
+                                piece: 'one',
+                              ),
+                            );
+                          }
+                        : () async {
+                            final questionsOne = Questions().one;
+                            await Modular.to.pushNamed(
+                              '/armors/countdown',
+                              arguments: {
+                                'armor_name': S.current.armor1,
+                                'armor_picture': 'assets/armors/belt.png',
+                                'color': const Color.fromARGB(255, 165, 80, 48),
+                              },
+                            );
+                            Modular.to.pushNamed(
+                              '/armors/questions',
+                              arguments: {
+                                'armor_name': S.current.armor1,
+                                'armor_picture': 'assets/armors/belt.png',
+                                'background': 'assets/images/cueva1.png',
+                                'color': const Color.fromARGB(255, 165, 80, 48),
+                                'questions': questionsOne,
+                                'piece': 'one',
+                              },
+                            );
+                          },
+                    child: Image.asset(
+                      'assets/stones/diamond_gold.png',
+                      height: 50.0,
+                      opacity: armorCheck.armors!.armor_7
+                          ? null
+                          : const AlwaysStoppedAnimation(.15),
+                    ),
+                  ),
+                  const SizedBox(height: 80.0),
                   GestureDetector(
                     onTap: armorCheck.armors!.armor_6
                         ? () {
@@ -481,13 +529,17 @@ class Page extends StatelessWidget {
                       color: Color.fromARGB(255, 165, 80, 48),
                       image: 'assets/images/angel2.png',
                       subTitle:
-                          'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
-                      title: 'The faith is absolute',
+                          '“10Por lo demás, hermanos míos, fortaleceos en el Señor, y en el poder de su fuerza. 11Vestíos de toda la armadura de Dios, para que podáis estar firmes contra las asechanzas del diablo. 12Porque no tenemos lucha contra sangre y carne, sino contra principados, contra potestades, contra los gobernadores de las tinieblas de este siglo, contra huestes espirituales de maldad en las regiones celestes. 13Por tanto, tomad toda la armadura de Dios, para que podáis resistir en el día malo, y habiendo acabado todo, estar firmes.” Efesios 6:10-13 Versión Reina Valera 1960 en el texto anterior queremos resaltar tres aspectos importantes, primero la armadura de Dios es la que debemos usar no la nuestra, segundo, solo los corazones transformados pueden tomar la armadura de Dios, por esto vemos como el Apóstol habla a los hermanos, y tercero que la Armadura de Dios es contra las fuerzas espirituales del mal en los lugares celestiales, esto es muy importante, ya que, no es una armadura física, es espiritual en el alma, y práctica para nuestra vida diaria, por ello encontraremos ejemplos Bíblicos y cotidianos para nuestro caminar en la vida cristiana en cada pieza porque estamos en guerra.',
+                      title:
+                          'No debemos confiar en la Armadura de Dios, si no en el Dios de la Armadura',
                     ),
                   );
                 },
-                child: Image.asset(
-                  'assets/images/angel1.png',
+                child: Hero(
+                  tag: 'angel1Hero',
+                  child: Image.asset(
+                    'assets/images/angel1.png',
+                  ),
                 ),
               ),
             ),

@@ -164,7 +164,8 @@ class _Body extends StatelessWidget {
                           : () {
                               ScaffoldMessenger.of(context).showSnackBar(
                                 SnackBar(
-                                  backgroundColor: Colors.red,
+                                  backgroundColor:
+                                      const Color.fromARGB(255, 151, 32, 23),
                                   content: Text(S.current.answerAllQuestions),
                                   duration: const Duration(milliseconds: 3700),
                                 ),
@@ -192,8 +193,11 @@ class _Body extends StatelessWidget {
                           ),
                         );
                       },
-                      child: Image.asset(
-                        'assets/images/angel1.png',
+                      child: Hero(
+                        tag: 'angel1Hero',
+                        child: Image.asset(
+                          'assets/images/angel1.png',
+                        ),
                       ),
                     );
                   },

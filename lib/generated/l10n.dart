@@ -220,10 +220,10 @@ class S {
     );
   }
 
-  /// `Responde todas las preguntas`
+  /// `Para enviar, responde todas las preguntas`
   String get answerAllQuestions {
     return Intl.message(
-      'Responde todas las preguntas',
+      'Para enviar, responde todas las preguntas',
       name: 'answerAllQuestions',
       desc: '',
       args: [],

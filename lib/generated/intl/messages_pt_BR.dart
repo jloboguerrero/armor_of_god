@@ -23,8 +23,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "about": MessageLookupByLibrary.simpleMessage("Informação"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceitar"),
-        "answerAllQuestions":
-            MessageLookupByLibrary.simpleMessage("Responda todas as perguntas"),
+        "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
+            "Para enviar, responda a todas as perguntas"),
         "armor1": MessageLookupByLibrary.simpleMessage("Cinturão da Verdade"),
         "armor2": MessageLookupByLibrary.simpleMessage("Peitoral da Justiça"),
         "armor3": MessageLookupByLibrary.simpleMessage(

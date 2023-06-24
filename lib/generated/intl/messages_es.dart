@@ -26,7 +26,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "about": MessageLookupByLibrary.simpleMessage("Información"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceptar"),
         "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
-            "Responde todas las preguntas"),
+            "Para enviar, responde todas las preguntas"),
         "armor1": MessageLookupByLibrary.simpleMessage("Cinturón de la Verdad"),
         "armor2": MessageLookupByLibrary.simpleMessage("Coraza de la Justicia"),
         "armor3": MessageLookupByLibrary.simpleMessage(

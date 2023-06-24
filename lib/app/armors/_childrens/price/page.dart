@@ -146,6 +146,7 @@ class Page extends StatelessWidget {
                     ),
                     const SizedBox(height: 18.0),
                     if (pieces.contentWidget != null) pieces.contentWidget!,
+                    const SizedBox(height: 38.0),
                   ],
                 ),
               ),

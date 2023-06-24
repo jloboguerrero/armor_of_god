@@ -248,8 +248,11 @@ class Page extends StatelessWidget {
                           ),
                         );
                       },
-                      child: Image.asset(
-                        'assets/images/angel1.png',
+                      child: Hero(
+                        tag: 'angel1Hero',
+                        child: Image.asset(
+                          'assets/images/angel1.png',
+                        ),
                       ),
                     ),
                   )

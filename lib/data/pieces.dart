@@ -17,9 +17,10 @@ class Pieces {
                       text:
                           'La primera pieza de la armadura de Dios; es el cinturón de la verdad. Como sabemos, el cinturón de una armadura está destinado a sostener, sujetar o mantener toda la armadura unida, es la pieza central en el cuerpo que sostiene todo. De la misma manera, esta pieza tipifica a Cristo mismo, Jesucristo es la verdad, Jesús dijo en Juan 14:6 YO SOY el Camino, y la ',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 31, 31, 31),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w400),
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                     TextSpan(
                       text: 'verdad ',
@@ -32,9 +33,10 @@ class Pieces {
                       text:
                           'y la vida, Él es el Verbo es decir la Palabra encarnada Juan1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestras boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: ',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 31, 31, 31),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w400),
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                     TextSpan(
                       text:
@@ -49,9 +51,10 @@ class Pieces {
                       text:
                           'Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 31, 31, 31),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w400),
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                   ],
                 ),
@@ -64,22 +67,17 @@ class Pieces {
                   Expanded(
                     child: RichText(
                       textAlign: TextAlign.justify,
-                      text: const TextSpan(
+                      text: TextSpan(
                         children: [
-                          TextSpan(
-                            text: 'Ejemplo Práctico: ',
-                            style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          TextSpan(
+                          CommonUtils.examplePractice(text: 'Ejemplo Práctico'),
+                          const TextSpan(
                             text:
                                 'Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad en el mundo se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.',
                             style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w400),
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
                           ),
                         ],
                       ),
@@ -97,33 +95,29 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          const TextSpan(
-                            text: 'Ejemplo Bíblico: ',
-                            style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold),
-                          ),
+                          CommonUtils.examplePractice(text: 'Ejemplo Bíblico'),
                           const TextSpan(
                             text:
                                 'Jesús mismo quien es la Palabra habitaba en ella, leamos ',
                             style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w400),
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
                           ),
                           CommonUtils.widgetSpan(
                             textInside:
-                                '4 Jesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo.',
+                                'Lucas 4:1-13\n4 Jesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo.',
                             textOutside: 'Lucas: 4:1-13 ',
                           ),
                           const TextSpan(
                             text:
                                 'en este capítulo vemos como Jesús venció con la verdad de la Palabra de Dios, durante toda la tentación el citó solo las Escrituras.',
                             style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w400),
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
                           ),
                         ],
                       ),
@@ -139,22 +133,17 @@ class Pieces {
                   Expanded(
                     child: RichText(
                       textAlign: TextAlign.justify,
-                      text: const TextSpan(
+                      text: TextSpan(
                         children: [
-                          TextSpan(
-                            text: 'Vida: ',
-                            style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          TextSpan(
+                          CommonUtils.examplePractice(text: 'Vida'),
+                          const TextSpan(
                             text:
                                 'Como creyentes, debemos habitar cada día en la Palabra de nuestro Señor, es la única forma de ceñirnos con la verdad, si estamos en la búsqueda de la verdad, entonces debemos leer las Escrituras y llenar nuestra mente de ellas.',
                             style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w400),
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
                           ),
                         ],
                       ),
@@ -183,9 +172,10 @@ class Pieces {
                       text:
                           'La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia 1 Corintios 1:30 ',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 31, 31, 31),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w400),
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                     const TextSpan(
                       text:
@@ -200,9 +190,10 @@ class Pieces {
                       text:
                           'Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Cómo creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 ',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 31, 31, 31),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w400),
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                     const TextSpan(
                       text:
@@ -217,9 +208,10 @@ class Pieces {
                       text:
                           'Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad la influencia espiritual que tengamos arraigada en las semillas de Cristo Jesús nos protegerá, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 ',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 31, 31, 31),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w400),
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                     const TextSpan(
                       text:
@@ -234,9 +226,10 @@ class Pieces {
                       text:
                           'y pasiva en que debemos esperar el tiempo del juicio y la persona que ejerza el mismo, ver ',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 31, 31, 31),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w400),
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                     CommonUtils.widgetSpan(
                       textInside:
@@ -247,9 +240,10 @@ class Pieces {
                       text:
                           'así estaremos protegidos por la coraza de justicia, el rey y salmista David dijo: ',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 31, 31, 31),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w400),
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                     const TextSpan(
                       text:
@@ -264,9 +258,10 @@ class Pieces {
                       text:
                           'Tomemos nota que cuando te atacan no tienes que hacer nada, no es como el escudo de la fe donde debes tomar una acción para cubrirte, pero si estuviéramos en el otro escenario donde si nos corresponde hacer el juicio, debemos hacerlo, porque si no lo hacemos no estaríamos obrando la justicia de Dios.  La coraza como toda la armadura, debemos tomarla antes de ir a la batalla, lo que significa que tenemos que actuar con rectitud en todo momento y no ocasionalmente. La justicia hace parte de la santificación, es decir, de ir avanzando a la estatura de Cristo.',
                       style: TextStyle(
-                          color: Color.fromARGB(255, 31, 31, 31),
-                          fontSize: 14,
-                          fontWeight: FontWeight.w400),
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
                     ),
                   ],
                 ),
@@ -279,22 +274,17 @@ class Pieces {
                   Expanded(
                     child: RichText(
                       textAlign: TextAlign.justify,
-                      text: const TextSpan(
+                      text: TextSpan(
                         children: [
-                          TextSpan(
-                            text: 'Ejemplo Práctico: ',
-                            style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          TextSpan(
+                          CommonUtils.examplePractice(text: 'Ejemplo Práctico'),
+                          const TextSpan(
                             text:
                                 'Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá, Si andas en ella, puesto que has actuado con rectitud y eres conocido como un cristiano veraz, todos los ataques están destinados a perecer. Él y no tu Exhibirá tu justicia como la luz en su tiempo.',
                             style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w400),
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
                           ),
                         ],
                       ),
@@ -312,20 +302,15 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          const TextSpan(
-                            text: 'Ejemplo Bíblico: ',
-                            style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold),
-                          ),
+                          CommonUtils.examplePractice(text: 'Ejemplo Bíblico'),
                           const TextSpan(
                             text:
                                 'La Biblia que es la palabra de Dios es veraz, y nos relata los hechos como son para nuestro ejemplo, un ejemplo que cuando no se juzga con la justicia de Dios no estamos protegidos, es el rey David ante los hechos de su hijo Amnón. Su familia fue muy afectada con acontecimientos muy fuertes ver ',
                             style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w400),
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
                           ),
                           CommonUtils.widgetSpan(
                             textInside:
@@ -336,9 +321,10 @@ class Pieces {
                             text:
                                 'ejercer la justicia del Señor es de vida o muerte. Tenemos el caso contrario con Moisés cuando bajó de estar en la presencia del Señor en el monte y el pueblo había edificado un ídolo, Moisés ejerció el juicio de Dios y trajo como consecuencia conocer los que tuvieron el corazón dispuesto para el Señor ver ',
                             style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w400),
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
                           ),
                           CommonUtils.widgetSpan(
                             textInside:
@@ -359,22 +345,17 @@ class Pieces {
                   Expanded(
                     child: RichText(
                       textAlign: TextAlign.justify,
-                      text: const TextSpan(
+                      text: TextSpan(
                         children: [
-                          TextSpan(
-                            text: 'Vida: ',
-                            style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.bold),
-                          ),
-                          TextSpan(
+                          CommonUtils.examplePractice(text: 'Vida'),
+                          const TextSpan(
                             text:
                                 'Para cada circunstancia de juicio se debe buscar la dirección, la justicia del Señor activamente y si no estás llamado a ejercer la sentencia de Dios, Espera en Él y sigue orando.',
                             style: TextStyle(
-                                color: Color.fromARGB(255, 31, 31, 31),
-                                fontSize: 14,
-                                fontWeight: FontWeight.w400),
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
                           ),
                         ],
                       ),
@@ -389,7 +370,219 @@ class Pieces {
         subtitle: '“y vestidos con la coraza de justicia,”',
         title: 'Efesios 6:14b',
       );
-  Item get three => const Item(
+  Item get three => Item(
+        contentWidget: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              RichText(
+                textAlign: TextAlign.justify,
+                text: TextSpan(
+                  children: [
+                    const TextSpan(
+                      text:
+                          'Esta pieza de la armadura de Dios requiere que recordemos para qué sirven los pies. Como bien sabemos, los pies son para caminar, correr, saltar, trotar, etc., pero su significado principal está relacionado con la palabra caminar, andar, y el andar habla de nuestra vida, por lo cual no podemos estar descalzos y menos para una batalla, el Señor nos dejó provisto de todo lo necesario, entonces nos preguntamos ¿con que calzado estamos caminando? ¿caminamos en el Evangelio? que es una metáfora de vivir en la Palabra de Dios o ¿estamos caminando en nuestra propia sabiduría? Si es así estamos descalzos, es importante que sepas que el núcleo del evangelio es la muerte y resurrección de Cristo, como dice 1 Corintios: 15: 3-6 ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text:
+                          '“3 Porque primeramente os he enseñado lo que así mismo recibí: Que Cristo murió por nuestros pecados, conforme a las Escrituras; 4 y que fue sepultado, y que resucitó al tercer día, conforme a las Escrituras; 5 y que apareció a Cefas, y después a los doce. 6 después apareció a más de quinientos hermanos a la vez, de los cuales muchos viven aún, y otros ya duermen.” ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 85, 84, 84),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text:
+                          '¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text:
+                          '“19 Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo; 20 enseñándoles que guarden todas las cosas que os he mandado; y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.” ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 85, 84, 84),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text: 'Isaías: 52:7 nos dice: ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text:
+                          '¡Cuán hermosos son sobre los montes los pies del que trae alegres nuevas, del que anuncia la paz, del que trae nuevas del bien, del que publica salvación, del que dice a Sion: ¡Tu Dios reina! ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 85, 84, 84),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text: 'No debemos privarnos de esta hermosura.\n\n',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text:
+                          'Mas ¿dónde está la paz en esta ecuación? Bueno el Evangelio es paz, porque Cristo es la paz, Juan 16:33 dice: ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text:
+                          'Yo les he dicho estas cosas para que en mí hallen paz. En este mundo afrontarán aflicciones, pero ¡anímense! Yo he vencido al mundo. ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 85, 84, 84),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text:
+                          'Mientras lees la Palabra de Dios y la compartes con quienes te rodean, la paz será un fruto de tu esfera de influencia. Ahora bien, cabe aclarar que no quiere decir que donde proclamemos el Evangelio va a ser en paz, ya que, el mismo Señor nos dice, cuando vayan a un lugar lleno de incrédulos no tendrán paz, tendrán guerra de acuerdo con lo que predijo nuestro Señor Jesucristo cuando dijo que no vendría a traer paz, sino espada, ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    CommonUtils.widgetSpan(
+                      textInside:
+                          'Mateo 10:34-36\n34 No penséis que he venido para traer paz a la tierra; no he venido para traer paz, sino espada. 35 Porque he venido para poner en disensión al hombre contra su padre, a la hija contra su madre, y a la nuera contra su suegra; 36 y los enemigos del hombre serán los de su casa.',
+                      textOutside: 'Mateo 10:34-36. ',
+                    ),
+                    const TextSpan(
+                      text:
+                          'Tendrás que desatar primero la batalla espiritual y el fruto de ella será la paz. Como está escrito en Isaías 32:17, ',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    const TextSpan(
+                      text:
+                          '“El fruto de esa justicia será paz; su efecto será quietud y confianza para siempre.”',
+                      style: TextStyle(
+                        color: Color.fromARGB(255, 85, 84, 84),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 16.0),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  CommonUtils.bulletPoint(),
+                  Expanded(
+                    child: RichText(
+                      textAlign: TextAlign.justify,
+                      text: TextSpan(
+                        children: [
+                          CommonUtils.examplePractice(text: 'Ejemplo Práctico'),
+                          const TextSpan(
+                            text:
+                                'En una batalla real con alguien, en esta situación usas tus pies para moverte y golpear a tu oponente. Por lo tanto, cuando estás discutiendo con alguien con los argumentos de la verdad para romper las fortalezas mentales de satanás, debes tener como meta la paz, la mentalidad de querer la paz en su vida, no la meta de la gloria propia, como que siempre tienes el argumento ganador, ya que, el centro es Cristo.',
+                            style: TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 6.0),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  CommonUtils.bulletPoint(),
+                  Expanded(
+                    child: RichText(
+                      textAlign: TextAlign.justify,
+                      text: TextSpan(
+                        children: [
+                          CommonUtils.examplePractice(text: 'Ejemplo Bíblico'),
+                          const TextSpan(
+                            text:
+                                'El apóstol Pablo quien antes era Saulo, un erudito, en su predicación no usaba de su sabiduría, predicaba solo a Cristo, como lo expresa en 1 Corintios 2:1-5 ',
+                            style: TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          const TextSpan(
+                            text:
+                                '“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”.',
+                            style: TextStyle(
+                              color: Color.fromARGB(255, 85, 84, 84),
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 6.0),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  CommonUtils.bulletPoint(),
+                  Expanded(
+                    child: RichText(
+                      textAlign: TextAlign.justify,
+                      text: TextSpan(
+                        children: [
+                          CommonUtils.examplePractice(text: 'Vida'),
+                          const TextSpan(
+                            text:
+                                'Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno.',
+                            style: TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
         image: 'assets/flags/co.png',
         subtitle:
             '“Y calzados los pies con el apresto del evangelio de la paz.”',

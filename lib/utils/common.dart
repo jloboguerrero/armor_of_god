@@ -41,4 +41,17 @@ class CommonUtils {
           color: Colors.black, fontSize: 18, fontWeight: FontWeight.w600),
     );
   }
+
+  static TextSpan examplePractice({
+    required String text,
+  }) {
+    return TextSpan(
+      text: '$text: ',
+      style: const TextStyle(
+        color: Color.fromARGB(255, 31, 31, 31),
+        fontSize: 14,
+        fontWeight: FontWeight.bold,
+      ),
+    );
+  }
 }
