@@ -365,7 +365,7 @@ class Page extends StatelessWidget {
               width: 220,
               child: GestureDetector(
                 onTap: () {
-                  FirstModal.show(
+                  /* FirstModal.show(
                     context: context,
                     child: const Angel(
                       color: Color.fromARGB(255, 205, 172, 44),
@@ -373,6 +373,12 @@ class Page extends StatelessWidget {
                       subTitle:
                           'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
                       title: 'God is Inmutable',
+                    ),
+                  ); */
+                  showDialog(
+                    context: context,
+                    builder: (context) => const NeedAnswers(
+                      color: Color.fromARGB(255, 205, 172, 44),
                     ),
                   );
                 },
