@@ -8,7 +8,6 @@
 // ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
 // ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
 // ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
-// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
 
 import 'package:intl/intl.dart';
 import 'package:intl/message_lookup_by_library.dart';
@@ -42,6 +41,26 @@ class MessageLookup extends MessageLookupByLibrary {
         "congratulations": MessageLookupByLibrary.simpleMessage("Parabéns"),
         "crowns": MessageLookupByLibrary.simpleMessage("Coroas"),
         "enter": MessageLookupByLibrary.simpleMessage("Entrar"),
+        "mainQuestionFirstPageFive": MessageLookupByLibrary.simpleMessage(
+            "O que ou quem representa a rocha descrita em Êxodo 17:1-16?"),
+        "mainQuestionFirstPageFour": MessageLookupByLibrary.simpleMessage(
+            "Você consegue encontrar a Verdade imediatamente após ler a Bíblia de acordo com João 8:1-59?"),
+        "mainQuestionFirstPageOne": MessageLookupByLibrary.simpleMessage(
+            "Qual é a palavra-chave que abrirá as bênçãos de Deuteronômio 28:1-14?"),
+        "mainQuestionFirstPageThree": MessageLookupByLibrary.simpleMessage(
+            "Pode uma mentira ter algum poder sobre a realidade?"),
+        "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Quais são as palavras-chave que farão de você a semente que produzirá uma colheita de trinta, sessenta e até cem vezes o que foi semeado, Mateus 13:1-23, Marcos 4:1-20, Lucas 8:1-15?"),
+        "mainQuestionSecondPageFive":
+            MessageLookupByLibrary.simpleMessage("Por que existe o mal?"),
+        "mainQuestionSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "O que significa o número 12?"),
+        "mainQuestionSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Existem dois eventos de ressurreição?"),
+        "mainQuestionSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Por que o rei Manassés foi tão perverso?"),
+        "mainQuestionSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "O que havia dentro da Arca de Deus?"),
         "menu": MessageLookupByLibrary.simpleMessage("Cardápio"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
             "Um aplicativo interativo no qual com a ajuda daquele que trava nossas batalhas, o Senhor Todo-Poderoso, iniciaremos uma jornada na qual descobriremos o que é a Armadura de Deus e como usá-la."),
@@ -53,6 +72,102 @@ class MessageLookup extends MessageLookupByLibrary {
             "¡Olá, Seja Bem Vindo a Armadura de Deus!"),
         "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Funcionando"),
         "onBoardingTitle3": MessageLookupByLibrary.simpleMessage("Tem mais!!"),
+        "optionFiveFirstPageFive":
+            MessageLookupByLibrary.simpleMessage("Nosso Senhor Jesus Cristo"),
+        "optionFiveFirstPageFour": MessageLookupByLibrary.simpleMessage(
+            "Não, você tem que estudar teologia primeiro"),
+        "optionFiveFirstPageOne": MessageLookupByLibrary.simpleMessage("Hoje"),
+        "optionFiveFirstPageThree":
+            MessageLookupByLibrary.simpleMessage("Não, Satanás não existe"),
+        "optionFiveFirstPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Mateus: Refletindo; Marcos: Ouça a Palavra; Lucas: Medite"),
+        "optionFiveSecondPageFive":
+            MessageLookupByLibrary.simpleMessage("Deus é um ser mau"),
+        "optionFiveSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "Justiça da mão do Deus Poderoso"),
+        "optionFiveSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Sim, de acordo com Apocalipse 20:1-15, a primeira ressurreição reinará com Cristo por mil anos"),
+        "optionFiveSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "A razão pela qual Manassés era perverso pode ser encontrada em 2 Reis 8:1-28, onde notamos que ele se casou com uma filha de Acabe, o perverso rei de Israel"),
+        "optionFiveSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Em Zacarias 4:1-14 é mencionado que nele você encontrará os nomes das duas oliveiras"),
+        "optionFourFirstPageFive":
+            MessageLookupByLibrary.simpleMessage("Assunto"),
+        "optionFourFirstPageFour": MessageLookupByLibrary.simpleMessage(
+            "Sim, mas você tem que saber quem são os filhos do diabo"),
+        "optionFourFirstPageOne":
+            MessageLookupByLibrary.simpleMessage("Abençoado"),
+        "optionFourFirstPageThree":
+            MessageLookupByLibrary.simpleMessage("Sim, é tudo mentira"),
+        "optionFourFirstPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Mateus: Pesca; Caixilharia: rega; Lucas: esperando"),
+        "optionFourSecondPageFive":
+            MessageLookupByLibrary.simpleMessage("Todos os animais são maus"),
+        "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "Os escolhidos por Deus Todo-Poderoso"),
+        "optionFourSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Não, somente Jesus Cristo pode ressuscitar dos mortos"),
+        "optionFourSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "De acordo com a Escritura em 2 Reis 21:1-26, vemos que a mãe de Manassés era muito má e lhe ensinou seus maus caminhos"),
+        "optionFourSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Se você ler Êxodo 28:1-43, notará que ele tinha o éfode e o peitoral"),
+        "optionOneFirstPageFive":
+            MessageLookupByLibrary.simpleMessage("É só uma pedra"),
+        "optionOneFirstPageFour": MessageLookupByLibrary.simpleMessage(
+            "Sim, imediatamente após a leitura"),
+        "optionOneFirstPageOne": MessageLookupByLibrary.simpleMessage("Frutos"),
+        "optionOneFirstPageThree": MessageLookupByLibrary.simpleMessage(
+            "Sim, uma mentira tem controle sobre a realidade que vemos"),
+        "optionOneFirstPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Mateus: Entenda; Mark: Eles aceitam; Lucas: Persevera"),
+        "optionOneSecondPageFive":
+            MessageLookupByLibrary.simpleMessage("Deus criou o mal"),
+        "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "Significa a traição de um amigo"),
+        "optionOneSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Não, a ressurreição já ocorreu, 2 Timóteo 2:1-3:9"),
+        "optionOneSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Manassés era tão mau porque, de acordo com 2 Reis 18:1-37, seu pai Ezequias também era uma pessoa má"),
+        "optionOneSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "De acordo com Êxodo 26:1-37, ele tinha o óleo sagrado e o candelabro"),
+        "optionThreeFirstPageFive":
+            MessageLookupByLibrary.simpleMessage("Representa uma vida santa"),
+        "optionThreeFirstPageFour": MessageLookupByLibrary.simpleMessage(
+            "Não, embora cada palavra da Bíblia seja verdadeira, você deve primeiro conhecer a pessoa, a obra e a doutrina de Jesus Cristo"),
+        "optionThreeFirstPageOne": MessageLookupByLibrary.simpleMessage("Vez"),
+        "optionThreeFirstPageThree": MessageLookupByLibrary.simpleMessage(
+            "Não, uma mentira não pode ter controle sobre a realidade nem pode afetar os seres humanos"),
+        "optionThreeFirstPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Mateus: Falando; Marcos: Ouça; Lucas: Refletindo"),
+        "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Satanás e sua horda de demônios são os únicos culpados quando um homem pratica o mal"),
+        "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "Significa a provisão de Deus em sua vida"),
+        "optionThreeSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Sim, de acordo com 1 Coríntios 14:1-40, existem dois céus"),
+        "optionThreeSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Manassés era mau porque guardava rancor contra Deus Pai por não ter curado seu pai Ezequias"),
+        "optionThreeSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Em Josué 3:1-5:1 diz que ele tinha as doze pedras que representam as doze tribos de Israel"),
+        "optionTwoFirstPageFive":
+            MessageLookupByLibrary.simpleMessage("Representa nossos pecados"),
+        "optionTwoFirstPageFour": MessageLookupByLibrary.simpleMessage(
+            "Não, a Bíblia foi modificada por humanos"),
+        "optionTwoFirstPageOne": MessageLookupByLibrary.simpleMessage("Senhor"),
+        "optionTwoFirstPageThree": MessageLookupByLibrary.simpleMessage(
+            "Sim, mas apenas se o homem decidir acreditar nessa mentira"),
+        "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Mateus: Planta; Marca: Plantio; Lucas: Colheita"),
+        "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "O mal existe porque o mal foi encontrado em uma criatura angelical"),
+        "optionTwoSecondPageFour":
+            MessageLookupByLibrary.simpleMessage("Os doze signos do zodíaco"),
+        "optionTwoSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Não, há apenas uma ressurreição"),
+        "optionTwoSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Porque com base em 2 Reis 20:1-21 notamos que o rei Ezequias não se importava com o futuro de seus filhos ou de sua descendência"),
+        "optionTwoSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Baseado em 1 Reis 8:1-66 tinha as duas tábuas da Lei"),
         "price": MessageLookupByLibrary.simpleMessage("Prêmio"),
         "questions": MessageLookupByLibrary.simpleMessage("Questões"),
         "seeArmorOrQuestions": MessageLookupByLibrary.simpleMessage(
@@ -91,6 +206,24 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Comentários e Sugestões"),
         "termsTitle4": MessageLookupByLibrary.simpleMessage(
             "Limitação de responsabilidade"),
-        "termsTitle5": MessageLookupByLibrary.simpleMessage("Modificações")
+        "termsTitle5": MessageLookupByLibrary.simpleMessage("Modificações"),
+        "theClueFirstPageFive": MessageLookupByLibrary.simpleMessage(
+            "Leia 1 Coríntios 10:1-11:1 e maravilhe-se com a preciosa pedra angular para um fundamento seguro, Isaías 28:16"),
+        "theClueFirstPageFour": MessageLookupByLibrary.simpleMessage(
+            "Medite profundamente em João 8:31-47; a realidade é uma construção dos seus sentidos"),
+        "theClueFirstPageOne": MessageLookupByLibrary.simpleMessage(
+            "Leia atentamente as palavras de Deuteronômio 28:1-14; em obediência você deve colocar sua cabeça"),
+        "theClueFirstPageThree": MessageLookupByLibrary.simpleMessage(
+            "Você pode curar com uma mentira? Como Satanás faz o mal no mundo?"),
+        "theClueFirstPageTwo": MessageLookupByLibrary.simpleMessage(
+            "CCompare Mateus 13:1-23, Marcos 4:1-20 e Lucas 8:1-15; a grandeza se vê nas pequenas coisas"),
+        "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "Ligue todos os pontos na Bíblia e veja a Verdade; as pessoas com quem você deve se associar"),
+        "theClueSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Leia e pesquise por si mesmo; muitas pessoas santas e não santas aguardam esse dia na sepultura"),
+        "theClueSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Investigue a verdade; a influência de um pai pode ser decisiva"),
+        "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Leia e descubra a verdade; o importante é o que você guarda")
       };
 }

@@ -550,10 +550,10 @@ class S {
     );
   }
 
-  /// `frutos`
+  /// `Frutos`
   String get optionOneFirstPageOne {
     return Intl.message(
-      'frutos',
+      'Frutos',
       name: 'optionOneFirstPageOne',
       desc: '',
       args: [],
@@ -590,10 +590,10 @@ class S {
     );
   }
 
-  /// `Hoy te ordeno`
+  /// `Hoy`
   String get optionFiveFirstPageOne {
     return Intl.message(
-      'Hoy te ordeno',
+      'Hoy',
       name: 'optionFiveFirstPageOne',
       desc: '',
       args: [],
@@ -630,10 +630,10 @@ class S {
     );
   }
 
-  /// `Mateo: Plantar; Marcos: Siembra; Lucas: Cosechar.`
+  /// `Mateo: Plantar; Marcos: Siembra; Lucas: Cosechar`
   String get optionTwoFirstPageTwo {
     return Intl.message(
-      'Mateo: Plantar; Marcos: Siembra; Lucas: Cosechar.',
+      'Mateo: Plantar; Marcos: Siembra; Lucas: Cosechar',
       name: 'optionTwoFirstPageTwo',
       desc: '',
       args: [],
@@ -660,10 +660,10 @@ class S {
     );
   }
 
-  /// `Mateo: Reflexionando; Marcos: Escuchar la Palabra; Lucas: Meditar.`
+  /// `Mateo: Reflexionando; Marcos: Escuchar la Palabra; Lucas: Meditar`
   String get optionFiveFirstPageTwo {
     return Intl.message(
-      'Mateo: Reflexionando; Marcos: Escuchar la Palabra; Lucas: Meditar.',
+      'Mateo: Reflexionando; Marcos: Escuchar la Palabra; Lucas: Meditar',
       name: 'optionFiveFirstPageTwo',
       desc: '',
       args: [],
@@ -700,10 +700,10 @@ class S {
     );
   }
 
-  /// `Sí, pero solo si los humanos deciden creer esa mentira`
+  /// `Sí, pero solo si el hombre decide creer esa mentira`
   String get optionTwoFirstPageThree {
     return Intl.message(
-      'Sí, pero solo si los humanos deciden creer esa mentira',
+      'Sí, pero solo si el hombre decide creer esa mentira',
       name: 'optionTwoFirstPageThree',
       desc: '',
       args: [],
@@ -780,10 +780,10 @@ class S {
     );
   }
 
-  /// `No, aunque cada palabra de la Biblia es verdad, primero tienes que aferrarte a las enseñanzas de Jesús`
+  /// `No, aunque cada palabra de la Biblia es verdad, primero tienes que conocer la persona, obra y doctrina de Jesucristo`
   String get optionThreeFirstPageFour {
     return Intl.message(
-      'No, aunque cada palabra de la Biblia es verdad, primero tienes que aferrarte a las enseñanzas de Jesús',
+      'No, aunque cada palabra de la Biblia es verdad, primero tienes que conocer la persona, obra y doctrina de Jesucristo',
       name: 'optionThreeFirstPageFour',
       desc: '',
       args: [],
@@ -885,6 +885,356 @@ class S {
     return Intl.message(
       'Lea 1 Corintios 10:1-11:1 y maravíllese ante la preciosa piedra angular para un fundamento seguro, Isaías 28:16',
       name: 'theClueFirstPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Hay dos eventos de resurrección?`
+  String get mainQuestionSecondPageOne {
+    return Intl.message(
+      '¿Hay dos eventos de resurrección?',
+      name: 'mainQuestionSecondPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No, la resurrección ya tuvo lugar, 2 Timoteo 2:1-3:9`
+  String get optionOneSecondPageOne {
+    return Intl.message(
+      'No, la resurrección ya tuvo lugar, 2 Timoteo 2:1-3:9',
+      name: 'optionOneSecondPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No, solo hay una resurrección`
+  String get optionTwoSecondPageOne {
+    return Intl.message(
+      'No, solo hay una resurrección',
+      name: 'optionTwoSecondPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sí, según 1 Corintios 14:1-40 hay dos cielos`
+  String get optionThreeSecondPageOne {
+    return Intl.message(
+      'Sí, según 1 Corintios 14:1-40 hay dos cielos',
+      name: 'optionThreeSecondPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No, solo Jesucristo puede resucitar de entre los muertos`
+  String get optionFourSecondPageOne {
+    return Intl.message(
+      'No, solo Jesucristo puede resucitar de entre los muertos',
+      name: 'optionFourSecondPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sí, según Apocalipsis 20:1-15 la primera resurrección reinará con Cristo por mil años`
+  String get optionFiveSecondPageOne {
+    return Intl.message(
+      'Sí, según Apocalipsis 20:1-15 la primera resurrección reinará con Cristo por mil años',
+      name: 'optionFiveSecondPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lea e investigue por sí mismo; muchas personas santas y no santas esperan ese día en la tumba`
+  String get theClueSecondPageOne {
+    return Intl.message(
+      'Lea e investigue por sí mismo; muchas personas santas y no santas esperan ese día en la tumba',
+      name: 'theClueSecondPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Qué había dentro del Arca de Dios?`
+  String get mainQuestionSecondPageTwo {
+    return Intl.message(
+      '¿Qué había dentro del Arca de Dios?',
+      name: 'mainQuestionSecondPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Según Éxodo 26:1-37, tenía el aceite sagrado y el Candelabro`
+  String get optionOneSecondPageTwo {
+    return Intl.message(
+      'Según Éxodo 26:1-37, tenía el aceite sagrado y el Candelabro',
+      name: 'optionOneSecondPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Basado en 1 Reyes 8:1-66 tenía las dos tablas de la Ley`
+  String get optionTwoSecondPageTwo {
+    return Intl.message(
+      'Basado en 1 Reyes 8:1-66 tenía las dos tablas de la Ley',
+      name: 'optionTwoSecondPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En Josué 3:1-5:1 dice que tenía las doce piedras que representan las doce tribus de Israel`
+  String get optionThreeSecondPageTwo {
+    return Intl.message(
+      'En Josué 3:1-5:1 dice que tenía las doce piedras que representan las doce tribus de Israel',
+      name: 'optionThreeSecondPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si lees Éxodo 28:1-43 notarás que tenía el Efod y la coraza`
+  String get optionFourSecondPageTwo {
+    return Intl.message(
+      'Si lees Éxodo 28:1-43 notarás que tenía el Efod y la coraza',
+      name: 'optionFourSecondPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En Zacarías 4:1-14 se menciona que en él encontrarás los nombres de los dos arboles de olivos`
+  String get optionFiveSecondPageTwo {
+    return Intl.message(
+      'En Zacarías 4:1-14 se menciona que en él encontrarás los nombres de los dos arboles de olivos',
+      name: 'optionFiveSecondPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lea y descubra la verdad; lo importante es lo que guardas`
+  String get theClueSecondPageTwo {
+    return Intl.message(
+      'Lea y descubra la verdad; lo importante es lo que guardas',
+      name: 'theClueSecondPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Por qué el rey Manasés era tan malvado?`
+  String get mainQuestionSecondPageThree {
+    return Intl.message(
+      '¿Por qué el rey Manasés era tan malvado?',
+      name: 'mainQuestionSecondPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manasés era tan malo porque según 2 Reyes 18:1-37 su padre Ezequías también era una persona mala`
+  String get optionOneSecondPageThree {
+    return Intl.message(
+      'Manasés era tan malo porque según 2 Reyes 18:1-37 su padre Ezequías también era una persona mala',
+      name: 'optionOneSecondPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque con base a 2 Reyes 20:1-21 notamos que al rey Ezequías no le importaba el futuro de sus hijos ni de su descendencia`
+  String get optionTwoSecondPageThree {
+    return Intl.message(
+      'Porque con base a 2 Reyes 20:1-21 notamos que al rey Ezequías no le importaba el futuro de sus hijos ni de su descendencia',
+      name: 'optionTwoSecondPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manasés era malo porque le guardaba rencor a Dios el Padre por no haber sanado a su padre Ezequías`
+  String get optionThreeSecondPageThree {
+    return Intl.message(
+      'Manasés era malo porque le guardaba rencor a Dios el Padre por no haber sanado a su padre Ezequías',
+      name: 'optionThreeSecondPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Según la Escritura en 2 Reyes 21:1-26, vemos que la madre de Manasés era muy mala y le enseñó sus malos caminos`
+  String get optionFourSecondPageThree {
+    return Intl.message(
+      'Según la Escritura en 2 Reyes 21:1-26, vemos que la madre de Manasés era muy mala y le enseñó sus malos caminos',
+      name: 'optionFourSecondPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La razón por la cual Manasés era malvado se puede encontrar en 2 Reyes 8:1-28 donde notamos que se casó con una hija de Acab, el malvado rey de Israel`
+  String get optionFiveSecondPageThree {
+    return Intl.message(
+      'La razón por la cual Manasés era malvado se puede encontrar en 2 Reyes 8:1-28 donde notamos que se casó con una hija de Acab, el malvado rey de Israel',
+      name: 'optionFiveSecondPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Investiga la verdad; la influencia de un padre puede ser determinante`
+  String get theClueSecondPageThree {
+    return Intl.message(
+      'Investiga la verdad; la influencia de un padre puede ser determinante',
+      name: 'theClueSecondPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Qué significa el número 12?`
+  String get mainQuestionSecondPageFour {
+    return Intl.message(
+      '¿Qué significa el número 12?',
+      name: 'mainQuestionSecondPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Significa la traición de un amigo`
+  String get optionOneSecondPageFour {
+    return Intl.message(
+      'Significa la traición de un amigo',
+      name: 'optionOneSecondPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Los doce signos del zodiaco`
+  String get optionTwoSecondPageFour {
+    return Intl.message(
+      'Los doce signos del zodiaco',
+      name: 'optionTwoSecondPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Significa la provisión de Dios en tu vida`
+  String get optionThreeSecondPageFour {
+    return Intl.message(
+      'Significa la provisión de Dios en tu vida',
+      name: 'optionThreeSecondPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Los elegidos por el Dios Todopoderoso`
+  String get optionFourSecondPageFour {
+    return Intl.message(
+      'Los elegidos por el Dios Todopoderoso',
+      name: 'optionFourSecondPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Justicia de la mano del Dios Fuerte`
+  String get optionFiveSecondPageFour {
+    return Intl.message(
+      'Justicia de la mano del Dios Fuerte',
+      name: 'optionFiveSecondPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Conecte todos los puntos en la Biblia y vea la Verdad; las personas con las que debes relacionarse`
+  String get theClueSecondPageFour {
+    return Intl.message(
+      'Conecte todos los puntos en la Biblia y vea la Verdad; las personas con las que debes relacionarse',
+      name: 'theClueSecondPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Por qué existe el mal?`
+  String get mainQuestionSecondPageFive {
+    return Intl.message(
+      '¿Por qué existe el mal?',
+      name: 'mainQuestionSecondPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dios creó el mal`
+  String get optionOneSecondPageFive {
+    return Intl.message(
+      'Dios creó el mal',
+      name: 'optionOneSecondPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El mal existe porque en una criatura angelical se halló el mal`
+  String get optionTwoSecondPageFive {
+    return Intl.message(
+      'El mal existe porque en una criatura angelical se halló el mal',
+      name: 'optionTwoSecondPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Satanás y su horda de demonios son los únicos culpables cuando un hombre hace el mal`
+  String get optionThreeSecondPageFive {
+    return Intl.message(
+      'Satanás y su horda de demonios son los únicos culpables cuando un hombre hace el mal',
+      name: 'optionThreeSecondPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Todos los animales son malvados`
+  String get optionFourSecondPageFive {
+    return Intl.message(
+      'Todos los animales son malvados',
+      name: 'optionFourSecondPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque siempre ha existido`
+  String get optionFiveSecondPageFive {
+    return Intl.message(
+      'Porque siempre ha existido',
+      name: 'optionFiveSecondPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El Todopoderoso es santo, santo, santo, no nosotros`
+  String get theClueSecondPageFive {
+    return Intl.message(
+      'El Todopoderoso es santo, santo, santo, no nosotros',
+      name: 'theClueSecondPageFive',
       desc: '',
       args: [],
     );

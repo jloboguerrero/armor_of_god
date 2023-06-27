@@ -8,7 +8,6 @@
 // ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
 // ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
 // ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
-// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
 
 import 'package:intl/intl.dart';
 import 'package:intl/message_lookup_by_library.dart';
@@ -54,6 +53,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Can a lie have some power over reality?"),
         "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "What are the keywords that will make you be the seed that will produce a crop thirty, sixty, and even a hundred times what was sown, Matthew 13:1-23, Mark 4:1-20, Luke 8:1-15?"),
+        "mainQuestionSecondPageFive":
+            MessageLookupByLibrary.simpleMessage("Why does evil exist?"),
+        "mainQuestionSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "What does the number 12 mean?"),
+        "mainQuestionSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Are there two resurrection events?"),
+        "mainQuestionSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Why was King Manasseh so wicked?"),
+        "mainQuestionSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "What was inside the Ark of God?"),
         "menu": MessageLookupByLibrary.simpleMessage("Menu"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
             "An interactive application in which with the help of the one who fights our battles, The Almighty Lord, we will start a journey in which we will discover what the Armor of God is and how to use it."),
@@ -75,6 +84,16 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("No, Satan doesn\'t exist"),
         "optionFiveFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Pondering; Mark: Hear the Word; Luke: Listening"),
+        "optionFiveSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Because it has always existed"),
+        "optionFiveSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "Justice from the hand of the Mighty God"),
+        "optionFiveSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Yes, according to Revelation 20:1-15 the first resurrection will reign with Christ for a thousand years"),
+        "optionFiveSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "The reason why Manasseh was wicked can be found in 2 Kings 8:1-28 where we note that he married a daughter of Ahab, the wicked king of Israel"),
+        "optionFiveSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "In Zechariah 4:1-14 it is mentioned that in it you will find the names of the two olive trees"),
         "optionFourFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Matter"),
         "optionFourFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -85,6 +104,16 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Yes, everything is a lie"),
         "optionFourFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Fishing; Mark: Watering; Luke: Waiting"),
+        "optionFourSecondPageFive":
+            MessageLookupByLibrary.simpleMessage("All animals are evil"),
+        "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "Those chosen by Almighty God"),
+        "optionFourSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "No, only Jesus Christ can rise from the dead"),
+        "optionFourSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "According to the Scripture in 2 Kings 21: 1-26, we see that Manasseh\'s mother was very bad and she taught him the evil ways of him"),
+        "optionFourSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "If you read Exodus 28:1-43 you will notice that he had the Ephod and the breastplate"),
         "optionOneFirstPageFive":
             MessageLookupByLibrary.simpleMessage("It is just a rock"),
         "optionOneFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -94,24 +123,54 @@ class MessageLookup extends MessageLookupByLibrary {
             "Yes, a lie has control over the reality that we see"),
         "optionOneFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Understand; Mark: Accept it; Luke: Persevering"),
+        "optionOneSecondPageFive":
+            MessageLookupByLibrary.simpleMessage("God created evil"),
+        "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "It means the betrayal of a friend"),
+        "optionOneSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "No, the resurrection has already taken place, 2 Timothy 2:1-3:9"),
+        "optionOneSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Manasseh was so bad because according to 2 Kings 18:1-37 his father Hezekiah was also a bad person"),
+        "optionOneSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "According to Exodus 26:1-37, he had the holy oil and the Lampstand"),
         "optionThreeFirstPageFive":
             MessageLookupByLibrary.simpleMessage("It represents a Holy life"),
         "optionThreeFirstPageFour": MessageLookupByLibrary.simpleMessage(
-            "No, although every word of the Bible is true, first you have to hold to Jesus’ teachings"),
+            "No, although every word in the Bible is true, you must first know the person, work, and doctrine of Jesus Christ."),
         "optionThreeFirstPageOne": MessageLookupByLibrary.simpleMessage("Turn"),
         "optionThreeFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "No, a lie cannot have control over reality nor can affect human beings"),
         "optionThreeFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Speaking; Mark: Listening; Luke: Pondering"),
+        "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Satan and his horde of demons are the only ones to blame when a man does evil"),
+        "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "It means God\'s provision in your life"),
+        "optionThreeSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Yes, according to 1 Corinthians 14:1-40 there are two heavens"),
+        "optionThreeSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Manasseh was bad because he held a grudge against God the Father for not having healed his father Hezekiah"),
+        "optionThreeSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "In Joshua 3:1-5:1 it says that he had the twelve stones that represent the twelve tribes of Israel"),
         "optionTwoFirstPageFive":
             MessageLookupByLibrary.simpleMessage("It represents our sins"),
         "optionTwoFirstPageFour": MessageLookupByLibrary.simpleMessage(
             "No, the Bible has been modified by humans"),
         "optionTwoFirstPageOne": MessageLookupByLibrary.simpleMessage("Lord"),
         "optionTwoFirstPageThree": MessageLookupByLibrary.simpleMessage(
-            "Yes, but only if humans decide to believe that lie"),
+            "Yes, but only if the man chooses to believe that lie"),
         "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Seeding; Mark: Sowing; Luke: Reaping"),
+        "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Evil exists because evil was found in an angelic creature"),
+        "optionTwoSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "The twelve signs of the zodiac"),
+        "optionTwoSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "No, there is only one resurrection"),
+        "optionTwoSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Because based on 2 Kings 20: 1-21 we note that King Hezekiah did not care about the future of his children or his offspring"),
+        "optionTwoSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Based on 1 Kings 8:1-66 it had the two tables of the Law"),
         "price": MessageLookupByLibrary.simpleMessage("Price"),
         "questions": MessageLookupByLibrary.simpleMessage("Questions"),
         "questionsWillStart":
@@ -163,6 +222,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Can you heal with a lie? How does satan do evil in the World?"),
         "theClueFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Compare Matthew 13:1-23, Mark 4:1-20, and Luke 8:1-15; greatness is seen in the little things")
+            "Compare Matthew 13:1-23, Mark 4:1-20, and Luke 8:1-15; greatness is seen in the little things"),
+        "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(
+            "Connect all the dots in the Bible and see the Truth; the people with whom you should associate"),
+        "theClueSecondPageOne": MessageLookupByLibrary.simpleMessage(
+            "Read and research for yourself; many holy and non-holy people await that day in the grave"),
+        "theClueSecondPageThree": MessageLookupByLibrary.simpleMessage(
+            "Investigate the truth; the influence of a father can be decisive"),
+        "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Read and find out the truth; the important thing is what you keep")
       };
 }
