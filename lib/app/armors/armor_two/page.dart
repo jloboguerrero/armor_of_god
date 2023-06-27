@@ -11,12 +11,11 @@ import 'package:armor_of_god/widgets/dialog_succesfull.dart';
 import 'package:armor_of_god/widgets/first_modal.dart';
 
 class Page extends StatelessWidget {
-  final PageController controller;
-
   const Page({
     Key? key,
     required this.controller,
   }) : super(key: key);
+  final PageController controller;
 
   @override
   Widget build(BuildContext context) {
@@ -82,12 +81,14 @@ class Page extends StatelessWidget {
                               }
                             : () async {
                                 final questionsSeven = Questions().seven;
-                                if (armorCheck.armors!.armor_1 &&
+                                if (/* armorCheck.armors!.armor_1 &&
                                     armorCheck.armors!.armor_2 &&
                                     armorCheck.armors!.armor_3 &&
                                     armorCheck.armors!.armor_4 &&
                                     armorCheck.armors!.armor_5 &&
-                                    armorCheck.armors!.armor_6) {
+                                    armorCheck.armors!.armor_6 */
+                                    // ignore: dead_code
+                                    false) {
                                   await Modular.to
                                       .pushNamed('/armors/countdown');
                                   Modular.to.pushNamed(
@@ -101,7 +102,7 @@ class Page extends StatelessWidget {
                                   showDialog(
                                     context: context,
                                     builder: (context) => const NeedAnswers(
-                                      color: Color.fromARGB(255, 33, 131, 173),
+                                      color: Color.fromARGB(255, 205, 172, 44),
                                     ),
                                   );
                                 }
@@ -136,7 +137,8 @@ class Page extends StatelessWidget {
                                     armorCheck.armors!.armor_3 &&
                                     armorCheck.armors!.armor_4 &&
                                     armorCheck.armors!.armor_5 &&
-                                    armorCheck.armors!.armor_6) {
+                                    armorCheck.armors!.armor_6 &&
+                                    armorCheck.armors!.armor_7) {
                                   await Modular.to
                                       .pushNamed('/armors/countdown');
                                   Modular.to.pushNamed(
@@ -149,7 +151,9 @@ class Page extends StatelessWidget {
                                 } else {
                                   showDialog(
                                     context: context,
-                                    builder: (context) => const NeedAnswers(),
+                                    builder: (context) => const NeedAnswers(
+                                      color: Color.fromARGB(255, 205, 172, 44),
+                                    ),
                                   );
                                 }
                               },
@@ -185,7 +189,9 @@ class Page extends StatelessWidget {
                                 armorCheck.armors!.armor_3 &&
                                 armorCheck.armors!.armor_4 &&
                                 armorCheck.armors!.armor_5 &&
-                                armorCheck.armors!.armor_6) {
+                                armorCheck.armors!.armor_6 &&
+                                armorCheck.armors!.armor_7 &&
+                                armorCheck.armors!.armor_8) {
                               await Modular.to.pushNamed('/armors/countdown');
                               Modular.to.pushNamed(
                                 '/armors/questions',
@@ -197,7 +203,9 @@ class Page extends StatelessWidget {
                             } else {
                               showDialog(
                                 context: context,
-                                builder: (context) => const NeedAnswers(),
+                                builder: (context) => const NeedAnswers(
+                                  color: Color.fromARGB(255, 205, 172, 44),
+                                ),
                               );
                             }
                           },
@@ -234,7 +242,10 @@ class Page extends StatelessWidget {
                                     armorCheck.armors!.armor_3 &&
                                     armorCheck.armors!.armor_4 &&
                                     armorCheck.armors!.armor_5 &&
-                                    armorCheck.armors!.armor_6) {
+                                    armorCheck.armors!.armor_6 &&
+                                    armorCheck.armors!.armor_7 &&
+                                    armorCheck.armors!.armor_8 &&
+                                    armorCheck.armors!.armor_9) {
                                   await Modular.to
                                       .pushNamed('/armors/countdown');
                                   Modular.to.pushNamed(
@@ -247,7 +258,9 @@ class Page extends StatelessWidget {
                                 } else {
                                   showDialog(
                                     context: context,
-                                    builder: (context) => const NeedAnswers(),
+                                    builder: (context) => const NeedAnswers(
+                                      color: Color.fromARGB(255, 205, 172, 44),
+                                    ),
                                   );
                                 }
                               },
@@ -281,7 +294,11 @@ class Page extends StatelessWidget {
                                     armorCheck.armors!.armor_3 &&
                                     armorCheck.armors!.armor_4 &&
                                     armorCheck.armors!.armor_5 &&
-                                    armorCheck.armors!.armor_6) {
+                                    armorCheck.armors!.armor_6 &&
+                                    armorCheck.armors!.armor_7 &&
+                                    armorCheck.armors!.armor_8 &&
+                                    armorCheck.armors!.armor_9 &&
+                                    armorCheck.armors!.armor_10) {
                                   await Modular.to
                                       .pushNamed('/armors/countdown');
                                   Modular.to.pushNamed(
@@ -294,7 +311,9 @@ class Page extends StatelessWidget {
                                 } else {
                                   showDialog(
                                     context: context,
-                                    builder: (context) => const NeedAnswers(),
+                                    builder: (context) => const NeedAnswers(
+                                      color: Color.fromARGB(255, 205, 172, 44),
+                                    ),
                                   );
                                 }
                               },

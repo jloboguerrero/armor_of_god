@@ -23,8 +23,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "about": MessageLookupByLibrary.simpleMessage("Informação"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceitar"),
-        "answerAllQuestions":
-            MessageLookupByLibrary.simpleMessage("Responda todas as perguntas"),
+        "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
+            "Para enviar, responda a todas as perguntas"),
         "armor1": MessageLookupByLibrary.simpleMessage("Cinturão da Verdade"),
         "armor2": MessageLookupByLibrary.simpleMessage("Peitoral da Justiça"),
         "armor3": MessageLookupByLibrary.simpleMessage(
@@ -43,15 +43,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "enter": MessageLookupByLibrary.simpleMessage("Entrar"),
         "menu": MessageLookupByLibrary.simpleMessage("Cardápio"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
-            "Bem-vindo à Armadura de Deus, um aplicativo interativo no qual com a ajuda daquele que trava nossas batalhas, o Senhor Todo-Poderoso, iniciaremos uma jornada na qual descobriremos o que é a Armadura de Deus e como usá-la."),
+            "Um aplicativo interativo no qual com a ajuda daquele que trava nossas batalhas, o Senhor Todo-Poderoso, iniciaremos uma jornada na qual descobriremos o que é a Armadura de Deus e como usá-la."),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
-            "Este aplicativo é dividido em seções nas quais você encontrará peças, essas peças devem ser desbloqueadas respondendo a perguntas bíblicas de múltipla escolha sem limite de tempo! Depois de acertar todos, você pode apreciar a descrição de cada peça da Armadura de Deus e seguir em frente. Lembre-se de que você não pode ir para uma seção se não tiver desbloqueado todas as peças da seção anterior."),
+            "Este aplicativo é dividido em seções nas quais você encontrará peças que você deve desbloquear respondendo a perguntas bíblicas de seleção simples sem limite de tempo. Depois de acertar todas as questões, você pode aproveitar o conteúdo de cada peça da Armadura de Deus em sua respectiva ordem e seguir em frente. Lembre-se, você não pode ir para uma seção se não tiver desbloqueado todas as peças da seção anterior."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
-            "Quando estiver na descoberta de cada peça encontrará joias que poderá obter respondendo a apenas uma pergunta! São joias preciosas que o ajudarão na responsabilidade de adquirir a Armadura de Deus."),
+            "Quando estiver na descoberta de cada peça encontrará joias que poderá obter respondendo a apenas uma pergunta! São joias preciosas que o ajudarão na responsabilidade de assumir a Armadura de Deus."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
-            "¡Olá, seja bem vindo a Armadura de Deus!"),
-        "onBoardingTitle2":
-            MessageLookupByLibrary.simpleMessage("Funcionando:"),
+            "¡Olá, Seja Bem Vindo a Armadura de Deus!"),
+        "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Funcionando"),
         "onBoardingTitle3": MessageLookupByLibrary.simpleMessage("Tem mais!!"),
         "price": MessageLookupByLibrary.simpleMessage("Prêmio"),
         "questions": MessageLookupByLibrary.simpleMessage("Questões"),
@@ -63,6 +62,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "specialWeapons":
             MessageLookupByLibrary.simpleMessage("Armas Especiais"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Sugestão"),
+        "suggestionError": MessageLookupByLibrary.simpleMessage(
+            "Um erro ocorreu. Por favor, tente novamente"),
+        "suggestionSend": MessageLookupByLibrary.simpleMessage(
+            "Enviado com sucesso, obrigado pela sua sugestão!"),
         "survivalItems":
             MessageLookupByLibrary.simpleMessage("Itens de Sobrevivência"),
         "termsAndConditions":

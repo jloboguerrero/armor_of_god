@@ -54,7 +54,10 @@ class AnswersSuccesfull extends StatelessWidget {
         children: [
           SvgPicture.asset(
             'assets/icons/check_circle.svg',
-            color: color ?? Colors.green,
+            colorFilter: ColorFilter.mode(
+              color ?? Colors.green,
+              BlendMode.srcIn,
+            ),
           ),
           const SizedBox(height: 18.0),
           Padding(

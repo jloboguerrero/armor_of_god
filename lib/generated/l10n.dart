@@ -100,6 +100,36 @@ class S {
     );
   }
 
+  /// `Ocurrió un error. Por favor, intenta de nuevo`
+  String get suggestionError {
+    return Intl.message(
+      'Ocurrió un error. Por favor, intenta de nuevo',
+      name: 'suggestionError',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Enviado exitosamente, gracias por su sugerencia!`
+  String get suggestionSend {
+    return Intl.message(
+      'Enviado exitosamente, gracias por su sugerencia!',
+      name: 'suggestionSend',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Antes de continuar debes desbloquear el {value}`
+  String beforeContinueUnlock(Object value) {
+    return Intl.message(
+      'Antes de continuar debes desbloquear el $value',
+      name: 'beforeContinueUnlock',
+      desc: '',
+      args: [value],
+    );
+  }
+
   /// `Resultados`
   String get results {
     return Intl.message(
@@ -190,10 +220,10 @@ class S {
     );
   }
 
-  /// `Responde todas las preguntas`
+  /// `Para enviar, responde todas las preguntas`
   String get answerAllQuestions {
     return Intl.message(
-      'Responde todas las preguntas',
+      'Para enviar, responde todas las preguntas',
       name: 'answerAllQuestions',
       desc: '',
       args: [],
@@ -330,40 +360,40 @@ class S {
     );
   }
 
-  /// `¡Hola, bienvenido a Armor Of God!`
+  /// `¡Hola, Bienvenido a Armor Of God!`
   String get onBoardingTitle1 {
     return Intl.message(
-      '¡Hola, bienvenido a Armor Of God!',
+      '¡Hola, Bienvenido a Armor Of God!',
       name: 'onBoardingTitle1',
       desc: '',
       args: [],
     );
   }
 
-  /// `Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos que es la Armadura De Dios y cómo usarla.`
+  /// `Una aplicación interactiva en la cual con la ayuda de quien pelea nuestras batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla.`
   String get onBoardingDescription1 {
     return Intl.message(
-      'Bienvenidos a la Armadura De Dios, una aplicación interactiva en la cual con la ayuda de quien pelea nuestra batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos que es la Armadura De Dios y cómo usarla.',
+      'Una aplicación interactiva en la cual con la ayuda de quien pelea nuestras batallas, El Señor todopoderoso, iniciaremos un viaje en el cual descubriremos qué es la Armadura De Dios y cómo usarla.',
       name: 'onBoardingDescription1',
       desc: '',
       args: [],
     );
   }
 
-  /// `Funcionamiento:`
+  /// `Funcionamiento`
   String get onBoardingTitle2 {
     return Intl.message(
-      'Funcionamiento:',
+      'Funcionamiento',
       name: 'onBoardingTitle2',
       desc: '',
       args: [],
     );
   }
 
-  /// `Esta aplicación está divida por secciones en las que encontraras piezas, estas piezas deberás desbloquear contestando preguntas Bíblicas de selección múltiple sin límite de tiempo! Una vez las aciertes todas podrás disfrutar de la descripción de cada pieza en la Armadura De Dios y avanzar. Recuerda no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.`
+  /// `Esta aplicación está divida por secciones en las que encontraras piezas que deberás desbloquear contestando preguntas Bíblicas de selección simple sin límite de tiempo. Una vez aciertes todas las preguntas, podrás disfrutar del contenido de cada pieza de la Armadura De Dios  en su respectivo orden y avanzar. Recuerda, no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.`
   String get onBoardingDescription2 {
     return Intl.message(
-      'Esta aplicación está divida por secciones en las que encontraras piezas, estas piezas deberás desbloquear contestando preguntas Bíblicas de selección múltiple sin límite de tiempo! Una vez las aciertes todas podrás disfrutar de la descripción de cada pieza en la Armadura De Dios y avanzar. Recuerda no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.',
+      'Esta aplicación está divida por secciones en las que encontraras piezas que deberás desbloquear contestando preguntas Bíblicas de selección simple sin límite de tiempo. Una vez aciertes todas las preguntas, podrás disfrutar del contenido de cada pieza de la Armadura De Dios  en su respectivo orden y avanzar. Recuerda, no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección.',
       name: 'onBoardingDescription2',
       desc: '',
       args: [],
@@ -380,10 +410,10 @@ class S {
     );
   }
 
-  /// `Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de adquirir la Armadura De Dios.`
+  /// `Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de tomar la Armadura De Dios.`
   String get onBoardingDescription3 {
     return Intl.message(
-      'Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de adquirir la Armadura De Dios.',
+      'Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de tomar la Armadura De Dios.',
       name: 'onBoardingDescription3',
       desc: '',
       args: [],

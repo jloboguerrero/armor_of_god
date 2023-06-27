@@ -23,8 +23,8 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "about": MessageLookupByLibrary.simpleMessage("About"),
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
-        "answerAllQuestions":
-            MessageLookupByLibrary.simpleMessage("Answer all questions"),
+        "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
+            "To submit, answer all questions"),
         "armor1": MessageLookupByLibrary.simpleMessage("Belt of Truth"),
         "armor2": MessageLookupByLibrary.simpleMessage(
             "The Breastplate of Righteousness"),
@@ -55,15 +55,14 @@ class MessageLookup extends MessageLookupByLibrary {
             "What are the keywords that will make you be the seed that will produce a crop thirty, sixty, and even a hundred times what was sown, Matthew 13:1-23, Mark 4:1-20, Luke 8:1-15?"),
         "menu": MessageLookupByLibrary.simpleMessage("Menu"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
-            "Welcome to the Armor of God, an interactive application in which with the help of the one who fights our battles, The Almighty Lord, we will start a journey in which we will discover what the Armor of God is and how to use it."),
+            "An interactive application in which with the help of the one who fights our battles, The Almighty Lord, we will start a journey in which we will discover what the Armor of God is and how to use it."),
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
-            "This application is divided into sections in which you will find pieces, these pieces must be unlocked by answering multiple-choice Biblical questions with no time limit! Once you hit them all you can enjoy the description of each piece in the Armor of God and move on. Remember you cannot go to a section if you have not unlocked all the pieces of the previous section."),
+            "This application is divided into sections in which you will find pieces that you must unlock by answering simple selection Biblical questions with no time limit. Once you get all the questions right, you can enjoy the content of each piece of the Armor of God in their respective order and move on. Remember, you can\'t go to a section if you haven\'t unlocked all the pieces from the previous section."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
-            "When you are in the discovery of each piece you will find jewels that you can obtain by answering only one question! They are precious jewels that will help you in the responsibility of acquiring the Armor of God."),
+            "When you are in the discovery of each piece you will find jewels that you can obtain by answering only one question! They are precious jewels that will help you in the responsibility of taking on the Armor of God."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
-            "Hello, welcome to Armor Of God!"),
-        "onBoardingTitle2":
-            MessageLookupByLibrary.simpleMessage("Functioning:"),
+            "Hello, Welcome to Armor Of God!"),
+        "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Functioning"),
         "onBoardingTitle3":
             MessageLookupByLibrary.simpleMessage("There is more!!"),
         "optionFiveFirstPageFive":
@@ -126,6 +125,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Special Weapons"),
         "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Suggestion"),
+        "suggestionError": MessageLookupByLibrary.simpleMessage(
+            "An error occurred. please try again"),
+        "suggestionSend": MessageLookupByLibrary.simpleMessage(
+            "Sent successfully, thanks for your suggestion!"),
         "survivalItems": MessageLookupByLibrary.simpleMessage("Survival Items"),
         "termsAndConditions":
             MessageLookupByLibrary.simpleMessage("Terms and conditions"),

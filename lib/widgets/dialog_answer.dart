@@ -4,11 +4,15 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 class NeedAnswers extends StatelessWidget {
   const NeedAnswers({
-    Key? key,
     this.color,
+    this.image,
+    Key? key,
+    this.piece,
   }) : super(key: key);
 
   final Color? color;
+  final String? image;
+  final String? piece;
 
   @override
   Widget build(BuildContext context) {
@@ -39,17 +43,21 @@ class NeedAnswers extends StatelessWidget {
           ],
         ),
         children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(0, 0, 0, 0),
-            child: SvgPicture.asset(
-              'assets/icons/alert_triangle.svg',
-            ),
-          ),
+          image != null
+              ? Image.asset(
+                  image!,
+                  height: MediaQuery.of(context).size.height * 0.15,
+                )
+              : SvgPicture.asset(
+                  'assets/icons/alert_triangle.svg',
+                ),
           const SizedBox(height: 18.0),
           Padding(
             padding: const EdgeInsets.fromLTRB(0, 0, 0, 15),
             child: Text(
-              S.current.completePreviousLevel,
+              piece != null
+                  ? S.current.beforeContinueUnlock(piece!)
+                  : S.current.completePreviousLevel,
               style: const TextStyle(
                 color: Color(0xff272727),
                 fontWeight: FontWeight.w700,
