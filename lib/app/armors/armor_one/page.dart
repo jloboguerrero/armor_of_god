@@ -1,3 +1,5 @@
+import 'package:animate_do/animate_do.dart';
+import 'package:armor_of_god/config/preferences.dart';
 import 'package:armor_of_god/widgets/dialog_answer.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
@@ -60,14 +62,40 @@ class Page extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   const SizedBox(height: 20.0),
-                  GestureDetector(
-                    onTap: armorCheck.armors!.armor_7 ? () {} : () async {},
-                    child: Image.asset(
-                      'assets/stones/diamond_gold.png',
-                      height: 50.0,
-                      opacity: armorCheck.armors!.armor_7
-                          ? null
-                          : const AlwaysStoppedAnimation(.15),
+                  Opacity(
+                    opacity: armorCheck.armors!.armor_1 ? 1 : 0,
+                    child: GestureDetector(
+                      onTap: armorCheck.armors!.armor_1
+                          ? () {
+                              if (!armorCheck.stones!.stones_1) {
+                                final prefs = Modular.get<Preferences>();
+                                prefs.stoneOne = true;
+                                armorCheck.init(prefs: prefs);
+                              }
+                              Modular.to.pushNamed(
+                                '/armors/price',
+                                arguments: {
+                                  'armor_name': 'Piedra diamante',
+                                  'armor_picture':
+                                      'assets/stones/diamond_gold.png',
+                                  'background': 'assets/images/cueva1.png',
+                                  'piece': 'fortyOne',
+                                },
+                              );
+                            }
+                          : () {},
+                      child: Swing(
+                        animate: armorCheck.armors!.armor_1 &&
+                            !armorCheck.stones!.stones_1,
+                        duration: const Duration(seconds: 2),
+                        child: Image.asset(
+                          'assets/stones/diamond_gold.png',
+                          height: 50.0,
+                          opacity: armorCheck.stones!.stones_1
+                              ? null
+                              : const AlwaysStoppedAnimation(.35),
+                        ),
+                      ),
                     ),
                   ),
                   const SizedBox(height: 80.0),
@@ -254,14 +282,40 @@ class Page extends StatelessWidget {
                       ),
                     ],
                   ),
-                  GestureDetector(
-                    onTap: armorCheck.armors!.armor_7 ? () {} : () async {},
-                    child: Image.asset(
-                      'assets/stones/diamond_pink.png',
-                      height: 50.0,
-                      opacity: armorCheck.armors!.armor_7
-                          ? null
-                          : const AlwaysStoppedAnimation(.15),
+                  Opacity(
+                    opacity: armorCheck.armors!.armor_5 ? 1 : 0,
+                    child: GestureDetector(
+                      onTap: armorCheck.armors!.armor_5
+                          ? () {
+                              if (!armorCheck.stones!.stones_2) {
+                                final prefs = Modular.get<Preferences>();
+                                prefs.stoneTwo = true;
+                                armorCheck.init(prefs: prefs);
+                              }
+                              Modular.to.pushNamed(
+                                '/armors/price',
+                                arguments: {
+                                  'armor_name': 'Piedra Esmeralda',
+                                  'armor_picture':
+                                      'assets/stones/diamond_pink.png',
+                                  'background': 'assets/images/cueva1.png',
+                                  'piece': 'fortyTwo',
+                                },
+                              );
+                            }
+                          : () {},
+                      child: Swing(
+                        animate: armorCheck.armors!.armor_5 &&
+                            !armorCheck.stones!.stones_2,
+                        duration: const Duration(seconds: 2),
+                        child: Image.asset(
+                          'assets/stones/diamond_pink.png',
+                          height: 50.0,
+                          opacity: armorCheck.stones!.stones_2
+                              ? null
+                              : const AlwaysStoppedAnimation(.35),
+                        ),
+                      ),
                     ),
                   ),
                   Row(
@@ -402,14 +456,40 @@ class Page extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      GestureDetector(
-                        onTap: armorCheck.armors!.armor_7 ? () {} : () async {},
-                        child: Image.asset(
-                          'assets/stones/diamond_green.png',
-                          height: 50.0,
-                          opacity: armorCheck.armors!.armor_7
-                              ? null
-                              : const AlwaysStoppedAnimation(.15),
+                      Opacity(
+                        opacity: armorCheck.armors!.armor_3 ? 1 : 0,
+                        child: GestureDetector(
+                          onTap: armorCheck.armors!.armor_3
+                              ? () {
+                                  if (!armorCheck.stones!.stones_3) {
+                                    final prefs = Modular.get<Preferences>();
+                                    prefs.stoneThree = true;
+                                    armorCheck.init(prefs: prefs);
+                                  }
+                                  Modular.to.pushNamed(
+                                    '/armors/price',
+                                    arguments: {
+                                      'armor_name': 'Piedra Esmeralda',
+                                      'armor_picture':
+                                          'assets/stones/diamond_green.png',
+                                      'background': 'assets/images/cueva1.png',
+                                      'piece': 'fortyThree',
+                                    },
+                                  );
+                                }
+                              : () {},
+                          child: Swing(
+                            animate: armorCheck.armors!.armor_3 &&
+                                !armorCheck.stones!.stones_3,
+                            duration: const Duration(seconds: 2),
+                            child: Image.asset(
+                              'assets/stones/diamond_green.png',
+                              height: 50.0,
+                              opacity: armorCheck.stones!.stones_3
+                                  ? null
+                                  : const AlwaysStoppedAnimation(.35),
+                            ),
+                          ),
                         ),
                       ),
                       GestureDetector(

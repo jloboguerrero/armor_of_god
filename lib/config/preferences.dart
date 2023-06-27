@@ -73,6 +73,15 @@ class Preferences {
   bool get armorTwenty => _prefs?.getBool('armor_twenty') ?? false;
   set armorTwenty(bool value) => _prefs?.setBool('armor_twenty', value);
 
+  bool get stoneOne => _prefs?.getBool('stone_one') ?? false;
+  set stoneOne(bool value) => _prefs?.setBool('stone_one', value);
+
+  bool get stoneTwo => _prefs?.getBool('stone_two') ?? false;
+  set stoneTwo(bool value) => _prefs?.setBool('stone_two', value);
+
+  bool get stoneThree => _prefs?.getBool('stone_three') ?? false;
+  set stoneThree(bool value) => _prefs?.setBool('stone_three', value);
+
   Future<void> clear() async {
     await _prefs?.clear();
   }
