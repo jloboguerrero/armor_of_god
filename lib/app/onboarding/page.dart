@@ -1,8 +1,8 @@
+import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_modular/flutter_modular.dart'
     hide ModularWatchExtension;
-import 'package:mobile_client_animations/mobile_client_animations.dart';
 
 import 'package:armor_of_god/data/countries.dart';
 import 'package:armor_of_god/data/onboarding.dart';

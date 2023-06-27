@@ -1,5 +1,5 @@
+import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:mobile_client_animations/mobile_client_animations.dart';
 
 class Angel extends StatelessWidget {
   final Color color;

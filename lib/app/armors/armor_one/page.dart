@@ -61,43 +61,7 @@ class Page extends StatelessWidget {
                 children: [
                   const SizedBox(height: 20.0),
                   GestureDetector(
-                    onTap: armorCheck.armors!.armor_7
-                        ? () {
-                            final questionsOne = Questions().one;
-                            showDialog(
-                              context: context,
-                              builder: (context) => AnswersSuccesfull(
-                                armorName: S.current.armor1,
-                                armorPicture: 'assets/armors/belt.png',
-                                background: 'assets/images/cueva1.png',
-                                color: const Color.fromARGB(255, 165, 80, 48),
-                                questions: questionsOne,
-                                piece: 'one',
-                              ),
-                            );
-                          }
-                        : () async {
-                            final questionsOne = Questions().one;
-                            await Modular.to.pushNamed(
-                              '/armors/countdown',
-                              arguments: {
-                                'armor_name': S.current.armor1,
-                                'armor_picture': 'assets/armors/belt.png',
-                                'color': const Color.fromARGB(255, 165, 80, 48),
-                              },
-                            );
-                            Modular.to.pushNamed(
-                              '/armors/questions',
-                              arguments: {
-                                'armor_name': S.current.armor1,
-                                'armor_picture': 'assets/armors/belt.png',
-                                'background': 'assets/images/cueva1.png',
-                                'color': const Color.fromARGB(255, 165, 80, 48),
-                                'questions': questionsOne,
-                                'piece': 'one',
-                              },
-                            );
-                          },
+                    onTap: armorCheck.armors!.armor_7 ? () {} : () async {},
                     child: Image.asset(
                       'assets/stones/diamond_gold.png',
                       height: 50.0,
@@ -290,6 +254,16 @@ class Page extends StatelessWidget {
                       ),
                     ],
                   ),
+                  GestureDetector(
+                    onTap: armorCheck.armors!.armor_7 ? () {} : () async {},
+                    child: Image.asset(
+                      'assets/stones/diamond_pink.png',
+                      height: 50.0,
+                      opacity: armorCheck.armors!.armor_7
+                          ? null
+                          : const AlwaysStoppedAnimation(.15),
+                    ),
+                  ),
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
@@ -425,65 +399,96 @@ class Page extends StatelessWidget {
                     ],
                   ),
                   const SizedBox(height: 10.0),
-                  GestureDetector(
-                    onTap: armorCheck.armors!.armor_3
-                        ? () {
-                            final questionsThree = Questions().three;
-                            showDialog(
-                              context: context,
-                              builder: (context) => AnswersSuccesfull(
-                                armorName: S.current.armor3,
-                                armorPicture: 'assets/armors/feet.png',
-                                background: 'assets/images/cueva1.png',
-                                color: const Color.fromARGB(255, 165, 80, 48),
-                                questions: questionsThree,
-                                piece: 'three',
-                              ),
-                            );
-                          }
-                        : () async {
-                            final questionsThree = Questions().three;
-                            if (armorCheck.armors!.armor_1 &&
-                                armorCheck.armors!.armor_2) {
-                              await Modular.to.pushNamed(
-                                '/armors/countdown',
-                                arguments: {
-                                  'armor_name': S.current.armor3,
-                                  'armor_picture': 'assets/armors/feet.png',
-                                  'color':
-                                      const Color.fromARGB(255, 165, 80, 48),
-                                },
-                              );
-                              Modular.to.pushNamed(
-                                '/armors/questions',
-                                arguments: {
-                                  'armor_name': S.current.armor3,
-                                  'armor_picture': 'assets/armors/feet.png',
-                                  'background': 'assets/images/cueva1.png',
-                                  'color':
-                                      const Color.fromARGB(255, 165, 80, 48),
-                                  'questions': questionsThree,
-                                  'piece': 'three',
-                                },
-                              );
-                            } else {
-                              showDialog(
-                                context: context,
-                                builder: (context) => NeedAnswers(
-                                  color: const Color.fromARGB(255, 165, 80, 48),
-                                  image: 'assets/armors/breastplate.png',
-                                  piece: S.current.armor2,
-                                ),
-                              );
-                            }
-                          },
-                    child: Image.asset(
-                      'assets/armors/feet.png',
-                      width: 70.0,
-                      opacity: armorCheck.armors!.armor_3
-                          ? null
-                          : const AlwaysStoppedAnimation(.44),
-                    ),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      GestureDetector(
+                        onTap: armorCheck.armors!.armor_7 ? () {} : () async {},
+                        child: Image.asset(
+                          'assets/stones/diamond_green.png',
+                          height: 50.0,
+                          opacity: armorCheck.armors!.armor_7
+                              ? null
+                              : const AlwaysStoppedAnimation(.15),
+                        ),
+                      ),
+                      GestureDetector(
+                        onTap: armorCheck.armors!.armor_3
+                            ? () {
+                                final questionsThree = Questions().three;
+                                showDialog(
+                                  context: context,
+                                  builder: (context) => AnswersSuccesfull(
+                                    armorName: S.current.armor3,
+                                    armorPicture: 'assets/armors/feet.png',
+                                    background: 'assets/images/cueva1.png',
+                                    color:
+                                        const Color.fromARGB(255, 165, 80, 48),
+                                    questions: questionsThree,
+                                    piece: 'three',
+                                  ),
+                                );
+                              }
+                            : () async {
+                                final questionsThree = Questions().three;
+                                if (armorCheck.armors!.armor_1 &&
+                                    armorCheck.armors!.armor_2) {
+                                  await Modular.to.pushNamed(
+                                    '/armors/countdown',
+                                    arguments: {
+                                      'armor_name': S.current.armor3,
+                                      'armor_picture': 'assets/armors/feet.png',
+                                      'color': const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                    },
+                                  );
+                                  Modular.to.pushNamed(
+                                    '/armors/questions',
+                                    arguments: {
+                                      'armor_name': S.current.armor3,
+                                      'armor_picture': 'assets/armors/feet.png',
+                                      'background': 'assets/images/cueva1.png',
+                                      'color': const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      'questions': questionsThree,
+                                      'piece': 'three',
+                                    },
+                                  );
+                                } else {
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => NeedAnswers(
+                                      color: const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      image: 'assets/armors/breastplate.png',
+                                      piece: S.current.armor2,
+                                    ),
+                                  );
+                                }
+                              },
+                        child: Image.asset(
+                          'assets/armors/feet.png',
+                          width: 70.0,
+                          opacity: armorCheck.armors!.armor_3
+                              ? null
+                              : const AlwaysStoppedAnimation(.44),
+                        ),
+                      ),
+                      Opacity(
+                        opacity: 0,
+                        child: GestureDetector(
+                          onTap:
+                              armorCheck.armors!.armor_7 ? () {} : () async {},
+                          child: Image.asset(
+                            'assets/stones/diamond_purple.png',
+                            height: 50.0,
+                            opacity: armorCheck.armors!.armor_7
+                                ? null
+                                : const AlwaysStoppedAnimation(.15),
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
