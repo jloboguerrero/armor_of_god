@@ -83,7 +83,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFiveFirstPageThree":
             MessageLookupByLibrary.simpleMessage("No, Satan doesn\'t exist"),
         "optionFiveFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Matthew: Pondering; Mark: Hear the Word; Luke: Listening"),
+            "Matthew: Pondering;\nMark: Hear the Word;\nLuke: Listening"),
         "optionFiveSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Because it has always existed"),
         "optionFiveSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -103,7 +103,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFourFirstPageThree":
             MessageLookupByLibrary.simpleMessage("Yes, everything is a lie"),
         "optionFourFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Matthew: Fishing; Mark: Watering; Luke: Waiting"),
+            "Matthew: Fishing;\nMark: Watering;\nLuke: Waiting"),
         "optionFourSecondPageFive":
             MessageLookupByLibrary.simpleMessage("All animals are evil"),
         "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -122,7 +122,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionOneFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Yes, a lie has control over the reality that we see"),
         "optionOneFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Matthew: Understand; Mark: Accept it; Luke: Persevering"),
+            "Matthew: Understand;\nMark: Accept it;\nLuke: Persevering"),
         "optionOneSecondPageFive":
             MessageLookupByLibrary.simpleMessage("God created evil"),
         "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -141,7 +141,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionThreeFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "No, a lie cannot have control over reality nor can affect human beings"),
         "optionThreeFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Matthew: Speaking; Mark: Listening; Luke: Pondering"),
+            "Matthew: Speaking;\nMark: Listening;\nLuke: Pondering"),
         "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Satan and his horde of demons are the only ones to blame when a man does evil"),
         "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -160,7 +160,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Yes, but only if the man chooses to believe that lie"),
         "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Matthew: Seeding; Mark: Sowing; Luke: Reaping"),
+            "Matthew: Seeding;\nMark: Sowing;\nLuke: Reaping"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Evil exists because evil was found in an angelic creature"),
         "optionTwoSecondPageFour": MessageLookupByLibrary.simpleMessage(

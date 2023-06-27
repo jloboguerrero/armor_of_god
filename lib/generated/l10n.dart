@@ -620,50 +620,50 @@ class S {
     );
   }
 
-  /// `Mateo: Entiende; Marcos: Aceptan; Lucas: Perseveran`
+  /// `Mateo: Entiende;\nMarcos: Aceptan;\nLucas: Perseveran`
   String get optionOneFirstPageTwo {
     return Intl.message(
-      'Mateo: Entiende; Marcos: Aceptan; Lucas: Perseveran',
+      'Mateo: Entiende;\nMarcos: Aceptan;\nLucas: Perseveran',
       name: 'optionOneFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mateo: Plantar; Marcos: Siembra; Lucas: Cosechar`
+  /// `Mateo: Plantar;\nMarcos: Siembra;\nLucas: Cosechar`
   String get optionTwoFirstPageTwo {
     return Intl.message(
-      'Mateo: Plantar; Marcos: Siembra; Lucas: Cosechar',
+      'Mateo: Plantar;\nMarcos: Siembra;\nLucas: Cosechar',
       name: 'optionTwoFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mateo: Hablando; Marcos: Escuchar; Lucas: Reflexionando`
+  /// `Mateo: Hablando;\nMarcos: Escuchar;\nLucas: Reflexionando`
   String get optionThreeFirstPageTwo {
     return Intl.message(
-      'Mateo: Hablando; Marcos: Escuchar; Lucas: Reflexionando',
+      'Mateo: Hablando;\nMarcos: Escuchar;\nLucas: Reflexionando',
       name: 'optionThreeFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mateo: Pesca; Marcos: riego; Lucas: Esperando`
+  /// `Mateo: Pesca;\nMarcos: riego;\nLucas: Esperando`
   String get optionFourFirstPageTwo {
     return Intl.message(
-      'Mateo: Pesca; Marcos: riego; Lucas: Esperando',
+      'Mateo: Pesca;\nMarcos: riego;\nLucas: Esperando',
       name: 'optionFourFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mateo: Reflexionando; Marcos: Escuchar la Palabra; Lucas: Meditar`
+  /// `Mateo: Reflexionando;\nMarcos: Escuchar la Palabra;\nLucas: Meditar`
   String get optionFiveFirstPageTwo {
     return Intl.message(
-      'Mateo: Reflexionando; Marcos: Escuchar la Palabra; Lucas: Meditar',
+      'Mateo: Reflexionando;\nMarcos: Escuchar la Palabra;\nLucas: Meditar',
       name: 'optionFiveFirstPageTwo',
       desc: '',
       args: [],

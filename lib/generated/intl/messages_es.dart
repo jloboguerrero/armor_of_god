@@ -86,7 +86,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFiveFirstPageThree":
             MessageLookupByLibrary.simpleMessage("No, Satanás no existe"),
         "optionFiveFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateo: Reflexionando; Marcos: Escuchar la Palabra; Lucas: Meditar"),
+            "Mateo: Reflexionando;\nMarcos: Escuchar la Palabra;\nLucas: Meditar"),
         "optionFiveSecondPageFive":
             MessageLookupByLibrary.simpleMessage("Porque siempre ha existido"),
         "optionFiveSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -106,7 +106,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFourFirstPageThree":
             MessageLookupByLibrary.simpleMessage("Sí, todo es una mentira"),
         "optionFourFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateo: Pesca; Marcos: riego; Lucas: Esperando"),
+            "Mateo: Pesca;\nMarcos: riego;\nLucas: Esperando"),
         "optionFourSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Todos los animales son malvados"),
         "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -125,7 +125,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionOneFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Sí, una mentira tiene control sobre la realidad que vemos"),
         "optionOneFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateo: Entiende; Marcos: Aceptan; Lucas: Perseveran"),
+            "Mateo: Entiende;\nMarcos: Aceptan;\nLucas: Perseveran"),
         "optionOneSecondPageFive":
             MessageLookupByLibrary.simpleMessage("Dios creó el mal"),
         "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -144,7 +144,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionThreeFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "No, una mentira no puede tener control sobre la realidad ni puede afectar a los seres humanos"),
         "optionThreeFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateo: Hablando; Marcos: Escuchar; Lucas: Reflexionando"),
+            "Mateo: Hablando;\nMarcos: Escuchar;\nLucas: Reflexionando"),
         "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Satanás y su horda de demonios son los únicos culpables cuando un hombre hace el mal"),
         "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -163,7 +163,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Sí, pero solo si el hombre decide creer esa mentira"),
         "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateo: Plantar; Marcos: Siembra; Lucas: Cosechar"),
+            "Mateo: Plantar;\nMarcos: Siembra;\nLucas: Cosechar"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "El mal existe porque en una criatura angelical se halló el mal"),
         "optionTwoSecondPageFour":
