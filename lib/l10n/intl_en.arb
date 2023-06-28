@@ -82,7 +82,6 @@
     "optionFourFirstPageFive": "Matter",
     "optionFiveFirstPageFive": "Our Lord Jesus Christ",
     "theClueFirstPageFive": "Read 1 Corinthians 10:1-11:1 and marvel, at the precious cornerstone for a sure foundation, Isaiah 28:16",
-
     "mainQuestionSecondPageOne": "Are there two resurrection events?",
     "optionOneSecondPageOne": "No, the resurrection has already taken place, 2 Timothy 2:1-3:9",
     "optionTwoSecondPageOne": "No, there is only one resurrection",
@@ -90,7 +89,6 @@
     "optionFourSecondPageOne": "No, only Jesus Christ can rise from the dead",
     "optionFiveSecondPageOne": "Yes, according to Revelation 20:1-15 the first resurrection will reign with Christ for a thousand years",
     "theClueSecondPageOne": "Read and research for yourself; many holy and non-holy people await that day in the grave",
-
     "mainQuestionSecondPageTwo": "What was inside the Ark of God?",
     "optionOneSecondPageTwo": "According to Exodus 26:1-37, he had the holy oil and the Lampstand",
     "optionTwoSecondPageTwo": "Based on 1 Kings 8:1-66 it had the two tables of the Law",
@@ -98,7 +96,6 @@
     "optionFourSecondPageTwo": "If you read Exodus 28:1-43 you will notice that he had the Ephod and the breastplate",
     "optionFiveSecondPageTwo": "In Zechariah 4:1-14 it is mentioned that in it you will find the names of the two olive trees",
     "theClueSecondPageTwo": "Read and find out the truth; the important thing is what you keep",
-
     "mainQuestionSecondPageThree": "Why was King Manasseh so wicked?",
     "optionOneSecondPageThree": "Manasseh was so bad because according to 2 Kings 18:1-37 his father Hezekiah was also a bad person",
     "optionTwoSecondPageThree": "Because based on 2 Kings 20: 1-21 we note that King Hezekiah did not care about the future of his children or his offspring",
@@ -106,7 +103,6 @@
     "optionFourSecondPageThree": "According to the Scripture in 2 Kings 21: 1-26, we see that Manasseh's mother was very bad and she taught him the evil ways of him",
     "optionFiveSecondPageThree": "The reason why Manasseh was wicked can be found in 2 Kings 8:1-28 where we note that he married a daughter of Ahab, the wicked king of Israel",
     "theClueSecondPageThree": "Investigate the truth; the influence of a father can be decisive",
-
     "mainQuestionSecondPageFour": "What does the number 12 mean?",
     "optionOneSecondPageFour": "It means the betrayal of a friend",
     "optionTwoSecondPageFour": "The twelve signs of the zodiac",
@@ -114,12 +110,51 @@
     "optionFourSecondPageFour": "Those chosen by Almighty God",
     "optionFiveSecondPageFour": "Justice from the hand of the Mighty God",
     "theClueSecondPageFour": "Connect all the dots in the Bible and see the Truth; the people with whom you should associate",
-
     "mainQuestionSecondPageFive": "Why does evil exist?",
     "optionOneSecondPageFive": "God created evil",
     "optionTwoSecondPageFive": "Evil exists because evil was found in an angelic creature",
     "optionThreeSecondPageFive": "Satan and his horde of demons are the only ones to blame when a man does evil",
     "optionFourSecondPageFive": "All animals are evil",
     "optionFiveSecondPageFive": "Because it has always existed",
-    "theClueSeconfPageFive": "The Almighty is holy, holy, holy, not us"
+    "theClueSeconfPageFive": "The Almighty is holy, holy, holy, not us",
+
+    "mainQuestionThirdPageOne": "Is the devil in hell to torment the people there or does he go there to be tormented for all eternity?",
+    "optionOneThirdPageOne": "Satan is an immortal being, he cannot die",
+    "optionTwoThirdPageOne": "Satan does not exist, we created that concept",
+    "optionThreeThirdPageOne": "Satan goes to hell to be tormented for all eternity for his sins",
+    "optionFourThirdPageOne": "When Jesus describes hell, he describes the devil as the tormentor of those who go there, we see it in the book of Mark",
+    "optionFiveThirdPageOne": "The devil comes from hell",
+    "theClueThirdPageOne": "Read about him in Revelation 20:1-15; judgment prevails",
+
+    "mainQuestionThirdPageTwo": "What tribe of Israel is missing from the 144,000 sealed, Revelation 7:1-17?",
+    "optionOneThirdPageTwo": "Ephraim",
+    "optionTwoThirdPageTwo": "Dyne",
+    "optionThreeThirdPageTwo": "Dan",
+    "optionFourThirdPageTwo": "Manasseh",
+    "optionFiveThirdPageTwo": "Gad",
+    "theClueThirdPageTwo": "Review and compare Revelation 7:1-8 with Genesis 35:23-26, from the same tribe as Samson",
+
+    "mainQuestionThirdPageThree": "Why were the disciples unable to heal the demon possessed boy in Matthew 17:1-27?",
+    "optionOneThirdPageThree": "They could not cure him because of the many sins that the child had",
+    "optionTwoThirdPageThree": "Because this demon was of high rank",
+    "optionThreeThirdPageThree": "The boy was not strong enough",
+    "optionFourThirdPageThree": "Because the disciples did not have enough faith",
+    "optionFiveThirdPageThree": "The boy needed a very rigorous and prolonged fast",
+    "theClueThirdPageThree": "Find your answer in Matthew 17:14-21; the one who moves the mountains",
+
+    "mainQuestionThirdPageFour": "What sin did the devil commit to fall from the presence of the Lord?",
+    "optionOneThirdPageFour": "According to Jeremiah 50:1-51:64, the devil made an idol and placed it in Babylon",
+    "optionTwoThirdPageFour": "If we read John 8:1-59 ​​the devil lied to the Sovereign Lord and therefore fell from his position of grace",
+    "optionThreeThirdPageFour": "Based on Ezekiel 28:1-26 the devil took the sight of the Lord, and placed it on his beauty and was proud",
+    "optionFourThirdPageFour": "The devil was always in hell",
+    "optionFiveThirdPageFour": "The devil was sent to hell for tempting Jesus in Matthew 4:1-25",
+    "theClueThirdPageFour": "Find your answer in the Scriptures; before the fall this sin is always here",
+
+    "mainQuestionThirdPageFive": "In which chapter of the Holy Bible is this prophecy being fulfilled, Joshua 6:26?",
+    "optionOneThirdPageFive": "Judges 4:1-24",
+    "optionTwoThirdPageFive": "2 Kings 12:1-21",
+    "optionThreeThirdPageFive": "2 Chronicles 15:1-19",
+    "optionFourThirdPageFive": "1 Kings 16:1-34",
+    "optionFiveThirdPageFive": "Ester 9:1-32",
+    "theClueThirdPageFive": "Investigate through reading; a king poisoned by the tongue of a viper"
 }

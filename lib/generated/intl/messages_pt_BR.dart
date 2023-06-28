@@ -61,6 +61,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Por que o rei Manassés foi tão perverso?"),
         "mainQuestionSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "O que havia dentro da Arca de Deus?"),
+        "mainQuestionThirdPageFive": MessageLookupByLibrary.simpleMessage(
+            "Em qual capítulo da Bíblia Sagrada esta profecia está sendo cumprida, Josué 6:26?"),
+        "mainQuestionThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "Que pecado o diabo cometeu para cair da presença do Senhor?"),
+        "mainQuestionThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "O diabo está no inferno para atormentar as pessoas de lá ou ele vai para lá para ser atormentado por toda a eternidade?"),
+        "mainQuestionThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "Por que os discípulos não conseguiram curar o menino endemoninhado em Mateus 17:1-27?"),
+        "mainQuestionThirdPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Que tribo de Israel está faltando dos 144.000 selados, Apocalipse 7:1-17?"),
         "menu": MessageLookupByLibrary.simpleMessage("Cardápio"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
             "Um aplicativo interativo no qual com a ajuda daquele que trava nossas batalhas, o Senhor Todo-Poderoso, iniciaremos uma jornada na qual descobriremos o que é a Armadura de Deus e como usá-la."),
@@ -91,6 +101,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "A razão pela qual Manassés era perverso pode ser encontrada em 2 Reis 8:1-28, onde notamos que ele se casou com uma filha de Acabe, o perverso rei de Israel"),
         "optionFiveSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Em Zacarias 4:1-14 é mencionado que nele você encontrará os nomes das duas oliveiras"),
+        "optionFiveThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("Ester 9:1-32"),
+        "optionFiveThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "O diabo foi enviado para o inferno por tentar Jesus em Mateus 4:1-25"),
+        "optionFiveThirdPageOne":
+            MessageLookupByLibrary.simpleMessage("O diabo vem do inferno"),
+        "optionFiveThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "O menino precisava de um jejum muito rigoroso e prolongado"),
+        "optionFiveThirdPageTwo": MessageLookupByLibrary.simpleMessage("Gad"),
         "optionFourFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Assunto"),
         "optionFourFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -111,6 +130,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "De acordo com a Escritura em 2 Reis 21:1-26, vemos que a mãe de Manassés era muito má e lhe ensinou seus maus caminhos"),
         "optionFourSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Se você ler Êxodo 28:1-43, notará que ele tinha o éfode e o peitoral"),
+        "optionFourThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("1 Reis 16:1-34"),
+        "optionFourThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "O diabo sempre esteve no inferno"),
+        "optionFourThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Quando Jesus descreve o inferno, ele descreve o diabo como o atormentador de quem vai para lá, vemos no livro de Marcos"),
+        "optionFourThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "Porque os discípulos não tinham fé suficiente"),
+        "optionFourThirdPageTwo":
+            MessageLookupByLibrary.simpleMessage("Manassés"),
         "optionOneFirstPageFive":
             MessageLookupByLibrary.simpleMessage("É só uma pedra"),
         "optionOneFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -130,11 +159,21 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manassés era tão mau porque, de acordo com 2 Reis 18:1-37, seu pai Ezequias também era uma pessoa má"),
         "optionOneSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "De acordo com Êxodo 26:1-37, ele tinha o óleo sagrado e o candelabro"),
+        "optionOneThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("Juízes 4:1-24"),
+        "optionOneThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "De acordo com Jeremias 50:1-51:64, o diabo fez um ídolo e o colocou na Babilônia"),
+        "optionOneThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Satanás é um ser imortal, ele não pode morrer."),
+        "optionOneThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "Eles não puderam curá-lo por causa dos muitos pecados que a criança tinha"),
+        "optionOneThirdPageTwo": MessageLookupByLibrary.simpleMessage("Efraim"),
         "optionThreeFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Representa uma vida santa"),
         "optionThreeFirstPageFour": MessageLookupByLibrary.simpleMessage(
             "Não, embora cada palavra da Bíblia seja verdadeira, você deve primeiro conhecer a pessoa, a obra e a doutrina de Jesus Cristo"),
-        "optionThreeFirstPageOne": MessageLookupByLibrary.simpleMessage("Vez"),
+        "optionThreeFirstPageOne":
+            MessageLookupByLibrary.simpleMessage("Volta"),
         "optionThreeFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Não, uma mentira não pode ter controle sobre a realidade nem pode afetar os seres humanos"),
         "optionThreeFirstPageTwo": MessageLookupByLibrary.simpleMessage(
@@ -149,6 +188,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manassés era mau porque guardava rancor contra Deus Pai por não ter curado seu pai Ezequias"),
         "optionThreeSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Em Josué 3:1-5:1 diz que ele tinha as doze pedras que representam as doze tribos de Israel"),
+        "optionThreeThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("2 Crônicas 15:1-19"),
+        "optionThreeThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "Com base em Ezequiel 28:1-26, o diabo tomou a visão do Senhor, colocou-a em sua formosura e ficou orgulhoso"),
+        "optionThreeThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Satanás vai para o inferno para ser atormentado por toda a eternidade por seus pecados"),
+        "optionThreeThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "O menino não era forte o suficiente"),
+        "optionThreeThirdPageTwo": MessageLookupByLibrary.simpleMessage("Dan"),
         "optionTwoFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Representa nossos pecados"),
         "optionTwoFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -168,6 +216,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "Porque com base em 2 Reis 20:1-21 notamos que o rei Ezequias não se importava com o futuro de seus filhos ou de sua descendência"),
         "optionTwoSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Baseado em 1 Reis 8:1-66 tinha as duas tábuas da Lei"),
+        "optionTwoThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("2 Reis 12:1-21"),
+        "optionTwoThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "Se lermos João 8:1-59 ​​o diabo mentiu para o Soberano Senhor e por isso caiu de sua posição de graça"),
+        "optionTwoThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Satanás não existe, nós criamos esse conceito"),
+        "optionTwoThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "Porque este demônio era de alto escalão"),
+        "optionTwoThirdPageTwo": MessageLookupByLibrary.simpleMessage("Dyne"),
         "price": MessageLookupByLibrary.simpleMessage("Prêmio"),
         "questions": MessageLookupByLibrary.simpleMessage("Questões"),
         "seeArmorOrQuestions": MessageLookupByLibrary.simpleMessage(
@@ -216,7 +273,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Você pode curar com uma mentira? Como Satanás faz o mal no mundo?"),
         "theClueFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "CCompare Mateus 13:1-23, Marcos 4:1-20 e Lucas 8:1-15; a grandeza se vê nas pequenas coisas"),
+            "Compare Mateus 13:1-23, Marcos 4:1-20 e Lucas 8:1-15; a grandeza se vê nas pequenas coisas"),
         "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Ligue todos os pontos na Bíblia e veja a Verdade; as pessoas com quem você deve se associar"),
         "theClueSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -224,6 +281,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueSecondPageThree": MessageLookupByLibrary.simpleMessage(
             "Investigue a verdade; a influência de um pai pode ser decisiva"),
         "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Leia e descubra a verdade; o importante é o que você guarda")
+            "Leia e descubra a verdade; o importante é o que você guarda"),
+        "theClueThirdPageFive": MessageLookupByLibrary.simpleMessage(
+            "Investigar através da leitura; um rei envenenado pela língua de uma víbora"),
+        "theClueThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "Encontre sua resposta nas Escrituras; antes da queda este pecado está sempre aqui"),
+        "theClueThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Leia sobre ele em Apocalipse 20:1-15; julgamento prevalece"),
+        "theClueThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "Encontre sua resposta em Mateus 17:14-21; aquele que move as montanhas"),
+        "theClueThirdPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Revise e compare Apocalipse 7:1-8 com Gênesis 35:23-26, da mesma tribo de Sansão")
       };
 }

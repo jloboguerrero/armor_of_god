@@ -63,6 +63,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Why was King Manasseh so wicked?"),
         "mainQuestionSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "What was inside the Ark of God?"),
+        "mainQuestionThirdPageFive": MessageLookupByLibrary.simpleMessage(
+            "In which chapter of the Holy Bible is this prophecy being fulfilled, Joshua 6:26?"),
+        "mainQuestionThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "What sin did the devil commit to fall from the presence of the Lord?"),
+        "mainQuestionThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Is the devil in hell to torment the people there or does he go there to be tormented for all eternity?"),
+        "mainQuestionThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "Why were the disciples unable to heal the demon possessed boy in Matthew 17:1-27?"),
+        "mainQuestionThirdPageTwo": MessageLookupByLibrary.simpleMessage(
+            "What tribe of Israel is missing from the 144,000 sealed, Revelation 7:1-17?"),
         "menu": MessageLookupByLibrary.simpleMessage("Menu"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
             "An interactive application in which with the help of the one who fights our battles, The Almighty Lord, we will start a journey in which we will discover what the Armor of God is and how to use it."),
@@ -94,6 +104,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "The reason why Manasseh was wicked can be found in 2 Kings 8:1-28 where we note that he married a daughter of Ahab, the wicked king of Israel"),
         "optionFiveSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "In Zechariah 4:1-14 it is mentioned that in it you will find the names of the two olive trees"),
+        "optionFiveThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("Ester 9:1-32"),
+        "optionFiveThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "The devil was sent to hell for tempting Jesus in Matthew 4:1-25"),
+        "optionFiveThirdPageOne":
+            MessageLookupByLibrary.simpleMessage("The devil comes from hell"),
+        "optionFiveThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "The boy needed a very rigorous and prolonged fast"),
+        "optionFiveThirdPageTwo": MessageLookupByLibrary.simpleMessage("Gad"),
         "optionFourFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Matter"),
         "optionFourFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -114,6 +133,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "According to the Scripture in 2 Kings 21: 1-26, we see that Manasseh\'s mother was very bad and she taught him the evil ways of him"),
         "optionFourSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "If you read Exodus 28:1-43 you will notice that he had the Ephod and the breastplate"),
+        "optionFourThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("1 Kings 16:1-34"),
+        "optionFourThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "The devil was always in hell"),
+        "optionFourThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "When Jesus describes hell, he describes the devil as the tormentor of those who go there, we see it in the book of Mark"),
+        "optionFourThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "Because the disciples did not have enough faith"),
+        "optionFourThirdPageTwo":
+            MessageLookupByLibrary.simpleMessage("Manasseh"),
         "optionOneFirstPageFive":
             MessageLookupByLibrary.simpleMessage("It is just a rock"),
         "optionOneFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -133,6 +162,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasseh was so bad because according to 2 Kings 18:1-37 his father Hezekiah was also a bad person"),
         "optionOneSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "According to Exodus 26:1-37, he had the holy oil and the Lampstand"),
+        "optionOneThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("Judges 4:1-24"),
+        "optionOneThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "According to Jeremiah 50:1-51:64, the devil made an idol and placed it in Babylon"),
+        "optionOneThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Satan is an immortal being, he cannot die"),
+        "optionOneThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "They could not cure him because of the many sins that the child had"),
+        "optionOneThirdPageTwo":
+            MessageLookupByLibrary.simpleMessage("Ephraim"),
         "optionThreeFirstPageFive":
             MessageLookupByLibrary.simpleMessage("It represents a Holy life"),
         "optionThreeFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -152,6 +191,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasseh was bad because he held a grudge against God the Father for not having healed his father Hezekiah"),
         "optionThreeSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "In Joshua 3:1-5:1 it says that he had the twelve stones that represent the twelve tribes of Israel"),
+        "optionThreeThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("2 Chronicles 15:1-19"),
+        "optionThreeThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "Based on Ezekiel 28:1-26 the devil took the sight of the Lord, and placed it on his beauty and was proud"),
+        "optionThreeThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Satan goes to hell to be tormented for all eternity for his sins"),
+        "optionThreeThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "The boy was not strong enough"),
+        "optionThreeThirdPageTwo": MessageLookupByLibrary.simpleMessage("Dan"),
         "optionTwoFirstPageFive":
             MessageLookupByLibrary.simpleMessage("It represents our sins"),
         "optionTwoFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -171,6 +219,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "Because based on 2 Kings 20: 1-21 we note that King Hezekiah did not care about the future of his children or his offspring"),
         "optionTwoSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Based on 1 Kings 8:1-66 it had the two tables of the Law"),
+        "optionTwoThirdPageFive":
+            MessageLookupByLibrary.simpleMessage("2 Kings 12:1-21"),
+        "optionTwoThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "If we read John 8:1-59 ​​the devil lied to the Sovereign Lord and therefore fell from his position of grace"),
+        "optionTwoThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Satan does not exist, we created that concept"),
+        "optionTwoThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "Because this demon was of high rank"),
+        "optionTwoThirdPageTwo": MessageLookupByLibrary.simpleMessage("Dyne"),
         "price": MessageLookupByLibrary.simpleMessage("Price"),
         "questions": MessageLookupByLibrary.simpleMessage("Questions"),
         "questionsWillStart":
@@ -230,6 +287,16 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueSecondPageThree": MessageLookupByLibrary.simpleMessage(
             "Investigate the truth; the influence of a father can be decisive"),
         "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Read and find out the truth; the important thing is what you keep")
+            "Read and find out the truth; the important thing is what you keep"),
+        "theClueThirdPageFive": MessageLookupByLibrary.simpleMessage(
+            "Investigate through reading; a king poisoned by the tongue of a viper"),
+        "theClueThirdPageFour": MessageLookupByLibrary.simpleMessage(
+            "Find your answer in the Scriptures; before the fall this sin is always here"),
+        "theClueThirdPageOne": MessageLookupByLibrary.simpleMessage(
+            "Read about him in Revelation 20:1-15; judgment prevails"),
+        "theClueThirdPageThree": MessageLookupByLibrary.simpleMessage(
+            "Find your answer in Matthew 17:14-21; the one who moves the mountains"),
+        "theClueThirdPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Review and compare Revelation 7:1-8 with Genesis 35:23-26, from the same tribe as Samson")
       };
 }

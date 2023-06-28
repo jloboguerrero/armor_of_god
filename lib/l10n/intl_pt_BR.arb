@@ -47,7 +47,7 @@
     "mainQuestionFirstPageOne": "Qual é a palavra-chave que abrirá as bênçãos de Deuteronômio 28:1-14?",
     "optionOneFirstPageOne": "Frutos",
     "optionTwoFirstPageOne": "Senhor",
-    "optionThreeFirstPageOne": "Vez",
+    "optionThreeFirstPageOne": "Volta",
     "optionFourFirstPageOne": "Abençoado",
     "optionFiveFirstPageOne": "Hoje",
     "theClueFirstPageOne": "Leia atentamente as palavras de Deuteronômio 28:1-14; em obediência você deve colocar sua cabeça",
@@ -57,7 +57,7 @@
     "optionThreeFirstPageTwo": "Mateus: Falando;\nMarcos: Ouça;\nLucas: Refletindo",
     "optionFourFirstPageTwo": "Mateus: Pesca;\nMarcos: rega;\nLucas: esperando",
     "optionFiveFirstPageTwo": "Mateus: Refletindo;\nMarcos: Ouça a Palavra;\nLucas: Medite",
-    "theClueFirstPageTwo": "CCompare Mateus 13:1-23, Marcos 4:1-20 e Lucas 8:1-15; a grandeza se vê nas pequenas coisas",
+    "theClueFirstPageTwo": "Compare Mateus 13:1-23, Marcos 4:1-20 e Lucas 8:1-15; a grandeza se vê nas pequenas coisas",
     "mainQuestionFirstPageThree": "Pode uma mentira ter algum poder sobre a realidade?",
     "optionOneFirstPageThree": "Sim, uma mentira tem controle sobre a realidade que vemos",
     "optionTwoFirstPageThree": "Sim, mas apenas se o homem decidir acreditar nessa mentira",
@@ -79,7 +79,6 @@
     "optionFourFirstPageFive": "Assunto",
     "optionFiveFirstPageFive": "Nosso Senhor Jesus Cristo",
     "theClueFirstPageFive": "Leia 1 Coríntios 10:1-11:1 e maravilhe-se com a preciosa pedra angular para um fundamento seguro, Isaías 28:16",
-
     "mainQuestionSecondPageOne": "Existem dois eventos de ressurreição?",
     "optionOneSecondPageOne": "Não, a ressurreição já ocorreu, 2 Timóteo 2:1-3:9",
     "optionTwoSecondPageOne": "Não, há apenas uma ressurreição",
@@ -87,7 +86,6 @@
     "optionFourSecondPageOne": "Não, somente Jesus Cristo pode ressuscitar dos mortos",
     "optionFiveSecondPageOne": "Sim, de acordo com Apocalipse 20:1-15, a primeira ressurreição reinará com Cristo por mil anos",
     "theClueSecondPageOne": "Leia e pesquise por si mesmo; muitas pessoas santas e não santas aguardam esse dia na sepultura",
-
     "mainQuestionSecondPageTwo": "O que havia dentro da Arca de Deus?",
     "optionOneSecondPageTwo": "De acordo com Êxodo 26:1-37, ele tinha o óleo sagrado e o candelabro",
     "optionTwoSecondPageTwo": "Baseado em 1 Reis 8:1-66 tinha as duas tábuas da Lei",
@@ -95,7 +93,6 @@
     "optionFourSecondPageTwo": "Se você ler Êxodo 28:1-43, notará que ele tinha o éfode e o peitoral",
     "optionFiveSecondPageTwo": "Em Zacarias 4:1-14 é mencionado que nele você encontrará os nomes das duas oliveiras",
     "theClueSecondPageTwo": "Leia e descubra a verdade; o importante é o que você guarda",
-
     "mainQuestionSecondPageThree": "Por que o rei Manassés foi tão perverso?",
     "optionOneSecondPageThree": "Manassés era tão mau porque, de acordo com 2 Reis 18:1-37, seu pai Ezequias também era uma pessoa má",
     "optionTwoSecondPageThree": "Porque com base em 2 Reis 20:1-21 notamos que o rei Ezequias não se importava com o futuro de seus filhos ou de sua descendência",
@@ -103,7 +100,6 @@
     "optionFourSecondPageThree": "De acordo com a Escritura em 2 Reis 21:1-26, vemos que a mãe de Manassés era muito má e lhe ensinou seus maus caminhos",
     "optionFiveSecondPageThree": "A razão pela qual Manassés era perverso pode ser encontrada em 2 Reis 8:1-28, onde notamos que ele se casou com uma filha de Acabe, o perverso rei de Israel",
     "theClueSecondPageThree": "Investigue a verdade; a influência de um pai pode ser decisiva",
-
     "mainQuestionSecondPageFour": "O que significa o número 12?",
     "optionOneSecondPageFour": "Significa a traição de um amigo",
     "optionTwoSecondPageFour": "Os doze signos do zodíaco",
@@ -111,12 +107,51 @@
     "optionFourSecondPageFour": "Os escolhidos por Deus Todo-Poderoso",
     "optionFiveSecondPageFour": "Justiça da mão do Deus Poderoso",
     "theClueSecondPageFour": "Ligue todos os pontos na Bíblia e veja a Verdade; as pessoas com quem você deve se associar",
-
     "mainQuestionSecondPageFive": "Por que existe o mal?",
     "optionOneSecondPageFive": "Deus criou o mal",
     "optionTwoSecondPageFive": "O mal existe porque o mal foi encontrado em uma criatura angelical",
     "optionThreeSecondPageFive": "Satanás e sua horda de demônios são os únicos culpados quando um homem pratica o mal",
     "optionFourSecondPageFive": "Todos os animais são maus",
     "optionFiveSecondPageFive": "Deus é um ser mau",
-    "theClueSeconfPageFive": "O Todo-Poderoso é santo, santo, santo, não nós"
+    "theClueSeconfPageFive": "O Todo-Poderoso é santo, santo, santo, não nós",
+
+    "mainQuestionThirdPageOne": "O diabo está no inferno para atormentar as pessoas de lá ou ele vai para lá para ser atormentado por toda a eternidade?",
+    "optionOneThirdPageOne": "Satanás é um ser imortal, ele não pode morrer.",
+    "optionTwoThirdPageOne": "Satanás não existe, nós criamos esse conceito",
+    "optionThreeThirdPageOne": "Satanás vai para o inferno para ser atormentado por toda a eternidade por seus pecados",
+    "optionFourThirdPageOne": "Quando Jesus descreve o inferno, ele descreve o diabo como o atormentador de quem vai para lá, vemos no livro de Marcos",
+    "optionFiveThirdPageOne": "O diabo vem do inferno",
+    "theClueThirdPageOne": "Leia sobre ele em Apocalipse 20:1-15; julgamento prevalece",
+
+    "mainQuestionThirdPageTwo": "Que tribo de Israel está faltando dos 144.000 selados, Apocalipse 7:1-17?",
+    "optionOneThirdPageTwo": "Efraim",
+    "optionTwoThirdPageTwo": "Dyne",
+    "optionThreeThirdPageTwo": "Dan",
+    "optionFourThirdPageTwo": "Manassés",
+    "optionFiveThirdPageTwo": "Gad",
+    "theClueThirdPageTwo": "Revise e compare Apocalipse 7:1-8 com Gênesis 35:23-26, da mesma tribo de Sansão",
+
+    "mainQuestionThirdPageThree": "Por que os discípulos não conseguiram curar o menino endemoninhado em Mateus 17:1-27?",
+    "optionOneThirdPageThree": "Eles não puderam curá-lo por causa dos muitos pecados que a criança tinha",
+    "optionTwoThirdPageThree": "Porque este demônio era de alto escalão",
+    "optionThreeThirdPageThree": "O menino não era forte o suficiente",
+    "optionFourThirdPageThree": "Porque os discípulos não tinham fé suficiente",
+    "optionFiveThirdPageThree": "O menino precisava de um jejum muito rigoroso e prolongado",
+    "theClueThirdPageThree": "Encontre sua resposta em Mateus 17:14-21; aquele que move as montanhas",
+
+    "mainQuestionThirdPageFour": "Que pecado o diabo cometeu para cair da presença do Senhor?",
+    "optionOneThirdPageFour": "De acordo com Jeremias 50:1-51:64, o diabo fez um ídolo e o colocou na Babilônia",
+    "optionTwoThirdPageFour": "Se lermos João 8:1-59 ​​o diabo mentiu para o Soberano Senhor e por isso caiu de sua posição de graça",
+    "optionThreeThirdPageFour": "Com base em Ezequiel 28:1-26, o diabo tomou a visão do Senhor, colocou-a em sua formosura e ficou orgulhoso",
+    "optionFourThirdPageFour": "O diabo sempre esteve no inferno",
+    "optionFiveThirdPageFour": "O diabo foi enviado para o inferno por tentar Jesus em Mateus 4:1-25",
+    "theClueThirdPageFour": "Encontre sua resposta nas Escrituras; antes da queda este pecado está sempre aqui",
+
+    "mainQuestionThirdPageFive": "Em qual capítulo da Bíblia Sagrada esta profecia está sendo cumprida, Josué 6:26?",
+    "optionOneThirdPageFive": "Juízes 4:1-24",
+    "optionTwoThirdPageFive": "2 Reis 12:1-21",
+    "optionThreeThirdPageFive": "2 Crônicas 15:1-19",
+    "optionFourThirdPageFive": "1 Reis 16:1-34",
+    "optionFiveThirdPageFive": "Ester 9:1-32",
+    "theClueThirdPageFive": "Investigar através da leitura; um rei envenenado pela língua de uma víbora"
 }

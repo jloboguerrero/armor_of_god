@@ -114,38 +114,55 @@ class Questions {
 
   List<Question> get three {
     return [
-      const Question(
-        answer: 0,
-        mainQuestion: 'cual es el primer personaje de la biblia?',
-        optionOne: 'Mateo',
-        optionTwo: 'Apocalipsis',
-        optionThree: 'Génesis',
-        optionFour: 'Salmos',
-        optionFive: 'Números',
-        theClue:
-            'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+      Question(
+        answer: 2,
+        mainQuestion: S.current.mainQuestionThirdPageOne,
+        optionOne: S.current.optionOneThirdPageOne,
+        optionTwo: S.current.optionTwoThirdPageOne,
+        optionThree: S.current.optionThreeThirdPageOne,
+        optionFour: S.current.optionFourThirdPageOne,
+        optionFive: S.current.optionFiveThirdPageOne,
+        theClue: S.current.theClueThirdPageOne,
       ),
-      const Question(
-        answer: 0,
-        mainQuestion: 'cual es el segundo arbol de la biblia?',
-        optionOne: 'Mateo',
-        optionTwo: 'Apocalipsis',
-        optionThree: 'Génesis',
-        optionFour: 'Salmos',
-        optionFive: 'Números',
-        theClue:
-            'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+      Question(
+        answer: 2,
+        mainQuestion: S.current.mainQuestionThirdPageTwo,
+        optionOne: S.current.optionOneThirdPageTwo,
+        optionTwo: S.current.optionTwoThirdPageTwo,
+        optionThree: S.current.optionThreeThirdPageTwo,
+        optionFour: S.current.optionFourThirdPageTwo,
+        optionFive: S.current.optionFiveThirdPageTwo,
+        theClue: S.current.theClueThirdPageTwo,
       ),
-      const Question(
-        answer: 0,
-        mainQuestion: 'cual es el tercer ave de la biblia?',
-        optionOne: 'Mateo',
-        optionTwo: 'Apocalipsis',
-        optionThree: 'Génesis',
-        optionFour: 'Salmos',
-        optionFive: 'Números',
-        theClue:
-            'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+      Question(
+        answer: 3,
+        mainQuestion: S.current.mainQuestionThirdPageThree,
+        optionOne: S.current.optionOneThirdPageThree,
+        optionTwo: S.current.optionTwoThirdPageThree,
+        optionThree: S.current.optionThreeThirdPageThree,
+        optionFour: S.current.optionFourThirdPageThree,
+        optionFive: S.current.optionFiveThirdPageThree,
+        theClue: S.current.theClueThirdPageThree,
+      ),
+      Question(
+        answer: 2,
+        mainQuestion: S.current.mainQuestionThirdPageFour,
+        optionOne: S.current.optionOneThirdPageFour,
+        optionTwo: S.current.optionTwoThirdPageFour,
+        optionThree: S.current.optionThreeThirdPageFour,
+        optionFour: S.current.optionFourThirdPageFour,
+        optionFive: S.current.optionFiveThirdPageFour,
+        theClue: S.current.theClueThirdPageFour,
+      ),
+      Question(
+        answer: 3,
+        mainQuestion: S.current.mainQuestionThirdPageFive,
+        optionOne: S.current.optionOneThirdPageFive,
+        optionTwo: S.current.optionTwoThirdPageFive,
+        optionThree: S.current.optionThreeThirdPageFive,
+        optionFour: S.current.optionFourThirdPageFive,
+        optionFive: S.current.optionFiveThirdPageFive,
+        theClue: S.current.theClueThirdPageFive,
       ),
     ];
   }

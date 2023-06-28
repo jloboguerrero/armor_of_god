@@ -1239,6 +1239,356 @@ class S {
       args: [],
     );
   }
+
+  /// `¿Está el diablo en el infierno para atormentar a la gente allí o él va allí para ser atormentado por toda la eternidad?`
+  String get mainQuestionThirdPageOne {
+    return Intl.message(
+      '¿Está el diablo en el infierno para atormentar a la gente allí o él va allí para ser atormentado por toda la eternidad?',
+      name: 'mainQuestionThirdPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Satanás es un ser inmortal, no puede morir`
+  String get optionOneThirdPageOne {
+    return Intl.message(
+      'Satanás es un ser inmortal, no puede morir',
+      name: 'optionOneThirdPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Satanás no existe, nosotros creamos ese concepto`
+  String get optionTwoThirdPageOne {
+    return Intl.message(
+      'Satanás no existe, nosotros creamos ese concepto',
+      name: 'optionTwoThirdPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Satanás va al infierno a ser atormentado por toda la eternidad por sus pecados`
+  String get optionThreeThirdPageOne {
+    return Intl.message(
+      'Satanás va al infierno a ser atormentado por toda la eternidad por sus pecados',
+      name: 'optionThreeThirdPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cuando Jesús describe el infierno, describe al diablo como el atormentador de los que van allí, lo vemos en el libro de Marcos`
+  String get optionFourThirdPageOne {
+    return Intl.message(
+      'Cuando Jesús describe el infierno, describe al diablo como el atormentador de los que van allí, lo vemos en el libro de Marcos',
+      name: 'optionFourThirdPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El diablo viene del infierno`
+  String get optionFiveThirdPageOne {
+    return Intl.message(
+      'El diablo viene del infierno',
+      name: 'optionFiveThirdPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lea acerca de él en Apocalipsis 20:1-15; prevalece el juicio`
+  String get theClueThirdPageOne {
+    return Intl.message(
+      'Lea acerca de él en Apocalipsis 20:1-15; prevalece el juicio',
+      name: 'theClueThirdPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Qué tribu de Israel falta en los 144.000 sellados, Apocalipsis 7:1-17?`
+  String get mainQuestionThirdPageTwo {
+    return Intl.message(
+      '¿Qué tribu de Israel falta en los 144.000 sellados, Apocalipsis 7:1-17?',
+      name: 'mainQuestionThirdPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Efraín`
+  String get optionOneThirdPageTwo {
+    return Intl.message(
+      'Efraín',
+      name: 'optionOneThirdPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dina`
+  String get optionTwoThirdPageTwo {
+    return Intl.message(
+      'Dina',
+      name: 'optionTwoThirdPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dan`
+  String get optionThreeThirdPageTwo {
+    return Intl.message(
+      'Dan',
+      name: 'optionThreeThirdPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manasés`
+  String get optionFourThirdPageTwo {
+    return Intl.message(
+      'Manasés',
+      name: 'optionFourThirdPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Gad`
+  String get optionFiveThirdPageTwo {
+    return Intl.message(
+      'Gad',
+      name: 'optionFiveThirdPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Revise y compare Apocalipsis 7:1-8 con Génesis 35:23-26, de la misma tribu de Sansón`
+  String get theClueThirdPageTwo {
+    return Intl.message(
+      'Revise y compare Apocalipsis 7:1-8 con Génesis 35:23-26, de la misma tribu de Sansón',
+      name: 'theClueThirdPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Por qué los discípulos no pudieron curar al niño poseído por un demonio en Mateo 17:1-27?`
+  String get mainQuestionThirdPageThree {
+    return Intl.message(
+      '¿Por qué los discípulos no pudieron curar al niño poseído por un demonio en Mateo 17:1-27?',
+      name: 'mainQuestionThirdPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No pudieron curarlo por los muchos pecados que tenía el niño`
+  String get optionOneThirdPageThree {
+    return Intl.message(
+      'No pudieron curarlo por los muchos pecados que tenía el niño',
+      name: 'optionOneThirdPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque este demonio era de alto rango`
+  String get optionTwoThirdPageThree {
+    return Intl.message(
+      'Porque este demonio era de alto rango',
+      name: 'optionTwoThirdPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El niño no era lo suficientemente fuerte`
+  String get optionThreeThirdPageThree {
+    return Intl.message(
+      'El niño no era lo suficientemente fuerte',
+      name: 'optionThreeThirdPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque los discípulos no tenían suficiente fe`
+  String get optionFourThirdPageThree {
+    return Intl.message(
+      'Porque los discípulos no tenían suficiente fe',
+      name: 'optionFourThirdPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El niño necesitaba un ayuno muy riguroso y prolongado`
+  String get optionFiveThirdPageThree {
+    return Intl.message(
+      'El niño necesitaba un ayuno muy riguroso y prolongado',
+      name: 'optionFiveThirdPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Encuentra tu respuesta en Mateo 17:14-21; el que mueve las montañas`
+  String get theClueThirdPageThree {
+    return Intl.message(
+      'Encuentra tu respuesta en Mateo 17:14-21; el que mueve las montañas',
+      name: 'theClueThirdPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Qué pecado cometió el diablo para caer de la presencia del Señor?`
+  String get mainQuestionThirdPageFour {
+    return Intl.message(
+      '¿Qué pecado cometió el diablo para caer de la presencia del Señor?',
+      name: 'mainQuestionThirdPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Según Jeremías 50:1-51:64, el diablo hizo un ídolo y lo colocó en Babilonia`
+  String get optionOneThirdPageFour {
+    return Intl.message(
+      'Según Jeremías 50:1-51:64, el diablo hizo un ídolo y lo colocó en Babilonia',
+      name: 'optionOneThirdPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si leemos Juan 8:1-59 el diablo mintió al Señor Soberano y por eso cayó de su posición de gracia`
+  String get optionTwoThirdPageFour {
+    return Intl.message(
+      'Si leemos Juan 8:1-59 el diablo mintió al Señor Soberano y por eso cayó de su posición de gracia',
+      name: 'optionTwoThirdPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Basado en Ezequiel 28:1-26 el diablo quitó la vista del Señor, y la colocó en su hermosura y se enorgulleció`
+  String get optionThreeThirdPageFour {
+    return Intl.message(
+      'Basado en Ezequiel 28:1-26 el diablo quitó la vista del Señor, y la colocó en su hermosura y se enorgulleció',
+      name: 'optionThreeThirdPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El diablo siempre estuvo en el infierno`
+  String get optionFourThirdPageFour {
+    return Intl.message(
+      'El diablo siempre estuvo en el infierno',
+      name: 'optionFourThirdPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El diablo fue enviado al infierno por tentar a Jesús en Mateo 4:1-25`
+  String get optionFiveThirdPageFour {
+    return Intl.message(
+      'El diablo fue enviado al infierno por tentar a Jesús en Mateo 4:1-25',
+      name: 'optionFiveThirdPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Encuentra tu respuesta en las Escrituras; antes de la caída este pecado siempre está aquí`
+  String get theClueThirdPageFour {
+    return Intl.message(
+      'Encuentra tu respuesta en las Escrituras; antes de la caída este pecado siempre está aquí',
+      name: 'theClueThirdPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿En qué capítulo de la Santa Biblia se está cumpliendo esta profecía, Josué 6:26?`
+  String get mainQuestionThirdPageFive {
+    return Intl.message(
+      '¿En qué capítulo de la Santa Biblia se está cumpliendo esta profecía, Josué 6:26?',
+      name: 'mainQuestionThirdPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jueces 4:1-24`
+  String get optionOneThirdPageFive {
+    return Intl.message(
+      'Jueces 4:1-24',
+      name: 'optionOneThirdPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Reyes 12:1-21`
+  String get optionTwoThirdPageFive {
+    return Intl.message(
+      '2 Reyes 12:1-21',
+      name: 'optionTwoThirdPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Crónicas 15:1-19`
+  String get optionThreeThirdPageFive {
+    return Intl.message(
+      '2 Crónicas 15:1-19',
+      name: 'optionThreeThirdPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Reyes 16:1-34`
+  String get optionFourThirdPageFive {
+    return Intl.message(
+      '1 Reyes 16:1-34',
+      name: 'optionFourThirdPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ester 9:1-32`
+  String get optionFiveThirdPageFive {
+    return Intl.message(
+      'Ester 9:1-32',
+      name: 'optionFiveThirdPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Investigue a través de la lectura; un rey envenenado por la lengua de una víbora`
+  String get theClueThirdPageFive {
+    return Intl.message(
+      'Investigue a través de la lectura; un rey envenenado por la lengua de una víbora',
+      name: 'theClueThirdPageFive',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {
