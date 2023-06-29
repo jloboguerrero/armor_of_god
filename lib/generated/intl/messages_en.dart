@@ -8,6 +8,7 @@
 // ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
 // ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
 // ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
+// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
 
 import 'package:intl/intl.dart';
 import 'package:intl/message_lookup_by_library.dart';
@@ -22,6 +23,8 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "about": MessageLookupByLibrary.simpleMessage("About"),
+        "aboutContent": MessageLookupByLibrary.simpleMessage(
+            "We want you to know that behind Armor of God, there is a group of brothers by faith in Christ, who seek to glorify the Author of our Salvation through the natural gifts and professions that He has granted us in His Grace. We are committed to the help from the Lord to continue improving and creating content aligning ourselves to His will.\n\nWe sincerely appreciate your support and trust in the Armor of God project. We hope you enjoy the app and find it uplifting!\n\nHave fun and keep unlocking knowledge!\n\nSincerely,\n\nThe Armor of God Development Team"),
         "accept": MessageLookupByLibrary.simpleMessage("Accept"),
         "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
             "To submit, answer all questions"),
@@ -83,6 +86,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Why was King Manasseh so wicked?"),
         "mainQuestionSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "What was inside the Ark of God?"),
+        "mainQuestionSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "What sin did Solomon, king of Israel, commit that led him away from the Lord?"),
+        "mainQuestionSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "What mistake did Rehoboam make that led to the division of the kingdom of Israel from Judah in 1 Kings 12:1-33?"),
+        "mainQuestionSixQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Who was the last king of Judah?"),
+        "mainQuestionSixQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Which king was responsible for the division of the kingdom of Judah and Israel?"),
+        "mainQuestionSixQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Who was the last king of Israel?"),
         "mainQuestionThirdPageFive": MessageLookupByLibrary.simpleMessage(
             "In which chapter of the Holy Bible is this prophecy being fulfilled, Joshua 6:26?"),
         "mainQuestionThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -144,6 +157,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "The reason why Manasseh was wicked can be found in 2 Kings 8:1-28 where we note that he married a daughter of Ahab, the wicked king of Israel"),
         "optionFiveSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "In Zechariah 4:1-14 it is mentioned that in it you will find the names of the two olive trees"),
+        "optionFiveSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Spoke blasphemies and wrote heresies"),
+        "optionFiveSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "He sent the whole army to take back the kingdom and make the people serve him"),
+        "optionFiveSixQPageOne":
+            MessageLookupByLibrary.simpleMessage("Hezekiah"),
+        "optionFiveSixQPageThree":
+            MessageLookupByLibrary.simpleMessage("Roboam"),
+        "optionFiveSixQPageTwo": MessageLookupByLibrary.simpleMessage("Asa"),
         "optionFiveThirdPageFive":
             MessageLookupByLibrary.simpleMessage("Ester 9:1-32"),
         "optionFiveThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -193,6 +215,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "According to the Scripture in 2 Kings 21: 1-26, we see that Manasseh\'s mother was very bad and she taught him the evil ways of him"),
         "optionFourSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "If you read Exodus 28:1-43 you will notice that he had the Ephod and the breastplate"),
+        "optionFourSixQPageFive":
+            MessageLookupByLibrary.simpleMessage("Burned unauthorized incense"),
+        "optionFourSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Lightened the work of the subjects"),
+        "optionFourSixQPageOne":
+            MessageLookupByLibrary.simpleMessage("Jeroboam"),
+        "optionFourSixQPageThree":
+            MessageLookupByLibrary.simpleMessage("Hezekiah"),
+        "optionFourSixQPageTwo":
+            MessageLookupByLibrary.simpleMessage("Amaziah"),
         "optionFourThirdPageFive":
             MessageLookupByLibrary.simpleMessage("1 Kings 16:1-34"),
         "optionFourThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -242,6 +274,14 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasseh was so bad because according to 2 Kings 18:1-37 his father Hezekiah was also a bad person"),
         "optionOneSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "According to Exodus 26:1-37, he had the holy oil and the Lampstand"),
+        "optionOneSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "He had too many wives and concubines"),
+        "optionOneSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "He made two golden calves and placed them at Bethel and Dan for the people of Israel to worship"),
+        "optionOneSixQPageOne":
+            MessageLookupByLibrary.simpleMessage("Manasseh"),
+        "optionOneSixQPageThree": MessageLookupByLibrary.simpleMessage("Ahab"),
+        "optionOneSixQPageTwo": MessageLookupByLibrary.simpleMessage("Ahab"),
         "optionOneThirdPageFive":
             MessageLookupByLibrary.simpleMessage("Judges 4:1-24"),
         "optionOneThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -291,6 +331,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasseh was bad because he held a grudge against God the Father for not having healed his father Hezekiah"),
         "optionThreeSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "In Joshua 3:1-5:1 it says that he had the twelve stones that represent the twelve tribes of Israel"),
+        "optionThreeSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "He defiled the Temple of the Lord with idols"),
+        "optionThreeSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "He did not listen to the advice of the elders who wanted him to serve them and give them a favorable response"),
+        "optionThreeSixQPageOne":
+            MessageLookupByLibrary.simpleMessage("Josiah"),
+        "optionThreeSixQPageThree":
+            MessageLookupByLibrary.simpleMessage("Solomon"),
+        "optionThreeSixQPageTwo":
+            MessageLookupByLibrary.simpleMessage("Zacarias"),
         "optionThreeThirdPageFive":
             MessageLookupByLibrary.simpleMessage("2 Chronicles 15:1-19"),
         "optionThreeThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -339,6 +389,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "Because based on 2 Kings 20: 1-21 we note that King Hezekiah did not care about the future of his children or his offspring"),
         "optionTwoSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Based on 1 Kings 8:1-66 it had the two tables of the Law"),
+        "optionTwoSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Married non-Israelite women leading to apostasy"),
+        "optionTwoSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "He assigned priests of all kinds of people"),
+        "optionTwoSixQPageOne":
+            MessageLookupByLibrary.simpleMessage("Zedekiah"),
+        "optionTwoSixQPageThree":
+            MessageLookupByLibrary.simpleMessage("Jehoshaphat"),
+        "optionTwoSixQPageTwo": MessageLookupByLibrary.simpleMessage("Hosea"),
         "optionTwoThirdPageFive":
             MessageLookupByLibrary.simpleMessage("2 Kings 12:1-21"),
         "optionTwoThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -362,17 +421,21 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Special Weapons"),
         "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Suggestion"),
+        "suggestionContent": MessageLookupByLibrary.simpleMessage(
+            "We declare that the Armor of God development team is interested in making this a tool not only for entertainment but also for help and spiritual edification, for this reason, in our constant effort to provide you with the best possible experience, we greatly value your comments and suggestions. to improve our app. We would love to have your participation and collaboration in this exciting development process. Your opinion is crucial to make this application a success among the user community \n\nWe would like to encourage you to share any ideas, suggestions or additional information that you have, And whatever you do, do it from the heart, as for the Lord and not for men; knowing that from the Lord you will receive the reward of the inheritance, because you serve Christ the Lord. Colossians 3:23-24. Do you have any additional questions or a new idea to add to our collection of questions? Would you like to suggest a specific feature that you would like to see in future updates? Are you a designer and would like to help us with the design? We are eager to hear from you!\n\nYou can send us your suggestions, comments or interest in participating with the work of your hands, through this section, our development team will carefully review each one of your messages and will work hard to implement improvements for the Glory of the Lord.\n\nWe sincerely appreciate your time and dedication to help us improve. Thank you for being part of this project and for sharing your enthusiasm with us. We look forward to working together to make this app an exceptional experience.\n\nSincerely,\n\nThe Armor of God Development Team"),
         "suggestionError": MessageLookupByLibrary.simpleMessage(
             "An error occurred. please try again"),
         "suggestionSend": MessageLookupByLibrary.simpleMessage(
             "Sent successfully, thanks for your suggestion!"),
+        "suggestionTitle":
+            MessageLookupByLibrary.simpleMessage("Dear Armor of God app user!"),
         "survivalItems": MessageLookupByLibrary.simpleMessage("Survival Items"),
         "termsAndConditions":
             MessageLookupByLibrary.simpleMessage("Terms and conditions"),
         "termsStart": MessageLookupByLibrary.simpleMessage(
             "These Terms and Conditions (\'T&C\') establish the legal terms and conditions for the use of the mobile application \'Armor of God\' (hereinafter, the \'Application\'), which is currently under development. By accessing and using the Application, you agree to be bound by these T&Cs. If you do not agree to any of the terms set forth below, we recommend that you do not use the Application."),
         "termsSubtitle1": MessageLookupByLibrary.simpleMessage(
-            "1.1. The Application aims to provide a game of questions and unlocking of pieces with their associated meaning for entertainment and fun.\n1.2. By using the Application, you acknowledge that you are responsible for any costs associated with Internet connection and mobile data charges that you may incur when accessing and using the Application."),
+            "1.1. The purpose of the Application is to provide a trivia game and unlock parts with their meaning associated with the building.\n1.2. By using the Application, you acknowledge that you are responsible for any costs associated with Internet connection and mobile data charges that you may incur when accessing and using the Application."),
         "termsSubtitle2": MessageLookupByLibrary.simpleMessage(
             "2.1. The Application and all its content, including but not limited to text, graphics, logos, icons, images, audio clips, digital downloads and software, are the property of the legal owners of the Application and are protected by intellectual property laws. applicable.\n2.2. You are granted a limited, non-exclusive, and non-transferable right to use the Application and its content solely for your own personal, non-commercial use."),
         "termsSubtitle3": MessageLookupByLibrary.simpleMessage(
@@ -428,6 +491,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Investigate the truth; the influence of a father can be decisive"),
         "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Read and find out the truth; the important thing is what you keep"),
+        "theClueSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Listen to 1 Kings 11:1-13; stay apart"),
+        "theClueSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Read in 1 Kings 12:1-24; From what does a wise kingdom arise?"),
+        "theClueSixQPageOne": MessageLookupByLibrary.simpleMessage(
+            "You need to check the last chapter of 2 Kings and 2 Chronicles to find out"),
+        "theClueSixQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Read 1 Kings 12:1-33 and find the culprit; to your elders, you must listen"),
+        "theClueSixQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Read 2 Kings 17:1-41 and there you will find it; the ancient name of Joshua son of Nun"),
         "theClueThirdPageFive": MessageLookupByLibrary.simpleMessage(
             "Investigate through reading; a king poisoned by the tongue of a viper"),
         "theClueThirdPageFour": MessageLookupByLibrary.simpleMessage(

@@ -418,13 +418,17 @@ class _CountryItem extends StatelessWidget {
       duration: Duration(milliseconds: animationDuration),
       child: InkWell(
         child: Padding(
-          padding: const EdgeInsets.all(6.0).copyWith(left: 20.0),
+          padding: const EdgeInsets.all(6.0).copyWith(
+            bottom: 12.0,
+            left: 20.0,
+          ),
           child: Row(
             children: [
               Image.asset(
                 country.logo!,
-                height: 60.0,
-                width: 60.0,
+                height: 45.0,
+                width: 45.0,
+                fit: BoxFit.cover,
               ),
               const SizedBox(width: 11.0),
               Text(

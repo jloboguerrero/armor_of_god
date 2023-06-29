@@ -8,6 +8,7 @@
 // ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
 // ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
 // ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
+// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
 
 import 'package:intl/intl.dart';
 import 'package:intl/message_lookup_by_library.dart';
@@ -24,6 +25,8 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "about": MessageLookupByLibrary.simpleMessage("Información"),
+        "aboutContent": MessageLookupByLibrary.simpleMessage(
+            "Queremos que conozcas que detrás de Armor of God, está un grupo de hermanos por la fe en Cristo, que buscamos glorificar al Autor de nuestra Salvación por medio de los dones y profesiones naturales que Él en su Gracia nos ha concedido, Estamos comprometidos con la ayuda del Señor a seguir mejorando y creando contenido alineándonos a Su voluntad.\n\nAgradecemos sinceramente tu apoyo y confianza  en el proyecto Armor of God. ¡Esperamos que disfrutes de la aplicación y que encuentres una experiencia edificante!\n\n¡Diviértete y sigue desbloqueando conocimientos!\n\nAtentamente,\n\nEl equipo de desarrollo del Armor of God"),
         "accept": MessageLookupByLibrary.simpleMessage("Aceptar"),
         "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
             "Para enviar, responde todas las preguntas"),
@@ -86,6 +89,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Por qué el rey Manasés era tan malvado?"),
         "mainQuestionSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "¿Qué había dentro del Arca de Dios?"),
+        "mainQuestionSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "¿Qué pecado cometió Salomón, rey de Israel, que lo alejó del Señor?"),
+        "mainQuestionSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "¿Qué error cometió Roboán que llevó a cabo la división del reino de Israel de Judá en 1 Reyes 12:1-33?"),
+        "mainQuestionSixQPageOne": MessageLookupByLibrary.simpleMessage(
+            "¿Quién fue el último rey de Judá?"),
+        "mainQuestionSixQPageThree": MessageLookupByLibrary.simpleMessage(
+            "¿Qué rey fue responsable por la división del reino de Judá e Israel?"),
+        "mainQuestionSixQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "¿Quién fue el último rey de Israel?"),
         "mainQuestionThirdPageFive": MessageLookupByLibrary.simpleMessage(
             "¿En qué capítulo de la Santa Biblia se está cumpliendo esta profecía, Josué 6:26?"),
         "mainQuestionThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -147,6 +160,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "La razón por la cual Manasés era malvado se puede encontrar en 2 Reyes 8:1-28 donde notamos que se casó con una hija de Acab, el malvado rey de Israel"),
         "optionFiveSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "En Zacarías 4:1-14 se menciona que en él encontrarás los nombres de los dos arboles de olivos"),
+        "optionFiveSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Habló blasfemias y escribió herejías"),
+        "optionFiveSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Envió todo el ejército para recuperar el reino y hacer que el pueblo le sirviera"),
+        "optionFiveSixQPageOne":
+            MessageLookupByLibrary.simpleMessage("Ezequías"),
+        "optionFiveSixQPageThree":
+            MessageLookupByLibrary.simpleMessage("Roboán"),
+        "optionFiveSixQPageTwo": MessageLookupByLibrary.simpleMessage("Asá"),
         "optionFiveThirdPageFive":
             MessageLookupByLibrary.simpleMessage("Ester 9:1-32"),
         "optionFiveThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -196,6 +218,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Según la Escritura en 2 Reyes 21:1-26, vemos que la madre de Manasés era muy mala y le enseñó sus malos caminos"),
         "optionFourSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Si lees Éxodo 28:1-43 notarás que tenía el Efod y la coraza"),
+        "optionFourSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Quemó incienso no autorizado"),
+        "optionFourSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Aligeró el trabajo de los subditos"),
+        "optionFourSixQPageOne":
+            MessageLookupByLibrary.simpleMessage("Jeroboán"),
+        "optionFourSixQPageThree":
+            MessageLookupByLibrary.simpleMessage("Ezequías"),
+        "optionFourSixQPageTwo":
+            MessageLookupByLibrary.simpleMessage("Amasías"),
         "optionFourThirdPageFive":
             MessageLookupByLibrary.simpleMessage("1 Reyes 16:1-34"),
         "optionFourThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -245,6 +277,13 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasés era tan malo porque según 2 Reyes 18:1-37 su padre Ezequías también era una persona mala"),
         "optionOneSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Según Éxodo 26:1-37, tenía el aceite sagrado y el Candelabro"),
+        "optionOneSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Tenía demasiadas esposas y concubinas"),
+        "optionOneSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Hizo dos becerros de oro y los colocó en Betel y Dan para que el pueblo de Israel los adorara"),
+        "optionOneSixQPageOne": MessageLookupByLibrary.simpleMessage("Manasés"),
+        "optionOneSixQPageThree": MessageLookupByLibrary.simpleMessage("Acab"),
+        "optionOneSixQPageTwo": MessageLookupByLibrary.simpleMessage("Acab"),
         "optionOneThirdPageFive":
             MessageLookupByLibrary.simpleMessage("Jueces 4:1-24"),
         "optionOneThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -293,6 +332,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasés era malo porque le guardaba rencor a Dios el Padre por no haber sanado a su padre Ezequías"),
         "optionThreeSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "En Josué 3:1-5:1 dice que tenía las doce piedras que representan las doce tribus de Israel"),
+        "optionThreeSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Profanó el Templo del Señor con ídolos"),
+        "optionThreeSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "No escuchó los consejos de los ancianos que querían que les sirviera y les diera una respuesta favorable"),
+        "optionThreeSixQPageOne":
+            MessageLookupByLibrary.simpleMessage("Josías"),
+        "optionThreeSixQPageThree":
+            MessageLookupByLibrary.simpleMessage("Salomón"),
+        "optionThreeSixQPageTwo":
+            MessageLookupByLibrary.simpleMessage("Zacarías"),
         "optionThreeThirdPageFive":
             MessageLookupByLibrary.simpleMessage("2 Crónicas 15:1-19"),
         "optionThreeThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -341,6 +390,15 @@ class MessageLookup extends MessageLookupByLibrary {
             "Porque con base a 2 Reyes 20:1-21 notamos que al rey Ezequías no le importaba el futuro de sus hijos ni de su descendencia"),
         "optionTwoSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Basado en 1 Reyes 8:1-66 tenía las dos tablas de la Ley"),
+        "optionTwoSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Se casó con mujeres que no eran israelitas que lo llevaron a la apostasía"),
+        "optionTwoSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Asignó sacerdotes de todo tipo de personas"),
+        "optionTwoSixQPageOne":
+            MessageLookupByLibrary.simpleMessage("Sedequías"),
+        "optionTwoSixQPageThree":
+            MessageLookupByLibrary.simpleMessage("Josafat"),
+        "optionTwoSixQPageTwo": MessageLookupByLibrary.simpleMessage("Oseas"),
         "optionTwoThirdPageFive":
             MessageLookupByLibrary.simpleMessage("2 Reyes 12:1-21"),
         "optionTwoThirdPageFour": MessageLookupByLibrary.simpleMessage(
@@ -364,10 +422,14 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Armas Especiales"),
         "submit": MessageLookupByLibrary.simpleMessage("Enviar"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Sugerencia"),
+        "suggestionContent": MessageLookupByLibrary.simpleMessage(
+            "Manifestamos que el equipo de desarrollo de Armor of God, está interesado en que esta sea una herramienta no sólo de entretenimiento si no de ayuda y edificación espiritual, por esto en nuestro constante esfuerzo por brindarle la mejor experiencia posible, valoramos enormemente sus comentarios y sugerencias para mejorar nuestra aplicación. Nos encantaría contar con su participación y colaboración en este emocionante proceso de desarrollo. Su opinión es crucial para hacer de esta aplicación un éxito entre la comunidad de usuarios \n\nNos gustaría animarle a que comparta cualquier idea, sugerencia o información adicional que tenga, Y todo lo que hagáis, hacedlo de corazón, como para el Señor y no para los hombres; sabiendo que del Señor recibiréis la recompensa de la herencia, porque a Cristo el Señor servís. Colosenses 3:23-24. ¿Tiene alguna pregunta adicional o una nueva idea para agregar a nuestra colección de preguntas? ¿Le gustaría sugerir una característica específica que le gustaría ver en futuras actualizaciones? ¿Es diseñador y quisiera ayudarnos con el diseño?¡Estamos ansiosos por escucharlo!\n\nPuede enviarnos sus sugerencias , comentarios o interés de participar con la obra de sus manos, a través de esta sección, nuestro equipo de desarrollo revisará atentamente cada uno de sus mensajes y trabajará arduamente para implementar las mejoras para la Gloria del Señor.\n\nApreciamos sinceramente su tiempo y su dedicación para ayudarnos a mejorar. Gracias por ser parte de este proyecto y por compartir su entusiasmo con nosotros. Esperamos con ansias trabajar juntos para hacer de esta aplicación una experiencia excepcional.\n\nAtentamente,\n\nEl equipo de desarrollo de Armor of God"),
         "suggestionError": MessageLookupByLibrary.simpleMessage(
             "Ocurrió un error. Por favor, intenta de nuevo"),
         "suggestionSend": MessageLookupByLibrary.simpleMessage(
             "Enviado exitosamente, gracias por su sugerencia!"),
+        "suggestionTitle": MessageLookupByLibrary.simpleMessage(
+            "¡Querido usuario de la aplicación Armor of God!"),
         "survivalItems":
             MessageLookupByLibrary.simpleMessage("Items de Supervivencia"),
         "termsAndConditions":
@@ -375,7 +437,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "termsStart": MessageLookupByLibrary.simpleMessage(
             "Estos Términos y Condiciones (\'T&C\') establecen los términos legales y las condiciones para el uso de la aplicación móvil \'Armor of God\' (en adelante, la \'Aplicación\'), que está actualmente en desarrollo. Al acceder y utilizar la Aplicación, usted acepta estar sujeto a estos T&C. Si no está de acuerdo con alguno de los términos establecidos a continuación, le recomendamos que no utilice la Aplicación."),
         "termsSubtitle1": MessageLookupByLibrary.simpleMessage(
-            "1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado para entretenimiento y diversión.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación."),
+            "1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado a la edificación.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación."),
         "termsSubtitle2": MessageLookupByLibrary.simpleMessage(
             "2.1. La Aplicación y todo su contenido, incluidos, entre otros, los textos, gráficos, logotipos, íconos, imágenes, clips de audio, descargas digitales y software, son propiedad de los titulares legales de la Aplicación y están protegidos por las leyes de propiedad intelectual aplicables.\n2.2. Se le otorga un derecho limitado, no exclusivo y no transferible para utilizar la Aplicación y su contenido únicamente para su propio uso personal y no comercial."),
         "termsSubtitle3": MessageLookupByLibrary.simpleMessage(
@@ -433,6 +495,16 @@ class MessageLookup extends MessageLookupByLibrary {
             "Investiga la verdad; la influencia de un padre puede ser determinante"),
         "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Lea y descubra la verdad; lo importante es lo que guardas"),
+        "theClueSixQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Escuche a 1 Reyes 11:1-13; mantente separado"),
+        "theClueSixQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Lee en 1 Reyes 12:1-24; ¿De qué surge un reino sabio?"),
+        "theClueSixQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Debes revisar el último capítulo de 2 Reyes y 2 Crónicas para saberlo"),
+        "theClueSixQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Lea 1 Reyes 12:1-33 y encuentre al culpable; a tus mayores, debes escuchar"),
+        "theClueSixQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Lee 2 Reyes 17:1-41 y allí lo encontrarás; el antiguo nombre de Josué hijo de Nun"),
         "theClueThirdPageFive": MessageLookupByLibrary.simpleMessage(
             "Investigue a través de la lectura; un rey envenenado por la lengua de una víbora"),
         "theClueThirdPageFour": MessageLookupByLibrary.simpleMessage(

@@ -279,61 +279,55 @@ class Questions {
 
   List<Question> get six {
     return [
-      const Question(
-        answer: 0,
-        mainQuestion:
-            'cual es el primer libro de la biblia? cual es el primer libro de la biblia? cual es el primer libro de la biblia? cual es el primer libro de la biblia? cual es el primer libro de la biblia? cual es el primer libro de la biblia? cual es el primer libro de la biblia? cual es el primer libro de la biblia? cual es el primer libro de la biblia?',
-        optionOne:
-            'Mateo, Mateo Mateo Mateo Mateo Mateo Mateo Mateo Mateo Mateo Mateo o Mateo Mateo Mateo Mateo Mateo Mateo Mateo Mateo Mateo',
-        optionTwo: 'Apocalipsis',
-        optionThree: 'Génesis',
-        optionFour: 'Salmos',
-        optionFive: 'Números',
-        theClue: 'dada asdasd',
-      ),
-      const Question(
+      Question(
         answer: 1,
-        mainQuestion: 'cual es el segundo libro de la biblia?',
-        optionOne: 'Mateo',
-        optionTwo: 'Apocalipsis',
-        optionThree: 'Génesis',
-        optionFour: 'Salmos',
-        optionFive: 'Números',
-        theClue:
-            'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+        mainQuestion: S.current.mainQuestionSixQPageOne,
+        optionOne: S.current.optionOneSixQPageOne,
+        optionTwo: S.current.optionTwoSixQPageOne,
+        optionThree: S.current.optionThreeSixQPageOne,
+        optionFour: S.current.optionFourSixQPageOne,
+        optionFive: S.current.optionFiveSixQPageOne,
+        theClue: S.current.theClueSixQPageOne,
       ),
-      const Question(
-        answer: 2,
-        mainQuestion: 'cual es el tercer libro de la biblia?',
-        optionOne: 'Mateo',
-        optionTwo: 'Apocalipsis',
-        optionThree: 'Génesis',
-        optionFour: 'Salmos',
-        optionFive: 'Números',
-        theClue:
-            'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.',
+      Question(
+        answer: 1,
+        mainQuestion: S.current.mainQuestionSixQPageTwo,
+        optionOne: S.current.optionOneSixQPageTwo,
+        optionTwo: S.current.optionTwoSixQPageTwo,
+        optionThree: S.current.optionThreeSixQPageTwo,
+        optionFour: S.current.optionFourSixQPageTwo,
+        optionFive: S.current.optionFiveSixQPageTwo,
+        theClue: S.current.theClueSixQPageTwo,
       ),
-      const Question(
-        answer: 3,
-        mainQuestion: 'cual es el cuarto libro de la biblia?',
-        optionOne: 'Mateo',
-        optionTwo: 'Apocalipsis',
-        optionThree: 'Génesis',
-        optionFour: 'Salmos',
-        optionFive: 'Números',
-        theClue:
-            'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
-      ),
-      const Question(
+      Question(
         answer: 4,
-        mainQuestion: 'cual es el quinto libro de la biblia?',
-        optionOne: 'Mateo',
-        optionTwo: 'Apocalipsis',
-        optionThree: 'Génesis',
-        optionFour: 'Salmos',
-        optionFive: 'Números',
-        theClue:
-            'da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
+        mainQuestion: S.current.mainQuestionSixQPageThree,
+        optionOne: S.current.optionOneSixQPageThree,
+        optionTwo: S.current.optionTwoSixQPageThree,
+        optionThree: S.current.optionThreeSixQPageThree,
+        optionFour: S.current.optionFourSixQPageThree,
+        optionFive: S.current.optionFiveSixQPageThree,
+        theClue: S.current.theClueSixQPageThree,
+      ),
+      Question(
+        answer: 2,
+        mainQuestion: S.current.mainQuestionSixQPageFour,
+        optionOne: S.current.optionOneSixQPageFour,
+        optionTwo: S.current.optionTwoSixQPageFour,
+        optionThree: S.current.optionThreeSixQPageFour,
+        optionFour: S.current.optionFourSixQPageFour,
+        optionFive: S.current.optionFiveSixQPageFour,
+        theClue: S.current.theClueSixQPageFour,
+      ),
+      Question(
+        answer: 1,
+        mainQuestion: S.current.mainQuestionSixQPageFive,
+        optionOne: S.current.optionOneSixQPageFive,
+        optionTwo: S.current.optionTwoSixQPageFive,
+        optionThree: S.current.optionThreeSixQPageFive,
+        optionFour: S.current.optionFourSixQPageFive,
+        optionFive: S.current.optionFiveSixQPageFive,
+        theClue: S.current.theClueSixQPageFive,
       ),
     ];
   }

@@ -90,6 +90,16 @@ class S {
     );
   }
 
+  /// `Queremos que conozcas que detrás de Armor of God, está un grupo de hermanos por la fe en Cristo, que buscamos glorificar al Autor de nuestra Salvación por medio de los dones y profesiones naturales que Él en su Gracia nos ha concedido, Estamos comprometidos con la ayuda del Señor a seguir mejorando y creando contenido alineándonos a Su voluntad.\n\nAgradecemos sinceramente tu apoyo y confianza  en el proyecto Armor of God. ¡Esperamos que disfrutes de la aplicación y que encuentres una experiencia edificante!\n\n¡Diviértete y sigue desbloqueando conocimientos!\n\nAtentamente,\n\nEl equipo de desarrollo del Armor of God`
+  String get aboutContent {
+    return Intl.message(
+      'Queremos que conozcas que detrás de Armor of God, está un grupo de hermanos por la fe en Cristo, que buscamos glorificar al Autor de nuestra Salvación por medio de los dones y profesiones naturales que Él en su Gracia nos ha concedido, Estamos comprometidos con la ayuda del Señor a seguir mejorando y creando contenido alineándonos a Su voluntad.\n\nAgradecemos sinceramente tu apoyo y confianza  en el proyecto Armor of God. ¡Esperamos que disfrutes de la aplicación y que encuentres una experiencia edificante!\n\n¡Diviértete y sigue desbloqueando conocimientos!\n\nAtentamente,\n\nEl equipo de desarrollo del Armor of God',
+      name: 'aboutContent',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Sugerencia`
   String get suggestion {
     return Intl.message(
@@ -115,6 +125,26 @@ class S {
     return Intl.message(
       'Enviado exitosamente, gracias por su sugerencia!',
       name: 'suggestionSend',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¡Querido usuario de la aplicación Armor of God!`
+  String get suggestionTitle {
+    return Intl.message(
+      '¡Querido usuario de la aplicación Armor of God!',
+      name: 'suggestionTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manifestamos que el equipo de desarrollo de Armor of God, está interesado en que esta sea una herramienta no sólo de entretenimiento si no de ayuda y edificación espiritual, por esto en nuestro constante esfuerzo por brindarle la mejor experiencia posible, valoramos enormemente sus comentarios y sugerencias para mejorar nuestra aplicación. Nos encantaría contar con su participación y colaboración en este emocionante proceso de desarrollo. Su opinión es crucial para hacer de esta aplicación un éxito entre la comunidad de usuarios \n\nNos gustaría animarle a que comparta cualquier idea, sugerencia o información adicional que tenga, Y todo lo que hagáis, hacedlo de corazón, como para el Señor y no para los hombres; sabiendo que del Señor recibiréis la recompensa de la herencia, porque a Cristo el Señor servís. Colosenses 3:23-24. ¿Tiene alguna pregunta adicional o una nueva idea para agregar a nuestra colección de preguntas? ¿Le gustaría sugerir una característica específica que le gustaría ver en futuras actualizaciones? ¿Es diseñador y quisiera ayudarnos con el diseño?¡Estamos ansiosos por escucharlo!\n\nPuede enviarnos sus sugerencias , comentarios o interés de participar con la obra de sus manos, a través de esta sección, nuestro equipo de desarrollo revisará atentamente cada uno de sus mensajes y trabajará arduamente para implementar las mejoras para la Gloria del Señor.\n\nApreciamos sinceramente su tiempo y su dedicación para ayudarnos a mejorar. Gracias por ser parte de este proyecto y por compartir su entusiasmo con nosotros. Esperamos con ansias trabajar juntos para hacer de esta aplicación una experiencia excepcional.\n\nAtentamente,\n\nEl equipo de desarrollo de Armor of God`
+  String get suggestionContent {
+    return Intl.message(
+      'Manifestamos que el equipo de desarrollo de Armor of God, está interesado en que esta sea una herramienta no sólo de entretenimiento si no de ayuda y edificación espiritual, por esto en nuestro constante esfuerzo por brindarle la mejor experiencia posible, valoramos enormemente sus comentarios y sugerencias para mejorar nuestra aplicación. Nos encantaría contar con su participación y colaboración en este emocionante proceso de desarrollo. Su opinión es crucial para hacer de esta aplicación un éxito entre la comunidad de usuarios \n\nNos gustaría animarle a que comparta cualquier idea, sugerencia o información adicional que tenga, Y todo lo que hagáis, hacedlo de corazón, como para el Señor y no para los hombres; sabiendo que del Señor recibiréis la recompensa de la herencia, porque a Cristo el Señor servís. Colosenses 3:23-24. ¿Tiene alguna pregunta adicional o una nueva idea para agregar a nuestra colección de preguntas? ¿Le gustaría sugerir una característica específica que le gustaría ver en futuras actualizaciones? ¿Es diseñador y quisiera ayudarnos con el diseño?¡Estamos ansiosos por escucharlo!\n\nPuede enviarnos sus sugerencias , comentarios o interés de participar con la obra de sus manos, a través de esta sección, nuestro equipo de desarrollo revisará atentamente cada uno de sus mensajes y trabajará arduamente para implementar las mejoras para la Gloria del Señor.\n\nApreciamos sinceramente su tiempo y su dedicación para ayudarnos a mejorar. Gracias por ser parte de este proyecto y por compartir su entusiasmo con nosotros. Esperamos con ansias trabajar juntos para hacer de esta aplicación una experiencia excepcional.\n\nAtentamente,\n\nEl equipo de desarrollo de Armor of God',
+      name: 'suggestionContent',
       desc: '',
       args: [],
     );
@@ -270,10 +300,10 @@ class S {
     );
   }
 
-  /// `1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado para entretenimiento y diversión.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación.`
+  /// `1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado a la edificación.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación.`
   String get termsSubtitle1 {
     return Intl.message(
-      '1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado para entretenimiento y diversión.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación.',
+      '1.1. La Aplicación tiene como objetivo proporcionar un juego de preguntas y desbloqueo de piezas con su significado asociado a la edificación.\n1.2. Al utilizar la Aplicación, usted reconoce que es responsable de cualquier costo asociado con la conexión a Internet y los cargos de datos móviles que pueda incurrir al acceder y utilizar la Aplicación.',
       name: 'termsSubtitle1',
       desc: '',
       args: [],
@@ -2285,6 +2315,356 @@ class S {
     return Intl.message(
       'Lea del peor rey de Judá; semejante a un hijo de José',
       name: 'theClueFiveQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Quién fue el último rey de Judá?`
+  String get mainQuestionSixQPageOne {
+    return Intl.message(
+      '¿Quién fue el último rey de Judá?',
+      name: 'mainQuestionSixQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Manasés`
+  String get optionOneSixQPageOne {
+    return Intl.message(
+      'Manasés',
+      name: 'optionOneSixQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Sedequías`
+  String get optionTwoSixQPageOne {
+    return Intl.message(
+      'Sedequías',
+      name: 'optionTwoSixQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Josías`
+  String get optionThreeSixQPageOne {
+    return Intl.message(
+      'Josías',
+      name: 'optionThreeSixQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jeroboán`
+  String get optionFourSixQPageOne {
+    return Intl.message(
+      'Jeroboán',
+      name: 'optionFourSixQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ezequías`
+  String get optionFiveSixQPageOne {
+    return Intl.message(
+      'Ezequías',
+      name: 'optionFiveSixQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Debes revisar el último capítulo de 2 Reyes y 2 Crónicas para saberlo`
+  String get theClueSixQPageOne {
+    return Intl.message(
+      'Debes revisar el último capítulo de 2 Reyes y 2 Crónicas para saberlo',
+      name: 'theClueSixQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Quién fue el último rey de Israel?`
+  String get mainQuestionSixQPageTwo {
+    return Intl.message(
+      '¿Quién fue el último rey de Israel?',
+      name: 'mainQuestionSixQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Acab`
+  String get optionOneSixQPageTwo {
+    return Intl.message(
+      'Acab',
+      name: 'optionOneSixQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Oseas`
+  String get optionTwoSixQPageTwo {
+    return Intl.message(
+      'Oseas',
+      name: 'optionTwoSixQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Zacarías`
+  String get optionThreeSixQPageTwo {
+    return Intl.message(
+      'Zacarías',
+      name: 'optionThreeSixQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Amasías`
+  String get optionFourSixQPageTwo {
+    return Intl.message(
+      'Amasías',
+      name: 'optionFourSixQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Asá`
+  String get optionFiveSixQPageTwo {
+    return Intl.message(
+      'Asá',
+      name: 'optionFiveSixQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lee 2 Reyes 17:1-41 y allí lo encontrarás; el antiguo nombre de Josué hijo de Nun`
+  String get theClueSixQPageTwo {
+    return Intl.message(
+      'Lee 2 Reyes 17:1-41 y allí lo encontrarás; el antiguo nombre de Josué hijo de Nun',
+      name: 'theClueSixQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Qué rey fue responsable por la división del reino de Judá e Israel?`
+  String get mainQuestionSixQPageThree {
+    return Intl.message(
+      '¿Qué rey fue responsable por la división del reino de Judá e Israel?',
+      name: 'mainQuestionSixQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Acab`
+  String get optionOneSixQPageThree {
+    return Intl.message(
+      'Acab',
+      name: 'optionOneSixQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Josafat`
+  String get optionTwoSixQPageThree {
+    return Intl.message(
+      'Josafat',
+      name: 'optionTwoSixQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Salomón`
+  String get optionThreeSixQPageThree {
+    return Intl.message(
+      'Salomón',
+      name: 'optionThreeSixQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ezequías`
+  String get optionFourSixQPageThree {
+    return Intl.message(
+      'Ezequías',
+      name: 'optionFourSixQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Roboán`
+  String get optionFiveSixQPageThree {
+    return Intl.message(
+      'Roboán',
+      name: 'optionFiveSixQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lea 1 Reyes 12:1-33 y encuentre al culpable; a tus mayores, debes escuchar`
+  String get theClueSixQPageThree {
+    return Intl.message(
+      'Lea 1 Reyes 12:1-33 y encuentre al culpable; a tus mayores, debes escuchar',
+      name: 'theClueSixQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Qué error cometió Roboán que llevó a cabo la división del reino de Israel de Judá en 1 Reyes 12:1-33?`
+  String get mainQuestionSixQPageFour {
+    return Intl.message(
+      '¿Qué error cometió Roboán que llevó a cabo la división del reino de Israel de Judá en 1 Reyes 12:1-33?',
+      name: 'mainQuestionSixQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hizo dos becerros de oro y los colocó en Betel y Dan para que el pueblo de Israel los adorara`
+  String get optionOneSixQPageFour {
+    return Intl.message(
+      'Hizo dos becerros de oro y los colocó en Betel y Dan para que el pueblo de Israel los adorara',
+      name: 'optionOneSixQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Asignó sacerdotes de todo tipo de personas`
+  String get optionTwoSixQPageFour {
+    return Intl.message(
+      'Asignó sacerdotes de todo tipo de personas',
+      name: 'optionTwoSixQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No escuchó los consejos de los ancianos que querían que les sirviera y les diera una respuesta favorable`
+  String get optionThreeSixQPageFour {
+    return Intl.message(
+      'No escuchó los consejos de los ancianos que querían que les sirviera y les diera una respuesta favorable',
+      name: 'optionThreeSixQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Aligeró el trabajo de los subditos`
+  String get optionFourSixQPageFour {
+    return Intl.message(
+      'Aligeró el trabajo de los subditos',
+      name: 'optionFourSixQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Envió todo el ejército para recuperar el reino y hacer que el pueblo le sirviera`
+  String get optionFiveSixQPageFour {
+    return Intl.message(
+      'Envió todo el ejército para recuperar el reino y hacer que el pueblo le sirviera',
+      name: 'optionFiveSixQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lee en 1 Reyes 12:1-24; ¿De qué surge un reino sabio?`
+  String get theClueSixQPageFour {
+    return Intl.message(
+      'Lee en 1 Reyes 12:1-24; ¿De qué surge un reino sabio?',
+      name: 'theClueSixQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Qué pecado cometió Salomón, rey de Israel, que lo alejó del Señor?`
+  String get mainQuestionSixQPageFive {
+    return Intl.message(
+      '¿Qué pecado cometió Salomón, rey de Israel, que lo alejó del Señor?',
+      name: 'mainQuestionSixQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tenía demasiadas esposas y concubinas`
+  String get optionOneSixQPageFive {
+    return Intl.message(
+      'Tenía demasiadas esposas y concubinas',
+      name: 'optionOneSixQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Se casó con mujeres que no eran israelitas que lo llevaron a la apostasía`
+  String get optionTwoSixQPageFive {
+    return Intl.message(
+      'Se casó con mujeres que no eran israelitas que lo llevaron a la apostasía',
+      name: 'optionTwoSixQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Profanó el Templo del Señor con ídolos`
+  String get optionThreeSixQPageFive {
+    return Intl.message(
+      'Profanó el Templo del Señor con ídolos',
+      name: 'optionThreeSixQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Quemó incienso no autorizado`
+  String get optionFourSixQPageFive {
+    return Intl.message(
+      'Quemó incienso no autorizado',
+      name: 'optionFourSixQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Habló blasfemias y escribió herejías`
+  String get optionFiveSixQPageFive {
+    return Intl.message(
+      'Habló blasfemias y escribió herejías',
+      name: 'optionFiveSixQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Escuche a 1 Reyes 11:1-13; mantente separado`
+  String get theClueSixQPageFive {
+    return Intl.message(
+      'Escuche a 1 Reyes 11:1-13; mantente separado',
+      name: 'theClueSixQPageFive',
       desc: '',
       args: [],
     );
