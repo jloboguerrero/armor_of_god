@@ -53,6 +53,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "Can a lie have some power over reality?"),
         "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "What are the keywords that will make you be the seed that will produce a crop thirty, sixty, and even a hundred times what was sown, Matthew 13:1-23, Mark 4:1-20, Luke 8:1-15?"),
+        "mainQuestionFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "According to the Word of the Lord, which king kindled the Wrath of God to such an extent that it brought about the destruction of the kingdom of Judah and the exile of his people to Babylon?"),
+        "mainQuestionFiveQPageFour": MessageLookupByLibrary.simpleMessage(
+            "In which chapter of the Holy Scriptures does our Lord Jesus Christ declare all foods clean?"),
+        "mainQuestionFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Why did the Israelites have to sacrifice an animal in all their offerings and burnt offerings to the Lord?"),
+        "mainQuestionFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Why don\'t we sacrifice an animal for our sins today?"),
+        "mainQuestionFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "When the Israelites were sacrificing an animal for whatever sin they committed, what were they pointing to in the future?"),
+        "mainQuestionFourQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Where is the Ark of God mentioned for the last time in the history books of the people of Israel?"),
+        "mainQuestionFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Where does the Ark of the Covenant end according to the Word of God?"),
+        "mainQuestionFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "In which chapter of the Holy Scriptures does this prophecy come true, Numbers 24:17?"),
+        "mainQuestionFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Why are there two genealogies of our Lord Jesus Christ?"),
+        "mainQuestionFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "In which chapter of God\'s Word does this prophecy come true, 1 Kings 13:1-34?"),
         "mainQuestionSecondPageFive":
             MessageLookupByLibrary.simpleMessage("Why does evil exist?"),
         "mainQuestionSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -94,6 +114,26 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("No, Satan doesn\'t exist"),
         "optionFiveFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Pondering;\nMark: Hear the Word;\nLuke: Listening"),
+        "optionFiveFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "King Manasseh in 2 Kings 21:1-26"),
+        "optionFiveFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("Acts 1:1-26"),
+        "optionFiveFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "It is a ritual that you must perform to use that blood in your daily spells"),
+        "optionFiveFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Christ abolished it in the Old Testament"),
+        "optionFiveFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "It is a daily reminder of how God changed Saul\'s heart for Paul\'s, blinding him on his way to Damascus and revealing the New Testament to him"),
+        "optionFiveFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("Ezra 7:1-28"),
+        "optionFiveFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "The sole purpose of the Ark of God is to destroy the wall of Jericho in Joshua 5:13-6:27"),
+        "optionFiveFourQPageOne":
+            MessageLookupByLibrary.simpleMessage("None of the above"),
+        "optionFiveFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "One genealogy was translated from the Hebrew and the other from the Greek"),
+        "optionFiveFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "We note that it is fulfilled when King Josiah demolished the altar at Bethel in 2 Kings 23:1-37"),
         "optionFiveSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Because it has always existed"),
         "optionFiveSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -123,10 +163,30 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Yes, everything is a lie"),
         "optionFourFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Fishing;\nMark: Watering;\nLuke: Waiting"),
+        "optionFourFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "King Hezekiah in 2 Kings 18:1-19:37"),
+        "optionFourFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("Mark 7:1-23"),
+        "optionFourFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Because that animal took your place in the punishment of sins. The punishment for sin is death, but that animal died in your place"),
+        "optionFourFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Because Jesus Christ, being God, is the ultimate sacrifice for sins, since all sins are forgiven by His blood, no more animal sacrifices are needed"),
+        "optionFourFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "He was directing us to the Feast of Tabernacles where the Israelites lived in temporary shelters after Nehemiah finished rebuilding the wall of Jerusalem in Nehemiah 8:1-18"),
+        "optionFourFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("2 Chronicles 35:1-3"),
+        "optionFourFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "The Ark of God ended its journey in the tent that David raised for it in Jerusalem, we can see this in 2 Samuel 6:1-23 and 2 Samuel 7:1-29"),
+        "optionFourFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "He comes back to life when Joshua defeats the Amalekites in Exodus 17:1-16"),
+        "optionFourFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "There are two genealogies to prove that the Messiah was a descendant of King Solomon"),
+        "optionFourFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "According to 2 Kings 25:1-30, it is fulfilled when King Zedekiah surrenders to Nebuchadnezzar, king of Babylon"),
         "optionFourSecondPageFive":
             MessageLookupByLibrary.simpleMessage("All animals are evil"),
         "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
-            "Those chosen by Almighty God"),
+            "The elect and government by Almighty God"),
         "optionFourSecondPageOne": MessageLookupByLibrary.simpleMessage(
             "No, only Jesus Christ can rise from the dead"),
         "optionFourSecondPageThree": MessageLookupByLibrary.simpleMessage(
@@ -152,6 +212,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "Yes, a lie has control over the reality that we see"),
         "optionOneFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Understand;\nMark: Accept it;\nLuke: Persevering"),
+        "optionOneFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "King Rehoboam in 1 Kings 12:1-33"),
+        "optionOneFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("Matthew 17:1-27"),
+        "optionOneFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Because the Sovereign Lord eats that kind of meat"),
+        "optionOneFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Because we have evolved as human beings"),
+        "optionOneFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "They were pointing to the Passover, the reminder that God overlooked the firstborn of Israel and did not kill them as he did all the firstborn of Egypt"),
+        "optionOneFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("Nehemiah 5:1-19"),
+        "optionOneFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "According to 2 Samuel 6:1-23, it ends in the Obed-Edom house"),
+        "optionOneFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "It is fulfilled when Joash is proclaimed king of Israel in 2 Kings 11:1-21"),
+        "optionOneFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "There are two genealogies because there could be errors in the recording of the names in the genealogies"),
+        "optionOneFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "It comes true when Joseph is proclaimed second in command in Egypt in Genesis 41:1-57"),
         "optionOneSecondPageFive":
             MessageLookupByLibrary.simpleMessage("God created evil"),
         "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -181,6 +261,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "No, a lie cannot have control over reality nor can affect human beings"),
         "optionThreeFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Speaking;\nMark: Listening;\nLuke: Pondering"),
+        "optionThreeFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "King Uzziah in 2 Chronicles 26:1-23"),
+        "optionThreeFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("John 9:1-41"),
+        "optionThreeFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Because you have to eliminate all impure and sinful animals from your flock"),
+        "optionThreeFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "It is too expensive to buy an animal every time we sin against the Lord"),
+        "optionThreeFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "It was pointing to the last supper where instead of sacrificing an animal we drink wine and eat the bread of the Presence"),
+        "optionThreeFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("1 Chronicles 24:1-31"),
+        "optionThreeFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "The Ark of God ended up in Kiriath Yearin in the house of Abinadab in 1 Samuel 6:1-7:2"),
+        "optionThreeFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "It comes true when the Magi follow a star in Matthew 2:1-23."),
+        "optionThreeFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "They are actually the same genealogy"),
+        "optionThreeFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "It comes to life when the angel of the Lord slays one hundred eighty-five thousand men in the Assyrian camp of Sennacherib in 2 Kings 18:1-19:37"),
         "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Satan and his horde of demons are the only ones to blame when a man does evil"),
         "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -209,6 +309,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "Yes, but only if the man chooses to believe that lie"),
         "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Matthew: Seeding;\nMark: Sowing;\nLuke: Reaping"),
+        "optionTwoFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "King Ahab in 1 Kings 21:1-29"),
+        "optionTwoFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("Luke 16:1-31"),
+        "optionTwoFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Because He delights when you do this"),
+        "optionTwoFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "We have realized that the Lord does not eat those animals"),
+        "optionTwoFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "It pointed to the sacrifice that our Lord Jesus made on the cross, where he took the punishment for all sins and died in our place"),
+        "optionTwoFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("1 Kings 8:1-66"),
+        "optionTwoFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "It clearly says in 1 Kings 8:1-66 that the Ark of God ends in the Temple of the Lord in Jerusalem"),
+        "optionTwoFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "It comes true when Jehu kills Joran, Ahaziah, and the wicked woman Jezebel in 2 Kings 9:1-37."),
+        "optionTwoFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "One genealogy is for Joseph the father of Christ and the other for Mary his mother"),
+        "optionTwoFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "It comes true when King Jehoshaphat defeats Moab, Ammon, and the men of Mount Seir without firing an arrow in 2 Chronicles 20:1-37"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Evil exists because evil was found in an angelic creature"),
         "optionTwoSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -280,6 +400,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "Can you heal with a lie? How does satan do evil in the World?"),
         "theClueFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Compare Matthew 13:1-23, Mark 4:1-20, and Luke 8:1-15; greatness is seen in the little things"),
+        "theClueFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Read about the worst king of Judah; like a son of Joseph"),
+        "theClueFiveQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Don\'t be lazy and read or scan"),
+        "theClueFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Death for your sin is on order, but does he delight in an animal sacrifice?"),
+        "theClueFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Take a look at Hebrews 10:1-18; no more needed after this"),
+        "theClueFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Only God can cover everything"),
+        "theClueFourQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Read carefully and find your answer; to the place where kings rest"),
+        "theClueFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Trace the Ark of God in the Scriptures, incredible secrets are hidden there. Into the Presence of the Lord, the Ark must go"),
+        "theClueFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "If in doubt, read aloud; flames of fire marked the way to an endless reign"),
+        "theClueFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Review and compare Matthew 1:1-25 and Luke 3:1-38; David has the key yet to see"),
+        "theClueFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Read and ask yourself; a king who died in peace or in war for a woman prophet and the book of the law?"),
         "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Connect all the dots in the Bible and see the Truth; the people with whom you should associate"),
         "theClueSecondPageOne": MessageLookupByLibrary.simpleMessage(

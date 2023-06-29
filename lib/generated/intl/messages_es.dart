@@ -56,6 +56,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Puede una mentira tener algún poder sobre la realidad?"),
         "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "¿Cuáles son las palabras claves que te harán ser la semilla que producirá una cosecha de treinta, sesenta y hasta cien veces lo que se sembró, Mateo 13:1-23, Marcos 4:1-20, Lucas 8:1-15?"),
+        "mainQuestionFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Según la Palabra del Señor, ¿qué rey encendió la Ira de Dios a tal punto que trajo la destrucción del reino de Judá y el exilio de su pueblo a Babilonia?"),
+        "mainQuestionFiveQPageFour": MessageLookupByLibrary.simpleMessage(
+            "¿En qué capítulo de las Sagradas Escrituras nuestro Señor Jesucristo declara limpios todos los alimentos?"),
+        "mainQuestionFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "¿Por qué los israelitas tenían que sacrificar un animal en todas sus ofrendas y holocaustos al Señor?"),
+        "mainQuestionFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "¿Por qué hoy en día no sacrificamos un animal por nuestros pecados?"),
+        "mainQuestionFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Cuando los israelitas estaban sacrificando un animal por cualquier pecado que cometieran, ¿a qué estaban señalando en el futuro?"),
+        "mainQuestionFourQPageFive": MessageLookupByLibrary.simpleMessage(
+            "¿Dónde está el Arca de Dios mencionada por última vez en los libros de historia del pueblo de Israel?"),
+        "mainQuestionFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "¿A qué lugar termina el Arca del Pacto según la Palabra de Dios?"),
+        "mainQuestionFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "¿En qué capítulo de las Sagradas Escrituras se hace realidad esta profecía, Números 24:17?"),
+        "mainQuestionFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "¿Por qué existen dos genealogías de nuestro Señor Jesucristo?"),
+        "mainQuestionFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "¿En qué capítulo de la Palabra de Dios se hace realidad esta profecía, 1 Reyes 13:1-34?"),
         "mainQuestionSecondPageFive":
             MessageLookupByLibrary.simpleMessage("¿Por qué existe el mal?"),
         "mainQuestionSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -97,6 +117,26 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("No, Satanás no existe"),
         "optionFiveFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Mateo: Reflexionando;\nMarcos: Escuchar la Palabra;\nLucas: Meditar"),
+        "optionFiveFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Rey Manasés en 2 Reyes 21:1-26"),
+        "optionFiveFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("Hechos 1:1-26"),
+        "optionFiveFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Es un ritual que debes realizar para usar esa sangre en tus hechizos diarios"),
+        "optionFiveFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Cristo lo abolió en el Antiguo Testamento"),
+        "optionFiveFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Es un recordatorio diario de cómo Dios cambió el corazón de Saulo por el de Pablo, cegándolo en su camino a Damasco y revelándole el Nuevo Testamento"),
+        "optionFiveFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("Esdras 7:1-28"),
+        "optionFiveFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "El único propósito del Arca de Dios es destruir el muro de Jericó en Josué 5:13-6:27"),
+        "optionFiveFourQPageOne":
+            MessageLookupByLibrary.simpleMessage("Ninguna de las anteriores"),
+        "optionFiveFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Una genealogía fue traducida del hebreo y la otra del griego"),
+        "optionFiveFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Notamos que se cumple cuando el rey Josías demolió el altar en Betel en 2 Reyes 23:1-37"),
         "optionFiveSecondPageFive":
             MessageLookupByLibrary.simpleMessage("Porque siempre ha existido"),
         "optionFiveSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -126,10 +166,30 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Sí, todo es una mentira"),
         "optionFourFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Mateo: Pesca;\nMarcos: riego;\nLucas: Esperando"),
+        "optionFourFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Rey Ezequías en 2 Reyes 18:1-19:37"),
+        "optionFourFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("Marcos 7:1-23"),
+        "optionFourFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Porque ese animal tomaba tu lugar en el castigo de los pecados. El castigo por el pecado es la muerte, pero ese animal moría en tu lugar"),
+        "optionFourFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Porque Jesucristo, siendo Dios, es el último sacrificio por los pecados, ya que todos los pecados son perdonados por Su sangre, no se necesitan más sacrificios de animales"),
+        "optionFourFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Nos estaba dirigiendo a la fiesta de los tabernáculos donde los israelitas vivían en refugios temporales después de que Nehemías terminó la reconstrucción del muro de Jerusalén en Nehemías 8:1-18"),
+        "optionFourFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("2 Crónicas 35:1-3"),
+        "optionFourFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "El Arca de Dios terminó su viaje en la tienda que David levantó para ella en Jerusalén, esto lo podemos ver en 2 Samuel 6:1-23 y 2 Samuel 7:1-29"),
+        "optionFourFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Se vuelve a la vida cuando Josué derrota a los amalecitas en Éxodo 17:1-16"),
+        "optionFourFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Hay dos genealogías para probar que el Mesías era descendiente del rey Salomón"),
+        "optionFourFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Según 2 Reyes 25:1-30, se cumple cuando el rey Sedequías se rinde ante Nabucodonosor, rey de Babilonia"),
         "optionFourSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Todos los animales son malvados"),
         "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
-            "Los elegidos por el Dios Todopoderoso"),
+            "Los elegidos y gobierno por el Dios Todopoderoso"),
         "optionFourSecondPageOne": MessageLookupByLibrary.simpleMessage(
             "No, solo Jesucristo puede resucitar de entre los muertos"),
         "optionFourSecondPageThree": MessageLookupByLibrary.simpleMessage(
@@ -155,6 +215,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "Sí, una mentira tiene control sobre la realidad que vemos"),
         "optionOneFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Mateo: Entiende;\nMarcos: Aceptan;\nLucas: Perseveran"),
+        "optionOneFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Rey Roboam en 1 Reyes 12:1-33"),
+        "optionOneFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("Mateo 17:1-27"),
+        "optionOneFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Porque el Señor Soberano come ese tipo de carne"),
+        "optionOneFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Porque hemos evolucionado como seres humanos"),
+        "optionOneFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Estaban señalando a la Pascua, el recordatorio de que Dios pasó por alto a los primogénitos de Israel y no los mató como lo hizo con todos los primogénitos de Egipto"),
+        "optionOneFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("Nehemías 5:1-19"),
+        "optionOneFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Según 2 Samuel 6:1-23, termina en la casa Obed-Edom"),
+        "optionOneFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Se cumple cuando proclaman a Joás rey de Israel en 2 Reyes 11:1-21"),
+        "optionOneFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Hay dos genealogías porque podría haber errores en el registro de los nombres en las genealogías"),
+        "optionOneFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Se hace realidad cuando José es proclamado segundo al mando en Egipto en Génesis 41:1-57"),
         "optionOneSecondPageFive":
             MessageLookupByLibrary.simpleMessage("Dios creó el mal"),
         "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -183,6 +263,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "No, una mentira no puede tener control sobre la realidad ni puede afectar a los seres humanos"),
         "optionThreeFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Mateo: Hablando;\nMarcos: Escuchar;\nLucas: Reflexionando"),
+        "optionThreeFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Rey Uzías en 2 Crónicas 26:1-23"),
+        "optionThreeFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("Juan 9:1-41"),
+        "optionThreeFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Porque tenéis que eliminar todos los animales impuros y pecadores de vuestro rebaño"),
+        "optionThreeFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Es demasiado costoso comprar un animal cada vez que pecamos en contra del Señor"),
+        "optionThreeFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Estaba apuntando a la última cena donde en vez de sacrificar un animal bebemos vino y comemos el pan de la Presencia"),
+        "optionThreeFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("1 Crónicas 24:1-31"),
+        "optionThreeFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "El Arca de Dios terminó en Quiriat Yearín en la casa de Abinadab en 1 Samuel 6:1-7:2"),
+        "optionThreeFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Se vuelve realidad cuando los Reyes Magos siguen una estrella en Mateo 2:1-23"),
+        "optionThreeFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "En realidad, son la misma genealogía"),
+        "optionThreeFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Cobra vida cuando el ángel del Señor mató a ciento ochenta y cinco mil hombres en el campamento asirio de Senaquerib en 2 Reyes 18:1-19:37"),
         "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Satanás y su horda de demonios son los únicos culpables cuando un hombre hace el mal"),
         "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
@@ -211,6 +311,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "Sí, pero solo si el hombre decide creer esa mentira"),
         "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Mateo: Plantar;\nMarcos: Siembra;\nLucas: Cosechar"),
+        "optionTwoFiveQPageFive":
+            MessageLookupByLibrary.simpleMessage("Rey Acab en 1 Reyes 21:1-29"),
+        "optionTwoFiveQPageFour":
+            MessageLookupByLibrary.simpleMessage("Lucas 16:1-31"),
+        "optionTwoFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Porque Él se deleita cuando haces esto"),
+        "optionTwoFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Nos hemos dado cuenta de que el Señor no come esos animales"),
+        "optionTwoFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Señalaba el sacrificio que hizo nuestro Señor Jesús en la cruz, donde tomó el castigo por todos los pecados y murió en nuestro lugar"),
+        "optionTwoFourQPageFive":
+            MessageLookupByLibrary.simpleMessage("1 Reyes 8:1-66"),
+        "optionTwoFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Dice claramente en 1 Reyes 8:1-66 que el Arca de Dios termina en el Templo del Señor en Jerusalén"),
+        "optionTwoFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Se convierte en realidad cuando Jehú mató a Jorán, Ocozías y a la malvada mujer Jezabel en 2 Reyes 9:1-37"),
+        "optionTwoFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Una genealogía es para José el padre de Cristo y la otra para María su madre"),
+        "optionTwoFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Se convierte en realidad cuando el rey Josafat derrota a Moab, Amón y los hombres del monte Seir sin disparar una sola flecha en 2 Crónicas 20:1-37"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "El mal existe porque en una criatura angelical se halló el mal"),
         "optionTwoSecondPageFour":
@@ -283,6 +403,26 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Se puede curar con una mentira? ¿Cómo hace satanás el mal en el mundo?"),
         "theClueFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Compare Mateo 13:1-23, Marcos 4:1-20 y Lucas 8:1-15; la grandeza se ve en las cosas pequeñas"),
+        "theClueFiveQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Lea del peor rey de Judá; semejante a un hijo de José"),
+        "theClueFiveQPageFour": MessageLookupByLibrary.simpleMessage(
+            "No sea perezoso y lea o escanee"),
+        "theClueFiveQPageOne": MessageLookupByLibrary.simpleMessage(
+            "La muerte por tu pecado está a la orden, pero ¿acaso él se deleita en el sacrificio de un animal?"),
+        "theClueFiveQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Echa un vistazo a Hebreos 10:1-18; no se necesita más después de esto"),
+        "theClueFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Solo Dios puede cubrirlo todo"),
+        "theClueFourQPageFive": MessageLookupByLibrary.simpleMessage(
+            "Lea detenidamente y encuentre su respuesta; al lugar donde descansan los reyes"),
+        "theClueFourQPageFour": MessageLookupByLibrary.simpleMessage(
+            "Rastrea el Arca de Dios en las Escrituras, ahí se esconden secretos increíbles. A la Presencia del Señor, el Arca debe de ir"),
+        "theClueFourQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Si tiene dudas, lea en voz alta; llamas de fuego marcaron el camino a un reinado sin fin"),
+        "theClueFourQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Revisa y compara Mateo 1:1-25 y Lucas 3:1-38; David tiene la clave aún por ver"),
+        "theClueFourQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Lee y pregúntate; un rey que murió en paz o en guerra por una mujer profeta y el libro de la ley?"),
         "theClueSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "El Todopoderoso es santo, santo, santo, no nosotros"),
         "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(

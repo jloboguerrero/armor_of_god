@@ -1140,10 +1140,10 @@ class S {
     );
   }
 
-  /// `Los elegidos por el Dios Todopoderoso`
+  /// `Los elegidos y gobierno por el Dios Todopoderoso`
   String get optionFourSecondPageFour {
     return Intl.message(
-      'Los elegidos por el Dios Todopoderoso',
+      'Los elegidos y gobierno por el Dios Todopoderoso',
       name: 'optionFourSecondPageFour',
       desc: '',
       args: [],
@@ -1585,6 +1585,706 @@ class S {
     return Intl.message(
       'Investigue a través de la lectura; un rey envenenado por la lengua de una víbora',
       name: 'theClueThirdPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿En qué capítulo de las Sagradas Escrituras se hace realidad esta profecía, Números 24:17?`
+  String get mainQuestionFourQPageOne {
+    return Intl.message(
+      '¿En qué capítulo de las Sagradas Escrituras se hace realidad esta profecía, Números 24:17?',
+      name: 'mainQuestionFourQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Se cumple cuando proclaman a Joás rey de Israel en 2 Reyes 11:1-21`
+  String get optionOneFourQPageOne {
+    return Intl.message(
+      'Se cumple cuando proclaman a Joás rey de Israel en 2 Reyes 11:1-21',
+      name: 'optionOneFourQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Se convierte en realidad cuando Jehú mató a Jorán, Ocozías y a la malvada mujer Jezabel en 2 Reyes 9:1-37`
+  String get optionTwoFourQPageOne {
+    return Intl.message(
+      'Se convierte en realidad cuando Jehú mató a Jorán, Ocozías y a la malvada mujer Jezabel en 2 Reyes 9:1-37',
+      name: 'optionTwoFourQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Se vuelve realidad cuando los Reyes Magos siguen una estrella en Mateo 2:1-23`
+  String get optionThreeFourQPageOne {
+    return Intl.message(
+      'Se vuelve realidad cuando los Reyes Magos siguen una estrella en Mateo 2:1-23',
+      name: 'optionThreeFourQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Se vuelve a la vida cuando Josué derrota a los amalecitas en Éxodo 17:1-16`
+  String get optionFourFourQPageOne {
+    return Intl.message(
+      'Se vuelve a la vida cuando Josué derrota a los amalecitas en Éxodo 17:1-16',
+      name: 'optionFourFourQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ninguna de las anteriores`
+  String get optionFiveFourQPageOne {
+    return Intl.message(
+      'Ninguna de las anteriores',
+      name: 'optionFiveFourQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si tiene dudas, lea en voz alta; llamas de fuego marcaron el camino a un reinado sin fin`
+  String get theClueFourQPageOne {
+    return Intl.message(
+      'Si tiene dudas, lea en voz alta; llamas de fuego marcaron el camino a un reinado sin fin',
+      name: 'theClueFourQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿En qué capítulo de la Palabra de Dios se hace realidad esta profecía, 1 Reyes 13:1-34?`
+  String get mainQuestionFourQPageTwo {
+    return Intl.message(
+      '¿En qué capítulo de la Palabra de Dios se hace realidad esta profecía, 1 Reyes 13:1-34?',
+      name: 'mainQuestionFourQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Se hace realidad cuando José es proclamado segundo al mando en Egipto en Génesis 41:1-57`
+  String get optionOneFourQPageTwo {
+    return Intl.message(
+      'Se hace realidad cuando José es proclamado segundo al mando en Egipto en Génesis 41:1-57',
+      name: 'optionOneFourQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Se convierte en realidad cuando el rey Josafat derrota a Moab, Amón y los hombres del monte Seir sin disparar una sola flecha en 2 Crónicas 20:1-37`
+  String get optionTwoFourQPageTwo {
+    return Intl.message(
+      'Se convierte en realidad cuando el rey Josafat derrota a Moab, Amón y los hombres del monte Seir sin disparar una sola flecha en 2 Crónicas 20:1-37',
+      name: 'optionTwoFourQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cobra vida cuando el ángel del Señor mató a ciento ochenta y cinco mil hombres en el campamento asirio de Senaquerib en 2 Reyes 18:1-19:37`
+  String get optionThreeFourQPageTwo {
+    return Intl.message(
+      'Cobra vida cuando el ángel del Señor mató a ciento ochenta y cinco mil hombres en el campamento asirio de Senaquerib en 2 Reyes 18:1-19:37',
+      name: 'optionThreeFourQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Según 2 Reyes 25:1-30, se cumple cuando el rey Sedequías se rinde ante Nabucodonosor, rey de Babilonia`
+  String get optionFourFourQPageTwo {
+    return Intl.message(
+      'Según 2 Reyes 25:1-30, se cumple cuando el rey Sedequías se rinde ante Nabucodonosor, rey de Babilonia',
+      name: 'optionFourFourQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Notamos que se cumple cuando el rey Josías demolió el altar en Betel en 2 Reyes 23:1-37`
+  String get optionFiveFourQPageTwo {
+    return Intl.message(
+      'Notamos que se cumple cuando el rey Josías demolió el altar en Betel en 2 Reyes 23:1-37',
+      name: 'optionFiveFourQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lee y pregúntate; un rey que murió en paz o en guerra por una mujer profeta y el libro de la ley?`
+  String get theClueFourQPageTwo {
+    return Intl.message(
+      'Lee y pregúntate; un rey que murió en paz o en guerra por una mujer profeta y el libro de la ley?',
+      name: 'theClueFourQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Por qué existen dos genealogías de nuestro Señor Jesucristo?`
+  String get mainQuestionFourQPageThree {
+    return Intl.message(
+      '¿Por qué existen dos genealogías de nuestro Señor Jesucristo?',
+      name: 'mainQuestionFourQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hay dos genealogías porque podría haber errores en el registro de los nombres en las genealogías`
+  String get optionOneFourQPageThree {
+    return Intl.message(
+      'Hay dos genealogías porque podría haber errores en el registro de los nombres en las genealogías',
+      name: 'optionOneFourQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Una genealogía es para José el padre de Cristo y la otra para María su madre`
+  String get optionTwoFourQPageThree {
+    return Intl.message(
+      'Una genealogía es para José el padre de Cristo y la otra para María su madre',
+      name: 'optionTwoFourQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En realidad, son la misma genealogía`
+  String get optionThreeFourQPageThree {
+    return Intl.message(
+      'En realidad, son la misma genealogía',
+      name: 'optionThreeFourQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hay dos genealogías para probar que el Mesías era descendiente del rey Salomón`
+  String get optionFourFourQPageThree {
+    return Intl.message(
+      'Hay dos genealogías para probar que el Mesías era descendiente del rey Salomón',
+      name: 'optionFourFourQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Una genealogía fue traducida del hebreo y la otra del griego`
+  String get optionFiveFourQPageThree {
+    return Intl.message(
+      'Una genealogía fue traducida del hebreo y la otra del griego',
+      name: 'optionFiveFourQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Revisa y compara Mateo 1:1-25 y Lucas 3:1-38; David tiene la clave aún por ver`
+  String get theClueFourQPageThree {
+    return Intl.message(
+      'Revisa y compara Mateo 1:1-25 y Lucas 3:1-38; David tiene la clave aún por ver',
+      name: 'theClueFourQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿A qué lugar termina el Arca del Pacto según la Palabra de Dios?`
+  String get mainQuestionFourQPageFour {
+    return Intl.message(
+      '¿A qué lugar termina el Arca del Pacto según la Palabra de Dios?',
+      name: 'mainQuestionFourQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Según 2 Samuel 6:1-23, termina en la casa Obed-Edom`
+  String get optionOneFourQPageFour {
+    return Intl.message(
+      'Según 2 Samuel 6:1-23, termina en la casa Obed-Edom',
+      name: 'optionOneFourQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Dice claramente en 1 Reyes 8:1-66 que el Arca de Dios termina en el Templo del Señor en Jerusalén`
+  String get optionTwoFourQPageFour {
+    return Intl.message(
+      'Dice claramente en 1 Reyes 8:1-66 que el Arca de Dios termina en el Templo del Señor en Jerusalén',
+      name: 'optionTwoFourQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El Arca de Dios terminó en Quiriat Yearín en la casa de Abinadab en 1 Samuel 6:1-7:2`
+  String get optionThreeFourQPageFour {
+    return Intl.message(
+      'El Arca de Dios terminó en Quiriat Yearín en la casa de Abinadab en 1 Samuel 6:1-7:2',
+      name: 'optionThreeFourQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El Arca de Dios terminó su viaje en la tienda que David levantó para ella en Jerusalén, esto lo podemos ver en 2 Samuel 6:1-23 y 2 Samuel 7:1-29`
+  String get optionFourFourQPageFour {
+    return Intl.message(
+      'El Arca de Dios terminó su viaje en la tienda que David levantó para ella en Jerusalén, esto lo podemos ver en 2 Samuel 6:1-23 y 2 Samuel 7:1-29',
+      name: 'optionFourFourQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El único propósito del Arca de Dios es destruir el muro de Jericó en Josué 5:13-6:27`
+  String get optionFiveFourQPageFour {
+    return Intl.message(
+      'El único propósito del Arca de Dios es destruir el muro de Jericó en Josué 5:13-6:27',
+      name: 'optionFiveFourQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rastrea el Arca de Dios en las Escrituras, ahí se esconden secretos increíbles. A la Presencia del Señor, el Arca debe de ir`
+  String get theClueFourQPageFour {
+    return Intl.message(
+      'Rastrea el Arca de Dios en las Escrituras, ahí se esconden secretos increíbles. A la Presencia del Señor, el Arca debe de ir',
+      name: 'theClueFourQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Dónde está el Arca de Dios mencionada por última vez en los libros de historia del pueblo de Israel?`
+  String get mainQuestionFourQPageFive {
+    return Intl.message(
+      '¿Dónde está el Arca de Dios mencionada por última vez en los libros de historia del pueblo de Israel?',
+      name: 'mainQuestionFourQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nehemías 5:1-19`
+  String get optionOneFourQPageFive {
+    return Intl.message(
+      'Nehemías 5:1-19',
+      name: 'optionOneFourQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Reyes 8:1-66`
+  String get optionTwoFourQPageFive {
+    return Intl.message(
+      '1 Reyes 8:1-66',
+      name: 'optionTwoFourQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Crónicas 24:1-31`
+  String get optionThreeFourQPageFive {
+    return Intl.message(
+      '1 Crónicas 24:1-31',
+      name: 'optionThreeFourQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Crónicas 35:1-3`
+  String get optionFourFourQPageFive {
+    return Intl.message(
+      '2 Crónicas 35:1-3',
+      name: 'optionFourFourQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Esdras 7:1-28`
+  String get optionFiveFourQPageFive {
+    return Intl.message(
+      'Esdras 7:1-28',
+      name: 'optionFiveFourQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lea detenidamente y encuentre su respuesta; al lugar donde descansan los reyes`
+  String get theClueFourQPageFive {
+    return Intl.message(
+      'Lea detenidamente y encuentre su respuesta; al lugar donde descansan los reyes',
+      name: 'theClueFourQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Por qué los israelitas tenían que sacrificar un animal en todas sus ofrendas y holocaustos al Señor?`
+  String get mainQuestionFiveQPageOne {
+    return Intl.message(
+      '¿Por qué los israelitas tenían que sacrificar un animal en todas sus ofrendas y holocaustos al Señor?',
+      name: 'mainQuestionFiveQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque el Señor Soberano come ese tipo de carne`
+  String get optionOneFiveQPageOne {
+    return Intl.message(
+      'Porque el Señor Soberano come ese tipo de carne',
+      name: 'optionOneFiveQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque Él se deleita cuando haces esto`
+  String get optionTwoFiveQPageOne {
+    return Intl.message(
+      'Porque Él se deleita cuando haces esto',
+      name: 'optionTwoFiveQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque tenéis que eliminar todos los animales impuros y pecadores de vuestro rebaño`
+  String get optionThreeFiveQPageOne {
+    return Intl.message(
+      'Porque tenéis que eliminar todos los animales impuros y pecadores de vuestro rebaño',
+      name: 'optionThreeFiveQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque ese animal tomaba tu lugar en el castigo de los pecados. El castigo por el pecado es la muerte, pero ese animal moría en tu lugar`
+  String get optionFourFiveQPageOne {
+    return Intl.message(
+      'Porque ese animal tomaba tu lugar en el castigo de los pecados. El castigo por el pecado es la muerte, pero ese animal moría en tu lugar',
+      name: 'optionFourFiveQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Es un ritual que debes realizar para usar esa sangre en tus hechizos diarios`
+  String get optionFiveFiveQPageOne {
+    return Intl.message(
+      'Es un ritual que debes realizar para usar esa sangre en tus hechizos diarios',
+      name: 'optionFiveFiveQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La muerte por tu pecado está a la orden, pero ¿acaso él se deleita en el sacrificio de un animal?`
+  String get theClueFiveQPageOne {
+    return Intl.message(
+      'La muerte por tu pecado está a la orden, pero ¿acaso él se deleita en el sacrificio de un animal?',
+      name: 'theClueFiveQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cuando los israelitas estaban sacrificando un animal por cualquier pecado que cometieran, ¿a qué estaban señalando en el futuro?`
+  String get mainQuestionFiveQPageTwo {
+    return Intl.message(
+      'Cuando los israelitas estaban sacrificando un animal por cualquier pecado que cometieran, ¿a qué estaban señalando en el futuro?',
+      name: 'mainQuestionFiveQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Estaban señalando a la Pascua, el recordatorio de que Dios pasó por alto a los primogénitos de Israel y no los mató como lo hizo con todos los primogénitos de Egipto`
+  String get optionOneFiveQPageTwo {
+    return Intl.message(
+      'Estaban señalando a la Pascua, el recordatorio de que Dios pasó por alto a los primogénitos de Israel y no los mató como lo hizo con todos los primogénitos de Egipto',
+      name: 'optionOneFiveQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Señalaba el sacrificio que hizo nuestro Señor Jesús en la cruz, donde tomó el castigo por todos los pecados y murió en nuestro lugar`
+  String get optionTwoFiveQPageTwo {
+    return Intl.message(
+      'Señalaba el sacrificio que hizo nuestro Señor Jesús en la cruz, donde tomó el castigo por todos los pecados y murió en nuestro lugar',
+      name: 'optionTwoFiveQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Estaba apuntando a la última cena donde en vez de sacrificar un animal bebemos vino y comemos el pan de la Presencia`
+  String get optionThreeFiveQPageTwo {
+    return Intl.message(
+      'Estaba apuntando a la última cena donde en vez de sacrificar un animal bebemos vino y comemos el pan de la Presencia',
+      name: 'optionThreeFiveQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nos estaba dirigiendo a la fiesta de los tabernáculos donde los israelitas vivían en refugios temporales después de que Nehemías terminó la reconstrucción del muro de Jerusalén en Nehemías 8:1-18`
+  String get optionFourFiveQPageTwo {
+    return Intl.message(
+      'Nos estaba dirigiendo a la fiesta de los tabernáculos donde los israelitas vivían en refugios temporales después de que Nehemías terminó la reconstrucción del muro de Jerusalén en Nehemías 8:1-18',
+      name: 'optionFourFiveQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Es un recordatorio diario de cómo Dios cambió el corazón de Saulo por el de Pablo, cegándolo en su camino a Damasco y revelándole el Nuevo Testamento`
+  String get optionFiveFiveQPageTwo {
+    return Intl.message(
+      'Es un recordatorio diario de cómo Dios cambió el corazón de Saulo por el de Pablo, cegándolo en su camino a Damasco y revelándole el Nuevo Testamento',
+      name: 'optionFiveFiveQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Solo Dios puede cubrirlo todo`
+  String get theClueFiveQPageTwo {
+    return Intl.message(
+      'Solo Dios puede cubrirlo todo',
+      name: 'theClueFiveQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Por qué hoy en día no sacrificamos un animal por nuestros pecados?`
+  String get mainQuestionFiveQPageThree {
+    return Intl.message(
+      '¿Por qué hoy en día no sacrificamos un animal por nuestros pecados?',
+      name: 'mainQuestionFiveQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque hemos evolucionado como seres humanos`
+  String get optionOneFiveQPageThree {
+    return Intl.message(
+      'Porque hemos evolucionado como seres humanos',
+      name: 'optionOneFiveQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Nos hemos dado cuenta de que el Señor no come esos animales`
+  String get optionTwoFiveQPageThree {
+    return Intl.message(
+      'Nos hemos dado cuenta de que el Señor no come esos animales',
+      name: 'optionTwoFiveQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Es demasiado costoso comprar un animal cada vez que pecamos en contra del Señor`
+  String get optionThreeFiveQPageThree {
+    return Intl.message(
+      'Es demasiado costoso comprar un animal cada vez que pecamos en contra del Señor',
+      name: 'optionThreeFiveQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Porque Jesucristo, siendo Dios, es el último sacrificio por los pecados, ya que todos los pecados son perdonados por Su sangre, no se necesitan más sacrificios de animales`
+  String get optionFourFiveQPageThree {
+    return Intl.message(
+      'Porque Jesucristo, siendo Dios, es el último sacrificio por los pecados, ya que todos los pecados son perdonados por Su sangre, no se necesitan más sacrificios de animales',
+      name: 'optionFourFiveQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cristo lo abolió en el Antiguo Testamento`
+  String get optionFiveFiveQPageThree {
+    return Intl.message(
+      'Cristo lo abolió en el Antiguo Testamento',
+      name: 'optionFiveFiveQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Echa un vistazo a Hebreos 10:1-18; no se necesita más después de esto`
+  String get theClueFiveQPageThree {
+    return Intl.message(
+      'Echa un vistazo a Hebreos 10:1-18; no se necesita más después de esto',
+      name: 'theClueFiveQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿En qué capítulo de las Sagradas Escrituras nuestro Señor Jesucristo declara limpios todos los alimentos?`
+  String get mainQuestionFiveQPageFour {
+    return Intl.message(
+      '¿En qué capítulo de las Sagradas Escrituras nuestro Señor Jesucristo declara limpios todos los alimentos?',
+      name: 'mainQuestionFiveQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mateo 17:1-27`
+  String get optionOneFiveQPageFour {
+    return Intl.message(
+      'Mateo 17:1-27',
+      name: 'optionOneFiveQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lucas 16:1-31`
+  String get optionTwoFiveQPageFour {
+    return Intl.message(
+      'Lucas 16:1-31',
+      name: 'optionTwoFiveQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Juan 9:1-41`
+  String get optionThreeFiveQPageFour {
+    return Intl.message(
+      'Juan 9:1-41',
+      name: 'optionThreeFiveQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Marcos 7:1-23`
+  String get optionFourFiveQPageFour {
+    return Intl.message(
+      'Marcos 7:1-23',
+      name: 'optionFourFiveQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hechos 1:1-26`
+  String get optionFiveFiveQPageFour {
+    return Intl.message(
+      'Hechos 1:1-26',
+      name: 'optionFiveFiveQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No sea perezoso y lea o escanee`
+  String get theClueFiveQPageFour {
+    return Intl.message(
+      'No sea perezoso y lea o escanee',
+      name: 'theClueFiveQPageFour',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Según la Palabra del Señor, ¿qué rey encendió la Ira de Dios a tal punto que trajo la destrucción del reino de Judá y el exilio de su pueblo a Babilonia?`
+  String get mainQuestionFiveQPageFive {
+    return Intl.message(
+      'Según la Palabra del Señor, ¿qué rey encendió la Ira de Dios a tal punto que trajo la destrucción del reino de Judá y el exilio de su pueblo a Babilonia?',
+      name: 'mainQuestionFiveQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rey Roboam en 1 Reyes 12:1-33`
+  String get optionOneFiveQPageFive {
+    return Intl.message(
+      'Rey Roboam en 1 Reyes 12:1-33',
+      name: 'optionOneFiveQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rey Acab en 1 Reyes 21:1-29`
+  String get optionTwoFiveQPageFive {
+    return Intl.message(
+      'Rey Acab en 1 Reyes 21:1-29',
+      name: 'optionTwoFiveQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rey Uzías en 2 Crónicas 26:1-23`
+  String get optionThreeFiveQPageFive {
+    return Intl.message(
+      'Rey Uzías en 2 Crónicas 26:1-23',
+      name: 'optionThreeFiveQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rey Ezequías en 2 Reyes 18:1-19:37`
+  String get optionFourFiveQPageFive {
+    return Intl.message(
+      'Rey Ezequías en 2 Reyes 18:1-19:37',
+      name: 'optionFourFiveQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Rey Manasés en 2 Reyes 21:1-26`
+  String get optionFiveFiveQPageFive {
+    return Intl.message(
+      'Rey Manasés en 2 Reyes 21:1-26',
+      name: 'optionFiveFiveQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lea del peor rey de Judá; semejante a un hijo de José`
+  String get theClueFiveQPageFive {
+    return Intl.message(
+      'Lea del peor rey de Judá; semejante a un hijo de José',
+      name: 'theClueFiveQPageFive',
       desc: '',
       args: [],
     );
