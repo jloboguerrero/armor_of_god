@@ -190,6 +190,186 @@ class S {
     );
   }
 
+  /// `Otros animales se mueven hacia adelante pero la serpiente se desplaza de lado retorciendo el cuerpo. Al arrastrarse puede cambiar rápidamente su rumbo y no se sabe hacia donde va. El enemigo se mueve de forma parecida en donde no se sabe por donde va atacar ni cuando. `
+  String get stones1 {
+    return Intl.message(
+      'Otros animales se mueven hacia adelante pero la serpiente se desplaza de lado retorciendo el cuerpo. Al arrastrarse puede cambiar rápidamente su rumbo y no se sabe hacia donde va. El enemigo se mueve de forma parecida en donde no se sabe por donde va atacar ni cuando. ',
+      name: 'stones1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Apocalipsis 12:9, 1 Pedro 5:8`
+  String get stones1Vers1 {
+    return Intl.message(
+      'Apocalipsis 12:9, 1 Pedro 5:8',
+      name: 'stones1Vers1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Apocalipsis 12:9\n9 Y fue lanzado fuera el gran dragón, la serpiente antigua, que se llama diablo y Satanás, el cual engaña al mundo entero; fue arrojado a la tierra, y sus ángeles fueron arrojados con él.\n\n1 Pedro 5:8\n8 Sed sobrios, y velad; porque vuestro adversario el diablo, como león rugiente, anda alrededor buscando a quien devorar;`
+  String get stones1Vers2 {
+    return Intl.message(
+      'Apocalipsis 12:9\n9 Y fue lanzado fuera el gran dragón, la serpiente antigua, que se llama diablo y Satanás, el cual engaña al mundo entero; fue arrojado a la tierra, y sus ángeles fueron arrojados con él.\n\n1 Pedro 5:8\n8 Sed sobrios, y velad; porque vuestro adversario el diablo, como león rugiente, anda alrededor buscando a quien devorar;',
+      name: 'stones1Vers2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si no queremos ceder al pecado hay que cuidar no pasar por delante ni sentarnos a la puerta de ocasión, no mires la tentación con un ojo vago si no quieres verte en vuelto en ella, ni dejes que tu mente se detenga en aquello que no quieres que entre tu corazón. `
+  String get stones2 {
+    return Intl.message(
+      'Si no queremos ceder al pecado hay que cuidar no pasar por delante ni sentarnos a la puerta de ocasión, no mires la tentación con un ojo vago si no quieres verte en vuelto en ella, ni dejes que tu mente se detenga en aquello que no quieres que entre tu corazón. ',
+      name: 'stones2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Proverbios 4:23`
+  String get stones2Vers1 {
+    return Intl.message(
+      'Proverbios 4:23',
+      name: 'stones2Vers1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Proverbios 4:23\n23 Sobre toda cosa guardada, guarda tu corazón; Porque de él mana la vida.`
+  String get stones2Vers2 {
+    return Intl.message(
+      'Proverbios 4:23\n23 Sobre toda cosa guardada, guarda tu corazón; Porque de él mana la vida.',
+      name: 'stones2Vers2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1. Pide el consejo de Dios. El Señor está dispuesto a revelar a sus santos todo lo que necesita saber en esta vida.`
+  String get stones3 {
+    return Intl.message(
+      '1. Pide el consejo de Dios. El Señor está dispuesto a revelar a sus santos todo lo que necesita saber en esta vida.',
+      name: 'stones3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Amos 3:7-8`
+  String get stones3Vers1 {
+    return Intl.message(
+      'Amos 3:7-8',
+      name: 'stones3Vers1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Amos 3:7-8\n7 Porque no hará nada Jehová el Señor, sin que revele su secreto a sus siervos los profetas. 8 Si el león ruge, ¿quién no temerá? Si habla Jehová el Señor, ¿quién no profetizará?`
+  String get stones3Vers2 {
+    return Intl.message(
+      'Amos 3:7-8\n7 Porque no hará nada Jehová el Señor, sin que revele su secreto a sus siervos los profetas. 8 Si el león ruge, ¿quién no temerá? Si habla Jehová el Señor, ¿quién no profetizará?',
+      name: 'stones3Vers2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2. Conoce tu corazón. `
+  String get stones3_2 {
+    return Intl.message(
+      '2. Conoce tu corazón. ',
+      name: 'stones3_2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jeremías 17:9-10`
+  String get stones3Vers1_2 {
+    return Intl.message(
+      'Jeremías 17:9-10',
+      name: 'stones3Vers1_2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jeremías 17:9-10\n9 Engañoso es el corazón más que todas las cosas, y perverso; ¿quién lo conocerá? 10 Yo Jehová, que escudriño la mente, que pruebo el corazón, para dar a cada uno según su camino, según el fruto de sus obras.`
+  String get stones3Vers2_2 {
+    return Intl.message(
+      'Jeremías 17:9-10\n9 Engañoso es el corazón más que todas las cosas, y perverso; ¿quién lo conocerá? 10 Yo Jehová, que escudriño la mente, que pruebo el corazón, para dar a cada uno según su camino, según el fruto de sus obras.',
+      name: 'stones3Vers2_2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `3. Lee la palabra del Señor con atención ella te muestra los ataques que vamos a tener como creyentes. `
+  String get stones3_3 {
+    return Intl.message(
+      '3. Lee la palabra del Señor con atención ella te muestra los ataques que vamos a tener como creyentes. ',
+      name: 'stones3_3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Timoteo 3:16`
+  String get stones3Vers1_3 {
+    return Intl.message(
+      '2 Timoteo 3:16',
+      name: 'stones3Vers1_3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Timoteo 3:16\n16 Toda la Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia,`
+  String get stones3Vers2_3 {
+    return Intl.message(
+      '2 Timoteo 3:16\n16 Toda la Escritura es inspirada por Dios, y útil para enseñar, para redargüir, para corregir, para instruir en justicia,',
+      name: 'stones3Vers2_3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tu vida moral puede ser impecable, pero si no adoras a Dios eres ateo.\n\nSi adoras a Dios devotamente pero no segun la Biblia eres un idólatra.\n\nSi sigues la letra pero no el Espíritu del evangelio eres un hipócrita.\n\n\nLa única adoración verdadera es a través del Espíritu de Dios, en Espíritu y en verdad! `
+  String get stones4 {
+    return Intl.message(
+      'Tu vida moral puede ser impecable, pero si no adoras a Dios eres ateo.\n\nSi adoras a Dios devotamente pero no segun la Biblia eres un idólatra.\n\nSi sigues la letra pero no el Espíritu del evangelio eres un hipócrita.\n\n\nLa única adoración verdadera es a través del Espíritu de Dios, en Espíritu y en verdad! ',
+      name: 'stones4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Corintios 1:30`
+  String get stones4Vers1 {
+    return Intl.message(
+      '1 Corintios 1:30',
+      name: 'stones4Vers1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Corintios 1:30\n30 Mas por él estáis vosotros en Cristo Jesús, el cual nos ha sido hecho por Dios sabiduría, justificación, santificación y redención;`
+  String get stones4Vers2 {
+    return Intl.message(
+      '1 Corintios 1:30\n30 Mas por él estáis vosotros en Cristo Jesús, el cual nos ha sido hecho por Dios sabiduría, justificación, santificación y redención;',
+      name: 'stones4Vers2',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Ejemplo Práctico`
   String get examplePractice {
     return Intl.message(

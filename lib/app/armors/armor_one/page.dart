@@ -1,5 +1,6 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:armor_of_god/config/preferences.dart';
+import 'package:armor_of_god/utils/common.dart';
 import 'package:armor_of_god/widgets/dialog_answer.dart';
 import 'package:armor_of_god/widgets/dialog_stones.dart';
 import 'package:flutter/material.dart';
@@ -68,21 +69,52 @@ class Page extends StatelessWidget {
                     child: GestureDetector(
                       onTap: armorCheck.armors!.armor_1
                           ? () {
+                              bool firstTime = false;
                               if (!armorCheck.stones!.stones_1) {
                                 final prefs = Modular.get<Preferences>();
                                 prefs.stoneOne = true;
                                 armorCheck.init(prefs: prefs);
+                                firstTime = true;
                               }
                               showDialog(
                                 context: context,
-                                builder: (context) => const DialogStones(
-                                  color: Color.fromARGB(255, 165, 80, 48),
+                                builder: (context) => DialogStones(
+                                  color: const Color.fromARGB(255, 165, 80, 48),
                                   image: 'assets/stones/diamond_gold.png',
-                                  stone: 'Piedra diamante',
-                                  stoneContent:
-                                      'Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d',
+                                  stoneContent: RichText(
+                                    textAlign: TextAlign.justify,
+                                    text: TextSpan(
+                                      children: [
+                                        TextSpan(
+                                          text: S.current.stones1,
+                                          style: const TextStyle(
+                                            color:
+                                                Color.fromARGB(255, 31, 31, 31),
+                                            fontSize: 14,
+                                            fontWeight: FontWeight.w400,
+                                          ),
+                                        ),
+                                        CommonUtils.widgetSpan(
+                                          textInside: S.current.stones1Vers2,
+                                          textOutside: S.current.stones1Vers1,
+                                        ),
+                                      ],
+                                    ),
+                                  ),
                                 ),
-                              );
+                              ).then((value) {
+                                if (firstTime) {
+                                  firstTime = false;
+                                  Modular.to.popUntil(ModalRoute.withName('/'));
+                                  Modular.to.pushNamed(
+                                    '/armors/',
+                                    arguments: {
+                                      'initial_page': 0,
+                                    },
+                                  );
+                                }
+                                return null;
+                              });
                             }
                           : () {},
                       child: Swing(
@@ -284,35 +316,66 @@ class Page extends StatelessWidget {
                     ],
                   ),
                   Opacity(
-                    opacity: armorCheck.armors!.armor_5 ? 1 : 0,
+                    opacity: armorCheck.armors!.armor_6 ? 1 : 0,
                     child: GestureDetector(
-                      onTap: armorCheck.armors!.armor_5
+                      onTap: armorCheck.armors!.armor_6
                           ? () {
-                              if (!armorCheck.stones!.stones_2) {
+                              bool firstTime = false;
+                              if (!armorCheck.stones!.stones_4) {
                                 final prefs = Modular.get<Preferences>();
-                                prefs.stoneTwo = true;
+                                prefs.stoneFour = true;
                                 armorCheck.init(prefs: prefs);
+                                firstTime = true;
                               }
                               showDialog(
                                 context: context,
-                                builder: (context) => const DialogStones(
-                                  color: Color.fromARGB(255, 165, 80, 48),
-                                  image: 'assets/stones/diamond_gold.png',
-                                  stone: 'Piedra diamante',
-                                  stoneContent:
-                                      'Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d',
+                                builder: (context) => DialogStones(
+                                  color: const Color.fromARGB(255, 165, 80, 48),
+                                  image: 'assets/stones/diamond_pink.png',
+                                  stoneContent: RichText(
+                                    textAlign: TextAlign.justify,
+                                    text: TextSpan(
+                                      children: [
+                                        TextSpan(
+                                          text: S.current.stones4,
+                                          style: const TextStyle(
+                                            color:
+                                                Color.fromARGB(255, 31, 31, 31),
+                                            fontSize: 14,
+                                            fontWeight: FontWeight.w400,
+                                          ),
+                                        ),
+                                        CommonUtils.widgetSpan(
+                                          textInside: S.current.stones4Vers2,
+                                          textOutside: S.current.stones4Vers1,
+                                        ),
+                                      ],
+                                    ),
+                                  ),
                                 ),
-                              );
+                              ).then((value) {
+                                if (firstTime) {
+                                  firstTime = false;
+                                  Modular.to.popUntil(ModalRoute.withName('/'));
+                                  Modular.to.pushNamed(
+                                    '/armors/',
+                                    arguments: {
+                                      'initial_page': 0,
+                                    },
+                                  );
+                                }
+                                return null;
+                              });
                             }
                           : () {},
                       child: Swing(
-                        animate: armorCheck.armors!.armor_5 &&
-                            !armorCheck.stones!.stones_2,
+                        animate: armorCheck.armors!.armor_6 &&
+                            !armorCheck.stones!.stones_4,
                         duration: const Duration(seconds: 2),
                         child: Image.asset(
                           'assets/stones/diamond_pink.png',
-                          height: 50.0,
-                          opacity: armorCheck.stones!.stones_2
+                          height: 55.0,
+                          opacity: armorCheck.stones!.stones_4
                               ? null
                               : const AlwaysStoppedAnimation(.35),
                         ),
@@ -458,35 +521,70 @@ class Page extends StatelessWidget {
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Opacity(
-                        opacity: armorCheck.armors!.armor_3 ? 1 : 0,
+                        opacity: armorCheck.armors!.armor_2 ? 1 : 0,
                         child: GestureDetector(
-                          onTap: armorCheck.armors!.armor_3
+                          onTap: armorCheck.armors!.armor_2
                               ? () {
-                                  if (!armorCheck.stones!.stones_3) {
+                                  bool firstTime = false;
+                                  if (!armorCheck.stones!.stones_2) {
                                     final prefs = Modular.get<Preferences>();
-                                    prefs.stoneThree = true;
+                                    prefs.stoneTwo = true;
                                     armorCheck.init(prefs: prefs);
+                                    firstTime = true;
                                   }
                                   showDialog(
                                     context: context,
-                                    builder: (context) => const DialogStones(
-                                      color: Color.fromARGB(255, 165, 80, 48),
-                                      image: 'assets/stones/diamond_gold.png',
-                                      stone: 'Piedra diamante',
-                                      stoneContent:
-                                          'Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d',
+                                    builder: (context) => DialogStones(
+                                      color: const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      image: 'assets/stones/diamond_green.png',
+                                      stoneContent: RichText(
+                                        textAlign: TextAlign.justify,
+                                        text: TextSpan(
+                                          children: [
+                                            TextSpan(
+                                              text: S.current.stones2,
+                                              style: const TextStyle(
+                                                color: Color.fromARGB(
+                                                    255, 31, 31, 31),
+                                                fontSize: 14,
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                            CommonUtils.widgetSpan(
+                                              textInside:
+                                                  S.current.stones2Vers2,
+                                              textOutside:
+                                                  S.current.stones2Vers1,
+                                            ),
+                                          ],
+                                        ),
+                                      ),
                                     ),
-                                  );
+                                  ).then((value) {
+                                    if (firstTime) {
+                                      firstTime = false;
+                                      Modular.to
+                                          .popUntil(ModalRoute.withName('/'));
+                                      Modular.to.pushNamed(
+                                        '/armors/',
+                                        arguments: {
+                                          'initial_page': 0,
+                                        },
+                                      );
+                                    }
+                                    return null;
+                                  });
                                 }
                               : () {},
                           child: Swing(
-                            animate: armorCheck.armors!.armor_3 &&
-                                !armorCheck.stones!.stones_3,
+                            animate: armorCheck.armors!.armor_2 &&
+                                !armorCheck.stones!.stones_2,
                             duration: const Duration(seconds: 2),
                             child: Image.asset(
                               'assets/stones/diamond_green.png',
-                              height: 50.0,
-                              opacity: armorCheck.stones!.stones_3
+                              height: 55.0,
+                              opacity: armorCheck.stones!.stones_2
                                   ? null
                                   : const AlwaysStoppedAnimation(.35),
                             ),
@@ -556,16 +654,109 @@ class Page extends StatelessWidget {
                         ),
                       ),
                       Opacity(
-                        opacity: 0,
+                        opacity: armorCheck.armors!.armor_4 ? 1 : 0,
                         child: GestureDetector(
-                          onTap:
-                              armorCheck.armors!.armor_7 ? () {} : () async {},
-                          child: Image.asset(
-                            'assets/stones/diamond_purple.png',
-                            height: 50.0,
-                            opacity: armorCheck.armors!.armor_7
-                                ? null
-                                : const AlwaysStoppedAnimation(.15),
+                          onTap: armorCheck.armors!.armor_4
+                              ? () {
+                                  bool firstTime = false;
+                                  if (!armorCheck.stones!.stones_3) {
+                                    final prefs = Modular.get<Preferences>();
+                                    prefs.stoneThree = true;
+                                    armorCheck.init(prefs: prefs);
+                                    firstTime = true;
+                                  }
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => DialogStones(
+                                      color: const Color.fromARGB(
+                                          255, 165, 80, 48),
+                                      image: 'assets/stones/diamond_purple.png',
+                                      stoneContent: RichText(
+                                        textAlign: TextAlign.justify,
+                                        text: TextSpan(
+                                          children: [
+                                            TextSpan(
+                                              text: S.current.stones3,
+                                              style: const TextStyle(
+                                                color: Color.fromARGB(
+                                                    255, 31, 31, 31),
+                                                fontSize: 14,
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                            CommonUtils.widgetSpan(
+                                              textInside:
+                                                  S.current.stones3Vers2,
+                                              textOutside:
+                                                  S.current.stones3Vers1,
+                                            ),
+                                            const TextSpan(
+                                              text: '\n\n',
+                                            ),
+                                            TextSpan(
+                                              text: S.current.stones3_2,
+                                              style: const TextStyle(
+                                                color: Color.fromARGB(
+                                                    255, 31, 31, 31),
+                                                fontSize: 14,
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                            CommonUtils.widgetSpan(
+                                              textInside:
+                                                  S.current.stones3Vers2_2,
+                                              textOutside:
+                                                  S.current.stones3Vers1_2,
+                                            ),
+                                            const TextSpan(
+                                              text: '\n\n',
+                                            ),
+                                            TextSpan(
+                                              text: S.current.stones3_3,
+                                              style: const TextStyle(
+                                                color: Color.fromARGB(
+                                                    255, 31, 31, 31),
+                                                fontSize: 14,
+                                                fontWeight: FontWeight.w400,
+                                              ),
+                                            ),
+                                            CommonUtils.widgetSpan(
+                                              textInside:
+                                                  S.current.stones3Vers2_3,
+                                              textOutside:
+                                                  S.current.stones3Vers1_3,
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
+                                  ).then((value) {
+                                    if (firstTime) {
+                                      firstTime = false;
+                                      Modular.to
+                                          .popUntil(ModalRoute.withName('/'));
+                                      Modular.to.pushNamed(
+                                        '/armors/',
+                                        arguments: {
+                                          'initial_page': 0,
+                                        },
+                                      );
+                                    }
+                                    return null;
+                                  });
+                                }
+                              : () {},
+                          child: Swing(
+                            animate: armorCheck.armors!.armor_4 &&
+                                !armorCheck.stones!.stones_3,
+                            duration: const Duration(seconds: 2),
+                            child: Image.asset(
+                              'assets/stones/diamond_purple.png',
+                              height: 55.0,
+                              opacity: armorCheck.stones!.stones_3
+                                  ? null
+                                  : const AlwaysStoppedAnimation(.35),
+                            ),
                           ),
                         ),
                       ),

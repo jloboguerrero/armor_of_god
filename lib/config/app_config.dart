@@ -39,6 +39,7 @@ class AppConfig {
       stones_1: prefs.stoneOne,
       stones_2: prefs.stoneTwo,
       stones_3: prefs.stoneThree,
+      stones_4: prefs.stoneFour,
     );
     armors = armor;
     stones = stone;

@@ -1,3 +1,5 @@
+import 'package:armor_of_god/generated/l10n.dart';
+import 'package:armor_of_god/utils/common.dart';
 import 'package:flutter/material.dart';
 
 class DialogStones extends StatelessWidget {
@@ -5,14 +7,12 @@ class DialogStones extends StatelessWidget {
     required this.color,
     required this.image,
     Key? key,
-    required this.stone,
     required this.stoneContent,
   }) : super(key: key);
 
   final Color? color;
   final String? image;
-  final String? stone;
-  final String? stoneContent;
+  final RichText? stoneContent;
 
   @override
   Widget build(BuildContext context) {
@@ -48,34 +48,7 @@ class DialogStones extends StatelessWidget {
             height: MediaQuery.of(context).size.height * 0.15,
           ),
           const SizedBox(height: 18.0),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(0, 0, 0, 15),
-            child: Text(
-              stone!,
-              style: const TextStyle(
-                color: Color(0xff272727),
-                fontWeight: FontWeight.w700,
-                fontFamily: 'Inter',
-                fontStyle: FontStyle.normal,
-                fontSize: 20,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
-          Padding(
-            padding: const EdgeInsets.fromLTRB(0, 0, 0, 15),
-            child: Text(
-              stoneContent!,
-              style: const TextStyle(
-                color: Color(0xff272727),
-                fontWeight: FontWeight.w500,
-                fontFamily: 'Inter',
-                fontStyle: FontStyle.normal,
-                fontSize: 14,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ),
+          stoneContent!,
           const SizedBox(height: 30.0),
         ],
       ),

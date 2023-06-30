@@ -451,6 +451,40 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Select language"),
         "specialWeapons":
             MessageLookupByLibrary.simpleMessage("Special Weapons"),
+        "stones1": MessageLookupByLibrary.simpleMessage(
+            "Other animals move forward but the snake moves sideways twisting its body. When crawling, it can quickly change its course and it is not known where it is going. The enemy moves in a similar way where it is not known where it will attack or when. "),
+        "stones1Vers1": MessageLookupByLibrary.simpleMessage(
+            "Revelation 12:9, 1 Peter 5:8"),
+        "stones1Vers2": MessageLookupByLibrary.simpleMessage(
+            "Revelation 12:9\n9 And the great dragon was cast out, the old serpent, called the devil and Satan, who deceives the whole world; he was cast down to the earth, and his angels were cast down with him.\n\n1 Peter 5:8\n8 Be sober, and watch; because your adversary the devil, like a roaring lion, walks around looking for someone to devour;"),
+        "stones2": MessageLookupByLibrary.simpleMessage(
+            "If we do not want to give in to sin, we must take care not to pass by or sit at the door of occasion, do not look at temptation with a lazy eye if you do not want to see yourself involved in it, nor let your mind stop at what you do not want that enters your heart. "),
+        "stones2Vers1": MessageLookupByLibrary.simpleMessage("Proverbs 4:23"),
+        "stones2Vers2": MessageLookupByLibrary.simpleMessage(
+            "Proverbs 4:23\n23 Above all else, guard your heart; Because life flows from him."),
+        "stones3": MessageLookupByLibrary.simpleMessage(
+            "1. Ask for God\'s advice. The Lord is willing to reveal to his saints everything they need to know in this life."),
+        "stones3Vers1": MessageLookupByLibrary.simpleMessage("Amos 3:7-8"),
+        "stones3Vers1_2":
+            MessageLookupByLibrary.simpleMessage("Jeremiah 17:9-10"),
+        "stones3Vers1_3":
+            MessageLookupByLibrary.simpleMessage("2 Timothy 3:16"),
+        "stones3Vers2": MessageLookupByLibrary.simpleMessage(
+            "Amos 3:7-8\n7 For the Lord God will do nothing, unless he reveals his secret to his servants the prophets. 8 If the lion roars, who will not fear? If the Lord the Lord speaks, who will not prophesy?"),
+        "stones3Vers2_2": MessageLookupByLibrary.simpleMessage(
+            "Jeremiah 17:9-10\n9 Deceitful is the heart more than all things, and wicked; who will know him? 10 I am the Lord, who searches the mind, who tests the heart, to give to each one according to his way, according to the fruit of his works."),
+        "stones3Vers2_3": MessageLookupByLibrary.simpleMessage(
+            "2 Timothy 3:16\n16 All Scripture is inspired by God, and useful to teach, to reprove, to correct, to instruct in justice,"),
+        "stones3_2":
+            MessageLookupByLibrary.simpleMessage("2. Know your hear. "),
+        "stones3_3": MessageLookupByLibrary.simpleMessage(
+            "3. Read the word of the Lord carefully, it shows you the attacks that we are going to have as believers. "),
+        "stones4": MessageLookupByLibrary.simpleMessage(
+            "Your moral life may be impeccable, but if you do not worship God you are an atheist.\n\nIf you worship God devoutly but not according to the Bible you are an idolater.\n\nIf you follow the letter but not the Spirit of the gospel you are a hypocrite. \n\n\nThe only true worship is through the Spirit of God, in Spirit and in truth! "),
+        "stones4Vers1":
+            MessageLookupByLibrary.simpleMessage("1 Corinthians 1:30"),
+        "stones4Vers2": MessageLookupByLibrary.simpleMessage(
+            "1 Corinthians 1:30\n30 But by him you are in Christ Jesus, who has been made to us by God wisdom, justification, sanctification and redemption;"),
         "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Suggestion"),
         "suggestionContent": MessageLookupByLibrary.simpleMessage(
