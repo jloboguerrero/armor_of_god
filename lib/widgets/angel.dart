@@ -19,7 +19,7 @@ class Angel extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       color: const Color.fromARGB(255, 244, 240, 229),
-      height: MediaQuery.of(context).size.height * 0.71,
+      height: MediaQuery.of(context).size.height * 0.60,
       padding: const EdgeInsets.all(12.0),
       child: Stack(
         alignment: AlignmentDirectional.bottomEnd,
@@ -85,10 +85,13 @@ class Angel extends StatelessWidget {
             ],
           ),
           FadeInRight(
-            child: Image.asset(
-              image,
-              width: 120.0,
-              colorBlendMode: BlendMode.hue,
+            child: GestureDetector(
+              onTap: () => Navigator.pop(context),
+              child: Image.asset(
+                image,
+                width: 120.0,
+                colorBlendMode: BlendMode.hue,
+              ),
             ),
           ),
         ],

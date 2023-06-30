@@ -1,6 +1,7 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:armor_of_god/config/preferences.dart';
 import 'package:armor_of_god/widgets/dialog_answer.dart';
+import 'package:armor_of_god/widgets/dialog_stones.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_modular/flutter_modular.dart';
 
@@ -72,15 +73,15 @@ class Page extends StatelessWidget {
                                 prefs.stoneOne = true;
                                 armorCheck.init(prefs: prefs);
                               }
-                              Modular.to.pushNamed(
-                                '/armors/price',
-                                arguments: {
-                                  'armor_name': 'Piedra diamante',
-                                  'armor_picture':
-                                      'assets/stones/diamond_gold.png',
-                                  'background': 'assets/images/cueva1.png',
-                                  'piece': 'fortyOne',
-                                },
+                              showDialog(
+                                context: context,
+                                builder: (context) => const DialogStones(
+                                  color: Color.fromARGB(255, 165, 80, 48),
+                                  image: 'assets/stones/diamond_gold.png',
+                                  stone: 'Piedra diamante',
+                                  stoneContent:
+                                      'Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d',
+                                ),
                               );
                             }
                           : () {},
@@ -292,15 +293,15 @@ class Page extends StatelessWidget {
                                 prefs.stoneTwo = true;
                                 armorCheck.init(prefs: prefs);
                               }
-                              Modular.to.pushNamed(
-                                '/armors/price',
-                                arguments: {
-                                  'armor_name': 'Piedra Esmeralda',
-                                  'armor_picture':
-                                      'assets/stones/diamond_pink.png',
-                                  'background': 'assets/images/cueva1.png',
-                                  'piece': 'fortyTwo',
-                                },
+                              showDialog(
+                                context: context,
+                                builder: (context) => const DialogStones(
+                                  color: Color.fromARGB(255, 165, 80, 48),
+                                  image: 'assets/stones/diamond_gold.png',
+                                  stone: 'Piedra diamante',
+                                  stoneContent:
+                                      'Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d',
+                                ),
                               );
                             }
                           : () {},
@@ -466,15 +467,15 @@ class Page extends StatelessWidget {
                                     prefs.stoneThree = true;
                                     armorCheck.init(prefs: prefs);
                                   }
-                                  Modular.to.pushNamed(
-                                    '/armors/price',
-                                    arguments: {
-                                      'armor_name': 'Piedra Esmeralda',
-                                      'armor_picture':
-                                          'assets/stones/diamond_green.png',
-                                      'background': 'assets/images/cueva1.png',
-                                      'piece': 'fortyThree',
-                                    },
+                                  showDialog(
+                                    context: context,
+                                    builder: (context) => const DialogStones(
+                                      color: Color.fromARGB(255, 165, 80, 48),
+                                      image: 'assets/stones/diamond_gold.png',
+                                      stone: 'Piedra diamante',
+                                      stoneContent:
+                                          'Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d Bla ba bla adasdas as dasdas dasd asd asd as dasd as dasd asdada das d',
+                                    ),
                                   );
                                 }
                               : () {},
@@ -610,13 +611,11 @@ class Page extends StatelessWidget {
                 onTap: () {
                   FirstModal.show(
                     context: context,
-                    child: const Angel(
-                      color: Color.fromARGB(255, 165, 80, 48),
+                    child: Angel(
+                      color: const Color.fromARGB(255, 165, 80, 48),
                       image: 'assets/images/angel2.png',
-                      subTitle:
-                          '“10Por lo demás, hermanos míos, fortaleceos en el Señor, y en el poder de su fuerza. 11Vestíos de toda la armadura de Dios, para que podáis estar firmes contra las asechanzas del diablo. 12Porque no tenemos lucha contra sangre y carne, sino contra principados, contra potestades, contra los gobernadores de las tinieblas de este siglo, contra huestes espirituales de maldad en las regiones celestes. 13Por tanto, tomad toda la armadura de Dios, para que podáis resistir en el día malo, y habiendo acabado todo, estar firmes.” Efesios 6:10-13 Versión Reina Valera 1960 en el texto anterior queremos resaltar tres aspectos importantes, primero la armadura de Dios es la que debemos usar no la nuestra, segundo, solo los corazones transformados pueden tomar la armadura de Dios, por esto vemos como el Apóstol habla a los hermanos, y tercero que la Armadura de Dios es contra las fuerzas espirituales del mal en los lugares celestiales, esto es muy importante, ya que, no es una armadura física, es espiritual en el alma, y práctica para nuestra vida diaria, por ello encontraremos ejemplos Bíblicos y cotidianos para nuestro caminar en la vida cristiana en cada pieza porque estamos en guerra.',
-                      title:
-                          'No debemos confiar en la Armadura de Dios, si no en el Dios de la Armadura',
+                      subTitle: S.current.AngelMessageFirstLevelContent,
+                      title: S.current.AngelMessageFirstLevelTitle,
                     ),
                   );
                 },

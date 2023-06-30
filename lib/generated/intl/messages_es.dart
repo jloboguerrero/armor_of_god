@@ -8,7 +8,6 @@
 // ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
 // ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
 // ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
-// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
 
 import 'package:intl/intl.dart';
 import 'package:intl/message_lookup_by_library.dart';
@@ -24,6 +23,10 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "AngelMessageFirstLevelContent": MessageLookupByLibrary.simpleMessage(
+            "“10Por lo demás, hermanos míos, fortaleceos en el Señor, y en el poder de su fuerza. 11Vestíos de toda la armadura de Dios, para que podáis estar firmes contra las asechanzas del diablo. 12Porque no tenemos lucha contra sangre y carne, sino contra principados, contra potestades, contra los gobernadores de las tinieblas de este siglo, contra huestes espirituales de maldad en las regiones celestes. 13Por tanto, tomad toda la armadura de Dios, para que podáis resistir en el día malo, y habiendo acabado todo, estar firmes.” Efesios 6:10-13 Versión Reina Valera 1960 en el texto anterior queremos resaltar tres aspectos importantes, primero la armadura de Dios es la que debemos usar no la nuestra, segundo, solo los corazones transformados pueden tomar la armadura de Dios, por esto vemos como el Apóstol habla a los hermanos, y tercero que la Armadura de Dios es contra las fuerzas espirituales del mal en los lugares celestiales, esto es muy importante, ya que, no es una armadura física, es espiritual en el alma, y práctica para nuestra vida diaria, por ello encontraremos ejemplos Bíblicos y cotidianos para nuestro caminar en la vida cristiana en cada pieza porque estamos en guerra."),
+        "AngelMessageFirstLevelTitle": MessageLookupByLibrary.simpleMessage(
+            "No debemos confiar en la Armadura de Dios, si no en el Dios de la Armadura"),
         "about": MessageLookupByLibrary.simpleMessage("Información"),
         "aboutContent": MessageLookupByLibrary.simpleMessage(
             "Queremos que conozcas que detrás de Armor of God, está un grupo de hermanos por la fe en Cristo, que buscamos glorificar al Autor de nuestra Salvación por medio de los dones y profesiones naturales que Él en su Gracia nos ha concedido, Estamos comprometidos con la ayuda del Señor a seguir mejorando y creando contenido alineándonos a Su voluntad.\n\nAgradecemos sinceramente tu apoyo y confianza  en el proyecto Armor of God. ¡Esperamos que disfrutes de la aplicación y que encuentres una experiencia edificante!\n\n¡Diviértete y sigue desbloqueando conocimientos!\n\nAtentamente,\n\nEl equipo de desarrollo del Armor of God"),
@@ -31,6 +34,30 @@ class MessageLookup extends MessageLookupByLibrary {
         "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
             "Para enviar, responde todas las preguntas"),
         "armor1": MessageLookupByLibrary.simpleMessage("Cinturón de la Verdad"),
+        "armor1Text1": MessageLookupByLibrary.simpleMessage(
+            "La primera pieza de la armadura de Dios; es el cinturón de la verdad. Como sabemos, el cinturón de una armadura está destinado a sostener, sujetar o mantener toda la armadura unida, es la pieza central en el cuerpo que sostiene todo. De la misma manera, esta pieza tipifica a Cristo mismo, Jesucristo es la verdad, Jesús dijo en Juan 14:6 YO SOY el Camino, y la "),
+        "armor1Text2": MessageLookupByLibrary.simpleMessage("verdad "),
+        "armor1Text3": MessageLookupByLibrary.simpleMessage(
+            "y la vida, Él es el Verbo es decir la Palabra encarnada Juan1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestras boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: "),
+        "armor1Text4": MessageLookupByLibrary.simpleMessage(
+            "Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca. Descendió lluvia, y vinieron ríos, y soplaron vientos, y golpearon contra aquella casa; y no cayó, porque estaba fundada sobre la roca. Pero cualquiera que me oye estas palabras y no las hace, le compararé a un hombre insensato, que edificó su casa sobre la arena; y descendió lluvia, y vinieron ríos, y soplaron vientos, y dieron con ímpetu contra aquella casa; y cayó, y fue grande su ruina. "),
+        "armor1Text5": MessageLookupByLibrary.simpleMessage(
+            "Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana."),
+        "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
+            "Jesús mismo quien es la Palabra habitaba en ella, leamos "),
+        "armor1TextBible2": MessageLookupByLibrary.simpleMessage(
+            "Lucas 4:1-13\n4 Jesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo."),
+        "armor1TextBible3":
+            MessageLookupByLibrary.simpleMessage("Lucas: 4:1-13 "),
+        "armor1TextBible4": MessageLookupByLibrary.simpleMessage(
+            "en este capítulo vemos como Jesús venció con la verdad de la Palabra de Dios, durante toda la tentación el citó solo las Escrituras."),
+        "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
+            "Como creyentes, debemos habitar cada día en la Palabra de nuestro Señor, es la única forma de ceñirnos con la verdad, si estamos en la búsqueda de la verdad, entonces debemos leer las Escrituras y llenar nuestra mente de ellas."),
+        "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad en el mundo se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios."),
+        "armor1Title": MessageLookupByLibrary.simpleMessage("Efesios 6:14"),
+        "armor1Verse": MessageLookupByLibrary.simpleMessage(
+            "“Estad, pues, firmes, ceñidos vuestros lomos con la verdad,”"),
         "armor2": MessageLookupByLibrary.simpleMessage("Coraza de la Justicia"),
         "armor3": MessageLookupByLibrary.simpleMessage(
             "Calzados con la Disposición de Proclamar el Evangelio de la Paz"),
@@ -49,6 +76,10 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Felicitaciones"),
         "crowns": MessageLookupByLibrary.simpleMessage("Coronas"),
         "enter": MessageLookupByLibrary.simpleMessage("Ingresar"),
+        "exampleBible": MessageLookupByLibrary.simpleMessage("Ejemplo Bíblico"),
+        "exampleLife": MessageLookupByLibrary.simpleMessage("Vida"),
+        "examplePractice":
+            MessageLookupByLibrary.simpleMessage("Ejemplo Práctico"),
         "mainQuestionFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "¿Qué o quién representa la roca descrita en Éxodo 17:1-16?"),
         "mainQuestionFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -115,7 +146,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "Esta aplicación está divida por secciones en las que encontraras piezas que deberás desbloquear contestando preguntas Bíblicas de selección simple sin límite de tiempo. Una vez aciertes todas las preguntas, podrás disfrutar del contenido de cada pieza de la Armadura De Dios  en su respectivo orden y avanzar. Recuerda, no puedes ir a una sección si no has desbloqueado todas las piezas de la anterior sección."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
-            "Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de tomar la Armadura De Dios."),
+            "Cuando estés avanzando en el descubrimiento de cada pieza irán apareciendo joyas escondidas! Cada una es única y contienen preciosas informaciones que te ayudarán en la responsabilidad de tomar la Armadura De Dios."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
             "¡Hola, Bienvenido a Armor Of God!"),
         "onBoardingTitle2":

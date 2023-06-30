@@ -1,4 +1,4 @@
-// import 'package:armor_of_god/generated/l10n.dart';
+import 'package:armor_of_god/generated/l10n.dart';
 import 'package:armor_of_god/models/item.dart';
 import 'package:armor_of_god/utils/common.dart';
 import 'package:flutter/material.dart';
@@ -11,46 +11,42 @@ class Pieces {
             children: [
               RichText(
                 textAlign: TextAlign.justify,
-                text: const TextSpan(
+                text: TextSpan(
                   children: [
                     TextSpan(
-                      text:
-                          'La primera pieza de la armadura de Dios; es el cinturón de la verdad. Como sabemos, el cinturón de una armadura está destinado a sostener, sujetar o mantener toda la armadura unida, es la pieza central en el cuerpo que sostiene todo. De la misma manera, esta pieza tipifica a Cristo mismo, Jesucristo es la verdad, Jesús dijo en Juan 14:6 YO SOY el Camino, y la ',
-                      style: TextStyle(
+                      text: S.current.armor1Text1,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
                     TextSpan(
-                      text: 'verdad ',
-                      style: TextStyle(
+                      text: S.current.armor1Text2,
+                      style: const TextStyle(
                         color: Colors.black,
                         fontWeight: FontWeight.w600,
                       ),
                     ),
                     TextSpan(
-                      text:
-                          'y la vida, Él es el Verbo es decir la Palabra encarnada Juan1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestras boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: ',
-                      style: TextStyle(
+                      text: S.current.armor1Text3,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
                     TextSpan(
-                      text:
-                          'Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca. Descendió lluvia, y vinieron ríos, y soplaron vientos, y golpearon contra aquella casa; y no cayó, porque estaba fundada sobre la roca. Pero cualquiera que me oye estas palabras y no las hace, le compararé a un hombre insensato, que edificó su casa sobre la arena; y descendió lluvia, y vinieron ríos, y soplaron vientos, y dieron con ímpetu contra aquella casa; y cayó, y fue grande su ruina. ',
-                      style: TextStyle(
+                      text: S.current.armor1Text4,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 85, 84, 84),
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
                     TextSpan(
-                      text:
-                          'Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.',
-                      style: TextStyle(
+                      text: S.current.armor1Text5,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,
                         fontWeight: FontWeight.w400,
@@ -69,11 +65,11 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Práctico'),
-                          const TextSpan(
-                            text:
-                                'Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad en el mundo se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.',
-                            style: TextStyle(
+                          CommonUtils.examplePractice(
+                              text: S.current.examplePractice),
+                          TextSpan(
+                            text: S.current.armor1TextPractice1,
+                            style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
@@ -95,25 +91,23 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Bíblico'),
-                          const TextSpan(
-                            text:
-                                'Jesús mismo quien es la Palabra habitaba en ella, leamos ',
-                            style: TextStyle(
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleBible),
+                          TextSpan(
+                            text: S.current.armor1TextBible1,
+                            style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
                             ),
                           ),
                           CommonUtils.widgetSpan(
-                            textInside:
-                                'Lucas 4:1-13\n4 Jesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo.',
-                            textOutside: 'Lucas: 4:1-13 ',
+                            textInside: S.current.armor1TextBible2,
+                            textOutside: S.current.armor1TextBible3,
                           ),
-                          const TextSpan(
-                            text:
-                                'en este capítulo vemos como Jesús venció con la verdad de la Palabra de Dios, durante toda la tentación el citó solo las Escrituras.',
-                            style: TextStyle(
+                          TextSpan(
+                            text: S.current.armor1TextBible4,
+                            style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
@@ -135,11 +129,11 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Vida'),
-                          const TextSpan(
-                            text:
-                                'Como creyentes, debemos habitar cada día en la Palabra de nuestro Señor, es la única forma de ceñirnos con la verdad, si estamos en la búsqueda de la verdad, entonces debemos leer las Escrituras y llenar nuestra mente de ellas.',
-                            style: TextStyle(
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleLife),
+                          TextSpan(
+                            text: S.current.armor1TextLife1,
+                            style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
@@ -155,9 +149,8 @@ class Pieces {
           ),
         ),
         image: 'assets/flags/co.png',
-        subtitle:
-            '“Estad, pues, firmes, ceñidos vuestros lomos con la verdad,”',
-        title: 'Efesios 6:14',
+        subtitle: S.current.armor1Verse,
+        title: S.current.armor1Title,
       );
   Item get two => Item(
         contentWidget: Padding(
@@ -276,7 +269,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Práctico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.examplePractice),
                           const TextSpan(
                             text:
                                 'Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá, Si andas en ella, puesto que has actuado con rectitud y eres conocido como un cristiano veraz, todos los ataques están destinados a perecer. Él y no tu Exhibirá tu justicia como la luz en su tiempo.',
@@ -302,7 +296,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Bíblico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleBible),
                           const TextSpan(
                             text:
                                 'La Biblia que es la palabra de Dios es veraz, y nos relata los hechos como son para nuestro ejemplo, un ejemplo que cuando no se juzga con la justicia de Dios no estamos protegidos, es el rey David ante los hechos de su hijo Amnón. Su familia fue muy afectada con acontecimientos muy fuertes ver ',
@@ -347,7 +342,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Vida'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleLife),
                           const TextSpan(
                             text:
                                 'Para cada circunstancia de juicio se debe buscar la dirección, la justicia del Señor activamente y si no estás llamado a ejercer la sentencia de Dios, Espera en Él y sigue orando.',
@@ -503,7 +499,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Práctico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.examplePractice),
                           const TextSpan(
                             text:
                                 'En una batalla real con alguien, en esta situación usas tus pies para moverte y golpear a tu oponente. Por lo tanto, cuando estás discutiendo con alguien con los argumentos de la verdad para romper las fortalezas mentales de satanás, debes tener como meta la paz, la mentalidad de querer la paz en su vida, no la meta de la gloria propia, como que siempre tienes el argumento ganador, ya que, el centro es Cristo.',
@@ -529,7 +526,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Bíblico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleBible),
                           const TextSpan(
                             text:
                                 'El apóstol Pablo quien antes era Saulo, un erudito, en su predicación no usaba de su sabiduría, predicaba solo a Cristo, como lo expresa en 1 Corintios 2:1-5 ',
@@ -564,7 +562,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Vida'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleLife),
                           const TextSpan(
                             text:
                                 'Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno.',
@@ -690,7 +689,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Práctico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.examplePractice),
                           const TextSpan(
                             text:
                                 'Muchas veces enfrentamos circunstancias en nuestras vidas, circunstancias que no escogeríamos vivir, y llegamos a pensar que el Señor no está en el asunto, pero si tenemos fe en lo que dice su Palabra, creeremos que esas circunstancias serán para nuestro bien, porque para los que amamos a Dios todo opera para bien como lo dice ',
@@ -730,7 +730,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Bíblico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleBible),
                           const TextSpan(
                             text:
                                 'En la Biblia podemos ver un caso de alguien herido por una flecha y ese es Saúl, el primer rey de Israel. Cuando las mujeres de Israel cantaron la canción “Saúl ha matado a sus miles, y David a sus diez miles”, ',
@@ -770,7 +771,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Vida'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleLife),
                           const TextSpan(
                             text:
                                 'Para combatir las mentiras que el Enemigo o nuestra naturaleza nos quiere hacer creer, se combate solo con la Fe en lo que el Señor nos dice a través de las escrituras.',
@@ -843,7 +845,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Práctico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.examplePractice),
                           const TextSpan(
                             text:
                                 'Un misionero en un país extranjero con una amenaza real para su vida o la mujer que lucha contra el cáncer o el profesor que está dando una lección de historia y no sabe el momento de su muerte, pueden estar tranquilos al momento de la partida, ya que, tienen certeza del destino que tienen al lado de Cristo por haber creído en la obra de redención de Jesucristo.',
@@ -869,7 +872,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Bíblico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleBible),
                           const TextSpan(
                             text:
                                 'Esteban el primer mártir de Jesucristo, podemos verlo en Hechos:7 cuando estaba a punto de morir la certeza de su salvación le permitió decir estas palabras: ',
@@ -904,7 +908,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Vida'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleLife),
                           const TextSpan(
                             text:
                                 'En el caminar cristiano muy a nuestro pesar vamos a pecar entristeciendo al Señor, pero Él sabe eso y por eso nos dejó a nuestro eterno sumo sacerdote, si caes levántate en Él con esta certeza y si hoy estás con la duda de tu salvación por una condición de pecado, arrepiéntete y retoma la comunión con Cristo, un hijo nunca pierde esta condición.',
@@ -1035,7 +1040,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Práctico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.examplePractice),
                           const TextSpan(
                             text:
                                 'Si eres creyente pero no lees la Palabra de Dios, es decir, no tomas la Espada del Espíritu, serás un creyente indefenso',
@@ -1061,7 +1067,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Ejemplo Bíblico'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleBible),
                           const TextSpan(
                             text:
                                 'Un ejemplo de un hombre que una vez tomó la Espada no la soltó es uno de los valientes de David, dice el texto en 2 samuel 23:9-10: ',
@@ -1105,7 +1112,8 @@ class Pieces {
                       textAlign: TextAlign.justify,
                       text: TextSpan(
                         children: [
-                          CommonUtils.examplePractice(text: 'Vida'),
+                          CommonUtils.examplePractice(
+                              text: S.current.exampleLife),
                           const TextSpan(
                             text:
                                 'Habita y arráigate en la palabra de Dios, como nos dice Colosenses: 3:16: ',

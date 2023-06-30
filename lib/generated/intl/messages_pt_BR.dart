@@ -8,7 +8,6 @@
 // ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
 // ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
 // ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
-// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
 
 import 'package:intl/intl.dart';
 import 'package:intl/message_lookup_by_library.dart';
@@ -22,6 +21,10 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "AngelMessageFirstLevelContent": MessageLookupByLibrary.simpleMessage(
+            "“10 Quanto ao mais, meus irmãos, fortalecei-vos no Senhor e na força do seu poder. 11Vistam toda a armadura de Deus, para que possam ficar firmes contra as ciladas do diabo. 12Pois não é contra carne e sangue que lutamos, mas contra os principados, contra as potestades, contra os príncipes das trevas deste século, contra as hostes espirituais da maldade nas regiões celestiais. 13 Portanto, tomai toda a armadura de Deus, para que possais resistir no dia mau e, acabando tudo, ficar firmes”. Efésios 6:10-13 Versão Reina Valera 1960 no texto anterior queremos destacar três aspectos importantes, primeiro, a armadura de Deus é o que devemos usar, não a nossa, segundo, somente corações transformados podem tomar a armadura de Deus, pois isso vemos como o Apóstolo fala aos irmãos, e terceiro que a Armadura de Deus é contra as forças espirituais do mal nos lugares celestiais, isso é muito importante, pois não é uma armadura física, é espiritual na alma, e prático para o nosso dia a dia, por isso vamos encontrar em cada peça exemplos bíblicos e cotidianos para nossa caminhada na vida cristã porque estamos em guerra."),
+        "AngelMessageFirstLevelTitle": MessageLookupByLibrary.simpleMessage(
+            "Não devemos confiar na Armadura de Deus, mas no Deus da Armadura"),
         "about": MessageLookupByLibrary.simpleMessage("Informação"),
         "aboutContent": MessageLookupByLibrary.simpleMessage(
             "Queremos que você saiba que por trás da Armadura de Deus, existe um grupo de irmãos pela fé em Cristo, que buscam glorificar o Autor da nossa Salvação através dos dons naturais e profissões que Ele nos concedeu em Sua Graça. Estamos comprometidos com a ajuda do Senhor para continuar melhorando e criando conteúdo alinhando-nos à Sua vontade.\n\nAgradecemos sinceramente seu apoio e confiança no projeto Armadura de Deus. Esperamos que você goste do aplicativo e o ache edificante!\n\nDivirta-se e continue desbloqueando conhecimento!\n\nAtenciosamente,\n\nEquipe de Desenvolvimento da Armadura de Deus"),
@@ -29,6 +32,30 @@ class MessageLookup extends MessageLookupByLibrary {
         "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
             "Para enviar, responda a todas as perguntas"),
         "armor1": MessageLookupByLibrary.simpleMessage("Cinturão da Verdade"),
+        "armor1Text1": MessageLookupByLibrary.simpleMessage(
+            "A primeira peça da armadura de Deus; é o cinturão da verdade. Como sabemos, o cinto de uma armadura serve para sustentar, prender ou manter toda a armadura unida, é a peça central do corpo que sustenta tudo. Da mesma forma, esta peça tipifica o próprio Cristo, Jesus Cristo é a verdade, Jesus disse em João 14:6 EU SOU o Caminho, e o "),
+        "armor1Text2": MessageLookupByLibrary.simpleMessage("verdadeiro "),
+        "armor1Text3": MessageLookupByLibrary.simpleMessage(
+            "e vida, Ele é o Verbo, ou seja, o Verbo encarnado João1:1, sem esta realidade como fundamento, tudo o que fizermos não se sustentará, assim como uma armadura sem cinto não se sustenta, nossas ações devem ser de acordo com a verdade das Escrituras, alinhados com Cristo, devemos sustentar cada linha de pensamento com a verdade da Bíblia; devemos segurar as palavras de nossas bocas com a veracidade da verdade, à luz do Evangelho. Pois, citando novamente as palavras do Senhor em Mateus: 7:24-27 onde diz: "),
+        "armor1Text4": MessageLookupByLibrary.simpleMessage(
+            "Quem, pois, ouve de mim estas palavras e as pratica, compará-lo-ei a um homem prudente, que edificou a sua casa sobre a rocha. Caiu a chuva, correram rios, sopraram ventos e deram com ímpeto contra aquela casa; e não caiu, porque estava edificada sobre a rocha. Mas quem ouve de mim estas palavras e não as pratica, compará-lo-ei a um homem insensato, que construiu a sua casa sobre a areia; e desceu a chuva, e correram os rios, e assopraram os ventos, e combateram aquela casa; e ele caiu, e sua ruína foi grande. "),
+        "armor1Text5": MessageLookupByLibrary.simpleMessage(
+            "Tendo isso em mente, manteremos a verdade em tudo o que fizermos, esse será o eixo central de nossa vida cristã."),
+        "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
+            "O próprio Jesus que é a Palavra habitou nela, vamos ler "),
+        "armor1TextBible2": MessageLookupByLibrary.simpleMessage(
+            "Lucas 4:1-13\n4 Jesus, cheio do Espírito Santo, voltou do Jordão, e foi conduzido pelo Espírito ao deserto 2 por quarenta dias, tentado pelo diabo. E ele não comeu nada naqueles dias, depois dos quais teve fome. 3 Disse-lhe então o diabo: Se és o Filho de Deus, manda que esta pedra se transforme em pão. 4 Jesus, respondendo-lhe, disse: Está escrito: Nem só de pão viverá o homem, mas de toda a palavra de Deus. 5 E o diabo o levou a um alto monte, e mostrou-lhe num momento todos os reinos da terra. 6 E o diabo disse-lhe: A ti darei todo este poder, e a sua glória; porque me foi dado, e a quem eu quero eu o dou. 7 Se você se prostrar em me adorar, tudo será seu. 8 Respondendo Jesus, disse-lhe: Afasta-te de mim, Satanás, porque está escrito: Ao Senhor teu Deus adorarás, e só a ele servirás. 9 E levou-o a Jerusalém, e colocou-o sobre o pináculo do templo, e disse-lhe: Se tu és o Filho de Deus, lança-te daqui abaixo; 10 porque está escrito: Ele dará ordens aos seus anjos a teu respeito, para te guardarem; 11 e, Nas mãos te sustentarão, Para que não tropeces com o pé na pedra. 12 Respondendo Jesus, disse-lhe: Dito está: Não tentarás o Senhor teu Deus. 13 E, acabando o diabo com toda a tentação, retirou-se dele por um tempo."),
+        "armor1TextBible3":
+            MessageLookupByLibrary.simpleMessage("Lucas: 4:1-13 "),
+        "armor1TextBible4": MessageLookupByLibrary.simpleMessage(
+            "neste capítulo vemos como Jesus venceu com a verdade da Palavra de Deus, durante toda a tentação ele citou apenas as Escrituras."),
+        "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
+            "Como crentes, devemos viver todos os dias na Palavra de nosso Senhor, é a única forma de aderir à verdade, se estamos em busca da verdade, então devemos ler as Escrituras e encantar nossas mentes com elas."),
+        "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "Um médico precisa da verdade contada pelo paciente para chegar ao diagnóstico correto. Da mesma forma, o diagnóstico correto é necessário para estabelecer um tratamento adequado, mas a que diagnóstico um médico pode chegar se o paciente mente para ele? Que doença no mundo pode ser curada com base em uma mentira? Da mesma forma que um médico confia na verdade para curar um paciente, devemos nos apegar à verdade que é Cristo em tudo o que fazemos para vestir esta peça da armadura de Deus."),
+        "armor1Title": MessageLookupByLibrary.simpleMessage("Efésios 6:14"),
+        "armor1Verse": MessageLookupByLibrary.simpleMessage(
+            "“Fique firme então, tendo seus lombos cingidos com a verdade,”"),
         "armor2": MessageLookupByLibrary.simpleMessage("Peitoral da Justiça"),
         "armor3": MessageLookupByLibrary.simpleMessage(
             "Sapatos com a Vontade de Anunciar o Evangelho da Paz"),
@@ -44,6 +71,10 @@ class MessageLookup extends MessageLookupByLibrary {
         "congratulations": MessageLookupByLibrary.simpleMessage("Parabéns"),
         "crowns": MessageLookupByLibrary.simpleMessage("Coroas"),
         "enter": MessageLookupByLibrary.simpleMessage("Entrar"),
+        "exampleBible": MessageLookupByLibrary.simpleMessage("Exemplo bíblico"),
+        "exampleLife": MessageLookupByLibrary.simpleMessage("Vida"),
+        "examplePractice":
+            MessageLookupByLibrary.simpleMessage("Exemplo prático"),
         "mainQuestionFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "O que ou quem representa a rocha descrita em Êxodo 17:1-16?"),
         "mainQuestionFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -110,7 +141,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "Este aplicativo é dividido em seções nas quais você encontrará peças que você deve desbloquear respondendo a perguntas bíblicas de seleção simples sem limite de tempo. Depois de acertar todas as questões, você pode aproveitar o conteúdo de cada peça da Armadura de Deus em sua respectiva ordem e seguir em frente. Lembre-se, você não pode ir para uma seção se não tiver desbloqueado todas as peças da seção anterior."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
-            "Quando estiver na descoberta de cada peça encontrará joias que poderá obter respondendo a apenas uma pergunta! São joias preciosas que o ajudarão na responsabilidade de assumir a Armadura de Deus."),
+            "Quando você for avançando na descoberta de cada peça, joias escondidas aparecerão! Cada um é único e contém informações preciosas que o ajudarão na responsabilidade de assumir a Armadura de Deus."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
             "¡Olá, Seja Bem Vindo a Armadura de Deus!"),
         "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Funcionando"),

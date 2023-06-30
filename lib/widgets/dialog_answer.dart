@@ -70,43 +70,40 @@ class NeedAnswers extends StatelessWidget {
           ),
           Padding(
             padding: const EdgeInsets.only(top: 20.0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                ElevatedButton(
-                  style: ButtonStyle(
-                    backgroundColor: MaterialStateProperty.all(
-                      color ?? const Color.fromARGB(255, 85, 53, 35),
-                    ),
-                    elevation: MaterialStateProperty.all(0.0),
-                    shape: MaterialStateProperty.all(
-                      RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(28.0),
-                      ),
-                    ),
-                    padding: MaterialStateProperty.all(
-                      const EdgeInsets.symmetric(
-                        vertical: 11.3,
-                        horizontal: 21.3,
-                      ),
+            child: Center(
+              child: ElevatedButton(
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(
+                    color ?? const Color.fromARGB(255, 85, 53, 35),
+                  ),
+                  elevation: MaterialStateProperty.all(0.0),
+                  shape: MaterialStateProperty.all(
+                    RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(28.0),
                     ),
                   ),
-                  onPressed: () {
-                    Navigator.pop(context);
-                  },
-                  child: Text(
-                    S.current.accept,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontWeight: FontWeight.w700,
-                      fontFamily: 'Inter',
-                      fontStyle: FontStyle.normal,
-                      fontSize: 16,
+                  padding: MaterialStateProperty.all(
+                    const EdgeInsets.symmetric(
+                      vertical: 11.3,
+                      horizontal: 21.3,
                     ),
-                    textAlign: TextAlign.center,
                   ),
                 ),
-              ],
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  S.current.accept,
+                  style: const TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w700,
+                    fontFamily: 'Inter',
+                    fontStyle: FontStyle.normal,
+                    fontSize: 16,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ),
             ),
           ),
           const SizedBox(height: 18.0),

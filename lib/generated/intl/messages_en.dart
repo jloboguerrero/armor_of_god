@@ -8,7 +8,6 @@
 // ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
 // ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
 // ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
-// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
 
 import 'package:intl/intl.dart';
 import 'package:intl/message_lookup_by_library.dart';
@@ -22,6 +21,10 @@ class MessageLookup extends MessageLookupByLibrary {
 
   final messages = _notInlinedMessages(_notInlinedMessages);
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "AngelMessageFirstLevelContent": MessageLookupByLibrary.simpleMessage(
+            "“10For the rest, my brethren, be strong in the Lord, and in the power of his might. 11Put on the full armor of God, so that you can stand firm against the wiles of the devil. 12For we do not fight against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this century, against spiritual hosts of wickedness in the heavenly realms. 13 Therefore, take the whole armor of God, so that you can resist on the bad day, and having finished everything, stand firm.” Ephesians 6:10-13 Reina Valera 1960 Version in the previous text we want to highlight three important aspects, first, the armor of God is what we must use, not ours, second, only transformed hearts can take the armor of God, for this we see as the Apostle speaks to the brothers, and third that the Armor of God is against the spiritual forces of evil in heavenly places, this is very important, since it is not a physical armor, it is spiritual in the soul, and practical for our daily life, for this reason we will find Biblical and daily examples for our walk in the Christian life in each piece because we are at war."),
+        "AngelMessageFirstLevelTitle": MessageLookupByLibrary.simpleMessage(
+            "We must not trust in the Armor of God, but in the God of Armor"),
         "about": MessageLookupByLibrary.simpleMessage("About"),
         "aboutContent": MessageLookupByLibrary.simpleMessage(
             "We want you to know that behind Armor of God, there is a group of brothers by faith in Christ, who seek to glorify the Author of our Salvation through the natural gifts and professions that He has granted us in His Grace. We are committed to the help from the Lord to continue improving and creating content aligning ourselves to His will.\n\nWe sincerely appreciate your support and trust in the Armor of God project. We hope you enjoy the app and find it uplifting!\n\nHave fun and keep unlocking knowledge!\n\nSincerely,\n\nThe Armor of God Development Team"),
@@ -29,6 +32,30 @@ class MessageLookup extends MessageLookupByLibrary {
         "answerAllQuestions": MessageLookupByLibrary.simpleMessage(
             "To submit, answer all questions"),
         "armor1": MessageLookupByLibrary.simpleMessage("Belt of Truth"),
+        "armor1Text1": MessageLookupByLibrary.simpleMessage(
+            "The first piece of the armor of God; it is the belt of truth. As we know, the belt of an armor is meant to support, fasten or keep the entire armor together, it is the center piece on the body that holds everything. In the same way, this piece typifies Christ himself, Jesus Christ is the truth, Jesus said in John 14:6 I AM the Way, and the "),
+        "armor1Text2": MessageLookupByLibrary.simpleMessage("truth "),
+        "armor1Text3": MessageLookupByLibrary.simpleMessage(
+            "and life, He is the Word, that is to say, the incarnate Word John1:1, without this reality as a foundation, everything we do will not be sustained, just as an armor without a belt is not sustained, our actions must be in accordance with the truth of the Scriptures, aligned with Christ, we must support each line of thought with the truth of the Bible; we must hold the words of our mouths with the veracity of the truth, in the light of the Gospel. Since, again quoting the words of the Lord in Matthew: 7:24-27 where he says: "),
+        "armor1Text4": MessageLookupByLibrary.simpleMessage(
+            "Anyone, then, who hears these words from me, and does them, I will compare him to a prudent man, who built his house on the rock. The rain came down, and the rivers came, and the winds blew and beat against that house; and it did not fall, because it was founded on the rock. But whoever hears these words from me and does not do them, I will compare him to a foolish man, who built his house on the sand; and the rain came down, and the rivers came, and the winds blew, and beat against that house; and he fell, and his ruin was great. "),
+        "armor1Text5": MessageLookupByLibrary.simpleMessage(
+            "If this is kept in mind, we will maintain the truth in everything that is done, this will be the central axis of our Christian life."),
+        "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
+            "Jesus himself who is the Word dwelt in it, let\'s read "),
+        "armor1TextBible2": MessageLookupByLibrary.simpleMessage(
+            "Luke 4:1-13\n4 Jesus, full of the Holy Spirit, returned from the Jordan, and was led by the Spirit into the desert 2 for forty days, tempted by the devil. And he did not eat anything in those days, after which he was hungry. 3 Then the devil said to him: If you are the Son of God, tell this stone to become bread. 4 Jesus, answering him, said: It is written: Man shall not live by bread alone, but by every word of God. 5 And the devil took him to a high mountain, and showed him in a moment all the kingdoms of the earth. 6 And the devil said to him: To you I will give all this power, and their glory; because it has been given to me, and to whom I want I give it. 7 If you prostrate adore me, all will be yours. 8 Responding Jesus, said to him: Get away from me, Satan, for it is written: The Lord your God you will worship, and him only you will serve. 9 And he took him to Jerusalem, and put him on the pinnacle of the temple, and said to him: If you are the Son of God, throw yourself down from here; 10 because it is written: He will command his angels about you, to keep you; 11 and, In the hands they will support you, So that you do not stumble with your foot in stone. 12 Answering Jesus, said to him: It is said: You shall not tempt the Lord your God. 13 And when the devil had ended all temptation, he withdrew from him for a while."),
+        "armor1TextBible3":
+            MessageLookupByLibrary.simpleMessage("Luke: 4:1-13 "),
+        "armor1TextBible4": MessageLookupByLibrary.simpleMessage(
+            "In this chapter we see how Jesus won with the truth of the Word of God, during all the temptation he quoted only the Scriptures."),
+        "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
+            "As believers, we must dwell every day in the Word of our Lord, it is the only way to adhere to the truth, if we are in search of the truth, then we must read the Scriptures and fill our minds with them."),
+        "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "A doctor needs the truth told by the patient to arrive at the correct diagnosis. In the same way, the correct diagnosis is needed to establish an adequate treatment, but what diagnosis can a doctor arrive at if the patient lies to him? What disease in the world can be cured based on a lie? In the same way that a doctor relies on the truth to heal a patient, we must hold fast to the truth that is Christ in everything we do to wear this piece of God\'s armor."),
+        "armor1Title": MessageLookupByLibrary.simpleMessage("Ephesians 6:14"),
+        "armor1Verse": MessageLookupByLibrary.simpleMessage(
+            "“Stand firm then, having your loins girded about with truth,”"),
         "armor2": MessageLookupByLibrary.simpleMessage(
             "The Breastplate of Righteousness"),
         "armor3": MessageLookupByLibrary.simpleMessage(
@@ -46,6 +73,11 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Congratulations"),
         "crowns": MessageLookupByLibrary.simpleMessage("Crowns"),
         "enter": MessageLookupByLibrary.simpleMessage("Enter"),
+        "exampleBible":
+            MessageLookupByLibrary.simpleMessage("Biblical example"),
+        "exampleLife": MessageLookupByLibrary.simpleMessage("Life"),
+        "examplePractice":
+            MessageLookupByLibrary.simpleMessage("Practical example"),
         "mainQuestionFirstPageFive": MessageLookupByLibrary.simpleMessage(
             "What or who represents the rock described in Exodus 17:1-16?"),
         "mainQuestionFirstPageFour": MessageLookupByLibrary.simpleMessage(
@@ -112,7 +144,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "This application is divided into sections in which you will find pieces that you must unlock by answering simple selection Biblical questions with no time limit. Once you get all the questions right, you can enjoy the content of each piece of the Armor of God in their respective order and move on. Remember, you can\'t go to a section if you haven\'t unlocked all the pieces from the previous section."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
-            "When you are in the discovery of each piece you will find jewels that you can obtain by answering only one question! They are precious jewels that will help you in the responsibility of taking on the Armor of God."),
+            "When you are advancing in the discovery of each piece, hidden jewels will appear! Each one is unique and contains precious information that will help you in the responsibility of taking on the Armor of God."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
             "Hello, Welcome to Armor Of God!"),
         "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Functioning"),

@@ -190,6 +190,36 @@ class S {
     );
   }
 
+  /// `Ejemplo Práctico`
+  String get examplePractice {
+    return Intl.message(
+      'Ejemplo Práctico',
+      name: 'examplePractice',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Ejemplo Bíblico`
+  String get exampleBible {
+    return Intl.message(
+      'Ejemplo Bíblico',
+      name: 'exampleBible',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Vida`
+  String get exampleLife {
+    return Intl.message(
+      'Vida',
+      name: 'exampleLife',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Cinturón de la Verdad`
   String get armor1 {
     return Intl.message(
@@ -245,6 +275,136 @@ class S {
     return Intl.message(
       'La Espada del Espíritu',
       name: 'armor6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Efesios 6:14`
+  String get armor1Title {
+    return Intl.message(
+      'Efesios 6:14',
+      name: 'armor1Title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Estad, pues, firmes, ceñidos vuestros lomos con la verdad,”`
+  String get armor1Verse {
+    return Intl.message(
+      '“Estad, pues, firmes, ceñidos vuestros lomos con la verdad,”',
+      name: 'armor1Verse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La primera pieza de la armadura de Dios; es el cinturón de la verdad. Como sabemos, el cinturón de una armadura está destinado a sostener, sujetar o mantener toda la armadura unida, es la pieza central en el cuerpo que sostiene todo. De la misma manera, esta pieza tipifica a Cristo mismo, Jesucristo es la verdad, Jesús dijo en Juan 14:6 YO SOY el Camino, y la `
+  String get armor1Text1 {
+    return Intl.message(
+      'La primera pieza de la armadura de Dios; es el cinturón de la verdad. Como sabemos, el cinturón de una armadura está destinado a sostener, sujetar o mantener toda la armadura unida, es la pieza central en el cuerpo que sostiene todo. De la misma manera, esta pieza tipifica a Cristo mismo, Jesucristo es la verdad, Jesús dijo en Juan 14:6 YO SOY el Camino, y la ',
+      name: 'armor1Text1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `verdad `
+  String get armor1Text2 {
+    return Intl.message(
+      'verdad ',
+      name: 'armor1Text2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `y la vida, Él es el Verbo es decir la Palabra encarnada Juan1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestras boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: `
+  String get armor1Text3 {
+    return Intl.message(
+      'y la vida, Él es el Verbo es decir la Palabra encarnada Juan1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestras boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: ',
+      name: 'armor1Text3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca. Descendió lluvia, y vinieron ríos, y soplaron vientos, y golpearon contra aquella casa; y no cayó, porque estaba fundada sobre la roca. Pero cualquiera que me oye estas palabras y no las hace, le compararé a un hombre insensato, que edificó su casa sobre la arena; y descendió lluvia, y vinieron ríos, y soplaron vientos, y dieron con ímpetu contra aquella casa; y cayó, y fue grande su ruina. `
+  String get armor1Text4 {
+    return Intl.message(
+      'Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca. Descendió lluvia, y vinieron ríos, y soplaron vientos, y golpearon contra aquella casa; y no cayó, porque estaba fundada sobre la roca. Pero cualquiera que me oye estas palabras y no las hace, le compararé a un hombre insensato, que edificó su casa sobre la arena; y descendió lluvia, y vinieron ríos, y soplaron vientos, y dieron con ímpetu contra aquella casa; y cayó, y fue grande su ruina. ',
+      name: 'armor1Text4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.`
+  String get armor1Text5 {
+    return Intl.message(
+      'Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.',
+      name: 'armor1Text5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad en el mundo se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.`
+  String get armor1TextPractice1 {
+    return Intl.message(
+      'Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad en el mundo se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.',
+      name: 'armor1TextPractice1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jesús mismo quien es la Palabra habitaba en ella, leamos `
+  String get armor1TextBible1 {
+    return Intl.message(
+      'Jesús mismo quien es la Palabra habitaba en ella, leamos ',
+      name: 'armor1TextBible1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lucas 4:1-13\n4 Jesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo.`
+  String get armor1TextBible2 {
+    return Intl.message(
+      'Lucas 4:1-13\n4 Jesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo.',
+      name: 'armor1TextBible2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lucas: 4:1-13 `
+  String get armor1TextBible3 {
+    return Intl.message(
+      'Lucas: 4:1-13 ',
+      name: 'armor1TextBible3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `en este capítulo vemos como Jesús venció con la verdad de la Palabra de Dios, durante toda la tentación el citó solo las Escrituras.`
+  String get armor1TextBible4 {
+    return Intl.message(
+      'en este capítulo vemos como Jesús venció con la verdad de la Palabra de Dios, durante toda la tentación el citó solo las Escrituras.',
+      name: 'armor1TextBible4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Como creyentes, debemos habitar cada día en la Palabra de nuestro Señor, es la única forma de ceñirnos con la verdad, si estamos en la búsqueda de la verdad, entonces debemos leer las Escrituras y llenar nuestra mente de ellas.`
+  String get armor1TextLife1 {
+    return Intl.message(
+      'Como creyentes, debemos habitar cada día en la Palabra de nuestro Señor, es la única forma de ceñirnos con la verdad, si estamos en la búsqueda de la verdad, entonces debemos leer las Escrituras y llenar nuestra mente de ellas.',
+      name: 'armor1TextLife1',
       desc: '',
       args: [],
     );
@@ -440,10 +600,10 @@ class S {
     );
   }
 
-  /// `Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de tomar la Armadura De Dios.`
+  /// `Cuando estés avanzando en el descubrimiento de cada pieza irán apareciendo joyas escondidas! Cada una es única y contienen preciosas informaciones que te ayudarán en la responsabilidad de tomar la Armadura De Dios.`
   String get onBoardingDescription3 {
     return Intl.message(
-      'Cuando estés en el descubrimiento de cada pieza te encontraras con joyas que podrás obtener respondiendo solo una pregunta! Son joyas preciosas que te ayudarán en la responsabilidad de tomar la Armadura De Dios.',
+      'Cuando estés avanzando en el descubrimiento de cada pieza irán apareciendo joyas escondidas! Cada una es única y contienen preciosas informaciones que te ayudarán en la responsabilidad de tomar la Armadura De Dios.',
       name: 'onBoardingDescription3',
       desc: '',
       args: [],
@@ -505,6 +665,26 @@ class S {
     return Intl.message(
       'Coronas',
       name: 'crowns',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No debemos confiar en la Armadura de Dios, si no en el Dios de la Armadura`
+  String get AngelMessageFirstLevelTitle {
+    return Intl.message(
+      'No debemos confiar en la Armadura de Dios, si no en el Dios de la Armadura',
+      name: 'AngelMessageFirstLevelTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“10Por lo demás, hermanos míos, fortaleceos en el Señor, y en el poder de su fuerza. 11Vestíos de toda la armadura de Dios, para que podáis estar firmes contra las asechanzas del diablo. 12Porque no tenemos lucha contra sangre y carne, sino contra principados, contra potestades, contra los gobernadores de las tinieblas de este siglo, contra huestes espirituales de maldad en las regiones celestes. 13Por tanto, tomad toda la armadura de Dios, para que podáis resistir en el día malo, y habiendo acabado todo, estar firmes.” Efesios 6:10-13 Versión Reina Valera 1960 en el texto anterior queremos resaltar tres aspectos importantes, primero la armadura de Dios es la que debemos usar no la nuestra, segundo, solo los corazones transformados pueden tomar la armadura de Dios, por esto vemos como el Apóstol habla a los hermanos, y tercero que la Armadura de Dios es contra las fuerzas espirituales del mal en los lugares celestiales, esto es muy importante, ya que, no es una armadura física, es espiritual en el alma, y práctica para nuestra vida diaria, por ello encontraremos ejemplos Bíblicos y cotidianos para nuestro caminar en la vida cristiana en cada pieza porque estamos en guerra.`
+  String get AngelMessageFirstLevelContent {
+    return Intl.message(
+      '“10Por lo demás, hermanos míos, fortaleceos en el Señor, y en el poder de su fuerza. 11Vestíos de toda la armadura de Dios, para que podáis estar firmes contra las asechanzas del diablo. 12Porque no tenemos lucha contra sangre y carne, sino contra principados, contra potestades, contra los gobernadores de las tinieblas de este siglo, contra huestes espirituales de maldad en las regiones celestes. 13Por tanto, tomad toda la armadura de Dios, para que podáis resistir en el día malo, y habiendo acabado todo, estar firmes.” Efesios 6:10-13 Versión Reina Valera 1960 en el texto anterior queremos resaltar tres aspectos importantes, primero la armadura de Dios es la que debemos usar no la nuestra, segundo, solo los corazones transformados pueden tomar la armadura de Dios, por esto vemos como el Apóstol habla a los hermanos, y tercero que la Armadura de Dios es contra las fuerzas espirituales del mal en los lugares celestiales, esto es muy importante, ya que, no es una armadura física, es espiritual en el alma, y práctica para nuestra vida diaria, por ello encontraremos ejemplos Bíblicos y cotidianos para nuestro caminar en la vida cristiana en cada pieza porque estamos en guerra.',
+      name: 'AngelMessageFirstLevelContent',
       desc: '',
       args: [],
     );
