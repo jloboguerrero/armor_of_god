@@ -1,5 +1,3 @@
-import 'package:armor_of_god/generated/l10n.dart';
-import 'package:armor_of_god/utils/common.dart';
 import 'package:flutter/material.dart';
 
 class DialogStones extends StatelessWidget {
