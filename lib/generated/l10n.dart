@@ -1270,6 +1270,96 @@ class S {
     );
   }
 
+  /// `Efesios 6:17a`
+  String get armor5Title {
+    return Intl.message(
+      'Efesios 6:17a',
+      name: 'armor5Title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Y tomad el yelmo de la salvación”`
+  String get armor5Verse {
+    return Intl.message(
+      '“Y tomad el yelmo de la salvación”',
+      name: 'armor5Verse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El yelmo o casco en la armadura tiene la función de cubrir principalmente la cabeza del soldado, la cabeza es una parte fundamental y debido a su importancia debe ser muy bien protegida, el yelmo de la salvación nos indica que como creyentes debemos cuidar nuestra mente con la certeza de la salvación en Cristo, ya que, un soldado temeroso es un blanco fácil del adversario, por lo cual debemos tener claro que somos justificados, esto es declarados justos por medio de Jesucristo como nos lo dice Efesios 2:8-9 `
+  String get armor5Text1 {
+    return Intl.message(
+      'El yelmo o casco en la armadura tiene la función de cubrir principalmente la cabeza del soldado, la cabeza es una parte fundamental y debido a su importancia debe ser muy bien protegida, el yelmo de la salvación nos indica que como creyentes debemos cuidar nuestra mente con la certeza de la salvación en Cristo, ya que, un soldado temeroso es un blanco fácil del adversario, por lo cual debemos tener claro que somos justificados, esto es declarados justos por medio de Jesucristo como nos lo dice Efesios 2:8-9 ',
+      name: 'armor5Text1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; 9 no por obras, para que nadie se gloríe” `
+  String get armor5Text2 {
+    return Intl.message(
+      '“Porque por gracia sois salvos por medio de la fe; y esto no de vosotros, pues es don de Dios; 9 no por obras, para que nadie se gloríe” ',
+      name: 'armor5Text2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Solo el sacrificio perfecto de Cristo nos hace salvos y no nuestras obras, eso es lo que hace que tengamos un ancla firme y fuerte para vivir con total certeza. Saber que como creyentes cuando muramos iremos al paraíso por haber creído en la obra de Cristo y no al infierno nos da el consuelo ante una prueba severa, aunque esta prueba haya sido ocasionada por tu mismo pecado, el casco o certeza de salvación te va ayudar a rechazar los pensamientos que por tu pecado ya no eres salvo, esto es muy común cuando caemos, pero recordemos no es por obras es por gracia, un regalo inmerecido por los méritos de Cristo, aunque por supuesto debemos arrepentirnos porque abogado tenemos y como creyente debemos hacer obras, pero no para salvación, si no para ser santos como el Señor es Santo.`
+  String get armor5Text3 {
+    return Intl.message(
+      'Solo el sacrificio perfecto de Cristo nos hace salvos y no nuestras obras, eso es lo que hace que tengamos un ancla firme y fuerte para vivir con total certeza. Saber que como creyentes cuando muramos iremos al paraíso por haber creído en la obra de Cristo y no al infierno nos da el consuelo ante una prueba severa, aunque esta prueba haya sido ocasionada por tu mismo pecado, el casco o certeza de salvación te va ayudar a rechazar los pensamientos que por tu pecado ya no eres salvo, esto es muy común cuando caemos, pero recordemos no es por obras es por gracia, un regalo inmerecido por los méritos de Cristo, aunque por supuesto debemos arrepentirnos porque abogado tenemos y como creyente debemos hacer obras, pero no para salvación, si no para ser santos como el Señor es Santo.',
+      name: 'armor5Text3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Un misionero en un país extranjero con una amenaza real para su vida o la mujer que lucha contra el cáncer o el profesor que está dando una lección de historia y no sabe el momento de su muerte, pueden estar tranquilos al momento de la partida, ya que, tienen certeza del destino que tienen al lado de Cristo por haber creído en la obra de redención de Jesucristo.`
+  String get armor5TextPractice1 {
+    return Intl.message(
+      'Un misionero en un país extranjero con una amenaza real para su vida o la mujer que lucha contra el cáncer o el profesor que está dando una lección de historia y no sabe el momento de su muerte, pueden estar tranquilos al momento de la partida, ya que, tienen certeza del destino que tienen al lado de Cristo por haber creído en la obra de redención de Jesucristo.',
+      name: 'armor5TextPractice1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Esteban el primer mártir de Jesucristo, podemos verlo en Hechos:7 cuando estaba a punto de morir la certeza de su salvación le permitió decir estas palabras: `
+  String get armor5TextBible1 {
+    return Intl.message(
+      'Esteban el primer mártir de Jesucristo, podemos verlo en Hechos:7 cuando estaba a punto de morir la certeza de su salvación le permitió decir estas palabras: ',
+      name: 'armor5TextBible1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Y apedreaban a Esteban, mientras él invocaba y decía: “Señor Jesús, recibe mi espíritu. 60 Y puesto de rodillas, clamó a gran voz: Señor, no les tomes en cuenta este pecado. Y habiendo dicho esto, durmió.”`
+  String get armor5TextBible2 {
+    return Intl.message(
+      'Y apedreaban a Esteban, mientras él invocaba y decía: “Señor Jesús, recibe mi espíritu. 60 Y puesto de rodillas, clamó a gran voz: Señor, no les tomes en cuenta este pecado. Y habiendo dicho esto, durmió.”',
+      name: 'armor5TextBible2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En el caminar cristiano muy a nuestro pesar vamos a pecar entristeciendo al Señor, pero Él sabe eso y por eso nos dejó a nuestro eterno sumo sacerdote, si caes levántate en Él con esta certeza y si hoy estás con la duda de tu salvación por una condición de pecado, arrepiéntete y retoma la comunión con Cristo, un hijo nunca pierde esta condición.`
+  String get armor5TextLife1 {
+    return Intl.message(
+      'En el caminar cristiano muy a nuestro pesar vamos a pecar entristeciendo al Señor, pero Él sabe eso y por eso nos dejó a nuestro eterno sumo sacerdote, si caes levántate en Él con esta certeza y si hoy estás con la duda de tu salvación por una condición de pecado, arrepiéntete y retoma la comunión con Cristo, un hijo nunca pierde esta condición.',
+      name: 'armor5TextLife1',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Para enviar, responde todas las preguntas`
   String get answerAllQuestions {
     return Intl.message(
