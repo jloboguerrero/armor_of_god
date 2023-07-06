@@ -1010,6 +1010,266 @@ class S {
     );
   }
 
+  /// `Efesios 6:16`
+  String get armor4Title {
+    return Intl.message(
+      'Efesios 6:16',
+      name: 'armor4Title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Sobre todo, tomad el escudo de la fe, con que podáis apagar todos los dardos de fuego del maligno.”`
+  String get armor4Verse {
+    return Intl.message(
+      '“Sobre todo, tomad el escudo de la fe, con que podáis apagar todos los dardos de fuego del maligno.”',
+      name: 'armor4Verse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El escudo es un arma defensiva, como todas las piezas de la armadura es fundamental en la batalla, esta pieza tiene la particularidad de ser activa, porque no está fija, por lo que se debe estar atento de dónde viene el ataque o los ataques para usarlo con efectividad, estos ataques pueden venir de cualquier frente, interno `
+  String get armor4Text1 {
+    return Intl.message(
+      'El escudo es un arma defensiva, como todas las piezas de la armadura es fundamental en la batalla, esta pieza tiene la particularidad de ser activa, porque no está fija, por lo que se debe estar atento de dónde viene el ataque o los ataques para usarlo con efectividad, estos ataques pueden venir de cualquier frente, interno ',
+      name: 'armor4Text1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Job 3:1-3\n3 Después de esto abrió Job su boca, y maldijo su día. 2 Y exclamó Job, y dijo: 3 Perezca el día en que yo nací, Y la noche en que se dijo: Varón es concebido.`
+  String get armor4Text2 {
+    return Intl.message(
+      'Job 3:1-3\n3 Después de esto abrió Job su boca, y maldijo su día. 2 Y exclamó Job, y dijo: 3 Perezca el día en que yo nací, Y la noche en que se dijo: Varón es concebido.',
+      name: 'armor4Text2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Job 3:1-3, `
+  String get armor4Text3 {
+    return Intl.message(
+      'Job 3:1-3, ',
+      name: 'armor4Text3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `familia `
+  String get armor4Text4 {
+    return Intl.message(
+      'familia ',
+      name: 'armor4Text4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Job 2:9-10\n9 Entonces le dijo su mujer: ¿Aún retienes tu integridad? Maldice a Dios, y muérete. 10 Y él le dijo: Como suele hablar cualquiera de las mujeres fatuas, has hablado. ¿Qué? ¿Recibiremos de Dios el bien, y el mal no lo recibiremos? En todo esto no pecó Job con sus labios.`
+  String get armor4Text5 {
+    return Intl.message(
+      'Job 2:9-10\n9 Entonces le dijo su mujer: ¿Aún retienes tu integridad? Maldice a Dios, y muérete. 10 Y él le dijo: Como suele hablar cualquiera de las mujeres fatuas, has hablado. ¿Qué? ¿Recibiremos de Dios el bien, y el mal no lo recibiremos? En todo esto no pecó Job con sus labios.',
+      name: 'armor4Text5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Job 2:9-10, `
+  String get armor4Text6 {
+    return Intl.message(
+      'Job 2:9-10, ',
+      name: 'armor4Text6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `iglesia `
+  String get armor4Text7 {
+    return Intl.message(
+      'iglesia ',
+      name: 'armor4Text7',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Job 15:1-5\n15 Respondió Elifaz temanita, y dijo: 2 ¿Proferirá el sabio vana sabiduría, Y llenará su vientre de viento solano? 3 ¿Disputará con palabras inútiles, Y con razones sin provecho? 4 Tú también disipas el temor, Y menoscabas la oración delante de Dios. 5 Porque tu boca declaró tu iniquidad, Pues has escogido el hablar de los astutos.`
+  String get armor4Text8 {
+    return Intl.message(
+      'Job 15:1-5\n15 Respondió Elifaz temanita, y dijo: 2 ¿Proferirá el sabio vana sabiduría, Y llenará su vientre de viento solano? 3 ¿Disputará con palabras inútiles, Y con razones sin provecho? 4 Tú también disipas el temor, Y menoscabas la oración delante de Dios. 5 Porque tu boca declaró tu iniquidad, Pues has escogido el hablar de los astutos.',
+      name: 'armor4Text8',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Job 15:1-5, `
+  String get armor4Text9 {
+    return Intl.message(
+      'Job 15:1-5, ',
+      name: 'armor4Text9',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `maligno `
+  String get armor4Text10 {
+    return Intl.message(
+      'maligno ',
+      name: 'armor4Text10',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Job 1:9-12\n9 Respondiendo Satanás a Jehová, dijo: ¿Acaso teme Job a Dios de balde? 10 ¿No le has cercado alrededor a él y a su casa y a todo lo que tiene? Al trabajo de sus manos has dado bendición; por tanto, sus bienes han aumentado sobre la tierra. 11 Pero extiende ahora tu mano y toca todo lo que tiene, y verás si no blasfema contra ti en tu misma presencia. 12 Dijo Jehová a Satanás: He aquí, todo lo que tiene está en tu mano; solamente no pongas tu mano sobre él. Y salió Satanás de delante de Jehová.`
+  String get armor4Text11 {
+    return Intl.message(
+      'Job 1:9-12\n9 Respondiendo Satanás a Jehová, dijo: ¿Acaso teme Job a Dios de balde? 10 ¿No le has cercado alrededor a él y a su casa y a todo lo que tiene? Al trabajo de sus manos has dado bendición; por tanto, sus bienes han aumentado sobre la tierra. 11 Pero extiende ahora tu mano y toca todo lo que tiene, y verás si no blasfema contra ti en tu misma presencia. 12 Dijo Jehová a Satanás: He aquí, todo lo que tiene está en tu mano; solamente no pongas tu mano sobre él. Y salió Satanás de delante de Jehová.',
+      name: 'armor4Text11',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Job 1:9-12, `
+  String get armor4Text12 {
+    return Intl.message(
+      'Job 1:9-12, ',
+      name: 'armor4Text12',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `por lo cual debemos protegernos de las flechas de fuego del maligno, es decir de las mentiras, pero ¿Cómo?  El escudo es la fe, esto significa que debemos usar la fe para defendernos de las asechanzas del diablo en nuestra mente, Fe en la Palabra de Dios y en las promesas que Él ha dado en su Palabra. El maligno bombardeará tu mente con declaraciones mentirosas con la esperanza de golpear tu alma y hacerte creer en esas mentiras, pero recordemos que los ataques pueden venir no solo del enemigo, también de nosotros mismos, de otra persona incluso de las más cercanas o de una circunstancia.\n\nPor lo cual el Señor nos insta en Efesios 4: 23-27 23 `
+  String get armor4Text13 {
+    return Intl.message(
+      'por lo cual debemos protegernos de las flechas de fuego del maligno, es decir de las mentiras, pero ¿Cómo?  El escudo es la fe, esto significa que debemos usar la fe para defendernos de las asechanzas del diablo en nuestra mente, Fe en la Palabra de Dios y en las promesas que Él ha dado en su Palabra. El maligno bombardeará tu mente con declaraciones mentirosas con la esperanza de golpear tu alma y hacerte creer en esas mentiras, pero recordemos que los ataques pueden venir no solo del enemigo, también de nosotros mismos, de otra persona incluso de las más cercanas o de una circunstancia.\n\nPor lo cual el Señor nos insta en Efesios 4: 23-27 23 ',
+      name: 'armor4Text13',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `y renovaos en el espíritu de vuestra mente, 24 y vestíos del nuevo hombre, creado según Dios en la justicia y santidad de la verdad. 25 por lo cual, desechando la mentira, hablad verdad cada uno con su prójimo; porque somos miembros los unos de los otros. 26 airaos, pero no pequéis; no se ponga el sol sobre vuestro enojo, 27 ni deis lugar al diablo. `
+  String get armor4Text14 {
+    return Intl.message(
+      'y renovaos en el espíritu de vuestra mente, 24 y vestíos del nuevo hombre, creado según Dios en la justicia y santidad de la verdad. 25 por lo cual, desechando la mentira, hablad verdad cada uno con su prójimo; porque somos miembros los unos de los otros. 26 airaos, pero no pequéis; no se ponga el sol sobre vuestro enojo, 27 ni deis lugar al diablo. ',
+      name: 'armor4Text14',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleven, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido.`
+  String get armor4Text15 {
+    return Intl.message(
+      'Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleven, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido.',
+      name: 'armor4Text15',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Muchas veces enfrentamos circunstancias en nuestras vidas, circunstancias que no escogeríamos vivir, y llegamos a pensar que el Señor no está en el asunto, pero si tenemos fe en lo que dice su Palabra, creeremos que esas circunstancias serán para nuestro bien, porque para los que amamos a Dios todo opera para bien como lo dice `
+  String get armor4TextPractice1 {
+    return Intl.message(
+      'Muchas veces enfrentamos circunstancias en nuestras vidas, circunstancias que no escogeríamos vivir, y llegamos a pensar que el Señor no está en el asunto, pero si tenemos fe en lo que dice su Palabra, creeremos que esas circunstancias serán para nuestro bien, porque para los que amamos a Dios todo opera para bien como lo dice ',
+      name: 'armor4TextPractice1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Romanos 8:28\n28 Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien, esto es, a los que conforme a su propósito son llamados.`
+  String get armor4TextPractice2 {
+    return Intl.message(
+      'Romanos 8:28\n28 Y sabemos que a los que aman a Dios, todas las cosas les ayudan a bien, esto es, a los que conforme a su propósito son llamados.',
+      name: 'armor4TextPractice2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Romanos 8:28, `
+  String get armor4TextPractice3 {
+    return Intl.message(
+      'Romanos 8:28, ',
+      name: 'armor4TextPractice3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `de esta manera estaremos usando el escudo de la fe contra las mentiras que quieren implantarse en nuestros corazones. `
+  String get armor4TextPractice4 {
+    return Intl.message(
+      'de esta manera estaremos usando el escudo de la fe contra las mentiras que quieren implantarse en nuestros corazones. ',
+      name: 'armor4TextPractice4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En la Biblia podemos ver un caso de alguien herido por una flecha y ese es Saúl, el primer rey de Israel. Cuando las mujeres de Israel cantaron la canción “Saúl ha matado a sus miles, y David a sus diez miles”, `
+  String get armor4TextBible1 {
+    return Intl.message(
+      'En la Biblia podemos ver un caso de alguien herido por una flecha y ese es Saúl, el primer rey de Israel. Cuando las mujeres de Israel cantaron la canción “Saúl ha matado a sus miles, y David a sus diez miles”, ',
+      name: 'armor4TextBible1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Samuel 18:1-30\n18 Aconteció que cuando él hubo acabado de hablar con Saúl, el alma de Jonatán quedó ligada con la de David, y lo amó Jonatán como a sí mismo. 2 Y Saúl le tomó aquel día, y no le dejó volver a casa de su padre. 3 E hicieron pacto Jonatán y David, porque él le amaba como a sí mismo. 4 Y Jonatán se quitó el manto que llevaba, y se lo dio a David, y otras ropas suyas, hasta su espada, su arco y su talabarte. 5 Y salía David a dondequiera que Saúl le enviaba, y se portaba prudentemente. Y lo puso Saúl sobre gente de guerra, y era acepto a los ojos de todo el pueblo, y a los ojos de los siervos de Saúl. 6 Aconteció que cuando volvían ellos, cuando David volvió de matar al filisteo, salieron las mujeres de todas las ciudades de Israel cantando y danzando, para recibir al rey Saúl, con panderos, con cánticos de alegría y con instrumentos de música. 7 Y cantaban las mujeres que danzaban, y decían: Saúl hirió a sus miles, Y David a sus diez miles. 8 Y se enojó Saúl en gran manera, y le desagradó este dicho, y dijo: A David dieron diez miles, y a mí miles; no le falta más que el reino. 9 Y desde aquel día Saúl no miró con buenos ojos a David. 10 Aconteció al otro día, que un espíritu malo de parte de Dios tomó a Saúl, y él desvariaba en medio de la casa. David tocaba con su mano como los otros días; y tenía Saúl la lanza en la mano. 11 Y arrojó Saúl la lanza, diciendo: Enclavaré a David a la pared. Pero David lo evadió dos veces. 12 Mas Saúl estaba temeroso de David, por cuanto Jehová estaba con él, y se había apartado de Saúl; 13 por lo cual Saúl lo alejó de sí, y le hizo jefe de mil; y salía y entraba delante del pueblo. 14 Y David se conducía prudentemente en todos sus asuntos, y Jehová estaba con él. 15 Y viendo Saúl que se portaba tan prudentemente, tenía temor de él. 16 Mas todo Israel y Judá amaba a David, porque él salía y entraba delante de ellos.`
+  String get armor4TextBible2 {
+    return Intl.message(
+      '1 Samuel 18:1-30\n18 Aconteció que cuando él hubo acabado de hablar con Saúl, el alma de Jonatán quedó ligada con la de David, y lo amó Jonatán como a sí mismo. 2 Y Saúl le tomó aquel día, y no le dejó volver a casa de su padre. 3 E hicieron pacto Jonatán y David, porque él le amaba como a sí mismo. 4 Y Jonatán se quitó el manto que llevaba, y se lo dio a David, y otras ropas suyas, hasta su espada, su arco y su talabarte. 5 Y salía David a dondequiera que Saúl le enviaba, y se portaba prudentemente. Y lo puso Saúl sobre gente de guerra, y era acepto a los ojos de todo el pueblo, y a los ojos de los siervos de Saúl. 6 Aconteció que cuando volvían ellos, cuando David volvió de matar al filisteo, salieron las mujeres de todas las ciudades de Israel cantando y danzando, para recibir al rey Saúl, con panderos, con cánticos de alegría y con instrumentos de música. 7 Y cantaban las mujeres que danzaban, y decían: Saúl hirió a sus miles, Y David a sus diez miles. 8 Y se enojó Saúl en gran manera, y le desagradó este dicho, y dijo: A David dieron diez miles, y a mí miles; no le falta más que el reino. 9 Y desde aquel día Saúl no miró con buenos ojos a David. 10 Aconteció al otro día, que un espíritu malo de parte de Dios tomó a Saúl, y él desvariaba en medio de la casa. David tocaba con su mano como los otros días; y tenía Saúl la lanza en la mano. 11 Y arrojó Saúl la lanza, diciendo: Enclavaré a David a la pared. Pero David lo evadió dos veces. 12 Mas Saúl estaba temeroso de David, por cuanto Jehová estaba con él, y se había apartado de Saúl; 13 por lo cual Saúl lo alejó de sí, y le hizo jefe de mil; y salía y entraba delante del pueblo. 14 Y David se conducía prudentemente en todos sus asuntos, y Jehová estaba con él. 15 Y viendo Saúl que se portaba tan prudentemente, tenía temor de él. 16 Mas todo Israel y Judá amaba a David, porque él salía y entraba delante de ellos.',
+      name: 'armor4TextBible2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Samuel 18:1-30, `
+  String get armor4TextBible3 {
+    return Intl.message(
+      '1 Samuel 18:1-30, ',
+      name: 'armor4TextBible3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `el diablo aprovechó esta oportunidad para envenenar su mente con el pensamiento de que David era una amenaza para su familia y su Reino. En los últimos capítulos, notamos cómo el maligno manipuló a Saúl a través de esa flecha de fuego cuando fue varias veces a matar a David. Si hubiera usado el escudo correctamente, habría tenido fe en el pensamiento de que el mismo Dios que lo ungió como rey seguramente defenderá su reino contra todas las amenazas.`
+  String get armor4TextBible4 {
+    return Intl.message(
+      'el diablo aprovechó esta oportunidad para envenenar su mente con el pensamiento de que David era una amenaza para su familia y su Reino. En los últimos capítulos, notamos cómo el maligno manipuló a Saúl a través de esa flecha de fuego cuando fue varias veces a matar a David. Si hubiera usado el escudo correctamente, habría tenido fe en el pensamiento de que el mismo Dios que lo ungió como rey seguramente defenderá su reino contra todas las amenazas.',
+      name: 'armor4TextBible4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Para combatir las mentiras que el Enemigo o nuestra naturaleza nos quiere hacer creer, se combate solo con la Fe en lo que el Señor nos dice a través de las escrituras.`
+  String get armor4TextLife1 {
+    return Intl.message(
+      'Para combatir las mentiras que el Enemigo o nuestra naturaleza nos quiere hacer creer, se combate solo con la Fe en lo que el Señor nos dice a través de las escrituras.',
+      name: 'armor4TextLife1',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Para enviar, responde todas las preguntas`
   String get answerAllQuestions {
     return Intl.message(
