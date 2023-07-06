@@ -57,11 +57,195 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1Verse": MessageLookupByLibrary.simpleMessage(
             "“Fique firme então, tendo seus lombos cingidos com a verdade,”"),
         "armor2": MessageLookupByLibrary.simpleMessage("Peitoral da Justiça"),
+        "armor2Text1": MessageLookupByLibrary.simpleMessage(
+            "A couraça é a peça da couraça que cobre o tronco, onde se localizam os órgãos vitais, isso é muito importante, pois um ferimento em um desses órgãos pode ser fatal. Cristo é justiça 1 Coríntios 1:30 "),
+        "armor2Text10": MessageLookupByLibrary.simpleMessage(
+            "assim seremos protegidos pela couraça da justiça, disse o rei e salmista Davi: "),
+        "armor2Text11": MessageLookupByLibrary.simpleMessage(
+            "Confie no Senhor e faça o bem; E você habitará na terra e se alimentará da verdade. 4 Deleite-se também no Senhor, e ele satisfará os desejos do seu coração. 5 Entrega o teu caminho ao Senhor, e confia nele; e ele o fará. 6 Ele mostrará a tua justiça como a luz, e a tua justiça como o meio-dia. 7 Fique calado perante Jeová e espere nele. Não se aborreça por causa daquele que prospera em seu caminho, por causa do homem que pratica o mal. Salmo 37:4-7. "),
+        "armor2Text12": MessageLookupByLibrary.simpleMessage(
+            "Observemos que quando você é atacado você não precisa fazer nada, não é como o escudo da fé onde você deve realizar uma ação para se proteger, mas se estivéssemos no outro cenário onde cabe a nós fazer o julgamento, devemos fazê-lo, porque se não o fizermos, não estaríamos operando a justiça de Deus. A couraça, como toda armadura, devemos levá-la antes de ir para a batalha, o que significa que devemos agir com retidão em todos os momentos e não ocasionalmente. A justiça faz parte da santificação, ou seja, do avanço à estatura de Cristo."),
+        "armor2Text2": MessageLookupByLibrary.simpleMessage(
+            "“Mas o próprio Deus uniu vocês a Cristo Jesus e também fez de Cristo nossa sabedoria, nossa justiça, nossa santificação e nossa libertação.” DDHH. "),
+        "armor2Text3": MessageLookupByLibrary.simpleMessage(
+            "Devemos entender que não é a nossa justiça, mas a justiça de Cristo que opera através de nós. Como crentes, devemos buscar a justiça como Jesus nos diz em Mateus 6:33 "),
+        "armor2Text4": MessageLookupByLibrary.simpleMessage(
+            "“Mas buscai primeiro o reino de Deus e a sua justiça, e todas estas coisas vos serão acrescentadas.” "),
+        "armor2Text5": MessageLookupByLibrary.simpleMessage(
+            "O que se quer dizer com isso é que no dia em que nos encontrarmos diante de um problema, provação ou dificuldade, a influência espiritual que temos enraizado nas sementes de Cristo Jesus nos protegerá, pois, se buscarmos a justiça de Deus, nossos órgãos vitais ser protegidos, órgãos vitais podem ser a própria vida, família, recursos. Para vestir essa peça da armadura de Deus precisamos agir sempre com retidão, e isso é até ficar calado quando não cabe a nós exercer o juízo, pois o Senhor estabeleceu juízes que devem exercer a justiça, a justiça tem parte ativa - passiva , ativo no sentido de que devemos buscá-lo, ou seja, agir com justiça em qualquer situação Deuteronômio 1:16 "),
+        "armor2Text6": MessageLookupByLibrary.simpleMessage(
+            "“Ao manter audiência entre seus irmãos, eles devem julgar com justiça.” "),
+        "armor2Text7": MessageLookupByLibrary.simpleMessage(
+            "e passivo no sentido de que devemos esperar o tempo do julgamento e a pessoa que o exerce, veja "),
+        "armor2Text8": MessageLookupByLibrary.simpleMessage(
+            "Deuteronômio 25:1\n25 Se houver uma demanda entre alguns, e eles forem a tribunal para que os juízes os julguem, eles absolverão o justo e condenarão o culpado.\n\n1 Coríntios 6:4-5\n4 Se , então, você tem julgamentos sobre as coisas desta vida, você julga aqueles que são de menor estima na igreja? 5 Para te envergonhar eu digo isso. O que então, não há um homem sábio entre vocês, nem mesmo um, que possa julgar entre seus irmãos,"),
+        "armor2Text9": MessageLookupByLibrary.simpleMessage(
+            "Deuteronômio 25:1, 1 Coríntios 6:4-5, "),
+        "armor2TextBible1": MessageLookupByLibrary.simpleMessage(
+            "A Bíblia, que é a palavra de Deus, é verdadeira, e nos conta os fatos como são para nosso exemplo, exemplo que quando não somos julgados com a justiça de Deus não somos protegidos, é o rei Davi diante dos atos de seu filho Amnom. Sua família foi muito afetada por eventos muito fortes, veja "),
+        "armor2TextBible2": MessageLookupByLibrary.simpleMessage(
+            "2 Samuel 13\n13 Depois disso, Absalão, filho de Davi, tendo uma bela irmã chamada Tamar, Amnom, filho de Davi, apaixonou-se por ela. 2 E Amnon ficou aflito a ponto de adoecer por causa de Tamar, sua irmã, porque porque ela era virgem, parecia a Amnon que seria difícil fazer qualquer coisa com ela. 3 E Amnon tinha um amigo chamado Jonadab, filho de Simea, irmão de David; e Jonadab era um homem muito astuto. 4 E ele lhe disse: Filho do rei, por que você emagrece assim de dia para dia? Você não vai descobrir para mim? E Amnon respondeu-lhe: Eu amo Tamar, irmã de Absalão, meu irmão. 5 E Jonadab disse-lhe: Deita-te na tua cama e finge que estás doente; e quando teu pai vier visitar-te, dize-lhe: Rogo-te que minha irmã Tamar venha, para que me dê de comer, e prepare-me alguma comida, para que, quando eu a vir, possa comê-la dela. mão. 6 Então Amnon se deitou e fingiu que estava doente; e o rei veio visitá-lo. E Amnon disse ao rei: Rogo-te que minha irmã Tamar venha e faça dois flocos diante de mim, para que eu coma de sua mão. e fazê-lo comer. 8 E Tamar foi à casa de seu irmão Amnon, que estava deitado; e ele pegou a farinha, e a amassou, e fez flocos diante dele, e os cozinhou. 9 Então ele pegou a frigideira e os trouxe diante dele; mas ele não queria comer. E Amnon disse: Expulse todos daqui. E todos eles saíram de lá. 10 Então Amnon disse a Tamar: Traga a comida para o quarto, para que eu coma de sua mão. E tomando Tamar os flocos que ela havia preparado, ela os levou para seu irmão Amnon no quarto. 11 E, quando ela os pôs diante dele para comer, ele a segurou e disse-lhe: Vem, minha irmã, deita-te comigo. 12 Ela então lhe respondeu: Não, meu irmão, não me faças violência; porque não deveria ser feito assim em Israel. Não faça uma coisa tão perversa. 13 Pois para onde iria eu com a minha desonra? E até você seria considerado um dos ímpios em Israel. Rogo-te, então, agora, que fales ao rei, para que ele não me negue a ti. 14 Mas ele não quis ouvi-la, mas, sendo mais capaz do que ela, forçou-a, e deitou-se com ela."),
+        "armor2TextBible3":
+            MessageLookupByLibrary.simpleMessage("2 Samuel 13, "),
+        "armor2TextBible4": MessageLookupByLibrary.simpleMessage(
+            "Exercer a justiça do Senhor é vida ou morte. Temos o caso oposto com Moisés quando ele desceu da presença do Senhor na montanha e o povo havia construído um ídolo, Moisés exerceu o julgamento de Deus e trouxe como consequência conhecer aqueles que tinham um coração disposto para o Senhor para ver "),
+        "armor2TextBible5": MessageLookupByLibrary.simpleMessage(
+            "Êxodo 32\nQuando o povo viu que Moisés demorava a descer da montanha, eles se aproximaram de Arão e disseram: Levante-se, faça-nos deuses que vão adiante de nós. Não sabemos o que aconteceu com esse Moisés, o homem que nos tirou da terra do Egito. 2 E Aaron disse-lhes: Quebrai os brincos de ouro que estão nas orelhas de vossas mulheres, vossos filhos e vossas filhas, e trazei-os para mim. 3 Então todo o povo abriu os brincos de ouro que traziam nas orelhas e os trouxe a Arão; 4 e ele os tomou de suas mãos, e o moldou com um buril, e fez dele um bezerro de fundição. Então disseram: Israel, estes são os teus deuses, que te tiraram da terra do Egito. 5 E quando Aaron viu isso, ele construiu um altar diante do bezerro; e Aarão proclamou, e disse: Amanhã haverá festa ao Senhor. 6 E levantaram-se cedo no dia seguinte, e ofereceram holocaustos, e apresentaram ofertas pacíficas; e o povo sentou-se para comer e beber, e levantou-se para brincar.7 Então o Senhor disse a Moisés: Vai, desce, porque o teu povo, que tiraste da terra do Egito, se corrompeu. 8 Eles logo se desviaram do caminho que lhes ordenei; Fizeram para si um bezerro de fundição, e o adoraram, e lhe ofereceram sacrifícios, e disseram: Israel, estes são os teus deuses, que te tiraram da terra do Egito. 9 Jeová disse mais a Moisés: Tenho visto este povo, que por sinal é povoado de teimoso pescoço. 10 Agora, pois, que a minha cólera arda sobre eles e os consuma; e de ti farei uma grande nação. 11 Então Moisés orou na presença do SENHOR seu Deus, e disse: Ó SENHOR, por que se acendeu a tua ira contra o teu povo, que tiraste da terra do Egito com grande poder e com mão forte? 12 Por que falariam os egípcios, dizendo: Para mal os tirou, para os matar nos montes, e para os destruir de sobre a face da terra? Desvia-te do furor da tua ira e arrepende-te deste mal contra o teu povo. 13 Lembra-te de Abraão, de Isaque e de Israel, teus servos, aos quais juraste por ti mesmo, e lhes disseste: Multiplicarei a tua descendência como as estrelas do céu; e darei aos teus descendentes toda esta terra de que falei, e eles a herdarão para sempre."),
+        "armor2TextBible6": MessageLookupByLibrary.simpleMessage("Êxodo 32."),
+        "armor2TextLife1": MessageLookupByLibrary.simpleMessage(
+            "Para cada circunstância de julgamento, deve-se buscar a direção, a justiça do Senhor ativamente e se você não for chamado para exercer a sentença de Deus, espere Nele e continue orando."),
+        "armor2TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "Se alguém te processar por qualquer motivo sem razão, a justiça de Deus te protegerá, Se você andar nela, já que agiu com retidão e é conhecido como um cristão verdadeiro, todos os ataques estão destinados a perecer. Ele e não você exibirá sua justiça como a luz em seu tempo."),
+        "armor2Title": MessageLookupByLibrary.simpleMessage("Efésios 6:14b"),
+        "armor2Verse": MessageLookupByLibrary.simpleMessage(
+            "“e vestido com a couraça da justiça,”"),
         "armor3": MessageLookupByLibrary.simpleMessage(
             "Sapatos com a Vontade de Anunciar o Evangelho da Paz"),
+        "armor3Text1": MessageLookupByLibrary.simpleMessage(
+            "Esta peça da armadura de Deus requer que nos lembremos para que servem os pés. Como bem sabemos, os pés servem para andar, correr, pular, correr, etc., mas seu significado principal está relacionado à palavra andar, e andar fala da nossa vida, por isso não podemos ficar descalços, muito menos andar uma batalha, o Senhor nos deixou providos de tudo o que precisamos, então nos perguntamos com que sapatos estamos caminhando? Caminhamos no Evangelho? que é uma metáfora para viver na Palavra de Deus ou estamos andando em nossa própria sabedoria? Se sim, estamos descalços, é importante que você saiba que o cerne do evangelho é a morte e ressurreição de Cristo, como diz 1 Coríntios: 15: 3-6 "),
+        "armor3Text10": MessageLookupByLibrary.simpleMessage(
+            "Ao ler a Palavra de Deus e compartilhá-la com as pessoas ao seu redor, a paz será fruto de sua esfera de influência. Agora, convém esclarecer que isso não significa que onde pregarmos o Evangelho haverá paz, pois, o próprio Senhor nos diz, quando forem a um lugar cheio de incrédulos não terão paz, terão guerra segundo ao que nosso Senhor predisse, Senhor Jesus Cristo quando disse que não viria trazer paz, mas espada, "),
+        "armor3Text11": MessageLookupByLibrary.simpleMessage(
+            "Mateus 10:34-36\n34 Não penseis que vim trazer paz à terra; Não vim trazer paz, mas espada. 35 Pois vim colocar o homem contra seu pai, a filha contra sua mãe, e a nora contra sua sogra; 36 e os inimigos do homem serão os da sua casa."),
+        "armor3Text12":
+            MessageLookupByLibrary.simpleMessage("Mateus 10:34-36. "),
+        "armor3Text13": MessageLookupByLibrary.simpleMessage(
+            "Você terá que desencadear primeiro a batalha espiritual e o fruto dela será a paz. Como está escrito em Isaías 32:17, "),
+        "armor3Text14": MessageLookupByLibrary.simpleMessage(
+            "“O fruto dessa justiça será a paz; seu efeito será tranqüilidade e confiança para sempre.”"),
+        "armor3Text2": MessageLookupByLibrary.simpleMessage(
+            "“3 Porque, antes de tudo, vos ensinei o que também recebi: que Cristo morreu por nossos pecados, segundo as Escrituras; 4 e que foi sepultado, e que ressuscitou ao terceiro dia, segundo as Escrituras; 5 e que ele apareceu a Cefas, e depois aos doze. 6 Mais tarde ele apareceu a mais de quinhentos irmãos ao mesmo tempo, muitos dos quais ainda estão vivos, e outros que já dormem.” "),
+        "armor3Text3": MessageLookupByLibrary.simpleMessage(
+            "O que significa isto? Porque caminhar expressa uma ação em progressão, uma ação que realizamos para chegar a um determinado ponto, é uma ação que não é para uma ocasião, é algo que fazemos durante toda a nossa vida, então se relacionarmos isso com a Palavra de Deus, podemos inferir que você tem que viver nele; Para ter um depósito com a ajuda do Espírito e viver de acordo com as escrituras, essa caminhada fala aos que estão ao nosso redor porque não se trata do nosso evangelho, é viver segundo o Senhor e viver a mensagem que proclamamos, pois , como os crentes são comissionados a pregar o evangelho, Mateus 28: 19-20 "),
+        "armor3Text4": MessageLookupByLibrary.simpleMessage(
+            "“19 Ide, pois, ensinai todas as nações, batizando-as em nome do Pai, e do Filho, e do Espírito Santo; 20 ensinando-os a observar todas as coisas que vos tenho ordenado; e eis que estou convosco todos os dias, até o fim do mundo. Amém.” "),
+        "armor3Text5":
+            MessageLookupByLibrary.simpleMessage("Isaías: 52:7 nos diz: "),
+        "armor3Text6": MessageLookupByLibrary.simpleMessage(
+            "Como são belos sobre os montes os pés daquele que traz boas novas, daquele que anuncia a paz, daquele que traz boas novas, daquele que anuncia a salvação, daquele que diz a Sião: Teu Deus reina! "),
+        "armor3Text7": MessageLookupByLibrary.simpleMessage(
+            "Não devemos nos privar dessa beleza.\n\n"),
+        "armor3Text8": MessageLookupByLibrary.simpleMessage(
+            "Mas onde está a paz nessa equação? Bem, o Evangelho é paz, porque Cristo é paz, João 16:33 diz "),
+        "armor3Text9": MessageLookupByLibrary.simpleMessage(
+            "Eu vos disse estas coisas para que em mim encontreis a paz. Neste mundo você enfrentará aflições, mas tenha coragem! Eu superei o mundo. "),
+        "armor3TextBible1": MessageLookupByLibrary.simpleMessage(
+            "O apóstolo Paulo que antes era Saulo, um estudioso, não usava sua sabedoria em suas pregações, ele pregava somente a Cristo, conforme expresso em 1 Coríntios 2:1-5 "),
+        "armor3TextBible2": MessageLookupByLibrary.simpleMessage(
+            "“Assim, irmãos, quando vim a vocês para anunciar o testemunho de Deus, não fui com excelência de palavras ou sabedoria. 2 Porque nada decidi saber entre vós, senão a Jesus Cristo, e este crucificado. 3 E estive entre vós com fraqueza, e muito temor e tremor; 4 e nem a minha palavra nem a minha pregação consistiram em palavras persuasivas de sabedoria humana, mas em demonstração do Espírito e de poder, 5 para que a vossa fé não se baseie na sabedoria dos homens, mas no poder de Deus”."),
+        "armor3TextLife1": MessageLookupByLibrary.simpleMessage(
+            "Para usar esta peça da armadura de Deus, devemos ler a Palavra de Deus todos os dias de forma contínua e progressiva, compartilhando-a com as pessoas ao nosso redor com o objetivo de que vejam o evangelho de Cristo e a paz inunde seus corações. Deixe a nossa vida falar e quando tivermos a oportunidade de pregar a Cristo, pensemos que quando um incrédulo morre abre os olhos no inferno."),
+        "armor3TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "Em uma batalha real com alguém, nessa situação você usa os pés para se movimentar e acertar o oponente. Portanto, quando você está discutindo com alguém com os argumentos da verdade para quebrar as fortalezas mentais de satanás, você deve ter a paz como seu objetivo, a mentalidade de querer paz em sua vida, não o objetivo da auto-glória, assim. o argumento vencedor, já que o centro é Cristo."),
+        "armor3Title": MessageLookupByLibrary.simpleMessage("Efésios 6:15"),
+        "armor3Verse": MessageLookupByLibrary.simpleMessage(
+            "“E calçai os pés na preparação do evangelho da paz.”"),
         "armor4": MessageLookupByLibrary.simpleMessage("Escudo da Fé"),
+        "armor4Text1": MessageLookupByLibrary.simpleMessage(
+            "O escudo é uma arma defensiva, como todas as peças de armadura é essencial em batalha, esta peça tem a particularidade de ser ativa, pois não é fixa, pelo que deve estar atento de onde vem o ataque ou ataques para poder utilizá-lo efetivamente, esses ataques podem vir de qualquer frente, "),
+        "armor4Text10": MessageLookupByLibrary.simpleMessage("malvado "),
+        "armor4Text11": MessageLookupByLibrary.simpleMessage(
+            "Jó 1:9-12\n9 Satanás, respondendo a Jeová, disse: Jó teme a Deus em vão? 10 Você não cercou ele e sua casa e tudo o que ele tem? À obra das suas mãos deste a bênção; portanto, seus bens aumentaram na terra. 11 Agora, porém, estende a mão e toca em tudo o que ele tem, e verás se ele não blasfema contra ti mesmo na tua presença. 12 O Senhor disse a Satanás: Eis que tudo o que ele tem está em tuas mãos; só não coloque a mão nele. E Satanás saiu de diante do SENHOR."),
+        "armor4Text12": MessageLookupByLibrary.simpleMessage("Jó 1:9-12, "),
+        "armor4Text13": MessageLookupByLibrary.simpleMessage(
+            "para o qual devemos nos proteger das flechas de fogo do maligno, ou seja, da mentira, mas como? O escudo é a fé, isso significa que devemos usar a fé para nos defender das ciladas do diabo em nossas mentes, Fé na Palavra de Deus e nas promessas que Ele deu em Sua Palavra. O maligno vai bombardear sua mente com declarações mentirosas na esperança de atingir sua alma e fazer você acreditar nessas mentiras, mas lembremos que os ataques podem vir não só do inimigo, mas também de nós mesmos, de outra pessoa, até mesmo dos mais próximos. ou de uma circunstância.\n\nPara o qual o Senhor nos exorta em Efésios 4: 23-27 23 "),
+        "armor4Text14": MessageLookupByLibrary.simpleMessage(
+            "e renovai-vos no espírito da vossa mente, 24 e revesti-vos do novo homem, criado segundo Deus em justiça e verdadeira santidade. 25 Portanto, rejeitando a mentira, fale cada um a verdade com o seu próximo; pois somos membros uns dos outros. 26 fique com raiva, mas não peque; não deixe que o sol se ponha sobre a sua ira, 27 nem dê lugar ao diabo. "),
+        "armor4Text15": MessageLookupByLibrary.simpleMessage(
+            "Como podem ver, o verbo renovar está no presente contínuo, e o verbo renovar é fazer de novo, ou seja, é algo ativo, para que não acreditemos nas mentiras que carregam, dando ensejo ao inimigo, e aquele dardo que não se apaga pode nos ferir. Mentiras como Deus não é bom, a Graça de Deus não é suficiente, não consigo esquecer meu passado, andar com Cristo não é para mim e muito mais. Porém, uma vez atingido por uma flecha flamejante, o que fazer? A fé é definitivamente necessária, mas a armadura de Deus é completa e cada peça é complementada, se uma flecha feriu sua mente, outra peça é usada para drenar o veneno e tirar a flecha, e essa é a Espada do Espírito. Você usa a Palavra de Deus para desmantelar a mentira que perfurou seu coração. Como uma lâmina cirúrgica usada para curar um paciente, a verdade deve ser usada para combater o dardo inflamado recebido."),
+        "armor4Text2": MessageLookupByLibrary.simpleMessage(
+            "Jó 3:1-3\n3 Depois disso, Jó abriu a boca e amaldiçoou o seu dia. 2 E Jó exclamou, e disse: 3 Pereça o dia em que nasci, e a noite em que foi dito: Macho foi concebido."),
+        "armor4Text3": MessageLookupByLibrary.simpleMessage("Jó 3:1-3, "),
+        "armor4Text4": MessageLookupByLibrary.simpleMessage("família "),
+        "armor4Text5": MessageLookupByLibrary.simpleMessage(
+            "Jó 2:9-10\n9 Então sua mulher lhe disse: Ainda conservas a tua integridade? Amaldiçoe a Deus e morra. 10 E ele disse-lhe: Como costuma falar qualquer das mulheres tolas, tu falaste. Que? Receberemos o bem de Deus e não receberemos o mal? Em tudo isso, Jó não pecou com os lábios."),
+        "armor4Text6": MessageLookupByLibrary.simpleMessage("Jó 2:9-10, "),
+        "armor4Text7": MessageLookupByLibrary.simpleMessage("igreja "),
+        "armor4Text8": MessageLookupByLibrary.simpleMessage(
+            "Jó 15:1-5\n15 Elifaz Temanita respondeu, e disse: 2 Porventura o sábio proferirá vã sabedoria, e encherá o seu ventre com o vento oriental? 3 Ele argumentará com palavras inúteis, E com razões inúteis? 4 Você também dissipa o medo, e mina a oração diante de Deus. 5 Porque a tua boca declarou a tua iniquidade, porque escolheste a fala dos astutos."),
+        "armor4Text9": MessageLookupByLibrary.simpleMessage("Jó 15:1-5, "),
+        "armor4TextBible1": MessageLookupByLibrary.simpleMessage(
+            "Na Bíblia podemos ver o caso de alguém ferido por uma flecha e esse é Saul, o primeiro rei de Israel. Quando as mulheres de Israel cantaram a canção “Saul matou seus milhares, e Davi seus dez milhares”, "),
+        "armor4TextBible2": MessageLookupByLibrary.simpleMessage(
+            "1 Samuel 18:1-30\n18 Aconteceu que, quando acabou de falar com Saul, a alma de Jônatas ligou-se à de Davi, e Jônatas o amou como a si mesmo. 2 E Saul o tomou naquele dia, e não o deixou voltar para a casa de seu pai. 3 E Jônatas e Davi fizeram aliança, porque o amava como a si mesmo. 4 E Jônatas tirou o manto que vestia e o deu a Davi, e outras roupas suas, até sua espada, seu arco e seu cinto. 5 E Davi ia aonde quer que Saul o enviasse, e se comportava com prudência. E Saul o pôs sobre os homens de guerra, e foi agradável aos olhos de todo o povo e aos olhos dos servos de Saul. 6 E aconteceu que, voltando eles, voltando Davi de matar o filisteu, as mulheres de todas as cidades de Israel saíram cantando e dançando, para receber o rei Saul, com tamborins, com cânticos de alegria e com instrumentos musicais. 7 E as mulheres que dançavam cantavam e diziam: Saul feriu os seus milhares, e David os seus dez milhares. 8 E Saul ficou muito irado, e esta palavra o desagradou, e ele disse: Eles deram a Davi dez milhares, e milhares a mim; falta-lhe apenas o reino. 9 E desde aquele dia Saul não olhou com benevolência para Davi. 10 Sucedeu no dia seguinte que um espírito mau da parte de Deus arrebatou a Saul, e ele delirou no meio da casa. David brincou com a mão como nos outros dias; e Saul tinha a lança na mão. 11 E Saul atirou a lança, dizendo: Pregarei Davi na parede. Mas Davi o evitou duas vezes. 12 Mas Saul temia a Davi, porque o Senhor era com ele, e se havia apartado de Saul; 13 Pelo que Saul o tirou de si, e o pôs por comandante de mil; e ele saiu e entrou antes do povo. 14 E Davi se portava com prudência em todos os seus negócios, e o Senhor era com ele. 15 E, quando Saul viu que ele se comportava com tanta prudência, teve medo dele. 16 Mas todo o Israel e Judá amavam a Davi, porque ele saía e entrava diante deles."),
+        "armor4TextBible3":
+            MessageLookupByLibrary.simpleMessage("1 Samuel 18:1-30, "),
+        "armor4TextBible4": MessageLookupByLibrary.simpleMessage(
+            "o diabo aproveitou a oportunidade para envenenar sua mente com o pensamento de que Davi era uma ameaça para sua família e seu reino. Nos últimos capítulos, notamos como o maligno manipulou Saul através daquela flecha de fogo quando ele foi diversas vezes matar Davi. Se ele tivesse usado o escudo corretamente, ele teria fé no pensamento de que o mesmo Deus que o ungiu como rei certamente defenderia seu reino contra todas as ameaças."),
+        "armor4TextLife1": MessageLookupByLibrary.simpleMessage(
+            "Para combater as mentiras que o Inimigo ou nossa natureza quer que acreditemos, lutamos apenas com Fé no que o Senhor nos diz através das escrituras."),
+        "armor4TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "Muitas vezes enfrentamos circunstâncias em nossas vidas, circunstâncias que não escolheríamos viver, e chegamos a pensar que o Senhor não está no assunto, mas se tivermos fé no que Sua Palavra diz, acreditaremos que essas circunstâncias seja para o nosso bem, porque para o que amamos a Deus tudo coopera para o melhor como ele diz "),
+        "armor4TextPractice2": MessageLookupByLibrary.simpleMessage(
+            "Romanos 8:28\n28 E sabemos que todas as coisas cooperam para o bem daqueles que amam a Deus, isto é, daqueles que são chamados segundo o seu propósito."),
+        "armor4TextPractice3":
+            MessageLookupByLibrary.simpleMessage("Romanos 8:28, "),
+        "armor4TextPractice4": MessageLookupByLibrary.simpleMessage(
+            "assim estaremos usando o escudo da fé contra as mentiras que querem ser implantadas em nossos corações. "),
+        "armor4Title": MessageLookupByLibrary.simpleMessage("Efésios 6:16"),
+        "armor4Verse": MessageLookupByLibrary.simpleMessage(
+            "“Acima de tudo, leve o escudo da fé, com o qual você pode extinguir todos os dardos inflamados do maligno.”"),
         "armor5": MessageLookupByLibrary.simpleMessage("Elmo da Salvação"),
+        "armor5Text1": MessageLookupByLibrary.simpleMessage(
+            "O capacete ou capacete na armadura tem a função de cobrir principalmente a cabeça do soldado, a cabeça é parte fundamental e devido a sua importância deve ser muito bem protegida, o capacete da salvação indica que como crentes devemos cuidar nossa mente com a certeza da salvação em Cristo, visto que um soldado medroso é um alvo fácil para o adversário, pelo que devemos ter claro que somos justificados, este é declarado justo por meio de Jesus Cristo como nos diz Efésios 2:8-9. "),
+        "armor5Text2": MessageLookupByLibrary.simpleMessage(
+            "“Pois pela graça você foi salvo por sua fé; e isso não vem de vocês: é dom de Deus; 9 não por obras, para que ninguém se glorie” "),
+        "armor5Text3": MessageLookupByLibrary.simpleMessage(
+            "Só o sacrifício perfeito de Cristo nos salva e não as nossas obras, é isso que nos faz ter uma âncora firme e forte para viver com total certeza. Saber que como crentes quando morrermos iremos para o paraíso por termos crido na obra de Cristo e não para o inferno nos dá conforto diante de uma dura prova, mesmo que essa prova tenha sido causada por seu próprio pecado, o capacete ou certeza da salvação vai te ajudar a rejeitar os pensamentos de que por causa do seu pecado você não é mais salvo, isso é muito comum quando caímos, mas vamos lembrar que não é pelas obras é pela graça, um dom imerecido pelos méritos de Cristo , embora é claro que devemos nos arrepender porque temos um advogado e como crente devemos fazer obras, mas não para a salvação, senão para sermos santos como o Senhor é Santo."),
+        "armor5TextBible1": MessageLookupByLibrary.simpleMessage(
+            "Esteban o primeiro mártir de Jesus Cristo, podemos ver em Atos:7 quando ele estava para morrer a certeza de sua salvação lhe permitiu dizer estas palavras: "),
+        "armor5TextBible2": MessageLookupByLibrary.simpleMessage(
+            "E apedrejaram Esteban, enquanto ele chamava e dizia: “Senhor Jesus, recebe o meu espírito. 60 E, ajoelhando-se, clamou em alta voz: Senhor, não lhes imputes este pecado. E tendo dito isso, ele dormiu.”"),
+        "armor5TextLife1": MessageLookupByLibrary.simpleMessage(
+            "Na caminhada cristã, muito para nosso pesar, vamos pecar, entristecendo o Senhor, mas Ele sabe disso e por isso nos deixou nosso eterno sumo sacerdote.Se cair, levante-se Nele com esta certeza e se hoje você está em dúvida de sua salvação por uma condição de pecado, arrependa-se e retome a comunhão com Cristo, uma criança nunca perde esta condição."),
+        "armor5TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "Um missionário em um país estrangeiro com uma ameaça real à sua vida, ou a mulher que luta contra o câncer, ou o professor que dá aula de história e não sabe o momento de sua morte, podem ficar tranquilos quando partirem porque, eles têm certeza do destino que eles têm ao lado de Cristo por terem acreditado na obra redentora de Jesus Cristo."),
+        "armor5Title": MessageLookupByLibrary.simpleMessage("Efésios 6:17a"),
+        "armor5Verse": MessageLookupByLibrary.simpleMessage(
+            "“E pegue o capacete da salvação”"),
         "armor6": MessageLookupByLibrary.simpleMessage("A Espada do Espírito"),
+        "armor6Text1": MessageLookupByLibrary.simpleMessage(
+            "A espada é a arma da armadura que não serve apenas para o ataque, mas também para a defesa do soldado, então quando você está em batalha, você tem que ter uma espada. Na ordem da armadura é a última peça que o soldado pega, mas uma vez agarrada não deve largar, a espada do Espírito está muito bem definida na Bíblia como a Palavra de Deus, com ela você luta contra o adversário e/ou adversidade, assim como Cristo lutou contra satanás em "),
+        "armor6Text10": MessageLookupByLibrary.simpleMessage(
+            "2 Coríntios 10:1-6\nEu, Paulo, vos imploro pela mansidão e ternura de Cristo, eu que, estando presente, certamente sou humilde entre vós, mas ausente sou ousado para convosco; 2 Rogo, portanto, que quando estiver presente, não tenha que usar aquela ousadia com que estou disposto a proceder resolutamente contra alguns que nos têm como se andássemos segundo a carne. 3 Pois, embora andando na carne, não lutamos segundo a carne; 4 porque as armas da nossa milícia não são carnais, mas sim poderosas em Deus, para destruição de fortalezas, 5 destruindo os sofismas e toda a soberba que se opõe ao conhecimento de Deus, e levando cativo todo pensamento à obediência de Cristo, 6 e sendo pronto para punir toda desobediência, quando sua obediência é perfeita."),
+        "armor6Text11":
+            MessageLookupByLibrary.simpleMessage("2 Coríntios 10:1-6 "),
+        "armor6Text12": MessageLookupByLibrary.simpleMessage(
+            "A Palavra nos diz que as armas de Deus são poderosas para demolir fortalezas, destruindo argumentos que se levantam contra o conhecimento de Deus, isso indica que não devemos apenas estar preparados para o ataque, mas se já fomos atacados, a mesma espada pode ser usado para cortar e dividir a ferida a fim de curar, como está escrito em Hebreus 4:12 "),
+        "armor6Text13": MessageLookupByLibrary.simpleMessage(
+            "“Porque a palavra de Deus é viva e eficaz, e mais cortante do que qualquer espada de dois gumes; e penetra a ponto de dividir a alma e o espírito, as juntas e as medulas, e discerne os pensamentos e as intenções do coração.”\n\n"),
+        "armor6Text14": MessageLookupByLibrary.simpleMessage(
+            "Mas espere, por que a espada do Espírito não é chamada de espada da Palavra de Deus? Há algum mistério aqui? Se você tiver uma mente aguçada, notará que a Bíblia faz uma conexão entre essas duas palavras, elas estão relacionadas espiritualmente. Mas o que isso significa? Significa que a Palavra de Deus expressa as ações do Espírito Santo de Deus, você usa a Palavra de Deus para fazer a diferença entre o Espírito Santo e qualquer outro espírito. Também significa que obedecer à Palavra de Deus é o mesmo que obedecer ao Espírito do Senhor, porque o Senhor Todo-Poderoso usará a Palavra de Deus para comunicar Seus mandamentos divinos, que são confirmados pelo Espírito Santo. A Palavra de Deus contém todos os pensamentos e palavras do Espírito Santo, então se você quer seguir o Espírito Santo você deve aprender a ser guiado pela Palavra de Deus. Use a espada do Espírito com honra; trazer vida, não morte; para derrotar o mal e não deixar a escuridão dominar sua terra."),
+        "armor6Text2": MessageLookupByLibrary.simpleMessage(
+            "Mateus 4:1-11\nEntão Jesus foi conduzido pelo Espírito ao deserto, para ser tentado pelo diabo. 2 E depois de ter jejuado quarenta dias e quarenta noites, teve fome. 3 E, aproximando-se dele o tentador, disse-lhe: Se és o Filho de Deus, manda que estas pedras se transformem em pães. 4 Ele respondeu e disse: Está escrito: Nem só de pão viverá o homem, mas de toda palavra que sai da boca de Deus. 5 Então o diabo o levou à cidade santa, e o colocou sobre o pináculo do templo, 6 e lhe disse: Se tu és o Filho de Deus, lança-te abaixo; pois está escrito: Seus anjos darão ordens a seu respeito, e: Eles o segurarão nas mãos, para que você não tropece com o pé na pedra. 7 Disse-lhe Jesus: Também está escrito: Não tentarás o Senhor teu Deus. 8 Novamente o diabo o levou a um monte muito alto, e mostrou-lhe todos os reinos do mundo e a glória deles, 9 e disse-lhe: Tudo isto te darei, se te prostrares e me adorares. 10 Então Jesus lhe disse: Vai-te, Satanás, porque está escrito: Ao Senhor teu Deus adorarás, e só a ele servirás. 11 O diabo, então, o deixou; e eis que anjos vieram e o serviram."),
+        "armor6Text3": MessageLookupByLibrary.simpleMessage("Mateus 4:1-11 "),
+        "armor6Text4": MessageLookupByLibrary.simpleMessage("y "),
+        "armor6Text5": MessageLookupByLibrary.simpleMessage(
+            "Lucas 4:1-13\nJesus, cheio do Espírito Santo, voltou do Jordão, e foi levado pelo Espírito ao deserto 2 por quarenta dias, tentado pelo diabo. E ele não comeu nada naqueles dias, depois dos quais teve fome. 3 Disse-lhe então o diabo: Se és o Filho de Deus, manda que esta pedra se transforme em pão. 4 Jesus, respondendo-lhe, disse: Está escrito: Nem só de pão viverá o homem, mas de toda a palavra de Deus. 5 E o diabo o levou a um alto monte, e mostrou-lhe num momento todos os reinos da terra. 6 E o diabo disse-lhe: A ti darei todo este poder, e a sua glória; porque me foi dado, e a quem eu quero eu o dou. 7 Se você se prostrar em me adorar, tudo será seu. 8 Respondendo Jesus, disse-lhe: Afasta-te de mim, Satanás, porque está escrito: Ao Senhor teu Deus adorarás, e só a ele servirás. 9 E levou-o a Jerusalém, e colocou-o sobre o pináculo do templo, e disse-lhe: Se tu és o Filho de Deus, lança-te daqui abaixo; 10 porque está escrito: Ele dará ordens aos seus anjos a teu respeito, para te guardarem; 11 e, Nas mãos te sustentarão, Para que não tropeces com o pé na pedra. 12 Respondendo Jesus, disse-lhe: Dito está: Não tentarás o Senhor teu Deus. 13 E, acabando o diabo com toda a tentação, retirou-se dele por um tempo."),
+        "armor6Text6": MessageLookupByLibrary.simpleMessage("Lucas 4:1-13 "),
+        "armor6Text7": MessageLookupByLibrary.simpleMessage(
+            "usando a poderosa espada do Espírito, a Palavra de Deus, devemos fazer o mesmo. como usar a espada do Espírito? Não basta apenas ler em voz alta, é a sabedoria revelada pelo Espírito Santo que você encontra no conteúdo da Palavra de Deus que é eficaz para cada circunstância. Como ela não pode ser usada de forma alguma, deve-se discernir o momento exato da ofensiva ou defensiva, pois mesmo como crente poderíamos fazer mau uso da espada, ou seja, usar a Palavra de Deus de forma incorreta. Por isso, é necessário pedir a sabedoria que vem de Deus para a sua Palavra, como o expressa o Apóstolo Tiago quando diz: "),
+        "armor6Text8": MessageLookupByLibrary.simpleMessage(
+            "E, se algum de vós tem falta de sabedoria, peça-a a Deus, que a todos dá abundantemente, sem censura, e ser-lhe-á dada Tiago 1:5 "),
+        "armor6Text9": MessageLookupByLibrary.simpleMessage(
+            "Só então é eficaz quando vem da sabedoria de Deus. Outro aspecto que devemos considerar é o que diz "),
+        "armor6TextBible1": MessageLookupByLibrary.simpleMessage(
+            "Um exemplo de homem que uma vez pegou a Espada e não a largou é um dos valentes de Davi, diz o texto em 2 Samuel 23:9-10: "),
+        "armor6TextBible2": MessageLookupByLibrary.simpleMessage(
+            "“Depois dele, Eleazar, filho de Dodo, Aohita, um dos três valentes que estavam com Davi quando desafiaram os filisteus que ali haviam se reunido para a batalha, e os homens de Israel se retiraram. Ele se levantou e feriu os filisteus até que sua mão se cansou, e sua mão se apegou à espada. Naquele dia, Jeová deu uma grande vitória, e o povo voltou atrás dele apenas para recolher os despojos.” "),
+        "armor6TextBible3": MessageLookupByLibrary.simpleMessage(
+            "Embora isso fosse algo físico, aponta para a realidade espiritual de que se nos apegarmos à Palavra de Deus teremos a Vitória que Cristo já nos deu. "),
+        "armor6TextLife1": MessageLookupByLibrary.simpleMessage(
+            "Habite e esteja enraizado na palavra de Deus, como nos diz Colossenses: 3:16: "),
+        "armor6TextLife2": MessageLookupByLibrary.simpleMessage(
+            "“Que a palavra de Cristo habite abundantemente em vocês, ensinando e exortando uns aos outros em toda a sabedoria, cantando graciosamente em seus corações ao Senhor com salmos, hinos e cânticos espirituais.” "),
+        "armor6TextLife3": MessageLookupByLibrary.simpleMessage(
+            "Se a Palavra de Deus habita em nós podemos atacar qualquer frente. "),
+        "armor6TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "Se você é um crente, mas não lê a Palavra de Deus, ou seja, não leva a Espada do Espírito, você será um crente indefeso."),
+        "armor6Title": MessageLookupByLibrary.simpleMessage("Efésios 6:18b"),
+        "armor6Verse": MessageLookupByLibrary.simpleMessage(
+            "“e a espada do Espírito, que é a palavra de Deus.”"),
         "armourOfGod": MessageLookupByLibrary.simpleMessage("Armadura de Deus"),
         "classicArmour":
             MessageLookupByLibrary.simpleMessage("Armadura clássica"),

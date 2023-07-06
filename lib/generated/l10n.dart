@@ -1410,10 +1410,10 @@ class S {
     );
   }
 
-  /// `Y `
+  /// `y `
   String get armor6Text4 {
     return Intl.message(
-      'Y ',
+      'y ',
       name: 'armor6Text4',
       desc: '',
       args: [],
