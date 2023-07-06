@@ -141,11 +141,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "Este aplicativo é dividido em seções nas quais você encontrará peças que você deve desbloquear respondendo a perguntas bíblicas de seleção simples sem limite de tempo. Depois de acertar todas as questões, você pode aproveitar o conteúdo de cada peça da Armadura de Deus em sua respectiva ordem e seguir em frente. Lembre-se, você não pode ir para uma seção se não tiver desbloqueado todas as peças da seção anterior."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
+            "Sempre haverá o anjo que irá acompanhá-lo em cada dia que tem a mensagem que pode ajudá-lo a progredir pouco a pouco nesta jornada. Quando tiver alguma dificuldade, não hesite em consultá-lo!"),
+        "onBoardingDescription4": MessageLookupByLibrary.simpleMessage(
             "Quando você for avançando na descoberta de cada peça, joias escondidas aparecerão! Cada um é único e contém informações preciosas que o ajudarão na responsabilidade de assumir a Armadura de Deus."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
             "¡Olá, Seja Bem Vindo a Armadura de Deus!"),
         "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Funcionando"),
-        "onBoardingTitle3": MessageLookupByLibrary.simpleMessage("Tem mais!!"),
+        "onBoardingTitle3": MessageLookupByLibrary.simpleMessage("Anjo"),
+        "onBoardingTitle4": MessageLookupByLibrary.simpleMessage("Tem mais!!"),
         "optionFiveFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Nosso Senhor Jesus Cristo"),
         "optionFiveFirstPageFour": MessageLookupByLibrary.simpleMessage(

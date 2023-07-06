@@ -17,12 +17,12 @@ class Onboarding {
       Item(
         image: 'assets/images/angel1.png',
         subtitle: S.current.onBoardingDescription3,
-        title: 'Angel',
+        title: S.current.onBoardingTitle3,
       ),
       Item(
         image: 'assets/stones/diamond_gold.png',
-        subtitle: S.current.onBoardingDescription3,
-        title: S.current.onBoardingTitle3,
+        subtitle: S.current.onBoardingDescription4,
+        title: S.current.onBoardingTitle4,
       ),
     ];
   }

@@ -66,7 +66,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.examplePractice),
+                            text: S.current.examplePractice,
+                          ),
                           TextSpan(
                             text: S.current.armor1TextPractice1,
                             style: const TextStyle(
@@ -92,7 +93,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleBible),
+                            text: S.current.exampleBible,
+                          ),
                           TextSpan(
                             text: S.current.armor1TextBible1,
                             style: const TextStyle(
@@ -130,7 +132,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleLife),
+                            text: S.current.exampleLife,
+                          ),
                           TextSpan(
                             text: S.current.armor1TextLife1,
                             style: const TextStyle(
@@ -161,96 +164,85 @@ class Pieces {
                 textAlign: TextAlign.justify,
                 text: TextSpan(
                   children: [
-                    const TextSpan(
-                      text:
-                          'La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia 1 Corintios 1:30 ',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text1,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                    const TextSpan(
-                      text:
-                          '“Pero Dios mismo los ha unido a ustedes con Cristo Jesús, y ha hecho también que Cristo sea nuestra sabiduría, nuestra justicia, nuestra santificación y nuestra liberación.” DDHH. ',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text2,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 85, 84, 84),
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                    const TextSpan(
-                      text:
-                          'Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Cómo creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 ',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text3,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                    const TextSpan(
-                      text:
-                          '“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.” ',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text4,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 85, 84, 84),
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                    const TextSpan(
-                      text:
-                          'Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad la influencia espiritual que tengamos arraigada en las semillas de Cristo Jesús nos protegerá, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 ',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text5,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                    const TextSpan(
-                      text:
-                          '“Al celebrar audiencia entre sus hermanos, tienen que juzgar con justicia.” ',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text6,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 85, 84, 84),
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                    const TextSpan(
-                      text:
-                          'y pasiva en que debemos esperar el tiempo del juicio y la persona que ejerza el mismo, ver ',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text7,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
                     CommonUtils.widgetSpan(
-                      textInside:
-                          'Deuteronomio 25:1\n25 Si hubiere pleito entre algunos, y acudieren al tribunal para que los jueces los juzguen, estos absolverán al justo, y condenarán al culpable.\n\n1 Corintios 6:4-5\n4 Si, pues, tenéis juicios sobre cosas de esta vida, ¿ponéis para juzgar a los que son de menor estima en la iglesia? 5 Para avergonzaros lo digo. ¿Pues qué, no hay entre vosotros sabio, ni aun uno, que pueda juzgar entre sus hermanos,',
-                      textOutside: 'Deuteronomio 25:1, 1 Corintios 6:4-5, ',
+                      textInside: S.current.armor2Text8,
+                      textOutside: S.current.armor2Text9,
                     ),
-                    const TextSpan(
-                      text:
-                          'así estaremos protegidos por la coraza de justicia, el rey y salmista David dijo: ',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text10,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                    const TextSpan(
-                      text:
-                          'Confía en Jehová, y haz el bien; Y habitarás en la tierra, y te apacentarás de la verdad. 4 deléitate asimismo en Jehová, Y él te concederá las peticiones de tu corazón. 5 encomienda a Jehová tu camino, Y confía en él; y él hará. 6 exhibirá tu justicia como la luz, Y tu derecho como el mediodía. 7 Guarda silencio ante Jehová, y espera en él. No te alteres con motivo del que prospera en su camino, Por el hombre que hace maldades. Salmo 37:4-7. ',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text11,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 85, 84, 84),
                         fontStyle: FontStyle.italic,
                         fontWeight: FontWeight.w400,
                       ),
                     ),
-                    const TextSpan(
-                      text:
-                          'Tomemos nota que cuando te atacan no tienes que hacer nada, no es como el escudo de la fe donde debes tomar una acción para cubrirte, pero si estuviéramos en el otro escenario donde si nos corresponde hacer el juicio, debemos hacerlo, porque si no lo hacemos no estaríamos obrando la justicia de Dios.  La coraza como toda la armadura, debemos tomarla antes de ir a la batalla, lo que significa que tenemos que actuar con rectitud en todo momento y no ocasionalmente. La justicia hace parte de la santificación, es decir, de ir avanzando a la estatura de Cristo.',
-                      style: TextStyle(
+                    TextSpan(
+                      text: S.current.armor2Text12,
+                      style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,
                         fontWeight: FontWeight.w400,
@@ -270,11 +262,11 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.examplePractice),
-                          const TextSpan(
-                            text:
-                                'Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá, Si andas en ella, puesto que has actuado con rectitud y eres conocido como un cristiano veraz, todos los ataques están destinados a perecer. Él y no tu Exhibirá tu justicia como la luz en su tiempo.',
-                            style: TextStyle(
+                            text: S.current.examplePractice,
+                          ),
+                          TextSpan(
+                            text: S.current.armor2TextPractice1,
+                            style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
@@ -297,34 +289,31 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleBible),
-                          const TextSpan(
-                            text:
-                                'La Biblia que es la palabra de Dios es veraz, y nos relata los hechos como son para nuestro ejemplo, un ejemplo que cuando no se juzga con la justicia de Dios no estamos protegidos, es el rey David ante los hechos de su hijo Amnón. Su familia fue muy afectada con acontecimientos muy fuertes ver ',
-                            style: TextStyle(
+                            text: S.current.exampleBible,
+                          ),
+                          TextSpan(
+                            text: S.current.armor2TextBible1,
+                            style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
                             ),
                           ),
                           CommonUtils.widgetSpan(
-                            textInside:
-                                '2 Samuel 13\n13 Aconteció después de esto, que teniendo Absalón hijo de David una hermana hermosa que se llamaba Tamar, se enamoró de ella Amnón hijo de David. 2 Y estaba Amnón angustiado hasta enfermarse por Tamar su hermana, pues por ser ella virgen, le parecía a Amnón que sería difícil hacerle cosa alguna. 3 Y Amnón tenía un amigo que se llamaba Jonadab, hijo de Simea, hermano de David; y Jonadab era hombre muy astuto. 4 Y este le dijo: Hijo del rey, ¿por qué de día en día vas enflaqueciendo así? ¿No me lo descubrirás a mí? Y Amnón le respondió: Yo amo a Tamar la hermana de Absalón mi hermano. 5 Y Jonadab le dijo: Acuéstate en tu cama, y finge que estás enfermo; y cuando tu padre viniere a visitarte, dile: Te ruego que venga mi hermana Tamar, para que me dé de comer, y prepare delante de mí alguna vianda, para que al verla yo la coma de su mano. 6 Se acostó, pues, Amnón, y fingió que estaba enfermo; y vino el rey a visitarle. Y dijo Amnón al rey: Yo te ruego que venga mi hermana Tamar, y haga delante de mí dos hojuelas, para que coma yo de su mano.7 Y David envió a Tamar a su casa, diciendo: Ve ahora a casa de Amnón tu hermano, y hazle de comer. 8 Y fue Tamar a casa de su hermano Amnón, el cual estaba acostado; y tomó harina, y amasó, e hizo hojuelas delante de él y las coció. 9 Tomó luego la sartén, y las sacó delante de él; mas él no quiso comer. Y dijo Amnón: Echad fuera de aquí a todos. Y todos salieron de allí. 10 Entonces Amnón dijo a Tamar: Trae la comida a la alcoba, para que yo coma de tu mano. Y tomando Tamar las hojuelas que había preparado, las llevó a su hermano Amnón a la alcoba. 11 Y cuando ella se las puso delante para que comiese, asió de ella, y le dijo: Ven, hermana mía, acuéstate conmigo. 12 Ella entonces le respondió: No, hermano mío, no me hagas violencia; porque no se debe hacer así en Israel. No hagas tal vileza. 13 Porque ¿adónde iría yo con mi deshonra? Y aun tú serías estimado como uno de los perversos en Israel. Te ruego pues, ahora, que hables al rey, que él no me negará a ti. 14 Mas él no la quiso oír, sino que pudiendo más que ella, la forzó, y se acostó con ella.',
-                            textOutside: '2 Samuel 13, ',
+                            textInside: S.current.armor2TextBible2,
+                            textOutside: S.current.armor2TextBible3,
                           ),
-                          const TextSpan(
-                            text:
-                                'ejercer la justicia del Señor es de vida o muerte. Tenemos el caso contrario con Moisés cuando bajó de estar en la presencia del Señor en el monte y el pueblo había edificado un ídolo, Moisés ejerció el juicio de Dios y trajo como consecuencia conocer los que tuvieron el corazón dispuesto para el Señor ver ',
-                            style: TextStyle(
+                          TextSpan(
+                            text: S.current.armor2TextBible4,
+                            style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
                             ),
                           ),
                           CommonUtils.widgetSpan(
-                            textInside:
-                                'Éxodo 32\nViendo el pueblo que Moisés tardaba en descender del monte, se acercaron entonces a Aarón, y le dijeron: Levántate, haznos dioses que vayan delante de nosotros; porque a este Moisés, el varón que nos sacó de la tierra de Egipto, no sabemos qué le haya acontecido. 2 Y Aarón les dijo: Apartad los zarcillos de oro que están en las orejas de vuestras mujeres, de vuestros hijos y de vuestras hijas, y traédmelos. 3 Entonces todo el pueblo apartó los zarcillos de oro que tenían en sus orejas, y los trajeron a Aarón; 4 y él los tomó de las manos de ellos, y le dio forma con buril, e hizo de ello un becerro de fundición. Entonces dijeron: Israel, estos son tus dioses, que te sacaron de la tierra de Egipto. 5 Y viendo esto Aarón, edificó un altar delante del becerro; y pregonó Aarón, y dijo: Mañana será fiesta para Jehová. 6 Y al día siguiente madrugaron, y ofrecieron holocaustos, y presentaron ofrendas de paz; y se sentó el pueblo a comer y a beber, y se levantó a regocijarse.7 Entonces Jehová dijo a Moisés: Anda, desciende, porque tu pueblo que sacaste de la tierra de Egipto se ha corrompido. 8 Pronto se han apartado del camino que yo les mandé; se han hecho un becerro de fundición, y lo han adorado, y le han ofrecido sacrificios, y han dicho: Israel, estos son tus dioses, que te sacaron de la tierra de Egipto. 9 Dijo más Jehová a Moisés: Yo he visto a este pueblo, que por cierto es pueblo de dura cerviz. 10 Ahora, pues, déjame que se encienda mi ira en ellos, y los consuma; y de ti yo haré una nación grande.11 Entonces Moisés oró en presencia de Jehová su Dios, y dijo: Oh Jehová, ¿por qué se encenderá tu furor contra tu pueblo, que tú sacaste de la tierra de Egipto con gran poder y con mano fuerte? 12 ¿Por qué han de hablar los egipcios, diciendo: Para mal los sacó, para matarlos en los montes, y para raerlos de sobre la faz de la tierra? Vuélvete del ardor de tu ira, y arrepiéntete de este mal contra tu pueblo. 13 Acuérdate de Abraham, de Isaac y de Israel tus siervos, a los cuales has jurado por ti mismo, y les has dicho: Yo multiplicaré vuestra descendencia como las estrellas del cielo; y daré a vuestra descendencia toda esta tierra de que he hablado, y la tomarán por heredad para siempre.',
-                            textOutside: 'Éxodo 32.',
+                            textInside: S.current.armor2TextBible5,
+                            textOutside: S.current.armor2TextBible6,
                           ),
                         ],
                       ),
@@ -343,11 +332,11 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleLife),
-                          const TextSpan(
-                            text:
-                                'Para cada circunstancia de juicio se debe buscar la dirección, la justicia del Señor activamente y si no estás llamado a ejercer la sentencia de Dios, Espera en Él y sigue orando.',
-                            style: TextStyle(
+                            text: S.current.exampleLife,
+                          ),
+                          TextSpan(
+                            text: S.current.armor2TextLife1,
+                            style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
                               fontWeight: FontWeight.w400,
@@ -363,8 +352,8 @@ class Pieces {
           ),
         ),
         image: 'assets/flags/co.png',
-        subtitle: '“y vestidos con la coraza de justicia,”',
-        title: 'Efesios 6:14b',
+        subtitle: S.current.armor2Verse,
+        title: S.current.armor2Title,
       );
   Item get three => Item(
         contentWidget: Padding(
@@ -500,7 +489,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.examplePractice),
+                            text: S.current.examplePractice,
+                          ),
                           const TextSpan(
                             text:
                                 'En una batalla real con alguien, en esta situación usas tus pies para moverte y golpear a tu oponente. Por lo tanto, cuando estás discutiendo con alguien con los argumentos de la verdad para romper las fortalezas mentales de satanás, debes tener como meta la paz, la mentalidad de querer la paz en su vida, no la meta de la gloria propia, como que siempre tienes el argumento ganador, ya que, el centro es Cristo.',
@@ -527,7 +517,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleBible),
+                            text: S.current.exampleBible,
+                          ),
                           const TextSpan(
                             text:
                                 'El apóstol Pablo quien antes era Saulo, un erudito, en su predicación no usaba de su sabiduría, predicaba solo a Cristo, como lo expresa en 1 Corintios 2:1-5 ',
@@ -563,7 +554,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleLife),
+                            text: S.current.exampleLife,
+                          ),
                           const TextSpan(
                             text:
                                 'Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno.',
@@ -690,7 +682,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.examplePractice),
+                            text: S.current.examplePractice,
+                          ),
                           const TextSpan(
                             text:
                                 'Muchas veces enfrentamos circunstancias en nuestras vidas, circunstancias que no escogeríamos vivir, y llegamos a pensar que el Señor no está en el asunto, pero si tenemos fe en lo que dice su Palabra, creeremos que esas circunstancias serán para nuestro bien, porque para los que amamos a Dios todo opera para bien como lo dice ',
@@ -731,7 +724,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleBible),
+                            text: S.current.exampleBible,
+                          ),
                           const TextSpan(
                             text:
                                 'En la Biblia podemos ver un caso de alguien herido por una flecha y ese es Saúl, el primer rey de Israel. Cuando las mujeres de Israel cantaron la canción “Saúl ha matado a sus miles, y David a sus diez miles”, ',
@@ -772,7 +766,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleLife),
+                            text: S.current.exampleLife,
+                          ),
                           const TextSpan(
                             text:
                                 'Para combatir las mentiras que el Enemigo o nuestra naturaleza nos quiere hacer creer, se combate solo con la Fe en lo que el Señor nos dice a través de las escrituras.',
@@ -846,7 +841,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.examplePractice),
+                            text: S.current.examplePractice,
+                          ),
                           const TextSpan(
                             text:
                                 'Un misionero en un país extranjero con una amenaza real para su vida o la mujer que lucha contra el cáncer o el profesor que está dando una lección de historia y no sabe el momento de su muerte, pueden estar tranquilos al momento de la partida, ya que, tienen certeza del destino que tienen al lado de Cristo por haber creído en la obra de redención de Jesucristo.',
@@ -873,7 +869,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleBible),
+                            text: S.current.exampleBible,
+                          ),
                           const TextSpan(
                             text:
                                 'Esteban el primer mártir de Jesucristo, podemos verlo en Hechos:7 cuando estaba a punto de morir la certeza de su salvación le permitió decir estas palabras: ',
@@ -909,7 +906,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleLife),
+                            text: S.current.exampleLife,
+                          ),
                           const TextSpan(
                             text:
                                 'En el caminar cristiano muy a nuestro pesar vamos a pecar entristeciendo al Señor, pero Él sabe eso y por eso nos dejó a nuestro eterno sumo sacerdote, si caes levántate en Él con esta certeza y si hoy estás con la duda de tu salvación por una condición de pecado, arrepiéntete y retoma la comunión con Cristo, un hijo nunca pierde esta condición.',
@@ -1041,7 +1039,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.examplePractice),
+                            text: S.current.examplePractice,
+                          ),
                           const TextSpan(
                             text:
                                 'Si eres creyente pero no lees la Palabra de Dios, es decir, no tomas la Espada del Espíritu, serás un creyente indefenso',
@@ -1068,7 +1067,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleBible),
+                            text: S.current.exampleBible,
+                          ),
                           const TextSpan(
                             text:
                                 'Un ejemplo de un hombre que una vez tomó la Espada no la soltó es uno de los valientes de David, dice el texto en 2 samuel 23:9-10: ',
@@ -1113,7 +1113,8 @@ class Pieces {
                       text: TextSpan(
                         children: [
                           CommonUtils.examplePractice(
-                              text: S.current.exampleLife),
+                            text: S.current.exampleLife,
+                          ),
                           const TextSpan(
                             text:
                                 'Habita y arráigate en la palabra de Dios, como nos dice Colosenses: 3:16: ',

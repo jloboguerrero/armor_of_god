@@ -590,6 +590,226 @@ class S {
     );
   }
 
+  /// `Efesios 6:14b`
+  String get armor2Title {
+    return Intl.message(
+      'Efesios 6:14b',
+      name: 'armor2Title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“y vestidos con la coraza de justicia,”`
+  String get armor2Verse {
+    return Intl.message(
+      '“y vestidos con la coraza de justicia,”',
+      name: 'armor2Verse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia 1 Corintios 1:30 `
+  String get armor2Text1 {
+    return Intl.message(
+      'La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia 1 Corintios 1:30 ',
+      name: 'armor2Text1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Pero Dios mismo los ha unido a ustedes con Cristo Jesús, y ha hecho también que Cristo sea nuestra sabiduría, nuestra justicia, nuestra santificación y nuestra liberación.” DDHH. `
+  String get armor2Text2 {
+    return Intl.message(
+      '“Pero Dios mismo los ha unido a ustedes con Cristo Jesús, y ha hecho también que Cristo sea nuestra sabiduría, nuestra justicia, nuestra santificación y nuestra liberación.” DDHH. ',
+      name: 'armor2Text2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Cómo creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 `
+  String get armor2Text3 {
+    return Intl.message(
+      'Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Cómo creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 ',
+      name: 'armor2Text3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.” `
+  String get armor2Text4 {
+    return Intl.message(
+      '“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.” ',
+      name: 'armor2Text4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad la influencia espiritual que tengamos arraigada en las semillas de Cristo Jesús nos protegerá, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 `
+  String get armor2Text5 {
+    return Intl.message(
+      'Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad la influencia espiritual que tengamos arraigada en las semillas de Cristo Jesús nos protegerá, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 ',
+      name: 'armor2Text5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Al celebrar audiencia entre sus hermanos, tienen que juzgar con justicia.” `
+  String get armor2Text6 {
+    return Intl.message(
+      '“Al celebrar audiencia entre sus hermanos, tienen que juzgar con justicia.” ',
+      name: 'armor2Text6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `y pasiva en que debemos esperar el tiempo del juicio y la persona que ejerza el mismo, ver `
+  String get armor2Text7 {
+    return Intl.message(
+      'y pasiva en que debemos esperar el tiempo del juicio y la persona que ejerza el mismo, ver ',
+      name: 'armor2Text7',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Deuteronomio 25:1\n25 Si hubiere pleito entre algunos, y acudieren al tribunal para que los jueces los juzguen, estos absolverán al justo, y condenarán al culpable.\n\n1 Corintios 6:4-5\n4 Si, pues, tenéis juicios sobre cosas de esta vida, ¿ponéis para juzgar a los que son de menor estima en la iglesia? 5 Para avergonzaros lo digo. ¿Pues qué, no hay entre vosotros sabio, ni aun uno, que pueda juzgar entre sus hermanos,`
+  String get armor2Text8 {
+    return Intl.message(
+      'Deuteronomio 25:1\n25 Si hubiere pleito entre algunos, y acudieren al tribunal para que los jueces los juzguen, estos absolverán al justo, y condenarán al culpable.\n\n1 Corintios 6:4-5\n4 Si, pues, tenéis juicios sobre cosas de esta vida, ¿ponéis para juzgar a los que son de menor estima en la iglesia? 5 Para avergonzaros lo digo. ¿Pues qué, no hay entre vosotros sabio, ni aun uno, que pueda juzgar entre sus hermanos,',
+      name: 'armor2Text8',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Deuteronomio 25:1, 1 Corintios 6:4-5, `
+  String get armor2Text9 {
+    return Intl.message(
+      'Deuteronomio 25:1, 1 Corintios 6:4-5, ',
+      name: 'armor2Text9',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `así estaremos protegidos por la coraza de justicia, el rey y salmista David dijo: `
+  String get armor2Text10 {
+    return Intl.message(
+      'así estaremos protegidos por la coraza de justicia, el rey y salmista David dijo: ',
+      name: 'armor2Text10',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Confía en Jehová, y haz el bien; Y habitarás en la tierra, y te apacentarás de la verdad. 4 deléitate asimismo en Jehová, Y él te concederá las peticiones de tu corazón. 5 encomienda a Jehová tu camino, Y confía en él; y él hará. 6 exhibirá tu justicia como la luz, Y tu derecho como el mediodía. 7 Guarda silencio ante Jehová, y espera en él. No te alteres con motivo del que prospera en su camino, Por el hombre que hace maldades. Salmo 37:4-7. `
+  String get armor2Text11 {
+    return Intl.message(
+      'Confía en Jehová, y haz el bien; Y habitarás en la tierra, y te apacentarás de la verdad. 4 deléitate asimismo en Jehová, Y él te concederá las peticiones de tu corazón. 5 encomienda a Jehová tu camino, Y confía en él; y él hará. 6 exhibirá tu justicia como la luz, Y tu derecho como el mediodía. 7 Guarda silencio ante Jehová, y espera en él. No te alteres con motivo del que prospera en su camino, Por el hombre que hace maldades. Salmo 37:4-7. ',
+      name: 'armor2Text11',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tomemos nota que cuando te atacan no tienes que hacer nada, no es como el escudo de la fe donde debes tomar una acción para cubrirte, pero si estuviéramos en el otro escenario donde si nos corresponde hacer el juicio, debemos hacerlo, porque si no lo hacemos no estaríamos obrando la justicia de Dios.  La coraza como toda la armadura, debemos tomarla antes de ir a la batalla, lo que significa que tenemos que actuar con rectitud en todo momento y no ocasionalmente. La justicia hace parte de la santificación, es decir, de ir avanzando a la estatura de Cristo.`
+  String get armor2Text12 {
+    return Intl.message(
+      'Tomemos nota que cuando te atacan no tienes que hacer nada, no es como el escudo de la fe donde debes tomar una acción para cubrirte, pero si estuviéramos en el otro escenario donde si nos corresponde hacer el juicio, debemos hacerlo, porque si no lo hacemos no estaríamos obrando la justicia de Dios.  La coraza como toda la armadura, debemos tomarla antes de ir a la batalla, lo que significa que tenemos que actuar con rectitud en todo momento y no ocasionalmente. La justicia hace parte de la santificación, es decir, de ir avanzando a la estatura de Cristo.',
+      name: 'armor2Text12',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá, Si andas en ella, puesto que has actuado con rectitud y eres conocido como un cristiano veraz, todos los ataques están destinados a perecer. Él y no tu Exhibirá tu justicia como la luz en su tiempo.`
+  String get armor2TextPractice1 {
+    return Intl.message(
+      'Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá, Si andas en ella, puesto que has actuado con rectitud y eres conocido como un cristiano veraz, todos los ataques están destinados a perecer. Él y no tu Exhibirá tu justicia como la luz en su tiempo.',
+      name: 'armor2TextPractice1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La Biblia que es la palabra de Dios es veraz, y nos relata los hechos como son para nuestro ejemplo, un ejemplo que cuando no se juzga con la justicia de Dios no estamos protegidos, es el rey David ante los hechos de su hijo Amnón. Su familia fue muy afectada con acontecimientos muy fuertes ver `
+  String get armor2TextBible1 {
+    return Intl.message(
+      'La Biblia que es la palabra de Dios es veraz, y nos relata los hechos como son para nuestro ejemplo, un ejemplo que cuando no se juzga con la justicia de Dios no estamos protegidos, es el rey David ante los hechos de su hijo Amnón. Su familia fue muy afectada con acontecimientos muy fuertes ver ',
+      name: 'armor2TextBible1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Samuel 13\n13 Aconteció después de esto, que teniendo Absalón hijo de David una hermana hermosa que se llamaba Tamar, se enamoró de ella Amnón hijo de David. 2 Y estaba Amnón angustiado hasta enfermarse por Tamar su hermana, pues por ser ella virgen, le parecía a Amnón que sería difícil hacerle cosa alguna. 3 Y Amnón tenía un amigo que se llamaba Jonadab, hijo de Simea, hermano de David; y Jonadab era hombre muy astuto. 4 Y este le dijo: Hijo del rey, ¿por qué de día en día vas enflaqueciendo así? ¿No me lo descubrirás a mí? Y Amnón le respondió: Yo amo a Tamar la hermana de Absalón mi hermano. 5 Y Jonadab le dijo: Acuéstate en tu cama, y finge que estás enfermo; y cuando tu padre viniere a visitarte, dile: Te ruego que venga mi hermana Tamar, para que me dé de comer, y prepare delante de mí alguna vianda, para que al verla yo la coma de su mano. 6 Se acostó, pues, Amnón, y fingió que estaba enfermo; y vino el rey a visitarle. Y dijo Amnón al rey: Yo te ruego que venga mi hermana Tamar, y haga delante de mí dos hojuelas, para que coma yo de su mano.7 Y David envió a Tamar a su casa, diciendo: Ve ahora a casa de Amnón tu hermano, y hazle de comer. 8 Y fue Tamar a casa de su hermano Amnón, el cual estaba acostado; y tomó harina, y amasó, e hizo hojuelas delante de él y las coció. 9 Tomó luego la sartén, y las sacó delante de él; mas él no quiso comer. Y dijo Amnón: Echad fuera de aquí a todos. Y todos salieron de allí. 10 Entonces Amnón dijo a Tamar: Trae la comida a la alcoba, para que yo coma de tu mano. Y tomando Tamar las hojuelas que había preparado, las llevó a su hermano Amnón a la alcoba. 11 Y cuando ella se las puso delante para que comiese, asió de ella, y le dijo: Ven, hermana mía, acuéstate conmigo. 12 Ella entonces le respondió: No, hermano mío, no me hagas violencia; porque no se debe hacer así en Israel. No hagas tal vileza. 13 Porque ¿adónde iría yo con mi deshonra? Y aun tú serías estimado como uno de los perversos en Israel. Te ruego pues, ahora, que hables al rey, que él no me negará a ti. 14 Mas él no la quiso oír, sino que pudiendo más que ella, la forzó, y se acostó con ella.`
+  String get armor2TextBible2 {
+    return Intl.message(
+      '2 Samuel 13\n13 Aconteció después de esto, que teniendo Absalón hijo de David una hermana hermosa que se llamaba Tamar, se enamoró de ella Amnón hijo de David. 2 Y estaba Amnón angustiado hasta enfermarse por Tamar su hermana, pues por ser ella virgen, le parecía a Amnón que sería difícil hacerle cosa alguna. 3 Y Amnón tenía un amigo que se llamaba Jonadab, hijo de Simea, hermano de David; y Jonadab era hombre muy astuto. 4 Y este le dijo: Hijo del rey, ¿por qué de día en día vas enflaqueciendo así? ¿No me lo descubrirás a mí? Y Amnón le respondió: Yo amo a Tamar la hermana de Absalón mi hermano. 5 Y Jonadab le dijo: Acuéstate en tu cama, y finge que estás enfermo; y cuando tu padre viniere a visitarte, dile: Te ruego que venga mi hermana Tamar, para que me dé de comer, y prepare delante de mí alguna vianda, para que al verla yo la coma de su mano. 6 Se acostó, pues, Amnón, y fingió que estaba enfermo; y vino el rey a visitarle. Y dijo Amnón al rey: Yo te ruego que venga mi hermana Tamar, y haga delante de mí dos hojuelas, para que coma yo de su mano.7 Y David envió a Tamar a su casa, diciendo: Ve ahora a casa de Amnón tu hermano, y hazle de comer. 8 Y fue Tamar a casa de su hermano Amnón, el cual estaba acostado; y tomó harina, y amasó, e hizo hojuelas delante de él y las coció. 9 Tomó luego la sartén, y las sacó delante de él; mas él no quiso comer. Y dijo Amnón: Echad fuera de aquí a todos. Y todos salieron de allí. 10 Entonces Amnón dijo a Tamar: Trae la comida a la alcoba, para que yo coma de tu mano. Y tomando Tamar las hojuelas que había preparado, las llevó a su hermano Amnón a la alcoba. 11 Y cuando ella se las puso delante para que comiese, asió de ella, y le dijo: Ven, hermana mía, acuéstate conmigo. 12 Ella entonces le respondió: No, hermano mío, no me hagas violencia; porque no se debe hacer así en Israel. No hagas tal vileza. 13 Porque ¿adónde iría yo con mi deshonra? Y aun tú serías estimado como uno de los perversos en Israel. Te ruego pues, ahora, que hables al rey, que él no me negará a ti. 14 Mas él no la quiso oír, sino que pudiendo más que ella, la forzó, y se acostó con ella.',
+      name: 'armor2TextBible2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Samuel 13, `
+  String get armor2TextBible3 {
+    return Intl.message(
+      '2 Samuel 13, ',
+      name: 'armor2TextBible3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `ejercer la justicia del Señor es de vida o muerte. Tenemos el caso contrario con Moisés cuando bajó de estar en la presencia del Señor en el monte y el pueblo había edificado un ídolo, Moisés ejerció el juicio de Dios y trajo como consecuencia conocer los que tuvieron el corazón dispuesto para el Señor ver `
+  String get armor2TextBible4 {
+    return Intl.message(
+      'ejercer la justicia del Señor es de vida o muerte. Tenemos el caso contrario con Moisés cuando bajó de estar en la presencia del Señor en el monte y el pueblo había edificado un ídolo, Moisés ejerció el juicio de Dios y trajo como consecuencia conocer los que tuvieron el corazón dispuesto para el Señor ver ',
+      name: 'armor2TextBible4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Éxodo 32\nViendo el pueblo que Moisés tardaba en descender del monte, se acercaron entonces a Aarón, y le dijeron: Levántate, haznos dioses que vayan delante de nosotros; porque a este Moisés, el varón que nos sacó de la tierra de Egipto, no sabemos qué le haya acontecido. 2 Y Aarón les dijo: Apartad los zarcillos de oro que están en las orejas de vuestras mujeres, de vuestros hijos y de vuestras hijas, y traédmelos. 3 Entonces todo el pueblo apartó los zarcillos de oro que tenían en sus orejas, y los trajeron a Aarón; 4 y él los tomó de las manos de ellos, y le dio forma con buril, e hizo de ello un becerro de fundición. Entonces dijeron: Israel, estos son tus dioses, que te sacaron de la tierra de Egipto. 5 Y viendo esto Aarón, edificó un altar delante del becerro; y pregonó Aarón, y dijo: Mañana será fiesta para Jehová. 6 Y al día siguiente madrugaron, y ofrecieron holocaustos, y presentaron ofrendas de paz; y se sentó el pueblo a comer y a beber, y se levantó a regocijarse.7 Entonces Jehová dijo a Moisés: Anda, desciende, porque tu pueblo que sacaste de la tierra de Egipto se ha corrompido. 8 Pronto se han apartado del camino que yo les mandé; se han hecho un becerro de fundición, y lo han adorado, y le han ofrecido sacrificios, y han dicho: Israel, estos son tus dioses, que te sacaron de la tierra de Egipto. 9 Dijo más Jehová a Moisés: Yo he visto a este pueblo, que por cierto es pueblo de dura cerviz. 10 Ahora, pues, déjame que se encienda mi ira en ellos, y los consuma; y de ti yo haré una nación grande.11 Entonces Moisés oró en presencia de Jehová su Dios, y dijo: Oh Jehová, ¿por qué se encenderá tu furor contra tu pueblo, que tú sacaste de la tierra de Egipto con gran poder y con mano fuerte? 12 ¿Por qué han de hablar los egipcios, diciendo: Para mal los sacó, para matarlos en los montes, y para raerlos de sobre la faz de la tierra? Vuélvete del ardor de tu ira, y arrepiéntete de este mal contra tu pueblo. 13 Acuérdate de Abraham, de Isaac y de Israel tus siervos, a los cuales has jurado por ti mismo, y les has dicho: Yo multiplicaré vuestra descendencia como las estrellas del cielo; y daré a vuestra descendencia toda esta tierra de que he hablado, y la tomarán por heredad para siempre.`
+  String get armor2TextBible5 {
+    return Intl.message(
+      'Éxodo 32\nViendo el pueblo que Moisés tardaba en descender del monte, se acercaron entonces a Aarón, y le dijeron: Levántate, haznos dioses que vayan delante de nosotros; porque a este Moisés, el varón que nos sacó de la tierra de Egipto, no sabemos qué le haya acontecido. 2 Y Aarón les dijo: Apartad los zarcillos de oro que están en las orejas de vuestras mujeres, de vuestros hijos y de vuestras hijas, y traédmelos. 3 Entonces todo el pueblo apartó los zarcillos de oro que tenían en sus orejas, y los trajeron a Aarón; 4 y él los tomó de las manos de ellos, y le dio forma con buril, e hizo de ello un becerro de fundición. Entonces dijeron: Israel, estos son tus dioses, que te sacaron de la tierra de Egipto. 5 Y viendo esto Aarón, edificó un altar delante del becerro; y pregonó Aarón, y dijo: Mañana será fiesta para Jehová. 6 Y al día siguiente madrugaron, y ofrecieron holocaustos, y presentaron ofrendas de paz; y se sentó el pueblo a comer y a beber, y se levantó a regocijarse.7 Entonces Jehová dijo a Moisés: Anda, desciende, porque tu pueblo que sacaste de la tierra de Egipto se ha corrompido. 8 Pronto se han apartado del camino que yo les mandé; se han hecho un becerro de fundición, y lo han adorado, y le han ofrecido sacrificios, y han dicho: Israel, estos son tus dioses, que te sacaron de la tierra de Egipto. 9 Dijo más Jehová a Moisés: Yo he visto a este pueblo, que por cierto es pueblo de dura cerviz. 10 Ahora, pues, déjame que se encienda mi ira en ellos, y los consuma; y de ti yo haré una nación grande.11 Entonces Moisés oró en presencia de Jehová su Dios, y dijo: Oh Jehová, ¿por qué se encenderá tu furor contra tu pueblo, que tú sacaste de la tierra de Egipto con gran poder y con mano fuerte? 12 ¿Por qué han de hablar los egipcios, diciendo: Para mal los sacó, para matarlos en los montes, y para raerlos de sobre la faz de la tierra? Vuélvete del ardor de tu ira, y arrepiéntete de este mal contra tu pueblo. 13 Acuérdate de Abraham, de Isaac y de Israel tus siervos, a los cuales has jurado por ti mismo, y les has dicho: Yo multiplicaré vuestra descendencia como las estrellas del cielo; y daré a vuestra descendencia toda esta tierra de que he hablado, y la tomarán por heredad para siempre.',
+      name: 'armor2TextBible5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Éxodo 32.`
+  String get armor2TextBible6 {
+    return Intl.message(
+      'Éxodo 32.',
+      name: 'armor2TextBible6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Para cada circunstancia de juicio se debe buscar la dirección, la justicia del Señor activamente y si no estás llamado a ejercer la sentencia de Dios, Espera en Él y sigue orando.`
+  String get armor2TextLife1 {
+    return Intl.message(
+      'Para cada circunstancia de juicio se debe buscar la dirección, la justicia del Señor activamente y si no estás llamado a ejercer la sentencia de Dios, Espera en Él y sigue orando.',
+      name: 'armor2TextLife1',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Para enviar, responde todas las preguntas`
   String get answerAllQuestions {
     return Intl.message(
@@ -770,21 +990,41 @@ class S {
     );
   }
 
-  /// `Hay más!!`
+  /// `Ángel`
   String get onBoardingTitle3 {
     return Intl.message(
-      'Hay más!!',
+      'Ángel',
       name: 'onBoardingTitle3',
       desc: '',
       args: [],
     );
   }
 
-  /// `Cuando estés avanzando en el descubrimiento de cada pieza irán apareciendo joyas escondidas! Cada una es única y contienen preciosas informaciones que te ayudarán en la responsabilidad de tomar la Armadura De Dios.`
+  /// `Siempre va haber el angel que te acompañará en cada jornada el cual tiene el mensaje que te podría ayudar para ir avanzando poco a poco en este recorrido. Cuando tengas una dificultad no dudes en consultarlo!`
   String get onBoardingDescription3 {
     return Intl.message(
-      'Cuando estés avanzando en el descubrimiento de cada pieza irán apareciendo joyas escondidas! Cada una es única y contienen preciosas informaciones que te ayudarán en la responsabilidad de tomar la Armadura De Dios.',
+      'Siempre va haber el angel que te acompañará en cada jornada el cual tiene el mensaje que te podría ayudar para ir avanzando poco a poco en este recorrido. Cuando tengas una dificultad no dudes en consultarlo!',
       name: 'onBoardingDescription3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Hay más!!`
+  String get onBoardingTitle4 {
+    return Intl.message(
+      'Hay más!!',
+      name: 'onBoardingTitle4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cuando estés avanzando en el descubrimiento de cada pieza irán apareciendo joyas escondidas! Cada una es única y contienen preciosas informaciones que te ayudarán en la responsabilidad de tomar la Armadura De Dios.`
+  String get onBoardingDescription4 {
+    return Intl.message(
+      'Cuando estés avanzando en el descubrimiento de cada pieza irán apareciendo joyas escondidas! Cada una es única y contienen preciosas informaciones que te ayudarán en la responsabilidad de tomar la Armadura De Dios.',
+      name: 'onBoardingDescription4',
       desc: '',
       args: [],
     );

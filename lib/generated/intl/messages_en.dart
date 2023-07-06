@@ -144,11 +144,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "onBoardingDescription2": MessageLookupByLibrary.simpleMessage(
             "This application is divided into sections in which you will find pieces that you must unlock by answering simple selection Biblical questions with no time limit. Once you get all the questions right, you can enjoy the content of each piece of the Armor of God in their respective order and move on. Remember, you can\'t go to a section if you haven\'t unlocked all the pieces from the previous section."),
         "onBoardingDescription3": MessageLookupByLibrary.simpleMessage(
+            "There will always be the angel that will accompany you on each day who has the message that could help you to progress little by little on this journey. When you have a difficulty, do not hesitate to consult him!"),
+        "onBoardingDescription4": MessageLookupByLibrary.simpleMessage(
             "When you are advancing in the discovery of each piece, hidden jewels will appear! Each one is unique and contains precious information that will help you in the responsibility of taking on the Armor of God."),
         "onBoardingTitle1": MessageLookupByLibrary.simpleMessage(
             "Hello, Welcome to Armor Of God!"),
         "onBoardingTitle2": MessageLookupByLibrary.simpleMessage("Functioning"),
-        "onBoardingTitle3":
+        "onBoardingTitle3": MessageLookupByLibrary.simpleMessage("Angel"),
+        "onBoardingTitle4":
             MessageLookupByLibrary.simpleMessage("There is more!!"),
         "optionFiveFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Our Lord Jesus Christ"),
