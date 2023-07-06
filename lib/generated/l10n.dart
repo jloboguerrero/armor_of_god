@@ -810,6 +810,206 @@ class S {
     );
   }
 
+  /// `Efesios 6:15`
+  String get armor3Title {
+    return Intl.message(
+      'Efesios 6:15',
+      name: 'armor3Title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Y calzados los pies con el apresto del evangelio de la paz.”`
+  String get armor3Verse {
+    return Intl.message(
+      '“Y calzados los pies con el apresto del evangelio de la paz.”',
+      name: 'armor3Verse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Esta pieza de la armadura de Dios requiere que recordemos para qué sirven los pies. Como bien sabemos, los pies son para caminar, correr, saltar, trotar, etc., pero su significado principal está relacionado con la palabra caminar, andar, y el andar habla de nuestra vida, por lo cual no podemos estar descalzos y menos para una batalla, el Señor nos dejó provisto de todo lo necesario, entonces nos preguntamos ¿con que calzado estamos caminando? ¿caminamos en el Evangelio? que es una metáfora de vivir en la Palabra de Dios o ¿estamos caminando en nuestra propia sabiduría? Si es así estamos descalzos, es importante que sepas que el núcleo del evangelio es la muerte y resurrección de Cristo, como dice 1 Corintios: 15: 3-6 `
+  String get armor3Text1 {
+    return Intl.message(
+      'Esta pieza de la armadura de Dios requiere que recordemos para qué sirven los pies. Como bien sabemos, los pies son para caminar, correr, saltar, trotar, etc., pero su significado principal está relacionado con la palabra caminar, andar, y el andar habla de nuestra vida, por lo cual no podemos estar descalzos y menos para una batalla, el Señor nos dejó provisto de todo lo necesario, entonces nos preguntamos ¿con que calzado estamos caminando? ¿caminamos en el Evangelio? que es una metáfora de vivir en la Palabra de Dios o ¿estamos caminando en nuestra propia sabiduría? Si es así estamos descalzos, es importante que sepas que el núcleo del evangelio es la muerte y resurrección de Cristo, como dice 1 Corintios: 15: 3-6 ',
+      name: 'armor3Text1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“3 Porque primeramente os he enseñado lo que así mismo recibí: Que Cristo murió por nuestros pecados, conforme a las Escrituras; 4 y que fue sepultado, y que resucitó al tercer día, conforme a las Escrituras; 5 y que apareció a Cefas, y después a los doce. 6 después apareció a más de quinientos hermanos a la vez, de los cuales muchos viven aún, y otros ya duermen.” `
+  String get armor3Text2 {
+    return Intl.message(
+      '“3 Porque primeramente os he enseñado lo que así mismo recibí: Que Cristo murió por nuestros pecados, conforme a las Escrituras; 4 y que fue sepultado, y que resucitó al tercer día, conforme a las Escrituras; 5 y que apareció a Cefas, y después a los doce. 6 después apareció a más de quinientos hermanos a la vez, de los cuales muchos viven aún, y otros ya duermen.” ',
+      name: 'armor3Text2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 `
+  String get armor3Text3 {
+    return Intl.message(
+      '¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 ',
+      name: 'armor3Text3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“19 Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo; 20 enseñándoles que guarden todas las cosas que os he mandado; y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.” `
+  String get armor3Text4 {
+    return Intl.message(
+      '“19 Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo; 20 enseñándoles que guarden todas las cosas que os he mandado; y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.” ',
+      name: 'armor3Text4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Isaías: 52:7 nos dice: `
+  String get armor3Text5 {
+    return Intl.message(
+      'Isaías: 52:7 nos dice: ',
+      name: 'armor3Text5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¡Cuán hermosos son sobre los montes los pies del que trae alegres nuevas, del que anuncia la paz, del que trae nuevas del bien, del que publica salvación, del que dice a Sion: ¡Tu Dios reina! `
+  String get armor3Text6 {
+    return Intl.message(
+      '¡Cuán hermosos son sobre los montes los pies del que trae alegres nuevas, del que anuncia la paz, del que trae nuevas del bien, del que publica salvación, del que dice a Sion: ¡Tu Dios reina! ',
+      name: 'armor3Text6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `No debemos privarnos de esta hermosura.\n\n`
+  String get armor3Text7 {
+    return Intl.message(
+      'No debemos privarnos de esta hermosura.\n\n',
+      name: 'armor3Text7',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mas ¿dónde está la paz en esta ecuación? Bueno el Evangelio es paz, porque Cristo es la paz, Juan 16:33 dice: `
+  String get armor3Text8 {
+    return Intl.message(
+      'Mas ¿dónde está la paz en esta ecuación? Bueno el Evangelio es paz, porque Cristo es la paz, Juan 16:33 dice: ',
+      name: 'armor3Text8',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Yo les he dicho estas cosas para que en mí hallen paz. En este mundo afrontarán aflicciones, pero ¡anímense! Yo he vencido al mundo. `
+  String get armor3Text9 {
+    return Intl.message(
+      'Yo les he dicho estas cosas para que en mí hallen paz. En este mundo afrontarán aflicciones, pero ¡anímense! Yo he vencido al mundo. ',
+      name: 'armor3Text9',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mientras lees la Palabra de Dios y la compartes con quienes te rodean, la paz será un fruto de tu esfera de influencia. Ahora bien, cabe aclarar que no quiere decir que donde proclamemos el Evangelio va a ser en paz, ya que, el mismo Señor nos dice, cuando vayan a un lugar lleno de incrédulos no tendrán paz, tendrán guerra de acuerdo con lo que predijo nuestro Señor Jesucristo cuando dijo que no vendría a traer paz, sino espada, `
+  String get armor3Text10 {
+    return Intl.message(
+      'Mientras lees la Palabra de Dios y la compartes con quienes te rodean, la paz será un fruto de tu esfera de influencia. Ahora bien, cabe aclarar que no quiere decir que donde proclamemos el Evangelio va a ser en paz, ya que, el mismo Señor nos dice, cuando vayan a un lugar lleno de incrédulos no tendrán paz, tendrán guerra de acuerdo con lo que predijo nuestro Señor Jesucristo cuando dijo que no vendría a traer paz, sino espada, ',
+      name: 'armor3Text10',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mateo 10:34-36\n34 No penséis que he venido para traer paz a la tierra; no he venido para traer paz, sino espada. 35 Porque he venido para poner en disensión al hombre contra su padre, a la hija contra su madre, y a la nuera contra su suegra; 36 y los enemigos del hombre serán los de su casa.`
+  String get armor3Text11 {
+    return Intl.message(
+      'Mateo 10:34-36\n34 No penséis que he venido para traer paz a la tierra; no he venido para traer paz, sino espada. 35 Porque he venido para poner en disensión al hombre contra su padre, a la hija contra su madre, y a la nuera contra su suegra; 36 y los enemigos del hombre serán los de su casa.',
+      name: 'armor3Text11',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mateo 10:34-36. `
+  String get armor3Text12 {
+    return Intl.message(
+      'Mateo 10:34-36. ',
+      name: 'armor3Text12',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tendrás que desatar primero la batalla espiritual y el fruto de ella será la paz. Como está escrito en Isaías 32:17, `
+  String get armor3Text13 {
+    return Intl.message(
+      'Tendrás que desatar primero la batalla espiritual y el fruto de ella será la paz. Como está escrito en Isaías 32:17, ',
+      name: 'armor3Text13',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“El fruto de esa justicia será paz; su efecto será quietud y confianza para siempre.”`
+  String get armor3Text14 {
+    return Intl.message(
+      '“El fruto de esa justicia será paz; su efecto será quietud y confianza para siempre.”',
+      name: 'armor3Text14',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En una batalla real con alguien, en esta situación usas tus pies para moverte y golpear a tu oponente. Por lo tanto, cuando estás discutiendo con alguien con los argumentos de la verdad para romper las fortalezas mentales de satanás, debes tener como meta la paz, la mentalidad de querer la paz en su vida, no la meta de la gloria propia, como que siempre tienes el argumento ganador, ya que, el centro es Cristo.`
+  String get armor3TextPractice1 {
+    return Intl.message(
+      'En una batalla real con alguien, en esta situación usas tus pies para moverte y golpear a tu oponente. Por lo tanto, cuando estás discutiendo con alguien con los argumentos de la verdad para romper las fortalezas mentales de satanás, debes tener como meta la paz, la mentalidad de querer la paz en su vida, no la meta de la gloria propia, como que siempre tienes el argumento ganador, ya que, el centro es Cristo.',
+      name: 'armor3TextPractice1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El apóstol Pablo quien antes era Saulo, un erudito, en su predicación no usaba de su sabiduría, predicaba solo a Cristo, como lo expresa en 1 Corintios 2:1-5 `
+  String get armor3TextBible1 {
+    return Intl.message(
+      'El apóstol Pablo quien antes era Saulo, un erudito, en su predicación no usaba de su sabiduría, predicaba solo a Cristo, como lo expresa en 1 Corintios 2:1-5 ',
+      name: 'armor3TextBible1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”.`
+  String get armor3TextBible2 {
+    return Intl.message(
+      '“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”.',
+      name: 'armor3TextBible2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno.`
+  String get armor3TextLife1 {
+    return Intl.message(
+      'Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno.',
+      name: 'armor3TextLife1',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Para enviar, responde todas las preguntas`
   String get answerAllQuestions {
     return Intl.message(
