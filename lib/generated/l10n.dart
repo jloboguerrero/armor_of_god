@@ -1360,6 +1360,236 @@ class S {
     );
   }
 
+  /// `Efesios 6:18b`
+  String get armor6Title {
+    return Intl.message(
+      'Efesios 6:18b',
+      name: 'armor6Title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“y la espada del Espíritu, que es la palabra de Dios.”`
+  String get armor6Verse {
+    return Intl.message(
+      '“y la espada del Espíritu, que es la palabra de Dios.”',
+      name: 'armor6Verse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La espada es el arma en la armadura que no solo se utiliza para la ofensiva sino también para la defensiva del soldado, por lo cual cuando estás en la batalla tienes que tener una espada. En el orden de la armadura es la última pieza que toma el soldado, pero una vez empuñada no la debería soltar, la espada del Espíritu está muy bien definida en la Biblia como la Palabra de Dios, con ella luchas contra el adversario y/o adversidad, así como Cristo luchó contra satanás en `
+  String get armor6Text1 {
+    return Intl.message(
+      'La espada es el arma en la armadura que no solo se utiliza para la ofensiva sino también para la defensiva del soldado, por lo cual cuando estás en la batalla tienes que tener una espada. En el orden de la armadura es la última pieza que toma el soldado, pero una vez empuñada no la debería soltar, la espada del Espíritu está muy bien definida en la Biblia como la Palabra de Dios, con ella luchas contra el adversario y/o adversidad, así como Cristo luchó contra satanás en ',
+      name: 'armor6Text1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mateo 4:1-11\nEntonces Jesús fue llevado por el Espíritu al desierto, para ser tentado por el diablo. 2 Y después de haber ayunado cuarenta días y cuarenta noches, tuvo hambre. 3 Y vino a él el tentador, y le dijo: Si eres Hijo de Dios, di que estas piedras se conviertan en pan. 4 Él respondió y dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios. 5 Entonces el diablo le llevó a la santa ciudad, y le puso sobre el pináculo del templo, 6 y le dijo: Si eres Hijo de Dios, échate abajo; porque escrito está: A sus ángeles mandará acerca de ti, y, En sus manos te sostendrán, Para que no tropieces con tu pie en piedra. 7 Jesús le dijo: Escrito está también: No tentarás al Señor tu Dios. 8 Otra vez le llevó el diablo a un monte muy alto, y le mostró todos los reinos del mundo y la gloria de ellos, 9 y le dijo: Todo esto te daré, si postrado me adorares. 10 Entonces Jesús le dijo: Vete, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 11 El diablo entonces le dejó; y he aquí vinieron ángeles y le servían.`
+  String get armor6Text2 {
+    return Intl.message(
+      'Mateo 4:1-11\nEntonces Jesús fue llevado por el Espíritu al desierto, para ser tentado por el diablo. 2 Y después de haber ayunado cuarenta días y cuarenta noches, tuvo hambre. 3 Y vino a él el tentador, y le dijo: Si eres Hijo de Dios, di que estas piedras se conviertan en pan. 4 Él respondió y dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra que sale de la boca de Dios. 5 Entonces el diablo le llevó a la santa ciudad, y le puso sobre el pináculo del templo, 6 y le dijo: Si eres Hijo de Dios, échate abajo; porque escrito está: A sus ángeles mandará acerca de ti, y, En sus manos te sostendrán, Para que no tropieces con tu pie en piedra. 7 Jesús le dijo: Escrito está también: No tentarás al Señor tu Dios. 8 Otra vez le llevó el diablo a un monte muy alto, y le mostró todos los reinos del mundo y la gloria de ellos, 9 y le dijo: Todo esto te daré, si postrado me adorares. 10 Entonces Jesús le dijo: Vete, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 11 El diablo entonces le dejó; y he aquí vinieron ángeles y le servían.',
+      name: 'armor6Text2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Mateo 4:1-11 `
+  String get armor6Text3 {
+    return Intl.message(
+      'Mateo 4:1-11 ',
+      name: 'armor6Text3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Y `
+  String get armor6Text4 {
+    return Intl.message(
+      'Y ',
+      name: 'armor6Text4',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lucas 4:1-13\nJesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo.`
+  String get armor6Text5 {
+    return Intl.message(
+      'Lucas 4:1-13\nJesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo.',
+      name: 'armor6Text5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lucas 4:1-13 `
+  String get armor6Text6 {
+    return Intl.message(
+      'Lucas 4:1-13 ',
+      name: 'armor6Text6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `usando la poderosa espada del Espíritu, la Palabra de Dios, nosotros debemos hacer lo mismo. ¿cómo usar la espada del Espíritu? Solo leerla en voz alta no es suficiente, es la sabiduría revelada por el Espíritu Santo que encuentras en el contenido de la Palabra de Dios lo que es eficaz para cada circunstancia. Ya que, no se puede usar de cualquier manera, se debe discernir el momento exacto de la ofensiva o defensiva, porque aún como creyente podríamos usar mal la espada, es decir, usar la Palabra de Dios en forma incorrecta. Por esto es necesario pedir la sabiduría que viene de Dios para su Palabra como lo expresa el Apóstol Santiago cuando dice: `
+  String get armor6Text7 {
+    return Intl.message(
+      'usando la poderosa espada del Espíritu, la Palabra de Dios, nosotros debemos hacer lo mismo. ¿cómo usar la espada del Espíritu? Solo leerla en voz alta no es suficiente, es la sabiduría revelada por el Espíritu Santo que encuentras en el contenido de la Palabra de Dios lo que es eficaz para cada circunstancia. Ya que, no se puede usar de cualquier manera, se debe discernir el momento exacto de la ofensiva o defensiva, porque aún como creyente podríamos usar mal la espada, es decir, usar la Palabra de Dios en forma incorrecta. Por esto es necesario pedir la sabiduría que viene de Dios para su Palabra como lo expresa el Apóstol Santiago cuando dice: ',
+      name: 'armor6Text7',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Y si alguno de vosotros tiene falta de sabiduría, pídala a Dios, el cual da a todos abundantemente y sin reproche, y le será dada Santiago 1:5 `
+  String get armor6Text8 {
+    return Intl.message(
+      'Y si alguno de vosotros tiene falta de sabiduría, pídala a Dios, el cual da a todos abundantemente y sin reproche, y le será dada Santiago 1:5 ',
+      name: 'armor6Text8',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `solo así es eficaz cuando viene de la sabiduría de Dios. Otro aspecto que debemos considerar es lo que dice `
+  String get armor6Text9 {
+    return Intl.message(
+      'solo así es eficaz cuando viene de la sabiduría de Dios. Otro aspecto que debemos considerar es lo que dice ',
+      name: 'armor6Text9',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Corintios 10:1-6\nYo Pablo os ruego por la mansedumbre y ternura de Cristo, yo que estando presente ciertamente soy humilde entre vosotros, mas ausente soy osado para con vosotros; 2 ruego, pues, que cuando esté presente, no tenga que usar de aquella osadía con que estoy dispuesto a proceder resueltamente contra algunos que nos tienen como si anduviésemos según la carne. 3 Pues aunque andamos en la carne, no militamos según la carne; 4 porque las armas de nuestra milicia no son carnales, sino poderosas en Dios para la destrucción de fortalezas, 5 derribando argumentos y toda altivez que se levanta contra el conocimiento de Dios, y llevando cautivo todo pensamiento a la obediencia a Cristo, 6 y estando prontos para castigar toda desobediencia, cuando vuestra obediencia sea perfecta.`
+  String get armor6Text10 {
+    return Intl.message(
+      '2 Corintios 10:1-6\nYo Pablo os ruego por la mansedumbre y ternura de Cristo, yo que estando presente ciertamente soy humilde entre vosotros, mas ausente soy osado para con vosotros; 2 ruego, pues, que cuando esté presente, no tenga que usar de aquella osadía con que estoy dispuesto a proceder resueltamente contra algunos que nos tienen como si anduviésemos según la carne. 3 Pues aunque andamos en la carne, no militamos según la carne; 4 porque las armas de nuestra milicia no son carnales, sino poderosas en Dios para la destrucción de fortalezas, 5 derribando argumentos y toda altivez que se levanta contra el conocimiento de Dios, y llevando cautivo todo pensamiento a la obediencia a Cristo, 6 y estando prontos para castigar toda desobediencia, cuando vuestra obediencia sea perfecta.',
+      name: 'armor6Text10',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Corintios 10:1-6 `
+  String get armor6Text11 {
+    return Intl.message(
+      '2 Corintios 10:1-6 ',
+      name: 'armor6Text11',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `la Palabra nos habla que las armas en Dios son poderosas para derribar fortalezas, derribando argumentos que se levanta contra el conocimiento de Dios, esto indica que no solo debemos estar preparados para el ataque, si no que si hemos sido ya atacados la misma espada puede usarse para cortar y dividir la herida a fin de sanar, como está escrito en Hebreos 4:12 `
+  String get armor6Text12 {
+    return Intl.message(
+      'la Palabra nos habla que las armas en Dios son poderosas para derribar fortalezas, derribando argumentos que se levanta contra el conocimiento de Dios, esto indica que no solo debemos estar preparados para el ataque, si no que si hemos sido ya atacados la misma espada puede usarse para cortar y dividir la herida a fin de sanar, como está escrito en Hebreos 4:12 ',
+      name: 'armor6Text12',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos; y penetra hasta partir el alma y el espíritu, las coyunturas y los tuétanos, y discierne los pensamientos y las intenciones del corazón.”\n\n`
+  String get armor6Text13 {
+    return Intl.message(
+      '“Porque la palabra de Dios es viva y eficaz, y más cortante que toda espada de dos filos; y penetra hasta partir el alma y el espíritu, las coyunturas y los tuétanos, y discierne los pensamientos y las intenciones del corazón.”\n\n',
+      name: 'armor6Text13',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Pero un momento, ¿por qué la espada del Espíritu no se llama la espada de la Palabra de Dios? ¿Hay un misterio aquí? Si tienes una mente afinada, notarás que la Biblia hace una conexión entre estas dos palabras, están relacionadas espiritualmente. Pero, ¿qué significa? Significa que la Palabra de Dios expresa las acciones del Espíritu Santo de Dios, usas la Palabra de Dios para marcar la diferencia entre el Espíritu Santo y cualquier otro espíritu. También significa que obedecer la Palabra de Dios es lo mismo que obedecer al Espíritu del Señor, porque el Señor Todopoderoso usará la Palabra de Dios para comunicar Sus órdenes divinas, las cuales son confirmadas por el Espíritu Santo. La Palabra de Dios contiene todos los pensamientos y palabras del Espíritu Santo, así que si quieres seguir al Espíritu Santo debes aprender a ser guiado por la Palabra de Dios. Usa la espada del Espíritu de manera honorable; para traer vida, no muerte; para vencer el mal, y no dejar que las tinieblas dominen tu tierra.`
+  String get armor6Text14 {
+    return Intl.message(
+      'Pero un momento, ¿por qué la espada del Espíritu no se llama la espada de la Palabra de Dios? ¿Hay un misterio aquí? Si tienes una mente afinada, notarás que la Biblia hace una conexión entre estas dos palabras, están relacionadas espiritualmente. Pero, ¿qué significa? Significa que la Palabra de Dios expresa las acciones del Espíritu Santo de Dios, usas la Palabra de Dios para marcar la diferencia entre el Espíritu Santo y cualquier otro espíritu. También significa que obedecer la Palabra de Dios es lo mismo que obedecer al Espíritu del Señor, porque el Señor Todopoderoso usará la Palabra de Dios para comunicar Sus órdenes divinas, las cuales son confirmadas por el Espíritu Santo. La Palabra de Dios contiene todos los pensamientos y palabras del Espíritu Santo, así que si quieres seguir al Espíritu Santo debes aprender a ser guiado por la Palabra de Dios. Usa la espada del Espíritu de manera honorable; para traer vida, no muerte; para vencer el mal, y no dejar que las tinieblas dominen tu tierra.',
+      name: 'armor6Text14',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si eres creyente pero no lees la Palabra de Dios, es decir, no tomas la Espada del Espíritu, serás un creyente indefenso`
+  String get armor6TextPractice1 {
+    return Intl.message(
+      'Si eres creyente pero no lees la Palabra de Dios, es decir, no tomas la Espada del Espíritu, serás un creyente indefenso',
+      name: 'armor6TextPractice1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Un ejemplo de un hombre que una vez tomó la Espada no la soltó es uno de los valientes de David, dice el texto en 2 samuel 23:9-10: `
+  String get armor6TextBible1 {
+    return Intl.message(
+      'Un ejemplo de un hombre que una vez tomó la Espada no la soltó es uno de los valientes de David, dice el texto en 2 samuel 23:9-10: ',
+      name: 'armor6TextBible1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Después de este, Eleazar hijo de Dodo, ahohíta, uno de los tres valientes que estaban con David cuando desafiaron a los filisteos que se habían reunido allí para la batalla, y se habían alejado los hombres de Israel. Este se levantó e hirió a los filisteos hasta que su mano se cansó, y quedó pegada su mano a la espada. Aquel día Jehová dio una gran victoria, y se volvió el pueblo en pos de él tan solo para recoger el botín.” `
+  String get armor6TextBible2 {
+    return Intl.message(
+      '“Después de este, Eleazar hijo de Dodo, ahohíta, uno de los tres valientes que estaban con David cuando desafiaron a los filisteos que se habían reunido allí para la batalla, y se habían alejado los hombres de Israel. Este se levantó e hirió a los filisteos hasta que su mano se cansó, y quedó pegada su mano a la espada. Aquel día Jehová dio una gran victoria, y se volvió el pueblo en pos de él tan solo para recoger el botín.” ',
+      name: 'armor6TextBible2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Aunque esto fue algo físico, apunta a la realidad espiritual que si nos aferramos a la Palabra de Dios tendremos la Victoria que ya Cristo nos dio. `
+  String get armor6TextBible3 {
+    return Intl.message(
+      'Aunque esto fue algo físico, apunta a la realidad espiritual que si nos aferramos a la Palabra de Dios tendremos la Victoria que ya Cristo nos dio. ',
+      name: 'armor6TextBible3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Habita y arráigate en la palabra de Dios, como nos dice Colosenses: 3:16: `
+  String get armor6TextLife1 {
+    return Intl.message(
+      'Habita y arráigate en la palabra de Dios, como nos dice Colosenses: 3:16: ',
+      name: 'armor6TextLife1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“La palabra de Cristo more en abundancia en vosotros, enseñándoos y exhortándoos unos a otros en toda sabiduría, cantando con gracia en vuestros corazones al Señor con salmos e himnos y cánticos espirituales.” `
+  String get armor6TextLife2 {
+    return Intl.message(
+      '“La palabra de Cristo more en abundancia en vosotros, enseñándoos y exhortándoos unos a otros en toda sabiduría, cantando con gracia en vuestros corazones al Señor con salmos e himnos y cánticos espirituales.” ',
+      name: 'armor6TextLife2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si la Palabra de Dios mora en nosotros podremos atacar cualquier frente. `
+  String get armor6TextLife3 {
+    return Intl.message(
+      'Si la Palabra de Dios mora en nosotros podremos atacar cualquier frente. ',
+      name: 'armor6TextLife3',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Para enviar, responde todas las preguntas`
   String get answerAllQuestions {
     return Intl.message(
