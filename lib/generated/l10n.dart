@@ -1950,140 +1950,140 @@ class S {
     );
   }
 
-  /// `¿Cuál es la palabra clave que abrirá las bendiciones de Deuteronomio 28:1-14?`
+  /// `Según las Escrituras, ¿cuántos hombres confrontaron y derrotaron al ejército de los madianitas de quince mil (15,000) hombres en Jueces 8:1-35?`
   String get mainQuestionFirstPageOne {
     return Intl.message(
-      '¿Cuál es la palabra clave que abrirá las bendiciones de Deuteronomio 28:1-14?',
+      'Según las Escrituras, ¿cuántos hombres confrontaron y derrotaron al ejército de los madianitas de quince mil (15,000) hombres en Jueces 8:1-35?',
       name: 'mainQuestionFirstPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Frutos`
+  /// `20.000 hombres`
   String get optionOneFirstPageOne {
     return Intl.message(
-      'Frutos',
+      '20.000 hombres',
       name: 'optionOneFirstPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Señor`
+  /// `15.000 hombres`
   String get optionTwoFirstPageOne {
     return Intl.message(
-      'Señor',
+      '15.000 hombres',
       name: 'optionTwoFirstPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Giro`
+  /// `7.000 hombres`
   String get optionThreeFirstPageOne {
     return Intl.message(
-      'Giro',
+      '7.000 hombres',
       name: 'optionThreeFirstPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Bendecido`
+  /// `300 hombres`
   String get optionFourFirstPageOne {
     return Intl.message(
-      'Bendecido',
+      '300 hombres',
       name: 'optionFourFirstPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Hoy`
+  /// `4 hombres`
   String get optionFiveFirstPageOne {
     return Intl.message(
-      'Hoy',
+      '4 hombres',
       name: 'optionFiveFirstPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Lea cuidadosamente las palabras de Deuteronomio 28:1-14; en obediencia, debes recostar tu cabeza`
+  /// `Lea y cuente en Jueces 8:1-35; una historia más impresionante que el famoso número`
   String get theClueFirstPageOne {
     return Intl.message(
-      'Lea cuidadosamente las palabras de Deuteronomio 28:1-14; en obediencia, debes recostar tu cabeza',
+      'Lea y cuente en Jueces 8:1-35; una historia más impresionante que el famoso número',
       name: 'theClueFirstPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `¿Cuáles son las palabras claves que te harán ser la semilla que producirá una cosecha de treinta, sesenta y hasta cien veces lo que se sembró, Mateo 13:1-23, Marcos 4:1-20, Lucas 8:1-15?`
+  /// `¿Por qué los israelitas tenían que sacrificar un animal en todas sus ofrendas y holocaustos al Señor?`
   String get mainQuestionFirstPageTwo {
     return Intl.message(
-      '¿Cuáles son las palabras claves que te harán ser la semilla que producirá una cosecha de treinta, sesenta y hasta cien veces lo que se sembró, Mateo 13:1-23, Marcos 4:1-20, Lucas 8:1-15?',
+      '¿Por qué los israelitas tenían que sacrificar un animal en todas sus ofrendas y holocaustos al Señor?',
       name: 'mainQuestionFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mateo: Entiende;\nMarcos: Aceptan;\nLucas: Perseveran`
+  /// `Porque el Señor Soberano come ese tipo de carne`
   String get optionOneFirstPageTwo {
     return Intl.message(
-      'Mateo: Entiende;\nMarcos: Aceptan;\nLucas: Perseveran',
+      'Porque el Señor Soberano come ese tipo de carne',
       name: 'optionOneFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mateo: Plantar;\nMarcos: Siembra;\nLucas: Cosechar`
+  /// `Porque Él se deleita cuando haces esto`
   String get optionTwoFirstPageTwo {
     return Intl.message(
-      'Mateo: Plantar;\nMarcos: Siembra;\nLucas: Cosechar',
+      'Porque Él se deleita cuando haces esto',
       name: 'optionTwoFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mateo: Hablando;\nMarcos: Escuchar;\nLucas: Reflexionando`
+  /// `Porque tenéis que eliminar todos los animales impuros y pecadores de vuestro rebaño`
   String get optionThreeFirstPageTwo {
     return Intl.message(
-      'Mateo: Hablando;\nMarcos: Escuchar;\nLucas: Reflexionando',
+      'Porque tenéis que eliminar todos los animales impuros y pecadores de vuestro rebaño',
       name: 'optionThreeFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mateo: Pesca;\nMarcos: riego;\nLucas: Esperando`
+  /// `Porque ese animal tomaba tu lugar en el castigo de los pecados. El castigo por el pecado es la muerte, pero ese animal moría en tu lugar`
   String get optionFourFirstPageTwo {
     return Intl.message(
-      'Mateo: Pesca;\nMarcos: riego;\nLucas: Esperando',
+      'Porque ese animal tomaba tu lugar en el castigo de los pecados. El castigo por el pecado es la muerte, pero ese animal moría en tu lugar',
       name: 'optionFourFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Mateo: Reflexionando;\nMarcos: Escuchar la Palabra;\nLucas: Meditar`
+  /// `Es un ritual que debes realizar para usar esa sangre en tus hechizos diarios`
   String get optionFiveFirstPageTwo {
     return Intl.message(
-      'Mateo: Reflexionando;\nMarcos: Escuchar la Palabra;\nLucas: Meditar',
+      'Es un ritual que debes realizar para usar esa sangre en tus hechizos diarios',
       name: 'optionFiveFirstPageTwo',
       desc: '',
       args: [],
     );
   }
 
-  /// `Compare Mateo 13:1-23, Marcos 4:1-20 y Lucas 8:1-15; la grandeza se ve en las cosas pequeñas`
+  /// `La muerte por tu pecado está a la orden, pero ¿acaso él se deleita en el sacrificio de un animal?`
   String get theClueFirstPageTwo {
     return Intl.message(
-      'Compare Mateo 13:1-23, Marcos 4:1-20 y Lucas 8:1-15; la grandeza se ve en las cosas pequeñas',
+      'La muerte por tu pecado está a la orden, pero ¿acaso él se deleita en el sacrificio de un animal?',
       name: 'theClueFirstPageTwo',
       desc: '',
       args: [],
@@ -2150,10 +2150,10 @@ class S {
     );
   }
 
-  /// `¿Se puede curar con una mentira? ¿Cómo hace satanás el mal en el mundo?`
+  /// `¿Cómo hace satanás el mal en el mundo? Lee Génesis 3:1-7`
   String get theClueFirstPageThree {
     return Intl.message(
-      '¿Se puede curar con una mentira? ¿Cómo hace satanás el mal en el mundo?',
+      '¿Cómo hace satanás el mal en el mundo? Lee Génesis 3:1-7',
       name: 'theClueFirstPageThree',
       desc: '',
       args: [],
@@ -2360,10 +2360,10 @@ class S {
     );
   }
 
-  /// `Lea e investigue por sí mismo; muchas personas santas y no santas esperan ese día en la tumba`
+  /// `Lea e investigue por sí mismo; personas santas y no santas esperan ese día en la tumba`
   String get theClueSecondPageOne {
     return Intl.message(
-      'Lea e investigue por sí mismo; muchas personas santas y no santas esperan ese día en la tumba',
+      'Lea e investigue por sí mismo; personas santas y no santas esperan ese día en la tumba',
       name: 'theClueSecondPageOne',
       desc: '',
       args: [],
@@ -3350,70 +3350,70 @@ class S {
     );
   }
 
-  /// `¿Por qué los israelitas tenían que sacrificar un animal en todas sus ofrendas y holocaustos al Señor?`
+  /// `¿Cuáles son las palabras claves que te harán ser la semilla que producirá una cosecha de treinta, sesenta y hasta cien veces lo que se sembró, Mateo 13:1-23, Marcos 4:1-20, Lucas 8:1-15?`
   String get mainQuestionFiveQPageOne {
     return Intl.message(
-      '¿Por qué los israelitas tenían que sacrificar un animal en todas sus ofrendas y holocaustos al Señor?',
+      '¿Cuáles son las palabras claves que te harán ser la semilla que producirá una cosecha de treinta, sesenta y hasta cien veces lo que se sembró, Mateo 13:1-23, Marcos 4:1-20, Lucas 8:1-15?',
       name: 'mainQuestionFiveQPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Porque el Señor Soberano come ese tipo de carne`
+  /// `Mateo: Entienden;\nMarcos: Aceptan;\nLucas: Retienen`
   String get optionOneFiveQPageOne {
     return Intl.message(
-      'Porque el Señor Soberano come ese tipo de carne',
+      'Mateo: Entienden;\nMarcos: Aceptan;\nLucas: Retienen',
       name: 'optionOneFiveQPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Porque Él se deleita cuando haces esto`
+  /// `Mateo: Plantar;\nMarcos: Siembra;\nLucas: Cosechar`
   String get optionTwoFiveQPageOne {
     return Intl.message(
-      'Porque Él se deleita cuando haces esto',
+      'Mateo: Plantar;\nMarcos: Siembra;\nLucas: Cosechar',
       name: 'optionTwoFiveQPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Porque tenéis que eliminar todos los animales impuros y pecadores de vuestro rebaño`
+  /// `Mateo: Hablando;\nMarcos: Escuchar;\nLucas: Reflexionando`
   String get optionThreeFiveQPageOne {
     return Intl.message(
-      'Porque tenéis que eliminar todos los animales impuros y pecadores de vuestro rebaño',
+      'Mateo: Hablando;\nMarcos: Escuchar;\nLucas: Reflexionando',
       name: 'optionThreeFiveQPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Porque ese animal tomaba tu lugar en el castigo de los pecados. El castigo por el pecado es la muerte, pero ese animal moría en tu lugar`
+  /// `Mateo: Pesca;\nMarcos: riego;\nLucas: Esperando`
   String get optionFourFiveQPageOne {
     return Intl.message(
-      'Porque ese animal tomaba tu lugar en el castigo de los pecados. El castigo por el pecado es la muerte, pero ese animal moría en tu lugar',
+      'Mateo: Pesca;\nMarcos: riego;\nLucas: Esperando',
       name: 'optionFourFiveQPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `Es un ritual que debes realizar para usar esa sangre en tus hechizos diarios`
+  /// `Mateo: Reflexionando;\nMarcos: Escuchar la Palabra;\nLucas: Meditar`
   String get optionFiveFiveQPageOne {
     return Intl.message(
-      'Es un ritual que debes realizar para usar esa sangre en tus hechizos diarios',
+      'Mateo: Reflexionando;\nMarcos: Escuchar la Palabra;\nLucas: Meditar',
       name: 'optionFiveFiveQPageOne',
       desc: '',
       args: [],
     );
   }
 
-  /// `La muerte por tu pecado está a la orden, pero ¿acaso él se deleita en el sacrificio de un animal?`
+  /// `Compare Mateo 13:1-23, Marcos 4:1-20 y Lucas 8:1-15; la grandeza se ve en las cosas pequeñas`
   String get theClueFiveQPageOne {
     return Intl.message(
-      'La muerte por tu pecado está a la orden, pero ¿acaso él se deleita en el sacrificio de un animal?',
+      'Compare Mateo 13:1-23, Marcos 4:1-20 y Lucas 8:1-15; la grandeza se ve en las cosas pequeñas',
       name: 'theClueFiveQPageOne',
       desc: '',
       args: [],

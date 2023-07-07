@@ -264,17 +264,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "mainQuestionFirstPageFour": MessageLookupByLibrary.simpleMessage(
             "Você consegue encontrar a Verdade imediatamente após ler a Bíblia de acordo com João 8:1-59?"),
         "mainQuestionFirstPageOne": MessageLookupByLibrary.simpleMessage(
-            "Qual é a palavra-chave que abrirá as bênçãos de Deuteronômio 28:1-14?"),
+            "De acordo com as Escrituras, quantos homens enfrentaram e derrotaram o exército midianita de quinze mil (15.000) homens em Juízes 8:1-35?"),
         "mainQuestionFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Pode uma mentira ter algum poder sobre a realidade?"),
         "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Quais são as palavras-chave que farão de você a semente que produzirá uma colheita de trinta, sessenta e até cem vezes o que foi semeado, Mateus 13:1-23, Marcos 4:1-20, Lucas 8:1-15?"),
+            "Por que os israelitas tinham que sacrificar um animal em todas as suas ofertas e holocaustos ao Senhor?"),
         "mainQuestionFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "Segundo a Palavra do Senhor, qual rei acendeu a Ira de Deus a tal ponto que provocou a destruição do reino de Judá e o exílio de seu povo na Babilônia?"),
         "mainQuestionFiveQPageFour": MessageLookupByLibrary.simpleMessage(
             "Em qual capítulo das Sagradas Escrituras nosso Senhor Jesus Cristo declara puros todos os alimentos?"),
         "mainQuestionFiveQPageOne": MessageLookupByLibrary.simpleMessage(
-            "Por que os israelitas tinham que sacrificar um animal em todas as suas ofertas e holocaustos ao Senhor?"),
+            "Quais são as palavras-chave que farão de você a semente que produzirá uma colheita de trinta, sessenta e até cem vezes o que foi semeado, Mateus 13:1-23, Marcos 4:1-20, Lucas 8:1-15?"),
         "mainQuestionFiveQPageThree": MessageLookupByLibrary.simpleMessage(
             "Por que não sacrificamos um animal por nossos pecados hoje?"),
         "mainQuestionFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
@@ -337,17 +337,18 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Nosso Senhor Jesus Cristo"),
         "optionFiveFirstPageFour": MessageLookupByLibrary.simpleMessage(
             "Não, você tem que estudar teologia primeiro"),
-        "optionFiveFirstPageOne": MessageLookupByLibrary.simpleMessage("Hoje"),
+        "optionFiveFirstPageOne":
+            MessageLookupByLibrary.simpleMessage("4 homens"),
         "optionFiveFirstPageThree":
             MessageLookupByLibrary.simpleMessage("Não, Satanás não existe"),
         "optionFiveFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateus: Refletindo;\nMarcos: Ouça a Palavra;\nLucas: Medite"),
+            "É um ritual que você deve realizar para usar esse sangue em seus feitiços diários"),
         "optionFiveFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "Rei Manassés em 2 Reis 21:1-26"),
         "optionFiveFiveQPageFour":
             MessageLookupByLibrary.simpleMessage("Atos 1:1-26"),
         "optionFiveFiveQPageOne": MessageLookupByLibrary.simpleMessage(
-            "É um ritual que você deve realizar para usar esse sangue em seus feitiços diários"),
+            "Mateus: Refletindo;\nMarcos: Ouça a Palavra;\nLucas: Medite"),
         "optionFiveFiveQPageThree": MessageLookupByLibrary.simpleMessage(
             "Cristo a aboliu no Antigo Testamento"),
         "optionFiveFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
@@ -395,17 +396,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFourFirstPageFour": MessageLookupByLibrary.simpleMessage(
             "Sim, mas você tem que saber quem são os filhos do diabo"),
         "optionFourFirstPageOne":
-            MessageLookupByLibrary.simpleMessage("Abençoado"),
+            MessageLookupByLibrary.simpleMessage("300 homens"),
         "optionFourFirstPageThree":
             MessageLookupByLibrary.simpleMessage("Sim, é tudo mentira"),
         "optionFourFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateus: Pesca;\nMarcos: rega;\nLucas: esperando"),
+            "Porque aquele animal tomou o seu lugar no castigo dos pecados. A punição para o pecado é a morte, mas aquele animal morreu em seu lugar"),
         "optionFourFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "Rei Ezequias em 2 Reis 18:1-19:37"),
         "optionFourFiveQPageFour":
             MessageLookupByLibrary.simpleMessage("Marcos 7:1-23"),
         "optionFourFiveQPageOne": MessageLookupByLibrary.simpleMessage(
-            "Porque aquele animal tomou o seu lugar no castigo dos pecados. A punição para o pecado é a morte, mas aquele animal morreu em seu lugar"),
+            "Mateus: Pesca;\nMarcos: rega;\nLucas: esperando"),
         "optionFourFiveQPageThree": MessageLookupByLibrary.simpleMessage(
             "Porque Jesus Cristo, sendo Deus, é o último sacrifício pelos pecados, uma vez que todos os pecados são perdoados pelo Seu sangue, não são necessários mais sacrifícios de animais"),
         "optionFourFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
@@ -454,17 +455,18 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("É só uma pedra"),
         "optionOneFirstPageFour": MessageLookupByLibrary.simpleMessage(
             "Sim, imediatamente após a leitura"),
-        "optionOneFirstPageOne": MessageLookupByLibrary.simpleMessage("Frutos"),
+        "optionOneFirstPageOne":
+            MessageLookupByLibrary.simpleMessage("20.000 homens"),
         "optionOneFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Sim, uma mentira tem controle sobre a realidade que vemos"),
         "optionOneFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateus: Entenda;\nMarcos: Eles aceitam;\nLucas: Persevera"),
+            "Porque o Soberano Senhor come esse tipo de carne"),
         "optionOneFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "Rei Roboão em 1 Reis 12:1-33"),
         "optionOneFiveQPageFour":
             MessageLookupByLibrary.simpleMessage("Mateus 17:1-27"),
         "optionOneFiveQPageOne": MessageLookupByLibrary.simpleMessage(
-            "Porque o Soberano Senhor come esse tipo de carne"),
+            "Mateus: Entendem;\nMarcos: Eles aceitam;\nLucas: reter"),
         "optionOneFiveQPageThree": MessageLookupByLibrary.simpleMessage(
             "Por que evoluímos como seres humanos?"),
         "optionOneFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
@@ -511,17 +513,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionThreeFirstPageFour": MessageLookupByLibrary.simpleMessage(
             "Não, embora cada palavra da Bíblia seja verdadeira, você deve primeiro conhecer a pessoa, a obra e a doutrina de Jesus Cristo"),
         "optionThreeFirstPageOne":
-            MessageLookupByLibrary.simpleMessage("Volta"),
+            MessageLookupByLibrary.simpleMessage("7.000 homens"),
         "optionThreeFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Não, uma mentira não pode ter controle sobre a realidade nem pode afetar os seres humanos"),
         "optionThreeFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateus: Falando;\nMarcos: Ouça;\nLucas: Refletindo"),
+            "Porque você tem que eliminar todos os animais impuros e pecadores do seu rebanho"),
         "optionThreeFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "Rei Uzias em 2 Crônicas 26:1-23"),
         "optionThreeFiveQPageFour":
             MessageLookupByLibrary.simpleMessage("João 9:1-41"),
         "optionThreeFiveQPageOne": MessageLookupByLibrary.simpleMessage(
-            "Porque você tem que eliminar todos os animais impuros e pecadores do seu rebanho"),
+            "Mateus: Falando;\nMarcos: Ouça;\nLucas: Refletindo"),
         "optionThreeFiveQPageThree": MessageLookupByLibrary.simpleMessage(
             "É muito caro comprar um animal toda vez que pecamos contra o Senhor"),
         "optionThreeFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
@@ -569,17 +571,18 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Representa nossos pecados"),
         "optionTwoFirstPageFour": MessageLookupByLibrary.simpleMessage(
             "Não, a Bíblia foi modificada por humanos"),
-        "optionTwoFirstPageOne": MessageLookupByLibrary.simpleMessage("Senhor"),
+        "optionTwoFirstPageOne":
+            MessageLookupByLibrary.simpleMessage("15.000 homens"),
         "optionTwoFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Sim, mas apenas se o homem decidir acreditar nessa mentira"),
         "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Mateus: Planta;\nMarcos: Plantio;\nLucas: Colheita"),
+            "Porque Ele se deleita quando você faz isso"),
         "optionTwoFiveQPageFive":
             MessageLookupByLibrary.simpleMessage("Rei Acabe em 1 Reis 21:1-29"),
         "optionTwoFiveQPageFour":
             MessageLookupByLibrary.simpleMessage("Lucas 16:1-31"),
         "optionTwoFiveQPageOne": MessageLookupByLibrary.simpleMessage(
-            "Porque Ele se deleita quando você faz isso"),
+            "Mateus: Planta;\nMarcos: Plantio;\nLucas: Colheita"),
         "optionTwoFiveQPageThree": MessageLookupByLibrary.simpleMessage(
             "Percebemos que o Senhor não come esses animais"),
         "optionTwoFiveQPageTwo": MessageLookupByLibrary.simpleMessage(
@@ -704,17 +707,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueFirstPageFour": MessageLookupByLibrary.simpleMessage(
             "Medite profundamente em João 8:31-47; a realidade é uma construção dos seus sentidos"),
         "theClueFirstPageOne": MessageLookupByLibrary.simpleMessage(
-            "Leia atentamente as palavras de Deuteronômio 28:1-14; em obediência você deve colocar sua cabeça"),
+            "Leia e conte em Juízes 8:1-35; uma história mais impressionante do que o famoso número"),
         "theClueFirstPageThree": MessageLookupByLibrary.simpleMessage(
-            "Você pode curar com uma mentira? Como Satanás faz o mal no mundo?"),
+            "Como Satanás faz o mal no mundo? Leia Gênesis 3:1-7."),
         "theClueFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Compare Mateus 13:1-23, Marcos 4:1-20 e Lucas 8:1-15; a grandeza se vê nas pequenas coisas"),
+            "A morte pelo seu pecado está em ordem, mas ele se deleita com o sacrifício de um animal?"),
         "theClueFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "Leia sobre o pior rei de Judá; como um filho de José"),
         "theClueFiveQPageFour": MessageLookupByLibrary.simpleMessage(
             "Não seja preguiçoso e leia ou digitalize"),
         "theClueFiveQPageOne": MessageLookupByLibrary.simpleMessage(
-            "A morte pelo seu pecado está em ordem, mas ele se deleita com o sacrifício de um animal?"),
+            "Compare Mateus 13:1-23, Marcos 4:1-20 e Lucas 8:1-15; a grandeza se vê nas pequenas coisas"),
         "theClueFiveQPageThree": MessageLookupByLibrary.simpleMessage(
             "Dê uma olhada em Hebreus 10:1-18; não é mais necessário depois disso"),
         "theClueFiveQPageTwo":
@@ -732,7 +735,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Ligue todos os pontos na Bíblia e veja a Verdade; as pessoas com quem você deve se associar"),
         "theClueSecondPageOne": MessageLookupByLibrary.simpleMessage(
-            "Leia e pesquise por si mesmo; muitas pessoas santas e não santas aguardam esse dia na sepultura"),
+            "Leia e pesquise por si mesmo; pessoas santas e não santas aguardam esse dia na sepultura"),
         "theClueSecondPageThree": MessageLookupByLibrary.simpleMessage(
             "Investigue a verdade; a influência de um pai pode ser decisiva"),
         "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(

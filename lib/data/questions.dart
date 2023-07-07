@@ -15,7 +15,7 @@ class Questions {
         theClue: S.current.theClueFirstPageOne,
       ),
       Question(
-        answer: 0,
+        answer: 3,
         mainQuestion: S.current.mainQuestionFirstPageTwo,
         optionOne: S.current.optionOneFirstPageTwo,
         optionTwo: S.current.optionTwoFirstPageTwo,
@@ -225,7 +225,7 @@ class Questions {
   List<Question> get five {
     return [
       Question(
-        answer: 3,
+        answer: 0,
         mainQuestion: S.current.mainQuestionFiveQPageOne,
         optionOne: S.current.optionOneFiveQPageOne,
         optionTwo: S.current.optionTwoFiveQPageOne,

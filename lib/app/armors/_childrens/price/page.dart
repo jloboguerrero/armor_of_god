@@ -47,18 +47,6 @@ class Page extends StatelessWidget {
         pieces = Pieces().six;
         initialPage = 0;
         break;
-      case 'fortyOne':
-        pieces = Pieces().fortyOne;
-        initialPage = 0;
-        break;
-      case 'fortyTwo':
-        pieces = Pieces().fortyTwo;
-        initialPage = 0;
-        break;
-      case 'fortyThree':
-        pieces = Pieces().fortyThree;
-        initialPage = 0;
-        break;
       case 'seven':
         pieces = Pieces().seven;
         initialPage = 1;
