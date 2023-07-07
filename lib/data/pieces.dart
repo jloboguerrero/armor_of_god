@@ -523,6 +523,14 @@ class Pieces {
                               fontWeight: FontWeight.w400,
                             ),
                           ),
+                          TextSpan(
+                            text: S.current.armor3TextBible3,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
                         ],
                       ),
                     ),

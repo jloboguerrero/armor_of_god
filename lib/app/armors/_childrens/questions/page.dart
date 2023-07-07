@@ -185,11 +185,13 @@ class _Body extends StatelessWidget {
                         FirstModal.show(
                           context: context,
                           child: Angel(
+                            clue: S.current.clue,
                             color: const Color.fromARGB(255, 119, 75, 59),
                             image: 'assets/images/angel2.png',
                             subTitle: state
                                 .model.questions[state.model.index].theClue,
-                            title: 'The faith is absolute',
+                            title: state.model.questions[state.model.index]
+                                .mainQuestion,
                           ),
                         );
                       },
@@ -352,6 +354,13 @@ class _Item extends StatelessWidget {
                                         index: (index * 5),
                                         indexQuestion: index,
                                       ));
+                                  if ((index != (questions.length - 1))) {
+                                    controller.nextPage(
+                                      duration:
+                                          const Duration(milliseconds: 700),
+                                      curve: Curves.easeInOut,
+                                    );
+                                  }
                                 },
                               ),
                               ListTile(
@@ -369,6 +378,13 @@ class _Item extends StatelessWidget {
                                         index: (index * 5) + 1,
                                         indexQuestion: index,
                                       ));
+                                  if ((index != (questions.length - 1))) {
+                                    controller.nextPage(
+                                      duration:
+                                          const Duration(milliseconds: 700),
+                                      curve: Curves.easeInOut,
+                                    );
+                                  }
                                 },
                               ),
                               ListTile(
@@ -386,6 +402,13 @@ class _Item extends StatelessWidget {
                                         index: (index * 5) + 2,
                                         indexQuestion: index,
                                       ));
+                                  if ((index != (questions.length - 1))) {
+                                    controller.nextPage(
+                                      duration:
+                                          const Duration(milliseconds: 700),
+                                      curve: Curves.easeInOut,
+                                    );
+                                  }
                                 },
                               ),
                               ListTile(
@@ -403,6 +426,13 @@ class _Item extends StatelessWidget {
                                         index: (index * 5) + 3,
                                         indexQuestion: index,
                                       ));
+                                  if ((index != (questions.length - 1))) {
+                                    controller.nextPage(
+                                      duration:
+                                          const Duration(milliseconds: 700),
+                                      curve: Curves.easeInOut,
+                                    );
+                                  }
                                 },
                               ),
                               ListTile(
@@ -420,6 +450,13 @@ class _Item extends StatelessWidget {
                                         index: (index * 5) + 4,
                                         indexQuestion: index,
                                       ));
+                                  if ((index != (questions.length - 1))) {
+                                    controller.nextPage(
+                                      duration:
+                                          const Duration(milliseconds: 700),
+                                      curve: Curves.easeInOut,
+                                    );
+                                  }
                                 },
                               ),
                             ],

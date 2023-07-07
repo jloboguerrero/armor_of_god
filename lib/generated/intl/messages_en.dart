@@ -36,7 +36,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "The first piece of the armor of God; it is the belt of truth. As we know, the belt of an armor is meant to support, fasten or keep the entire armor together, it is the center piece on the body that holds everything. In the same way, this piece typifies Christ himself, Jesus Christ is the truth, Jesus said in John 14:6 I AM the Way, and the "),
         "armor1Text2": MessageLookupByLibrary.simpleMessage("truth "),
         "armor1Text3": MessageLookupByLibrary.simpleMessage(
-            "and life, He is the Word, that is to say, the incarnate Word John1:1, without this reality as a foundation, everything we do will not be sustained, just as an armor without a belt is not sustained, our actions must be in accordance with the truth of the Scriptures, aligned with Christ, we must support each line of thought with the truth of the Bible; we must hold the words of our mouths with the veracity of the truth, in the light of the Gospel. Since, again quoting the words of the Lord in Matthew: 7:24-27 where he says: "),
+            "and life, He is the Word, that is to say, the incarnate Word John 1:1, without this reality as a foundation, everything we do will not be sustained, just as an armor without a belt is not sustained, our actions must be in accordance with the truth of the Scriptures, aligned with Christ, we must support each line of thought with the truth of the Bible; we must hold the words of our mouth with the veracity of the truth, in the light of the Gospel. Since, again quoting the words of the Lord in Matthew: 7:24-27 where he says: "),
         "armor1Text4": MessageLookupByLibrary.simpleMessage(
             "Anyone, then, who hears these words from me, and does them, I will compare him to a prudent man, who built his house on the rock. The rain came down, and the rivers came, and the winds blew and beat against that house; and it did not fall, because it was founded on the rock. But whoever hears these words from me and does not do them, I will compare him to a foolish man, who built his house on the sand; and the rain came down, and the rivers came, and the winds blew, and beat against that house; and he fell, and his ruin was great. "),
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
@@ -52,7 +52,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
             "As believers, we must dwell every day in the Word of our Lord, it is the only way to adhere to the truth, if we are in search of the truth, then we must read the Scriptures and fill our minds with them."),
         "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "A doctor needs the truth told by the patient to arrive at the correct diagnosis. In the same way, the correct diagnosis is needed to establish an adequate treatment, but what diagnosis can a doctor arrive at if the patient lies to him? What disease in the world can be cured based on a lie? In the same way that a doctor relies on the truth to heal a patient, we must hold fast to the truth that is Christ in everything we do to wear this piece of God\'s armor."),
+            "A doctor needs the truth told by the patient to arrive at the correct diagnosis. In the same way, the correct diagnosis is needed to establish an adequate treatment, but what diagnosis can a doctor arrive at if the patient lies to him? What disease can be cured based on a lie? In the same way that a doctor relies on the truth to heal a patient, we must hold fast to the truth that is Christ in everything we do to wear this piece of God\'s armor."),
         "armor1Title": MessageLookupByLibrary.simpleMessage("Ephesians 6:14"),
         "armor1Verse": MessageLookupByLibrary.simpleMessage(
             "“Stand firm then, having your loins girded about with truth,”"),
@@ -133,11 +133,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor3TextBible1": MessageLookupByLibrary.simpleMessage(
             "The apostle Paul who was previously Saul, a scholar, did not use his wisdom in his preaching, he preached only Christ, as expressed in 1 Corinthians 2:1-5 "),
         "armor3TextBible2": MessageLookupByLibrary.simpleMessage(
-            "“So, brothers, when I came to you to announce the testimony of God, I did not go with excellence of words or wisdom. 2 For I determined not to know anything among you except Jesus Christ, and him crucified. 3 And I was among you with weakness, and much fear and trembling; 4 and neither my speech nor my preaching was with persuasive words of human wisdom, but with demonstration of the Spirit and of power, 5 so that your faith should not be founded on the wisdom of men, but on the power of God”."),
+            "“So, brothers, when I came to you to announce the testimony of God, I did not go with excellence of words or wisdom. 2 For I determined not to know anything among you except Jesus Christ, and him crucified. 3 And I was among you with weakness, and much fear and trembling; 4 and neither my speech nor my preaching was with persuasive words of human wisdom, but with demonstration of the Spirit and of power, 5 so that your faith should not be founded on the wisdom of men, but on the power of God”. "),
+        "armor3TextBible3": MessageLookupByLibrary.simpleMessage(
+            "Another example can be observed with Jesus who was walking with his disciples in a discipleship of three and a half years. "),
         "armor3TextLife1": MessageLookupByLibrary.simpleMessage(
             "To use this piece of the armor of God, we must read the Word of God every day in a continuous and progressive way, sharing it with the people around us with the objective that they see the gospel of Christ and peace floods their hearts. Let our life speak and when we have the opportunity preach Christ, let us think that when an unbeliever dies he opens his eyes in hell."),
         "armor3TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "In a real battle with someone, in this situation you use your feet to move and hit your opponent. Therefore, when you are arguing with someone with the arguments of truth to break satan\'s mental strongholds, you must have peace as your goal, the mentality of wanting peace in your life, not the goal of self-glory, like that. you always have the winning argument, since the center is Christ."),
+            "When the Lord allows a person to share the gospel and believe, it is very important that there be ongoing discipleship so that this new believer begins the foundations for a firm walk in the Lord."),
         "armor3Title": MessageLookupByLibrary.simpleMessage("Ephesians 6:15"),
         "armor3Verse": MessageLookupByLibrary.simpleMessage(
             "“And shod your feet with the preparation of the gospel of peace.”"),
@@ -153,7 +155,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor4Text14": MessageLookupByLibrary.simpleMessage(
             "and renew yourselves in the spirit of your mind, 24 and put on the new man, created according to God in righteousness and true holiness. 25 Therefore, rejecting lies, speak truth each one with his neighbor; for we are members one of another. 26 be angry, but do not sin; do not let the sun go down on your anger, 27 nor give place to the devil. "),
         "armor4Text15": MessageLookupByLibrary.simpleMessage(
-            "As you can see, the verb renew is in the present continuous, and the verb to renew is to do again, that is, it is something active, so that we do not believe the lies they carry, giving rise to the enemy, and that dart that is not quenched can hurt us . Lies like God is not good, God\'s Grace is not enough, I can\'t forget my past, walking with Christ is not for me, and many more. However, once hit by a flaming arrow, what to do? Faith is definitely needed, but the armor of God is complete and each piece is complemented, if an arrow has wounded your mind, another piece is used to drain the poison and take out the arrow, and that is the Sword of the Spirit. You use the Word of God to dismantle the lie that has pierced your heart. Like a surgical blade used to heal a patient, the truth must be used to combat the fiery dart received."),
+            "As you can see, the verb renew is in the present continuous, and the verb to renew is to do again, that is, it is something active, so that we do not believe the lies that come, giving rise to the enemy, and that dart that is not quenched can hurt us . Lies like God is not good, God\'s Grace is not enough, I can\'t forget my past, walking with Christ is not for me, and many more. However, once hit by a flaming arrow, what to do? Faith is definitely needed, but the armor of God is complete and each piece is complemented, if an arrow has wounded your mind, another piece is used to drain the poison and take out the arrow, and that is the Sword of the Spirit. You use the Word of God to dismantle the lie that has pierced your heart. Like a surgical blade used to heal a patient, the truth must be used to combat the fiery dart received."),
         "armor4Text2": MessageLookupByLibrary.simpleMessage(
             "Job 3:1-3\n3 After this Job opened his mouth and cursed his day. 2 And Job exclaimed, and said: 3 Perish the day in which I was born, and the night in which it was said: Male is conceived."),
         "armor4Text3": MessageLookupByLibrary.simpleMessage("Job 3:1-3, "),
@@ -251,6 +253,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armourOfGod": MessageLookupByLibrary.simpleMessage("Armour of God"),
         "classicArmour": MessageLookupByLibrary.simpleMessage("Classic Armour"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Cloth Items"),
+        "clue": MessageLookupByLibrary.simpleMessage("Clue"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
             "You must complete the previous level"),
         "congratulations":
@@ -598,7 +601,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoFourQPageOne": MessageLookupByLibrary.simpleMessage(
             "It comes true when Jehu kills Joran, Ahaziah, and the wicked woman Jezebel in 2 Kings 9:1-37."),
         "optionTwoFourQPageThree": MessageLookupByLibrary.simpleMessage(
-            "One genealogy is for Joseph the father of Christ and the other for Mary his mother"),
+            "One genealogy is for Joseph the father of Jesus and the other for Mary his mother"),
         "optionTwoFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "It comes true when King Jehoshaphat defeats Moab, Ammon, and the men of Mount Seir without firing an arrow in 2 Chronicles 20:1-37"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
@@ -648,12 +651,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "stones1Vers2": MessageLookupByLibrary.simpleMessage(
             "Revelation 12:9\n9 And the great dragon was cast out, the old serpent, called the devil and Satan, who deceives the whole world; he was cast down to the earth, and his angels were cast down with him.\n\n1 Peter 5:8\n8 Be sober, and watch; because your adversary the devil, like a roaring lion, walks around looking for someone to devour;"),
         "stones2": MessageLookupByLibrary.simpleMessage(
-            "If we do not want to give in to sin, we must take care not to pass by or sit at the door of occasion, do not look at temptation with a lazy eye if you do not want to see yourself involved in it, nor let your mind stop at what you do not want that enters your heart. "),
+            "If we do not want to give in to sin, we must take care not to pass by or sit at the door of the occasion, do not look at temptation with a lazy eye if you do not want to see yourself involved in it, nor let your mind dwell on what is not you want me to enter your heart. "),
         "stones2Vers1": MessageLookupByLibrary.simpleMessage("Proverbs 4:23"),
         "stones2Vers2": MessageLookupByLibrary.simpleMessage(
             "Proverbs 4:23\n23 Above all else, guard your heart; Because life flows from him."),
         "stones3": MessageLookupByLibrary.simpleMessage(
             "1. Ask for God\'s advice. The Lord is willing to reveal to his saints everything they need to know in this life."),
+        "stones3Title": MessageLookupByLibrary.simpleMessage(
+            "Tips for Spiritual Health\n\n"),
         "stones3Vers1": MessageLookupByLibrary.simpleMessage("Amos 3:7-8"),
         "stones3Vers1_2":
             MessageLookupByLibrary.simpleMessage("Jeremiah 17:9-10"),
@@ -671,10 +676,9 @@ class MessageLookup extends MessageLookupByLibrary {
             "3. Read the word of the Lord carefully, it shows you the attacks that we are going to have as believers. "),
         "stones4": MessageLookupByLibrary.simpleMessage(
             "Your moral life may be impeccable, but if you do not worship God you are an atheist.\n\nIf you worship God devoutly but not according to the Bible you are an idolater.\n\nIf you follow the letter but not the Spirit of the gospel you are a hypocrite. \n\n\nThe only true worship is through the Spirit of God, in Spirit and in truth! "),
-        "stones4Vers1":
-            MessageLookupByLibrary.simpleMessage("1 Corinthians 1:30"),
+        "stones4Vers1": MessageLookupByLibrary.simpleMessage("John 4:23-24"),
         "stones4Vers2": MessageLookupByLibrary.simpleMessage(
-            "1 Corinthians 1:30\n30 But by him you are in Christ Jesus, who has been made to us by God wisdom, justification, sanctification and redemption;"),
+            "John 4:23-24\n23 But the hour is coming, and now is, when the true worshipers will worship the Father in spirit and in truth; because the Father also seeks such worshipers to worship him. 24 God is Spirit; and those who adore him, in spirit and in truth it is necessary that they adore."),
         "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Suggestion"),
         "suggestionContent": MessageLookupByLibrary.simpleMessage(

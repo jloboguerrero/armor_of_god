@@ -676,6 +676,15 @@ class Page extends StatelessWidget {
                                         text: TextSpan(
                                           children: [
                                             TextSpan(
+                                              text: S.current.stones3Title,
+                                              style: const TextStyle(
+                                                color: Color.fromARGB(
+                                                    255, 31, 31, 31),
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.w500,
+                                              ),
+                                            ),
+                                            TextSpan(
                                               text: S.current.stones3,
                                               style: const TextStyle(
                                                 color: Color.fromARGB(

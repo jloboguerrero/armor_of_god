@@ -80,6 +80,16 @@ class S {
     );
   }
 
+  /// `Pista`
+  String get clue {
+    return Intl.message(
+      'Pista',
+      name: 'clue',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Información`
   String get about {
     return Intl.message(
@@ -220,10 +230,10 @@ class S {
     );
   }
 
-  /// `Si no queremos ceder al pecado hay que cuidar no pasar por delante ni sentarnos a la puerta de ocasión, no mires la tentación con un ojo vago si no quieres verte en vuelto en ella, ni dejes que tu mente se detenga en aquello que no quieres que entre tu corazón. `
+  /// `Si no queremos ceder al pecado hay que cuidar no pasar por delante ni sentarnos a la puerta de la ocasión, no mires la tentación con un ojo vago si no quieres verte en vuelto en ella, ni dejes que tu mente se detenga en aquello que no quieres que entre en tu corazón. `
   String get stones2 {
     return Intl.message(
-      'Si no queremos ceder al pecado hay que cuidar no pasar por delante ni sentarnos a la puerta de ocasión, no mires la tentación con un ojo vago si no quieres verte en vuelto en ella, ni dejes que tu mente se detenga en aquello que no quieres que entre tu corazón. ',
+      'Si no queremos ceder al pecado hay que cuidar no pasar por delante ni sentarnos a la puerta de la ocasión, no mires la tentación con un ojo vago si no quieres verte en vuelto en ella, ni dejes que tu mente se detenga en aquello que no quieres que entre en tu corazón. ',
       name: 'stones2',
       desc: '',
       args: [],
@@ -245,6 +255,16 @@ class S {
     return Intl.message(
       'Proverbios 4:23\n23 Sobre toda cosa guardada, guarda tu corazón; Porque de él mana la vida.',
       name: 'stones2Vers2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Consejos para Salud Espiritual\n\n`
+  String get stones3Title {
+    return Intl.message(
+      'Consejos para Salud Espiritual\n\n',
+      name: 'stones3Title',
       desc: '',
       args: [],
     );
@@ -350,20 +370,20 @@ class S {
     );
   }
 
-  /// `1 Corintios 1:30`
+  /// `Juan 4:23-24`
   String get stones4Vers1 {
     return Intl.message(
-      '1 Corintios 1:30',
+      'Juan 4:23-24',
       name: 'stones4Vers1',
       desc: '',
       args: [],
     );
   }
 
-  /// `1 Corintios 1:30\n30 Mas por él estáis vosotros en Cristo Jesús, el cual nos ha sido hecho por Dios sabiduría, justificación, santificación y redención;`
+  /// `Juan 4:23-24\n23 Mas la hora viene, y ahora es, cuando los verdaderos adoradores adorarán al Padre en espíritu y en verdad; porque también el Padre tales adoradores busca que le adoren. 24 Dios es Espíritu; y los que le adoran, en espíritu y en verdad es necesario que adoren.`
   String get stones4Vers2 {
     return Intl.message(
-      '1 Corintios 1:30\n30 Mas por él estáis vosotros en Cristo Jesús, el cual nos ha sido hecho por Dios sabiduría, justificación, santificación y redención;',
+      'Juan 4:23-24\n23 Mas la hora viene, y ahora es, cuando los verdaderos adoradores adorarán al Padre en espíritu y en verdad; porque también el Padre tales adoradores busca que le adoren. 24 Dios es Espíritu; y los que le adoran, en espíritu y en verdad es necesario que adoren.',
       name: 'stones4Vers2',
       desc: '',
       args: [],
@@ -500,10 +520,10 @@ class S {
     );
   }
 
-  /// `y la vida, Él es el Verbo es decir la Palabra encarnada Juan1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestras boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: `
+  /// `y la vida, Él es el Verbo es decir la Palabra encarnada Juan 1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestra boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: `
   String get armor1Text3 {
     return Intl.message(
-      'y la vida, Él es el Verbo es decir la Palabra encarnada Juan1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestras boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: ',
+      'y la vida, Él es el Verbo es decir la Palabra encarnada Juan 1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestra boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: ',
       name: 'armor1Text3',
       desc: '',
       args: [],
@@ -530,10 +550,10 @@ class S {
     );
   }
 
-  /// `Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad en el mundo se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.`
+  /// `Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.`
   String get armor1TextPractice1 {
     return Intl.message(
-      'Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad en el mundo se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.',
+      'Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.',
       name: 'armor1TextPractice1',
       desc: '',
       args: [],
@@ -630,10 +650,10 @@ class S {
     );
   }
 
-  /// `Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Cómo creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 `
+  /// `Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 `
   String get armor2Text3 {
     return Intl.message(
-      'Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Cómo creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 ',
+      'Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 ',
       name: 'armor2Text3',
       desc: '',
       args: [],
@@ -850,10 +870,10 @@ class S {
     );
   }
 
-  /// `¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 `
+  /// `¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión, es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 `
   String get armor3Text3 {
     return Intl.message(
-      '¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 ',
+      '¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión, es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 ',
       name: 'armor3Text3',
       desc: '',
       args: [],
@@ -970,10 +990,10 @@ class S {
     );
   }
 
-  /// `En una batalla real con alguien, en esta situación usas tus pies para moverte y golpear a tu oponente. Por lo tanto, cuando estás discutiendo con alguien con los argumentos de la verdad para romper las fortalezas mentales de satanás, debes tener como meta la paz, la mentalidad de querer la paz en su vida, no la meta de la gloria propia, como que siempre tienes el argumento ganador, ya que, el centro es Cristo.`
+  /// `Cuando el Señor permite que a una persona le compartan el evangelio y crea, es muy importante que haya un contínuo discipulado a fin que este nuevo creyente inicie los fundamentos para un caminar firme en El Señor.`
   String get armor3TextPractice1 {
     return Intl.message(
-      'En una batalla real con alguien, en esta situación usas tus pies para moverte y golpear a tu oponente. Por lo tanto, cuando estás discutiendo con alguien con los argumentos de la verdad para romper las fortalezas mentales de satanás, debes tener como meta la paz, la mentalidad de querer la paz en su vida, no la meta de la gloria propia, como que siempre tienes el argumento ganador, ya que, el centro es Cristo.',
+      'Cuando el Señor permite que a una persona le compartan el evangelio y crea, es muy importante que haya un contínuo discipulado a fin que este nuevo creyente inicie los fundamentos para un caminar firme en El Señor.',
       name: 'armor3TextPractice1',
       desc: '',
       args: [],
@@ -990,11 +1010,21 @@ class S {
     );
   }
 
-  /// `“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”.`
+  /// `“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”. `
   String get armor3TextBible2 {
     return Intl.message(
-      '“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”.',
+      '“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”. ',
       name: 'armor3TextBible2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Otro ejemplo lo podemos observar con Jesús quien estuvo caminando con sus discipulos en un discipulado de tres años y medio. `
+  String get armor3TextBible3 {
+    return Intl.message(
+      'Otro ejemplo lo podemos observar con Jesús quien estuvo caminando con sus discipulos en un discipulado de tres años y medio. ',
+      name: 'armor3TextBible3',
       desc: '',
       args: [],
     );
@@ -1170,10 +1200,10 @@ class S {
     );
   }
 
-  /// `Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleven, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido.`
+  /// `Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleguen, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido.`
   String get armor4Text15 {
     return Intl.message(
-      'Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleven, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido.',
+      'Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleguen, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido.',
       name: 'armor4Text15',
       desc: '',
       args: [],
@@ -3160,10 +3190,10 @@ class S {
     );
   }
 
-  /// `Una genealogía es para José el padre de Cristo y la otra para María su madre`
+  /// `Una genealogía es para José el padre de Jesús y la otra para María su madre`
   String get optionTwoFourQPageThree {
     return Intl.message(
-      'Una genealogía es para José el padre de Cristo y la otra para María su madre',
+      'Una genealogía es para José el padre de Jesús y la otra para María su madre',
       name: 'optionTwoFourQPageThree',
       desc: '',
       args: [],

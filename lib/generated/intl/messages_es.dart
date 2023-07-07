@@ -38,7 +38,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "La primera pieza de la armadura de Dios; es el cinturón de la verdad. Como sabemos, el cinturón de una armadura está destinado a sostener, sujetar o mantener toda la armadura unida, es la pieza central en el cuerpo que sostiene todo. De la misma manera, esta pieza tipifica a Cristo mismo, Jesucristo es la verdad, Jesús dijo en Juan 14:6 YO SOY el Camino, y la "),
         "armor1Text2": MessageLookupByLibrary.simpleMessage("verdad "),
         "armor1Text3": MessageLookupByLibrary.simpleMessage(
-            "y la vida, Él es el Verbo es decir la Palabra encarnada Juan1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestras boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: "),
+            "y la vida, Él es el Verbo es decir la Palabra encarnada Juan 1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestra boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: "),
         "armor1Text4": MessageLookupByLibrary.simpleMessage(
             "Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca. Descendió lluvia, y vinieron ríos, y soplaron vientos, y golpearon contra aquella casa; y no cayó, porque estaba fundada sobre la roca. Pero cualquiera que me oye estas palabras y no las hace, le compararé a un hombre insensato, que edificó su casa sobre la arena; y descendió lluvia, y vinieron ríos, y soplaron vientos, y dieron con ímpetu contra aquella casa; y cayó, y fue grande su ruina. "),
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
@@ -54,7 +54,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
             "Como creyentes, debemos habitar cada día en la Palabra de nuestro Señor, es la única forma de ceñirnos con la verdad, si estamos en la búsqueda de la verdad, entonces debemos leer las Escrituras y llenar nuestra mente de ellas."),
         "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad en el mundo se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios."),
+            "Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios."),
         "armor1Title": MessageLookupByLibrary.simpleMessage("Efesios 6:14"),
         "armor1Verse": MessageLookupByLibrary.simpleMessage(
             "“Estad, pues, firmes, ceñidos vuestros lomos con la verdad,”"),
@@ -70,7 +70,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor2Text2": MessageLookupByLibrary.simpleMessage(
             "“Pero Dios mismo los ha unido a ustedes con Cristo Jesús, y ha hecho también que Cristo sea nuestra sabiduría, nuestra justicia, nuestra santificación y nuestra liberación.” DDHH. "),
         "armor2Text3": MessageLookupByLibrary.simpleMessage(
-            "Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Cómo creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 "),
+            "Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 "),
         "armor2Text4": MessageLookupByLibrary.simpleMessage(
             "“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.” "),
         "armor2Text5": MessageLookupByLibrary.simpleMessage(
@@ -118,7 +118,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor3Text2": MessageLookupByLibrary.simpleMessage(
             "“3 Porque primeramente os he enseñado lo que así mismo recibí: Que Cristo murió por nuestros pecados, conforme a las Escrituras; 4 y que fue sepultado, y que resucitó al tercer día, conforme a las Escrituras; 5 y que apareció a Cefas, y después a los doce. 6 después apareció a más de quinientos hermanos a la vez, de los cuales muchos viven aún, y otros ya duermen.” "),
         "armor3Text3": MessageLookupByLibrary.simpleMessage(
-            "¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 "),
+            "¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión, es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 "),
         "armor3Text4": MessageLookupByLibrary.simpleMessage(
             "“19 Por tanto, id, y haced discípulos a todas las naciones, bautizándolos en el nombre del Padre, y del Hijo, y del Espíritu Santo; 20 enseñándoles que guarden todas las cosas que os he mandado; y he aquí yo estoy con vosotros todos los días, hasta el fin del mundo. Amén.” "),
         "armor3Text5":
@@ -134,11 +134,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor3TextBible1": MessageLookupByLibrary.simpleMessage(
             "El apóstol Pablo quien antes era Saulo, un erudito, en su predicación no usaba de su sabiduría, predicaba solo a Cristo, como lo expresa en 1 Corintios 2:1-5 "),
         "armor3TextBible2": MessageLookupByLibrary.simpleMessage(
-            "“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”."),
+            "“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”. "),
+        "armor3TextBible3": MessageLookupByLibrary.simpleMessage(
+            "Otro ejemplo lo podemos observar con Jesús quien estuvo caminando con sus discipulos en un discipulado de tres años y medio. "),
         "armor3TextLife1": MessageLookupByLibrary.simpleMessage(
             "Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno."),
         "armor3TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "En una batalla real con alguien, en esta situación usas tus pies para moverte y golpear a tu oponente. Por lo tanto, cuando estás discutiendo con alguien con los argumentos de la verdad para romper las fortalezas mentales de satanás, debes tener como meta la paz, la mentalidad de querer la paz en su vida, no la meta de la gloria propia, como que siempre tienes el argumento ganador, ya que, el centro es Cristo."),
+            "Cuando el Señor permite que a una persona le compartan el evangelio y crea, es muy importante que haya un contínuo discipulado a fin que este nuevo creyente inicie los fundamentos para un caminar firme en El Señor."),
         "armor3Title": MessageLookupByLibrary.simpleMessage("Efesios 6:15"),
         "armor3Verse": MessageLookupByLibrary.simpleMessage(
             "“Y calzados los pies con el apresto del evangelio de la paz.”"),
@@ -154,7 +156,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor4Text14": MessageLookupByLibrary.simpleMessage(
             "y renovaos en el espíritu de vuestra mente, 24 y vestíos del nuevo hombre, creado según Dios en la justicia y santidad de la verdad. 25 por lo cual, desechando la mentira, hablad verdad cada uno con su prójimo; porque somos miembros los unos de los otros. 26 airaos, pero no pequéis; no se ponga el sol sobre vuestro enojo, 27 ni deis lugar al diablo. "),
         "armor4Text15": MessageLookupByLibrary.simpleMessage(
-            "Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleven, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido."),
+            "Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleguen, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido."),
         "armor4Text2": MessageLookupByLibrary.simpleMessage(
             "Job 3:1-3\n3 Después de esto abrió Job su boca, y maldijo su día. 2 Y exclamó Job, y dijo: 3 Perezca el día en que yo nací, Y la noche en que se dijo: Varón es concebido."),
         "armor4Text3": MessageLookupByLibrary.simpleMessage("Job 3:1-3, "),
@@ -254,6 +256,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "classicArmour":
             MessageLookupByLibrary.simpleMessage("Armadura Clásica"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Piezas de Ropa"),
+        "clue": MessageLookupByLibrary.simpleMessage("Pista"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
             "Debes completar el nivel anterior"),
         "congratulations":
@@ -599,7 +602,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoFourQPageOne": MessageLookupByLibrary.simpleMessage(
             "Se convierte en realidad cuando Jehú mató a Jorán, Ocozías y a la malvada mujer Jezabel en 2 Reyes 9:1-37"),
         "optionTwoFourQPageThree": MessageLookupByLibrary.simpleMessage(
-            "Una genealogía es para José el padre de Cristo y la otra para María su madre"),
+            "Una genealogía es para José el padre de Jesús y la otra para María su madre"),
         "optionTwoFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Se convierte en realidad cuando el rey Josafat derrota a Moab, Amón y los hombres del monte Seir sin disparar una sola flecha en 2 Crónicas 20:1-37"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
@@ -649,12 +652,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "stones1Vers2": MessageLookupByLibrary.simpleMessage(
             "Apocalipsis 12:9\n9 Y fue lanzado fuera el gran dragón, la serpiente antigua, que se llama diablo y Satanás, el cual engaña al mundo entero; fue arrojado a la tierra, y sus ángeles fueron arrojados con él.\n\n1 Pedro 5:8\n8 Sed sobrios, y velad; porque vuestro adversario el diablo, como león rugiente, anda alrededor buscando a quien devorar;"),
         "stones2": MessageLookupByLibrary.simpleMessage(
-            "Si no queremos ceder al pecado hay que cuidar no pasar por delante ni sentarnos a la puerta de ocasión, no mires la tentación con un ojo vago si no quieres verte en vuelto en ella, ni dejes que tu mente se detenga en aquello que no quieres que entre tu corazón. "),
+            "Si no queremos ceder al pecado hay que cuidar no pasar por delante ni sentarnos a la puerta de la ocasión, no mires la tentación con un ojo vago si no quieres verte en vuelto en ella, ni dejes que tu mente se detenga en aquello que no quieres que entre en tu corazón. "),
         "stones2Vers1": MessageLookupByLibrary.simpleMessage("Proverbios 4:23"),
         "stones2Vers2": MessageLookupByLibrary.simpleMessage(
             "Proverbios 4:23\n23 Sobre toda cosa guardada, guarda tu corazón; Porque de él mana la vida."),
         "stones3": MessageLookupByLibrary.simpleMessage(
             "1. Pide el consejo de Dios. El Señor está dispuesto a revelar a sus santos todo lo que necesita saber en esta vida."),
+        "stones3Title": MessageLookupByLibrary.simpleMessage(
+            "Consejos para Salud Espiritual\n\n"),
         "stones3Vers1": MessageLookupByLibrary.simpleMessage("Amos 3:7-8"),
         "stones3Vers1_2":
             MessageLookupByLibrary.simpleMessage("Jeremías 17:9-10"),
@@ -672,10 +677,9 @@ class MessageLookup extends MessageLookupByLibrary {
             "3. Lee la palabra del Señor con atención ella te muestra los ataques que vamos a tener como creyentes. "),
         "stones4": MessageLookupByLibrary.simpleMessage(
             "Tu vida moral puede ser impecable, pero si no adoras a Dios eres ateo.\n\nSi adoras a Dios devotamente pero no segun la Biblia eres un idólatra.\n\nSi sigues la letra pero no el Espíritu del evangelio eres un hipócrita.\n\n\nLa única adoración verdadera es a través del Espíritu de Dios, en Espíritu y en verdad! "),
-        "stones4Vers1":
-            MessageLookupByLibrary.simpleMessage("1 Corintios 1:30"),
+        "stones4Vers1": MessageLookupByLibrary.simpleMessage("Juan 4:23-24"),
         "stones4Vers2": MessageLookupByLibrary.simpleMessage(
-            "1 Corintios 1:30\n30 Mas por él estáis vosotros en Cristo Jesús, el cual nos ha sido hecho por Dios sabiduría, justificación, santificación y redención;"),
+            "Juan 4:23-24\n23 Mas la hora viene, y ahora es, cuando los verdaderos adoradores adorarán al Padre en espíritu y en verdad; porque también el Padre tales adoradores busca que le adoren. 24 Dios es Espíritu; y los que le adoran, en espíritu y en verdad es necesario que adoren."),
         "submit": MessageLookupByLibrary.simpleMessage("Enviar"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Sugerencia"),
         "suggestionContent": MessageLookupByLibrary.simpleMessage(

@@ -36,7 +36,7 @@ class MessageLookup extends MessageLookupByLibrary {
             "A primeira peça da armadura de Deus; é o cinturão da verdade. Como sabemos, o cinto de uma armadura serve para sustentar, prender ou manter toda a armadura unida, é a peça central do corpo que sustenta tudo. Da mesma forma, esta peça tipifica o próprio Cristo, Jesus Cristo é a verdade, Jesus disse em João 14:6 EU SOU o Caminho, e o "),
         "armor1Text2": MessageLookupByLibrary.simpleMessage("verdadeiro "),
         "armor1Text3": MessageLookupByLibrary.simpleMessage(
-            "e vida, Ele é o Verbo, ou seja, o Verbo encarnado João1:1, sem esta realidade como fundamento, tudo o que fizermos não se sustentará, assim como uma armadura sem cinto não se sustenta, nossas ações devem ser de acordo com a verdade das Escrituras, alinhados com Cristo, devemos sustentar cada linha de pensamento com a verdade da Bíblia; devemos segurar as palavras de nossas bocas com a veracidade da verdade, à luz do Evangelho. Pois, citando novamente as palavras do Senhor em Mateus: 7:24-27 onde diz: "),
+            "e vida, Ele é o Verbo, ou seja, o Verbo encarnado João 1:1, sem esta realidade como fundamento, tudo o que fizermos não se sustentará, assim como uma armadura sem cinto não se sustenta, nossas ações devem ser de acordo com a verdade das Escrituras, alinhados com Cristo, devemos sustentar cada linha de pensamento com a verdade da Bíblia; devemos segurar as palavras de nossas boca com a veracidade da verdade, à luz do Evangelho. Pois, citando novamente as palavras do Senhor em Mateus: 7:24-27 onde diz: "),
         "armor1Text4": MessageLookupByLibrary.simpleMessage(
             "Quem, pois, ouve de mim estas palavras e as pratica, compará-lo-ei a um homem prudente, que edificou a sua casa sobre a rocha. Caiu a chuva, correram rios, sopraram ventos e deram com ímpeto contra aquela casa; e não caiu, porque estava edificada sobre a rocha. Mas quem ouve de mim estas palavras e não as pratica, compará-lo-ei a um homem insensato, que construiu a sua casa sobre a areia; e desceu a chuva, e correram os rios, e assopraram os ventos, e combateram aquela casa; e ele caiu, e sua ruína foi grande. "),
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
@@ -52,7 +52,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
             "Como crentes, devemos viver todos os dias na Palavra de nosso Senhor, é a única forma de aderir à verdade, se estamos em busca da verdade, então devemos ler as Escrituras e encantar nossas mentes com elas."),
         "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "Um médico precisa da verdade contada pelo paciente para chegar ao diagnóstico correto. Da mesma forma, o diagnóstico correto é necessário para estabelecer um tratamento adequado, mas a que diagnóstico um médico pode chegar se o paciente mente para ele? Que doença no mundo pode ser curada com base em uma mentira? Da mesma forma que um médico confia na verdade para curar um paciente, devemos nos apegar à verdade que é Cristo em tudo o que fazemos para vestir esta peça da armadura de Deus."),
+            "Um médico precisa da verdade contada pelo paciente para chegar ao diagnóstico correto. Da mesma forma, o diagnóstico correto é necessário para estabelecer um tratamento adequado, mas a que diagnóstico um médico pode chegar se o paciente mente para ele? Que doença pode ser curada com base em uma mentira? Da mesma forma que um médico confia na verdade para curar um paciente, devemos nos apegar à verdade que é Cristo em tudo o que fazemos para vestir esta peça da armadura de Deus."),
         "armor1Title": MessageLookupByLibrary.simpleMessage("Efésios 6:14"),
         "armor1Verse": MessageLookupByLibrary.simpleMessage(
             "“Fique firme então, tendo seus lombos cingidos com a verdade,”"),
@@ -132,11 +132,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor3TextBible1": MessageLookupByLibrary.simpleMessage(
             "O apóstolo Paulo que antes era Saulo, um estudioso, não usava sua sabedoria em suas pregações, ele pregava somente a Cristo, conforme expresso em 1 Coríntios 2:1-5 "),
         "armor3TextBible2": MessageLookupByLibrary.simpleMessage(
-            "“Assim, irmãos, quando vim a vocês para anunciar o testemunho de Deus, não fui com excelência de palavras ou sabedoria. 2 Porque nada decidi saber entre vós, senão a Jesus Cristo, e este crucificado. 3 E estive entre vós com fraqueza, e muito temor e tremor; 4 e nem a minha palavra nem a minha pregação consistiram em palavras persuasivas de sabedoria humana, mas em demonstração do Espírito e de poder, 5 para que a vossa fé não se baseie na sabedoria dos homens, mas no poder de Deus”."),
+            "“Assim, irmãos, quando vim a vocês para anunciar o testemunho de Deus, não fui com excelência de palavras ou sabedoria. 2 Porque nada decidi saber entre vós, senão a Jesus Cristo, e este crucificado. 3 E estive entre vós com fraqueza, e muito temor e tremor; 4 e nem a minha palavra nem a minha pregação consistiram em palavras persuasivas de sabedoria humana, mas em demonstração do Espírito e de poder, 5 para que a vossa fé não se baseie na sabedoria dos homens, mas no poder de Deus”. "),
+        "armor3TextBible3": MessageLookupByLibrary.simpleMessage(
+            "Outro exemplo pode ser observado com Jesus que caminhava com seus discípulos em um discipulado de três anos e meio. "),
         "armor3TextLife1": MessageLookupByLibrary.simpleMessage(
             "Para usar esta peça da armadura de Deus, devemos ler a Palavra de Deus todos os dias de forma contínua e progressiva, compartilhando-a com as pessoas ao nosso redor com o objetivo de que vejam o evangelho de Cristo e a paz inunde seus corações. Deixe a nossa vida falar e quando tivermos a oportunidade de pregar a Cristo, pensemos que quando um incrédulo morre abre os olhos no inferno."),
         "armor3TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "Em uma batalha real com alguém, nessa situação você usa os pés para se movimentar e acertar o oponente. Portanto, quando você está discutindo com alguém com os argumentos da verdade para quebrar as fortalezas mentais de satanás, você deve ter a paz como seu objetivo, a mentalidade de querer paz em sua vida, não o objetivo da auto-glória, assim. o argumento vencedor, já que o centro é Cristo."),
+            "Quando o Senhor permite que uma pessoa compartilhe o evangelho e creia, é muito importante que haja um discipulado contínuo para que esse novo crente comece as bases para uma caminhada firme no Senhor."),
         "armor3Title": MessageLookupByLibrary.simpleMessage("Efésios 6:15"),
         "armor3Verse": MessageLookupByLibrary.simpleMessage(
             "“E calçai os pés na preparação do evangelho da paz.”"),
@@ -152,7 +154,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor4Text14": MessageLookupByLibrary.simpleMessage(
             "e renovai-vos no espírito da vossa mente, 24 e revesti-vos do novo homem, criado segundo Deus em justiça e verdadeira santidade. 25 Portanto, rejeitando a mentira, fale cada um a verdade com o seu próximo; pois somos membros uns dos outros. 26 fique com raiva, mas não peque; não deixe que o sol se ponha sobre a sua ira, 27 nem dê lugar ao diabo. "),
         "armor4Text15": MessageLookupByLibrary.simpleMessage(
-            "Como podem ver, o verbo renovar está no presente contínuo, e o verbo renovar é fazer de novo, ou seja, é algo ativo, para que não acreditemos nas mentiras que carregam, dando ensejo ao inimigo, e aquele dardo que não se apaga pode nos ferir. Mentiras como Deus não é bom, a Graça de Deus não é suficiente, não consigo esquecer meu passado, andar com Cristo não é para mim e muito mais. Porém, uma vez atingido por uma flecha flamejante, o que fazer? A fé é definitivamente necessária, mas a armadura de Deus é completa e cada peça é complementada, se uma flecha feriu sua mente, outra peça é usada para drenar o veneno e tirar a flecha, e essa é a Espada do Espírito. Você usa a Palavra de Deus para desmantelar a mentira que perfurou seu coração. Como uma lâmina cirúrgica usada para curar um paciente, a verdade deve ser usada para combater o dardo inflamado recebido."),
+            "Como podem ver, o verbo renovar está no presente contínuo, e o verbo renovar é fazer de novo, ou seja, é algo ativo, para que as mentiras que vem, não acreditemos, dando lugar ao inimigo, e aquele dardo que não se apaga, pode nos ferir. Mentiras como Deus não é bom, a Graça de Deus não é suficiente, não consigo esquecer meu passado, andar com Cristo não é para mim e muito mais. Porém, uma vez atingido por uma flecha flamejante, o que fazer? A fé é definitivamente necessária, mas a armadura de Deus é completa e cada peça é complementada, se uma flecha feriu sua mente, outra peça é usada para drenar o veneno e tirar a flecha, e essa é a Espada do Espírito. Você usa a Palavra de Deus para desmantelar a mentira que perfurou seu coração. Como uma lâmina cirúrgica usada para curar um paciente, a verdade deve ser usada para combater o dardo inflamado recebido."),
         "armor4Text2": MessageLookupByLibrary.simpleMessage(
             "Jó 3:1-3\n3 Depois disso, Jó abriu a boca e amaldiçoou o seu dia. 2 E Jó exclamou, e disse: 3 Pereça o dia em que nasci, e a noite em que foi dito: Macho foi concebido."),
         "armor4Text3": MessageLookupByLibrary.simpleMessage("Jó 3:1-3, "),
@@ -250,6 +252,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "classicArmour":
             MessageLookupByLibrary.simpleMessage("Armadura clássica"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Artigos de Pano"),
+        "clue": MessageLookupByLibrary.simpleMessage("Dica"),
         "completePreviousLevel": MessageLookupByLibrary.simpleMessage(
             "Você deve completar o nível anterior"),
         "congratulations": MessageLookupByLibrary.simpleMessage("Parabéns"),
@@ -594,7 +597,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoFourQPageOne": MessageLookupByLibrary.simpleMessage(
             "Isso se torna realidade quando Jeú mata Joran, Acazias e a perversa Jezabel em 2 Reis 9:1-37"),
         "optionTwoFourQPageThree": MessageLookupByLibrary.simpleMessage(
-            "Uma genealogia é para José, o pai de Cristo, e a outra para Maria, sua mãe"),
+            "Uma genealogia é para José, o pai de Jesus, e a outra para Maria, sua mãe"),
         "optionTwoFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Isso se torna realidade quando o rei Josafá derrota Moabe, Amon e os homens do monte Seir sem disparar uma flecha em 2 Crônicas 20:1-37"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
@@ -627,6 +630,8 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoThirdPageTwo": MessageLookupByLibrary.simpleMessage("Dyne"),
         "price": MessageLookupByLibrary.simpleMessage("Prêmio"),
         "questions": MessageLookupByLibrary.simpleMessage("Questões"),
+        "questionsWillStart":
+            MessageLookupByLibrary.simpleMessage("As perguntas começarão em"),
         "seeArmorOrQuestions": MessageLookupByLibrary.simpleMessage(
             "Você pode assistir à peça ou responder às perguntas novamente"),
         "seePiece": MessageLookupByLibrary.simpleMessage("Ler Peça"),
@@ -641,12 +646,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "stones1Vers2": MessageLookupByLibrary.simpleMessage(
             "Apocalipse 12:9\n9 E foi precipitado o grande dragão, a antiga serpente, que se chama o diabo e Satanás, que engana todo o mundo; foi precipitado na terra, e os seus anjos foram precipitados com ele.\n\n1 Pedro 5:8\n8 Sede sóbrios e vigiai; porque o diabo, vosso adversário, anda em derredor, como leão que ruge, procurando alguém para devorar;"),
         "stones2": MessageLookupByLibrary.simpleMessage(
-            "Se não queremos ceder ao pecado, devemos cuidar para não passar ou sentar à porta da ocasião, não olhar para a tentação com olhos preguiçosos se não quisermos ver-nos envolvidos nela, nem deixar que sua mente pára no que você não quer que entra em seu coração. "),
+            "Se não queremos ceder ao pecado, devemos cuidar para não passar ou sentar à porta da ocasião, não olhar para a tentação com olhos preguiçosos se não quisermos ver-nos envolvidos nela, nem deixe sua mente habitar no que não é você quer que eu entre em seu coração. "),
         "stones2Vers1": MessageLookupByLibrary.simpleMessage("Provérbios 4:23"),
         "stones2Vers2": MessageLookupByLibrary.simpleMessage(
             "Provérbios 4:23\n23 Acima de tudo, guarde seu coração; Porque a vida flui dele."),
         "stones3": MessageLookupByLibrary.simpleMessage(
             "1. Peça o conselho de Deus. O Senhor está disposto a revelar aos seus santos tudo o que eles precisam saber nesta vida."),
+        "stones3Title": MessageLookupByLibrary.simpleMessage(
+            "Dicas para Saúde Espiritual\n\n"),
         "stones3Vers1": MessageLookupByLibrary.simpleMessage("Amós 3:7-8"),
         "stones3Vers1_2":
             MessageLookupByLibrary.simpleMessage("Jeremias 17:9-10"),
@@ -664,10 +671,9 @@ class MessageLookup extends MessageLookupByLibrary {
             "3. Leia a palavra do Senhor com atenção, ela mostra os ataques que vamos ter como crentes. "),
         "stones4": MessageLookupByLibrary.simpleMessage(
             "Sua vida moral pode ser impecável, mas se você não adora a Deus, você é um ateu.\n\nSe você adora a Deus com devoção, mas não de acordo com a Bíblia, você é um idólatra.\n\nSe você segue a letra, mas não o Espírito do evangelho você é um hipócrita.\n\n\nA única adoração verdadeira é através do Espírito de Deus, em Espírito e em verdade! "),
-        "stones4Vers1":
-            MessageLookupByLibrary.simpleMessage("1 Coríntios 1:30"),
+        "stones4Vers1": MessageLookupByLibrary.simpleMessage("João 4:23-24"),
         "stones4Vers2": MessageLookupByLibrary.simpleMessage(
-            "1 Coríntios 1:30\n30 Mas por ele estais em Cristo Jesus, que nos foi feito por Deus sabedoria, justificação, santificação e redenção;"),
+            "João 4:23-24\n23 Mas vem a hora, e já chegou, em que os verdadeiros adoradores adorarão o Pai em espírito e em verdade; porque o Pai também procura tais adoradores para adorá-lo. 24 Deus é Espírito; e os que o adoram, em espírito e em verdade é necessário que o adorem."),
         "suggestion": MessageLookupByLibrary.simpleMessage("Sugestão"),
         "suggestionContent": MessageLookupByLibrary.simpleMessage(
             "Declaramos que a equipe de desenvolvimento do Armor of God tem interesse em fazer desta uma ferramenta não só de entretenimento, mas também de auxílio e edificação espiritual, por isso, em nosso esforço constante para lhe proporcionar a melhor experiência possível, valorizamos muito seus comentários e sugestões para melhorar nosso aplicativo. Gostaríamos muito de ter a sua participação e colaboração neste emocionante processo de desenvolvimento. A sua opinião é fundamental para que esta aplicação seja um sucesso entre a comunidade de utilizadores \n\nGostaríamos de o encorajar a partilhar quaisquer ideias, sugestões ou informações adicionais que tenha, E tudo o que fizer, faça-o de coração, quanto ao Senhor e não para os homens; sabendo que do Senhor recebereis o galardão da herança, porque servis a Cristo, o Senhor. Colossenses 3:23-24. Você tem alguma pergunta adicional ou uma nova ideia para adicionar à nossa coleção de perguntas? Gostaria de sugerir um recurso específico que gostaria de ver em atualizações futuras? Você é designer e gostaria de nos ajudar com o design? Estamos ansiosos para ouvi-lo!\n\nVocê pode nos enviar suas sugestões, comentários ou interesse em participar com o trabalho de suas mãos, através desta seção, nosso desenvolvimento A equipe analisará cuidadosamente cada uma de suas mensagens e trabalhará arduamente para implementar melhorias para a Glória do Senhor.\n\nAgradecemos sinceramente seu tempo e dedicação para nos ajudar a melhorar. Obrigado por fazer parte deste projeto e por compartilhar seu entusiasmo conosco. Estamos ansiosos para trabalhar juntos para tornar este aplicativo uma experiência excepcional.\n\nAtenciosamente,\n\nA equipe de desenvolvimento da Armadura de Deus"),

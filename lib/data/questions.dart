@@ -5,7 +5,7 @@ class Questions {
   List<Question> get one {
     return [
       Question(
-        answer: 4,
+        answer: 3,
         mainQuestion: S.current.mainQuestionFirstPageOne,
         optionOne: S.current.optionOneFirstPageOne,
         optionTwo: S.current.optionTwoFirstPageOne,
