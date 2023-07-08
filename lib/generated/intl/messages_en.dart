@@ -25,6 +25,32 @@ class MessageLookup extends MessageLookupByLibrary {
             "“10For the rest, my brethren, be strong in the Lord, and in the power of his might. 11Put on the full armor of God, so that you can stand firm against the wiles of the devil. 12For we do not fight against flesh and blood, but against principalities, against powers, against the rulers of the darkness of this century, against spiritual hosts of wickedness in the heavenly realms. 13 Therefore, take the whole armor of God, so that you can resist on the bad day, and having finished everything, stand firm.” Ephesians 6:10-13 Reina Valera 1960 Version in the previous text we want to highlight three important aspects, first, the armor of God is what we must use, not ours, second, only transformed hearts can take the armor of God, for this we see as the Apostle speaks to the brothers, and third that the Armor of God is against the spiritual forces of evil in heavenly places, this is very important, since it is not a physical armor, it is spiritual in the soul, and practical for our daily life, for this reason we will find Biblical and daily examples for our walk in the Christian life in each piece because we are at war."),
         "AngelMessageFirstLevelTitle": MessageLookupByLibrary.simpleMessage(
             "We must not trust in the Armor of God, but in the God of Armor"),
+        "AngelTryAgain1": MessageLookupByLibrary.simpleMessage(
+            "The fall is not the end, it is part of the process.\n\n16 For the righteous fall seven times, and rise again; But the wicked shall fall into mischief. Proverbs 24:16"),
+        "AngelTryAgain1title": MessageLookupByLibrary.simpleMessage("Get up!"),
+        "AngelTryAgain2": MessageLookupByLibrary.simpleMessage(
+            "You must overcome all fear and continue forward.\n\n9 Look, I command you to strive and be brave; do not be afraid or dismayed, for Jehovah your God will be with you wherever you go. Josue 1: 9"),
+        "AngelTryAgain2title":
+            MessageLookupByLibrary.simpleMessage("Don\'t be discouraged!"),
+        "AngelTryAgain3": MessageLookupByLibrary.simpleMessage(
+            "Weakness is no excuse.\n\n29 He gives effort to the weary, and multiplies the strength to those who have none. 30 The boys get tired and weary, the young men falter and fall; 31 but those who wait for Jehovah will have new strength; they will lift wings like eagles; they will run, and will not get tired; they will walk, and will not grow weary. Isaiah 40:29-31"),
+        "AngelTryAgain3title":
+            MessageLookupByLibrary.simpleMessage("Get your strength back!"),
+        "AngelTryAgain4": MessageLookupByLibrary.simpleMessage(
+            "If you stop here, you won\'t know when the end is near.\n\n8 Better is the end of business than its beginning; better is the long-suffering in spirit than the haughty in spirit. 9 Do not rush in your spirit to be angry; because anger rests in the bosom of fools. Ecclesiastes 7:8-9"),
+        "AngelTryAgain4title":
+            MessageLookupByLibrary.simpleMessage("Do not stop!"),
+        "AngelTryAgain5": MessageLookupByLibrary.simpleMessage(
+            "It is on the battlefield where the true man of God is tested.\n\n21 The crucible tests silver, and the furnace tests gold, and the mouth of the man who praises him. Proverbs 27:21"),
+        "AngelTryAgain5title":
+            MessageLookupByLibrary.simpleMessage("Pass the test!"),
+        "AngelTryAgain6": MessageLookupByLibrary.simpleMessage(
+            "Everything has its reward, its award.\n\n12 Blessed is the man who endures temptation; because when he has stood the test, he will receive the crown of life, which God has promised to those who love him."),
+        "AngelTryAgain6title": MessageLookupByLibrary.simpleMessage("Resist!"),
+        "AngelTryAgain7": MessageLookupByLibrary.simpleMessage(
+            "In Christ you are more than conqueror.\n\n7 For God has not given us a spirit of fear, but of power, of love, and of a sound mind. 2 Timothy 1:7"),
+        "AngelTryAgain7title":
+            MessageLookupByLibrary.simpleMessage("Be brave!"),
         "about": MessageLookupByLibrary.simpleMessage("About"),
         "aboutContent": MessageLookupByLibrary.simpleMessage(
             "We want you to know that behind Armor of God, there is a group of brothers by faith in Christ, who seek to glorify the Author of our Salvation through the natural gifts and professions that He has granted us in His Grace. We are committed to the help from the Lord to continue improving and creating content aligning ourselves to His will.\n\nWe sincerely appreciate your support and trust in the Armor of God project. We hope you enjoy the app and find it uplifting!\n\nHave fun and keep unlocking knowledge!\n\nSincerely,\n\nThe Armor of God Development Team"),

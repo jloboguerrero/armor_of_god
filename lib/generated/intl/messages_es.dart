@@ -27,6 +27,34 @@ class MessageLookup extends MessageLookupByLibrary {
             "“10Por lo demás, hermanos míos, fortaleceos en el Señor, y en el poder de su fuerza. 11Vestíos de toda la armadura de Dios, para que podáis estar firmes contra las asechanzas del diablo. 12Porque no tenemos lucha contra sangre y carne, sino contra principados, contra potestades, contra los gobernadores de las tinieblas de este siglo, contra huestes espirituales de maldad en las regiones celestes. 13Por tanto, tomad toda la armadura de Dios, para que podáis resistir en el día malo, y habiendo acabado todo, estar firmes.” Efesios 6:10-13 Versión Reina Valera 1960 en el texto anterior queremos resaltar tres aspectos importantes, primero la armadura de Dios es la que debemos usar no la nuestra, segundo, solo los corazones transformados pueden tomar la armadura de Dios, por esto vemos como el Apóstol habla a los hermanos, y tercero que la Armadura de Dios es contra las fuerzas espirituales del mal en los lugares celestiales, esto es muy importante, ya que, no es una armadura física, es espiritual en el alma, y práctica para nuestra vida diaria, por ello encontraremos ejemplos Bíblicos y cotidianos para nuestro caminar en la vida cristiana en cada pieza porque estamos en guerra."),
         "AngelMessageFirstLevelTitle": MessageLookupByLibrary.simpleMessage(
             "No debemos confiar en la Armadura de Dios, si no en el Dios de la Armadura"),
+        "AngelTryAgain1": MessageLookupByLibrary.simpleMessage(
+            "La caída no es el fin, es parte del proceso.\n\n16 Porque siete veces cae el justo, y vuelve a levantarse; Mas los impíos caerán en el mal. Proverbios 24:16"),
+        "AngelTryAgain1title":
+            MessageLookupByLibrary.simpleMessage("¡Levántate!"),
+        "AngelTryAgain2": MessageLookupByLibrary.simpleMessage(
+            "Debes superar todo temor y continuar adelante.\n\n9 Mira que te mando que te esfuerces y seas valiente; no temas ni desmayes, porque Jehová tu Dios estará contigo en dondequiera que vayas. Josué 1:9"),
+        "AngelTryAgain2title":
+            MessageLookupByLibrary.simpleMessage("¡No te desanimes!"),
+        "AngelTryAgain3": MessageLookupByLibrary.simpleMessage(
+            "La debilidad no es excusa.\n\n29 Él da esfuerzo al cansado, y multiplica las fuerzas al que no tiene ningunas. 30 Los muchachos se fatigan y se cansan, los jóvenes flaquean y caen; 31 pero los que esperan a Jehová tendrán nuevas fuerzas; levantarán alas como las águilas; correrán, y no se cansarán; caminarán, y no se fatigarán. Isaías 40:29-31"),
+        "AngelTryAgain3title":
+            MessageLookupByLibrary.simpleMessage("¡Recupera tus fuerzas!"),
+        "AngelTryAgain4": MessageLookupByLibrary.simpleMessage(
+            "Si te detienes aquí, no sabrás cuándo se acerca el final.\n\n8 Mejor es el fin del negocio que su principio; mejor es el sufrido de espíritu que el altivo de espíritu. 9 No te apresures en tu espíritu a enojarte; porque el enojo reposa en el seno de los necios. Eclesiastés 7:8-9"),
+        "AngelTryAgain4title":
+            MessageLookupByLibrary.simpleMessage("¡No te detengas!"),
+        "AngelTryAgain5": MessageLookupByLibrary.simpleMessage(
+            "Es en el campo de batalla donde se prueba a verdadero hombre de Dios.\n\n21 El crisol prueba la plata, y la hornaza el oro, Y al hombre la boca del que lo alaba. Proverbios 27:21"),
+        "AngelTryAgain5title":
+            MessageLookupByLibrary.simpleMessage("¡Supera la prueba!"),
+        "AngelTryAgain6": MessageLookupByLibrary.simpleMessage(
+            "Todo tiene su recompensa, su galardón.\n\n12 Bienaventurado el varón que soporta la tentación; porque cuando haya resistido la prueba, recibirá la corona de vida, que Dios ha prometido a los que le aman."),
+        "AngelTryAgain6title":
+            MessageLookupByLibrary.simpleMessage("¡Resiste!"),
+        "AngelTryAgain7": MessageLookupByLibrary.simpleMessage(
+            "En Cristo eres más que vencedor.\n\n7 Porque no nos ha dado Dios espíritu de cobardía, sino de poder, de amor y de dominio propio. 2 Timoteo 1:7"),
+        "AngelTryAgain7title":
+            MessageLookupByLibrary.simpleMessage("¡Sé valiente!"),
         "about": MessageLookupByLibrary.simpleMessage("Información"),
         "aboutContent": MessageLookupByLibrary.simpleMessage(
             "Queremos que conozcas que detrás de Armor of God, está un grupo de hermanos por la fe en Cristo, que buscamos glorificar al Autor de nuestra Salvación por medio de los dones y profesiones naturales que Él en su Gracia nos ha concedido, Estamos comprometidos con la ayuda del Señor a seguir mejorando y creando contenido alineándonos a Su voluntad.\n\nAgradecemos sinceramente tu apoyo y confianza  en el proyecto Armor of God. ¡Esperamos que disfrutes de la aplicación y que encuentres una experiencia edificante!\n\n¡Diviértete y sigue desbloqueando conocimientos!\n\nAtentamente,\n\nEl equipo de desarrollo del Armor of God"),

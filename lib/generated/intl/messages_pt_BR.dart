@@ -25,6 +25,34 @@ class MessageLookup extends MessageLookupByLibrary {
             "“10 Quanto ao mais, meus irmãos, fortalecei-vos no Senhor e na força do seu poder. 11Vistam toda a armadura de Deus, para que possam ficar firmes contra as ciladas do diabo. 12Pois não é contra carne e sangue que lutamos, mas contra os principados, contra as potestades, contra os príncipes das trevas deste século, contra as hostes espirituais da maldade nas regiões celestiais. 13 Portanto, tomai toda a armadura de Deus, para que possais resistir no dia mau e, acabando tudo, ficar firmes”. Efésios 6:10-13 Versão Reina Valera 1960 no texto anterior queremos destacar três aspectos importantes, primeiro, a armadura de Deus é o que devemos usar, não a nossa, segundo, somente corações transformados podem tomar a armadura de Deus, pois isso vemos como o Apóstolo fala aos irmãos, e terceiro que a Armadura de Deus é contra as forças espirituais do mal nos lugares celestiais, isso é muito importante, pois não é uma armadura física, é espiritual na alma, e prático para o nosso dia a dia, por isso vamos encontrar em cada peça exemplos bíblicos e cotidianos para nossa caminhada na vida cristã porque estamos em guerra."),
         "AngelMessageFirstLevelTitle": MessageLookupByLibrary.simpleMessage(
             "Não devemos confiar na Armadura de Deus, mas no Deus da Armadura"),
+        "AngelTryAgain1": MessageLookupByLibrary.simpleMessage(
+            "A queda não é o fim, ela faz parte do processo.\n\n16 Pois o justo cai sete vezes, e se levanta novamente; Mas os ímpios cairão em travessuras. Provérbios 24:16"),
+        "AngelTryAgain1title":
+            MessageLookupByLibrary.simpleMessage("Levantar!"),
+        "AngelTryAgain2": MessageLookupByLibrary.simpleMessage(
+            "Você deve superar todo o medo e seguir em frente.\n\n9 Olha, eu ordeno que você se esforce e seja corajoso; não tenha medo nem desanime, pois Jeová, seu Deus, estará com você por onde você andar. Josué 1: 9"),
+        "AngelTryAgain2title":
+            MessageLookupByLibrary.simpleMessage("Não te desanimes!"),
+        "AngelTryAgain3": MessageLookupByLibrary.simpleMessage(
+            "Fraqueza não é desculpa.\n\n29 Ele dá esforço ao cansado e multiplica a força àqueles que não têm nenhuma. 30 Os meninos se cansam e se cansam, os jovens vacilam e caem; 31 mas os que esperam no Senhor terão novas forças; levantarão asas como águias; correrão e não se cansarão; eles andarão e não se cansarão. Isaías 40:29-31"),
+        "AngelTryAgain3title":
+            MessageLookupByLibrary.simpleMessage("Recupere sua força!"),
+        "AngelTryAgain4": MessageLookupByLibrary.simpleMessage(
+            "Se você parar por aqui, não saberá quando o fim está próximo.\n\n8 Melhor é o fim do negócio do que seu começo; melhor é o longânimo de espírito do que o altivo de espírito. 9 Não se precipite em seu espírito para ficar com raiva; porque a raiva repousa no seio dos tolos. Eclesiastes 7:8-9"),
+        "AngelTryAgain4title":
+            MessageLookupByLibrary.simpleMessage("Não se detenha!"),
+        "AngelTryAgain5": MessageLookupByLibrary.simpleMessage(
+            "É no campo de batalha que o verdadeiro homem de Deus é testado.\n\n21 O crisol prova a prata, e a fornalha prova o ouro, e a boca do homem que o louva. Provérbios 27:21"),
+        "AngelTryAgain5title":
+            MessageLookupByLibrary.simpleMessage("Passar no teste!"),
+        "AngelTryAgain6": MessageLookupByLibrary.simpleMessage(
+            "Tudo tem sua recompensa, seu prêmio.\n\n12 Bem-aventurado o homem que suporta a tentação; porque, depois de passar pela prova, receberá a coroa da vida, que Deus prometeu aos que o amam."),
+        "AngelTryAgain6title":
+            MessageLookupByLibrary.simpleMessage("Resistir!"),
+        "AngelTryAgain7": MessageLookupByLibrary.simpleMessage(
+            "Em Cristo você é mais que vencedor.\n\n7 Porque Deus não nos deu um espírito de covardia, mas de fortaleza, de amor e de moderação. 2 Timóteo 1:7"),
+        "AngelTryAgain7title":
+            MessageLookupByLibrary.simpleMessage("Seja valente!"),
         "about": MessageLookupByLibrary.simpleMessage("Informação"),
         "aboutContent": MessageLookupByLibrary.simpleMessage(
             "Queremos que você saiba que por trás da Armadura de Deus, existe um grupo de irmãos pela fé em Cristo, que buscam glorificar o Autor da nossa Salvação através dos dons naturais e profissões que Ele nos concedeu em Sua Graça. Estamos comprometidos com a ajuda do Senhor para continuar melhorando e criando conteúdo alinhando-nos à Sua vontade.\n\nAgradecemos sinceramente seu apoio e confiança no projeto Armadura de Deus. Esperamos que você goste do aplicativo e o ache edificante!\n\nDivirta-se e continue desbloqueando conhecimento!\n\nAtenciosamente,\n\nEquipe de Desenvolvimento da Armadura de Deus"),

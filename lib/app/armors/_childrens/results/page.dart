@@ -1,4 +1,7 @@
+import 'dart:math';
+import 'package:armor_of_god/data/angels_try_again.dart';
 import 'package:armor_of_god/generated/l10n.dart';
+import 'package:armor_of_god/models/item.dart';
 import 'package:armor_of_god/widgets/celebration/celebration_animation.dart';
 import 'package:armor_of_god/widgets/celebration/celebration_dependencies.dart';
 import 'package:flutter/material.dart';
@@ -37,6 +40,9 @@ class Page extends StatelessWidget {
   Widget build(BuildContext context) {
     int correctAnswers = 0;
     var positionAnswers = <bool>[];
+    Random random = Random.secure();
+    int randomNumber = 0;
+    List<Item> messages = [];
     for (int i = 0; i < answers.length; i++) {
       if (answers[i] == answersPreview[i]) {
         correctAnswers++;
@@ -114,6 +120,9 @@ class Page extends StatelessWidget {
       }
       final armorCheck = Modular.get<AppConfig>();
       armorCheck.init(prefs: prefs);
+    } else {
+      randomNumber = random.nextInt(7);
+      messages = AngelsTryAgain().all;
     }
 
     return WillPopScope(
@@ -239,12 +248,11 @@ class Page extends StatelessWidget {
                       onTap: () {
                         FirstModal.show(
                           context: context,
-                          child: const Angel(
-                            color: Color.fromARGB(255, 165, 80, 48),
+                          child: Angel(
+                            color: const Color.fromARGB(255, 165, 80, 48),
                             image: 'assets/images/angel2.png',
-                            subTitle:
-                                'dada asdasd adasd asd adasd asd a esa ada dsadasd askdasj das \n ad asda dsa da sdadsad asda sda das da \n \n asadasda asdad.\n\n\n\nOasdad asdasdas dasd asd asd ad asda dasd asd asda ssdasd asd asd as\nadasdas.',
-                            title: 'The faith is absolute',
+                            subTitle: messages[randomNumber].subtitle,
+                            title: messages[randomNumber].title,
                           ),
                         );
                       },
