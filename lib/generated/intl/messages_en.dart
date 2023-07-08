@@ -300,7 +300,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "mainQuestionFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Can a lie have some power over reality?"),
         "mainQuestionFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Why did the Israelites have to sacrifice an animal in all their offerings and burnt offerings to the Lord?"),
+            "Why does the Israelites have to sacrifice an animal in all their offerings and holocausts to the Sovereign Lord?"),
         "mainQuestionFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "According to the Word of the Lord, which king kindled the Wrath of God to such an extent that it brought about the destruction of the kingdom of Judah and the exile of his people to Babylon?"),
         "mainQuestionFiveQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -327,8 +327,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "What does the number 12 mean?"),
         "mainQuestionSecondPageOne": MessageLookupByLibrary.simpleMessage(
             "Are there two resurrection events?"),
-        "mainQuestionSecondPageThree": MessageLookupByLibrary.simpleMessage(
-            "Why was King Manasseh so wicked?"),
+        "mainQuestionSecondPageThree":
+            MessageLookupByLibrary.simpleMessage("Why King Manasseh so evil?"),
         "mainQuestionSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "What was inside the Ark of God?"),
         "mainQuestionSixQPageFive": MessageLookupByLibrary.simpleMessage(
@@ -344,13 +344,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "mainQuestionThirdPageFive": MessageLookupByLibrary.simpleMessage(
             "In which chapter of the Holy Bible is this prophecy being fulfilled, Joshua 6:26?"),
         "mainQuestionThirdPageFour": MessageLookupByLibrary.simpleMessage(
-            "What sin did the devil commit to fall from the presence of the Lord?"),
+            "What sin did the devil commit that may him fall from the presence of the Lord?"),
         "mainQuestionThirdPageOne": MessageLookupByLibrary.simpleMessage(
-            "Is the devil in hell to torment the people there or does he go there to be tormented for all eternity?"),
+            "Is the devil in hell to torment the people there or is he is going there for him to be tormented for all eternity?"),
         "mainQuestionThirdPageThree": MessageLookupByLibrary.simpleMessage(
-            "Why were the disciples unable to heal the demon possessed boy in Matthew 17:1-27?"),
+            "Why couldn\'t the disciples heal the demon-possessed boy in Matthew 17:1-27?"),
         "mainQuestionThirdPageTwo": MessageLookupByLibrary.simpleMessage(
-            "What tribe of Israel is missing from the 144,000 sealed, Revelation 7:1-17?"),
+            "What tribe of Israel is missing in the 144,000 sealed, Revelation 7:1-17?"),
         "menu": MessageLookupByLibrary.simpleMessage("Menu"),
         "onBoardingDescription1": MessageLookupByLibrary.simpleMessage(
             "An interactive application in which with the help of the one who fights our battles, The Almighty Lord, we will start a journey in which we will discover what the Armor of God is and how to use it."),
@@ -374,7 +374,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFiveFirstPageThree":
             MessageLookupByLibrary.simpleMessage("No, Satan doesn\'t exist"),
         "optionFiveFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "It is a ritual that you must perform to use that blood in your daily spells"),
+            "It is a ritual that you must hold in order to use that blood in your daily spells"),
         "optionFiveFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "King Manasseh in 2 Kings 21:1-26"),
         "optionFiveFiveQPageFour":
@@ -402,7 +402,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFiveSecondPageOne": MessageLookupByLibrary.simpleMessage(
             "Yes, according to Revelation 20:1-15 the first resurrection will reign with Christ for a thousand years"),
         "optionFiveSecondPageThree": MessageLookupByLibrary.simpleMessage(
-            "The reason why Manasseh was wicked can be found in 2 Kings 8:1-28 where we note that he married a daughter of Ahab, the wicked king of Israel"),
+            "The reason why Manasseh was evil can be found in 2 Kings 8:1-28 where we note that he married a daughter of Ahab, the evil king of Israel"),
         "optionFiveSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "In Zechariah 4:1-14 it is mentioned that in it you will find the names of the two olive trees"),
         "optionFiveSixQPageFive": MessageLookupByLibrary.simpleMessage(
@@ -421,7 +421,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFiveThirdPageOne":
             MessageLookupByLibrary.simpleMessage("The devil comes from hell"),
         "optionFiveThirdPageThree": MessageLookupByLibrary.simpleMessage(
-            "The boy needed a very rigorous and prolonged fast"),
+            "The boy needed a very rigorous and lengthy fast"),
         "optionFiveThirdPageTwo": MessageLookupByLibrary.simpleMessage("Gad"),
         "optionFourFirstPageFive":
             MessageLookupByLibrary.simpleMessage("Matter"),
@@ -432,7 +432,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFourFirstPageThree":
             MessageLookupByLibrary.simpleMessage("Yes, everything is a lie"),
         "optionFourFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Because that animal took your place in the punishment of sins. The punishment for sin is death, but that animal died in your place"),
+            "Because that animal takes your place in the punishment of sins. The punishment for sin is death, so that animal dies in your place"),
         "optionFourFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "King Hezekiah in 2 Kings 18:1-19:37"),
         "optionFourFiveQPageFour":
@@ -456,13 +456,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFourSecondPageFive":
             MessageLookupByLibrary.simpleMessage("All animals are evil"),
         "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
-            "The elect and government by Almighty God"),
+            "The chosen and government by God Almighty"),
         "optionFourSecondPageOne": MessageLookupByLibrary.simpleMessage(
             "No, only Jesus Christ can rise from the dead"),
         "optionFourSecondPageThree": MessageLookupByLibrary.simpleMessage(
-            "According to the Scripture in 2 Kings 21: 1-26, we see that Manasseh\'s mother was very bad and she taught him the evil ways of him"),
+            "According to the Scripture in 2 Kings 21: 1-26, we see that Manasseh\'s mother was very evil and she taught him her evil ways"),
         "optionFourSecondPageTwo": MessageLookupByLibrary.simpleMessage(
-            "If you read Exodus 28:1-43 you will notice that he had the Ephod and the breastplate"),
+            "If you read Exodus 28:1-43 you will note that it had the Ephod and the breastplate"),
         "optionFourSixQPageFive":
             MessageLookupByLibrary.simpleMessage("Burned unauthorized incense"),
         "optionFourSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -478,9 +478,9 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFourThirdPageFour": MessageLookupByLibrary.simpleMessage(
             "The devil was always in hell"),
         "optionFourThirdPageOne": MessageLookupByLibrary.simpleMessage(
-            "When Jesus describes hell, he describes the devil as the tormentor of those who go there, we see it in the book of Mark"),
+            "When Jesus describes hell He pictures the devil as the tormentor of those that go there, we see this in the book of Mark"),
         "optionFourThirdPageThree": MessageLookupByLibrary.simpleMessage(
-            "Because the disciples did not have enough faith"),
+            "Because the disciples didn\'t have enough faith"),
         "optionFourThirdPageTwo":
             MessageLookupByLibrary.simpleMessage("Manasseh"),
         "optionOneFirstPageFive":
@@ -492,7 +492,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionOneFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "Yes, a lie has control over the reality that we see"),
         "optionOneFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Because the Sovereign Lord eats that kind of meat"),
+            "Because the Sovereign Lord eats that type of meat."),
         "optionOneFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "King Rehoboam in 1 Kings 12:1-33"),
         "optionOneFiveQPageFour":
@@ -518,11 +518,11 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "It means the betrayal of a friend"),
         "optionOneSecondPageOne": MessageLookupByLibrary.simpleMessage(
-            "No, the resurrection has already taken place, 2 Timothy 2:1-3:9"),
+            "No, resurrection already took place, 2 Timothy 2:1-3:9"),
         "optionOneSecondPageThree": MessageLookupByLibrary.simpleMessage(
-            "Manasseh was so bad because according to 2 Kings 18:1-37 his father Hezekiah was also a bad person"),
+            "Manasseh was so evil because according to 2 Kings 18:1-37 his father Hezekiah was also a evil person"),
         "optionOneSecondPageTwo": MessageLookupByLibrary.simpleMessage(
-            "According to Exodus 26:1-37, he had the holy oil and the Lampstand"),
+            "According to Exodus 26:1-37, it had the sacred oil and the Lampstand"),
         "optionOneSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "He had too many wives and concubines"),
         "optionOneSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -538,7 +538,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionOneThirdPageOne": MessageLookupByLibrary.simpleMessage(
             "Satan is an immortal being, he cannot die"),
         "optionOneThirdPageThree": MessageLookupByLibrary.simpleMessage(
-            "They could not cure him because of the many sins that the child had"),
+            "They couldn\'t heal him because of the many sins that the boy had"),
         "optionOneThirdPageTwo":
             MessageLookupByLibrary.simpleMessage("Ephraim"),
         "optionThreeFirstPageFive":
@@ -572,15 +572,15 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionThreeFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "It comes to life when the angel of the Lord slays one hundred eighty-five thousand men in the Assyrian camp of Sennacherib in 2 Kings 18:1-19:37"),
         "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "Satan and his horde of demons are the only ones to blame when a man does evil"),
+            "Satan and his horde of demons are the only ones that are guilty when a man does evil"),
         "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "It means God\'s provision in your life"),
         "optionThreeSecondPageOne": MessageLookupByLibrary.simpleMessage(
             "Yes, according to 1 Corinthians 14:1-40 there are two heavens"),
         "optionThreeSecondPageThree": MessageLookupByLibrary.simpleMessage(
-            "Manasseh was bad because he held a grudge against God the Father for not having healed his father Hezekiah"),
+            "Manasseh was evil because he held a grudge against God the Father for not healing his father Hezekiah"),
         "optionThreeSecondPageTwo": MessageLookupByLibrary.simpleMessage(
-            "In Joshua 3:1-5:1 it says that he had the twelve stones that represent the twelve tribes of Israel"),
+            "In Joshua 3:1-5:1 it says that it had the twelve stones that represent the twelve tribes of Israel"),
         "optionThreeSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "He defiled the Temple of the Lord with idols"),
         "optionThreeSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -596,7 +596,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionThreeThirdPageFour": MessageLookupByLibrary.simpleMessage(
             "Based on Ezekiel 28:1-26 the devil took the sight of the Lord, and placed it on his beauty and was proud"),
         "optionThreeThirdPageOne": MessageLookupByLibrary.simpleMessage(
-            "Satan goes to hell to be tormented for all eternity for his sins"),
+            "Satan is going to hell to be tormented for all eternity for his sins"),
         "optionThreeThirdPageThree": MessageLookupByLibrary.simpleMessage(
             "The boy was not strong enough"),
         "optionThreeThirdPageTwo": MessageLookupByLibrary.simpleMessage("Dan"),
@@ -607,7 +607,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoFirstPageOne":
             MessageLookupByLibrary.simpleMessage("15,000 men"),
         "optionTwoFirstPageThree": MessageLookupByLibrary.simpleMessage(
-            "Yes, but only if the man chooses to believe that lie"),
+            "Yes, but only if the man decide to believe that lie"),
         "optionTwoFirstPageTwo": MessageLookupByLibrary.simpleMessage(
             "Because He delights when you do this"),
         "optionTwoFiveQPageFive": MessageLookupByLibrary.simpleMessage(
@@ -632,14 +632,14 @@ class MessageLookup extends MessageLookupByLibrary {
             "It comes true when King Jehoshaphat defeats Moab, Ammon, and the men of Mount Seir without firing an arrow in 2 Chronicles 20:1-37"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
             "Evil exists because evil was found in an angelic creature"),
-        "optionTwoSecondPageFour": MessageLookupByLibrary.simpleMessage(
-            "The twelve signs of the zodiac"),
+        "optionTwoSecondPageFour":
+            MessageLookupByLibrary.simpleMessage("The twelve zodiac signs"),
         "optionTwoSecondPageOne": MessageLookupByLibrary.simpleMessage(
             "No, there is only one resurrection"),
         "optionTwoSecondPageThree": MessageLookupByLibrary.simpleMessage(
-            "Because based on 2 Kings 20: 1-21 we note that King Hezekiah did not care about the future of his children or his offspring"),
+            "Because based on 2 Kings 20: 1-21 we note that King Hezekiah didn\'t care about the future of his sons or of his descendants"),
         "optionTwoSecondPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Based on 1 Kings 8:1-66 it had the two tables of the Law"),
+            "Based on 1 Kings 8:1-66 it had the two tablets of the Covenant Law"),
         "optionTwoSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Married non-Israelite women leading to apostasy"),
         "optionTwoSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -652,12 +652,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoThirdPageFive":
             MessageLookupByLibrary.simpleMessage("2 Kings 12:1-21"),
         "optionTwoThirdPageFour": MessageLookupByLibrary.simpleMessage(
-            "If we read John 8:1-59 ​​the devil lied to the Sovereign Lord and therefore fell from his position of grace"),
+            "If we read John 8:1-59 ​​the devil lied to the Sovereign Lord and that is why he fell from his position of grace"),
         "optionTwoThirdPageOne": MessageLookupByLibrary.simpleMessage(
-            "Satan does not exist, we created that concept"),
+            "Satan doesn\'t exist, we created that concept"),
         "optionTwoThirdPageThree": MessageLookupByLibrary.simpleMessage(
-            "Because this demon was of high rank"),
-        "optionTwoThirdPageTwo": MessageLookupByLibrary.simpleMessage("Dyne"),
+            "Because this demon had a high-rank"),
+        "optionTwoThirdPageTwo": MessageLookupByLibrary.simpleMessage("Dinah"),
         "price": MessageLookupByLibrary.simpleMessage("Price"),
         "questions": MessageLookupByLibrary.simpleMessage("Questions"),
         "questionsWillStart":
@@ -748,7 +748,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueFirstPageThree": MessageLookupByLibrary.simpleMessage(
             "How does satan do evil in the world? Read Genesis 3:1-7."),
         "theClueFirstPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Death for your sin is on order, but does he delight in an animal sacrifice?"),
+            "Death for your sin is on demand, but does He delights in the sacrifice of an animal?"),
         "theClueFiveQPageFive": MessageLookupByLibrary.simpleMessage(
             "Read about the worst king of Judah; like a son of Joseph"),
         "theClueFiveQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -770,13 +770,13 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Read and ask yourself; a king who died in peace or in war for a woman prophet and the book of the law?"),
         "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(
-            "Connect all the dots in the Bible and see the Truth; the people with whom you should associate"),
+            "Connect all the dots in the Bible and see the Truth; the people you should relate to"),
         "theClueSecondPageOne": MessageLookupByLibrary.simpleMessage(
-            "Read and research for yourself; holy and non-holy people await that day in the grave"),
+            "Read and research for yourself; holy and unholy people are waiting for that day in the grave"),
         "theClueSecondPageThree": MessageLookupByLibrary.simpleMessage(
-            "Investigate the truth; the influence of a father can be decisive"),
+            "Investigate the truth; a father\'s influence can be deterministic"),
         "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Read and find out the truth; the important thing is what you keep"),
+            "Read and discover the truth; the important thing is what you keep"),
         "theClueSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Listen to 1 Kings 11:1-13; stay apart"),
         "theClueSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -790,12 +790,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueThirdPageFive": MessageLookupByLibrary.simpleMessage(
             "Investigate through reading; a king poisoned by the tongue of a viper"),
         "theClueThirdPageFour": MessageLookupByLibrary.simpleMessage(
-            "Find your answer in the Scriptures; before the fall this sin is always here"),
+            "Find your answer in Scriptures; before the fall this sin is always here"),
         "theClueThirdPageOne": MessageLookupByLibrary.simpleMessage(
             "Read about him in Revelation 20:1-15; judgment prevails"),
         "theClueThirdPageThree": MessageLookupByLibrary.simpleMessage(
-            "Find your answer in Matthew 17:14-21; the one who moves the mountains"),
+            "Find out your answer in Matthew 17:14-21; the one who moves the mountains"),
         "theClueThirdPageTwo": MessageLookupByLibrary.simpleMessage(
-            "Review and compare Revelation 7:1-8 with Genesis 35:23-26, from the same tribe as Samson")
+            "Check and compare Revelation 7:1-8 with Genesis 35:23-26, from the same tribe as Samson")
       };
 }
