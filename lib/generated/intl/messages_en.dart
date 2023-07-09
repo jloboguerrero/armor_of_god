@@ -66,7 +66,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1Text4": MessageLookupByLibrary.simpleMessage(
             "Anyone, then, who hears these words from me, and does them, I will compare him to a prudent man, who built his house on the rock. The rain came down, and the rivers came, and the winds blew and beat against that house; and it did not fall, because it was founded on the rock. But whoever hears these words from me and does not do them, I will compare him to a foolish man, who built his house on the sand; and the rain came down, and the rivers came, and the winds blew, and beat against that house; and he fell, and his ruin was great. "),
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
-            "If this is kept in mind, we will maintain the truth in everything that is done, this will be the central axis of our Christian life."),
+            "If we keep this in mind, we will maintain the truth in everything that is done, this will be the central axis of our Christian life.\nThe position of this piece also speaks to us. The belt is located in the middle of the person and in the same way Christ must be in the center of us. When Christ is crucified between two thieves, we can see that the extremes are thieves and the center must be Christ."),
         "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
             "Jesus himself who is the Word dwelt in it, let\'s read "),
         "armor1TextBible2": MessageLookupByLibrary.simpleMessage(

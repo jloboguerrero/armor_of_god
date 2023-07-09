@@ -540,10 +540,10 @@ class S {
     );
   }
 
-  /// `Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.`
+  /// `Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\nLa posición de esta pieza también nos habla. El cinturón está ubicado en la mitad de la persona y del mismo modo Cristo debe estar en el centro de nosotros. Cuando Cristo es crucificado en medio de dos ladrones, podemos ver que los extremos son ladrones y el centro debe ser Cristo.`
   String get armor1Text5 {
     return Intl.message(
-      'Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.',
+      'Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\nLa posición de esta pieza también nos habla. El cinturón está ubicado en la mitad de la persona y del mismo modo Cristo debe estar en el centro de nosotros. Cuando Cristo es crucificado en medio de dos ladrones, podemos ver que los extremos son ladrones y el centro debe ser Cristo.',
       name: 'armor1Text5',
       desc: '',
       args: [],

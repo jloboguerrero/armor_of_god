@@ -68,7 +68,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1Text4": MessageLookupByLibrary.simpleMessage(
             "Quem, pois, ouve de mim estas palavras e as pratica, compará-lo-ei a um homem prudente, que edificou a sua casa sobre a rocha. Caiu a chuva, correram rios, sopraram ventos e deram com ímpeto contra aquela casa; e não caiu, porque estava edificada sobre a rocha. Mas quem ouve de mim estas palavras e não as pratica, compará-lo-ei a um homem insensato, que construiu a sua casa sobre a areia; e desceu a chuva, e correram os rios, e assopraram os ventos, e combateram aquela casa; e ele caiu, e sua ruína foi grande. "),
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
-            "Tendo isso em mente, manteremos a verdade em tudo o que fizermos, esse será o eixo central de nossa vida cristã."),
+            "Se tivermos isso em mente, manteremos a verdade em tudo o que fizermos, esse será o eixo central de nossa vida cristã.\nA posição desta peça também nos fala. O cinto está localizado no meio da pessoa e da mesma forma Cristo deve estar no centro de nós. Quando Cristo é crucificado entre dois ladrões, podemos ver que os extremos são ladrões e o centro deve ser Cristo."),
         "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
             "O próprio Jesus que é a Palavra habitou nela, vamos ler "),
         "armor1TextBible2": MessageLookupByLibrary.simpleMessage(
@@ -79,8 +79,6 @@ class MessageLookup extends MessageLookupByLibrary {
             "neste capítulo vemos como Jesus venceu com a verdade da Palavra de Deus, durante toda a tentação ele citou apenas as Escrituras."),
         "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
             "Como crentes, devemos viver todos os dias na Palavra de nosso Senhor, é a única forma de aderir à verdade, se estamos em busca da verdade, então devemos ler as Escrituras e encantar nossas mentes com elas."),
-        "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "Um médico precisa da verdade contada pelo paciente para chegar ao diagnóstico correto. Da mesma forma, o diagnóstico correto é necessário para estabelecer um tratamento adequado, mas a que diagnóstico um médico pode chegar se o paciente mente para ele? Que doença pode ser curada com base em uma mentira? Da mesma forma que um médico confia na verdade para curar um paciente, devemos nos apegar à verdade que é Cristo em tudo o que fazemos para vestir esta peça da armadura de Deus."),
         "armor1Title": MessageLookupByLibrary.simpleMessage("Efésios 6:14"),
         "armor1Verse": MessageLookupByLibrary.simpleMessage(
             "“Fique firme então, tendo seus lombos cingidos com a verdade,”"),

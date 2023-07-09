@@ -70,7 +70,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1Text4": MessageLookupByLibrary.simpleMessage(
             "Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca. Descendió lluvia, y vinieron ríos, y soplaron vientos, y golpearon contra aquella casa; y no cayó, porque estaba fundada sobre la roca. Pero cualquiera que me oye estas palabras y no las hace, le compararé a un hombre insensato, que edificó su casa sobre la arena; y descendió lluvia, y vinieron ríos, y soplaron vientos, y dieron con ímpetu contra aquella casa; y cayó, y fue grande su ruina. "),
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
-            "Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana."),
+            "Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\nLa posición de esta pieza también nos habla. El cinturón está ubicado en la mitad de la persona y del mismo modo Cristo debe estar en el centro de nosotros. Cuando Cristo es crucificado en medio de dos ladrones, podemos ver que los extremos son ladrones y el centro debe ser Cristo."),
         "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
             "Jesús mismo quien es la Palabra habitaba en ella, leamos "),
         "armor1TextBible2": MessageLookupByLibrary.simpleMessage(
