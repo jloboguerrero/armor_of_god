@@ -705,6 +705,12 @@ class MessageLookup extends MessageLookupByLibrary {
         "stones4Vers1": MessageLookupByLibrary.simpleMessage("John 4:23-24"),
         "stones4Vers2": MessageLookupByLibrary.simpleMessage(
             "John 4:23-24\n23 But the hour is coming, and now is, when the true worshipers will worship the Father in spirit and in truth; because the Father also seeks such worshipers to worship him. 24 God is Spirit; and those who adore him, in spirit and in truth it is necessary that they adore."),
+        "stones5": MessageLookupByLibrary.simpleMessage(
+            " Although prayer is not represented in one piece, it is part of the armor, since prayer is communication with The Lord, typified in the sacred scriptures with golden cups with incense, Revelation 5:8 says: And when there was having taken the book, the four living beings and the twenty-four elders prostrated themselves before the Lamb; they all had harps, and golden cups full of incense, which are the prayers of the saints; that is to say, it is the way to receive the instructions of the one who fights the battles, a soldier who has direct instructions, understands the fight well, knows why he is fighting, so he has emotional and mental stability at such a strong moment as he It is in the middle of a war. So we as the soldiers of the Lord must have that way of communication with the Father through Christ in prayer, in order to face that War."),
+        "stones5Vers1": MessageLookupByLibrary.simpleMessage(
+            "The Prayer oración Ephesians 6:18-20"),
+        "stones5Vers2": MessageLookupByLibrary.simpleMessage(
+            "Ephesians 6:18-20\n18 praying at all times with all prayer and supplication in the Spirit, and watching thereunto with all perseverance and supplication for all saints; 19 and for me, so that when I open my mouth a word may be given to me to boldly make known the mystery of the gospel, 20 for which I am an ambassador in chains; speak boldly of him, as I should speak."),
         "submit": MessageLookupByLibrary.simpleMessage("Submit"),
         "suggestion": MessageLookupByLibrary.simpleMessage("Suggestion"),
         "suggestionContent": MessageLookupByLibrary.simpleMessage(

@@ -390,6 +390,36 @@ class S {
     );
   }
 
+  /// ` Si bien la oración no está representada en una pieza, hace parte de la armadura, ya que, la oración es la comunicación con El Señor, tipificada en las sagradas escrituras con copas de oro con incienso, Apocalipsis 5:8 dice: Y cuando hubo tomado el libro, los cuatro seres vivientes y los veinticuatro ancianos se postraron delante del Cordero; todos tenían arpas, y copas de oro llenas de incienso, que son las oraciones de los santos; es decir, es la vía de recibir las instrucciones de quien pelea las batallas, un soldado que tiene las instrucciones directas, entiende bien la lucha, sabe el por qué está peleando, entonces tiene una estabilidad emocional y mental en un momento tan fuerte como lo es en medio de una Guerra. Así nosotros como los soldados del Señor debemos tener esa vía de comunicación con el Padre a través de Cristo en la oración, para poder hacerle frente a esa Guerra.`
+  String get stones5 {
+    return Intl.message(
+      ' Si bien la oración no está representada en una pieza, hace parte de la armadura, ya que, la oración es la comunicación con El Señor, tipificada en las sagradas escrituras con copas de oro con incienso, Apocalipsis 5:8 dice: Y cuando hubo tomado el libro, los cuatro seres vivientes y los veinticuatro ancianos se postraron delante del Cordero; todos tenían arpas, y copas de oro llenas de incienso, que son las oraciones de los santos; es decir, es la vía de recibir las instrucciones de quien pelea las batallas, un soldado que tiene las instrucciones directas, entiende bien la lucha, sabe el por qué está peleando, entonces tiene una estabilidad emocional y mental en un momento tan fuerte como lo es en medio de una Guerra. Así nosotros como los soldados del Señor debemos tener esa vía de comunicación con el Padre a través de Cristo en la oración, para poder hacerle frente a esa Guerra.',
+      name: 'stones5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `La oración Efesios 6:18-20`
+  String get stones5Vers1 {
+    return Intl.message(
+      'La oración Efesios 6:18-20',
+      name: 'stones5Vers1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Efesios 6:18-20\n18 orando en todo tiempo con toda oración y súplica en el Espíritu, y velando en ello con toda perseverancia y súplica por todos los santos; 19 y por mí, a fin de que al abrir mi boca me sea dada palabra para dar a conocer con denuedo el misterio del evangelio, 20 por el cual soy embajador en cadenas; que con denuedo hable de él, como debo hablar.`
+  String get stones5Vers2 {
+    return Intl.message(
+      'Efesios 6:18-20\n18 orando en todo tiempo con toda oración y súplica en el Espíritu, y velando en ello con toda perseverancia y súplica por todos los santos; 19 y por mí, a fin de que al abrir mi boca me sea dada palabra para dar a conocer con denuedo el misterio del evangelio, 20 por el cual soy embajador en cadenas; que con denuedo hable de él, como debo hablar.',
+      name: 'stones5Vers2',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Ejemplo Práctico`
   String get examplePractice {
     return Intl.message(

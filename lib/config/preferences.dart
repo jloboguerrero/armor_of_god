@@ -85,6 +85,9 @@ class Preferences {
   bool get stoneFour => _prefs?.getBool('stone_four') ?? false;
   set stoneFour(bool value) => _prefs?.setBool('stone_four', value);
 
+  bool get stoneFive => _prefs?.getBool('stone_five') ?? false;
+  set stoneFive(bool value) => _prefs?.setBool('stone_five', value);
+
   Future<void> clear() async {
     await _prefs?.clear();
   }
