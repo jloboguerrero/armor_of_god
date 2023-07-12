@@ -550,10 +550,10 @@ class S {
     );
   }
 
-  /// `y la vida, Él es el Verbo es decir la Palabra encarnada Juan 1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestra boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: `
+  /// `y la vida, Él es el Verbo es decir la Palabra encarnada Juan 1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestra boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: `
   String get armor1Text3 {
     return Intl.message(
-      'y la vida, Él es el Verbo es decir la Palabra encarnada Juan 1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada línea de pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestra boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: ',
+      'y la vida, Él es el Verbo es decir la Palabra encarnada Juan 1:1, sin esta realidad como fundamento todo lo que hagamos no se va a sostener, así como una armadura sin cinturón no se sostiene,  nuestras acciones deben estar de acuerdo con la verdad de las Escrituras, alineadas con Cristo, debemos sostener cada pensamiento con la verdad de la Biblia; debemos sujetar las palabras de nuestra boca con la veracidad de la verdad, a la luz del Evangelio. Ya que, nuevamente citando las palabras del Señor en Mateo: 7:24-27 donde dice: ',
       name: 'armor1Text3',
       desc: '',
       args: [],
@@ -580,50 +580,50 @@ class S {
     );
   }
 
-  /// `Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.`
+  /// `Un médico necesita la verdad de los síntomas dicha por el paciente para llegar al diagnóstico correcto. Otro ejemplo es cuando el enemigo nos intente acusar con el pasado, entonces recordemos lo que dice 2 Corintios 5:17 De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas. Debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.`
   String get armor1TextPractice1 {
     return Intl.message(
-      'Un médico necesita la verdad dicha por el paciente para llegar al diagnóstico correcto. Del mismo modo, se necesita el diagnóstico correcto para establecer un tratamiento adecuado, pero ¿a qué diagnóstico puede llegar un médico si el paciente le miente? ¿Qué enfermedad se puede curar basada en una mentira? De la misma manera que un médico se basa en la verdad para curar a un paciente, debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.',
+      'Un médico necesita la verdad de los síntomas dicha por el paciente para llegar al diagnóstico correcto. Otro ejemplo es cuando el enemigo nos intente acusar con el pasado, entonces recordemos lo que dice 2 Corintios 5:17 De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas. Debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.',
       name: 'armor1TextPractice1',
       desc: '',
       args: [],
     );
   }
 
-  /// `Jesús mismo quien es la Palabra habitaba en ella, leamos `
+  /// `Proverbios 16:18 Antes del quebrantamiento es la soberbia, Y antes de la caída la altivez de espíritu. Esta realidad la podemos ver en `
   String get armor1TextBible1 {
     return Intl.message(
-      'Jesús mismo quien es la Palabra habitaba en ella, leamos ',
+      'Proverbios 16:18 Antes del quebrantamiento es la soberbia, Y antes de la caída la altivez de espíritu. Esta realidad la podemos ver en ',
       name: 'armor1TextBible1',
       desc: '',
       args: [],
     );
   }
 
-  /// `Lucas 4:1-13\n4 Jesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo.`
+  /// `Daniel 4:28-33\n28 Todo esto vino sobre el rey Nabucodonosor. 29 Al cabo de doce meses, paseando en el palacio real de Babilonia, 30 habló el rey y dijo: ¿No es esta la gran Babilonia que yo edifiqué para casa real con la fuerza de mi poder, y para gloria de mi majestad? 31 Aún estaba la palabra en la boca del rey, cuando vino una voz del cielo: A ti se te dice, rey Nabucodonosor: El reino ha sido quitado de ti; 32 y de entre los hombres te arrojarán, y con las bestias del campo será tu habitación, y como a los bueyes te apacentarán; y siete tiempos pasarán sobre ti, hasta que reconozcas que el Altísimo tiene el dominio en el reino de los hombres, y lo da a quien él quiere. 33 En la misma hora se cumplió la palabra sobre Nabucodonosor, y fue echado de entre los hombres; y comía hierba como los bueyes, y su cuerpo se mojaba con el rocío del cielo, hasta que su pelo creció como plumas de águila, y sus uñas como las de las aves.`
   String get armor1TextBible2 {
     return Intl.message(
-      'Lucas 4:1-13\n4 Jesús, lleno del Espíritu Santo, volvió del Jordán, y fue llevado por el Espíritu al desierto 2 por cuarenta días, y era tentado por el diablo. Y no comió nada en aquellos días, pasados los cuales, tuvo hambre. 3 Entonces el diablo le dijo: Si eres Hijo de Dios, di a esta piedra que se convierta en pan. 4 Jesús, respondiéndole, dijo: Escrito está: No solo de pan vivirá el hombre, sino de toda palabra de Dios. 5 Y le llevó el diablo a un alto monte, y le mostró en un momento todos los reinos de la tierra. 6 Y le dijo el diablo: A ti te daré toda esta potestad, y la gloria de ellos; porque a mí me ha sido entregada, y a quien quiero la doy. 7 Si tú postrado me adorares, todos serán tuyos. 8 Respondiendo Jesús, le dijo: Vete de mí, Satanás, porque escrito está: Al Señor tu Dios adorarás, y a él sólo servirás. 9 Y le llevó a Jerusalén, y le puso sobre el pináculo del templo, y le dijo: Si eres Hijo de Dios, échate de aquí abajo; 10 porque escrito está: A sus ángeles mandará acerca de ti, que te guarden; 11 y, En las manos te sostendrán, Para que no tropieces con tu pie en piedra. 12 Respondiendo Jesús, le dijo: Dicho está: No tentarás al Señor tu Dios. 13 Y cuando el diablo hubo acabado toda tentación, se apartó de él por un tiempo.',
+      'Daniel 4:28-33\n28 Todo esto vino sobre el rey Nabucodonosor. 29 Al cabo de doce meses, paseando en el palacio real de Babilonia, 30 habló el rey y dijo: ¿No es esta la gran Babilonia que yo edifiqué para casa real con la fuerza de mi poder, y para gloria de mi majestad? 31 Aún estaba la palabra en la boca del rey, cuando vino una voz del cielo: A ti se te dice, rey Nabucodonosor: El reino ha sido quitado de ti; 32 y de entre los hombres te arrojarán, y con las bestias del campo será tu habitación, y como a los bueyes te apacentarán; y siete tiempos pasarán sobre ti, hasta que reconozcas que el Altísimo tiene el dominio en el reino de los hombres, y lo da a quien él quiere. 33 En la misma hora se cumplió la palabra sobre Nabucodonosor, y fue echado de entre los hombres; y comía hierba como los bueyes, y su cuerpo se mojaba con el rocío del cielo, hasta que su pelo creció como plumas de águila, y sus uñas como las de las aves.',
       name: 'armor1TextBible2',
       desc: '',
       args: [],
     );
   }
 
-  /// `Lucas: 4:1-13 `
+  /// `Daniel 4:28-33 `
   String get armor1TextBible3 {
     return Intl.message(
-      'Lucas: 4:1-13 ',
+      'Daniel 4:28-33 ',
       name: 'armor1TextBible3',
       desc: '',
       args: [],
     );
   }
 
-  /// `en este capítulo vemos como Jesús venció con la verdad de la Palabra de Dios, durante toda la tentación el citó solo las Escrituras.`
+  /// `la soberbia de Nabucodonosor hizo que viviera como bestia por siete años.`
   String get armor1TextBible4 {
     return Intl.message(
-      'en este capítulo vemos como Jesús venció con la verdad de la Palabra de Dios, durante toda la tentación el citó solo las Escrituras.',
+      'la soberbia de Nabucodonosor hizo que viviera como bestia por siete años.',
       name: 'armor1TextBible4',
       desc: '',
       args: [],
@@ -660,50 +660,50 @@ class S {
     );
   }
 
-  /// `La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia 1 Corintios 1:30 `
+  /// `La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia Jeremías 23:6 `
   String get armor2Text1 {
     return Intl.message(
-      'La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia 1 Corintios 1:30 ',
+      'La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia Jeremías 23:6 ',
       name: 'armor2Text1',
       desc: '',
       args: [],
     );
   }
 
-  /// `“Pero Dios mismo los ha unido a ustedes con Cristo Jesús, y ha hecho también que Cristo sea nuestra sabiduría, nuestra justicia, nuestra santificación y nuestra liberación.” DDHH. `
+  /// `“6 En sus días será salvo Judá, e Israel habitará confiado; y este será su nombre con el cual le llamarán: Jehová, justicia nuestra.” `
   String get armor2Text2 {
     return Intl.message(
-      '“Pero Dios mismo los ha unido a ustedes con Cristo Jesús, y ha hecho también que Cristo sea nuestra sabiduría, nuestra justicia, nuestra santificación y nuestra liberación.” DDHH. ',
+      '“6 En sus días será salvo Judá, e Israel habitará confiado; y este será su nombre con el cual le llamarán: Jehová, justicia nuestra.” ',
       name: 'armor2Text2',
       desc: '',
       args: [],
     );
   }
 
-  /// `Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 `
+  /// `Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 y en Miqueas 6:8 `
   String get armor2Text3 {
     return Intl.message(
-      'Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 ',
+      'Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 y en Miqueas 6:8 ',
       name: 'armor2Text3',
       desc: '',
       args: [],
     );
   }
 
-  /// `“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.” `
+  /// `“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.”, “8 Oh hombre, él te ha declarado lo que es bueno, y qué pide Jehová de ti: solamente hacer justicia, y amar misericordia, y humillarte ante tu Dios.” `
   String get armor2Text4 {
     return Intl.message(
-      '“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.” ',
+      '“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.”, “8 Oh hombre, él te ha declarado lo que es bueno, y qué pide Jehová de ti: solamente hacer justicia, y amar misericordia, y humillarte ante tu Dios.” ',
       name: 'armor2Text4',
       desc: '',
       args: [],
     );
   }
 
-  /// `Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad la influencia espiritual que tengamos arraigada en las semillas de Cristo Jesús nos protegerá, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 `
+  /// `Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad, si hemos actuado en rectitud y tenemos puesta esta pieza, la justicia de Dios nos protegerá acorde a su soberanía, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 `
   String get armor2Text5 {
     return Intl.message(
-      'Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad la influencia espiritual que tengamos arraigada en las semillas de Cristo Jesús nos protegerá, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 ',
+      'Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad, si hemos actuado en rectitud y tenemos puesta esta pieza, la justicia de Dios nos protegerá acorde a su soberanía, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 ',
       name: 'armor2Text5',
       desc: '',
       args: [],
@@ -780,10 +780,10 @@ class S {
     );
   }
 
-  /// `Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá, Si andas en ella, puesto que has actuado con rectitud y eres conocido como un cristiano veraz, todos los ataques están destinados a perecer. Él y no tu Exhibirá tu justicia como la luz en su tiempo.`
+  /// `Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá en su soberanía, Si andas en ella, puesto que has actuado con rectitud. Él y no tu Exhibirá tu justicia como la luz en su tiempo.`
   String get armor2TextPractice1 {
     return Intl.message(
-      'Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá, Si andas en ella, puesto que has actuado con rectitud y eres conocido como un cristiano veraz, todos los ataques están destinados a perecer. Él y no tu Exhibirá tu justicia como la luz en su tiempo.',
+      'Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá en su soberanía, Si andas en ella, puesto que has actuado con rectitud. Él y no tu Exhibirá tu justicia como la luz en su tiempo.',
       name: 'armor2TextPractice1',
       desc: '',
       args: [],
@@ -820,10 +820,10 @@ class S {
     );
   }
 
-  /// `ejercer la justicia del Señor es de vida o muerte. Tenemos el caso contrario con Moisés cuando bajó de estar en la presencia del Señor en el monte y el pueblo había edificado un ídolo, Moisés ejerció el juicio de Dios y trajo como consecuencia conocer los que tuvieron el corazón dispuesto para el Señor ver `
+  /// `Tenemos el caso contrario con Moisés cuando bajó de estar en la presencia del Señor en el monte y el pueblo había edificado un ídolo, Moisés ejerció el juicio de Dios y trajo como consecuencia conocer los que tuvieron el corazón dispuesto para el Señor ver `
   String get armor2TextBible4 {
     return Intl.message(
-      'ejercer la justicia del Señor es de vida o muerte. Tenemos el caso contrario con Moisés cuando bajó de estar en la presencia del Señor en el monte y el pueblo había edificado un ídolo, Moisés ejerció el juicio de Dios y trajo como consecuencia conocer los que tuvieron el corazón dispuesto para el Señor ver ',
+      'Tenemos el caso contrario con Moisés cuando bajó de estar en la presencia del Señor en el monte y el pueblo había edificado un ídolo, Moisés ejerció el juicio de Dios y trajo como consecuencia conocer los que tuvieron el corazón dispuesto para el Señor ver ',
       name: 'armor2TextBible4',
       desc: '',
       args: [],
@@ -1060,10 +1060,10 @@ class S {
     );
   }
 
-  /// `Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno.`
+  /// `Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno donde no habrá paz.`
   String get armor3TextLife1 {
     return Intl.message(
-      'Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno.',
+      'Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno donde no habrá paz.',
       name: 'armor3TextLife1',
       desc: '',
       args: [],
