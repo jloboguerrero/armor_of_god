@@ -510,6 +510,16 @@ class S {
     );
   }
 
+  /// `La oración`
+  String get armor7 {
+    return Intl.message(
+      'La oración',
+      name: 'armor7',
+      desc: '',
+      args: [],
+    );
+  }
+
   /// `Efesios 6:14`
   String get armor1Title {
     return Intl.message(
@@ -580,11 +590,51 @@ class S {
     );
   }
 
-  /// `“Detrás y delante me rodeaste, Y sobre mí pusiste tu mano.” Salmo 139:5. `
+  /// `“Detrás y delante me rodeaste, Y sobre mí pusiste tu mano.” `
   String get armor1Text6 {
     return Intl.message(
-      '“Detrás y delante me rodeaste, Y sobre mí pusiste tu mano.” Salmo 139:5. ',
+      '“Detrás y delante me rodeaste, Y sobre mí pusiste tu mano.” ',
       name: 'armor1Text6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Salmo 139:5.\n\n`
+  String get armor1Text6_1 {
+    return Intl.message(
+      'Salmo 139:5.\n\n',
+      name: 'armor1Text6_1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Otra particularidad del cinturón es que se utiliza para que el soldado sostenga la espada que reposa en su muslo, el musculo más fuerte, lo que indica es que la Espada que es la Palabra de Dios como veremos, se sostiene con la verdad que es Dios mismo, como lo vimos a lo largo de esta pieza, cuanta certeza tenemos al estar sujetos a Cristo, así que `
+  String get armor1Text7 {
+    return Intl.message(
+      'Otra particularidad del cinturón es que se utiliza para que el soldado sostenga la espada que reposa en su muslo, el musculo más fuerte, lo que indica es que la Espada que es la Palabra de Dios como veremos, se sostiene con la verdad que es Dios mismo, como lo vimos a lo largo de esta pieza, cuanta certeza tenemos al estar sujetos a Cristo, así que ',
+      name: 'armor1Text7',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Ciñe tu espada sobre el muslo, oh valiente, Con tu gloria y con tu majestad.” `
+  String get armor1Text8 {
+    return Intl.message(
+      '“Ciñe tu espada sobre el muslo, oh valiente, Con tu gloria y con tu majestad.” ',
+      name: 'armor1Text8',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Salmos: 45:3. `
+  String get armor1Text9 {
+    return Intl.message(
+      'Salmos: 45:3. ',
+      name: 'armor1Text9',
       desc: '',
       args: [],
     );
@@ -1490,10 +1540,10 @@ class S {
     );
   }
 
-  /// `Efesios 6:18b`
+  /// `Efesios 6:17b`
   String get armor6Title {
     return Intl.message(
-      'Efesios 6:18b',
+      'Efesios 6:17b',
       name: 'armor6Title',
       desc: '',
       args: [],
@@ -1650,10 +1700,10 @@ class S {
     );
   }
 
-  /// `Si eres creyente pero no lees la Palabra de Dios, es decir, no tomas la Espada del Espíritu, serás un creyente indefenso`
+  /// `Podemos notar la lucha que sostuvo el Hermano Martín Lutero, cuando fueron alumbrados sus ojos a través de la Palabra, el Justo por la fe vivirá, luchó aferrado a la verdad de la Palabra y libró una batalla que aún en nuestros días vemos los frutos.`
   String get armor6TextPractice1 {
     return Intl.message(
-      'Si eres creyente pero no lees la Palabra de Dios, es decir, no tomas la Espada del Espíritu, serás un creyente indefenso',
+      'Podemos notar la lucha que sostuvo el Hermano Martín Lutero, cuando fueron alumbrados sus ojos a través de la Palabra, el Justo por la fe vivirá, luchó aferrado a la verdad de la Palabra y libró una batalla que aún en nuestros días vemos los frutos.',
       name: 'armor6TextPractice1',
       desc: '',
       args: [],
@@ -1710,11 +1760,131 @@ class S {
     );
   }
 
-  /// `Si la Palabra de Dios mora en nosotros podremos atacar cualquier frente. `
+  /// `Si la Palabra de Dios mora en nosotros podremos atacar y defender cualquier frente. `
   String get armor6TextLife3 {
     return Intl.message(
-      'Si la Palabra de Dios mora en nosotros podremos atacar cualquier frente. ',
+      'Si la Palabra de Dios mora en nosotros podremos atacar y defender cualquier frente. ',
       name: 'armor6TextLife3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Efesios 6:18`
+  String get armor7Title {
+    return Intl.message(
+      'Efesios 6:18',
+      name: 'armor7Title',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“orando en todo tiempo con toda oración y súplica en el Espíritu, y velando en ello con toda perseverancia y súplica por todos los santos”`
+  String get armor7Verse {
+    return Intl.message(
+      '“orando en todo tiempo con toda oración y súplica en el Espíritu, y velando en ello con toda perseverancia y súplica por todos los santos”',
+      name: 'armor7Verse',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si bien la oración no está representada en una pieza, hace parte de la armadura, ya que, la oración es la comunicación con El Señor, tipificada en las sagradas escrituras con copas de oro con incienso, Apocalipsis 5:8 dice: `
+  String get armor7Text1 {
+    return Intl.message(
+      'Si bien la oración no está representada en una pieza, hace parte de la armadura, ya que, la oración es la comunicación con El Señor, tipificada en las sagradas escrituras con copas de oro con incienso, Apocalipsis 5:8 dice: ',
+      name: 'armor7Text1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Y cuando hubo tomado el libro, los cuatro seres vivientes y los veinticuatro ancianos se postraron delante del Cordero; todos tenían arpas, y copas de oro llenas de incienso, que son las oraciones de los santos; `
+  String get armor7Text2 {
+    return Intl.message(
+      'Y cuando hubo tomado el libro, los cuatro seres vivientes y los veinticuatro ancianos se postraron delante del Cordero; todos tenían arpas, y copas de oro llenas de incienso, que son las oraciones de los santos; ',
+      name: 'armor7Text2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `es decir, es la vía de recibir las instrucciones de quien pelea las batallas, un soldado que tiene las instrucciones directas, entiende bien la lucha, sabe el por qué está peleando, entonces tiene una estabilidad emocional y mental en un momento tan fuerte como lo es en medio de una Guerra. Así nosotros como los soldados del Señor debemos tener esa vía de comunicación con el Padre a través de Cristo en la oración, para poder hacerle frente a esa Guerra. `
+  String get armor7Text3 {
+    return Intl.message(
+      'es decir, es la vía de recibir las instrucciones de quien pelea las batallas, un soldado que tiene las instrucciones directas, entiende bien la lucha, sabe el por qué está peleando, entonces tiene una estabilidad emocional y mental en un momento tan fuerte como lo es en medio de una Guerra. Así nosotros como los soldados del Señor debemos tener esa vía de comunicación con el Padre a través de Cristo en la oración, para poder hacerle frente a esa Guerra. ',
+      name: 'armor7Text3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `George Muller, era un hermano Inglés conocido como el padre de los huérfanos, en una ocasión, el orfanato no tenía provisión para dar desayuno a los niños y este hermano oró al Padre Celestial y dispuso a todos los niños a comer, y una vez agradecieron por los alimentos, tocaron a la puerta y era el conductor de un camión de leche, quien se había accidentado y no quería que la leche se dañara y la dio a los niños, al mismo tiempo un panadero tocó la puerta y con bandejas llenas de pan, dijo que el Señor lo había inquietado para llevarles pan esa mañana. En la batalla que estemos librando es fundamental la oración al Señor.`
+  String get armor7TextPractice1 {
+    return Intl.message(
+      'George Muller, era un hermano Inglés conocido como el padre de los huérfanos, en una ocasión, el orfanato no tenía provisión para dar desayuno a los niños y este hermano oró al Padre Celestial y dispuso a todos los niños a comer, y una vez agradecieron por los alimentos, tocaron a la puerta y era el conductor de un camión de leche, quien se había accidentado y no quería que la leche se dañara y la dio a los niños, al mismo tiempo un panadero tocó la puerta y con bandejas llenas de pan, dijo que el Señor lo había inquietado para llevarles pan esa mañana. En la batalla que estemos librando es fundamental la oración al Señor.',
+      name: 'armor7TextPractice1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `En el libro de Daniel, cuando el rey Nabucodonosor olvidó el sueño y exigía su interpretación o la muerte si no la tenía, este sueño fue revelado por el Señor una vez Daniel y sus amigos pidieron sus misericordias, como lo leemos en los siguientes textos: `
+  String get armor7TextBible1 {
+    return Intl.message(
+      'En el libro de Daniel, cuando el rey Nabucodonosor olvidó el sueño y exigía su interpretación o la muerte si no la tenía, este sueño fue revelado por el Señor una vez Daniel y sus amigos pidieron sus misericordias, como lo leemos en los siguientes textos: ',
+      name: 'armor7TextBible1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Luego se fue Daniel a su casa e hizo saber lo que había a Ananías, Misael y Azarías, sus compañeros, 18 para que pidiesen misericordias del Dios del cielo sobre este misterio, a fin de que Daniel y sus compañeros no pereciesen con los otros sabios de Babilonia. 19 entonces el secreto fue revelado a Daniel en visión de noche, por lo cual bendijo Daniel al Dios del cielo.” `
+  String get armor7TextBible2 {
+    return Intl.message(
+      '“Luego se fue Daniel a su casa e hizo saber lo que había a Ananías, Misael y Azarías, sus compañeros, 18 para que pidiesen misericordias del Dios del cielo sobre este misterio, a fin de que Daniel y sus compañeros no pereciesen con los otros sabios de Babilonia. 19 entonces el secreto fue revelado a Daniel en visión de noche, por lo cual bendijo Daniel al Dios del cielo.” ',
+      name: 'armor7TextBible2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Daniel: 2:17-19 `
+  String get armor7TextBible3 {
+    return Intl.message(
+      'Daniel: 2:17-19 ',
+      name: 'armor7TextBible3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Cada día debemos buscar el rostro del Señor en oración, es decir hablar y escuchar lo que el Señor tiene para decirnos, esto debe ser una constante en nuestra vida cristiana. `
+  String get armor7TextLife1 {
+    return Intl.message(
+      'Cada día debemos buscar el rostro del Señor en oración, es decir hablar y escuchar lo que el Señor tiene para decirnos, esto debe ser una constante en nuestra vida cristiana. ',
+      name: 'armor7TextLife1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Tarde y mañana y a mediodía oraré y clamaré, Y él oirá mi voz.” `
+  String get armor7TextLife2 {
+    return Intl.message(
+      '“Tarde y mañana y a mediodía oraré y clamaré, Y él oirá mi voz.” ',
+      name: 'armor7TextLife2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Salmos 55:17 `
+  String get armor7TextLife3 {
+    return Intl.message(
+      'Salmos 55:17 ',
+      name: 'armor7TextLife3',
       desc: '',
       args: [],
     );
@@ -4315,6 +4485,216 @@ class S {
     return Intl.message(
       'Escuche a 1 Reyes 11:1-13; mantente separado',
       name: 'theClueSixQPageFive',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Cuál de las siguientes cartas de las Sagradas Escrituras escribió Pablo en prisión?`
+  String get mainQuestionSevenQPageOne {
+    return Intl.message(
+      '¿Cuál de las siguientes cartas de las Sagradas Escrituras escribió Pablo en prisión?',
+      name: 'mainQuestionSevenQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Filipenses, podemos ver esto leyendo este capítulo, Filipenses 1:1-30`
+  String get optionOneSevenQPageOne {
+    return Intl.message(
+      'Filipenses, podemos ver esto leyendo este capítulo, Filipenses 1:1-30',
+      name: 'optionOneSevenQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Judas`
+  String get optionTwoSevenQPageOne {
+    return Intl.message(
+      'Judas',
+      name: 'optionTwoSevenQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Gálatas, como es evidente en Gálatas 2:1-21`
+  String get optionThreeSevenQPageOne {
+    return Intl.message(
+      'Gálatas, como es evidente en Gálatas 2:1-21',
+      name: 'optionThreeSevenQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `2 Timoteo, ese es el significado de la corona de justicia de 2 Timoteo 4:1-22`
+  String get optionFourSevenQPageOne {
+    return Intl.message(
+      '2 Timoteo, ese es el significado de la corona de justicia de 2 Timoteo 4:1-22',
+      name: 'optionFourSevenQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `1 Corintios`
+  String get optionFiveSevenQPageOne {
+    return Intl.message(
+      '1 Corintios',
+      name: 'optionFiveSevenQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lee el contexto y encuentra tu respuesta; Puedo hacer todo esto a través de Aquel que me fortalece`
+  String get theClueSevenQPageOne {
+    return Intl.message(
+      'Lee el contexto y encuentra tu respuesta; Puedo hacer todo esto a través de Aquel que me fortalece',
+      name: 'theClueSevenQPageOne',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Quién escribió el Libro Sagrado del Apocalipsis?`
+  String get mainQuestionSevenQPageTwo {
+    return Intl.message(
+      '¿Quién escribió el Libro Sagrado del Apocalipsis?',
+      name: 'mainQuestionSevenQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El apóstol Juan`
+  String get optionOneSevenQPageTwo {
+    return Intl.message(
+      'El apóstol Juan',
+      name: 'optionOneSevenQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El apóstol Pablo`
+  String get optionTwoSevenQPageTwo {
+    return Intl.message(
+      'El apóstol Pablo',
+      name: 'optionTwoSevenQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Juan el Bautista`
+  String get optionThreeSevenQPageTwo {
+    return Intl.message(
+      'Juan el Bautista',
+      name: 'optionThreeSevenQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Jesucristo`
+  String get optionFourSevenQPageTwo {
+    return Intl.message(
+      'Jesucristo',
+      name: 'optionFourSevenQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Zacarías`
+  String get optionFiveSevenQPageTwo {
+    return Intl.message(
+      'Zacarías',
+      name: 'optionFiveSevenQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Por lo general, en el primer capítulo puede encontrar el nombre; mucho amor en las palabras de este apóstol`
+  String get theClueSevenQPageTwo {
+    return Intl.message(
+      'Por lo general, en el primer capítulo puede encontrar el nombre; mucho amor en las palabras de este apóstol',
+      name: 'theClueSevenQPageTwo',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `¿Cuál fue la profesión de Lucas, el tercer evangelista?`
+  String get mainQuestionSevenQPageThree {
+    return Intl.message(
+      '¿Cuál fue la profesión de Lucas, el tercer evangelista?',
+      name: 'mainQuestionSevenQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Era un oficial del imperio romano, como se evidencia en Lucas 1:1-80`
+  String get optionOneSevenQPageThree {
+    return Intl.message(
+      'Era un oficial del imperio romano, como se evidencia en Lucas 1:1-80',
+      name: 'optionOneSevenQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Era fabricante de tiendas de campaña como Pablo, lo vemos en Hechos 18:1-28`
+  String get optionTwoSevenQPageThree {
+    return Intl.message(
+      'Era fabricante de tiendas de campaña como Pablo, lo vemos en Hechos 18:1-28',
+      name: 'optionTwoSevenQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Era Doctor, como está escrito en Colosenses 4:1-18`
+  String get optionThreeSevenQPageThree {
+    return Intl.message(
+      'Era Doctor, como está escrito en Colosenses 4:1-18',
+      name: 'optionThreeSevenQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `El era un pescador y un hombre sin educación como en este capítulo de las Sagradas Escrituras, Hechos 4:1-37`
+  String get optionFourSevenQPageThree {
+    return Intl.message(
+      'El era un pescador y un hombre sin educación como en este capítulo de las Sagradas Escrituras, Hechos 4:1-37',
+      name: 'optionFourSevenQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Fue uno de los doce Apóstoles de Jesucristo, como se muestra en Mateo 10:1-42`
+  String get optionFiveSevenQPageThree {
+    return Intl.message(
+      'Fue uno de los doce Apóstoles de Jesucristo, como se muestra en Mateo 10:1-42',
+      name: 'optionFiveSevenQPageThree',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Vaya a las escrituras y compruebe cada versículo señalado en las opciones`
+  String get theClueSevenQPageThree {
+    return Intl.message(
+      'Vaya a las escrituras y compruebe cada versículo señalado en las opciones',
+      name: 'theClueSevenQPageThree',
       desc: '',
       args: [],
     );

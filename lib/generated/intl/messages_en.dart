@@ -68,7 +68,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
             "If we keep this in mind, we will maintain the truth in everything that is done, this will be the central axis of our Christian life.\n\nThe position and shape of this piece speaks of Christ, as the belt is located in the middle of the armor, in the same way Christ must be in the center of us and of everything, because everything was created through him and for him. him, let us note that when Christ was crucified, he was in the middle of two thieves, which indicates that the extremes are thieves, the center is Christ. As for the form, it surrounds the person, likewise the truth must surround all areas of our life, not leave out of the truth anything we do, the Lord surrounds our entire being, as the psalmist says: "),
         "armor1Text6": MessageLookupByLibrary.simpleMessage(
-            "“You surrounded me behind and before, and laid your hand on me.” Psalm 139:5. "),
+            "“You surrounded me behind and before, and laid your hand on me.” "),
+        "armor1Text6_1":
+            MessageLookupByLibrary.simpleMessage("Psalm 139:5.\n\n"),
+        "armor1Text7": MessageLookupByLibrary.simpleMessage(
+            "Another peculiarity of the belt is that it is used for the soldier to hold the sword that rests on his thigh, the strongest muscle, which indicates that the Sword, which is the Word of God, as we will see, is supported by the truth that it is God. same, as we saw throughout this piece, how much certainty we have in being subject to Christ, so "),
+        "armor1Text8": MessageLookupByLibrary.simpleMessage(
+            "“Gird your sword on the thigh, O brave, With your glory and with your majesty.” "),
+        "armor1Text9": MessageLookupByLibrary.simpleMessage("Psalm: 45:3. "),
         "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
             "All the Word is true, it is inspired by God, let\'s take for example what Proverbs says: 16:18 "),
         "armor1TextBible1_2": MessageLookupByLibrary.simpleMessage(
@@ -284,12 +291,34 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor6TextLife2": MessageLookupByLibrary.simpleMessage(
             "“May the word of Christ dwell in you abundantly, teaching and exhorting one another in all wisdom, graciously singing in your hearts to the Lord with psalms and hymns and spiritual songs.” "),
         "armor6TextLife3": MessageLookupByLibrary.simpleMessage(
-            "If the Word of God dwells in us we can attack any front. "),
+            "If the Word of God dwells in us we will be able to attack and defend any front. "),
         "armor6TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "If you are a believer but you do not read the Word of God, that is, you do not take the Sword of the Spirit, you will be a helpless believer."),
-        "armor6Title": MessageLookupByLibrary.simpleMessage("Ephesians 6:18b"),
+            "We can note the fight that Brother Martin Luther had, when his eyes were enlightened through the Word, the Just will live by faith, he fought clinging to the truth of the Word and waged a battle that we still see the fruits of today."),
+        "armor6Title": MessageLookupByLibrary.simpleMessage("Ephesians 6:17b"),
         "armor6Verse": MessageLookupByLibrary.simpleMessage(
             "“and the sword of the Spirit, which is the word of God.”"),
+        "armor7Text1": MessageLookupByLibrary.simpleMessage(
+            "Although prayer is not represented in one piece, it is part of the armor, since prayer is communication with The Lord, typified in the sacred scriptures with gold cups with incense, Revelation 5:8 says: "),
+        "armor7Text2": MessageLookupByLibrary.simpleMessage(
+            "And when he had taken the book, the four living creatures and the twenty-four elders fell down before the Lamb; they all had harps, and golden cups full of incense, which are the prayers of the saints; "),
+        "armor7Text3": MessageLookupByLibrary.simpleMessage(
+            "that is to say, it is the way to receive the instructions of the one who fights the battles, a soldier who has direct instructions, understands the fight well, knows why he is fighting, so he has emotional and mental stability at such a strong moment as he It is in the middle of a war. So we as the soldiers of the Lord must have that way of communication with the Father through Christ in prayer, in order to face that War. "),
+        "armor7TextBible1": MessageLookupByLibrary.simpleMessage(
+            "In the book of Daniel, when King Nebuchadnezzar forgot the dream and demanded its interpretation or death if he did not have it, this dream was revealed by the Lord once Daniel and his friends asked for his mercy, as we read in the following texts: "),
+        "armor7TextBible2": MessageLookupByLibrary.simpleMessage(
+            "“Then Daniel went home and told Ananias, Misael, and Azariah, his companions, 18 so that they might ask for mercy from the God of heaven on this mystery, so that Daniel and his companions would not perish with the other wise men. of Babylon. 19 Then the secret was revealed to Daniel in a night vision, for which Daniel blessed the God of heaven.” "),
+        "armor7TextBible3":
+            MessageLookupByLibrary.simpleMessage("Daniel: 2:17-19 "),
+        "armor7TextLife1": MessageLookupByLibrary.simpleMessage(
+            "Every day we must seek the face of the Lord in prayer, that is, speak and listen to what the Lord has to tell us, this must be a constant in our Christian life. "),
+        "armor7TextLife2": MessageLookupByLibrary.simpleMessage(
+            "“Evening and morning and at noon I will pray and cry, and he will hear my voice.” "),
+        "armor7TextLife3": MessageLookupByLibrary.simpleMessage("Psalm 55:17 "),
+        "armor7TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "George Muller, was an English brother known as the father of orphans, on one occasion, the orphanage had no provision to give breakfast to the children and this brother prayed to the Heavenly Father and arranged for all the children to eat, and once they thanked for food, they knocked on the door and it was the driver of a milk truck, who had had an accident and did not want the milk to be damaged and gave it to the children, at the same time a baker knocked on the door and with trays full of bread, he said that the Lord had disturbed him to bring them bread that morning. In the battle we are waging, prayer to the Lord is fundamental."),
+        "armor7Title": MessageLookupByLibrary.simpleMessage("Efesios 6:18"),
+        "armor7Verse": MessageLookupByLibrary.simpleMessage(
+            "“praying always with all prayer and supplication in the Spirit, and watching thereunto with all perseverance and supplication for all saints”"),
         "armourOfGod": MessageLookupByLibrary.simpleMessage("Armour of God"),
         "classicArmour": MessageLookupByLibrary.simpleMessage("Classic Armour"),
         "clothItems": MessageLookupByLibrary.simpleMessage("Cloth Items"),
@@ -345,6 +374,12 @@ class MessageLookup extends MessageLookupByLibrary {
             MessageLookupByLibrary.simpleMessage("Why King Manasseh so evil?"),
         "mainQuestionSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "What was inside the Ark of God?"),
+        "mainQuestionSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Which of the following letters from the Holy Scriptures did Paul write in prison?"),
+        "mainQuestionSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "What was the profession of Luke, the third evangelist?"),
+        "mainQuestionSevenQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Who wrote the Holy Book of Revelation?"),
         "mainQuestionSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "What sin did Solomon, king of Israel, commit that led him away from the Lord?"),
         "mainQuestionSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -419,6 +454,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "The reason why Manasseh was evil can be found in 2 Kings 8:1-28 where we note that he married a daughter of Ahab, the evil king of Israel"),
         "optionFiveSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "In Zechariah 4:1-14 it is mentioned that in it you will find the names of the two olive trees"),
+        "optionFiveSevenQPageOne":
+            MessageLookupByLibrary.simpleMessage("1 Corinthians"),
+        "optionFiveSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "He was one of the twelve Apostles of Jesus Christ, as shown in Matthew 10:1-42"),
+        "optionFiveSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("Zacarias"),
         "optionFiveSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Spoke blasphemies and wrote heresies"),
         "optionFiveSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -477,6 +518,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "According to the Scripture in 2 Kings 21: 1-26, we see that Manasseh\'s mother was very evil and she taught him her evil ways"),
         "optionFourSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "If you read Exodus 28:1-43 you will note that it had the Ephod and the breastplate"),
+        "optionFourSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "2 Timothy, that is the meaning of the crown of righteousness from 2 Timothy 4:1-22"),
+        "optionFourSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "He was a fisherman and an uneducated man as in this chapter of the Holy Scriptures, Acts 4:1-37"),
+        "optionFourSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("Jesus Christ"),
         "optionFourSixQPageFive":
             MessageLookupByLibrary.simpleMessage("Burned unauthorized incense"),
         "optionFourSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -537,6 +584,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasseh was so evil because according to 2 Kings 18:1-37 his father Hezekiah was also a evil person"),
         "optionOneSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "According to Exodus 26:1-37, it had the sacred oil and the Lampstand"),
+        "optionOneSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Philippians, we can see this by reading this chapter, Philippians 1:1-30"),
+        "optionOneSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "He was an official of the Roman empire, as evidenced in Luke 1:1-80"),
+        "optionOneSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("The apostle john"),
         "optionOneSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "He had too many wives and concubines"),
         "optionOneSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -595,6 +648,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasseh was evil because he held a grudge against God the Father for not healing his father Hezekiah"),
         "optionThreeSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "In Joshua 3:1-5:1 it says that it had the twelve stones that represent the twelve tribes of Israel"),
+        "optionThreeSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Galatians, as evident in Galatians 2:1-21"),
+        "optionThreeSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "He was a Doctor, as it is written in Colossians 4:1-18"),
+        "optionThreeSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("John the Baptist"),
         "optionThreeSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "He defiled the Temple of the Lord with idols"),
         "optionThreeSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -654,6 +713,11 @@ class MessageLookup extends MessageLookupByLibrary {
             "Because based on 2 Kings 20: 1-21 we note that King Hezekiah didn\'t care about the future of his sons or of his descendants"),
         "optionTwoSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Based on 1 Kings 8:1-66 it had the two tablets of the Covenant Law"),
+        "optionTwoSevenQPageOne": MessageLookupByLibrary.simpleMessage("Judas"),
+        "optionTwoSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "He was a tent maker like Paul, we see it in Acts 18:1-28"),
+        "optionTwoSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("The apostle paul"),
         "optionTwoSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Married non-Israelite women leading to apostasy"),
         "optionTwoSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -797,6 +861,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "Investigate the truth; a father\'s influence can be deterministic"),
         "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Read and discover the truth; the important thing is what you keep"),
+        "theClueSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Read the context and find your answer; I can do all this through the One who strengthens me"),
+        "theClueSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Go to the scriptures and check each verse marked in the options"),
+        "theClueSevenQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Usually in the first chapter you can find the name; much love in the words of this apostle"),
         "theClueSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Listen to 1 Kings 11:1-13; stay apart"),
         "theClueSixQPageFour": MessageLookupByLibrary.simpleMessage(

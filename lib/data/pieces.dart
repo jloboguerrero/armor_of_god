@@ -60,6 +60,38 @@ class Pieces {
                         fontWeight: FontWeight.w400,
                       ),
                     ),
+                    TextSpan(
+                      text: S.current.armor1Text6_1,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    TextSpan(
+                      text: S.current.armor1Text7,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    TextSpan(
+                      text: S.current.armor1Text8,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 85, 84, 84),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    TextSpan(
+                      text: S.current.armor1Text9,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -1163,10 +1195,161 @@ class Pieces {
         subtitle: S.current.armor6Verse,
         title: S.current.armor6Title,
       );
-  Item get seven => const Item(
+  Item get seven => Item(
+        contentWidget: Padding(
+          padding: const EdgeInsets.all(16.0),
+          child: Column(
+            children: [
+              RichText(
+                textAlign: TextAlign.justify,
+                text: TextSpan(
+                  children: [
+                    TextSpan(
+                      text: S.current.armor7Text1,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    TextSpan(
+                      text: S.current.armor7Text2,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 85, 84, 84),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    TextSpan(
+                      text: S.current.armor7Text3,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              const SizedBox(height: 16.0),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  CommonUtils.bulletPoint(),
+                  Expanded(
+                    child: RichText(
+                      textAlign: TextAlign.justify,
+                      text: TextSpan(
+                        children: [
+                          CommonUtils.examplePractice(
+                            text: S.current.examplePractice,
+                          ),
+                          TextSpan(
+                            text: S.current.armor7TextPractice1,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 6.0),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  CommonUtils.bulletPoint(),
+                  Expanded(
+                    child: RichText(
+                      textAlign: TextAlign.justify,
+                      text: TextSpan(
+                        children: [
+                          CommonUtils.examplePractice(
+                            text: S.current.exampleBible,
+                          ),
+                          TextSpan(
+                            text: S.current.armor7TextBible1,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          TextSpan(
+                            text: S.current.armor7TextBible2,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 85, 84, 84),
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          TextSpan(
+                            text: S.current.armor7TextBible3,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+              const SizedBox(height: 6.0),
+              Row(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  CommonUtils.bulletPoint(),
+                  Expanded(
+                    child: RichText(
+                      textAlign: TextAlign.justify,
+                      text: TextSpan(
+                        children: [
+                          CommonUtils.examplePractice(
+                            text: S.current.exampleLife,
+                          ),
+                          TextSpan(
+                            text: S.current.armor7TextLife1,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          TextSpan(
+                            text: S.current.armor7TextLife2,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 85, 84, 84),
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          TextSpan(
+                            text: S.current.armor7TextLife3,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
         image: 'assets/flags/co.png',
-        subtitle: '',
-        title: 'Segunda armadura especial bla',
+        subtitle: S.current.armor7Verse,
+        title: S.current.armor7Title,
       );
   Item get eight => const Item(
         image: 'assets/flags/co.png',

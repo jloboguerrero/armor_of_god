@@ -66,7 +66,7 @@ class Page extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         GestureDetector(
-                          onTap: armorCheck.armors!.armor_7
+                          onTap: armorCheck.armors!.armor_17
                               ? () {
                                   final questionsSeven = Questions().seven;
                                   showDialog(
@@ -112,7 +112,7 @@ class Page extends StatelessWidget {
                           child: Image.asset(
                             'assets/images/box.png',
                             height: 80.0,
-                            opacity: armorCheck.armors!.armor_7
+                            opacity: armorCheck.armors!.armor_17
                                 ? null
                                 : const AlwaysStoppedAnimation(.6),
                           ),
@@ -140,7 +140,8 @@ class Page extends StatelessWidget {
                                       armorCheck.armors!.armor_4 &&
                                       armorCheck.armors!.armor_5 &&
                                       armorCheck.armors!.armor_6 &&
-                                      armorCheck.armors!.armor_7) {
+                                      armorCheck.armors!.armor_7 &&
+                                      armorCheck.armors!.armor_17) {
                                     await Modular.to
                                         .pushNamed('/armors/countdown');
                                     Modular.to.pushNamed(
@@ -196,6 +197,7 @@ class Page extends StatelessWidget {
                                   armorCheck.armors!.armor_5 &&
                                   armorCheck.armors!.armor_6 &&
                                   armorCheck.armors!.armor_7 &&
+                                  armorCheck.armors!.armor_17 &&
                                   armorCheck.armors!.armor_8) {
                                 await Modular.to.pushNamed('/armors/countdown');
                                 Modular.to.pushNamed(
@@ -251,6 +253,7 @@ class Page extends StatelessWidget {
                                       armorCheck.armors!.armor_5 &&
                                       armorCheck.armors!.armor_6 &&
                                       armorCheck.armors!.armor_7 &&
+                                      armorCheck.armors!.armor_17 &&
                                       armorCheck.armors!.armor_8 &&
                                       armorCheck.armors!.armor_9) {
                                     await Modular.to
@@ -304,6 +307,7 @@ class Page extends StatelessWidget {
                                       armorCheck.armors!.armor_5 &&
                                       armorCheck.armors!.armor_6 &&
                                       armorCheck.armors!.armor_7 &&
+                                      armorCheck.armors!.armor_17 &&
                                       armorCheck.armors!.armor_8 &&
                                       armorCheck.armors!.armor_9 &&
                                       armorCheck.armors!.armor_10) {

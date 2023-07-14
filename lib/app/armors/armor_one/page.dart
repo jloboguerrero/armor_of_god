@@ -87,7 +87,11 @@ class Page extends StatelessWidget {
                                         context: context,
                                         builder: (context) => DialogStones(
                                           color: const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           image:
                                               'assets/stones/diamond_gold.png',
                                           stoneContent: RichText(
@@ -98,7 +102,11 @@ class Page extends StatelessWidget {
                                                   text: S.current.stones1,
                                                   style: const TextStyle(
                                                     color: Color.fromARGB(
-                                                        255, 31, 31, 31),
+                                                      255,
+                                                      31,
+                                                      31,
+                                                      31,
+                                                    ),
                                                     fontSize: 14,
                                                     fontWeight: FontWeight.w400,
                                                   ),
@@ -154,7 +162,11 @@ class Page extends StatelessWidget {
                                         armorPicture: 'assets/armors/sword.png',
                                         background: 'assets/images/cueva1.png',
                                         color: const Color.fromARGB(
-                                            255, 165, 80, 48),
+                                          255,
+                                          165,
+                                          80,
+                                          48,
+                                        ),
                                         questions: questionsSix,
                                         piece: 'six',
                                       ),
@@ -174,7 +186,11 @@ class Page extends StatelessWidget {
                                           'armor_picture':
                                               'assets/armors/sword.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                         },
                                       );
                                       Modular.to.pushNamed(
@@ -186,7 +202,11 @@ class Page extends StatelessWidget {
                                           'background':
                                               'assets/images/cueva1.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           'questions': questionsSix,
                                           'piece': 'six',
                                         },
@@ -203,12 +223,17 @@ class Page extends StatelessWidget {
                                       );
                                     }
                                   },
-                            child: Image.asset(
-                              'assets/armors/sword.png',
-                              height: 65.0,
-                              opacity: armorCheck.armors!.armor_6
-                                  ? null
-                                  : const AlwaysStoppedAnimation(.44),
+                            child: Swing(
+                              animate: armorCheck.armors!.armor_5 &&
+                                  !armorCheck.armors!.armor_6,
+                              duration: const Duration(seconds: 2),
+                              child: Image.asset(
+                                'assets/armors/sword.png',
+                                height: 65.0,
+                                opacity: armorCheck.armors!.armor_6
+                                    ? null
+                                    : const AlwaysStoppedAnimation(.44),
+                              ),
                             ),
                           ),
                           Opacity(
@@ -220,7 +245,7 @@ class Page extends StatelessWidget {
                                       if (!armorCheck.stones!.stones_3) {
                                         final prefs =
                                             Modular.get<Preferences>();
-                                        prefs.stoneFour = true;
+                                        prefs.stoneThree = true;
                                         armorCheck.init(prefs: prefs);
                                         firstTime = true;
                                       }
@@ -228,7 +253,11 @@ class Page extends StatelessWidget {
                                         context: context,
                                         builder: (context) => DialogStones(
                                           color: const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           image:
                                               'assets/stones/diamond_purple.png',
                                           stoneContent: RichText(
@@ -239,7 +268,11 @@ class Page extends StatelessWidget {
                                                   text: S.current.stones3Title,
                                                   style: const TextStyle(
                                                     color: Color.fromARGB(
-                                                        255, 31, 31, 31),
+                                                      255,
+                                                      31,
+                                                      31,
+                                                      31,
+                                                    ),
                                                     fontSize: 16,
                                                     fontWeight: FontWeight.w500,
                                                   ),
@@ -248,7 +281,11 @@ class Page extends StatelessWidget {
                                                   text: S.current.stones3,
                                                   style: const TextStyle(
                                                     color: Color.fromARGB(
-                                                        255, 31, 31, 31),
+                                                      255,
+                                                      31,
+                                                      31,
+                                                      31,
+                                                    ),
                                                     fontSize: 14,
                                                     fontWeight: FontWeight.w400,
                                                   ),
@@ -266,7 +303,11 @@ class Page extends StatelessWidget {
                                                   text: S.current.stones3_2,
                                                   style: const TextStyle(
                                                     color: Color.fromARGB(
-                                                        255, 31, 31, 31),
+                                                      255,
+                                                      31,
+                                                      31,
+                                                      31,
+                                                    ),
                                                     fontSize: 14,
                                                     fontWeight: FontWeight.w400,
                                                   ),
@@ -284,7 +325,11 @@ class Page extends StatelessWidget {
                                                   text: S.current.stones3_3,
                                                   style: const TextStyle(
                                                     color: Color.fromARGB(
-                                                        255, 31, 31, 31),
+                                                      255,
+                                                      31,
+                                                      31,
+                                                      31,
+                                                    ),
                                                     fontSize: 14,
                                                     fontWeight: FontWeight.w400,
                                                   ),
@@ -347,7 +392,11 @@ class Page extends StatelessWidget {
                                         armorPicture: 'assets/armors/belt.png',
                                         background: 'assets/images/cueva1.png',
                                         color: const Color.fromARGB(
-                                            255, 165, 80, 48),
+                                          255,
+                                          165,
+                                          80,
+                                          48,
+                                        ),
                                         questions: questionsOne,
                                         piece: 'one',
                                       ),
@@ -362,7 +411,11 @@ class Page extends StatelessWidget {
                                         'armor_picture':
                                             'assets/armors/belt.png',
                                         'color': const Color.fromARGB(
-                                            255, 165, 80, 48),
+                                          255,
+                                          165,
+                                          80,
+                                          48,
+                                        ),
                                       },
                                     );
                                     Modular.to.pushNamed(
@@ -374,18 +427,26 @@ class Page extends StatelessWidget {
                                         'background':
                                             'assets/images/cueva1.png',
                                         'color': const Color.fromARGB(
-                                            255, 165, 80, 48),
+                                          255,
+                                          165,
+                                          80,
+                                          48,
+                                        ),
                                         'questions': questionsOne,
                                         'piece': 'one',
                                       },
                                     );
                                   },
-                            child: Image.asset(
-                              'assets/armors/belt.png',
-                              width: 70.0,
-                              opacity: armorCheck.armors!.armor_1
-                                  ? null
-                                  : const AlwaysStoppedAnimation(.44),
+                            child: Swing(
+                              animate: !armorCheck.armors!.armor_1,
+                              duration: const Duration(seconds: 2),
+                              child: Image.asset(
+                                'assets/armors/belt.png',
+                                width: 70.0,
+                                opacity: armorCheck.armors!.armor_1
+                                    ? null
+                                    : const AlwaysStoppedAnimation(.44),
+                              ),
                             ),
                           ),
                           GestureDetector(
@@ -399,7 +460,11 @@ class Page extends StatelessWidget {
                                         armorPicture: 'assets/armors/helmt.png',
                                         background: 'assets/images/cueva1.png',
                                         color: const Color.fromARGB(
-                                            255, 165, 80, 48),
+                                          255,
+                                          165,
+                                          80,
+                                          48,
+                                        ),
                                         questions: questionsFive,
                                         piece: 'five',
                                       ),
@@ -418,7 +483,11 @@ class Page extends StatelessWidget {
                                           'armor_picture':
                                               'assets/armors/helmt.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                         },
                                       );
                                       Modular.to.pushNamed(
@@ -430,7 +499,11 @@ class Page extends StatelessWidget {
                                           'background':
                                               'assets/images/cueva1.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           'questions': questionsFive,
                                           'piece': 'five',
                                         },
@@ -440,19 +513,28 @@ class Page extends StatelessWidget {
                                         context: context,
                                         builder: (context) => NeedAnswers(
                                           color: const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           image: 'assets/armors/shield.png',
                                           piece: S.current.armor4,
                                         ),
                                       );
                                     }
                                   },
-                            child: Image.asset(
-                              'assets/armors/helmt.png',
-                              width: 70.0,
-                              opacity: armorCheck.armors!.armor_5
-                                  ? null
-                                  : const AlwaysStoppedAnimation(.44),
+                            child: Swing(
+                              animate: armorCheck.armors!.armor_4 &&
+                                  !armorCheck.armors!.armor_5,
+                              duration: const Duration(seconds: 2),
+                              child: Image.asset(
+                                'assets/armors/helmt.png',
+                                width: 70.0,
+                                opacity: armorCheck.armors!.armor_5
+                                    ? null
+                                    : const AlwaysStoppedAnimation(.44),
+                              ),
                             ),
                           ),
                         ],
@@ -462,70 +544,71 @@ class Page extends StatelessWidget {
                       child: Opacity(
                         opacity: armorCheck.armors!.armor_6 ? 1 : 0,
                         child: GestureDetector(
-                          onTap: armorCheck.armors!.armor_6
+                          onTap: armorCheck.armors!.armor_7
                               ? () {
-                                  bool firstTime = false;
-                                  if (!armorCheck.stones!.stones_5) {
-                                    final prefs = Modular.get<Preferences>();
-                                    prefs.stoneFive = true;
-                                    armorCheck.init(prefs: prefs);
-                                    firstTime = true;
-                                  }
+                                  final questionsSeven = Questions().seven;
                                   showDialog(
                                     context: context,
-                                    builder: (context) => DialogStones(
+                                    builder: (context) => AnswersSuccesfull(
+                                      armorName: S.current.armor7,
+                                      armorPicture: 'assets/armors/censer.png',
+                                      background: 'assets/images/cueva1.png',
                                       color: const Color.fromARGB(
-                                          255, 165, 80, 48),
-                                      image: 'assets/stones/incensario.png',
-                                      stoneContent: RichText(
-                                        textAlign: TextAlign.justify,
-                                        text: TextSpan(
-                                          children: [
-                                            CommonUtils.widgetSpan(
-                                              textInside:
-                                                  S.current.stones5Vers2,
-                                              textOutside:
-                                                  S.current.stones5Vers1,
-                                            ),
-                                            TextSpan(
-                                              text: S.current.stones5,
-                                              style: const TextStyle(
-                                                color: Color.fromARGB(
-                                                    255, 31, 31, 31),
-                                                fontSize: 14,
-                                                fontWeight: FontWeight.w400,
-                                              ),
-                                            ),
-                                          ],
-                                        ),
+                                        255,
+                                        165,
+                                        80,
+                                        48,
                                       ),
+                                      questions: questionsSeven,
+                                      piece: 'seven',
                                     ),
-                                  ).then((value) {
-                                    if (firstTime) {
-                                      firstTime = false;
-                                      Modular.to
-                                          .popUntil(ModalRoute.withName('/'));
-                                      Modular.to.pushNamed(
-                                        '/armors/',
-                                        arguments: {
-                                          'initial_page': 0,
-                                        },
-                                      );
-                                    }
-                                    return null;
-                                  });
+                                  );
                                 }
-                              : () {},
+                              : () async {
+                                  if (!armorCheck.armors!.armor_6) return;
+                                  final questionsSeven = Questions().seven;
+                                  await Modular.to.pushNamed(
+                                    '/armors/countdown',
+                                    arguments: {
+                                      'armor_name': S.current.armor7,
+                                      'armor_picture':
+                                          'assets/armors/censer.png',
+                                      'color': const Color.fromARGB(
+                                        255,
+                                        165,
+                                        80,
+                                        48,
+                                      ),
+                                    },
+                                  );
+                                  Modular.to.pushNamed(
+                                    '/armors/questions',
+                                    arguments: {
+                                      'armor_name': S.current.armor7,
+                                      'armor_picture':
+                                          'assets/armors/censer.png',
+                                      'background': 'assets/images/cueva1.png',
+                                      'color': const Color.fromARGB(
+                                        255,
+                                        165,
+                                        80,
+                                        48,
+                                      ),
+                                      'questions': questionsSeven,
+                                      'piece': 'seven',
+                                    },
+                                  );
+                                },
                           child: Swing(
                             animate: armorCheck.armors!.armor_6 &&
-                                !armorCheck.stones!.stones_5,
+                                !armorCheck.armors!.armor_7,
                             duration: const Duration(seconds: 2),
                             child: Image.asset(
-                              'assets/stones/incensario.png',
-                              height: 65.0,
-                              opacity: armorCheck.stones!.stones_5
+                              'assets/armors/censer.png',
+                              width: 60.0,
+                              opacity: armorCheck.armors!.armor_7
                                   ? null
-                                  : const AlwaysStoppedAnimation(.40),
+                                  : const AlwaysStoppedAnimation(.44),
                             ),
                           ),
                         ),
@@ -547,7 +630,11 @@ class Page extends StatelessWidget {
                                             'assets/armors/breastplate.png',
                                         background: 'assets/images/cueva1.png',
                                         color: const Color.fromARGB(
-                                            255, 165, 80, 48),
+                                          255,
+                                          165,
+                                          80,
+                                          48,
+                                        ),
                                         questions: questionsTwo,
                                         piece: 'two',
                                       ),
@@ -563,7 +650,11 @@ class Page extends StatelessWidget {
                                           'armor_picture':
                                               'assets/armors/breastplate.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                         },
                                       );
                                       Modular.to.pushNamed(
@@ -575,7 +666,11 @@ class Page extends StatelessWidget {
                                           'background':
                                               'assets/images/cueva1.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           'questions': questionsTwo,
                                           'piece': 'two',
                                         },
@@ -585,19 +680,28 @@ class Page extends StatelessWidget {
                                         context: context,
                                         builder: (context) => NeedAnswers(
                                           color: const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           image: 'assets/armors/belt.png',
                                           piece: S.current.armor1,
                                         ),
                                       );
                                     }
                                   },
-                            child: Image.asset(
-                              'assets/armors/breastplate.png',
-                              width: 70.0,
-                              opacity: armorCheck.armors!.armor_2
-                                  ? null
-                                  : const AlwaysStoppedAnimation(.44),
+                            child: Swing(
+                              animate: armorCheck.armors!.armor_1 &&
+                                  !armorCheck.armors!.armor_2,
+                              duration: const Duration(seconds: 2),
+                              child: Image.asset(
+                                'assets/armors/breastplate.png',
+                                width: 70.0,
+                                opacity: armorCheck.armors!.armor_2
+                                    ? null
+                                    : const AlwaysStoppedAnimation(.44),
+                              ),
                             ),
                           ),
                           GestureDetector(
@@ -612,7 +716,11 @@ class Page extends StatelessWidget {
                                             'assets/armors/shield.png',
                                         background: 'assets/images/cueva1.png',
                                         color: const Color.fromARGB(
-                                            255, 165, 80, 48),
+                                          255,
+                                          165,
+                                          80,
+                                          48,
+                                        ),
                                         questions: questionsFour,
                                         piece: 'four',
                                       ),
@@ -630,7 +738,11 @@ class Page extends StatelessWidget {
                                           'armor_picture':
                                               'assets/armors/shield.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                         },
                                       );
                                       Modular.to.pushNamed(
@@ -642,7 +754,11 @@ class Page extends StatelessWidget {
                                           'background':
                                               'assets/images/cueva1.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           'questions': questionsFour,
                                           'piece': 'four',
                                         },
@@ -652,19 +768,28 @@ class Page extends StatelessWidget {
                                         context: context,
                                         builder: (context) => NeedAnswers(
                                           color: const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           image: 'assets/armors/feet.png',
                                           piece: S.current.armor3,
                                         ),
                                       );
                                     }
                                   },
-                            child: Image.asset(
-                              'assets/armors/shield.png',
-                              width: 70.0,
-                              opacity: armorCheck.armors!.armor_4
-                                  ? null
-                                  : const AlwaysStoppedAnimation(.44),
+                            child: Swing(
+                              animate: armorCheck.armors!.armor_3 &&
+                                  !armorCheck.armors!.armor_4,
+                              duration: const Duration(seconds: 2),
+                              child: Image.asset(
+                                'assets/armors/shield.png',
+                                width: 70.0,
+                                opacity: armorCheck.armors!.armor_4
+                                    ? null
+                                    : const AlwaysStoppedAnimation(.44),
+                              ),
                             ),
                           ),
                         ],
@@ -691,7 +816,11 @@ class Page extends StatelessWidget {
                                         context: context,
                                         builder: (context) => DialogStones(
                                           color: const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           image:
                                               'assets/stones/diamond_green.png',
                                           stoneContent: RichText(
@@ -702,7 +831,11 @@ class Page extends StatelessWidget {
                                                   text: S.current.stones2,
                                                   style: const TextStyle(
                                                     color: Color.fromARGB(
-                                                        255, 31, 31, 31),
+                                                      255,
+                                                      31,
+                                                      31,
+                                                      31,
+                                                    ),
                                                     fontSize: 14,
                                                     fontWeight: FontWeight.w400,
                                                   ),
@@ -758,7 +891,11 @@ class Page extends StatelessWidget {
                                         armorPicture: 'assets/armors/feet.png',
                                         background: 'assets/images/cueva1.png',
                                         color: const Color.fromARGB(
-                                            255, 165, 80, 48),
+                                          255,
+                                          165,
+                                          80,
+                                          48,
+                                        ),
                                         questions: questionsThree,
                                         piece: 'three',
                                       ),
@@ -775,7 +912,11 @@ class Page extends StatelessWidget {
                                           'armor_picture':
                                               'assets/armors/feet.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                         },
                                       );
                                       Modular.to.pushNamed(
@@ -787,7 +928,11 @@ class Page extends StatelessWidget {
                                           'background':
                                               'assets/images/cueva1.png',
                                           'color': const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           'questions': questionsThree,
                                           'piece': 'three',
                                         },
@@ -797,7 +942,11 @@ class Page extends StatelessWidget {
                                         context: context,
                                         builder: (context) => NeedAnswers(
                                           color: const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           image:
                                               'assets/armors/breastplate.png',
                                           piece: S.current.armor2,
@@ -805,12 +954,17 @@ class Page extends StatelessWidget {
                                       );
                                     }
                                   },
-                            child: Image.asset(
-                              'assets/armors/feet.png',
-                              width: 70.0,
-                              opacity: armorCheck.armors!.armor_3
-                                  ? null
-                                  : const AlwaysStoppedAnimation(.44),
+                            child: Swing(
+                              animate: armorCheck.armors!.armor_2 &&
+                                  !armorCheck.armors!.armor_3,
+                              duration: const Duration(seconds: 2),
+                              child: Image.asset(
+                                'assets/armors/feet.png',
+                                width: 70.0,
+                                opacity: armorCheck.armors!.armor_3
+                                    ? null
+                                    : const AlwaysStoppedAnimation(.44),
+                              ),
                             ),
                           ),
                           Opacity(
@@ -822,7 +976,7 @@ class Page extends StatelessWidget {
                                       if (!armorCheck.stones!.stones_4) {
                                         final prefs =
                                             Modular.get<Preferences>();
-                                        prefs.stoneThree = true;
+                                        prefs.stoneFour = true;
                                         armorCheck.init(prefs: prefs);
                                         firstTime = true;
                                       }
@@ -830,7 +984,11 @@ class Page extends StatelessWidget {
                                         context: context,
                                         builder: (context) => DialogStones(
                                           color: const Color.fromARGB(
-                                              255, 165, 80, 48),
+                                            255,
+                                            165,
+                                            80,
+                                            48,
+                                          ),
                                           image:
                                               'assets/stones/diamond_pink.png',
                                           stoneContent: RichText(
@@ -841,7 +999,11 @@ class Page extends StatelessWidget {
                                                   text: S.current.stones4,
                                                   style: const TextStyle(
                                                     color: Color.fromARGB(
-                                                        255, 31, 31, 31),
+                                                      255,
+                                                      31,
+                                                      31,
+                                                      31,
+                                                    ),
                                                     fontSize: 14,
                                                     fontWeight: FontWeight.w400,
                                                   ),

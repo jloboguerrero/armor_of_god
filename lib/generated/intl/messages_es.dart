@@ -72,7 +72,14 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
             "Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\n\nLa posición y la forma de esta pieza habla de Cristo, como el cinturón está ubicado en la mitad de la armadura del mismo modo Cristo debe estar en el centro de nosotros y de todo, porque todo fue creado por medio de medio de él y para él, notemos que cuando Cristo fue crucificado, estuvo en medio de dos ladrones, lo que indica que los extremos son ladrones, el centro es Cristo. En cuanto a la forma, esta rodea a la persona, igualmente la verdad debe rodear todas las áreas de nuestra vida, no dejar por fuera de la verdad nada de lo que hagamos, el Señor rodea todo nuestro ser, como dice el salmista: "),
         "armor1Text6": MessageLookupByLibrary.simpleMessage(
-            "“Detrás y delante me rodeaste, Y sobre mí pusiste tu mano.” Salmo 139:5. "),
+            "“Detrás y delante me rodeaste, Y sobre mí pusiste tu mano.” "),
+        "armor1Text6_1":
+            MessageLookupByLibrary.simpleMessage("Salmo 139:5.\n\n"),
+        "armor1Text7": MessageLookupByLibrary.simpleMessage(
+            "Otra particularidad del cinturón es que se utiliza para que el soldado sostenga la espada que reposa en su muslo, el musculo más fuerte, lo que indica es que la Espada que es la Palabra de Dios como veremos, se sostiene con la verdad que es Dios mismo, como lo vimos a lo largo de esta pieza, cuanta certeza tenemos al estar sujetos a Cristo, así que "),
+        "armor1Text8": MessageLookupByLibrary.simpleMessage(
+            "“Ciñe tu espada sobre el muslo, oh valiente, Con tu gloria y con tu majestad.” "),
+        "armor1Text9": MessageLookupByLibrary.simpleMessage("Salmos: 45:3. "),
         "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
             "Toda la Palabra es verdad, es inspirada por Dios, tomemos por ejemplo lo que dice Proverbios:16:18 "),
         "armor1TextBible1_2": MessageLookupByLibrary.simpleMessage(
@@ -287,12 +294,36 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor6TextLife2": MessageLookupByLibrary.simpleMessage(
             "“La palabra de Cristo more en abundancia en vosotros, enseñándoos y exhortándoos unos a otros en toda sabiduría, cantando con gracia en vuestros corazones al Señor con salmos e himnos y cánticos espirituales.” "),
         "armor6TextLife3": MessageLookupByLibrary.simpleMessage(
-            "Si la Palabra de Dios mora en nosotros podremos atacar cualquier frente. "),
+            "Si la Palabra de Dios mora en nosotros podremos atacar y defender cualquier frente. "),
         "armor6TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "Si eres creyente pero no lees la Palabra de Dios, es decir, no tomas la Espada del Espíritu, serás un creyente indefenso"),
-        "armor6Title": MessageLookupByLibrary.simpleMessage("Efesios 6:18b"),
+            "Podemos notar la lucha que sostuvo el Hermano Martín Lutero, cuando fueron alumbrados sus ojos a través de la Palabra, el Justo por la fe vivirá, luchó aferrado a la verdad de la Palabra y libró una batalla que aún en nuestros días vemos los frutos."),
+        "armor6Title": MessageLookupByLibrary.simpleMessage("Efesios 6:17b"),
         "armor6Verse": MessageLookupByLibrary.simpleMessage(
             "“y la espada del Espíritu, que es la palabra de Dios.”"),
+        "armor7": MessageLookupByLibrary.simpleMessage("La oración"),
+        "armor7Text1": MessageLookupByLibrary.simpleMessage(
+            "Si bien la oración no está representada en una pieza, hace parte de la armadura, ya que, la oración es la comunicación con El Señor, tipificada en las sagradas escrituras con copas de oro con incienso, Apocalipsis 5:8 dice: "),
+        "armor7Text2": MessageLookupByLibrary.simpleMessage(
+            "Y cuando hubo tomado el libro, los cuatro seres vivientes y los veinticuatro ancianos se postraron delante del Cordero; todos tenían arpas, y copas de oro llenas de incienso, que son las oraciones de los santos; "),
+        "armor7Text3": MessageLookupByLibrary.simpleMessage(
+            "es decir, es la vía de recibir las instrucciones de quien pelea las batallas, un soldado que tiene las instrucciones directas, entiende bien la lucha, sabe el por qué está peleando, entonces tiene una estabilidad emocional y mental en un momento tan fuerte como lo es en medio de una Guerra. Así nosotros como los soldados del Señor debemos tener esa vía de comunicación con el Padre a través de Cristo en la oración, para poder hacerle frente a esa Guerra. "),
+        "armor7TextBible1": MessageLookupByLibrary.simpleMessage(
+            "En el libro de Daniel, cuando el rey Nabucodonosor olvidó el sueño y exigía su interpretación o la muerte si no la tenía, este sueño fue revelado por el Señor una vez Daniel y sus amigos pidieron sus misericordias, como lo leemos en los siguientes textos: "),
+        "armor7TextBible2": MessageLookupByLibrary.simpleMessage(
+            "“Luego se fue Daniel a su casa e hizo saber lo que había a Ananías, Misael y Azarías, sus compañeros, 18 para que pidiesen misericordias del Dios del cielo sobre este misterio, a fin de que Daniel y sus compañeros no pereciesen con los otros sabios de Babilonia. 19 entonces el secreto fue revelado a Daniel en visión de noche, por lo cual bendijo Daniel al Dios del cielo.” "),
+        "armor7TextBible3":
+            MessageLookupByLibrary.simpleMessage("Daniel: 2:17-19 "),
+        "armor7TextLife1": MessageLookupByLibrary.simpleMessage(
+            "Cada día debemos buscar el rostro del Señor en oración, es decir hablar y escuchar lo que el Señor tiene para decirnos, esto debe ser una constante en nuestra vida cristiana. "),
+        "armor7TextLife2": MessageLookupByLibrary.simpleMessage(
+            "“Tarde y mañana y a mediodía oraré y clamaré, Y él oirá mi voz.” "),
+        "armor7TextLife3":
+            MessageLookupByLibrary.simpleMessage("Salmos 55:17 "),
+        "armor7TextPractice1": MessageLookupByLibrary.simpleMessage(
+            "George Muller, era un hermano Inglés conocido como el padre de los huérfanos, en una ocasión, el orfanato no tenía provisión para dar desayuno a los niños y este hermano oró al Padre Celestial y dispuso a todos los niños a comer, y una vez agradecieron por los alimentos, tocaron a la puerta y era el conductor de un camión de leche, quien se había accidentado y no quería que la leche se dañara y la dio a los niños, al mismo tiempo un panadero tocó la puerta y con bandejas llenas de pan, dijo que el Señor lo había inquietado para llevarles pan esa mañana. En la batalla que estemos librando es fundamental la oración al Señor."),
+        "armor7Title": MessageLookupByLibrary.simpleMessage("Efesios 6:18"),
+        "armor7Verse": MessageLookupByLibrary.simpleMessage(
+            "“orando en todo tiempo con toda oración y súplica en el Espíritu, y velando en ello con toda perseverancia y súplica por todos los santos”"),
         "armourOfGod": MessageLookupByLibrary.simpleMessage("Armadura de Dios"),
         "beforeContinueUnlock": m0,
         "classicArmour":
@@ -349,6 +380,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Por qué el rey Manasés era tan malvado?"),
         "mainQuestionSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "¿Qué había dentro del Arca de Dios?"),
+        "mainQuestionSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "¿Cuál de las siguientes cartas de las Sagradas Escrituras escribió Pablo en prisión?"),
+        "mainQuestionSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "¿Cuál fue la profesión de Lucas, el tercer evangelista?"),
+        "mainQuestionSevenQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "¿Quién escribió el Libro Sagrado del Apocalipsis?"),
         "mainQuestionSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "¿Qué pecado cometió Salomón, rey de Israel, que lo alejó del Señor?"),
         "mainQuestionSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -424,6 +461,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "La razón por la cual Manasés era malvado se puede encontrar en 2 Reyes 8:1-28 donde notamos que se casó con una hija de Acab, el malvado rey de Israel"),
         "optionFiveSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "En Zacarías 4:1-14 se menciona que en él encontrarás los nombres de los dos arboles de olivos"),
+        "optionFiveSevenQPageOne":
+            MessageLookupByLibrary.simpleMessage("1 Corintios"),
+        "optionFiveSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Fue uno de los doce Apóstoles de Jesucristo, como se muestra en Mateo 10:1-42"),
+        "optionFiveSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("Zacarías"),
         "optionFiveSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Habló blasfemias y escribió herejías"),
         "optionFiveSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -482,6 +525,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "Según la Escritura en 2 Reyes 21:1-26, vemos que la madre de Manasés era muy mala y le enseñó sus malos caminos"),
         "optionFourSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Si lees Éxodo 28:1-43 notarás que tenía el Efod y la coraza"),
+        "optionFourSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "2 Timoteo, ese es el significado de la corona de justicia de 2 Timoteo 4:1-22"),
+        "optionFourSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "El era un pescador y un hombre sin educación como en este capítulo de las Sagradas Escrituras, Hechos 4:1-37"),
+        "optionFourSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("Jesucristo"),
         "optionFourSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Quemó incienso no autorizado"),
         "optionFourSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -542,6 +591,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasés era tan malo porque según 2 Reyes 18:1-37 su padre Ezequías también era una persona mala"),
         "optionOneSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Según Éxodo 26:1-37, tenía el aceite sagrado y el Candelabro"),
+        "optionOneSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Filipenses, podemos ver esto leyendo este capítulo, Filipenses 1:1-30"),
+        "optionOneSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Era un oficial del imperio romano, como se evidencia en Lucas 1:1-80"),
+        "optionOneSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("El apóstol Juan"),
         "optionOneSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Tenía demasiadas esposas y concubinas"),
         "optionOneSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -598,6 +653,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "Manasés era malo porque le guardaba rencor a Dios el Padre por no haber sanado a su padre Ezequías"),
         "optionThreeSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "En Josué 3:1-5:1 dice que tenía las doce piedras que representan las doce tribus de Israel"),
+        "optionThreeSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Gálatas, como es evidente en Gálatas 2:1-21"),
+        "optionThreeSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Era Doctor, como está escrito en Colosenses 4:1-18"),
+        "optionThreeSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("Juan el Bautista"),
         "optionThreeSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Profanó el Templo del Señor con ídolos"),
         "optionThreeSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -657,6 +718,11 @@ class MessageLookup extends MessageLookupByLibrary {
             "Porque con base a 2 Reyes 20:1-21 notamos que al rey Ezequías no le importaba el futuro de sus hijos ni de su descendencia"),
         "optionTwoSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Basado en 1 Reyes 8:1-66 tenía las dos tablas de la Ley"),
+        "optionTwoSevenQPageOne": MessageLookupByLibrary.simpleMessage("Judas"),
+        "optionTwoSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Era fabricante de tiendas de campaña como Pablo, lo vemos en Hechos 18:1-28"),
+        "optionTwoSevenQPageTwo":
+            MessageLookupByLibrary.simpleMessage("El apóstol Pablo"),
         "optionTwoSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Se casó con mujeres que no eran israelitas que lo llevaron a la apostasía"),
         "optionTwoSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -803,6 +869,12 @@ class MessageLookup extends MessageLookupByLibrary {
             "Investiga la verdad; la influencia de un padre puede ser determinante"),
         "theClueSecondPageTwo": MessageLookupByLibrary.simpleMessage(
             "Lea y descubra la verdad; lo importante es lo que guardas"),
+        "theClueSevenQPageOne": MessageLookupByLibrary.simpleMessage(
+            "Lee el contexto y encuentra tu respuesta; Puedo hacer todo esto a través de Aquel que me fortalece"),
+        "theClueSevenQPageThree": MessageLookupByLibrary.simpleMessage(
+            "Vaya a las escrituras y compruebe cada versículo señalado en las opciones"),
+        "theClueSevenQPageTwo": MessageLookupByLibrary.simpleMessage(
+            "Por lo general, en el primer capítulo puede encontrar el nombre; mucho amor en las palabras de este apóstol"),
         "theClueSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Escuche a 1 Reyes 11:1-13; mantente separado"),
         "theClueSixQPageFour": MessageLookupByLibrary.simpleMessage(
