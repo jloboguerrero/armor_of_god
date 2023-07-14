@@ -1,8 +1,8 @@
+import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_modular/flutter_modular.dart'
     hide ModularWatchExtension;
-import 'package:mobile_client_animations/mobile_client_animations.dart';
 
 import 'package:armor_of_god/data/countries.dart';
 import 'package:armor_of_god/data/onboarding.dart';
@@ -57,7 +57,7 @@ class _Body extends StatelessWidget {
               controller: controller,
             ),
             const SizedBox(height: 36.0),
-            const _Dots(length: 3),
+            const _Dots(length: 4),
           ],
         ),
       ),
@@ -82,8 +82,9 @@ class _Country extends StatelessWidget {
             children: [
               Image.asset(
                 state.model.country.logo ?? 'assets/flags/co.png',
-                height: state.model.country.countryCode == 'US' ? 15.0 : 20.0,
-                width: state.model.country.countryCode == 'US' ? 15.0 : 20.0,
+                height: 18.0,
+                width: 18.0,
+                fit: BoxFit.cover,
               ),
               const SizedBox(width: 5.0),
               Text(
@@ -148,7 +149,7 @@ class _PageView extends StatelessWidget {
                 );
           },
           children: List.generate(
-            3,
+            4,
             (index) {
               return _Item(
                 controller: controller,
@@ -207,7 +208,7 @@ class _Item extends StatelessWidget {
                     children: [
                       Image.asset(
                         page.image,
-                        height: (index == 2)
+                        height: (index == 3)
                             ? MediaQuery.of(context).size.height * 0.23
                             : (index == 1)
                                 ? MediaQuery.of(context).size.height * 0.29
@@ -241,10 +242,10 @@ class _Item extends StatelessWidget {
                   ),
                 ),
                 Opacity(
-                  opacity: (index == 2) ? 0.0 : 1.0,
+                  opacity: (index == 3) ? 0.0 : 1.0,
                   child: GestureDetector(
                     onTap: () {
-                      if (index != 2) {
+                      if (index != 3) {
                         controller.nextPage(
                           duration: const Duration(milliseconds: 700),
                           curve: Curves.easeInOut,
@@ -418,13 +419,17 @@ class _CountryItem extends StatelessWidget {
       duration: Duration(milliseconds: animationDuration),
       child: InkWell(
         child: Padding(
-          padding: const EdgeInsets.all(6.0).copyWith(left: 20.0),
+          padding: const EdgeInsets.all(6.0).copyWith(
+            bottom: 12.0,
+            left: 20.0,
+          ),
           child: Row(
             children: [
               Image.asset(
                 country.logo!,
-                height: 60.0,
-                width: 60.0,
+                height: 40.0,
+                width: 40.0,
+                fit: BoxFit.cover,
               ),
               const SizedBox(width: 11.0),
               Text(

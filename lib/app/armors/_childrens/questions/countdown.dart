@@ -64,12 +64,12 @@ class _PageState extends State<Page> {
               Center(
                 child: Text(
                   widget.armorName,
-                  textAlign: TextAlign.center,
                   style: const TextStyle(
                     fontSize: 34,
                     color: Colors.black54,
                     fontWeight: FontWeight.w600,
                   ),
+                  textAlign: TextAlign.center,
                 ),
               ),
               const SizedBox(height: 36),
@@ -81,6 +81,7 @@ class _PageState extends State<Page> {
                     color: Colors.black38,
                     fontWeight: FontWeight.w600,
                   ),
+                  textAlign: TextAlign.center,
                 ),
               ),
               const SizedBox(height: 24),

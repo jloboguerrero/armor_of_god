@@ -15,9 +15,14 @@ class Onboarding {
         title: S.current.onBoardingTitle2,
       ),
       Item(
-        image: 'assets/stones/diamond_gold.png',
+        image: 'assets/images/angel1.png',
         subtitle: S.current.onBoardingDescription3,
         title: S.current.onBoardingTitle3,
+      ),
+      Item(
+        image: 'assets/stones/diamond_gold.png',
+        subtitle: S.current.onBoardingDescription4,
+        title: S.current.onBoardingTitle4,
       ),
     ];
   }

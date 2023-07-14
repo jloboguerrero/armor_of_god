@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.armor_of_god">
    <application
-        android:label="armor_of_god"
+        android:label="Armor of God"
         android:name="${applicationName}"
         android:icon="@mipmap/launcher_icon">
         <activity

@@ -110,15 +110,16 @@ class _Content extends StatelessWidget {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                const Text(
-                  '¡Querido usuario de la aplicación Armor of God!',
-                  style: TextStyle(fontSize: 16.0, fontWeight: FontWeight.w700),
+                Text(
+                  S.current.suggestionTitle,
+                  style: const TextStyle(
+                      fontSize: 16.0, fontWeight: FontWeight.w700),
                   textAlign: TextAlign.start,
                 ),
                 const SizedBox(height: 20.0),
-                const Text(
-                  'En nuestro constante esfuerzo por brindarle la mejor experiencia de juego posible, valoramos enormemente sus comentarios y sugerencias para mejorar nuestra aplicación. Nos encantaría contar con su participación y colaboración en este emocionante proceso de desarrollo. Su opinión es crucial para hacer de esta aplicación un éxito entre la comunidad de jugadores.\n\nNos gustaría animarle a que comparta cualquier idea, sugerencia o información adicional que tenga para mejorar nuestra aplicación. ¿Tiene alguna pregunta adicional o una nueva idea para agregar a nuestra colección de preguntas? ¿Le gustaría sugerir una característica específica que le gustaría ver en futuras actualizaciones? ¡Estamos ansiosos por escucharlo!\n\nPuede enviarnos sus sugerencias y comentarios a través de nuestra sección de soporte dentro de la aplicación. Nuestro equipo de desarrollo revisará atentamente cada uno de sus mensajes y trabajará arduamente para implementar las mejoras que consideremos más beneficiosas para la comunidad de jugadores.\n\nQueremos asegurarnos de que la aplicación sea un lugar divertido, educativo y gratificante para todos. Por lo tanto, su participación activa es fundamental para lograr ese objetivo. ¡Sus ideas y aportes pueden marcar la diferencia y hacer que la aplicación sea aún más emocionante!\n\nApreciamos sinceramente su tiempo y su dedicación para ayudarnos a mejorar. Gracias por ser parte de nuestra comunidad de jugadores y por compartir su entusiasmo con nosotros. Esperamos con ansias trabajar juntos para hacer de esta aplicación una experiencia excepcional.\n\nAtentamente,\n\nEl equipo de desarrollo del Armor of God',
-                  style: TextStyle(fontSize: 16.0),
+                Text(
+                  S.current.suggestionContent,
+                  style: const TextStyle(fontSize: 16.0),
                   textAlign: TextAlign.justify,
                 ),
                 const SizedBox(height: 20.0),

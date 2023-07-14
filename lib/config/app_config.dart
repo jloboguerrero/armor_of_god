@@ -1,5 +1,6 @@
 import 'package:armor_of_god/config/preferences.dart';
 import 'package:armor_of_god/models/armors.dart';
+import 'package:armor_of_god/models/stones.dart';
 
 class AppConfig {
   static final AppConfig _singleton = AppConfig._();
@@ -9,6 +10,7 @@ class AppConfig {
   AppConfig._();
 
   Armors? armors;
+  Stones? stones;
 
   init({required Preferences prefs}) {
     final armor = Armors(
@@ -33,6 +35,14 @@ class AppConfig {
       armor_19: prefs.armorNineteen,
       armor_20: prefs.armorTen,
     );
+    final stone = Stones(
+      stones_1: prefs.stoneOne,
+      stones_2: prefs.stoneTwo,
+      stones_3: prefs.stoneThree,
+      stones_4: prefs.stoneFour,
+      stones_5: prefs.stoneFive,
+    );
     armors = armor;
+    stones = stone;
   }
 }
