@@ -950,10 +950,10 @@ class S {
     );
   }
 
-  /// `Esta pieza de la armadura de Dios requiere que recordemos para qué sirven los pies. Como bien sabemos, los pies son para caminar, correr, saltar, trotar, etc., pero su significado principal está relacionado con la palabra caminar, andar, y el andar habla de nuestra vida, por lo cual no podemos estar descalzos y menos para una batalla, el Señor nos dejó provisto de todo lo necesario, entonces nos preguntamos ¿con que calzado estamos caminando? ¿caminamos en el Evangelio? que es una metáfora de vivir en la Palabra de Dios o ¿estamos caminando en nuestra propia sabiduría? Si es así estamos descalzos, es importante que sepas que el núcleo del evangelio es la muerte y resurrección de Cristo, como dice 1 Corintios: 15: 3-6 `
+  /// `Esta pieza de la armadura de Dios requiere que recordemos para qué sirven los pies. Como bien sabemos, los pies son para caminar, correr, saltar, trotar, etc., pero su función principal está relacionada con la palabra caminar, y el caminar habla de nuestro vivir, entonces nos preguntamos ¿cómo estamos viviendo? ¿caminamos en el Evangelio? que es una metáfora de vivir en la Palabra de Dios o ¿estamos caminando en nuestra propia sabiduría? Si es así estamos descalzos, es importante que sepamos que el núcleo del evangelio es la muerte y resurrección de Cristo, como dice 1 Corintios: 15: 3-6 `
   String get armor3Text1 {
     return Intl.message(
-      'Esta pieza de la armadura de Dios requiere que recordemos para qué sirven los pies. Como bien sabemos, los pies son para caminar, correr, saltar, trotar, etc., pero su significado principal está relacionado con la palabra caminar, andar, y el andar habla de nuestra vida, por lo cual no podemos estar descalzos y menos para una batalla, el Señor nos dejó provisto de todo lo necesario, entonces nos preguntamos ¿con que calzado estamos caminando? ¿caminamos en el Evangelio? que es una metáfora de vivir en la Palabra de Dios o ¿estamos caminando en nuestra propia sabiduría? Si es así estamos descalzos, es importante que sepas que el núcleo del evangelio es la muerte y resurrección de Cristo, como dice 1 Corintios: 15: 3-6 ',
+      'Esta pieza de la armadura de Dios requiere que recordemos para qué sirven los pies. Como bien sabemos, los pies son para caminar, correr, saltar, trotar, etc., pero su función principal está relacionada con la palabra caminar, y el caminar habla de nuestro vivir, entonces nos preguntamos ¿cómo estamos viviendo? ¿caminamos en el Evangelio? que es una metáfora de vivir en la Palabra de Dios o ¿estamos caminando en nuestra propia sabiduría? Si es así estamos descalzos, es importante que sepamos que el núcleo del evangelio es la muerte y resurrección de Cristo, como dice 1 Corintios: 15: 3-6 ',
       name: 'armor3Text1',
       desc: '',
       args: [],
@@ -970,10 +970,10 @@ class S {
     );
   }
 
-  /// `¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión, es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 `
+  /// `Debido a que caminar expresa una acción en progresión, una acción que no es ocasional, es algo que hacemos toda la vida, si relacionamos esto con la Palabra de Dios como ya hemos dicho, podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, es decir tener la vasija llena de aceite, y este caminar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al mensaje de Dios que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 `
   String get armor3Text3 {
     return Intl.message(
-      '¿qué significa esto? Debido a que caminar expresa una acción en progresión, una acción que realizamos para llegar a un punto determinado, es una acción que no es de una ocasión, es algo que hacemos toda la vida, entonces si relacionamos esto con la Palabra de Dios podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, ese andar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al Señor y vivir el mensaje que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 ',
+      'Debido a que caminar expresa una acción en progresión, una acción que no es ocasional, es algo que hacemos toda la vida, si relacionamos esto con la Palabra de Dios como ya hemos dicho, podemos inferir que hay que habitar en ella; a fin de tener un depósito con la ayuda del Espíritu y vivir conforme a las escrituras, es decir tener la vasija llena de aceite, y este caminar habla a los de nuestro alrededor porque no se trata de nuestro evangelio, es vivir conforme al mensaje de Dios que proclamamos, ya que, como creyentes estamos comisionados a hablar del evangelio, Mateo 28: 19-20 ',
       name: 'armor3Text3',
       desc: '',
       args: [],
@@ -1070,10 +1070,10 @@ class S {
     );
   }
 
-  /// `Tendrás que desatar primero la batalla espiritual y el fruto de ella será la paz. Como está escrito en Isaías 32:17, `
+  /// `Tendrás que librar primero la batalla espiritual y el fruto de ella será la paz. Como está escrito en Isaías 32:17, `
   String get armor3Text13 {
     return Intl.message(
-      'Tendrás que desatar primero la batalla espiritual y el fruto de ella será la paz. Como está escrito en Isaías 32:17, ',
+      'Tendrás que librar primero la batalla espiritual y el fruto de ella será la paz. Como está escrito en Isaías 32:17, ',
       name: 'armor3Text13',
       desc: '',
       args: [],
@@ -1090,10 +1090,10 @@ class S {
     );
   }
 
-  /// `Cuando el Señor permite que a una persona le compartan el evangelio y crea, es muy importante que haya un contínuo discipulado a fin que este nuevo creyente inicie los fundamentos para un caminar firme en El Señor.`
+  /// `Cuando el Señor permite que a una persona le compartan el evangelio y crea, es muy importante que haya un continuo discípulado a fin que este nuevo creyente inicie los fundamentos para un caminar firme en El Señor. La vida de un atleta apunta a ganar la medalla de oro, así nuestra vida como creyentes debe apuntar a Cristo.`
   String get armor3TextPractice1 {
     return Intl.message(
-      'Cuando el Señor permite que a una persona le compartan el evangelio y crea, es muy importante que haya un contínuo discipulado a fin que este nuevo creyente inicie los fundamentos para un caminar firme en El Señor.',
+      'Cuando el Señor permite que a una persona le compartan el evangelio y crea, es muy importante que haya un continuo discípulado a fin que este nuevo creyente inicie los fundamentos para un caminar firme en El Señor. La vida de un atleta apunta a ganar la medalla de oro, así nuestra vida como creyentes debe apuntar a Cristo.',
       name: 'armor3TextPractice1',
       desc: '',
       args: [],
@@ -1130,10 +1130,10 @@ class S {
     );
   }
 
-  /// `Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno donde no habrá paz.`
+  /// `Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad prediquemos a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno donde no habrá paz. `
   String get armor3TextLife1 {
     return Intl.message(
-      'Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno donde no habrá paz.',
+      'Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad prediquemos a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno donde no habrá paz. ',
       name: 'armor3TextLife1',
       desc: '',
       args: [],
@@ -1280,10 +1280,10 @@ class S {
     );
   }
 
-  /// `por lo cual debemos protegernos de las flechas de fuego del maligno, es decir de las mentiras, pero ¿Cómo?  El escudo es la fe, esto significa que debemos usar la fe para defendernos de las asechanzas del diablo en nuestra mente, Fe en la Palabra de Dios y en las promesas que Él ha dado en su Palabra. El maligno bombardeará tu mente con declaraciones mentirosas con la esperanza de golpear tu alma y hacerte creer en esas mentiras, pero recordemos que los ataques pueden venir no solo del enemigo, también de nosotros mismos, de otra persona incluso de las más cercanas o de una circunstancia.\n\nPor lo cual el Señor nos insta en Efesios 4: 23-27 23 `
+  /// `por lo cual debemos protegernos de los dardos de fuego del maligno, es decir de las mentiras, pero ¿Cómo?  El escudo es la fe, esto significa que debemos usar la fe para defendernos de las asechanzas del diablo en nuestra mente, Fe en la Palabra de Dios y en las promesas que Él ha dado en su Palabra. El maligno bombardeará tu mente con declaraciones mentirosas con la esperanza de golpear tu alma y hacerte creer en esas mentiras, pero recordemos que los ataques pueden venir no solo del enemigo, también de nosotros mismos, de otra persona incluso de las más cercanas o de una circunstancia.\n\nPor lo cual el Señor nos insta en Efesios 4: 23-27 23 `
   String get armor4Text13 {
     return Intl.message(
-      'por lo cual debemos protegernos de las flechas de fuego del maligno, es decir de las mentiras, pero ¿Cómo?  El escudo es la fe, esto significa que debemos usar la fe para defendernos de las asechanzas del diablo en nuestra mente, Fe en la Palabra de Dios y en las promesas que Él ha dado en su Palabra. El maligno bombardeará tu mente con declaraciones mentirosas con la esperanza de golpear tu alma y hacerte creer en esas mentiras, pero recordemos que los ataques pueden venir no solo del enemigo, también de nosotros mismos, de otra persona incluso de las más cercanas o de una circunstancia.\n\nPor lo cual el Señor nos insta en Efesios 4: 23-27 23 ',
+      'por lo cual debemos protegernos de los dardos de fuego del maligno, es decir de las mentiras, pero ¿Cómo?  El escudo es la fe, esto significa que debemos usar la fe para defendernos de las asechanzas del diablo en nuestra mente, Fe en la Palabra de Dios y en las promesas que Él ha dado en su Palabra. El maligno bombardeará tu mente con declaraciones mentirosas con la esperanza de golpear tu alma y hacerte creer en esas mentiras, pero recordemos que los ataques pueden venir no solo del enemigo, también de nosotros mismos, de otra persona incluso de las más cercanas o de una circunstancia.\n\nPor lo cual el Señor nos insta en Efesios 4: 23-27 23 ',
       name: 'armor4Text13',
       desc: '',
       args: [],
@@ -1300,10 +1300,10 @@ class S {
     );
   }
 
-  /// `Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleguen, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido.`
+  /// `Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleguen, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede incendiarnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por un dardo llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si un dardo ha herido tu mente, se usa otra pieza para drenar el veneno y apagar el incendio, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la espada de la verdad, que veremos más adelante, para apagar el dardo de fuego recibido.`
   String get armor4Text15 {
     return Intl.message(
-      'Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleguen, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede herirnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por una flecha llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si una flecha ha herido tu mente, se usa otra pieza para drenar el veneno y sacar la flecha, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la verdad para combatir el dardo de fuego recibido.',
+      'Como se ve el verbo renovaos está en presente continuo, y el verbo renovar es hacer de nuevo, es decir es algo activo, para que las mentiras que lleguen, no las creamos, dando lugar al enemigo, y ese dardo no apagado, puede incendiarnos. Mentiras como Dios no es bueno, la Gracia de Dios no es suficiente, no puedo olvidar mi pasado, el caminar con Cristo no es para mí, y muchas más.  Sin embargo, una vez golpeado por un dardo llameante, ¿qué hacer? Definitivamente se necesita fe, pero la armadura de Dios es completa y se complementa cada pieza, si un dardo ha herido tu mente, se usa otra pieza para drenar el veneno y apagar el incendio, y esa es la Espada del Espíritu. Usas la Palabra de Dios para desmantelar la mentira que ha traspasado tu corazón. Al igual que una cuchilla quirúrgica utilizada para curar a un paciente, se debe usar la espada de la verdad, que veremos más adelante, para apagar el dardo de fuego recibido.',
       name: 'armor4Text15',
       desc: '',
       args: [],
@@ -1350,10 +1350,10 @@ class S {
     );
   }
 
-  /// `En la Biblia podemos ver un caso de alguien herido por una flecha y ese es Saúl, el primer rey de Israel. Cuando las mujeres de Israel cantaron la canción “Saúl ha matado a sus miles, y David a sus diez miles”, `
+  /// `En la Biblia podemos ver un caso de alguien herido por un dardo y ese es Saúl, el primer rey de Israel. Cuando las mujeres de Israel cantaron la canción “Saúl ha matado a sus miles, y David a sus diez miles”, `
   String get armor4TextBible1 {
     return Intl.message(
-      'En la Biblia podemos ver un caso de alguien herido por una flecha y ese es Saúl, el primer rey de Israel. Cuando las mujeres de Israel cantaron la canción “Saúl ha matado a sus miles, y David a sus diez miles”, ',
+      'En la Biblia podemos ver un caso de alguien herido por un dardo y ese es Saúl, el primer rey de Israel. Cuando las mujeres de Israel cantaron la canción “Saúl ha matado a sus miles, y David a sus diez miles”, ',
       name: 'armor4TextBible1',
       desc: '',
       args: [],
@@ -1380,10 +1380,10 @@ class S {
     );
   }
 
-  /// `el diablo aprovechó esta oportunidad para envenenar su mente con el pensamiento de que David era una amenaza para su familia y su Reino. En los últimos capítulos, notamos cómo el maligno manipuló a Saúl a través de esa flecha de fuego cuando fue varias veces a matar a David. Si hubiera usado el escudo correctamente, habría tenido fe en el pensamiento de que el mismo Dios que lo ungió como rey seguramente defenderá su reino contra todas las amenazas.`
+  /// `el diablo aprovechó esta oportunidad para envenenar su mente con el pensamiento de que David era una amenaza para su familia y su Reino. En los últimos capítulos, notamos cómo el maligno manipuló a Saúl a través de ese dardo de fuego cuando fue varias veces a matar a David. Si hubiera usado el escudo correctamente, habría tenido fe en el pensamiento de que el mismo Dios que lo ungió como rey seguramente defendería su reino contra todas las amenazas.`
   String get armor4TextBible4 {
     return Intl.message(
-      'el diablo aprovechó esta oportunidad para envenenar su mente con el pensamiento de que David era una amenaza para su familia y su Reino. En los últimos capítulos, notamos cómo el maligno manipuló a Saúl a través de esa flecha de fuego cuando fue varias veces a matar a David. Si hubiera usado el escudo correctamente, habría tenido fe en el pensamiento de que el mismo Dios que lo ungió como rey seguramente defenderá su reino contra todas las amenazas.',
+      'el diablo aprovechó esta oportunidad para envenenar su mente con el pensamiento de que David era una amenaza para su familia y su Reino. En los últimos capítulos, notamos cómo el maligno manipuló a Saúl a través de ese dardo de fuego cuando fue varias veces a matar a David. Si hubiera usado el escudo correctamente, habría tenido fe en el pensamiento de que el mismo Dios que lo ungió como rey seguramente defendería su reino contra todas las amenazas.',
       name: 'armor4TextBible4',
       desc: '',
       args: [],
@@ -1420,10 +1420,10 @@ class S {
     );
   }
 
-  /// `El yelmo o casco en la armadura tiene la función de cubrir principalmente la cabeza del soldado, la cabeza es una parte fundamental y debido a su importancia debe ser muy bien protegida, el yelmo de la salvación nos indica que como creyentes debemos cuidar nuestra mente con la certeza de la salvación en Cristo, ya que, un soldado temeroso es un blanco fácil del adversario, por lo cual debemos tener claro que somos justificados, esto es declarados justos por medio de Jesucristo como nos lo dice Efesios 2:8-9 `
+  /// `El yelmo o casco en la armadura tiene la función de cubrir principalmente la cabeza del soldado, la cabeza es una parte fundamental y debido a su importancia debe ser muy bien protegida, el yelmo de la salvación nos indica que como creyentes debemos cuidar nuestra mente con la certeza de la salvación en Cristo, ya que, un soldado temeroso es un blanco fácil del adversario, por lo cual debemos tener claro que ya fuimos justificados, esto es declarados justos por medio de Jesucristo como nos lo dice Efesios 2:8-9 `
   String get armor5Text1 {
     return Intl.message(
-      'El yelmo o casco en la armadura tiene la función de cubrir principalmente la cabeza del soldado, la cabeza es una parte fundamental y debido a su importancia debe ser muy bien protegida, el yelmo de la salvación nos indica que como creyentes debemos cuidar nuestra mente con la certeza de la salvación en Cristo, ya que, un soldado temeroso es un blanco fácil del adversario, por lo cual debemos tener claro que somos justificados, esto es declarados justos por medio de Jesucristo como nos lo dice Efesios 2:8-9 ',
+      'El yelmo o casco en la armadura tiene la función de cubrir principalmente la cabeza del soldado, la cabeza es una parte fundamental y debido a su importancia debe ser muy bien protegida, el yelmo de la salvación nos indica que como creyentes debemos cuidar nuestra mente con la certeza de la salvación en Cristo, ya que, un soldado temeroso es un blanco fácil del adversario, por lo cual debemos tener claro que ya fuimos justificados, esto es declarados justos por medio de Jesucristo como nos lo dice Efesios 2:8-9 ',
       name: 'armor5Text1',
       desc: '',
       args: [],
@@ -1440,10 +1440,10 @@ class S {
     );
   }
 
-  /// `Solo el sacrificio perfecto de Cristo nos hace salvos y no nuestras obras, eso es lo que hace que tengamos un ancla firme y fuerte para vivir con total certeza. Saber que como creyentes cuando muramos iremos al paraíso por haber creído en la obra de Cristo y no al infierno nos da el consuelo ante una prueba severa, aunque esta prueba haya sido ocasionada por tu mismo pecado, el casco o certeza de salvación te va ayudar a rechazar los pensamientos que por tu pecado ya no eres salvo, esto es muy común cuando caemos, pero recordemos no es por obras es por gracia, un regalo inmerecido por los méritos de Cristo, aunque por supuesto debemos arrepentirnos porque abogado tenemos y como creyente debemos hacer obras, pero no para salvación, si no para ser santos como el Señor es Santo.`
+  /// `Solo el sacrificio perfecto de Cristo nos hace salvos y no nuestras obras, eso es lo que hace que tengamos un ancla firme y fuerte para vivir con total certeza. Saber que como creyentes cuando muramos iremos al paraíso por haber creído en la obra de Cristo y no al infierno nos da el consuelo ante una prueba severa o incluso una situación de vida o muerte, y aunque esta prueba haya sido ocasionada por tu mismo pecado, el casco o certeza de salvación te va ayudar a rechazar los pensamientos que por tu pecado ya no eres salvo, esto es muy común cuando caemos, pero recordemos no es por obras es por gracia, un regalo inmerecido por los méritos de Cristo, aunque por supuesto cuando pecamos tenemos que arrepentirnos, es decir, volvernos al Señor porque abogado tenemos y como creyente debemos hacer obras, pero no para salvación, si no para ser santos como el Señor es Santo.`
   String get armor5Text3 {
     return Intl.message(
-      'Solo el sacrificio perfecto de Cristo nos hace salvos y no nuestras obras, eso es lo que hace que tengamos un ancla firme y fuerte para vivir con total certeza. Saber que como creyentes cuando muramos iremos al paraíso por haber creído en la obra de Cristo y no al infierno nos da el consuelo ante una prueba severa, aunque esta prueba haya sido ocasionada por tu mismo pecado, el casco o certeza de salvación te va ayudar a rechazar los pensamientos que por tu pecado ya no eres salvo, esto es muy común cuando caemos, pero recordemos no es por obras es por gracia, un regalo inmerecido por los méritos de Cristo, aunque por supuesto debemos arrepentirnos porque abogado tenemos y como creyente debemos hacer obras, pero no para salvación, si no para ser santos como el Señor es Santo.',
+      'Solo el sacrificio perfecto de Cristo nos hace salvos y no nuestras obras, eso es lo que hace que tengamos un ancla firme y fuerte para vivir con total certeza. Saber que como creyentes cuando muramos iremos al paraíso por haber creído en la obra de Cristo y no al infierno nos da el consuelo ante una prueba severa o incluso una situación de vida o muerte, y aunque esta prueba haya sido ocasionada por tu mismo pecado, el casco o certeza de salvación te va ayudar a rechazar los pensamientos que por tu pecado ya no eres salvo, esto es muy común cuando caemos, pero recordemos no es por obras es por gracia, un regalo inmerecido por los méritos de Cristo, aunque por supuesto cuando pecamos tenemos que arrepentirnos, es decir, volvernos al Señor porque abogado tenemos y como creyente debemos hacer obras, pero no para salvación, si no para ser santos como el Señor es Santo.',
       name: 'armor5Text3',
       desc: '',
       args: [],
