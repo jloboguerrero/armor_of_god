@@ -68,25 +68,35 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1Text4": MessageLookupByLibrary.simpleMessage(
             "Quem, pois, ouve de mim estas palavras e as pratica, compará-lo-ei a um homem prudente, que edificou a sua casa sobre a rocha. Caiu a chuva, correram rios, sopraram ventos e deram com ímpeto contra aquela casa; e não caiu, porque estava edificada sobre a rocha. Mas quem ouve de mim estas palavras e não as pratica, compará-lo-ei a um homem insensato, que construiu a sua casa sobre a areia; e desceu a chuva, e correram os rios, e assopraram os ventos, e combateram aquela casa; e ele caiu, e sua ruína foi grande. "),
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
-            "Se tivermos isso em mente, manteremos a verdade em tudo o que fizermos, esse será o eixo central de nossa vida cristã.\nA posição desta peça também nos fala. O cinto está localizado no meio da pessoa e da mesma forma Cristo deve estar no centro de nós. Quando Cristo é crucificado entre dois ladrões, podemos ver que os extremos são ladrões e o centro deve ser Cristo."),
+            "Se tivermos isso em mente, manteremos a verdade em tudo o que fizermos, esse será o eixo central de nossa vida cristã.\n\nA posição e a forma desta peça falam de Cristo, pois o cinto está localizado no meio da armadura, da mesma forma Cristo deve estar no centro de nós e de tudo, porque tudo foi criado por ele e para ele. , notemos que quando Cristo foi crucificado, estava no meio de dois ladrões, o que indica que os extremos são ladrões, o centro é Cristo. Quanto à forma, envolve a pessoa, da mesma forma a verdade deve envolver todas as áreas da nossa vida, não deixando de fora da verdade nada do que fazemos, o Senhor envolve todo o nosso ser, como diz o salmista: "),
+        "armor1Text6": MessageLookupByLibrary.simpleMessage(
+            "“Você me cercou por trás e por diante, e colocou sua mão sobre mim.” Salmo 139:5. "),
         "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
-            "Provérbios 16:18 Antes da ruína vem a soberba, e antes da queda vem a altivez do espírito. Podemos ver essa realidade em "),
+            "Toda a Palavra é verdadeira, é inspirada por Deus, vejamos por exemplo o que diz Provérbios: 16:18 "),
+        "armor1TextBible1_2": MessageLookupByLibrary.simpleMessage(
+            "“Antes do quebrantamento está o orgulho; e antes da queda o espírito altivo”, "),
+        "armor1TextBible1_3": MessageLookupByLibrary.simpleMessage(
+            "Vemos isso refletido no livro de Daniel com o rei Nabucodonosor, diz "),
         "armor1TextBible2": MessageLookupByLibrary.simpleMessage(
             "Daniel 4:28-33\n28 Tudo isso veio sobre o rei Nabucodonosor. 29 Ao cabo de doze meses, andando no palácio real da Babilônia, 30 o rei falou e disse: Não é esta a grande Babilônia que eu construí para uma casa real com a força do meu poder, e para a glória da minha majestade ? 31 Ainda estava a palavra na boca do rei, quando veio uma voz do céu: Digo-te, rei Nabucodonosor: O reino te foi tirado; 32 E dentre os homens eles te expulsarão, e com as feras do campo será a tua habitação, e eles te alimentarão como bois; e passarão sete tempos sobre ti, até que reconheças que o Altíssimo tem domínio sobre o reino dos homens, e o dá a quem quer. 33 Na mesma hora se cumpriu a palavra a respeito de Nabucodonosor, e ele foi expulso dentre os homens; e comeu erva como os bois, e o seu corpo foi molhado do orvalho do céu, até que lhe cresceu o cabelo como as penas da águia, e as suas unhas como as das aves."),
         "armor1TextBible3":
             MessageLookupByLibrary.simpleMessage("Daniel 4:28-33 "),
         "armor1TextBible4": MessageLookupByLibrary.simpleMessage(
-            "O orgulho de Nabucodonosor fez com que ele vivesse como um animal por sete anos."),
+            "O orgulho de Nabucodonosor fez com que ele vivesse como um animal por sete anos, ou seja, a queda procedeu da soberba."),
         "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
             "Como crentes, devemos viver todos os dias na Palavra de nosso Senhor, é a única forma de aderir à verdade, se estamos em busca da verdade, então devemos ler as Escrituras e encantar nossas mentes com elas."),
         "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "Um médico precisa da verdade dos sintomas relatados pelo paciente para chegar ao diagnóstico correto. Outro exemplo é quando o inimigo tenta nos acusar com o passado, então vamos lembrar o que 2 Coríntios 5:17 diz para que se alguém está em Cristo, nova criatura é; as coisas velhas passaram; eis que todos se fizeram novos. Devemos nos apegar à verdade que é Cristo em tudo o que fazemos para vestir esta peça da armadura de Deus."),
+            "Um médico precisa da verdade dos sintomas relatados pelo paciente para chegar ao diagnóstico correto. Outro exemplo é quando o inimigo tenta nos acusar do passado, então vamos nos lembrar do que diz 2 Coríntios 5:17. "),
+        "armor1TextPractice2": MessageLookupByLibrary.simpleMessage(
+            "Assim, se alguém está em Cristo, nova criatura é; as coisas velhas passaram; eis que todos se fizeram novos. "),
+        "armor1TextPractice3": MessageLookupByLibrary.simpleMessage(
+            "Devemos nos apegar à verdade que é Cristo em tudo o que fazemos para vestir esta peça da armadura de Deus."),
         "armor1Title": MessageLookupByLibrary.simpleMessage("Efésios 6:14"),
         "armor1Verse": MessageLookupByLibrary.simpleMessage(
             "“Fique firme então, tendo seus lombos cingidos com a verdade,”"),
         "armor2": MessageLookupByLibrary.simpleMessage("Peitoral da Justiça"),
         "armor2Text1": MessageLookupByLibrary.simpleMessage(
-            "A couraça é a peça da couraça que cobre o tronco, onde se localizam os órgãos vitais, isso é muito importante, pois um ferimento em um desses órgãos pode ser fatal. Cristo é justiça Jeremias 23:6 "),
+            "A couraça é a peça da couraça que cobre o tronco, onde se localizam os órgãos vitais, isso é muito importante, pois um ferimento em um desses órgãos pode ser fatal. Cristo é justiça Isaías 59:17a "),
         "armor2Text10": MessageLookupByLibrary.simpleMessage(
             "assim seremos protegidos pela couraça da justiça, disse o rei e salmista Davi: "),
         "armor2Text11": MessageLookupByLibrary.simpleMessage(
@@ -94,13 +104,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor2Text12": MessageLookupByLibrary.simpleMessage(
             "Observemos que quando você é atacado você não precisa fazer nada, não é como o escudo da fé onde você deve realizar uma ação para se proteger, mas se estivéssemos no outro cenário onde cabe a nós fazer o julgamento, devemos fazê-lo, porque se não o fizermos, não estaríamos operando a justiça de Deus. A couraça, como toda armadura, devemos levá-la antes de ir para a batalha, o que significa que devemos agir com retidão em todos os momentos e não ocasionalmente. A justiça faz parte da santificação, ou seja, do avanço à estatura de Cristo."),
         "armor2Text2": MessageLookupByLibrary.simpleMessage(
-            "“6 Nos seus dias Judá será salvo, e Israel habitará seguro; e este será o nome com que o chamarão: Jeová, justiça nossa.” "),
+            "“A justiça foi colocada como uma couraça”. "),
         "armor2Text3": MessageLookupByLibrary.simpleMessage(
-            "Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 y en Miqueas 6:8 "),
+            "Devemos entender que não é a nossa justiça, mas a justiça de Cristo que opera através de nós. Como crentes devemos buscar e fazer justiça como Jesus nos diz em Mateus 6:33 e em Miquéias 6:8 "),
         "armor2Text4": MessageLookupByLibrary.simpleMessage(
             "“Mas busca primeiro o reino de Deus e a sua justiça, e todas estas coisas te serão acrescentadas.”, “8 Ó homem, ele te declarou o que é bom, e o que Jeová exige de ti: apenas para fazer justiça, e amar a misericórdia, e humilhar-se diante do seu Deus.” "),
         "armor2Text5": MessageLookupByLibrary.simpleMessage(
-            "O que se quer dizer com isso é que no dia em que nos encontrarmos diante de um problema, provação ou dificuldade, se tivermos agido com retidão e estivermos com esta peça, a justiça de Deus nos protegerá de acordo com sua soberania, pois, se buscarmos a justiça de Deus, nossos órgãos vitais serão protegidos, os órgãos vitais podem ser a própria vida, família, recursos. Para vestir essa peça da armadura de Deus precisamos agir sempre com retidão, e isso é até ficar calado quando não cabe a nós exercer o juízo, pois o Senhor estabeleceu juízes que devem exercer a justiça, a justiça tem parte ativa - passiva , ativo no sentido de que devemos buscá-lo, ou seja, agir com justiça em qualquer situação Deuteronômio 1:16 "),
+            "O que se entende por isso é buscar e executar a justiça, de acordo com as Escrituras em todas as circunstâncias, Provérbios 11:6 "),
+        "armor2Text5_1": MessageLookupByLibrary.simpleMessage(
+            "“A justiça dos justos os livrará; mas os pecadores serão pegos em seus pecados”. "),
+        "armor2Text5_2": MessageLookupByLibrary.simpleMessage(
+            "Se andarmos de acordo com as leis do Senhor, no dia em que encontrarmos um problema, provação ou dificuldade, seremos protegidos por Sua justiça de acordo com Seu propósito, nossos órgãos vitais serão protegidos, os órgãos vitais podem ser a própria vida, família , recursos.\n\nPara vestir essa peça da armadura de Deus precisamos agir sempre com retidão, e isso é até calar quando não cabe a nós exercer o juízo, pois o Senhor estabeleceu juízes que devem exercer a justiça, a justiça tem uma parte ativa - passiva, ativa na qual devemos procurá-la, ou seja, agir com justiça em qualquer situação Deuteronômio 1:16 "),
         "armor2Text6": MessageLookupByLibrary.simpleMessage(
             "“Ao manter audiência entre seus irmãos, eles devem julgar com justiça.” "),
         "armor2Text7": MessageLookupByLibrary.simpleMessage(
@@ -123,7 +137,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor2TextLife1": MessageLookupByLibrary.simpleMessage(
             "Para cada circunstância de julgamento, deve-se buscar a direção, a justiça do Senhor ativamente e se você não for chamado para exercer a sentença de Deus, espere Nele e continue orando."),
         "armor2TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "Se alguém te processar por qualquer motivo sem motivo, a justiça de Deus te protegerá em sua soberania, se você andar nela, visto que agiu com retidão. Ele e não você exibirá sua justiça como a luz em seu tempo."),
+            "Se alguém te processar por qualquer motivo sem razão, a justiça de Deus irá protegê-lo de acordo com o propósito dele se você tiver agido com retidão, um exemplo é o caso do irmão Watchman Nee, que em algum momento de sua vida foi acusado de viver com uma mulher sem ser casado De fato, isso era verdade, mas quando outro irmão perguntou sobre o assunto, essa mulher era sua mãe. Ele não agiu em sua defesa, ele esperou e o Senhor exibiu sua justiça. "),
         "armor2Title": MessageLookupByLibrary.simpleMessage("Efésios 6:14b"),
         "armor2Verse": MessageLookupByLibrary.simpleMessage(
             "“e vestido com a couraça da justiça,”"),

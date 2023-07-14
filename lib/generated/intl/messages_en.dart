@@ -66,26 +66,36 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1Text4": MessageLookupByLibrary.simpleMessage(
             "Anyone, then, who hears these words from me, and does them, I will compare him to a prudent man, who built his house on the rock. The rain came down, and the rivers came, and the winds blew and beat against that house; and it did not fall, because it was founded on the rock. But whoever hears these words from me and does not do them, I will compare him to a foolish man, who built his house on the sand; and the rain came down, and the rivers came, and the winds blew, and beat against that house; and he fell, and his ruin was great. "),
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
-            "If we keep this in mind, we will maintain the truth in everything that is done, this will be the central axis of our Christian life.\nThe position of this piece also speaks to us. The belt is located in the middle of the person and in the same way Christ must be in the center of us. When Christ is crucified between two thieves, we can see that the extremes are thieves and the center must be Christ."),
+            "If we keep this in mind, we will maintain the truth in everything that is done, this will be the central axis of our Christian life.\n\nThe position and shape of this piece speaks of Christ, as the belt is located in the middle of the armor, in the same way Christ must be in the center of us and of everything, because everything was created through him and for him. him, let us note that when Christ was crucified, he was in the middle of two thieves, which indicates that the extremes are thieves, the center is Christ. As for the form, it surrounds the person, likewise the truth must surround all areas of our life, not leave out of the truth anything we do, the Lord surrounds our entire being, as the psalmist says: "),
+        "armor1Text6": MessageLookupByLibrary.simpleMessage(
+            "“You surrounded me behind and before, and laid your hand on me.” Psalm 139:5. "),
         "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
-            "Proverbs 16:18 Before destruction is pride, and before a fall is a haughty spirit. We can see this reality in "),
+            "All the Word is true, it is inspired by God, let\'s take for example what Proverbs says: 16:18 "),
+        "armor1TextBible1_2": MessageLookupByLibrary.simpleMessage(
+            "“Before brokenness is pride; and before the fall the haughty spirit”, "),
+        "armor1TextBible1_3": MessageLookupByLibrary.simpleMessage(
+            "we see this reflected in the book of Daniel with King Nebuchadnezzar, says "),
         "armor1TextBible2": MessageLookupByLibrary.simpleMessage(
             "Daniel 4:28-33\n28 All this came upon King Nebuchadnezzar. 29 At the end of twelve months, walking in the royal palace of Babylon, 30 the king spoke and said: Is not this the great Babylon that I built for a royal house with the strength of my power, and for the glory of my majesty? 31 The word was still in the king\'s mouth, when a voice came from heaven: It is said to you, king Nebuchadnezzar: The kingdom has been taken away from you; 32 And from among men they will drive you out, and with the beasts of the field your dwelling will be, and they will feed you like oxen; and seven times will pass over you, until you recognize that the Most High has dominion in the kingdom of men, and gives it to whomever he wants. 33 In the same hour the word about Nebuchadnezzar was fulfilled, and he was thrown out from among men; and he ate grass like oxen, and his body was wet with the dew of heaven, until his hair grew like eagle\'s feathers, and his nails like those of birds."),
         "armor1TextBible3":
             MessageLookupByLibrary.simpleMessage("Daniel 4:28-33 "),
         "armor1TextBible4": MessageLookupByLibrary.simpleMessage(
-            "Nebuchadnezzar\'s pride caused him to live like a beast for seven years."),
+            "Nebuchadnezzar\'s pride caused him to live like a beast for seven years, that is, the fall proceeded from haughtiness."),
         "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
             "As believers, we must dwell every day in the Word of our Lord, it is the only way to adhere to the truth, if we are in search of the truth, then we must read the Scriptures and fill our minds with them."),
         "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "A doctor needs the truth of the symptoms told by the patient to reach the correct diagnosis. Another example is when the enemy tries to accuse us with the past, then let\'s remember what 2 Corinthians 5:17 says so that if anyone is in Christ, he is a new creature; old things passed away; behold, they are all made new. We must hold fast to the truth that is Christ in everything we do to wear this piece of God\'s armor."),
+            "A doctor needs the truth of the symptoms told by the patient to reach the correct diagnosis. Another example is when the enemy tries to accuse us with the past, then let\'s remember what 2 Corinthians 5:17 says. "),
+        "armor1TextPractice2": MessageLookupByLibrary.simpleMessage(
+            "So if anyone is in Christ, he is a new creature; old things passed away; behold, they are all made new. "),
+        "armor1TextPractice3": MessageLookupByLibrary.simpleMessage(
+            "We must hold fast to the truth that is Christ in everything we do to wear this piece of God\'s armor."),
         "armor1Title": MessageLookupByLibrary.simpleMessage("Ephesians 6:14"),
         "armor1Verse": MessageLookupByLibrary.simpleMessage(
             "“Stand firm then, having your loins girded about with truth,”"),
         "armor2": MessageLookupByLibrary.simpleMessage(
             "The Breastplate of Righteousness"),
         "armor2Text1": MessageLookupByLibrary.simpleMessage(
-            "The armor is the piece of armor that covers the torso, where the vital organs are located, this is very important, since a wound to one of these organs can be fatal. Christ is righteousness Jeremiah 23:6 "),
+            "The armor is the piece of armor that covers the torso, where the vital organs are located, this is very important, since a wound to one of these organs can be fatal. Christ is righteousness Isaiah 59:17a "),
         "armor2Text10": MessageLookupByLibrary.simpleMessage(
             "so we will be protected by the breastplate of justice, the king and psalmist David said: "),
         "armor2Text11": MessageLookupByLibrary.simpleMessage(
@@ -93,13 +103,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor2Text12": MessageLookupByLibrary.simpleMessage(
             "Let\'s take note that when you are attacked you do not have to do anything, it is not like the shield of faith where you must take an action to cover yourself, but if we were in the other scenario where it is up to us to make the judgment, we must do it, because if we don\'t we do we would not be working the justice of God. The breastplate, like all armor, we must take it before going into battle, which means that we have to act righteously at all times and not occasionally. Justice is part of sanctification, that is, of advancing to the stature of Christ."),
         "armor2Text2": MessageLookupByLibrary.simpleMessage(
-            "“6 In his days Judah will be saved, and Israel will dwell confidently; and this will be his name by which they will call him: Jehovah, our righteousness.” "),
+            "“Justice was put on as a breastplate”. "),
         "armor2Text3": MessageLookupByLibrary.simpleMessage(
-            "We must understand that it is not our righteousness, but the righteousness of Christ that works through us. As believers we must seek justice as Jesus tells us in Matthew 6:33 and in Micah 6:8 "),
+            "We must understand that it is not our righteousness, but the righteousness of Christ that works through us. As believers we must seek and do justice as Jesus tells us in Matthew 6:33 and in Micah 6:8 "),
         "armor2Text4": MessageLookupByLibrary.simpleMessage(
-            "“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.”, “8 Oh hombre, él te ha declarado lo que es bueno, y qué pide Jehová de ti: solamente hacer justicia, y amar misericordia, y humillarte ante tu Dios.” "),
+            "“But seek first the kingdom of God and his righteousness, and all these things will be added to you.”, “8 O man, he has declared to you what is good, and what does Jehovah require of you: only to do justice, and to love mercy, and to humble yourself before your God.” "),
         "armor2Text5": MessageLookupByLibrary.simpleMessage(
-            "Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad, si hemos actuado en rectitud y tenemos puesta esta pieza, la justicia de Dios nos protegerá acorde a su soberanía, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 "),
+            "What is meant by this is to seek and execute righteousness, according to the Scriptures in every circumstance, Proverbs 11:6 "),
+        "armor2Text5_1": MessageLookupByLibrary.simpleMessage(
+            "“The justice of the upright will deliver them; but sinners will be caught in their sin”. "),
+        "armor2Text5_2": MessageLookupByLibrary.simpleMessage(
+            "If we walk according to the laws of the Lord, the day we encounter a problem, trial or difficulty, we will be protected by His justice according to His purpose, our vital organs will be protected, the vital organs can be life itself, family, resources.\n\nTo put on this piece of God\'s armor we need to always act righteously, and this is even to remain silent when it is not up to us to exercise judgment, because the Lord established judges who must exercise justice, justice has a active part - passive, active in which we must look for it, that is, act justly in any situation Deuteronomy 1:16 "),
         "armor2Text6": MessageLookupByLibrary.simpleMessage(
             "“By holding audience among their brothers, they have to judge justly.” "),
         "armor2Text7": MessageLookupByLibrary.simpleMessage(
@@ -122,7 +136,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor2TextLife1": MessageLookupByLibrary.simpleMessage(
             "For each circumstance of judgment, the direction must be sought, the Lord\'s justice actively and if you are not called to exercise God\'s sentence, wait on Him and continue praying."),
         "armor2TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "If someone sues you for any reason without reason, the justice of God will protect you in his sovereignty, if you walk in it, since you have acted righteously. He and not you will exhibit your justice as the light in its time."),
+            "If someone sues you for any reason without reason, God\'s justice will protect you according to his purpose if you have acted righteously, an example is the case of brother Watchman Nee, who at some point in his life was accused of living with a woman without being married Indeed this was true, but when another brother inquired about the matter, this woman was his mother. He did not act in his defense, he waited and the Lord exhibited his justice. "),
         "armor2Title": MessageLookupByLibrary.simpleMessage("Ephesians 6:14b"),
         "armor2Verse": MessageLookupByLibrary.simpleMessage(
             "“and clothed in the breastplate of righteousness,”"),

@@ -52,6 +52,14 @@ class Pieces {
                         fontWeight: FontWeight.w400,
                       ),
                     ),
+                    TextSpan(
+                      text: S.current.armor1Text6,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 85, 84, 84),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
                   ],
                 ),
               ),
@@ -70,6 +78,22 @@ class Pieces {
                           ),
                           TextSpan(
                             text: S.current.armor1TextPractice1,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          TextSpan(
+                            text: S.current.armor1TextPractice2,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 85, 84, 84),
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          TextSpan(
+                            text: S.current.armor1TextPractice3,
                             style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
@@ -97,6 +121,22 @@ class Pieces {
                           ),
                           TextSpan(
                             text: S.current.armor1TextBible1,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 31, 31, 31),
+                              fontSize: 14,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          TextSpan(
+                            text: S.current.armor1TextBible1_2,
+                            style: const TextStyle(
+                              color: Color.fromARGB(255, 85, 84, 84),
+                              fontStyle: FontStyle.italic,
+                              fontWeight: FontWeight.w400,
+                            ),
+                          ),
+                          TextSpan(
+                            text: S.current.armor1TextBible1_3,
                             style: const TextStyle(
                               color: Color.fromARGB(255, 31, 31, 31),
                               fontSize: 14,
@@ -198,6 +238,22 @@ class Pieces {
                     ),
                     TextSpan(
                       text: S.current.armor2Text5,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 31, 31, 31),
+                        fontSize: 14,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    TextSpan(
+                      text: S.current.armor2Text5_1,
+                      style: const TextStyle(
+                        color: Color.fromARGB(255, 85, 84, 84),
+                        fontStyle: FontStyle.italic,
+                        fontWeight: FontWeight.w400,
+                      ),
+                    ),
+                    TextSpan(
+                      text: S.current.armor2Text5_2,
                       style: const TextStyle(
                         color: Color.fromARGB(255, 31, 31, 31),
                         fontSize: 14,

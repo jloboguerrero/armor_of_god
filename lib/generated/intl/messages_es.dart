@@ -70,25 +70,35 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor1Text4": MessageLookupByLibrary.simpleMessage(
             "Cualquiera, pues, que me oye estas palabras, y las hace, le compararé a un hombre prudente, que edificó su casa sobre la roca. Descendió lluvia, y vinieron ríos, y soplaron vientos, y golpearon contra aquella casa; y no cayó, porque estaba fundada sobre la roca. Pero cualquiera que me oye estas palabras y no las hace, le compararé a un hombre insensato, que edificó su casa sobre la arena; y descendió lluvia, y vinieron ríos, y soplaron vientos, y dieron con ímpetu contra aquella casa; y cayó, y fue grande su ruina. "),
         "armor1Text5": MessageLookupByLibrary.simpleMessage(
-            "Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\nLa posición de esta pieza también nos habla. El cinturón está ubicado en la mitad de la persona y del mismo modo Cristo debe estar en el centro de nosotros. Cuando Cristo es crucificado en medio de dos ladrones, podemos ver que los extremos son ladrones y el centro debe ser Cristo."),
+            "Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\n\nLa posición y la forma de esta pieza habla de Cristo, como el cinturón está ubicado en la mitad de la armadura del mismo modo Cristo debe estar en el centro de nosotros y de todo, porque todo fue creado por medio de medio de él y para él, notemos que cuando Cristo fue crucificado, estuvo en medio de dos ladrones, lo que indica que los extremos son ladrones, el centro es Cristo. En cuanto a la forma, esta rodea a la persona, igualmente la verdad debe rodear todas las áreas de nuestra vida, no dejar por fuera de la verdad nada de lo que hagamos, el Señor rodea todo nuestro ser, como dice el salmista: "),
+        "armor1Text6": MessageLookupByLibrary.simpleMessage(
+            "“Detrás y delante me rodeaste, Y sobre mí pusiste tu mano.” Salmo 139:5. "),
         "armor1TextBible1": MessageLookupByLibrary.simpleMessage(
-            "Proverbios 16:18 Antes del quebrantamiento es la soberbia, Y antes de la caída la altivez de espíritu. Esta realidad la podemos ver en "),
+            "Toda la Palabra es verdad, es inspirada por Dios, tomemos por ejemplo lo que dice Proverbios:16:18 "),
+        "armor1TextBible1_2": MessageLookupByLibrary.simpleMessage(
+            "“Antes del quebrantamiento es la soberbia; y antes de la caída la altivez de espíritu”, "),
+        "armor1TextBible1_3": MessageLookupByLibrary.simpleMessage(
+            "esto lo vemos reflejado en el libro de Daniel con el rey Nabucodonosor, dice "),
         "armor1TextBible2": MessageLookupByLibrary.simpleMessage(
             "Daniel 4:28-33\n28 Todo esto vino sobre el rey Nabucodonosor. 29 Al cabo de doce meses, paseando en el palacio real de Babilonia, 30 habló el rey y dijo: ¿No es esta la gran Babilonia que yo edifiqué para casa real con la fuerza de mi poder, y para gloria de mi majestad? 31 Aún estaba la palabra en la boca del rey, cuando vino una voz del cielo: A ti se te dice, rey Nabucodonosor: El reino ha sido quitado de ti; 32 y de entre los hombres te arrojarán, y con las bestias del campo será tu habitación, y como a los bueyes te apacentarán; y siete tiempos pasarán sobre ti, hasta que reconozcas que el Altísimo tiene el dominio en el reino de los hombres, y lo da a quien él quiere. 33 En la misma hora se cumplió la palabra sobre Nabucodonosor, y fue echado de entre los hombres; y comía hierba como los bueyes, y su cuerpo se mojaba con el rocío del cielo, hasta que su pelo creció como plumas de águila, y sus uñas como las de las aves."),
         "armor1TextBible3":
             MessageLookupByLibrary.simpleMessage("Daniel 4:28-33 "),
         "armor1TextBible4": MessageLookupByLibrary.simpleMessage(
-            "la soberbia de Nabucodonosor hizo que viviera como bestia por siete años."),
+            "La soberbia de Nabucodonosor hizo que viviera como bestia por siete años, es decir, a la altivez le procedió la caída."),
         "armor1TextLife1": MessageLookupByLibrary.simpleMessage(
             "Como creyentes, debemos habitar cada día en la Palabra de nuestro Señor, es la única forma de ceñirnos con la verdad, si estamos en la búsqueda de la verdad, entonces debemos leer las Escrituras y llenar nuestra mente de ellas."),
         "armor1TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "Un médico necesita la verdad de los síntomas dicha por el paciente para llegar al diagnóstico correcto. Otro ejemplo es cuando el enemigo nos intente acusar con el pasado, entonces recordemos lo que dice 2 Corintios 5:17 De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas. Debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios."),
+            "Un médico necesita la verdad de los síntomas dicha por el paciente para llegar al diagnóstico correcto. Otro ejemplo es cuando el enemigo nos intente acusar con el pasado, entonces recordemos lo que dice 2 Corintios 5:17 "),
+        "armor1TextPractice2": MessageLookupByLibrary.simpleMessage(
+            "De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas. "),
+        "armor1TextPractice3": MessageLookupByLibrary.simpleMessage(
+            "Debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios."),
         "armor1Title": MessageLookupByLibrary.simpleMessage("Efesios 6:14"),
         "armor1Verse": MessageLookupByLibrary.simpleMessage(
             "“Estad, pues, firmes, ceñidos vuestros lomos con la verdad,”"),
         "armor2": MessageLookupByLibrary.simpleMessage("Coraza de la Justicia"),
         "armor2Text1": MessageLookupByLibrary.simpleMessage(
-            "La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia Jeremías 23:6 "),
+            "La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia Isaías 59:17a "),
         "armor2Text10": MessageLookupByLibrary.simpleMessage(
             "así estaremos protegidos por la coraza de justicia, el rey y salmista David dijo: "),
         "armor2Text11": MessageLookupByLibrary.simpleMessage(
@@ -96,13 +106,17 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor2Text12": MessageLookupByLibrary.simpleMessage(
             "Tomemos nota que cuando te atacan no tienes que hacer nada, no es como el escudo de la fe donde debes tomar una acción para cubrirte, pero si estuviéramos en el otro escenario donde si nos corresponde hacer el juicio, debemos hacerlo, porque si no lo hacemos no estaríamos obrando la justicia de Dios.  La coraza como toda la armadura, debemos tomarla antes de ir a la batalla, lo que significa que tenemos que actuar con rectitud en todo momento y no ocasionalmente. La justicia hace parte de la santificación, es decir, de ir avanzando a la estatura de Cristo."),
         "armor2Text2": MessageLookupByLibrary.simpleMessage(
-            "“6 En sus días será salvo Judá, e Israel habitará confiado; y este será su nombre con el cual le llamarán: Jehová, justicia nuestra.” "),
+            "“Se puso la justicia como coraza”. "),
         "armor2Text3": MessageLookupByLibrary.simpleMessage(
-            "Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 y en Miqueas 6:8 "),
+            "Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar y hacer la justicia como nos dice Jesús en Mateo 6:33 y en Miqueas 6:8 "),
         "armor2Text4": MessageLookupByLibrary.simpleMessage(
             "“Mas buscad primeramente el reino de Dios y su justicia, y todas estas cosas os serán añadidas.”, “8 Oh hombre, él te ha declarado lo que es bueno, y qué pide Jehová de ti: solamente hacer justicia, y amar misericordia, y humillarte ante tu Dios.” "),
         "armor2Text5": MessageLookupByLibrary.simpleMessage(
-            "Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad, si hemos actuado en rectitud y tenemos puesta esta pieza, la justicia de Dios nos protegerá acorde a su soberanía, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 "),
+            "Lo que se quiere decir con esto es buscar y ejecutar la rectitud, de acuerdo a las Escrituras en cada circunstancia, Proverbios 11:6 "),
+        "armor2Text5_1": MessageLookupByLibrary.simpleMessage(
+            "“La justicia de los rectos los librará; mas los pecadores serán atrapados en su pecado”. "),
+        "armor2Text5_2": MessageLookupByLibrary.simpleMessage(
+            "Si andamos de acuerdo a las leyes del Señor, el día que nos encontremos ante un problema, prueba o dificultad, estaremos protegidos por Su justicia conforme a su propósito, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos.\n\nPara ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 "),
         "armor2Text6": MessageLookupByLibrary.simpleMessage(
             "“Al celebrar audiencia entre sus hermanos, tienen que juzgar con justicia.” "),
         "armor2Text7": MessageLookupByLibrary.simpleMessage(
@@ -125,7 +139,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor2TextLife1": MessageLookupByLibrary.simpleMessage(
             "Para cada circunstancia de juicio se debe buscar la dirección, la justicia del Señor activamente y si no estás llamado a ejercer la sentencia de Dios, Espera en Él y sigue orando."),
         "armor2TextPractice1": MessageLookupByLibrary.simpleMessage(
-            "Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá en su soberanía, Si andas en ella, puesto que has actuado con rectitud. Él y no tu Exhibirá tu justicia como la luz en su tiempo."),
+            "Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá conforme a su propósito si has actuado en rectitud, un ejemplo es el caso del hermano Watchman Nee, quien en algún momento de su vida fue acusado de estar viviendo con una mujer sin estar casados. En efecto esto era verdad, pero cuando otro hermano indagó del asunto, esta mujer era su madre. El no obró en su defensa, el esperó y el Señor exhibió su justicia. "),
         "armor2Title": MessageLookupByLibrary.simpleMessage("Efesios 6:14b"),
         "armor2Verse": MessageLookupByLibrary.simpleMessage(
             "“y vestidos con la coraza de justicia,”"),
@@ -164,7 +178,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor3TextBible2": MessageLookupByLibrary.simpleMessage(
             "“Así que, hermanos, cuando fui a vosotros para anunciaros el testimonio de Dios, no fui con excelencia de palabras o de sabiduría. 2 pues me propuse no saber entre vosotros cosa alguna sino a Jesucristo, y a este crucificado. 3 Y estuve entre vosotros con debilidad, y mucho temor y temblor; 4 y ni mi palabra ni mi predicación fue con palabras persuasivas de humana sabiduría, sino con demostración del Espíritu y de poder, 5 para que vuestra fe no esté fundada en la sabiduría de los hombres, sino en el poder de Dios”. "),
         "armor3TextBible3": MessageLookupByLibrary.simpleMessage(
-            "Otro ejemplo lo podemos observar con Jesús quien estuvo caminando con sus discipulos en un discipulado de tres años y medio. "),
+            "Otro ejemplo lo podemos observar con Jesús quien estuvo caminando con sus discípulos en un discipulado de tres años y medio. "),
         "armor3TextLife1": MessageLookupByLibrary.simpleMessage(
             "Para usar esta pieza de la armadura de Dios, debemos leer todos los días la Palabra de Dios de manera continua y progresiva, compartiéndola con las personas que nos rodean con el objetivo que vean el evangelio de Cristo y la paz inunde sus corazones. Que nuestra vida hable y cuando tengamos la oportunidad predica a Cristo, pensemos que cuando un incrédulo muere abre sus ojos en el infierno donde no habrá paz."),
         "armor3TextPractice1": MessageLookupByLibrary.simpleMessage(

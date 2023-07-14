@@ -570,31 +570,81 @@ class S {
     );
   }
 
-  /// `Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\nLa posición de esta pieza también nos habla. El cinturón está ubicado en la mitad de la persona y del mismo modo Cristo debe estar en el centro de nosotros. Cuando Cristo es crucificado en medio de dos ladrones, podemos ver que los extremos son ladrones y el centro debe ser Cristo.`
+  /// `Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\n\nLa posición y la forma de esta pieza habla de Cristo, como el cinturón está ubicado en la mitad de la armadura del mismo modo Cristo debe estar en el centro de nosotros y de todo, porque todo fue creado por medio de medio de él y para él, notemos que cuando Cristo fue crucificado, estuvo en medio de dos ladrones, lo que indica que los extremos son ladrones, el centro es Cristo. En cuanto a la forma, esta rodea a la persona, igualmente la verdad debe rodear todas las áreas de nuestra vida, no dejar por fuera de la verdad nada de lo que hagamos, el Señor rodea todo nuestro ser, como dice el salmista: `
   String get armor1Text5 {
     return Intl.message(
-      'Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\nLa posición de esta pieza también nos habla. El cinturón está ubicado en la mitad de la persona y del mismo modo Cristo debe estar en el centro de nosotros. Cuando Cristo es crucificado en medio de dos ladrones, podemos ver que los extremos son ladrones y el centro debe ser Cristo.',
+      'Si se tiene esto presente, mantendremos la verdad en todo lo que se haga, esto será el eje central de nuestra vida cristiana.\n\nLa posición y la forma de esta pieza habla de Cristo, como el cinturón está ubicado en la mitad de la armadura del mismo modo Cristo debe estar en el centro de nosotros y de todo, porque todo fue creado por medio de medio de él y para él, notemos que cuando Cristo fue crucificado, estuvo en medio de dos ladrones, lo que indica que los extremos son ladrones, el centro es Cristo. En cuanto a la forma, esta rodea a la persona, igualmente la verdad debe rodear todas las áreas de nuestra vida, no dejar por fuera de la verdad nada de lo que hagamos, el Señor rodea todo nuestro ser, como dice el salmista: ',
       name: 'armor1Text5',
       desc: '',
       args: [],
     );
   }
 
-  /// `Un médico necesita la verdad de los síntomas dicha por el paciente para llegar al diagnóstico correcto. Otro ejemplo es cuando el enemigo nos intente acusar con el pasado, entonces recordemos lo que dice 2 Corintios 5:17 De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas. Debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.`
+  /// `“Detrás y delante me rodeaste, Y sobre mí pusiste tu mano.” Salmo 139:5. `
+  String get armor1Text6 {
+    return Intl.message(
+      '“Detrás y delante me rodeaste, Y sobre mí pusiste tu mano.” Salmo 139:5. ',
+      name: 'armor1Text6',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Un médico necesita la verdad de los síntomas dicha por el paciente para llegar al diagnóstico correcto. Otro ejemplo es cuando el enemigo nos intente acusar con el pasado, entonces recordemos lo que dice 2 Corintios 5:17 `
   String get armor1TextPractice1 {
     return Intl.message(
-      'Un médico necesita la verdad de los síntomas dicha por el paciente para llegar al diagnóstico correcto. Otro ejemplo es cuando el enemigo nos intente acusar con el pasado, entonces recordemos lo que dice 2 Corintios 5:17 De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas. Debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.',
+      'Un médico necesita la verdad de los síntomas dicha por el paciente para llegar al diagnóstico correcto. Otro ejemplo es cuando el enemigo nos intente acusar con el pasado, entonces recordemos lo que dice 2 Corintios 5:17 ',
       name: 'armor1TextPractice1',
       desc: '',
       args: [],
     );
   }
 
-  /// `Proverbios 16:18 Antes del quebrantamiento es la soberbia, Y antes de la caída la altivez de espíritu. Esta realidad la podemos ver en `
+  /// `De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas. `
+  String get armor1TextPractice2 {
+    return Intl.message(
+      'De modo que si alguno está en Cristo, nueva criatura es; las cosas viejas pasaron; he aquí todas son hechas nuevas. ',
+      name: 'armor1TextPractice2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.`
+  String get armor1TextPractice3 {
+    return Intl.message(
+      'Debemos aferrarnos a la verdad que es Cristo en todo lo que hagamos para usar esta pieza de la armadura de Dios.',
+      name: 'armor1TextPractice3',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Toda la Palabra es verdad, es inspirada por Dios, tomemos por ejemplo lo que dice Proverbios:16:18 `
   String get armor1TextBible1 {
     return Intl.message(
-      'Proverbios 16:18 Antes del quebrantamiento es la soberbia, Y antes de la caída la altivez de espíritu. Esta realidad la podemos ver en ',
+      'Toda la Palabra es verdad, es inspirada por Dios, tomemos por ejemplo lo que dice Proverbios:16:18 ',
       name: 'armor1TextBible1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“Antes del quebrantamiento es la soberbia; y antes de la caída la altivez de espíritu”, `
+  String get armor1TextBible1_2 {
+    return Intl.message(
+      '“Antes del quebrantamiento es la soberbia; y antes de la caída la altivez de espíritu”, ',
+      name: 'armor1TextBible1_2',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `esto lo vemos reflejado en el libro de Daniel con el rey Nabucodonosor, dice `
+  String get armor1TextBible1_3 {
+    return Intl.message(
+      'esto lo vemos reflejado en el libro de Daniel con el rey Nabucodonosor, dice ',
+      name: 'armor1TextBible1_3',
       desc: '',
       args: [],
     );
@@ -620,10 +670,10 @@ class S {
     );
   }
 
-  /// `la soberbia de Nabucodonosor hizo que viviera como bestia por siete años.`
+  /// `La soberbia de Nabucodonosor hizo que viviera como bestia por siete años, es decir, a la altivez le procedió la caída.`
   String get armor1TextBible4 {
     return Intl.message(
-      'la soberbia de Nabucodonosor hizo que viviera como bestia por siete años.',
+      'La soberbia de Nabucodonosor hizo que viviera como bestia por siete años, es decir, a la altivez le procedió la caída.',
       name: 'armor1TextBible4',
       desc: '',
       args: [],
@@ -660,30 +710,30 @@ class S {
     );
   }
 
-  /// `La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia Jeremías 23:6 `
+  /// `La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia Isaías 59:17a `
   String get armor2Text1 {
     return Intl.message(
-      'La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia Jeremías 23:6 ',
+      'La coraza es la pieza de la armadura que cubre el torso, donde se encuentran los órganos vitales, esto es muy importante, ya que, una herida en uno de estos órganos puede ser mortal. Cristo es la justicia Isaías 59:17a ',
       name: 'armor2Text1',
       desc: '',
       args: [],
     );
   }
 
-  /// `“6 En sus días será salvo Judá, e Israel habitará confiado; y este será su nombre con el cual le llamarán: Jehová, justicia nuestra.” `
+  /// `“Se puso la justicia como coraza”. `
   String get armor2Text2 {
     return Intl.message(
-      '“6 En sus días será salvo Judá, e Israel habitará confiado; y este será su nombre con el cual le llamarán: Jehová, justicia nuestra.” ',
+      '“Se puso la justicia como coraza”. ',
       name: 'armor2Text2',
       desc: '',
       args: [],
     );
   }
 
-  /// `Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 y en Miqueas 6:8 `
+  /// `Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar y hacer la justicia como nos dice Jesús en Mateo 6:33 y en Miqueas 6:8 `
   String get armor2Text3 {
     return Intl.message(
-      'Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar la justicia como nos dice Jesús en Mateo 6:33 y en Miqueas 6:8 ',
+      'Debemos entender que no es nuestra justicia, sino la justicia de Cristo que obra a través de nosotros. Como creyentes debemos buscar y hacer la justicia como nos dice Jesús en Mateo 6:33 y en Miqueas 6:8 ',
       name: 'armor2Text3',
       desc: '',
       args: [],
@@ -700,11 +750,31 @@ class S {
     );
   }
 
-  /// `Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad, si hemos actuado en rectitud y tenemos puesta esta pieza, la justicia de Dios nos protegerá acorde a su soberanía, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 `
+  /// `Lo que se quiere decir con esto es buscar y ejecutar la rectitud, de acuerdo a las Escrituras en cada circunstancia, Proverbios 11:6 `
   String get armor2Text5 {
     return Intl.message(
-      'Lo que se quiere decir con esto es que el día que nos encontremos ante un problema, prueba o dificultad, si hemos actuado en rectitud y tenemos puesta esta pieza, la justicia de Dios nos protegerá acorde a su soberanía, ya que, si buscamos la justicia de Dios, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos. Para ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 ',
+      'Lo que se quiere decir con esto es buscar y ejecutar la rectitud, de acuerdo a las Escrituras en cada circunstancia, Proverbios 11:6 ',
       name: 'armor2Text5',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `“La justicia de los rectos los librará; mas los pecadores serán atrapados en su pecado”. `
+  String get armor2Text5_1 {
+    return Intl.message(
+      '“La justicia de los rectos los librará; mas los pecadores serán atrapados en su pecado”. ',
+      name: 'armor2Text5_1',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Si andamos de acuerdo a las leyes del Señor, el día que nos encontremos ante un problema, prueba o dificultad, estaremos protegidos por Su justicia conforme a su propósito, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos.\n\nPara ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 `
+  String get armor2Text5_2 {
+    return Intl.message(
+      'Si andamos de acuerdo a las leyes del Señor, el día que nos encontremos ante un problema, prueba o dificultad, estaremos protegidos por Su justicia conforme a su propósito, nuestros órganos vitales estarán protegidos, los órganos vitales puede ser la propia vida, familia, recursos.\n\nPara ponernos esta pieza de la armadura de Dios necesitamos actuar siempre con rectitud, y esto es incluso callar cuando no nos corresponda ejercer un juicio, debido a que, el Señor estableció jueces que deben ejercer justicia, la justicia tiene una parte activa – pasiva, activa en que debemos buscarla, es decir, actuar justamente ante cualquier situación Deuteronomio 1:16 ',
+      name: 'armor2Text5_2',
       desc: '',
       args: [],
     );
@@ -780,10 +850,10 @@ class S {
     );
   }
 
-  /// `Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá en su soberanía, Si andas en ella, puesto que has actuado con rectitud. Él y no tu Exhibirá tu justicia como la luz en su tiempo.`
+  /// `Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá conforme a su propósito si has actuado en rectitud, un ejemplo es el caso del hermano Watchman Nee, quien en algún momento de su vida fue acusado de estar viviendo con una mujer sin estar casados. En efecto esto era verdad, pero cuando otro hermano indagó del asunto, esta mujer era su madre. El no obró en su defensa, el esperó y el Señor exhibió su justicia. `
   String get armor2TextPractice1 {
     return Intl.message(
-      'Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá en su soberanía, Si andas en ella, puesto que has actuado con rectitud. Él y no tu Exhibirá tu justicia como la luz en su tiempo.',
+      'Si alguien te demanda por cualquier motivo sin razón, la justicia de Dios te protegerá conforme a su propósito si has actuado en rectitud, un ejemplo es el caso del hermano Watchman Nee, quien en algún momento de su vida fue acusado de estar viviendo con una mujer sin estar casados. En efecto esto era verdad, pero cuando otro hermano indagó del asunto, esta mujer era su madre. El no obró en su defensa, el esperó y el Señor exhibió su justicia. ',
       name: 'armor2TextPractice1',
       desc: '',
       args: [],
@@ -1050,10 +1120,10 @@ class S {
     );
   }
 
-  /// `Otro ejemplo lo podemos observar con Jesús quien estuvo caminando con sus discipulos en un discipulado de tres años y medio. `
+  /// `Otro ejemplo lo podemos observar con Jesús quien estuvo caminando con sus discípulos en un discipulado de tres años y medio. `
   String get armor3TextBible3 {
     return Intl.message(
-      'Otro ejemplo lo podemos observar con Jesús quien estuvo caminando con sus discipulos en un discipulado de tres años y medio. ',
+      'Otro ejemplo lo podemos observar con Jesús quien estuvo caminando con sus discípulos en un discipulado de tres años y medio. ',
       name: 'armor3TextBible3',
       desc: '',
       args: [],
