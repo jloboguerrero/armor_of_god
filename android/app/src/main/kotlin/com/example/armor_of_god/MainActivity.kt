@@ -1,4 +1,4 @@
-package com.example.armor_of_god
+package com.armorofgodcolombia.armor_of_god
 
 import io.flutter.embedding.android.FlutterActivity
 

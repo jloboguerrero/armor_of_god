@@ -113,7 +113,6 @@
 				7D2E4F770F7E399951A61C2E /* Pods-Runner.release.xcconfig */,
 				E1A76DF7EAE34F086087F987 /* Pods-Runner.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -366,7 +365,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.armorOfGod;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.armorofgodcolombia.armor-of-god";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Runner/Runner-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
