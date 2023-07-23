@@ -370,8 +370,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "¿Por qué existen dos genealogías de nuestro Señor Jesucristo?"),
         "mainQuestionFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "¿En qué capítulo de la Palabra de Dios se hace realidad esta profecía, 1 Reyes 13:1-34?"),
-        "mainQuestionSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("¿Por qué existe el mal?"),
+        "mainQuestionSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "¿Qué hacía el apóstol Pablo para ganarse la vida?"),
         "mainQuestionSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "¿Qué significa el número 12?"),
         "mainQuestionSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -451,8 +451,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Una genealogía fue traducida del hebreo y la otra del griego"),
         "optionFiveFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Notamos que se cumple cuando el rey Josías demolió el altar en Betel en 2 Reyes 23:1-37"),
-        "optionFiveSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("Porque siempre ha existido"),
+        "optionFiveSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Él era un funcionario católico romano con el poder de encarcelar a cualquiera, está escrito al respecto en Hechos 7:54-8:40 y Hechos 9:1-43"),
         "optionFiveSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Justicia de la mano del Dios Fuerte"),
         "optionFiveSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -516,7 +516,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFourFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Según 2 Reyes 25:1-30, se cumple cuando el rey Sedequías se rinde ante Nabucodonosor, rey de Babilonia"),
         "optionFourSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "Todos los animales son malvados"),
+            "Era Doctor, él escribe sobre sí mismo en Colosenses 4:1-18"),
         "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Los elegidos y gobierno por el Dios Todopoderoso"),
         "optionFourSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -581,8 +581,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Hay dos genealogías porque podría haber errores en el registro de los nombres en las genealogías"),
         "optionOneFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Se hace realidad cuando José es proclamado segundo al mando en Egipto en Génesis 41:1-57"),
-        "optionOneSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("Dios creó el mal"),
+        "optionOneSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Era fabricante de tiendas de campaña como Aquila y su mujer Priscila, esto lo vemos en Hechos 18:1-28"),
         "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Significa la traición de un amigo"),
         "optionOneSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -644,7 +644,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionThreeFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Cobra vida cuando el ángel del Señor mató a ciento ochenta y cinco mil hombres en el campamento asirio de Senaquerib en 2 Reyes 18:1-19:37"),
         "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "Satanás y su horda de demonios son los únicos culpables cuando un hombre hace el mal"),
+            "Era un escriba romano, como se evidencia en Hechos 7:54-8:40 y Hechos 22:1-30"),
         "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Significa la provisión de Dios en tu vida"),
         "optionThreeSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -709,7 +709,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Se convierte en realidad cuando el rey Josafat derrota a Moab, Amón y los hombres del monte Seir sin disparar una sola flecha en 2 Crónicas 20:1-37"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "El mal existe porque en una criatura angelical se halló el mal"),
+            "Vivió de las ofrendas dadas a la Iglesia, esto lo notamos en 2 Corintios 12:1-21"),
         "optionTwoSecondPageFour":
             MessageLookupByLibrary.simpleMessage("Los doce signos del zodiaco"),
         "optionTwoSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -860,7 +860,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "theClueFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Lee y pregúntate; un rey que murió en paz o en guerra por una mujer profeta y el libro de la ley?"),
         "theClueSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "El Todopoderoso es santo, santo, santo, no nosotros"),
+            "Lee sabiamente; él construye su camino hacia los corazones de las personas"),
         "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Conecte todos los puntos en la Biblia y vea la Verdad; las personas con las que debes relacionarse"),
         "theClueSecondPageOne": MessageLookupByLibrary.simpleMessage(

@@ -130,33 +130,28 @@ class _PageView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      margin: const EdgeInsets.symmetric(
-        horizontal: 0.0,
-      ),
-      child: SizedBox(
-        height: MediaQuery.of(context).size.height * 0.64,
-        child: PageView(
-          controller: controller,
-          physics: const BouncingScrollPhysics(
-            parent: AlwaysScrollableScrollPhysics(),
-          ),
-          onPageChanged: (index) {
-            context.read<bloc.Bloc>().add(
-                  bloc.ChangedIndexEvent(
-                    index: index,
-                  ),
-                );
-          },
-          children: List.generate(
-            4,
-            (index) {
-              return _Item(
-                controller: controller,
-                index: index,
+    return SizedBox(
+      height: MediaQuery.of(context).size.height * 0.64,
+      child: PageView(
+        controller: controller,
+        physics: const BouncingScrollPhysics(
+          parent: AlwaysScrollableScrollPhysics(),
+        ),
+        onPageChanged: (index) {
+          context.read<bloc.Bloc>().add(
+                bloc.ChangedIndexEvent(
+                  index: index,
+                ),
               );
-            },
-          ),
+        },
+        children: List.generate(
+          4,
+          (index) {
+            return _Item(
+              controller: controller,
+              index: index,
+            );
+          },
         ),
       ),
     );
@@ -211,7 +206,7 @@ class _Item extends StatelessWidget {
                         height: (index == 3)
                             ? MediaQuery.of(context).size.height * 0.23
                             : (index == 1)
-                                ? MediaQuery.of(context).size.height * 0.29
+                                ? MediaQuery.of(context).size.height * 0.21
                                 : MediaQuery.of(context).size.height * 0.33,
                       ),
                       const SizedBox(height: 16.0),

@@ -3020,70 +3020,70 @@ class S {
     );
   }
 
-  /// `¿Por qué existe el mal?`
+  /// `¿Qué hacía el apóstol Pablo para ganarse la vida?`
   String get mainQuestionSecondPageFive {
     return Intl.message(
-      '¿Por qué existe el mal?',
+      '¿Qué hacía el apóstol Pablo para ganarse la vida?',
       name: 'mainQuestionSecondPageFive',
       desc: '',
       args: [],
     );
   }
 
-  /// `Dios creó el mal`
+  /// `Era fabricante de tiendas de campaña como Aquila y su mujer Priscila, esto lo vemos en Hechos 18:1-28`
   String get optionOneSecondPageFive {
     return Intl.message(
-      'Dios creó el mal',
+      'Era fabricante de tiendas de campaña como Aquila y su mujer Priscila, esto lo vemos en Hechos 18:1-28',
       name: 'optionOneSecondPageFive',
       desc: '',
       args: [],
     );
   }
 
-  /// `El mal existe porque en una criatura angelical se halló el mal`
+  /// `Vivió de las ofrendas dadas a la Iglesia, esto lo notamos en 2 Corintios 12:1-21`
   String get optionTwoSecondPageFive {
     return Intl.message(
-      'El mal existe porque en una criatura angelical se halló el mal',
+      'Vivió de las ofrendas dadas a la Iglesia, esto lo notamos en 2 Corintios 12:1-21',
       name: 'optionTwoSecondPageFive',
       desc: '',
       args: [],
     );
   }
 
-  /// `Satanás y su horda de demonios son los únicos culpables cuando un hombre hace el mal`
+  /// `Era un escriba romano, como se evidencia en Hechos 7:54-8:40 y Hechos 22:1-30`
   String get optionThreeSecondPageFive {
     return Intl.message(
-      'Satanás y su horda de demonios son los únicos culpables cuando un hombre hace el mal',
+      'Era un escriba romano, como se evidencia en Hechos 7:54-8:40 y Hechos 22:1-30',
       name: 'optionThreeSecondPageFive',
       desc: '',
       args: [],
     );
   }
 
-  /// `Todos los animales son malvados`
+  /// `Era Doctor, él escribe sobre sí mismo en Colosenses 4:1-18`
   String get optionFourSecondPageFive {
     return Intl.message(
-      'Todos los animales son malvados',
+      'Era Doctor, él escribe sobre sí mismo en Colosenses 4:1-18',
       name: 'optionFourSecondPageFive',
       desc: '',
       args: [],
     );
   }
 
-  /// `Porque siempre ha existido`
+  /// `Él era un funcionario católico romano con el poder de encarcelar a cualquiera, está escrito al respecto en Hechos 7:54-8:40 y Hechos 9:1-43`
   String get optionFiveSecondPageFive {
     return Intl.message(
-      'Porque siempre ha existido',
+      'Él era un funcionario católico romano con el poder de encarcelar a cualquiera, está escrito al respecto en Hechos 7:54-8:40 y Hechos 9:1-43',
       name: 'optionFiveSecondPageFive',
       desc: '',
       args: [],
     );
   }
 
-  /// `El Todopoderoso es santo, santo, santo, no nosotros`
+  /// `Lee sabiamente; él construye su camino hacia los corazones de las personas`
   String get theClueSecondPageFive {
     return Intl.message(
-      'El Todopoderoso es santo, santo, santo, no nosotros',
+      'Lee sabiamente; él construye su camino hacia los corazones de las personas',
       name: 'theClueSecondPageFive',
       desc: '',
       args: [],

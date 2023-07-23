@@ -363,8 +363,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Por que existem duas genealogias de nosso Senhor Jesus Cristo?"),
         "mainQuestionFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Em que capítulo da Palavra de Deus esta profecia se cumpre, 1 Reis 13:1-34?"),
-        "mainQuestionSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("Por que existe o mal?"),
+        "mainQuestionSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "O que o apóstolo Paulo fazia para viver?"),
         "mainQuestionSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "O que significa o número 12?"),
         "mainQuestionSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -443,8 +443,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Uma genealogia foi traduzida do hebraico e a outra do grego"),
         "optionFiveFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Notamos que isso se cumpriu quando o rei Josias demoliu o altar em Betel em 2 Reis 23:1-37"),
-        "optionFiveSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("Deus é um ser mau"),
+        "optionFiveSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Ele era um oficial católico romano com o poder de prender qualquer um, está escrito em Atos 7:54-8:40 e Atos 9:1-43"),
         "optionFiveSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Justiça da mão do Deus Poderoso"),
         "optionFiveSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -507,8 +507,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Existem duas genealogias para provar que o Messias era descendente do rei Salomão"),
         "optionFourFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "De acordo com 2 Reis 25:1-30, é cumprido quando o rei Zedequias se rende a Nabucodonosor, rei da Babilônia"),
-        "optionFourSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("Todos os animais são maus"),
+        "optionFourSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Ele era um médico, ele escreve sobre si mesmo em Colossenses 4:1-18"),
         "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Os eleitos e o governo de Deus Todo-Poderoso"),
         "optionFourSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -573,8 +573,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Existem duas genealogias porque pode haver erros na gravação dos nomes nas genealogias"),
         "optionOneFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Isso se torna realidade quando José é proclamado o segundo em comando no Egito em Gênesis 41:1-57"),
-        "optionOneSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("Deus criou o mal"),
+        "optionOneSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Ele era fabricante de tendas como Áquila e sua esposa Priscila, vemos isso em Atos 18:1-28"),
         "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Significa a traição de um amigo"),
         "optionOneSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -637,7 +637,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionThreeFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Ele ganha vida quando o anjo do Senhor mata cento e oitenta e cinco mil homens no acampamento assírio de Senaqueribe em 2 Reis 18:1-19:37"),
         "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "Satanás e sua horda de demônios são os únicos culpados quando um homem pratica o mal"),
+            "Ele era um escriba romano, conforme evidenciado em Atos 7:54-8:40 e Atos 22:1-30"),
         "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Significa a provisão de Deus em sua vida"),
         "optionThreeSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -702,7 +702,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Isso se torna realidade quando o rei Josafá derrota Moabe, Amon e os homens do monte Seir sem disparar uma flecha em 2 Crônicas 20:1-37"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "O mal existe porque o mal foi encontrado em uma criatura angelical"),
+            "Ele vivia das ofertas dadas à Igreja, notamos isso em 2 Coríntios 12:1-21"),
         "optionTwoSecondPageFour":
             MessageLookupByLibrary.simpleMessage("Os doze signos do zodíaco"),
         "optionTwoSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -850,6 +850,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Revise e compare Mateus 1:1-25 e Lucas 3:1-38; David ainda tem a chave para ver"),
         "theClueFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Leia e pergunte a si mesmo; um rei que morreu na paz ou na guerra por uma profetisa e pelo livro da lei?"),
+        "theClueSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Leia sabiamente; ele constrói seu caminho no coração das pessoas"),
         "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Ligue todos os pontos na Bíblia e veja a Verdade; as pessoas com quem você deve se associar"),
         "theClueSecondPageOne": MessageLookupByLibrary.simpleMessage(

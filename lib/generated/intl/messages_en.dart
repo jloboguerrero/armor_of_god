@@ -364,8 +364,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Why are there two genealogies of our Lord Jesus Christ?"),
         "mainQuestionFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "In which chapter of God\'s Word does this prophecy come true, 1 Kings 13:1-34?"),
-        "mainQuestionSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("Why does evil exist?"),
+        "mainQuestionSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "What did the apostle Paul do for a living?"),
         "mainQuestionSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "What does the number 12 mean?"),
         "mainQuestionSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -445,7 +445,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionFiveFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "We note that it is fulfilled when King Josiah demolished the altar at Bethel in 2 Kings 23:1-37"),
         "optionFiveSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "Because it has always existed"),
+            "He was a Roman Catholic official with the power to put anyone in prison, it is written about it in Acts 7:54-8:40 and Acts 9:1-43"),
         "optionFiveSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Justice from the hand of the Mighty God"),
         "optionFiveSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -508,8 +508,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "There are two genealogies to prove that the Messiah was a descendant of King Solomon"),
         "optionFourFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "According to 2 Kings 25:1-30, it is fulfilled when King Zedekiah surrenders to Nebuchadnezzar, king of Babylon"),
-        "optionFourSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("All animals are evil"),
+        "optionFourSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "He was a Doctor, he writes about himself in Colossians 4:1-18"),
         "optionFourSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "The chosen and government by God Almighty"),
         "optionFourSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -574,8 +574,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "There are two genealogies because there could be errors in the recording of the names in the genealogies"),
         "optionOneFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "It comes true when Joseph is proclaimed second in command in Egypt in Genesis 41:1-57"),
-        "optionOneSecondPageFive":
-            MessageLookupByLibrary.simpleMessage("God created evil"),
+        "optionOneSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "He was a tentmaker like Aquila and his wife Priscilla, we see this in Acts 18:1-28"),
         "optionOneSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "It means the betrayal of a friend"),
         "optionOneSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -639,7 +639,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionThreeFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "It comes to life when the angel of the Lord slays one hundred eighty-five thousand men in the Assyrian camp of Sennacherib in 2 Kings 18:1-19:37"),
         "optionThreeSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "Satan and his horde of demons are the only ones that are guilty when a man does evil"),
+            "He was a Roman scribe, as was evident in Acts 7:54-8:40 and Acts 22:1-30"),
         "optionThreeSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "It means God\'s provision in your life"),
         "optionThreeSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -704,7 +704,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "It comes true when King Jehoshaphat defeats Moab, Ammon, and the men of Mount Seir without firing an arrow in 2 Chronicles 20:1-37"),
         "optionTwoSecondPageFive": MessageLookupByLibrary.simpleMessage(
-            "Evil exists because evil was found in an angelic creature"),
+            "He lived from the offerings given to the Church, we note this in 2 Corinthians 12:1-21"),
         "optionTwoSecondPageFour":
             MessageLookupByLibrary.simpleMessage("The twelve zodiac signs"),
         "optionTwoSecondPageOne": MessageLookupByLibrary.simpleMessage(
@@ -853,6 +853,8 @@ class MessageLookup extends MessageLookupByLibrary {
             "Review and compare Matthew 1:1-25 and Luke 3:1-38; David has the key yet to see"),
         "theClueFourQPageTwo": MessageLookupByLibrary.simpleMessage(
             "Read and ask yourself; a king who died in peace or in war for a woman prophet and the book of the law?"),
+        "theClueSecondPageFive": MessageLookupByLibrary.simpleMessage(
+            "Read wisely; he builds his way to people’s hearts"),
         "theClueSecondPageFour": MessageLookupByLibrary.simpleMessage(
             "Connect all the dots in the Bible and see the Truth; the people you should relate to"),
         "theClueSecondPageOne": MessageLookupByLibrary.simpleMessage(
