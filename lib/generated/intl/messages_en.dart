@@ -297,6 +297,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor6Title": MessageLookupByLibrary.simpleMessage("Ephesians 6:17b"),
         "armor6Verse": MessageLookupByLibrary.simpleMessage(
             "“and the sword of the Spirit, which is the word of God.”"),
+        "armor7": MessageLookupByLibrary.simpleMessage("The Pray"),
         "armor7Text1": MessageLookupByLibrary.simpleMessage(
             "Although prayer is not represented in one piece, it is part of the armor, since prayer is communication with The Lord, typified in the sacred scriptures with gold cups with incense, Revelation 5:8 says: "),
         "armor7Text2": MessageLookupByLibrary.simpleMessage(
@@ -589,7 +590,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionOneSevenQPageThree": MessageLookupByLibrary.simpleMessage(
             "He was an official of the Roman empire, as evidenced in Luke 1:1-80"),
         "optionOneSevenQPageTwo":
-            MessageLookupByLibrary.simpleMessage("The apostle john"),
+            MessageLookupByLibrary.simpleMessage("The apostle John"),
         "optionOneSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "He had too many wives and concubines"),
         "optionOneSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -717,7 +718,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoSevenQPageThree": MessageLookupByLibrary.simpleMessage(
             "He was a tent maker like Paul, we see it in Acts 18:1-28"),
         "optionTwoSevenQPageTwo":
-            MessageLookupByLibrary.simpleMessage("The apostle paul"),
+            MessageLookupByLibrary.simpleMessage("The apostle Paul"),
         "optionTwoSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Married non-Israelite women leading to apostasy"),
         "optionTwoSixQPageFour": MessageLookupByLibrary.simpleMessage(

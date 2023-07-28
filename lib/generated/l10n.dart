@@ -510,10 +510,10 @@ class S {
     );
   }
 
-  /// `La oración`
+  /// `La Oración`
   String get armor7 {
     return Intl.message(
-      'La oración',
+      'La Oración',
       name: 'armor7',
       desc: '',
       args: [],

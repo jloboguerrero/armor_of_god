@@ -297,6 +297,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor6Title": MessageLookupByLibrary.simpleMessage("Efésios 6:17b"),
         "armor6Verse": MessageLookupByLibrary.simpleMessage(
             "“e a espada do Espírito, que é a palavra de Deus.”"),
+        "armor7": MessageLookupByLibrary.simpleMessage("A Reza"),
         "armor7Text1": MessageLookupByLibrary.simpleMessage(
             "Embora a oração não seja representada inteira, ela faz parte da armadura, pois a oração é a comunicação com o Senhor, tipificada nas sagradas escrituras com taças de ouro com incenso, Apocalipse 5:8 diz: "),
         "armor7Text2": MessageLookupByLibrary.simpleMessage(
@@ -588,7 +589,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionOneSevenQPageThree": MessageLookupByLibrary.simpleMessage(
             "Ele era um oficial do império romano, conforme evidenciado em Lucas 1:1-80"),
         "optionOneSevenQPageTwo":
-            MessageLookupByLibrary.simpleMessage("O apóstolo joão"),
+            MessageLookupByLibrary.simpleMessage("O apóstolo João"),
         "optionOneSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Ele tinha muitas esposas e concubinas"),
         "optionOneSixQPageFour": MessageLookupByLibrary.simpleMessage(
@@ -715,7 +716,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "optionTwoSevenQPageThree": MessageLookupByLibrary.simpleMessage(
             "Ele era um fabricante de tendas como Paulo, vemos isso em Atos 18:1-28"),
         "optionTwoSevenQPageTwo":
-            MessageLookupByLibrary.simpleMessage("O apóstolo paulo"),
+            MessageLookupByLibrary.simpleMessage("O apóstolo Paulo"),
         "optionTwoSixQPageFive": MessageLookupByLibrary.simpleMessage(
             "Mulheres não-israelitas casadas levando à apostasia"),
         "optionTwoSixQPageFour": MessageLookupByLibrary.simpleMessage(

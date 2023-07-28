@@ -300,7 +300,7 @@ class MessageLookup extends MessageLookupByLibrary {
         "armor6Title": MessageLookupByLibrary.simpleMessage("Efesios 6:17b"),
         "armor6Verse": MessageLookupByLibrary.simpleMessage(
             "“y la espada del Espíritu, que es la palabra de Dios.”"),
-        "armor7": MessageLookupByLibrary.simpleMessage("La oración"),
+        "armor7": MessageLookupByLibrary.simpleMessage("La Oración"),
         "armor7Text1": MessageLookupByLibrary.simpleMessage(
             "Si bien la oración no está representada en una pieza, hace parte de la armadura, ya que, la oración es la comunicación con El Señor, tipificada en las sagradas escrituras con copas de oro con incienso, Apocalipsis 5:8 dice: "),
         "armor7Text2": MessageLookupByLibrary.simpleMessage(
