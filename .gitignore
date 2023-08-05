@@ -49,7 +49,6 @@ ios/Runner/GoogleService-Info.plist
 ios/firebase_app_id_file.json
 android/app/google-services.json
 lib/firebase_options.dart
-pubspec.*
 
 # Android
 android/key.properties
